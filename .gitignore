@@ -1,0 +1,18 @@
+# segredos
+senha.txt
+.env
+.env*.local
+.vercel
+
+# dependências e build
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# sistema
+.DS_Store
+Thumbs.db
+npm-debug.log*
+supabase/.temp/
