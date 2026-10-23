@@ -37,4 +37,4 @@ Lista viva do que falta para o app estar no ar. `[x]` feito · `[~]` em andament
 ## Depois (ideias)
 - [ ] Trocar o 14.32 por uma alternativa com vídeo e gabarito
 - [ ] Conferir a posição sugerida das listas do 14.02, 14.06 e 14.32 pelo conteúdo dos enunciados
-- [ ] Tema escuro (o design system ainda não define as cores)
+- [x] Tema escuro configurável (Sistema, Claro, Escuro)

@@ -144,7 +144,7 @@ export function Caderno({ s, comTempo, agora, irPara, aoDigitar, virarFicha }: P
         <span role="group" aria-label="Cor do texto" style={{ display: 'inline-flex' }}>
           {CORES.map(([c, l]) => (
             <button key={c} type="button" className="tool" style={{ width: 30, minWidth: 30 }} aria-label={l} title={l} onMouseDown={cmd('foreColor', c)}>
-              <span style={{ width: 16, height: 16, borderRadius: '50%', background: c }} />
+              <span className="swatch" style={{ background: c }} />
             </button>
           ))}
         </span>

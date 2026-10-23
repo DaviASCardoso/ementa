@@ -149,7 +149,7 @@ export function Aula({ s }: { s: Step }) {
     <div style={{ display: 'flex', flexDirection: 'column', gap: 12, height: '100%' }}>
       <Topo s={s} extra={
         <button className={'btn sm ' + (feito ? 'ghost' : 'soft')} onClick={() => st.setProgress(s.id, { feito: !feito }, true)} aria-pressed={feito}
-          style={feito ? { color: 'var(--done)', borderColor: 'var(--done-soft)' } : undefined}>
+          style={feito ? { color: 'var(--done-ink)', borderColor: 'var(--done-soft)' } : undefined}>
           {feito ? <><Icon d={P.check} size={14} sw={2.4} />Aula feita</> : 'Marcar como feita'}
         </button>} />
 

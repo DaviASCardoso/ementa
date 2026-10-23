@@ -158,6 +158,13 @@ export function Store({ courses, steps, dados, children }: { courses: Course[]; 
     });
   }, [gravar]);
 
+  // tema: aplica na página e guarda no aparelho para a próxima abertura não piscar
+  useEffect(() => {
+    const t = cfg.theme === 'Escuro' ? 'dark' : cfg.theme === 'Claro' ? 'light' : '';
+    if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
+    try { if (t) localStorage.setItem('ementa.tema', t); else localStorage.removeItem('ementa.tema'); } catch {}
+  }, [cfg.theme]);
+
   const value: Ctx = {
     courses, steps, step: (id) => byId.get(id), porCurso, mapas, cards, mistakes, marcas, cfg, situacao, atual,
     atualEtapa: (cid) => etapaAtual(porCurso[cid] || [], mapas),
@@ -167,7 +174,7 @@ export function Store({ courses, steps, dados, children }: { courses: Course[]; 
 
   return (
     <C.Provider value={value}>
-      <div className={cfg.calm ? 'calm' : undefined} style={{ zoom: cfg.scale === '100%' ? undefined : parseInt(cfg.scale) / 100 }}>
+      <div className={cfg.calm ? 'calm' : undefined} style={cfg.scale === '100%' ? undefined : ({ zoom: parseInt(cfg.scale) / 100, '--z': parseInt(cfg.scale) / 100 } as React.CSSProperties)}>
         {children}
       </div>
     </C.Provider>

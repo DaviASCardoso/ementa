@@ -46,6 +46,7 @@ export default function Config() {
       { tipo: 'seg', k: 'rigor', label: 'Rigor da correção', hint: 'Tolerante aceita arredondamentos; rigoroso cobra todas as etapas.', opts: ['Tolerante', 'Padrão', 'Rigoroso'] },
     ] },
     { id: 'aparencia', titulo: 'Aparência', icon: P.palette, linhas: [
+      { tipo: 'seg', k: 'theme', label: 'Tema', hint: 'Sistema segue o claro ou escuro do aparelho.', opts: ['Sistema', 'Claro', 'Escuro'] },
       { tipo: 'seg', k: 'scale', label: 'Tamanho da interface', opts: ['90%', '100%', '115%'] },
       { tipo: 'tog', k: 'calm', label: 'Reduzir animações', hint: 'Tira o pulso da aula atual e as transições.' },
     ] },
@@ -102,7 +103,7 @@ function Chave() {
     setTestando(true);
     const r = await fetch('/api/corrigir', { headers: { 'x-gemini-key': v.trim() } }).then((x) => x.json()).catch(() => ({ ok: false }));
     setTestando(false);
-    setMsg(r.ok ? ['Funcionando', 'var(--done)'] : [r.erro || 'Não funcionou', 'var(--danger-text)']);
+    setMsg(r.ok ? ['Funcionando', 'var(--done-ink)'] : [r.erro || 'Não funcionou', 'var(--danger-text)']);
   };
   return (
     <span style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 8, flex: '1 1 320px' }}>

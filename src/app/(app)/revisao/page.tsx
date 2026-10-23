@@ -10,7 +10,7 @@ import type { Card } from '@/lib/types';
 
 const NOTAS: [Nota, string, string, string][] = [
   ['errei', 'Errei', 'var(--now-soft)', 'var(--now-text)'],
-  ['dificil', 'Difícil', '#FFFFFF', 'var(--ink-2)'],
+  ['dificil', 'Difícil', 'var(--surface)', 'var(--ink-2)'],
   ['bom', 'Bom', 'var(--done-soft)', 'var(--done-text)'],
   ['facil', 'Fácil', 'var(--list-soft)', 'var(--list-text)'],
 ];

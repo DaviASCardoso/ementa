@@ -51,7 +51,7 @@ export type Settings = {
   speed: string; autoDone: string; subs: string; foldNav: boolean;
   nbFont: string; nbSize: string; autoStamp: boolean; pauseTyping: boolean;
   newCards: string; perSession: string; typing: boolean; redo: string;
-  rigor: string; scale: string; calm: boolean;
+  rigor: string; theme: string; scale: string; calm: boolean;
 };
 
 export const PADRAO: Settings = {
@@ -59,7 +59,7 @@ export const PADRAO: Settings = {
   speed: '1,5×', autoDone: '90%', subs: 'Inglês', foldNav: true,
   nbFont: 'Serifada', nbSize: 'Médio', autoStamp: true, pauseTyping: true,
   newCards: '20', perSession: 'Todas', typing: false, redo: '7 dias',
-  rigor: 'Padrão', scale: '100%', calm: false,
+  rigor: 'Padrão', theme: 'Sistema', scale: '100%', calm: false,
 };
 
 export type Dados = {

@@ -14,9 +14,13 @@ export const metadata: Metadata = {
 };
 export const viewport: Viewport = { themeColor: '#12352B' };
 
+// aplica o tema escolhido antes de pintar a página
+const TEMA = "try{var t=localStorage.getItem('ementa.tema');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}";
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${bricolage.variable} ${geist.variable} ${mono.variable} ${newsreader.variable}`}>
+    <html lang="pt-BR" className={`${bricolage.variable} ${geist.variable} ${mono.variable} ${newsreader.variable}`} suppressHydrationWarning>
+      <head><script dangerouslySetInnerHTML={{ __html: TEMA }} /></head>
       <body>{children}</body>
     </html>
   );

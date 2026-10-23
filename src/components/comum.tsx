@@ -109,7 +109,7 @@ export function Salvo() {
   const { salvo } = useStore();
   if (salvo === 'erro') return <span role="status" style={{ fontSize: 12, color: 'var(--danger-text)' }}>não salvou · confira a conexão</span>;
   return (
-    <span role="status" style={{ display: 'inline-flex', alignItems: 'center', gap: 5, fontSize: 12, color: salvo === 'ok' ? 'var(--done)' : 'var(--faint)' }}>
+    <span role="status" style={{ display: 'inline-flex', alignItems: 'center', gap: 5, fontSize: 12, color: salvo === 'ok' ? 'var(--done-ink)' : 'var(--faint)' }}>
       {salvo === 'ok' && <Icon d={P.check} size={13} sw={2.4} />}{salvo === 'ok' ? 'salvo' : 'salvando…'}
     </span>
   );

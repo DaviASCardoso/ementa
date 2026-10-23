@@ -9,7 +9,7 @@ import { feita, notaMinima, proxima, rotuloEtapa } from '@/lib/progresso';
 import { mmss, nota } from '@/lib/format';
 import type { Step } from '@/lib/types';
 
-const COR = { aula: 'var(--done)', lista: 'var(--list)', prova: 'var(--forest)' };
+const COR = { aula: 'var(--done)', lista: 'var(--list)', prova: 'var(--prova-seg)' };
 
 export default function Trilha({ params }: { params: Promise<{ curso: string }> }) {
   const { curso } = use(params);
@@ -64,7 +64,7 @@ export default function Trilha({ params }: { params: Promise<{ curso: string }> 
           </div>
           <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
             <span className="caption">Média nas listas</span>
-            <span className="big" style={{ color: media == null ? 'var(--faint)' : media >= notaMinima(st.cfg) ? 'var(--done)' : 'var(--now)', lineHeight: 1.1 }}>{media == null ? '—' : nota(media)}</span>
+            <span className="big" style={{ color: media == null ? 'var(--faint)' : media >= notaMinima(st.cfg) ? 'var(--done-ink)' : 'var(--now)', lineHeight: 1.1 }}>{media == null ? '—' : nota(media)}</span>
             <span className="muted" style={{ fontSize: 13 }}>
               {passos.some((s) => s.final) ? `Na prova final, ${min} ou mais ${prox ? 'libera a ' + prox.id : 'conclui a matéria'}.` : 'Esta matéria não tem prova final.'}
             </span>
