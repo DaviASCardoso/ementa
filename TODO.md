@@ -25,10 +25,16 @@ Lista viva do que falta para o app estar no ar. `[x]` feito · `[~]` em andament
 - [x] Revisão de fichas (repetição espaçada)
 - [x] Caderno de erros
 - [x] Configurações (backup, apagar, correção com IA pelo Gemini)
-- [~] Build e teste local
+- [x] Build e teste de ponta a ponta (local e em produção)
 
 ## 4. Publicação
-- [ ] Projeto na Vercel ligado ao GitHub (deploy automático)
-- [ ] Variáveis de ambiente na Vercel (Supabase, senha, segredo da sessão)
-- [ ] Teste do app no ar
-- [ ] Apagar `senha.txt`
+- [x] Projeto na Vercel ligado ao GitHub (deploy automático a cada push no main)
+- [x] Variáveis de ambiente na Vercel (Supabase, senha, segredo da sessão), em produção e preview
+- [x] Funções na região gru1 (São Paulo), perto do Supabase
+- [x] Teste do app no ar: https://ementa-taupe.vercel.app
+- [x] Apagar `senha.txt`
+
+## Depois (ideias)
+- [ ] Trocar o 14.32 por uma alternativa com vídeo e gabarito
+- [ ] Conferir a posição sugerida das listas do 14.02, 14.06 e 14.32 pelo conteúdo dos enunciados
+- [ ] Tema escuro (o design system ainda não define as cores)
