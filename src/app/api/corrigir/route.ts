@@ -33,9 +33,10 @@ export async function POST(req: Request) {
     semGabarito ? 'Não há gabarito oficial: resolva você mesmo antes de corrigir e diga que a correção foi feita sem gabarito.'
       : step.gabarito_junto ? 'O PDF traz enunciado e solução juntos: use a solução como gabarito.' : 'Use o gabarito oficial como referência.',
     RIGOR[rigor || 'Padrão'] || RIGOR['Padrão'],
+    step.sub ? `Observação sobre esta etapa: ${step.sub}.` : '',
     'Dê uma nota de 0 a 10 (uma casa decimal) para o conjunto, um comentário curto em português por questão e liste os erros conceituais que valem revisar.',
     'Responda só com JSON: {"nota": number, "comentario": string, "erros": [{"questao": string, "descricao": string}]}.',
-  ].join('\n');
+  ].filter(Boolean).join('\n');
 
   const texto = respostas.map((r) => `Questão ${r.q}:\n${r.texto || '(em branco)'}`).join('\n\n');
   const r = await gerarJson<{ nota: number; comentario: string; erros: unknown }>(key, instrucao, [...partes, { text: `Respostas do estudante para ${step.titulo}:\n\n${texto}` }], 0.2);

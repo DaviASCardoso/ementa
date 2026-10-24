@@ -272,6 +272,21 @@ function scCourse(id, items, base) {
   push('14.32', [t(1), t(2), L[0], t(3), L[1], t(4), L[2], L[3], t(5), L[4], t(6), L[5], t(7), L[6]]);
 }
 
+// Corte do cálculo: o que economia quase não usa vira opcional (séries além de Taylor,
+// integrais de linha, Green, integrais triplas e de superfície). Fica: L'Hôpital, integrais
+// impróprias, Taylor e integrais duplas, que aparecem em micro, estatística e econometria.
+const seq = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
+const CORTE = new Set([
+  ...[94, 95, 96, 100, 101].map((n) => `18.01SC/aula-${n}`),
+  ...[52, ...seq(56, 73), ...seq(74, 96), 101, 102].map((n) => `18.02SC/aula-${n}`),
+  ...['lista-8', 'lista-9', 'prova-treino3', 'prova-3', 'lista-10', 'lista-11', 'lista-12', 'prova-treino4', 'prova-4'].map((x) => `18.02SC/${x}`),
+]);
+const ESCOPO = 'Sem consulta · pule as questões de integrais de linha, Green, Stokes, divergência, integrais triplas e de superfície (fora do seu corte) e dê a nota só sobre o resto';
+for (const s of steps) {
+  if (CORTE.has(s.id)) s.opcional = true;
+  if (s.course_id === '18.02SC' && s.tipo === 'prova' && /final|treino5f/.test(s.id)) s.sub = ESCOPO;
+}
+
 // sequência de liberação: 14.05 é apoio e não entra
 const out = { gerado_em: new Date().toISOString().slice(0, 10), courses, steps };
 fs.writeFileSync(new URL('../data/catalog.json', import.meta.url), JSON.stringify(out, null, 1));
