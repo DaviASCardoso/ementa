@@ -65,7 +65,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Repeat Exercise A-1 for the function $\\frac{1}{a + bx}, a = 0$."
+     "p": "Repeat Exercise A-1 for the function $\\frac{1}{a + bx}, a \\neq 0$."
     }
    ],
    "itens": [],
@@ -389,7 +389,7 @@
      "id": "e",
      "partes": [
       {
-       "p": "$1/(a + bx)$, near 0; assuming $a = 0$;"
+       "p": "$1/(a + bx)$, near 0; assuming $a \\neq 0$;"
       }
      ],
      "tipo": "aberta",
@@ -419,7 +419,7 @@
      "tipo": "aberta",
      "solucao": [
       {
-       "p": "$f (x) = 1/(a + bx)$ so that $f'(1) = -b(a + b)^{-2}$ and $f^{''}(1) = 2b^{2}/(a + b)^{-3}$. We need to assume that these numbers are defined, in other words that $a + b = 0$. Then the linear approximation is"
+       "p": "$f (x) = 1/(a + bx)$ so that $f'(1) = -b(a + b)^{-2}$ and $f^{''}(1) = 2b^{2}/(a + b)^{-3}$. We need to assume that these numbers are defined, in other words that $a + b \\neq 0$. Then the linear approximation is"
       },
       {
        "p": "$$1/(a + b) - (b/(a + b)^{2})(x - 1)$$",
@@ -440,7 +440,7 @@
        "display": true
       },
       {
-       "p": "Then use the expansion of problem (e) with $a+b$ in place of $a$ and $b$ in place of $b$ and $(x - 1)$ in place of $x$. The requirement $a = 0$ in (e) corresponds to the restriction $a + b = 0$ in (f)."
+       "p": "Then use the expansion of problem (e) with $a+b$ in place of $a$ and $b$ in place of $b$ and $(x - 1)$ in place of $x$. The requirement $a \\neq 0$ in (e) corresponds to the restriction $a + b \\neq 0$ in (f)."
       }
      ]
     }
@@ -534,27 +534,20 @@
   {
    "n": "2A-16",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "(Exercício 2A-16)"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "Use the law of cosines to find the formula $2 -$ cos(2$\\pi /n)$ for the length of the side of the equilateral $n$-gon inscribed in the unit circle."
+       "p": "Use the law of cosines to find the formula $\\sqrt{2 - \\cos(2\\pi/n)}$ for the length of the side of the equilateral $n$-gon inscribed in the unit circle."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2A-16a-p3.png",
-       "w": 354,
-       "h": 30
-      }
-     ],
      "solucao": [
       {
        "p": "The law of cosines says that for a triangle with sides $a, b$, and $c$, with $\\theta$ opposite the side of length $c$,"
@@ -582,20 +575,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "Compute the perimeter and then compute the limit as $n$ tends to infinity using the quadratic approximation to cos $\\theta$ near $\\theta = 0$. (Compare with 1J-4.)"
+       "p": "Compute the perimeter and then compute the limit as $n$ tends to infinity using the quadratic approximation to $\\cos\\theta$ near $\\theta = 0$. (Compare with 1J-4.)"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2A-16b-p3.png",
-       "w": 354,
-       "h": 42
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2A-16b-p4.png",
@@ -606,17 +589,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2A-16-p3.png",
-     "w": 354,
-     "h": 18
-    }
-   ],
    "fonte": 0
   },
   {
@@ -1348,29 +1320,16 @@
    "titulo": "",
    "partes": [
     {
-     "p": "A swimmer is on the beach at a point $A$. The closest point on the straight shoreline to $A$ is called $P$. There is a platform in the water at $B$, and the nearest pont on the shoreline to $B$ is called $Q$. Suppose that the distance from $A$ to $P$ is 100 meters, the distance from $B$ to $Q$ is 100 meters and the distance from $P$ to $Q$ is $a$ meters. Finally suppose that the swimmer can run at 5 meters per second on the beach and swim at 2 meters per second in the water. B"
+     "p": "A swimmer is on the beach at a point $A$. The closest point on the straight shoreline to $A$ is called $P$. There is a platform in the water at $B$, and the nearest pont on the shoreline to $B$ is called $Q$. Suppose that the distance from $A$ to $P$ is 100 meters, the distance from $B$ to $Q$ is 100 meters and the distance from $P$ to $Q$ is $a$ meters. Finally suppose that the swimmer can run at 5 meters per second on the beach and swim at 2 meters per second in the water."
     },
     {
-     "p": "100"
-    },
-    {
-     "p": "P $x \\alpha \\beta x$ Q"
-    },
-    {
-     "p": "$$a$$",
-     "display": true
-    },
-    {
-     "p": "100"
-    },
-    {
-     "p": "A"
+     "img": "manual/2C-10.png"
     },
     {
      "p": "Show that the path the swimmer should take to get to the platform in the least time has the property that the ratio of the sines of the angles the path makes with the shoreline is the reciprocal of the ratio of the speeds in the two regions:"
     },
     {
-     "p": "$$\\frac{sin \\vec{a}}{sin \\vec{b}} = \\frac{5}{2}$$",
+     "p": "$$\\frac{\\sin\\alpha}{\\sin\\beta} = \\frac{5}{2}$$",
      "display": true
     },
     {
@@ -1379,23 +1338,6 @@
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2C-10-p6.png",
-     "w": 354,
-     "h": 286
-    },
-    {
-     "img": "e1/q2C-10-p7.png",
-     "w": 354,
-     "h": 128
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -1585,17 +1527,14 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Consider a supersonic airplane wing with a cross-section in the shape of a thin diamond (rhombus) in which the half-angle of the opening is $\\tau$ and the attack angle $\\vec{a}$. (The attack angle is the angle that the long diagonal of the rhombus makes with the horizontal direction of motion of the plane. See the picture.) The ratio of the lift to the drag is given by the formula (from the Course 16 Unified Engineering notes on aerodynamics):"
+     "p": "Consider a supersonic airplane wing with a cross-section in the shape of a thin diamond (rhombus) in which the half-angle of the opening is $\\tau$ and the attack angle $\\alpha$. (The attack angle is the angle that the long diagonal of the rhombus makes with the horizontal direction of motion of the plane. See the picture.) The ratio of the lift to the drag is given by the formula (from the Course 16 Unified Engineering notes on aerodynamics):"
     },
     {
-     "p": "$$\\alpha = \\tau$$",
+     "img": "manual/2D-1.png"
+    },
+    {
+     "p": "$$\\frac{\\text{lift}}{\\text{drag}} = \\frac{\\alpha}{\\alpha^{2} + \\tau^{2}}$$",
      "display": true
-    },
-    {
-     "p": "direction of plane"
-    },
-    {
-     "p": "lift $= \\frac{\\vec{a}}{\\vec{a}^{2} + \\tau^{2}}$ drag"
     }
    ],
    "itens": [
@@ -1619,16 +1558,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2D-1-p8.png",
-     "w": 354,
-     "h": 181
-    }
-   ],
    "fonte": 0
   },
   {
@@ -2525,16 +2454,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2G-6-p13.png",
-     "w": 354,
-     "h": 30
-    }
-   ],
    "fonte": 0
   },
   {
@@ -2708,20 +2627,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "$(2x^{4} + 3x^{2} + x + 8)dx$"
+       "p": "$$\\int (2x^{4} + 3x^{2} + x + 8)\\,dx$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-2a-p1.png",
-       "w": 345,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$(2/5)x^{5} + x^{3} + x^{2}/2 + 8x + c$"
@@ -2732,20 +2642,13 @@
      "id": "b",
      "partes": [
       {
-       "p": "$\\sqrt{x} + \\frac{1}{\\sqrt{x}} dx$ c) $\\sqrt{8 + 9x}dx$"
+       "p": "b) $\\displaystyle\\int \\left(\\sqrt{x} + \\frac{1}{\\sqrt{x}}\\right) dx$"
+      },
+      {
+       "p": "c) $\\displaystyle\\int \\sqrt{8 + 9x}\\,dx$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-2b-p1.png",
-       "w": 345,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$(2/3)x^{3/2} + 2x^{1/2} + c$"
@@ -2756,20 +2659,11 @@
      "id": "d",
      "partes": [
       {
-       "p": "$x^{3}(1 - 12x^{4})^{1/8}dx$"
+       "p": "$$\\int x^{3}(1 - 12x^{4})^{1/8}\\,dx$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-2d-p1.png",
-       "w": 321,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "Method 1 (slow way) Use the substitution: $u = 1 - 12x^{4}, du = -48x^{3}dx$."
@@ -2795,25 +2689,13 @@
      "id": "e",
      "partes": [
       {
-       "p": "$\\frac{x}{\\sqrt{8 - 2x^{2}}}dx$ f) $e^{7x}dx$"
+       "p": "e) $\\displaystyle\\int \\frac{x}{\\sqrt{8 - 2x^{2}}}\\,dx$"
       },
       {
-       "img": "e2/p1-2.png",
-       "w": 315,
-       "h": 29
+       "p": "f) $\\displaystyle\\int e^{7x}\\,dx$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-2e-p1.png",
-       "w": 325,
-       "h": 58
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q3A-2e-p2.png",
@@ -2826,20 +2708,11 @@
      "id": "g",
      "partes": [
       {
-       "p": "$Z 7x^{4}e^{x5}dx$"
+       "p": "$$\\int 7x^{4}e^{x^{5}}\\,dx$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-2g-p1.png",
-       "w": 325,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "p": "$(7/5)e^{x5} + c$"
@@ -2850,31 +2723,25 @@
      "id": "h",
      "partes": [
       {
-       "p": "$Z \\frac{e^{\\sqrt{x}}}{\\sqrt{x}}dx$ i) $Z \\frac{dx}{3x + 2}$"
+       "p": "h) $\\displaystyle\\int \\frac{e^{\\sqrt{x}}}{\\sqrt{x}}\\,dx$"
       },
       {
-       "p": "j) $\\frac{x + 5}{x}dx$. k) $\\frac{x}{x + 5}dx$. (Write $\\frac{x}{x + 5} = 1 +....)$"
+       "p": "i) $\\displaystyle\\int \\frac{dx}{3x + 2}$"
       },
       {
-       "img": "e2/p1-3.png",
-       "w": 160,
-       "h": 6
+       "p": "j) $\\displaystyle\\int \\frac{x + 5}{x}\\,dx$."
       },
       {
-       "p": "l) $\\frac{ln x}{x}dx$ m) $\\frac{dx}{x ln x}$"
+       "p": "k) $\\displaystyle\\int \\frac{x}{x + 5}\\,dx$. (Write $\\frac{x}{x + 5} = 1 + \\ldots$)"
+      },
+      {
+       "p": "l) $\\displaystyle\\int \\frac{\\ln x}{x}\\,dx$"
+      },
+      {
+       "p": "m) $\\displaystyle\\int \\frac{dx}{x\\ln x}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-2h-p1.png",
-       "w": 332,
-       "h": 70
-      }
-     ],
      "solucao": [
       {
        "p": "$2e^{\\sqrt{x}} + c$"
@@ -2903,20 +2770,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "sin(5$x)dx$"
+       "p": "$$\\int \\sin(5x)\\,dx$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-3a-p1.png",
-       "w": 355,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "$-(1/$5) cos(5$x) + c$"
@@ -2927,20 +2785,13 @@
      "id": "b",
      "partes": [
       {
-       "p": "sin($x$) cos($x)dx$ c) cos$^{2} x$ sin $xdx$"
+       "p": "b) $\\displaystyle\\int \\sin(x)\\cos(x)\\,dx$"
+      },
+      {
+       "p": "c) $\\displaystyle\\int \\cos^{2} x\\sin x\\,dx$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-3b-p1.png",
-       "w": 355,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "$(1/$2) sin$^{2} x + c$, coming from the substitution $u =$ sin $x$ or $-(1/$2) cos$^{2} x + c$, coming from the substitution $u =$ cos $x$. The two functions $(1/$2) sin$^{2} x$ and $-(1/$2) cos$^{2} x$ are not the same. Nevertheless the two answers given are the same. Why? (See 1J-1(m).)"
@@ -2951,20 +2802,11 @@
      "id": "d",
      "partes": [
       {
-       "p": "$\\frac{cos x}{sin^{3} x}dx$"
+       "p": "$$\\int \\frac{\\cos x}{\\sin^{3} x}\\,dx$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-3d-p1.png",
-       "w": 360,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$-(1/$2)(sin $x)^{-2} + c = -(1/$2) csc$^{2} x + c$"
@@ -2975,20 +2817,13 @@
      "id": "e",
      "partes": [
       {
-       "p": "sec$^{2}(x/5)dx$ f) tan$^{6} x$ sec$^{2} xdx$"
+       "p": "e) $\\displaystyle\\int \\sec^{2}(x/5)\\,dx$"
+      },
+      {
+       "p": "f) $\\displaystyle\\int \\tan^{6} x\\sec^{2} x\\,dx$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-3e-p1.png",
-       "w": 360,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$5$tan($x/5) + c$"
@@ -2999,20 +2834,11 @@
      "id": "g",
      "partes": [
       {
-       "p": "sec$^{9} x$ tan $xdx$"
+       "p": "$$\\int \\sec^{9} x\\tan x\\,dx$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3A-3g-p1.png",
-       "w": 93,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "$u =$ sec $x, du =$ sec $x$ tan $xdx$,"
@@ -3033,12 +2859,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate 4 6"
-    },
-    {
-     "img": "e2/p1-5.png",
-     "w": 136,
-     "h": 23
+     "p": "Evaluate"
     }
    ],
    "itens": [
@@ -3046,20 +2867,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "$X n^{2}$"
+       "p": "$$\\sum_{n=1}^{4} n^{2}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3B-1a-p1.png",
-       "w": 146,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "1 + 4 + 9 + 16 = 30 b) 2 + 4 + 8 + 16 + 32 + 64 = 126"
@@ -3070,47 +2882,21 @@
      "id": "b",
      "partes": [
       {
-       "p": "$X 2^{j}$"
-      },
-      {
-       "p": "5 4"
-      },
-      {
-       "img": "e2/p1-6.png",
-       "w": 136,
-       "h": 23
+       "p": "$$\\sum_{j=1}^{6} 2^{j}$$",
+       "display": true
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3B-1b-p1.png",
-       "w": 146,
-       "h": 63
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",
      "partes": [
       {
-       "p": "$X(-1)^{j}j^{2}$"
+       "p": "$$\\sum_{j=1}^{5} (-1)^{j}j^{2}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3B-1c-p1.png",
-       "w": 146,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$-1 + 4 - 9 + 16 - 25 = -15$"
@@ -3121,20 +2907,11 @@
      "id": "d",
      "partes": [
       {
-       "p": "$X \\frac{1}{n}$"
+       "p": "$$\\sum_{n=1}^{4} \\frac{1}{n}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3B-1d-p1.png",
-       "w": 146,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$$1 + 1/2 + 1/3 + 1/4 = 25/12$$",
@@ -3149,16 +2926,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3B-1-p1.png",
-     "w": 166,
-     "h": 50
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3206,16 +2973,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3B-2-p1.png",
-     "w": 182,
-     "h": 17
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3236,20 +2993,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "$x^{3}dx$"
+       "p": "$$\\int_{0}^{1} x^{3}\\,dx$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3B-3a-p2.png",
-       "w": 247,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "upper sum = right sum = $(1/4)[(1/4)^{3}+(2/4)^{3}+(3/4)^{3}+(4/4)^{3}] = 15/128$"
@@ -3263,20 +3011,13 @@
      "id": "b",
      "partes": [
       {
-       "p": "$x^{2}dx$ c) sin $xdx$"
+       "p": "b) $\\displaystyle\\int_{-1}^{3} x^{2}\\,dx$"
+      },
+      {
+       "p": "c) $\\displaystyle\\int_{0}^{2\\pi} \\sin x\\,dx$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3B-3b-p2.png",
-       "w": 247,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "left sum = $(-1)^{2}+0^{2}+1^{2}+2^{2} = 6$; right sum = $0^{2}+1^{2}+2^{2}+3^{2} = 14$;"
@@ -3296,14 +3037,6 @@
    "partes": [
     {
      "p": "Calculate the difference between the upper and lower Riemann sums for the following integrals with $n$ intervals"
-    },
-    {
-     "img": "e2/p2-2.png",
-     "w": 148,
-     "h": 18
-    },
-    {
-     "p": "Does the difference tend to zero as $n$ tends to infinity?"
     }
    ],
    "itens": [
@@ -3311,20 +3044,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "$x^{2}dx$"
+       "p": "$$\\int_{0}^{b} x^{2}\\,dx$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3B-4a-p2.png",
-       "w": 158,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "$(b/n)(b^{2} - 0) = b^{3}/n$. Yes, this tends to zero as $n \\to \\infty$ ."
@@ -3335,20 +3059,14 @@
      "id": "b",
      "partes": [
       {
-       "p": "$x^{3}dx$ 0 0"
+       "p": "$$\\int_{0}^{b} x^{3}\\,dx$$",
+       "display": true
+      },
+      {
+       "p": "Does the difference tend to zero as $n$ tends to infinity?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3B-4b-p2.png",
-       "w": 158,
-       "h": 27
-      }
-     ],
      "solucao": [
       {
        "p": "$(b/n)(b^{3} - 0) = b^{4}/n$. Yes, this tends to zero as $n \\to \\infty$ ."
@@ -3357,16 +3075,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3B-4-p2.png",
-     "w": 340,
-     "h": 48
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3398,25 +3106,14 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Calculate $e^{x}dx$ by using upper Riemann sums. 0"
+     "p": "Calculate $\\displaystyle\\int_{0}^{1} e^{x}\\,dx$ by using upper Riemann sums."
     },
     {
-     "p": "Hints: The sum is a geometric progression. You will need the limit $_{n}$lim$_{\\to \\infty}n(e^{1/n}-$ 1). This can be evaluated putting $h = 1/n$ and relating the limit to the derivative of $e^{x}$ at $x = 0$."
+     "p": "Hints: The sum is a geometric progression. You will need the limit $\\displaystyle\\lim_{n \\to \\infty} n(e^{1/n} - 1)$. This can be evaluated putting $h = 1/n$ and relating the limit to the derivative of $e^{x}$ at $x = 0$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3B-6-p2.png",
-     "w": 369,
-     "h": 84
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3468,20 +3165,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "$\\sqrt{3x + 5}dx$"
+       "p": "$$\\int_{0}^{2} \\sqrt{3x + 5}\\,dx$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3C-2a-p2.png",
-       "w": 279,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q3C-2a-p5.png",
@@ -3494,20 +3182,13 @@
      "id": "b",
      "partes": [
       {
-       "p": "$(3x + 5)^{n}dx$ c) $\\frac{sin xdx}{cos^{3} x}$"
+       "p": "b) $\\displaystyle\\int_{0}^{2} (3x + 5)^{n}\\,dx$"
+      },
+      {
+       "p": "c) $\\displaystyle\\int_{3\\pi/4}^{\\pi} \\frac{\\sin x\\,dx}{\\cos^{3} x}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3C-2b-p2.png",
-       "w": 279,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q3C-2b-p5.png",
@@ -3576,7 +3257,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Calculate lim $Z^{b} x^{-10}dx$. What area does this integral describe? 3C-5 Find the area"
+     "p": "Calculate $\\displaystyle\\lim_{b \\to \\infty} \\int_{1}^{b} x^{-10}\\,dx$. What area does this integral describe?"
     }
    ],
    "itens": [
@@ -3600,17 +3281,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3C-4-p2.png",
-     "w": 222,
-     "h": 43
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3645,56 +3315,29 @@
   {
    "n": "3D-1",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "(Exercício 3D-1)"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "Prove that $Z^{x} \\frac{dt}{\\sqrt{t^{2} + a^{2}}} =$ ln($x + px^{2} + a^{2}) -$ ln $a, a > 0, x > 0$. 0"
-      },
-      {
-       "img": "e2/p3-2.png",
-       "w": 228,
-       "h": 26
+       "p": "Prove that $\\displaystyle\\int_{0}^{x} \\frac{dt}{\\sqrt{t^{2} + a^{2}}} = \\ln(x + \\sqrt{x^{2} + a^{2}}) - \\ln a$, $a > 0$, $x > 0$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3D-1a-p3.png",
-       "w": 336,
-       "h": 77
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
      "partes": [
       {
-       "p": "For what c is $Z^{x} \\frac{dt}{\\sqrt{t^{2} + a^{2}}} =$ ln($x + px^{2} + a^{2})$?"
-      },
-      {
-       "img": "e2/p3-3.png",
-       "w": 359,
-       "h": 18
+       "p": "For what $c$ is $\\displaystyle\\int_{c}^{x} \\frac{dt}{\\sqrt{t^{2} + a^{2}}} = \\ln(x + \\sqrt{x^{2} + a^{2}})$?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3D-1b-p3.png",
-       "w": 369,
-       "h": 73
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q3D-1b-p6.png",
@@ -3705,16 +3348,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3D-1-p3.png",
-     "w": 336,
-     "h": 27
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3722,30 +3355,15 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Show that the function $y = Z^{x} p1 - t^{2}dt$ satisfies the differential equation 0 with side conditions:"
+     "p": "Show that the function $y = \\displaystyle\\int_{0}^{x} \\sqrt{1 - t^{2}}\\,dt$ satisfies the differential equation with side conditions:"
     },
     {
-     "p": "$$y'y^{''} = -x; y(0) = 0, y'(0) = 1$$",
+     "p": "$$y'y'' = -x; \\quad y(0) = 0, \\; y'(0) = 1.$$",
      "display": true
-    },
-    {
-     "img": "e2/p3-4.png",
-     "w": 14,
-     "h": 8
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3D-2-p3.png",
-     "w": 369,
-     "h": 84
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3753,7 +3371,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Discuss the function $F (x) = \\frac{1 - t^{2}}{1 + t^{2}}dt$, including a sketch; describe 0"
+     "p": "Discuss the function $F(x) = \\displaystyle\\int_{0}^{x} \\frac{1 - t^{2}}{1 + t^{2}}\\,dt$, including a sketch; describe"
     }
    ],
    "itens": [
@@ -3795,17 +3413,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3D-3-p3.png",
-     "w": 346,
-     "h": 27
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3856,7 +3463,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate $_{\\Delta}$lim$_{x\\to 0} \\frac{1}{\\Delta x}_{1} \\frac{t}{\\sqrt{1 + t^{4}}}dt$ two ways:"
+     "p": "Evaluate $\\displaystyle\\lim_{\\Delta x \\to 0} \\frac{1}{\\Delta x}\\int_{1}^{1+\\Delta x} \\frac{t}{\\sqrt{1 + t^{4}}}\\,dt$ two ways:"
     }
    ],
    "itens": [
@@ -3898,26 +3505,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "by relating the limit to $F'(1)$, where $F (x) = \\frac{t}{\\sqrt{1 + t^{4}}}dt$ 0"
-      },
-      {
-       "img": "e2/p3-7.png",
-       "w": 14,
-       "h": 8
+       "p": "by relating the limit to $F'(1)$, where $F(x) = \\displaystyle\\int_{0}^{x} \\frac{t}{\\sqrt{1 + t^{4}}}\\,dt$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3D-5b-p3.png",
-       "w": 280,
-       "h": 57
-      }
-     ],
      "solucao": [
       {
        "p": "By definition of derivative,"
@@ -3939,16 +3530,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3D-5-p3.png",
-     "w": 248,
-     "h": 26
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3956,14 +3537,10 @@
    "titulo": "",
    "partes": [
     {
-     "p": "For different values of a, the functions $F (x) = dt$ differ from each other"
+     "p": "For different values of $a$, the functions $F(x) = \\displaystyle\\int_{a}^{x} dt$ differ from each other by constants. Show this two ways:"
     },
     {
-     "p": "$$a$$",
-     "display": true
-    },
-    {
-     "p": "by constants. Show this two ways:"
+     "p": "(O integrando aparece em branco no PDF do MIT.)"
     }
    ],
    "itens": [
@@ -3999,18 +3576,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3D-6-p3.png",
-     "w": 369,
-     "h": 34
-    }
-   ],
    "fonte": 1
   },
   {
@@ -4068,26 +3633,11 @@
      "id": "c",
      "partes": [
       {
-       "p": "tan $udu$"
-      },
-      {
-       "p": "$$x$$",
+       "p": "$$\\int_{x}^{x^{2}} \\tan u\\,du$$",
        "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3D-7c-p4.png",
-       "w": 75,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q3D-7c-p7.png",
@@ -4105,12 +3655,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Let $f (x)$ be continuous. Find $f (\\pi /2)$ if:"
-    },
-    {
-     "img": "e2/p4-3.png",
-     "w": 162,
-     "h": 8
+     "p": "Let $f(x)$ be continuous. Find $f(\\pi/2)$ if:"
     }
    ],
    "itens": [
@@ -4118,7 +3663,8 @@
      "id": "a",
      "partes": [
       {
-       "p": "$f (t)dt = 2x$(sin $x + 1)$"
+       "p": "$$\\int_{0}^{x} f(t)\\,dt = 2x(\\sin x + 1)$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
@@ -4132,20 +3678,11 @@
      "id": "b",
      "partes": [
       {
-       "p": "$f (t)dt = 2x$(sin $x + 1)$ 0 0"
+       "p": "$$\\int_{0}^{x/2} f(t)\\,dt = 2x(\\sin x + 1)$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3D-8b-p4.png",
-       "w": 281,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "p": "Substitute $x = 2u$ and follow the method of part (a); put $u = \\pi$ , get finally $f (\\pi /2) = 4 - 4\\pi$ ."
@@ -4154,16 +3691,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3D-8-p4.png",
-     "w": 214,
-     "h": 27
-    }
-   ],
    "fonte": 1
   },
   {
@@ -4171,27 +3698,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Prove directly from the definition $L(x) = \\frac{dt}{t}$ that $L( \\frac{1}{a}) = -L(a)$, by 1 making a change of variables in the definite integral."
-    },
-    {
-     "img": "e2/p4-5.png",
-     "w": 359,
-     "h": 19
+     "p": "Prove directly from the definition $L(x) = \\displaystyle\\int_{1}^{x} \\frac{dt}{t}$ that $L\\left(\\frac{1}{a}\\right) = -L(a)$, by making a change of variables in the definite integral."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3E-1-p4.png",
-     "w": 369,
-     "h": 75
-    }
-   ],
    "fonte": 1,
    "solucao": [
     {
@@ -4206,7 +3717,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "The function defined by $E(x) = \\frac{1}{\\sqrt{2\\pi}} Z^{x} e^{-u2/2}du$ is used in probability 0 and statistics and has the same importance as sine and cosine functions have to trigonometry."
+     "p": "The function defined by $E(x) = \\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_{0}^{x} e^{-u^{2}/2}\\,du$ is used in probability and statistics and has the same importance as sine and cosine functions have to trigonometry."
     }
    ],
    "itens": [
@@ -4214,20 +3725,7 @@
      "id": "a",
      "partes": [
       {
-       "p": "Express $E(x)$ in terms of the function of example 5 of Notes FT, $F (x) =$"
-      },
-      {
-       "img": "e2/p4-6.png",
-       "w": 359,
-       "h": 26
-      },
-      {
-       "p": "What is $_{x}$lim$_{\\to \\infty}E(x$)?"
-      },
-      {
-       "img": "e2/p4-7.png",
-       "w": 247,
-       "h": 26
+       "p": "Express $E(x)$ in terms of the function of example 5 of Notes FT, $F(x) = \\displaystyle\\int_{0}^{x} e^{-t^{2}}\\,dt$, by making a change of variable. It is known that $\\displaystyle\\lim_{x \\to \\infty} F(x) = \\sqrt{\\pi}/2$. What is $\\displaystyle\\lim_{x \\to \\infty} E(x)$?"
       }
      ],
      "tipo": "aberta",
@@ -4243,25 +3741,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "Evaluate $_{N}$lim$_{\\to \\infty} \\frac{1}{\\sqrt{2\\pi}} Z_{-N}^{N} e^{-u2/2}du$ and $_{x\\to -\\infty}$lim $E(x)$."
-      },
-      {
-       "img": "e2/p4-8.png",
-       "w": 328,
-       "h": 26
+       "p": "Evaluate $\\displaystyle\\lim_{N \\to \\infty} \\frac{1}{\\sqrt{2\\pi}}\\int_{-N}^{N} e^{-u^{2}/2}\\,du$ and $\\displaystyle\\lim_{x \\to -\\infty} E(x)$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3E-2b-p4.png",
-       "w": 338,
-       "h": 79
-      }
-     ],
      "solucao": [
       {
        "p": "The integrand is even, so"
@@ -4298,34 +3781,13 @@
      "id": "c",
      "partes": [
       {
-       "p": "Express $\\frac{1}{\\sqrt{2\\pi}} Z^{b} e^{-u2/2}du$ in terms of the function $E$ and the constants $a$ and $b$, where $a < b$."
+       "p": "Express $\\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_{a}^{b} e^{-u^{2}/2}\\,du$ in terms of the function $E$ and the constants $a$ and $b$, where $a < b$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3E-2c-p4.png",
-       "w": 369,
-       "h": 43
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3E-2-p4.png",
-     "w": 369,
-     "h": 55
-    }
-   ],
    "fonte": 1
   },
   {
@@ -4411,27 +3873,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "From the definite integral $Z^{1} p1 - x^{2}dx = \\pi /2$ deduce the value of $Z^{a} pa^{2} - x^{2}dx$ by making a suitable change of variable of the form $x = ct$ (c constant)."
-    },
-    {
-     "img": "e2/p5-2.png",
-     "w": 14,
-     "h": 8
+     "p": "From the definite integral $\\displaystyle\\int_{-1}^{1} \\sqrt{1 - x^{2}}\\,dx = \\pi/2$ deduce the value of $\\displaystyle\\int_{-a}^{a} \\sqrt{a^{2} - x^{2}}\\,dx$ by making a suitable change of variable of the form $x = ct$ ($c$ constant)."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3E-4-p5.png",
-     "w": 400,
-     "h": 73
-    }
-   ],
    "fonte": 1,
    "solucao": [
     {
@@ -4446,7 +3892,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Let $F (x) = f (t)dt$. 0"
+     "p": "Let $F(x) = \\displaystyle\\int_{0}^{x} f(t)\\,dt$."
     }
    ],
    "itens": [
@@ -4487,17 +3933,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3E-5-p5.png",
-     "w": 137,
-     "h": 25
-    }
-   ],
    "fonte": 1
   },
   {
@@ -4505,12 +3940,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "By comparing the given integral with an integral that is easier to evaluate. establish each of the following estimations:"
-    },
-    {
-     "img": "e2/p5-3.png",
-     "w": 327,
-     "h": 18
+     "p": "By comparing the given integral with an integral that is easier to evaluate, establish each of the following estimations:"
     }
    ],
    "itens": [
@@ -4518,20 +3948,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "$Z^{1} \\frac{dx}{1 + x^{3}} > 0.65$"
+       "p": "$$\\int_{0}^{1} \\frac{dx}{1 + x^{3}} > 0.65$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3E-6a-p5.png",
-       "w": 337,
-       "h": 26
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q3E-6a-p9.png",
@@ -4544,25 +3965,13 @@
      "id": "b",
      "partes": [
       {
-       "p": "$Z^{\\pi}$ sin$^{2}x dx < 2$ c) $Z^{20} px^{2} + 1 dx > 150$ 0 0 10"
+       "p": "b) $\\displaystyle\\int_{0}^{\\pi} \\sin^{2}x\\,dx < 2$"
       },
       {
-       "img": "e2/p5-4.png",
-       "w": 16,
-       "h": 8
+       "p": "c) $\\displaystyle\\int_{10}^{20} \\sqrt{x^{2} + 1}\\,dx > 150$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3E-6b-p5.png",
-       "w": 337,
-       "h": 64
-      }
-     ],
      "solucao": [
       {
        "p": "$0 <$ sin $x < 1$ on $(0, \\pi ) \\Rightarrow$ sin$^{2} x <$ sin $x$ on $(0, \\pi )$; therefore"
@@ -4588,22 +3997,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Show $\\frac{sin x}{x^{2}}dx < 1$ 1"
+     "p": "Show $\\displaystyle\\int_{1}^{N} \\frac{\\sin x}{x^{2}}\\,dx < 1$"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3E-7-p5.png",
-     "w": 143,
-     "h": 26
-    }
-   ],
    "fonte": 1,
    "solucao": [
     {
@@ -5171,14 +4569,6 @@
    "partes": [
     {
      "p": "Find approximations to the following integrals using four intervals using Riemann sums with left endpoints, using the trapezoidal rule, and using Simpson's rule. Also give numerical approximations to the exact values of the integrals given to see how good these approximation methods are."
-    },
-    {
-     "img": "e2/p7-1.png",
-     "w": 167,
-     "h": 8
-    },
-    {
-     "p": "1using the correspondence between weight and mass on Earth of $F = ma$ with $a = 10m/sec^{2}$"
     }
    ],
    "itens": [
@@ -5186,7 +4576,7 @@
      "id": "a",
      "partes": [
       {
-       "p": "$\\sqrt{x}dx (= 2/3.)$"
+       "p": "$\\displaystyle\\int_{0}^{1} \\sqrt{x}\\,dx \\; (= 2/3.)$"
       }
      ],
      "tipo": "aberta",
@@ -5204,12 +4594,7 @@
      "id": "b",
      "partes": [
       {
-       "p": "sin $xdx (= 2.)$"
-      },
-      {
-       "img": "e2/p7-2.png",
-       "w": 167,
-       "h": 13
+       "p": "$\\displaystyle\\int_{0}^{\\pi} \\sin x\\,dx \\; (= 2.)$"
       }
      ],
      "tipo": "aberta",
@@ -5227,7 +4612,7 @@
      "id": "c",
      "partes": [
       {
-       "p": "$\\frac{dx}{1 + x^{2}} (= \\pi /4$; cf. unit 5)"
+       "p": "$\\displaystyle\\int_{0}^{1} \\frac{dx}{1 + x^{2}} \\; (= \\pi/4;$ cf. unit 5)"
       }
      ],
      "tipo": "aberta",
@@ -5245,20 +4630,10 @@
      "id": "d",
      "partes": [
       {
-       "p": "$\\frac{dx}{x} (=$ ln 2) 0 1"
+       "p": "$\\displaystyle\\int_{1}^{2} \\frac{dx}{x} \\; (= \\ln 2)$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q3G-1d-p7.png",
-       "w": 241,
-       "h": 26
-      }
-     ],
      "solucao": [
       {
        "p": "$\\Delta x = 1/4$"
@@ -5286,30 +4661,15 @@
      "p": "Show that the value given by Simpson's rule for two intervals for the integral"
     },
     {
-     "img": "e2/p8-1.png",
-     "w": 13,
-     "h": 8
-    },
-    {
-     "p": "$$f (x)dx$$",
+     "p": "$$\\int_{0}^{b} f(x)\\,dx$$",
      "display": true
     },
     {
-     "p": "0 gives the exact answer when $f (x) = x^{3}$. (Since a cubic polynomial is a sum of a quadratic polynomial and a polynomial $ax^{3}$, and Simpson's rule is exact for any quadratic polynomial, the result of this exercise implies by linearity (cf. Notes PI) that Simpson's rule will also be exact for any cubic polynomial.)"
+     "p": "gives the exact answer when $f(x) = x^{3}$. (Since a cubic polynomial is a sum of a quadratic polynomial and a polynomial $ax^{3}$, and Simpson's rule is exact for any quadratic polynomial, the result of this exercise implies by linearity (cf. Notes PI) that Simpson's rule will also be exact for any cubic polynomial.)"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3G-2-p8.png",
-     "w": 369,
-     "h": 98
-    }
-   ],
    "fonte": 1,
    "solucao": [
     {
@@ -5372,30 +4732,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "If the trapezoidal rule is used to estimate the value of $f (x)dx$ under what"
-    },
-    {
-     "p": "$$a$$",
-     "display": true
-    },
-    {
-     "p": "hypotheses on $f (x)$ will the estimate be too low? too high?"
+     "p": "If the trapezoidal rule is used to estimate the value of $\\displaystyle\\int_{a}^{b} f(x)\\,dx$ under what hypotheses on $f(x)$ will the estimate be too low? too high?"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q3G-5-p8.png",
-     "w": 369,
-     "h": 34
-    }
-   ],
    "fonte": 1,
    "solucao": [
     {

@@ -1,0 +1,130 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Consider the following utility function and lifetime budget constraint:"
+   },
+   {
+    "p": "$$u(c_{t}) = \\frac{c_{t}^{1-\\gamma}}{1-\\gamma}, \\quad \\gamma > 0$$",
+    "display": true
+   },
+   {
+    "p": "$$\\sum_{t=0}^{T} q_{t}c_{t} = q_{0}(1 + R_{0})a_{0} + \\sum_{t=0}^{T} q_{t}y_{t} \\quad \\text{where } q_{t} = \\frac{q_{t-1}}{1 + R_{t}}$$",
+    "display": true
+   }
+  ]
+ },
+ "1/a": {
+  "partes": [
+   {
+    "p": "Assume that the agent's discount factor $\\beta$ is such that $1 + R_{t} = 1/\\beta$ for all $t$."
+   },
+   {
+    "p": "i) Prove that the optimal consumption path is constant"
+   },
+   {
+    "p": "ii) Solve for the optimal consumption level in each period of life"
+   },
+   {
+    "p": "iii) Why was it necessary for us to assume $1 + R_{t} = 1/\\beta$ for all $t$?"
+   },
+   {
+    "p": "To simplify the math, assume $R = 0$ and $q_{0} = 1$ for the remainder of this question."
+   }
+  ]
+ },
+ "1/b": {
+  "partes": [
+   {
+    "p": "Suppose the individual's income is constant in each period of life such that $y = \\bar{y} \\;\\; \\forall t$."
+   },
+   {
+    "p": "i) What is the optimal consumption level in each period of life now?"
+   },
+   {
+    "p": "ii) How much does the individual save in period $t$?"
+   },
+   {
+    "p": "iii) Are the savings positive or negative? Explain your answer."
+   }
+  ]
+ },
+ "1/c": {
+  "partes": [
+   {
+    "p": "Now suppose that the government decides to tax individuals. The government implements a tax on income in each period of life such that an individual's income is now given by $(1-\\tau)\\bar{y}$, where $\\tau = 1/(1+T)$. The government takes the revenue from the tax and throws it in the ocean."
+   },
+   {
+    "p": "i) How much did the tax reduce the individual's per-period (contemporaneous) income?"
+   },
+   {
+    "p": "ii) How much did the tax reduce the individual's lifetime income?"
+   },
+   {
+    "p": "iii) How much does the optimal consumption at time $t = 0$ fall?"
+   }
+  ]
+ },
+ "1/d": {
+  "partes": [
+   {
+    "p": "Now suppose that the government taxes individual's income in only the last period of life when $t = T$. Specifically, assume that $\\tau = 1$, in the last period of life, and $\\tau = 0$ in all earlier periods."
+   },
+   {
+    "p": "i) How much did the tax reduce the individual's per-period (contemporaneous) income in each period?"
+   },
+   {
+    "p": "ii) How much did the tax reduce the individual's lifetime income?"
+   },
+   {
+    "p": "iii) How much does the optimal consumption at time $t = 0$ fall?"
+   }
+  ]
+ },
+ "1/e": {
+  "partes": [
+   {
+    "p": "In a few sentences, explain the intuition of why the government taxes in parts (c) and (d) have the same affect on consumption at time $t = 0$. Be sure to discuss how changes in contemporaneous income and lifetime (permanent) income each affect consumption."
+   }
+  ]
+ },
+ "2/": {
+  "partes": [
+   {
+    "p": "Consider the following utility function and lifetime budget constraint."
+   },
+   {
+    "p": "$$u(c(S^{t})) = c(S^{t}) - b\\frac{c(S^{t})^{2}}{2}, \\quad b > 0$$",
+    "display": true
+   },
+   {
+    "p": "$$\\sum_{t=0}^{\\infty}\\sum_{S^{t}} q(S^{t})c(S^{t}) \\leq \\sum_{t=0}^{\\infty}\\sum_{S^{t}} q(S^{t})y(S^{t})$$",
+    "display": true
+   },
+   {
+    "p": "In this model of uncertainty, $S^{t}$ represents the 'event' $S$, at time $t$, and all prices and consumption levels will be a function of $S^{t}$. There are two possible states of the world, $S \\in \\{\\text{war}, \\text{peace}\\}$. Individuals have a discount factor of $\\beta$. For this question, you should assume that the individual's wealth and income stream are such that his or her consumption is always in the range where marginal utility is positive."
+   }
+  ]
+ },
+ "2/d": {
+  "partes": [
+   {
+    "p": "Now consider two possible states of the world at time $t$. In the first state, which we'll call $W^{t}$, the world has been at war for all periods of time up until time $t$. In the second state, which we'll call $P^{t}$, the world has been at peace for all periods of time up until time $t$. Use your FOCs from earlier to prove the following condition is true. Explain the intuition behind this condition. You will not receive credit for this question if you don't explain the intuition!"
+   },
+   {
+    "p": "$$\\frac{\\pi(P^{t})(1 - bC(P^{t}))}{\\pi(W^{t})(1 - bC(W^{t}))} = \\frac{q(P^{t})}{q(W^{t})}$$",
+    "display": true
+   }
+  ]
+ },
+ "2/e": {
+  "partes": [
+   {
+    "p": "If we assume that the interest rate is constant and equal to the individuals discount rate, it can be shown that $q(S^{t}) = \\beta^{t}$ for all $S$ and $t$. Assume this is true."
+   },
+   {
+    "p": "Using your first order conditions from part (c), what can you say about how consumption varies across different states of the world? How is consumption smoothing different in this model of 'uncertainty' compared to consumption smoothing we find in the model of 'certainty'?"
+   }
+  ]
+ }
+}

@@ -28,14 +28,17 @@
    "titulo": "",
    "partes": [
     {
-     "p": "The convolution formula is a useful trick when we are interested in the sum or average of independent random variables. In the last problem set, we dealt with the random variable X, below."
+     "p": "The convolution formula is a useful trick when we are interested in the sum or average of independent random variables. In the last problem set, we dealt with the random variable $X$, below."
     },
     {
-     "p": "$$f (4=_{0forx<O}^{e-\"forx>0}$$",
+     "p": "$$f(x) = \\begin{cases} e^{-x} & \\text{for } x > 0 \\\\ 0 & \\text{for } x \\leq 0 \\end{cases}.$$",
      "display": true
     },
     {
-     "p": "Now, suppose that X XI X2. . . Xkare independent, identically distributed random variables. $_{getDefinebackZlto=Y2X1fromand2 2 .Z2=XI}^{1.Using the convolution formula, determine the PDF of}+_{X2and then use the transformation method to}^{\\mathbf{fi}=}$;(x1$^{X 2 )Hint:}$"
+     "p": "Now, suppose that $X = X_{1} = X_{2} = \\cdots = X_{k}$ are independent, identically distributed random variables."
+    },
+    {
+     "p": "1. Using the convolution formula, determine the PDF of $Y_{2} = \\frac{1}{2}(X_{1} + X_{2})$. Hint: Define $Z_{1} = X_{1}$ and $Z_{2} = X_{1} + X_{2}$ and then use the transformation method to get back to $Y_{2}$ from $Z_{2}$."
     }
    ],
    "itens": [
@@ -43,39 +46,19 @@
      "id": "2",
      "partes": [
       {
-       "p": "Compute its expectation: E[Y2]."
+       "p": "Compute its expectation: $\\mathbb{E}[Y_{2}]$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q12-p2.png",
-       "w": 200,
-       "h": 25
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "3",
      "partes": [
       {
-       "p": "Using the convolution formula, determine the PDF for & = ;(XI $+X2 +$X3). Hint: Use the hint from part 1 to define Z3 = X1 + X2+ X3 and perform $a$ convolution with X3 and Z2 to transform the problem into Z2 and Z3."
+       "p": "Using the convolution formula, determine the PDF for $Y_{3} = \\frac{1}{3}(X_{1} + X_{2} + X_{3})$. Hint: Use the hint from part 1 to define $Z_{3} = X_{1} + X_{2} + X_{3}$ and perform a convolution with $X_{3}$ and $Z_{2}$ to transform the problem into $Z_{2}$ and $Z_{3}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q13-p2.png",
-       "w": 434,
-       "h": 56
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q13-p3.png",
@@ -98,40 +81,22 @@
      "id": "4",
      "partes": [
       {
-       "p": "Compute its expectation: IE[Y3]. $^{5.}$Xk) $_{using the methods from their hints.}^{Using the convolution formula, determine the}=$ :ck Z=IXk. Hint: Try to determine $a^{PDF}$pattern from part $^{for\\mathbf{Yk}=:(x1}1$ and part $^{X2+.-}^{+}3$"
-      }
-     ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula que o KaTeX não desenha",
-      "página escaneada"
-     ],
-     "recorte": [
+       "p": "4. Compute its expectation: $\\mathbb{E}[Y_{3}]$."
+      },
       {
-       "img": "e1/q14-p2.png",
-       "w": 433,
-       "h": 80
+       "p": "5. Using the convolution formula, determine the PDF for $Y_{k} = \\frac{1}{k}(X_{1} + X_{2} + \\cdots + X_{k}) = \\frac{1}{k}\\sum_{i=1}^{k} X_{k}$. Hint: Try to determine a pattern from part 1 and part 3 using the methods from their hints."
       }
-     ]
+     ],
+     "tipo": "aberta"
     },
     {
      "id": "6",
      "partes": [
       {
-       "p": "Compute its expectation: E[Yk]."
+       "p": "Compute its expectation: $\\mathbb{E}[Y_{k}]$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q16-p2.png",
-       "w": 200,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q16-p6.png",
@@ -144,20 +109,10 @@
      "id": "7",
      "partes": [
       {
-       "p": "What does this tell us about the mean of a sample of size Ic? Is this property specific to the exponential distribution? Explain."
+       "p": "What does this tell us about the mean of a sample of size $k$? Is this property specific to the exponential distribution? Explain."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q17-p2.png",
-       "w": 430,
-       "h": 39
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q17-p6.png",
@@ -173,17 +128,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p2.png",
-     "w": 446,
-     "h": 208
-    }
-   ],
    "fonte": 0
   },
   {
@@ -191,12 +135,14 @@
    "titulo": "",
    "partes": [
     {
-     "p": "(BainIEngelhardt, p. 228) Suppose that XI, X2, ,Xkare independent random variables and let Y, ui(Xi) for $i 1,2$,.. . ,k. Show that Yl, Y2, .. ,Yk are independent. Consider only the case where Xi is continuous and yi = ui(xi) is one-to-one. Hint: If xi = wi(yi) is the inverse transformation, then the Jacobian has the form"
+     "p": "(Bain/Engelhardt, p. 228)"
     },
     {
-     "img": "e1/p3-1.png",
-     "w": 439,
-     "h": 55
+     "p": "Suppose that $X_{1}, X_{2}, \\ldots, X_{k}$ are independent random variables and let $Y_{i} = u_{i}(X_{i})$ for $i = 1, 2, \\ldots, k$. Show that $Y_{1}, Y_{2}, \\ldots, Y_{k}$ are independent. Consider only the case where $X_{i}$ is continuous and $y_{i} = u_{i}(x_{i})$ is one-to-one. Hint: If $x_{i} = w_{i}(y_{i})$ is the inverse transformation, then the Jacobian has the form"
+    },
+    {
+     "p": "$$J = \\prod_{i=1}^{k}\\frac{d}{dy_{i}}w_{i}(y_{i}).$$",
+     "display": true
     },
     {
      "p": "For extra credit, prove the Hint about the Jacobian."
@@ -204,16 +150,6 @@
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p3.png",
-     "w": 449,
-     "h": 187
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -233,16 +169,6 @@
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q3-p3.png",
-     "w": 165,
-     "h": 56
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -265,20 +191,10 @@
      "id": "1",
      "partes": [
       {
-       "p": "Write down the general formula of the pdf and cdf for the kth order statistic of a sample of size n of a random variable X with CDF F'(x)."
+       "p": "Write down the general formula of the pdf and cdf for the $k^{th}$ order statistic of a sample of size $n$ of a random variable $X$ with CDF $F_{X}(x)$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q41-p3.png",
-       "w": 428,
-       "h": 39
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q41-p8.png",
@@ -289,16 +205,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p3.png",
-     "w": 403,
-     "h": 56
-    }
-   ],
    "fonte": 0
   },
   {
@@ -306,7 +212,10 @@
    "titulo": "",
    "partes": [
     {
-     "p": "(BainIEngelhardt p. 229) Let X1 and X2be a random sample of size n = from a continuous distribution 2 with pdf of the form f (x) = 2x if 0 < x < 1and zero otherwise."
+     "p": "(Bain/Engelhardt p. 229)"
+    },
+    {
+     "p": "Let $X_{1}$ and $X_{2}$ be a random sample of size $n = 2$ from a continuous distribution with pdf of the form $f(x) = 2x$ if $0 < x < 1$ and zero otherwise."
     }
    ],
    "itens": [
@@ -314,20 +223,10 @@
      "id": "1",
      "partes": [
       {
-       "p": "Find the marginal pdfs of the smallest and largest order statistics, Yl and Y2."
+       "p": "Find the marginal pdfs of the smallest and largest order statistics, $Y_{1}$ and $Y_{2}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q51-p3.png",
-       "w": 426,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q51-p9.png",
@@ -340,20 +239,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "Compute their expectations, IEIYl] and IE[&]."
+       "p": "Compute their expectations, $\\mathbb{E}[Y_{1}]$ and $\\mathbb{E}[Y_{2}]$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q52-p3.png",
-       "w": 261,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q52-p9.png",
@@ -371,20 +260,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "Find the joint pdf of Yl and Y2."
+       "p": "Find the joint pdf of $Y_{1}$ and $Y_{2}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q53-p3.png",
-       "w": 191,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q53-p10.png",
@@ -397,20 +276,10 @@
      "id": "4",
      "partes": [
       {
-       "p": "Find the pdf of the sample range R Y2 - Yl."
+       "p": "Find the pdf of the sample range $R = Y_{2} - Y_{1}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q54-p3.png",
-       "w": 266,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q54-p10.png",
@@ -428,20 +297,10 @@
      "id": "5",
      "partes": [
       {
-       "p": "Compute the expectation of the sample range, IE[R]."
+       "p": "Compute the expectation of the sample range, $\\mathbb{E}[R]$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q55-p3.png",
-       "w": 298,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q55-p11.png",
@@ -452,17 +311,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto",
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5-p3.png",
-     "w": 445,
-     "h": 86
-    }
-   ],
    "fonte": 0
   },
   {
@@ -470,7 +318,10 @@
    "titulo": "",
    "partes": [
     {
-     "p": "(BainIEngelhardt p. 229) $f$(x) $= x^{1}$ if $^{-}$ Consider a random sample of size n from a distribution with pdf 15 x < 00; zero otherwise."
+     "p": "(Bain/Engelhardt p. 229)"
+    },
+    {
+     "p": "Consider a random sample of size $n$ from a distribution with pdf $f(x) = \\frac{1}{x^{2}}$ if $1 \\leq x < \\infty$; zero otherwise."
     }
    ],
    "itens": [
@@ -482,16 +333,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q61-p4.png",
-       "w": 235,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q61-p11.png",
@@ -509,20 +350,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "Give the pdf of the smallest order statistic, Yl."
+       "p": "Give the pdf of the smallest order statistic, $Y_{1}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q62-p4.png",
-       "w": 267,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q62-p12.png",
@@ -535,20 +366,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "Compute its expectation, EIYl], or explain why it does not exist."
+       "p": "Compute its expectation, $\\mathbb{E}[Y_{1}]$, or explain why it does not exist."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q63-p4.png",
-       "w": 359,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q63-p12.png",
@@ -561,20 +382,10 @@
      "id": "4",
      "partes": [
       {
-       "p": "Give the pdf of the largest order statistic, Y,."
+       "p": "Give the pdf of the largest order statistic, $Y_{n}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q64-p4.png",
-       "w": 254,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q64-p12.png",
@@ -592,26 +403,16 @@
      "id": "5",
      "partes": [
       {
-       "p": "Compute the expectation, IE[X], X from f of a single draw (x). Does the integral"
+       "p": "Compute the expectation, $\\mathbb{E}[X]$, of a single draw $X$ from $f(x)$. Does the integral diverge? What does that say about the existence of $\\mathbb{E}[X]$? Explain."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q65-p4.png",
-       "w": 434,
-       "h": 25
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "6",
      "partes": [
       {
-       "p": "Derive the pdf of the sample range, R = Y, - Yl, for n = 2. Hint: Use partial fractions, searching on Yahoo for \"QuickMathn will help you get the partial fractions via computer: http://72.3.253.76:8080/webMathematica5'/quickmath/page.jsp ?sl=algebra&s2=partialfractions&s3= basic"
+       "p": "Derive the pdf of the sample range, $R = Y_{n} - Y_{1}$, for $n = 2$. Hint: Use partial fractions, searching on Yahoo for \"QuickMath\" will help you get the partial fractions via computer."
       }
      ],
      "contexto": [
@@ -620,16 +421,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q66-p4.png",
-       "w": 487,
-       "h": 60
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q66-p13.png",
@@ -652,20 +443,10 @@
      "id": "7",
      "partes": [
       {
-       "p": "Compute its expectation, E[R], or explain why it does not exist."
+       "p": "Compute its expectation, $\\mathbb{E}[R]$, or explain why it does not exist."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q67-p4.png",
-       "w": 357,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q67-p15.png",
@@ -678,20 +459,10 @@
      "id": "8",
      "partes": [
       {
-       "p": "Give the pdf of the sample median, Y,, assuming that n is odd so that $r =$ (n+ 1)/2 E N.Express the pdf as a function of just $r$ and y, (eliminate all n's and k7s)."
+       "p": "Give the pdf of the sample median, $Y_{r}$, assuming that $n$ is odd so that $r = (n+1)/2 \\in \\mathbb{N}$. Express the pdf as a function of just $r$ and $y_{r}$ (eliminate all $n$'s and $k$'s)."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q68-p4.png",
-       "w": 438,
-       "h": 53
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q68-p15.png",
@@ -704,20 +475,10 @@
      "id": "9",
      "partes": [
       {
-       "p": "Compute its expectation, E[Y,], or explain why it does not exist."
+       "p": "Compute its expectation, $\\mathbb{E}[Y_{r}]$, or explain why it does not exist."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q69-p4.png",
-       "w": 359,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q69-p15.png",
@@ -733,16 +494,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q6-p4.png",
-     "w": 443,
-     "h": 86
-    }
-   ],
    "fonte": 0
   }
  ]

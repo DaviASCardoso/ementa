@@ -1,0 +1,30 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Consider a closed economy with aggregate demand given by"
+   },
+   {
+    "p": "$$Y_{t} = c_{0} + c_{1}(Y_{t} - T) + b_{0} + b_{1}Y_{t} - b_{2}(r_{t} + x_{t}) + G,$$",
+    "display": true
+   },
+   {
+    "p": "and the Phillips curve,"
+   },
+   {
+    "p": "$$\\pi_{t} - \\pi_{t}^{e} = -\\alpha(u_{t} - u_{n})$$",
+    "display": true
+   },
+   {
+    "p": "where $t$ is a time index, $\\alpha, c_{0}, c_{1}, b_{0}, b_{1}, b_{2} > 0$ and $c_{1} + b_{1} < 1$. The natural rate of unemployment is given by $u_{n} = \\frac{m+z}{\\alpha}$ where $m$ is a markup and $z$ is a catch-all variable that stands for all other variables that may affect the natural rate of unemployment. The labor force $L_{t} = L$ is constant and the production function is given by"
+   },
+   {
+    "p": "$$Y_{t} = N_{t}.$$",
+    "display": true
+   },
+   {
+    "p": "Total employment $N_{t}$ is given by $N_{t} = (1 - u_{t}) \\cdot L_{t}$. The variables $T, G, m, z, L, x, \\pi_{t}^{e}$ are all exogenous."
+   }
+  ]
+ }
+}

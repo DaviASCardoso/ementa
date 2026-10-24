@@ -62,7 +62,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "(25 points) Suppose you observe a random variable $X \\sim U [-\\theta , \\theta$ ]. You have only this one single observation."
+     "p": "(25 points) Suppose you observe a random variable $X \\sim U[-\\theta, \\theta]$. You have only this one single observation."
     }
    ],
    "itens": [
@@ -95,16 +95,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "algo sumiu antes da pontuação"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p2.png",
-     "w": 450,
-     "h": 30
-    }
-   ],
    "fonte": 0
   },
   {
@@ -133,20 +123,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "Write down the likelihood function for and a sample $X, . . . , X$."
+       "p": "Write down the likelihood function for $\\lambda$ and a sample $X_{1}, \\ldots, X_{n}$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3a-p2.png",
-       "w": 320,
-       "h": 18
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
@@ -184,20 +164,10 @@
      "id": "e",
      "partes": [
       {
-       "p": "It can be shown that for $n$ i.i.d. draws $X_{1}, . . . , X_{n}$from an exponential distribution with failure rate $\\lambda , Y_{n}:= 2\\lambda (X_{1}+ X_{2}+ . . . + X_{n})$ follows a $\\chi^{2}$distribution with 2$n$ degrees of freedom (this result is far from obvious and the math needed to derive this is beyond the scope of this class). In order to achieve a probability of a type-I error $\\alpha = 0.1$, how do you choose the critical value on the sample mean in the test from part (d)? Do you reject the null hypothesis for the sample of size 8 given above?"
+       "p": "It can be shown that for $n$ i.i.d. draws $X_{1}, \\ldots, X_{n}$ from an exponential distribution with failure rate $\\lambda$, $Y_{n} := 2\\lambda(X_{1} + X_{2} + \\ldots + X_{n})$ follows a $\\chi^{2}$ distribution with $2n$ degrees of freedom (this result is far from obvious and the math needed to derive this is beyond the scope of this class). In order to achieve a probability of a type-I error $\\alpha = 0.1$, how do you choose the critical value on the sample mean in the test from part (d)? Do you reject the null hypothesis for the sample of size 8 given above?"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3e-p3.png",
-       "w": 456,
-       "h": 78
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",

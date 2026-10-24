@@ -88,21 +88,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "Show that the 'polarization identity' $\\frac{1}{4} \u0000| \\mathbf{u} + \\mathbf{v} |^{2} -| \\mathbf{u} - \\mathbf{v} |^{2} \u0001 = \\mathbf{u} \\cdot \\mathbf{v}$ holds for any two n-vectors u and v. (Use vector algebra, not components.)"
+       "p": "Show that the 'polarization identity' $\\frac{1}{4}\\left(|\\mathbf{u} + \\mathbf{v}|^{2} - |\\mathbf{u} - \\mathbf{v}|^{2}\\right) = \\mathbf{u} \\cdot \\mathbf{v}$ holds for any two n-vectors $\\mathbf{u}$ and $\\mathbf{v}$. (Use vector algebra, not components.)"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula que o KaTeX não desenha",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2a-p2.png",
-       "w": 442,
-       "h": 39
-      }
-     ],
      "solucao": [
       {
        "p": "Calculating directly, we see"

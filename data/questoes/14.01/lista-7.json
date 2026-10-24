@@ -297,20 +297,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "(5 Points) How does Andrew's choice of insurance change with $\\theta , r$ and $p$? Provide an economic intuition."
+       "p": "(5 Points) How does Andrew's choice of insurance change with $\\theta$, $r$ and $p$? Provide an economic intuition."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q33-p2.png",
-       "w": 488,
-       "h": 17
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q33-p3.png",

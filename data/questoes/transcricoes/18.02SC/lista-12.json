@@ -1,0 +1,44 @@
+{
+ "1/a": {
+  "partes": [
+   {
+    "p": "By direct computation, show that $\\nabla \\times \\mathbf{F} = \\mathbf{0}$ for all points not on the y-axis."
+   }
+  ]
+ },
+ "1/b": {
+  "partes": [
+   {
+    "p": "By direct computation, show that $\\displaystyle\\oint_{C_{1}} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ where $C_{1}$ is the closed curve defined by $x^{2} + y^{2} = 1$, $z = 1$."
+   }
+  ]
+ },
+ "1/c": {
+  "partes": [
+   {
+    "p": "Can you use Stokes' Theorem and the fact (from part (a)) that $\\nabla \\times \\mathbf{F} = \\mathbf{0}$ to conclude that $\\displaystyle\\oint_{C_{2}} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ when $C_{2}$ is the closed curve defined by $x^{2} + z^{2} = 1$, $y = 0$? Why/ why not?"
+   }
+  ]
+ },
+ "1/d": {
+  "partes": [
+   {
+    "p": "Compute out $\\displaystyle\\oint_{C_{2}} \\mathbf{F} \\cdot d\\mathbf{r}$ and see what happens."
+   }
+  ]
+ },
+ "2/a": {
+  "partes": [
+   {
+    "p": "Show that $\\nabla \\times \\mathbf{G} = \\mathbf{0}$ for all points $(x, y, z) \\neq (0, 0, 0)$"
+   }
+  ]
+ },
+ "2/b": {
+  "partes": [
+   {
+    "p": "Can you use Stokes' Theorem in this case and the fact that $\\nabla \\times \\mathbf{G} = \\mathbf{0}$ for all points $(x, y, z) \\neq (0, 0, 0)$ to conclude that $\\displaystyle\\oint_{C} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ for all simple closed curves $C$ which do not pass through the origin?"
+   }
+  ]
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "2/a": {
+  "partes": [
+   {
+    "p": "Determine what choice of $I_{1}$ and $I_{2}$ will minimize energy loss and hence determine what the currents will be along the two paths. (Alternatively, if you already are familiar with resistors in parallel and current flows, verify that the currents $I_{1}$ and $I_{2}$ do in fact minimize energy loss)."
+   }
+  ]
+ },
+ "3/": {
+  "partes": [
+   {
+    "p": "(7: 1,2,2,2)"
+   },
+   {
+    "p": "Using the usual rectangular and polar coordinates, let $w$ be the area of the right triangle in the first quadrant having its vertices at $(0, 0)$, $(x, 0)$ and $(x, y)$. Using the equation expressing $w$ in terms of $x$ and $y$ and the equations expressing $y$ in terms of $x$ and $\\theta$, calculate the two partial derivatives $\\left(\\dfrac{\\partial w}{\\partial x}\\right)_{\\theta}$ and $\\left(\\dfrac{\\partial w}{\\partial \\theta}\\right)_{x}$ in three different ways."
+   }
+  ]
+ },
+ "3/b": {
+  "partes": [
+   {
+    "p": "By using the chain rule – for example $\\left(\\dfrac{\\partial w}{\\partial x}\\right)_{\\theta} = w_{x}\\left(\\dfrac{\\partial x}{\\partial x}\\right)_{\\theta} + w_{y}\\left(\\dfrac{\\partial y}{\\partial x}\\right)_{\\theta}$, where $w_{x}$ and $w_{y}$ are the formal partial derivatives."
+   }
+  ]
+ },
+ "3/d": {
+  "partes": [
+   {
+    "p": "Using the triangle picture and geometric intuition, estimate $\\left(\\dfrac{\\Delta w}{\\Delta x}\\right)_{\\theta}$ and $\\left(\\dfrac{\\Delta w}{\\Delta \\theta}\\right)_{x}$ and show they agree with the two corresponding partial derivatives."
+   }
+  ]
+ }
+}

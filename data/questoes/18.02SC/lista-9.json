@@ -194,21 +194,10 @@
      "id": "i",
      "partes": [
       {
-       "p": "$\\mathbf{v}(x, y, t) = t\\langle -y, x\\rangle , \\rho (x, y, t) = px^{2} + y^{2}$"
+       "p": "$\\mathbf{v}(x, y, t) = t\\,\\langle -y, x\\rangle$, $\\quad \\rho(x, y, t) = \\sqrt{x^{2} + y^{2}}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3i-p3.png",
-       "w": 256,
-       "h": 21
-      }
-     ],
      "solucao": [
       {
        "p": ". Circular flow rotating around the origin O, speeding up with time. $\\frac{\\partial \\rho}{\\partial t} = 0, \\mathbf{v} \\cdot \\nabla \\rho = 0$ and div(v) = 0, for all $(x, y, t)$, so by 4(c) above the eqn. of continuity is satisfied. div(v) = 0, so the flow is incompressible; and since flow is not homogeneous (i.e. the density is not constant), it is stratified. (Even though the flow is not steady, we do have $\\rho = \\rho (x, y)$ only, and so incompressibility implies that $\\mathbf{v} \\cdot \\nabla \\rho = 0$, as in p-set 5 #3(b); in this case this is also clear, since the gradients of the density $\\nabla \\rho = \\frac{1}{r}\\langle x, y\\rangle$ are radial.)"
@@ -219,20 +208,10 @@
      "id": "ii",
      "partes": [
       {
-       "p": "$\\mathbf{v}(x, y, t) = \\frac{1}{1+t} \\langle x,-y\\rangle , \\rho (x, y, t) = xy$"
+       "p": "$\\mathbf{v}(x, y, t) = \\frac{1}{1+t}\\,\\langle x, -y\\rangle$, $\\quad \\rho(x, y, t) = xy$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3ii-p3.png",
-       "w": 236,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": ". The flow paths are hyperbolas (as in p-set 7 #5 case C). The flow is slowing down with time. Again by direct computation we see that $\\frac{\\partial \\rho}{\\partial t} = 0$, $\\mathbf{v} \\cdot \\nabla \\rho = 0$ and div(v) = 0, for all $(x, y, t)$, so the equation of continuity is satisfied; div(v) = 0 gives that flow is incompressible; and since flow is not homogeneous, it is stratified, again with $\\rho = \\rho (x, y)$ only, and $\\mathbf{v} \\cdot \\nabla \\rho = 0$."
@@ -243,23 +222,13 @@
      "id": "iii",
      "partes": [
       {
-       "p": "$\\mathbf{v}(x, y, t) = t\\langle x, y\\rangle , \\rho (x, y, t) =$ e$^{-t2}$."
+       "p": "$\\mathbf{v}(x, y, t) = t\\,\\langle x, y\\rangle$, $\\quad \\rho(x, y, t) = e^{-t^{2}}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3iii-p3.png",
-       "w": 228,
-       "h": 22
-      }
-     ],
      "solucao": [
       {
-       "p": ". The flow is radial outward from the origin. The flow paths are halfrays, i.e. straight lines starting from O. The flow is speeding up with time. We compute $\\frac{\\partial \\rho}{\\partial t} = -2 t$ e$^{-t2}$, and div($\\rho$ (t)v) $= \\rho (t$) div(v) = e$^{-t2} 2 t$, so the equation of continuity is satisfied. However div(v) = 2 t = 0, so the flow is not incompressible. Additional material (optional - for those who are interested in the completion of this the story): we need to show, as promised in p-set 7, that 'volume incompressibility,' as defined in p-set 7 #5, is equivalent to the original definition of incompressibility as $\\frac{D\\rho}{Dt} = 0$. This now goes via the equivalent condition div(v) = 0 as follows. First, the chain rule is used to prove that if $|J(x, y, z, t)|$ is the Jacobian determinant of the flow map $\\phi (x, y, z, t)$ (in the general 3D case), then $|J|$ satisfies the equation"
+       "p": ". The flow is radial outward from the origin. The flow paths are halfrays, i.e. straight lines starting from O. The flow is speeding up with time. We compute $\\frac{\\partial \\rho}{\\partial t} = -2 t$ e$^{-t2}$, and div($\\rho$ (t)v) $= \\rho (t$) div(v) = e$^{-t2} 2 t$, so the equation of continuity is satisfied. However div(v) = 2 t ≠ 0, so the flow is not incompressible. Additional material (optional - for those who are interested in the completion of this the story): we need to show, as promised in p-set 7, that 'volume incompressibility,' as defined in p-set 7 #5, is equivalent to the original definition of incompressibility as $\\frac{D\\rho}{Dt} = 0$. This now goes via the equivalent condition div(v) = 0 as follows. First, the chain rule is used to prove that if $|J(x, y, z, t)|$ is the Jacobian determinant of the flow map $\\phi (x, y, z, t)$ (in the general 3D case), then $|J|$ satisfies the equation"
       },
       {
        "p": "$\\frac{\\partial J| |}{\\partial t} = |J|$ div(v)."

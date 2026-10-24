@@ -1,0 +1,191 @@
+{
+ "5A-1/": {
+  "partes": [
+   {
+    "p": "Evaluate"
+   },
+   {
+    "p": "a) $\\tan^{-1}\\sqrt{3}$"
+   },
+   {
+    "p": "b) $\\sin^{-1}(\\sqrt{3}/2)$"
+   },
+   {
+    "p": "c) If $\\theta = \\tan^{-1} 5$, then evaluate $\\sin\\theta$, $\\cos\\theta$, $\\cot\\theta$, $\\csc\\theta$, and $\\sec\\theta$."
+   },
+   {
+    "p": "d) $\\sin^{-1}\\cos(\\pi/6)$"
+   },
+   {
+    "p": "e) $\\tan^{-1}\\tan(\\pi/3)$"
+   },
+   {
+    "p": "f) $\\tan^{-1}\\tan(2\\pi/3)$"
+   },
+   {
+    "p": "g) $\\displaystyle\\lim_{x \\to -\\infty} \\tan^{-1} x$."
+   }
+  ]
+ },
+ "5A-2/": {
+  "partes": [
+   {
+    "p": "Calculate"
+   },
+   {
+    "p": "a) $\\displaystyle\\int_{1}^{2} \\frac{dx}{x^{2} + 1}$"
+   },
+   {
+    "p": "b) $\\displaystyle\\int_{b}^{2b} \\frac{dx}{x^{2} + b^{2}}$"
+   },
+   {
+    "p": "c) $\\displaystyle\\int_{-1}^{1} \\frac{dx}{\\sqrt{1 - x^{2}}}$."
+   }
+  ]
+ },
+ "5A-3/a": {
+  "partes": [
+   {
+    "p": "$\\sin^{-1}\\left(\\dfrac{x - 1}{x + 1}\\right)$"
+   }
+  ]
+ },
+ "5A-3/b": {
+  "partes": [
+   {
+    "p": "$\\tanh x$"
+   }
+  ]
+ },
+ "5A-3/c": {
+  "partes": [
+   {
+    "p": "$\\ln(x + \\sqrt{x^{2} + 1})$"
+   }
+  ]
+ },
+ "5A-3/d": {
+  "partes": [
+   {
+    "p": "$y$ such that $\\cos y = x$, $0 \\leq x \\leq 1$ and $0 \\leq y \\leq \\pi/2$."
+   }
+  ]
+ },
+ "5A-3/e": {
+  "partes": [
+   {
+    "p": "$\\sin^{-1}(x/a)$"
+   }
+  ]
+ },
+ "5A-3/f": {
+  "partes": [
+   {
+    "p": "$\\sin^{-1}(a/x)$"
+   }
+  ]
+ },
+ "5A-3/g": {
+  "partes": [
+   {
+    "p": "$\\tan^{-1}(x/\\sqrt{1 - x^{2}})$"
+   }
+  ]
+ },
+ "5A-3/h": {
+  "partes": [
+   {
+    "p": "$\\sin^{-1}\\sqrt{1 - x}$"
+   }
+  ]
+ },
+ "5A-5/d": {
+  "partes": [
+   {
+    "p": "Use your work to evaluate $\\displaystyle\\int \\frac{dx}{\\sqrt{a^{2} + x^{2}}}$"
+   }
+  ]
+ },
+ "5E-12/c": {
+  "partes": [
+   {
+    "p": "c) $\\displaystyle\\int_{0}^{\\pi} \\frac{d\\theta}{(1 + \\sin\\theta)^{2}}$"
+   },
+   {
+    "p": "d) $\\displaystyle\\int_{0}^{\\pi} \\sin\\theta\\,d\\theta$ (Not the easiest way!)"
+   }
+  ]
+ },
+ "5F-1/": {
+  "partes": [
+   {
+    "p": "Evaluate:"
+   }
+  ]
+ },
+ "5F-1/a": {
+  "partes": [
+   {
+    "p": "a) $\\displaystyle\\int x^{a}\\ln x\\,dx \\quad (a \\neq -1)$"
+   },
+   {
+    "p": "b) Evaluate the case $a = -1$ by substitution."
+   }
+  ]
+ },
+ "5F-2/": {
+  "partes": [
+   {
+    "p": "Evaluate:"
+   }
+  ]
+ },
+ "5F-2/a": {
+  "partes": [
+   {
+    "p": "a) $\\displaystyle\\int xe^{x}\\,dx$"
+   },
+   {
+    "p": "b) $\\displaystyle\\int x^{2}e^{x}\\,dx$"
+   },
+   {
+    "p": "c) $\\displaystyle\\int x^{3}e^{x}\\,dx$"
+   }
+  ]
+ },
+ "5F-2/d": {
+  "partes": [
+   {
+    "p": "Derive the reduction formula expressing $\\displaystyle\\int x^{n}e^{ax}\\,dx$ in terms of $\\displaystyle\\int x^{n-1}e^{ax}\\,dx$."
+   }
+  ]
+ },
+ "5F-3/": {
+  "partes": [
+   {
+    "p": "Evaluate $\\displaystyle\\int \\sin^{-1}(4x)\\,dx$"
+   }
+  ]
+ },
+ "5F-4/": {
+  "partes": [
+   {
+    "p": "Evaluate $\\displaystyle\\int e^{x}\\cos x\\,dx$. (Integrate by parts twice.)"
+   }
+  ]
+ },
+ "5F-5/": {
+  "partes": [
+   {
+    "p": "Evaluate $\\displaystyle\\int \\cos(\\ln x)\\,dx$. (Integrate by parts twice.)"
+   }
+  ]
+ },
+ "5F-6/": {
+  "partes": [
+   {
+    "p": "Show the substitution $t = e^{x}$ transforms the integral $\\displaystyle\\int x^{n}e^{x}\\,dx$, into $\\displaystyle\\int (\\ln t)^{n}\\,dt$. Use a reduction procedure to evaluate this integral."
+   }
+  ]
+ }
+}

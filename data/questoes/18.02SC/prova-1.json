@@ -169,9 +169,8 @@
    "titulo": "",
    "partes": [
     {
-     "img": "e1/p1-1.png",
-     "w": 289,
-     "h": 37
+     "p": "$$M = \\begin{pmatrix} 1 & 2 & 3 \\\\ 3 & 2 & 1 \\\\ 2 & -1 & -1 \\end{pmatrix} \\qquad M^{-1} = \\frac{1}{12}\\begin{pmatrix} 1 & 1 & 4 \\\\ a & 7 & -8 \\\\ b & -5 & 4 \\end{pmatrix}$$",
+     "display": true
     }
    ],
    "itens": [
@@ -194,23 +193,9 @@
      "partes": [
       {
        "p": "(10) Find the numbers $a$ and $b$ in the formula for the matrix $M^{-1}$."
-      },
-      {
-       "p": "$$x + 2y + 3z = 0$$",
-       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4b-p1.png",
-       "w": 343,
-       "h": 38
-      }
-     ],
      "solucao": [
       {
        "p": "$a = -5, b = 7$."
@@ -226,24 +211,17 @@
      "id": "c",
      "partes": [
       {
-       "p": "(10) Find the solution $\\vec{\\mathbf{r}} = \\langle x, y, z\\rangle$ to $3x + 2y + z = t$ as a function of $t$."
+       "p": "(10) Find the solution $\\vec{r} = \\langle x, y, z\\rangle$ to"
       },
       {
-       "p": "$$2x - y - z = 3$$",
+       "p": "$$\\begin{aligned} x + 2y + 3z &= 0 \\\\ 3x + 2y + z &= t \\\\ 2x - y - z &= 3 \\end{aligned}$$",
        "display": true
+      },
+      {
+       "p": "as a function of $t$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4c-p1.png",
-       "w": 414,
-       "h": 31
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q4c-p1.png",

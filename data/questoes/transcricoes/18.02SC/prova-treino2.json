@@ -1,0 +1,23 @@
+{
+ "2/a": {
+  "partes": [
+   {
+    "p": "Estimate to the nearest .1 the value at the point $P$ of the directional derivative $\\left(\\dfrac{dh}{ds}\\right)_{\\hat{u}}$, where $\\hat{u}$ is the unit vector in the direction of $\\hat{\\imath} + \\hat{\\jmath}$."
+   }
+  ]
+ },
+ "4/a": {
+  "partes": [
+   {
+    "p": "Show that the problem leads one to maximize $f(x, y) = xy - x^{3}y - xy^{3}$, and write down the equations for the critical points of $f$."
+   }
+  ]
+ },
+ "7/": {
+  "partes": [
+   {
+    "p": "Suppose that $x^{2}y + xz^{2} = 5$, and let $w = x^{3}y$. Express $\\left(\\dfrac{\\partial w}{\\partial z}\\right)_{y}$ as a function of $x, y, z$, and evaluate it numerically when $(x, y, z) = (1, 1, 2)$."
+   }
+  ]
+ }
+}

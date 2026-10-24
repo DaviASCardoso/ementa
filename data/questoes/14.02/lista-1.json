@@ -56,16 +56,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q12-p1.png",
-       "w": 498,
-       "h": 60
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q12-p2.png",

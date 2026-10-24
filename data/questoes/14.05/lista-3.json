@@ -53,22 +53,9 @@
      "partes": [
       {
        "p": "Compare the quantities produced in the previous two parts $x^{e}$ and $x^{m}$. Is $x^{m}$ greater or smaller than $x^{e}$? Which one reflects a more efficient utilization of the drug (once invented)? Combine this with your analysis from the previous part to explain a key benefit and a key cost of IPR."
-      },
-      {
-       "p": "1"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1c-p1.png",
-       "w": 477,
-       "h": 152
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "d",
@@ -81,16 +68,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 481,
-     "h": 153
-    }
-   ],
    "fonte": 0
   },
   {
@@ -113,20 +90,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "Derive the wage levels {$w_{H}$, w$_{L}$} in terms of the parameters of the model. Characterize the skill premium $w_{H}$/w$_{L}$."
+       "p": "Derive the wage levels $\\{w_{H}, w_{L}\\}$ in terms of the parameters of the model. Characterize the skill premium $w_{H}/w_{L}$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2a-p2.png",
-       "w": 478,
-       "h": 36
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
@@ -181,20 +148,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "Analyze what happens to initial consumption $c(0)$, investment $i(0)$, output $y(0)$, wages $w(0)$, and the interest rate $r(0) = R(0) - \\delta$ ."
+       "p": "Analyze what happens to initial consumption $c(0)$, investment $i(0)$, output $y(0)$, wages $w(0)$, and the interest rate $r(0) = R(0) - \\delta$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3b-p3.png",
-       "w": 479,
-       "h": 35
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",
@@ -231,25 +188,22 @@
      "p": "Consider a static RBC model, without capital, where the representative household maximizes utility"
     },
     {
-     "p": "$$1+ \\frac{1}{\\phi}$$",
-     "display": true
-    },
-    {
-     "p": "$$U (c_{t}, ℓ_{t}) = \\frac{c_{t}^{1-\\sigma}}{1 - \\sigma} - \\frac{ℓ_{t}}{1 + \\frac{1}{\\phi}}, \\sigma , \\phi > 0$$",
+     "p": "$$U(c_{t}, \\ell_{t}) = \\frac{c_{t}^{1-\\sigma}}{1 - \\sigma} - \\frac{\\ell_{t}^{1+\\frac{1}{\\varphi}}}{1 + \\frac{1}{\\varphi}}, \\qquad \\sigma, \\varphi > 0$$",
      "display": true
     },
     {
      "p": "over consumption and labor supply, subject to the budget constraint"
     },
     {
-     "p": "$$c_{t} = w_{t}ℓ_{t}$$",
+     "p": "$$c_{t} = w_{t}\\ell_{t}$$",
      "display": true
     },
     {
      "p": "The representative firm hires labor and produces output"
     },
     {
-     "p": "$y_{t} =$ Aℓ$_{t}$, A > 0"
+     "p": "$$y_{t} = A\\ell_{t}, \\qquad A > 0$$",
+     "display": true
     },
     {
      "p": "where $A$ denotes the level of productivity."
@@ -272,7 +226,7 @@
      "id": "b",
      "partes": [
       {
-       "p": "Suppose there is a government that exogenously consumes $g_{t}$ units of output, unvalued by the household. The government runs a balanced budget with lump-sum taxes $T_{t} = g_{t}$ on the representative household. The representative household then has budget constraint $c_{t} = w_{t}$ℓ$_{t} - T_{t}$ and the economy-wide resource constraint is"
+       "p": "Suppose there is a government that exogenously consumes $g_{t}$ units of output, unvalued by the household. The government runs a balanced budget with lump-sum taxes $T_{t} = g_{t}$ on the representative household. The representative household then has budget constraint $c_{t} = w_{t}\\ell_{t} - T_{t}$ and the economy-wide resource constraint is"
       },
       {
        "p": "$$c_{t} + g_{t} = y_{t}$$",
@@ -294,32 +248,10 @@
        "p": "fixed, as in our earlier analysis of the neoclassical growth model."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4b-p4.png",
-       "w": 479,
-       "h": 198
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "algo sumiu antes da pontuação",
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p3.png",
-     "w": 478,
-     "h": 241
-    }
-   ],
    "fonte": 0
   }
  ]

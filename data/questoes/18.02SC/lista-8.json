@@ -65,20 +65,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "Show without calculation that for this field, $R_{C} \\mathbf{F} \\cdot d\\mathbf{r} = 0$, if $C$ is any positively oriented right triangle with legs parallel to the axes and hypotenuse on $L$."
+       "p": "Show *without calculation* that for this field, $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r} \\neq 0$, if $C$ is any positively oriented right triangle with legs parallel to the axes and hypotenuse on $L$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1b-p2.png",
-       "w": 442,
-       "h": 35
-      }
-     ],
      "solucao": [
       {
        "p": "The two possibilities for $C$ are shown in diagrams b(i) and b(ii)."
@@ -171,20 +161,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "Show that for any path $C$ joining two points $P_{1}$ and $P_{2}$ the values of $R_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ depends only on the ratio $r_{2}/r_{1}$, where $r_{i}$ is the distance of $P_{i}$ to the origin."
+       "p": "Show that for any path $C$ joining two points $P_{1}$ and $P_{2}$ the values of $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ depends only on the ratio $r_{2}/r_{1}$, where $r_{i}$ is the distance of $P_{i}$ to the origin."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3b-p2.png",
-       "w": 442,
-       "h": 36
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
@@ -208,20 +188,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "Write the integral $R_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ in the form $R_{C} M dx + N dy$."
+       "p": "Write the integral $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ in the form $\\displaystyle\\int_{C} M\\,dx + N\\,dy$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4a-p2.png",
-       "w": 313,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q4a-p2.png",
@@ -234,25 +204,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "By parametrizing the curve $C$ write the integral $R_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ as an explicit definitie integral in $t. ($Do not evaluate.)"
-      },
-      {
-       "img": "e1/p2-4.png",
-       "w": 326,
-       "h": 16
+       "p": "By parametrizing the curve $C$ write the integral $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ as an explicit definite integral in $t$. (*Do not evaluate.*)"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4b-p2.png",
-       "w": 442,
-       "h": 58
-      }
-     ],
      "solucao": [
       {
        "p": "Path: $x = \\frac{1}{3}$ cos $t, y = \\frac{1}{2}$ sin $t, 0 \\leq t \\leq \\pi /2$."
@@ -268,20 +223,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "Use the Fundamental Theorem to (easily) compute $R_{C} \\mathbf{F} \\cdot d\\mathbf{r}$."
+       "p": "Use the Fundamental Theorem to (easily) compute $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4c-p2.png",
-       "w": 336,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q4c-p2.png",
@@ -334,7 +279,7 @@
      "tipo": "aberta",
      "solucao": [
       {
-       "p": "curlF $= (N_{x} - M_{y})\\mathbf{k} = (3x^{2} - x)\\mathbf{k} = 0 \\Rightarrow \\mathbf{F}$ is not conservative."
+       "p": "curlF $= (N_{x} - M_{y})\\mathbf{k} = (3x^{2} - x)\\mathbf{k} \\neq 0 \\Rightarrow \\mathbf{F}$ is not conservative."
       }
      ]
     },

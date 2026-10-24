@@ -108,6 +108,45 @@ def sanear(out):
             x['revisar'] = ['fórmula que o KaTeX não desenha']
 
 
+def aplicar_transcricoes(out, sid):
+    """Transcrições feitas à mão de itens que eram recorte: data/questoes/transcricoes/<curso>/<etapa>.json,
+    com chaves "<questão>/<item>" ("<questão>/" para o enunciado da questão)."""
+    caminho = os.path.join(SAIDA, 'transcricoes', sid + '.json')
+    if not os.path.exists(caminho):
+        return 0
+    trans = json.load(open(caminho, encoding='utf-8'))
+    usados = set()
+    vistas = {}
+    remover = []
+    for q in out['questoes']:
+        vistas[q['n']] = vistas.get(q['n'], 0) + 1
+        ocorr = f"#{vistas[q['n']]}" if vistas[q['n']] > 1 else ''
+        for x in [q] + q['itens']:
+            sufixo = x.get('id', '') if x is not q else ''
+            chave = f"{q['n']}{ocorr}/{sufixo}"
+            t = trans.get(chave)
+            if t is None and not ocorr:
+                t = trans.get(f"{q['n']}#1/{sufixo}")
+            if t and t.get('tipo') == 'remover' and x is q:
+                usados.add(chave)
+                remover.append(q)
+                break
+            if not t:
+                continue
+            usados.add(chave)
+            for campo in ('partes', 'contexto', 'solucao', 'opcoes'):
+                if campo in t:
+                    x[campo] = t[campo]
+            if 'tipo' in t:
+                x['tipo'] = t['tipo']
+            x.pop('revisar', None)
+            x.pop('recorte', None)
+    out['questoes'] = [q for q in out['questoes'] if not any(q is r for r in remover)]
+    for chave in set(trans) - usados:
+        print(f'  ! transcrição sem item correspondente: {sid} {chave}')
+    return len(usados)
+
+
 def resposta(x):
     """Texto da resposta; se a transcrição do gabarito ficou duvidosa, vai o recorte do PDF."""
     if x.get('revisar') and x.get('recorte'):
@@ -146,6 +185,7 @@ def gerar(step):
     os.makedirs(os.path.dirname(destino), exist_ok=True)
     if os.path.exists(manual):
         dados = json.load(open(manual, encoding='utf-8'))
+        aplicar_transcricoes(dados, step['id'])
         sanear(dados)
         with open(destino, 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=1)
@@ -190,6 +230,7 @@ def gerar(step):
     if gabaritos and not ligados:
         out['avisos'].append('o gabarito não casou com nenhuma questão')
     limpa(out)
+    aplicar_transcricoes(out, step['id'])
     sanear(out)
     with open(destino, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)

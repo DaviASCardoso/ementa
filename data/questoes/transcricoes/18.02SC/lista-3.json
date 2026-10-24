@@ -1,0 +1,9 @@
+{
+ "4/c": {
+  "partes": [
+   {
+    "p": "Check that when $\\alpha = 0$ the curve $\\mathbf{r}_{0}(t)$ is the enlarged circle $\\mathcal{C}_{0}$ in the x-y plane. Then use the following 'quick-and-dirty' method to estimate the distortion in $\\mathcal{C}_{\\alpha}$ from the circle $\\mathcal{C}_{0}$ caused by the tilt: compute the distance $|\\mathbf{r}_{\\alpha}(t) - \\mathbf{r}_{0}(t)|$ between the two curves at the four 'corner' points corresponding to $t = 0, \\frac{\\pi}{2}, \\pi, \\frac{3\\pi}{2}$, and just take the largest value from these four."
+   }
+  ]
+ }
+}

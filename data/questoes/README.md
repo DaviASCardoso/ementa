@@ -8,3 +8,5 @@ Gerado por `npm run questoes` (`scripts/questoes.py`), a partir dos PDFs de list
 - `indice.json`: resumo por etapa, com os avisos de estrutura.
 
 Correções à mão ficam em `manual/<curso>/<etapa>.json` (imagens em `public/questoes/<curso>/<etapa>/manual/`) e têm precedência sobre a saída automática.
+
+Transcrições feitas à mão de itens que o script não conseguiu transcrever com segurança ficam em `transcricoes/<curso>/<etapa>.json`. A chave é `"<questão>/<item>"` (ou `"<questão>/"` para o enunciado da questão; `"<questão>#2/"` para a segunda questão com o mesmo número) e o valor traz `partes`, e opcionalmente `contexto`, `solucao`, `opcoes` e `tipo` (`"remover"` apaga a questão). Elas são aplicadas por cima da saída automática a cada `npm run questoes`. Figuras recortadas à mão ficam em `public/questoes/<curso>/<etapa>/manual/`.

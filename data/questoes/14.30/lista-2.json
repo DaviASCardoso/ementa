@@ -30,18 +30,14 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Recall that a random variable X has the binomial distribution if"
+     "p": "Recall that a random variable $X$ has the binomial distribution if"
     },
     {
-     "img": "e1/p2-1.png",
-     "w": 436,
-     "h": 46
+     "p": "$$P(X = x) = \\binom{n}{x}p^{x}(1 - p)^{n-x},$$",
+     "display": true
     },
     {
-     "p": "where n is the number of trials and p is the chance of success. For the following crudely-disguised questions about the binomial distribution, do the following: Define p, n, what the specific \"trials\" are, what \"success\" is. Then write down the relevant distribution and answer the specific question."
-    },
-    {
-     "p": "'In the debate over the minimum wage, one point that is always made is that a lot of workers on the minimum wage are middle-class teenagers. Since most of them are not supporting a family, the harms of an increase in the minimum wage outweigh the benefits. This point never convinces anyone."
+     "p": "where $n$ is the number of trials and $p$ is the chance of success. For the following crudely-disguised questions about the binomial distribution, do the following: Define $p$, $n$, what the specific \"trials\" are, what \"success\" is. Then write down the relevant distribution and answer the specific question."
     }
    ],
    "itens": [
@@ -53,16 +49,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q11-p2.png",
-       "w": 429,
-       "h": 53
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q11-p2.png",
@@ -80,20 +66,13 @@
      "id": "2",
      "partes": [
       {
-       "p": "(3 pts.) Suppose an economist is organizing a survey of American minimum wage workers, and is interested in understanding how many workers that earn the minimum wage are teenagers.' Suppose further that one out of every four minimum wage workers is a teenager. If the economist finds 80 minimum wage workers for his survey, what's the probability that he interviews exactly 14 teenagers? 35 teenagers? What's the probability that he gets at least 5 teenagers in his survey?"
+       "p": "(3 pts.) Suppose an economist is organizing a survey of American minimum wage workers, and is interested in understanding how many workers that earn the minimum wage are teenagers.¹ Suppose further that one out of every four minimum wage workers is a teenager. If the economist finds 80 minimum wage workers for his survey, what's the probability that he interviews exactly 14 teenagers? 35 teenagers? What's the probability that he gets at least 5 teenagers in his survey?"
+      },
+      {
+       "p": "¹ In the debate over the minimum wage, one point that is always made is that a lot of workers on the minimum wage are middle-class teenagers. Since most of them are not supporting a family, the harms of an increase in the minimum wage outweigh the benefits. This point never convinces anyone."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q12-p2.png",
-       "w": 430,
-       "h": 110
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q12-p3.png",
@@ -110,16 +89,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q13-p2.png",
-       "w": 430,
-       "h": 110
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q13-p3.png",
@@ -130,16 +99,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p2.png",
-     "w": 446,
-     "h": 163
-    }
-   ],
    "fonte": 0
   },
   {
@@ -147,7 +106,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Suppose you flip a weighted coin (probability of heads is $p$ and probability of tails is q 1- p) $n$ times."
+     "p": "Suppose you flip a weighted coin (probability of heads is $p$ and probability of tails is $q = 1 - p$) $n$ times."
     }
    ],
    "itens": [
@@ -155,20 +114,10 @@
      "id": "1",
      "partes": [
       {
-       "p": "What is the probability that you get a particular ordering of k heads and n -k tails?"
+       "p": "What is the probability that you get a particular ordering of $k$ heads and $n - k$ tails?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q21-p3.png",
-       "w": 430,
-       "h": 39
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q21-p5.png",
@@ -181,20 +130,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "What is the probability that you get k heads and n - k tails?"
+       "p": "What is the probability that you get $k$ heads and $n - k$ tails?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q22-p3.png",
-       "w": 344,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q22-p5.png",
@@ -207,21 +146,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "Let X =the number of heads in n flips. What is the probability density function of X?"
+       "p": "Let $X \\equiv$ the number of heads in $n$ flips. What is the probability density function of $X$?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q23-p3.png",
-       "w": 430,
-       "h": 39
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q23-p5.png",
@@ -234,20 +162,10 @@
      "id": "4",
      "partes": [
       {
-       "p": "What does this question have to do with the MIT Beaver's football team question from Problem Set #I? Explain."
+       "p": "What does this question have to do with the MIT Beaver's football team question from Problem Set #1? Explain."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q24-p3.png",
-       "w": 429,
-       "h": 39
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q24-p5.png",
@@ -265,7 +183,7 @@
      "id": "2'",
      "partes": [
       {
-       "p": "What is the probability that you chose the fair coin given that Y k?"
+       "p": "What is the probability that you chose the fair coin given that $Y = k$?"
       }
      ],
      "contexto": [
@@ -274,16 +192,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q22'-p3.png",
-       "w": 389,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q22'-p6.png",
@@ -294,16 +202,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p3.png",
-     "w": 444,
-     "h": 70
-    }
-   ],
    "fonte": 0
   },
   {
@@ -319,20 +217,10 @@
      "id": "1",
      "partes": [
       {
-       "p": "Let X denote the absolute value of the difference between the two numbers that appear."
+       "p": "Let $X$ denote the absolute value of the difference between the two numbers that appear."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q31-p3.png",
-       "w": 429,
-       "h": 39
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q31-p7.png",
@@ -345,20 +233,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "Let Y denote the product of the two numbers that appear."
+       "p": "Let $Y$ denote the product of the two numbers that appear."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q32-p3.png",
-       "w": 330,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q32-p7.png",
@@ -375,16 +253,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q33-p3.png",
-       "w": 312,
-       "h": 26
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q33-p7.png",
@@ -395,16 +263,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q3-p3.png",
-     "w": 443,
-     "h": 70
-    }
-   ],
    "fonte": 0
   },
   {
@@ -412,10 +270,14 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Suppose that you have just purchased a new battery for your smoke detector, and the life of the battery is a random variable X, with pdf"
+     "p": "Suppose that you have just purchased a new battery for your smoke detector, and the life of the battery is a random variable $X$, with pdf"
     },
     {
-     "p": "where x E (0,oo).Assume that t and s are real non-negative numbers."
+     "p": "$$f_{X}(x) = ke^{-x/\\beta},$$",
+     "display": true
+    },
+    {
+     "p": "where $x \\in (0, \\infty)$. Assume that $t$ and $s$ are real non-negative numbers."
     }
    ],
    "itens": [
@@ -423,20 +285,10 @@
      "id": "1",
      "partes": [
       {
-       "p": "Use the properties of a pdf to find the value of k."
+       "p": "Use the properties of a pdf to find the value of $k$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q41-p3.png",
-       "w": 280,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q41-p8.png",
@@ -449,20 +301,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "Find an expression for P(X t)."
+       "p": "Find an expression for $P(X \\geq t)$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q42-p3.png",
-       "w": 199,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q42-p8.png",
@@ -475,20 +317,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "Find an expression for P(X $2 t +$ sI X 2 s)."
+       "p": "Find an expression for $P(X \\geq t + s \\mid X \\geq s)$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q43-p4.png",
-       "w": 255,
-       "h": 32
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q43-p8.png",
@@ -501,20 +333,10 @@
      "id": "4",
      "partes": [
       {
-       "p": "Suppose that your batteries have lasted s weeks without dying. Based on your above answers, are you more concerned that the battery is about to die that you were when you first put it in?"
+       "p": "Suppose that your batteries have lasted $s$ weeks without dying. Based on your above answers, are you more concerned that the battery is about to die that you were when you first put it in?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q44-p4.png",
-       "w": 430,
-       "h": 53
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q44-p8.png",
@@ -525,16 +347,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p3.png",
-     "w": 444,
-     "h": 123
-    }
-   ],
    "fonte": 0
   },
   {
@@ -542,7 +354,17 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Suppose we investigate the pattern of genetic inheritance for the color of an exotic flower which has either blue or red blossoms. Since the flower lives in a close symbiotic relationship with the very shy squirrel monkey which can't be held in captivity, there is no way of doing a controlled laboratory experiment to answer the research questions. Each flower carries the color genes of both its \"father\" and its \"mother,\" so its genetic information can be described as a pair of genes (GM, GF) as given by the following table: \"Flat her1' B R \"Mother\" B The phenotype corresponding to red blossoms, R,is said to be dominant if any flower which contains at least one gene of the R type (e.g. the combination (R,B)) has red blossoms. Either the blue or the red phenotype is dominant, but before having seen a single specimen of the flower, we think that each possibility is equally likely."
+     "p": "Suppose we investigate the pattern of genetic inheritance for the color of an exotic flower which has either blue or red blossoms. Since the flower lives in a close symbiotic relationship with the very shy squirrel monkey which can't be held in captivity, there is no way of doing a controlled laboratory experiment to answer the research questions."
+    },
+    {
+     "p": "Each flower carries the color genes of both its \"father\" and its \"mother,\" so its genetic information can be described as a pair of genes $(G_{M}, G_{F})$ as given by the following table:"
+    },
+    {
+     "p": "$$\\begin{array}{cc|c|c|} & & \\text{\"Father\" B} & \\text{\"Father\" R} \\\\ \\hline \\text{\"Mother\"} & \\text{B} & (B,B) & (B,R) \\\\ \\hline & \\text{R} & (R,B) & (R,R) \\\\ \\hline \\end{array}$$",
+     "display": true
+    },
+    {
+     "p": "The phenotype corresponding to red blossoms, R, is said to be dominant if any flower which contains at least one gene of the R type (e.g. the combination (R,B)) has red blossoms. Either the blue or the red phenotype is dominant, but before having seen a single specimen of the flower, we think that each possibility is equally likely."
     }
    ],
    "itens": [
@@ -550,20 +372,10 @@
      "id": "1",
      "partes": [
       {
-       "p": "Suppose we know beforehand that the R and the B alleles are equally frequent, i.e. Pi(B) = Pi(R) = for $\\mathbf{i}=$ F,M, and independent across the \"parents,\" i.e. PFM(GF, GM) = PF(GF) PM(GM). If the blue phenotype B is dominant, what is the probability that a given specimen of the flower has red blossoms? What is the probability of red blossoms if the R is dominant?"
+       "p": "Suppose we know beforehand that the R and the B alleles are equally frequent, i.e. $P_{i}(B) = P_{i}(R) = \\frac{1}{2}$ for $i = F, M$, and independent across the \"parents,\" i.e. $P_{FM}(G_{F}, G_{M}) = P_{F}(G_{F})P_{M}(G_{M})$. If the blue phenotype B is dominant, what is the probability that a given specimen of the flower has red blossoms? What is the probability of red blossoms if the R is dominant?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q51-p4.png",
-       "w": 430,
-       "h": 83
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q51-p9.png",
@@ -580,16 +392,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q52-p4.png",
-       "w": 429,
-       "h": 67
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q52-p9.png",
@@ -606,16 +408,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q53-p4.png",
-       "w": 429,
-       "h": 38
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q53-p9.png",
@@ -633,20 +425,10 @@
      "id": "4",
      "partes": [
       {
-       "p": "At the same time, there is a lonely graduate student working in the same area for two entire years on the same research question. The graduate student is totally cut off from the outside world and doesn't know about the other expedition's findings yet, but bases his inference solely on his own sample. What is his posterior probability of R being dominant given that he found N flowers, out of which x have red blossoms? Show that this probability does not depend directly on N, but only the difference between the number x of red blossoms, and the number N - x of blue blossoms."
+       "p": "At the same time, there is a lonely graduate student working in the same area for two entire years on the same research question. The graduate student is totally cut off from the outside world and doesn't know about the other expedition's findings yet, but bases his inference solely on his own sample. What is his posterior probability of R being dominant given that he found $N$ flowers, out of which $x$ have red blossoms? Show that this probability does not depend directly on $N$, but only the difference between the number $x$ of red blossoms, and the number $N - x$ of blue blossoms."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q54-p4.png",
-       "w": 431,
-       "h": 125
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q54-p10.png",
@@ -662,17 +444,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto",
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5-p4.png",
-     "w": 445,
-     "h": 249
-    }
-   ],
    "fonte": 0
   }
  ]

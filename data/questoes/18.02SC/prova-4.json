@@ -156,20 +156,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "by direct calculation of $R R_{S} \\vec{F} \\cdot \\hat{\\mathbf{n}} dS$;"
+       "p": "by direct calculation of $\\displaystyle\\iint_{S} \\vec{F} \\cdot \\hat{\\mathbf{n}}\\,dS$;"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4a-p1.png",
-       "w": 200,
-       "h": 23
-      }
-     ],
      "solucao": [
       {
        "p": "$S$ is the graph of $z = f (x, y) = 1 - x^{2} - y^{2}$, so $\\hat{n} dS = \\langle -f_{x},-f_{y}, 1\\rangle dA = \\langle 2x, 2y, 1\\rangle dA$."
@@ -246,25 +236,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "Show that $R R_{R}$ curl $\\vec{F} \\cdot \\hat{\\mathbf{n}} dS = 0$ for any finite portion $R$ of the unit sphere $x^{2} + y^{2} + z^{2} = 1$ (take the normal vector $\\hat{\\mathbf{n}}$ pointing outward)."
-      },
-      {
-       "img": "e1/p1-3.png",
-       "w": 447,
-       "h": 15
+       "p": "Show that $\\displaystyle\\iint_{R} \\text{curl}\\,\\vec{F} \\cdot \\hat{\\mathbf{n}}\\,dS = 0$ for any finite portion $R$ of the unit sphere $x^{2} + y^{2} + z^{2} = 1$ (take the normal vector $\\hat{\\mathbf{n}}$ pointing outward)."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5b-p1.png",
-       "w": 476,
-       "h": 56
-      }
-     ],
      "solucao": [
       {
        "p": "On the unit sphere, $\\hat{n} = x\\hat{\\imath +} y\\hat{j +} z\\hat{k,}$ so curl $\\vec{F} \\cdot \\hat{n} = \\langle 2y,-2x, 0\\rangle \\cdot \\langle x, y, z\\rangle = 2xy - 2xy = 0$;"
@@ -280,20 +255,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "Show that $H_{C} \\vec{F} \\cdot d\\vec{r} = 0$ for any simple closed curve $C$ on the unit sphere $x^{2} + y^{2} + z^{2} = 1$."
+       "p": "Show that $\\displaystyle\\oint_{C} \\vec{F} \\cdot d\\vec{r} = 0$ for any simple closed curve $C$ on the unit sphere $x^{2} + y^{2} + z^{2} = 1$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5c-p1.png",
-       "w": 457,
-       "h": 23
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q5c-p1.png",

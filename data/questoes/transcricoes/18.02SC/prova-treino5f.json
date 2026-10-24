@@ -1,0 +1,101 @@
+{
+ "10/": {
+  "partes": [
+   {
+    "p": "A plane region $R$ is bounded by four semicircles of radius 1, having ends at $(1, 1), (1, -1), (-1, 1), (-1, -1)$ and centerpoints at $(2, 0), (-2, 0), (0, 2), (0, -2)$."
+   },
+   {
+    "p": "Set up an iterated integral in polar coordinates for the moment of inertia of $R$ about the origin; take the density $\\delta = 1$. Supply integrand and limits, but *do not evaluate* the integral."
+   },
+   {
+    "p": "Use symmetry to simplify the limits of integration."
+   }
+  ]
+ },
+ "12/": {
+  "partes": [
+   {
+    "p": "A solid hemisphere of radius 1 has its lower flat base on the $xy$-plane and center at the origin. Its density function is $\\delta = z$. Find the force of gravitational attraction it exerts on a unit mass at the origin."
+   }
+  ]
+ },
+ "13/": {
+  "partes": [
+   {
+    "p": "Evaluate $\\displaystyle\\int_{C} (y - x)\\,dz + (y - z)\\,dz$ over the line segment $C$ from $P: (1, 1, 1)$ to $Q: (2, 4, 8)$."
+   }
+  ]
+ },
+ "14/": {
+  "partes": [
+   {
+    "p": "(Problem 14)"
+   }
+  ]
+ },
+ "14/a": {
+  "partes": [
+   {
+    "p": "Let $\\mathbf{F} = ay^{2}\\,\\mathbf{i} + 2y(x + z)\\,\\mathbf{j} + (by^{2} + z^{2})\\,\\mathbf{k}$. For what values of the constants $a$ and $b$ will $\\mathbf{F}$ be conservative? Show work."
+   }
+  ]
+ },
+ "14/c": {
+  "partes": [
+   {
+    "p": "Using these values, give the equation of a surface $S$ having the property: $\\displaystyle\\int_{P}^{Q} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ for any two points $P$ and $Q$ on the surface $S$."
+   }
+  ]
+ },
+ "17/": {
+  "partes": [
+   {
+    "p": "An $xz$-cylinder in 3-space is a surface given by an equation $f(x, z) = 0$ in $x$ and $z$ alone; its section by any plane $y = c$ perpendicular to the $y$-axis is always the same $xz$-curve."
+   },
+   {
+    "p": "Show that if $\\mathbf{F} = z^{2}\\,\\mathbf{i} + y^{2}\\,\\mathbf{j} + xz\\,\\mathbf{k}$ then $\\displaystyle\\oint_{C} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ for any simple closed curve $C$ lying on an $xz$-cylinder. (Use Stokes' theorem)"
+   }
+  ]
+ },
+ "18/": {
+  "partes": [
+   {
+    "p": "$\\displaystyle\\int e^{-x^{2}}\\,dx$ is not elementary but $I = \\displaystyle\\int_{0}^{\\infty} e^{-x^{2}}\\,dx$ can still be evaluated."
+   }
+  ]
+ },
+ "18/a": {
+  "partes": [
+   {
+    "p": "Evaluate the iterated integral $\\displaystyle\\int_{0}^{\\infty}\\int_{0}^{\\infty} e^{-x^{2}}e^{-y^{2}}\\,dy\\,dx$, in terms of $I$."
+   }
+  ]
+ },
+ "2/": {
+  "partes": [
+   {
+    "p": "Let $\\mathbf{A} = \\begin{pmatrix} 1 & 0 & c \\\\ 2 & c & 1 \\\\ 1 & -1 & 2 \\end{pmatrix}$, $\\mathbf{x} = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}$, $\\mathbf{0} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}$, $\\mathbf{A}^{-1} = \\begin{pmatrix} \\cdot & \\cdot & \\cdot \\\\ \\cdot & \\cdot & \\cdot \\\\ \\cdot & \\times & \\cdot \\end{pmatrix}$."
+   }
+  ]
+ },
+ "8/": {
+  "partes": [
+   {
+    "p": "Let $\\omega = f(x, y, z)$ with the constraint $g(x, y, z) = 3$."
+   },
+   {
+    "p": "At the point $P: (0, 0, 0)$, we have $\\nabla f = \\langle 1, 1, 2\\rangle$ and $\\nabla g = \\langle 2, -1, -1\\rangle$. Find the value at $P$ of the two quantities (show work):"
+   },
+   {
+    "p": "a) $\\left(\\dfrac{\\partial z}{\\partial x}\\right)_{y}$ $\\qquad$ b) $\\left(\\dfrac{\\partial \\omega}{\\partial x}\\right)_{y}$"
+   }
+  ]
+ },
+ "9/": {
+  "partes": [
+   {
+    "p": "Evaluate by changing the order of integration: $\\displaystyle\\int_{0}^{3}\\int_{z^{3}}^{9} xe^{-y^{2}}\\,dy\\,dz$."
+   }
+  ]
+ }
+}

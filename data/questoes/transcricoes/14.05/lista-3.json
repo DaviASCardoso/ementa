@@ -1,0 +1,86 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Consider a drug company that contemplates inventing a drug. The drug costs \\$800 to invent. Once invented, it can be produced at a marginal cost of \\$1 by the company that invented the drug as well as other drug companies. Suppose there are a large number of drug companies. The total market demand for the drug is described by the following relation:"
+   },
+   {
+    "p": "$$x = 61 - p$$",
+    "display": true
+   },
+   {
+    "p": "where $p$ is the price of the drug."
+   }
+  ]
+ },
+ "1/c": {
+  "partes": [
+   {
+    "p": "Compare the quantities produced in the previous two parts $x^{e}$ and $x^{m}$. Is $x^{m}$ greater or smaller than $x^{e}$? Which one reflects a more efficient utilization of the drug (once invented)? Combine this with your analysis from the previous part to explain a key benefit and a key cost of IPR."
+   }
+  ]
+ },
+ "2/a": {
+  "partes": [
+   {
+    "p": "Derive the wage levels $\\{w_{H}, w_{L}\\}$ in terms of the parameters of the model. Characterize the skill premium $w_{H}/w_{L}$."
+   }
+  ]
+ },
+ "3/b": {
+  "partes": [
+   {
+    "p": "Analyze what happens to initial consumption $c(0)$, investment $i(0)$, output $y(0)$, wages $w(0)$, and the interest rate $r(0) = R(0) - \\delta$."
+   }
+  ]
+ },
+ "4/": {
+  "partes": [
+   {
+    "p": "Consider a static RBC model, without capital, where the representative household maximizes utility"
+   },
+   {
+    "p": "$$U(c_{t}, \\ell_{t}) = \\frac{c_{t}^{1-\\sigma}}{1 - \\sigma} - \\frac{\\ell_{t}^{1+\\frac{1}{\\varphi}}}{1 + \\frac{1}{\\varphi}}, \\qquad \\sigma, \\varphi > 0$$",
+    "display": true
+   },
+   {
+    "p": "over consumption and labor supply, subject to the budget constraint"
+   },
+   {
+    "p": "$$c_{t} = w_{t}\\ell_{t}$$",
+    "display": true
+   },
+   {
+    "p": "The representative firm hires labor and produces output"
+   },
+   {
+    "p": "$$y_{t} = A\\ell_{t}, \\qquad A > 0$$",
+    "display": true
+   },
+   {
+    "p": "where $A$ denotes the level of productivity."
+   }
+  ]
+ },
+ "4/b": {
+  "partes": [
+   {
+    "p": "Suppose there is a government that exogenously consumes $g_{t}$ units of output, unvalued by the household. The government runs a balanced budget with lump-sum taxes $T_{t} = g_{t}$ on the representative household. The representative household then has budget constraint $c_{t} = w_{t}\\ell_{t} - T_{t}$ and the economy-wide resource constraint is"
+   },
+   {
+    "p": "$$c_{t} + g_{t} = y_{t}$$",
+    "display": true
+   },
+   {
+    "p": "Calculate the effects of an exogenous increase in government consumption on output"
+   },
+   {
+    "p": "$$\\frac{dy_{t}}{dg_{t}}$$",
+    "display": true
+   },
+   {
+    "p": "Does an increase in $g_{t}$ increase $y_{t}$ more or less than 1-for-1? Explain."
+   }
+  ]
+ }
+}

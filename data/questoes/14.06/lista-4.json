@@ -27,10 +27,12 @@
      "p": "This question is based on the Learning by Doing model discussed in the class notes and Romer's textbook (page 120). The economy is described as follows:"
     },
     {
-     "p": "$1- 1\\theta$ $u(c_{t}) = \\frac{c_{t}}{1- 1}$"
+     "p": "$$u(c_{t}) = \\frac{c_{t}^{1-1/\\theta}}{1 - 1/\\theta}$$",
+     "display": true
     },
     {
-     "p": "$Y_{t} = K_{t}^{\\alpha}($h L$_{t}_{\\frac{\\theta}{t}})^{1-\\alpha}, k_{t+1} =(1-\\delta )k_{t} +i_{t,} h_{t} =$ bk$_{t}, b > 0, L_{t} = L \\forall t$"
+     "p": "$$Y_{t} = K_{t}^{\\alpha}(h_{t}L_{t})^{1-\\alpha}, \\quad k_{t+1} = (1-\\delta)k_{t} + i_{t}, \\quad h_{t} = bk_{t}, \\; b > 0, \\quad L_{t} = L \\;\\; \\forall t$$",
+     "display": true
     }
    ],
    "itens": [
@@ -58,20 +60,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "Write out and solve the social planner's problem in this economy. [Assume that the discount factor is $\\beta \\in (0,1)]$"
+       "p": "Write out and solve the social planner's problem in this economy. [Assume that the discount factor is $\\beta \\in (0, 1)$]"
       }
      ],
      "tipo": "grupo",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1b-p1.png",
-       "w": 363,
-       "h": 32
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1b-p1.png",
@@ -141,7 +133,7 @@
        "p": "Prove the household budget constraint can be written as:"
       },
       {
-       "p": "$$c_{t} + k_{t+1} +b_{t+1} = w h_{t}_{t} +(1+r_{t} -\\delta k_{t} +(1+ R_{t})b_{t}$$",
+       "p": "$$c_{t} + k_{t+1} + b_{t+1} = w_{t}h_{t} + (1 + r_{t} - \\delta)k_{t} + (1 + R_{t})b_{t}$$",
        "display": true
       },
       {
@@ -150,18 +142,6 @@
      ],
      "pai": "c",
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "fórmula que o KaTeX não desenha",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1ca-p1.png",
-       "w": 262,
-       "h": 47
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1ca-p2.png",
@@ -264,20 +244,10 @@
      "id": "e",
      "partes": [
       {
-       "p": "Now suppose that the government subsidizes the private cost of capital for firms. In particular, assume that the private cost of capital for firms is now given by $(1-\\tau )r_{t}$ and the government pays for this subsidy via lump sum taxes, $T$ , on individuals. Resolve for the competitive equilibrium of this economy."
+       "p": "Now suppose that the government subsidizes the private cost of capital for firms. In particular, assume that the private cost of capital for firms is now given by $(1-\\tau)r_{t}$ and the government pays for this subsidy via lump sum taxes, $T$, on individuals. Resolve for the competitive equilibrium of this economy."
       }
      ],
      "tipo": "grupo",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1e-p2.png",
-       "w": 378,
-       "h": 57
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1e-p4.png",
@@ -328,18 +298,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "fórmula que o KaTeX não desenha",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 405,
-     "h": 105
-    }
-   ],
    "fonte": 0
   },
   {
@@ -350,13 +308,8 @@
      "p": "This question will add taxes to the human capital model discussed in the notes. Specifically, assume the following conditions for the economy:"
     },
     {
-     "p": "$1- 1\\theta$ $u(c_{t}) = \\frac{c_{t}}{1- 1}$"
-    },
-    {
-     "p": "$_{t+1}^{t}\\frac{Y = BK h L}{k = 1-\\delta k +i}(^{t\\alpha}()^{t}_{t}^{\\frac{\\theta}{t}})_{tk}^{1-\\beta ,B}^{>}^{0,Lt}^{=}^{L}^{\\forall t}$"
-    },
-    {
-     "p": "$h_{t+1} =(1-\\delta h_{t} +i_{t}^{h}$"
+     "p": "$$\\begin{aligned} & u(c_{t}) = \\frac{c_{t}^{1-1/\\theta}}{1 - 1/\\theta} \\\\ & Y_{t} = BK_{t}^{\\alpha}(h_{t}L_{t})^{1-\\beta}, \\quad B > 0, \\quad L_{t} = L \\;\\; \\forall t \\\\ & k_{t+1} = (1-\\delta)k_{t} + i_{t}^{k} \\\\ & h_{t+1} = (1-\\delta)h_{t} + i_{t}^{h} \\end{aligned}$$",
+     "display": true
     }
    ],
    "itens": [
@@ -454,21 +407,15 @@
      "id": "c1",
      "partes": [
       {
-       "p": "Prove that the household budget constraint can be written as: $c_{t} +k_{t+1} +h_{t+1} +b_{t+1} = (1+ w_{t} -\\delta h_{t} +(1+ r_{t} -\\delta k_{t} +(1+ R_{t})b_{t}$"
+       "p": "Prove that the household budget constraint can be written as:"
+      },
+      {
+       "p": "$$c_{t} + k_{t+1} + h_{t+1} + b_{t+1} = (1 + w_{t} - \\delta)h_{t} + (1 + r_{t} - \\delta)k_{t} + (1 + R_{t})b_{t}$$",
+       "display": true
       }
      ],
      "pai": "c",
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2c1-p2.png",
-       "w": 281,
-       "h": 33
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2c1-p6.png",
@@ -503,21 +450,11 @@
      "id": "c3",
      "partes": [
       {
-       "p": "Use the arbitrage condition to show that the household's budget constraint can be written as: $c_{t} +a_{t+1} =(1+R_{t})a_{t}$, where $a_{t} =b_{t} +k_{t} +h_{t}$, and use the FOCs to find the Euler Condition."
+       "p": "Use the arbitrage condition to show that the household's budget constraint can be written as: $c_{t} + a_{t+1} = (1 + R_{t})a_{t}$, where $a_{t} = b_{t} + k_{t} + h_{t}$, and use the FOCs to find the Euler Condition."
       }
      ],
      "pai": "c",
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2c3-p2.png",
-       "w": 314,
-       "h": 47
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2c3-p7.png",
@@ -687,16 +624,6 @@
       }
      ],
      "tipo": "grupo",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2f-p3.png",
-       "w": 351,
-       "h": 61
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2f-p9.png",
@@ -741,18 +668,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "fórmula que o KaTeX não desenha",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p2.png",
-     "w": 390,
-     "h": 139
-    }
-   ],
    "fonte": 0
   }
  ]

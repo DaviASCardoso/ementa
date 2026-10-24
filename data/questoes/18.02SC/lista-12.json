@@ -44,75 +44,25 @@
      "id": "a",
      "partes": [
       {
-       "p": "By direct computation, show that $\\nabla \\times \\mathbf{F} = 0$ for all points not on the y-axis."
-      },
-      {
-       "img": "e1/p2-1.png",
-       "w": 7,
-       "h": 8
+       "p": "By direct computation, show that $\\nabla \\times \\mathbf{F} = \\mathbf{0}$ for all points not on the y-axis."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1a-p2.png",
-       "w": 434,
-       "h": 30
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
      "partes": [
       {
-       "p": "By direct computation, show that $\\mathbf{F} \\cdot d\\mathbf{r} = 0$ where $C_{1}$ is the closed curve"
-      },
-      {
-       "p": "$$C_{1}$$",
-       "display": true
+       "p": "By direct computation, show that $\\displaystyle\\oint_{C_{1}} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ where $C_{1}$ is the closed curve defined by $x^{2} + y^{2} = 1$, $z = 1$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1b-p2.png",
-       "w": 442,
-       "h": 30
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",
      "partes": [
       {
-       "p": "Can you use Stokes' Theorem and the fact (from part (a)) that $\\nabla \\times \\mathbf{F} = 0$ to"
-      },
-      {
-       "img": "e1/p2-2.png",
-       "w": 7,
-       "h": 8
-      },
-      {
-       "p": "conclude that $\\mathbf{F} \\cdot d\\mathbf{r} = 0$ when $C_{2}$ is the closed curve defined by"
-      },
-      {
-       "p": "$$C_{2}$$",
-       "display": true
-      },
-      {
-       "p": "$x^{2} + z^{2} = 1, y = 0$? Why/ why not?"
-      },
-      {
-       "img": "e1/p2-3.png",
-       "w": 7,
-       "h": 8
+       "p": "Can you use Stokes' Theorem and the fact (from part (a)) that $\\nabla \\times \\mathbf{F} = \\mathbf{0}$ to conclude that $\\displaystyle\\oint_{C_{2}} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ when $C_{2}$ is the closed curve defined by $x^{2} + z^{2} = 1$, $y = 0$? Why/ why not?"
       }
      ],
      "contexto": [
@@ -120,42 +70,16 @@
        "p": "defined by $x^{2} + y^{2} = 1, z = 1$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1c-p2.png",
-       "w": 442,
-       "h": 71
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "d",
      "partes": [
       {
-       "p": "Compute out $\\mathbf{F} \\cdot d\\mathbf{r}$ and see what happens."
-      },
-      {
-       "p": "$$C_{2}$$",
-       "display": true
+       "p": "Compute out $\\displaystyle\\oint_{C_{2}} \\mathbf{F} \\cdot d\\mathbf{r}$ and see what happens."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1d-p2.png",
-       "w": 276,
-       "h": 30
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
@@ -166,7 +90,7 @@
    "titulo": "(5: 2,2,1)",
    "partes": [
     {
-     "p": "Suppose the field F in the previous problem is replaced by the field G$(x, y, z) = \\frac{x}{x^{2} + y^{2} + z^{2}} \\mathbf{i} + \\frac{y}{x^{2} + y^{2} + z^{2}} \\mathbf{j} + \\frac{z}{x^{2} + y^{2} + z^{2}} \\mathbf{k}$ defined for all points $(x, y, z) = (0, 0, 0)$."
+     "p": "Suppose the field F in the previous problem is replaced by the field G$(x, y, z) = \\frac{x}{x^{2} + y^{2} + z^{2}} \\mathbf{i} + \\frac{y}{x^{2} + y^{2} + z^{2}} \\mathbf{j} + \\frac{z}{x^{2} + y^{2} + z^{2}} \\mathbf{k}$ defined for all points $(x, y, z) \\neq (0, 0, 0)$."
     }
    ],
    "itens": [
@@ -174,7 +98,7 @@
      "id": "a",
      "partes": [
       {
-       "p": "Show that $\\nabla \\times \\mathbf{G} = 0$ for all points $(x, y, z) = (0, 0, 0)$"
+       "p": "Show that $\\nabla \\times \\mathbf{G} = \\mathbf{0}$ for all points $(x, y, z) \\neq (0, 0, 0)$"
       }
      ],
      "tipo": "aberta"
@@ -183,37 +107,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "Can you use Stokes' Theorem in this case and the fact that $\\nabla \\times \\mathbf{G} = 0$ for all"
-      },
-      {
-       "img": "e1/p2-4.png",
-       "w": 7,
-       "h": 8
-      },
-      {
-       "p": "points $(x, y, z) = (0, 0, 0)$ to conclude that $\\mathbf{F} \\cdot d\\mathbf{r} = 0$ for all simple closed curves"
-      },
-      {
-       "p": "$$C$$",
-       "display": true
-      },
-      {
-       "p": "$C$ which do not pass through the origin?"
+       "p": "Can you use Stokes' Theorem in this case and the fact that $\\nabla \\times \\mathbf{G} = \\mathbf{0}$ for all points $(x, y, z) \\neq (0, 0, 0)$ to conclude that $\\displaystyle\\oint_{C} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ for all simple closed curves $C$ which do not pass through the origin?"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2b-p2.png",
-       "w": 442,
-       "h": 60
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",

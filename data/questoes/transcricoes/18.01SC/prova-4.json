@@ -1,0 +1,24 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Compute the following integral:"
+   },
+   {
+    "p": "$$\\int_{1}^{4} \\sqrt{t}\\ln t\\,dt$$",
+    "display": true
+   }
+  ]
+ },
+ "2/": {
+  "partes": [
+   {
+    "p": "Compute the following integral:"
+   },
+   {
+    "p": "$$\\int_{0}^{\\pi/4} \\tan^{4}\\theta\\sec^{6}\\theta\\,d\\theta$$",
+    "display": true
+   }
+  ]
+ }
+}

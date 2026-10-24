@@ -129,11 +129,11 @@
      "p": "Consider the IS-LM model with expectations."
     },
     {
-     "p": "$$\\text{IS}: Y = A(Y, T, r, Y^{e}, T^{e}, r^{e})+G$$",
+     "p": "$$IS: \\; Y = A(Y, T, r, Y'^{e}, T'^{e}, r'^{e}) + G$$",
      "display": true
     },
     {
-     "p": "$$\\text{LM}: r = \\bar{r}$$",
+     "p": "$$LM: \\; r = \\bar{r}$$",
      "display": true
     }
    ],
@@ -166,21 +166,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "[4 points] Suppose now that after the decrease in $r$ investors expect interest rates to also remain low in the future.$_{�e}$ Using the diagram you drew in the previous question, illustrate the effect of a decrease in $r$. Does the change in expectations lead to a larger or smaller effect on output?"
+       "p": "[4 points] Suppose now that after the decrease in $r$ investors expect interest rates to also remain low in the future. Using the diagram you drew in the previous question, illustrate the effect of a decrease in $r'^{e}$. Does the change in expectations lead to a larger or smaller effect on output?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "caractere ilegível",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q22-p3.png",
-       "w": 494,
-       "h": 48
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q22-p3.png",
@@ -191,16 +180,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p2.png",
-     "w": 364,
-     "h": 116
-    }
-   ],
    "fonte": 0
   },
   {
@@ -208,7 +187,7 @@
    "titulo": "Interest Rate Sensitivity of Investment",
    "partes": [
     {
-     "p": "Consider two projects $j$ ∈ {1,2}. Each project generates a different stream of earnings. At the end of the first year $t = 1$, project $j$ generates $x j > 0$ in earnings, and after that it perpetually generates $j$ in earnings at the end of each year $t > 1$. All cash flows are expressed in constant dollars and the interest rate is assumed constant and equal to $r$ ∈ (0,1). The firm must pick one of the two projects."
+     "p": "Consider two projects $j \\in \\{1, 2\\}$. Each project generates a different stream of earnings. At the end of the first year $t = 1$, project $j$ generates $x_{j} > 0$ in earnings, and after that it perpetually generates $j$ in earnings at the end of each year $t > 1$. All cash flows are expressed in constant dollars and the interest rate is assumed constant and equal to $r \\in (0, 1)$. The firm must pick one of the two projects."
     }
    ],
    "itens": [
@@ -256,16 +235,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q3-p4.png",
-     "w": 509,
-     "h": 92
-    }
-   ],
    "fonte": 0
   },
   {
@@ -276,26 +245,14 @@
      "p": "Consider an open economy with demand for domestic goods:"
     },
     {
-     "p": "$$Z = C + I +G + X - IM /\\varepsilon$$",
+     "p": "$$Z = C + I + G + X - IM/\\varepsilon$$",
      "display": true
     },
     {
      "p": "where government spending $G$, and taxes $T$ are exogenously given, $\\varepsilon$ is the real exchange rate, and $i$ denotes the domestic nominal interest rate. We assume"
     },
     {
-     "p": "$$C = c_{0}+ c_{1}(Y - T)$$",
-     "display": true
-    },
-    {
-     "p": "$$I = b_{0}- b_{2}i$$",
-     "display": true
-    },
-    {
-     "p": "$$X = e_{0}\\cdot Y^{*}/\\varepsilon$$",
-     "display": true
-    },
-    {
-     "p": "$$IM = d_{0}\\cdot Y \\cdot \\varepsilon$$",
+     "p": "$$\\begin{aligned} C &= c_{0} + c_{1}(Y - T) \\\\ I &= b_{0} - b_{2}i \\\\ X &= e_{0} \\cdot Y^{*}/\\varepsilon \\\\ IM &= d_{0} \\cdot Y \\cdot \\varepsilon \\end{aligned}$$",
      "display": true
     },
     {
@@ -523,21 +480,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p5.png",
-     "w": 507,
-     "h": 178
-    },
-    {
-     "img": "e1/q4-p6.png",
-     "w": 509,
-     "h": 79
-    }
-   ],
    "fonte": 0
   }
  ]

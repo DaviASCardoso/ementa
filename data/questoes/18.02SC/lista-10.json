@@ -84,15 +84,11 @@
    "titulo": "(8: 2,2,2,2)",
    "partes": [
     {
-     "p": "$$2 2x \\sqrt{4-x^{2}}$$",
-     "display": true
+     "p": "(8: 2,2,2,2)"
     },
     {
-     "p": "$$f (x,y,z) dV = f (x,y,z) dz dy dx$$",
+     "p": "$$\\iiint_{G} f(x,y,z)\\,dV = \\int_{0}^{2}\\int_{0}^{2x}\\int_{0}^{\\sqrt{4-x^{2}}} f(x,y,z)\\,dz\\,dy\\,dx.$$",
      "display": true
-    },
-    {
-     "p": "$G 0 0 0$"
     }
    ],
    "itens": [
@@ -100,29 +96,13 @@
      "id": "a",
      "partes": [
       {
-       "p": "Sketch the 3-D solid region $G$. Rewrite $f (x,y,z) dV$ as a triple integral with the correct limits of integration"
+       "p": "Sketch the 3-D solid region $G$."
       },
       {
-       "p": "$$G$$",
-       "display": true
-      },
-      {
-       "p": "in the order:"
+       "p": "Rewrite $\\displaystyle\\iiint_{G} f(x,y,z)\\,dV$ as a triple integral with the correct limits of integration in the order:"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2a-p2.png",
-       "w": 442,
-       "h": 65
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2a-p2.png",
@@ -135,7 +115,8 @@
      "id": "b",
      "partes": [
       {
-       "p": "$f (x,y,z) dy dx dz$"
+       "p": "$$\\iiint f(x,y,z)\\,dy\\,dx\\,dz$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
@@ -151,7 +132,8 @@
      "id": "c",
      "partes": [
       {
-       "p": "$f (x,y,z) dx dz dy$"
+       "p": "$$\\iiint f(x,y,z)\\,dx\\,dz\\,dy$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
@@ -186,17 +168,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p2.png",
-     "w": 308,
-     "h": 58
-    }
-   ],
    "fonte": 0
   },
   {

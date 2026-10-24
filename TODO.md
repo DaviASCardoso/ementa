@@ -43,5 +43,6 @@ Lista viva do que falta para o app estar no ar. `[x]` feito · `[~]` em andament
 - [x] Script que transcreve listas e provas sem IA (`scripts/transcrever.py`): fórmulas em LaTeX, questões, itens, subitens, alternativas, soluções; recorte de segurança onde a transcrição é duvidosa
 - [x] Banco gerado para as 99 listas e provas (`npm run questoes`): 1.143 questões, 2.575 itens, respostas do gabarito ligadas a 1.859 itens
 - [x] Correções à mão em `data/questoes/manual/` (14.01 prova final, 14.06 prova 1, 14.30 lista 1)
+- [x] Todos os itens que eram recorte (imagem) transcritos à mão em `data/questoes/transcricoes/`: nenhum item depende mais de imagem; figuras de verdade continuam como imagem
 - [ ] Usar o banco no app: listas e provas interativas (campo por item, gabarito por item, treino misturado)
 - [ ] Revisar os avisos que sobraram (numeração que recomeça nos exercícios do 18.01SC, gabaritos que não casaram em 18.02SC lista 12 e 14.06 lista 2)

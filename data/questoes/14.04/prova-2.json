@@ -426,7 +426,7 @@
      "id": "b",
      "partes": [
       {
-       "p": "(6 pts) Solve for the Pareto-optimal risk-sharing rule. In other words, derive the Pareto-optimal individual consumption levels in each state $s$ as a function of $\\lambda , \\pi$ and $\\omega$ ."
+       "p": "(6 pts) Solve for the Pareto-optimal risk-sharing rule. In other words, derive the Pareto-optimal individual consumption levels in each state $s$ as a function of $\\lambda$, $\\pi$ and $\\omega$."
       }
      ],
      "solucao": [
@@ -434,17 +434,7 @@
        "p": "Use Lagrange method. Take FOCs. Find that $c_{s}^{i}/c_{s}^{j} = \\lambda_{i}/\\lambda_{j}$. Combining with resource constraints, we get that $c_{s}^{i} = \\lambda_{i}\\omega_{s}$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4b-p6.png",
-       "w": 354,
-       "h": 41
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",

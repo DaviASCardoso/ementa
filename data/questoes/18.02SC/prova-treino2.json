@@ -68,27 +68,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "Estimate to the nearest.1 the value at the point $P$ of the directional derivative $\\frac{dh}{ds}$, where"
-      },
-      {
-       "p": "$$\\hat{u}$$",
-       "display": true
-      },
-      {
-       "p": "$\\hat{u}$ is the unit vector in the direction of $\\hat{\\imath} + \\hat{j.}$"
+       "p": "Estimate to the nearest .1 the value at the point $P$ of the directional derivative $\\left(\\dfrac{dh}{ds}\\right)_{\\hat{u}}$, where $\\hat{u}$ is the unit vector in the direction of $\\hat{\\imath} + \\hat{\\jmath}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2a-p1.png",
-       "w": 478,
-       "h": 37
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2a-p1.png",
@@ -157,20 +140,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "Show that the problem leads one to maximize $f (x, y) = xy -x^{3}y -xy^{3}$, and"
+       "p": "Show that the problem leads one to maximize $f(x, y) = xy - x^{3}y - xy^{3}$, and write down the equations for the critical points of $f$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4a-p2.png",
-       "w": 384,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "The volume is $xyz = xy(1-x^{2} -y^{2}) = xy-x^{3}y-xy^{3}$. Critical points: $f_{x} = y-3x^{2}y-y^{3} = 0$, $f_{y} = x - x^{3} - 3xy^{2} = 0$."
@@ -289,30 +262,11 @@
    "titulo": "(15 points)",
    "partes": [
     {
-     "p": "Suppose that $x^{2}y + xz^{2} = 5$, and let $w = x^{3}y$. Express $\\frac{\\partial w}{\\partial z}$ as a function of $x, y, z$, and evaluate"
-    },
-    {
-     "p": "$$y$$",
-     "display": true
-    },
-    {
-     "p": "it numerically when $(x, y, z) = (1, 1, 2)$."
+     "p": "Suppose that $x^{2}y + xz^{2} = 5$, and let $w = x^{3}y$. Express $\\left(\\dfrac{\\partial w}{\\partial z}\\right)_{y}$ as a function of $x, y, z$, and evaluate it numerically when $(x, y, z) = (1, 1, 2)$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q7-p2.png",
-     "w": 478,
-     "h": 62
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {

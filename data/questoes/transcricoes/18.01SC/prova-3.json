@@ -1,0 +1,39 @@
+{
+ "3/a": {
+  "partes": [
+   {
+    "p": "$$\\lim_{n \\to \\infty} \\sum_{i=1}^{n} \\left(1 + i \\cdot \\frac{3}{n}\\right)^{2} \\frac{3}{n}$$",
+    "display": true
+   }
+  ]
+ },
+ "3/b": {
+  "partes": [
+   {
+    "p": "The value $f(4)$ for the continuous function $f$ satisfying"
+   },
+   {
+    "p": "$$x\\sin\\pi x = \\int_{0}^{x^{2}} f(t)\\,dt$$",
+    "display": true
+   }
+  ]
+ },
+ "5/": {
+  "partes": [
+   {
+    "p": "Given a definite integral"
+   },
+   {
+    "p": "$$\\int_{a}^{b} f(x)\\,dx,$$",
+    "display": true
+   },
+   {
+    "p": "let $T_{n}$ be the trapezoid approximation with $n$ intervals, $M_{n}$ the midpoint approximation using $n$ intervals, and $S_{2n}$ the Simpson's rule approximation using $2n$ intervals. Prove that"
+   },
+   {
+    "p": "$$\\frac{1}{3}T_{n} + \\frac{2}{3}M_{n} = S_{2n}.$$",
+    "display": true
+   }
+  ]
+ }
+}

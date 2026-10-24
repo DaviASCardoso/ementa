@@ -1,0 +1,16 @@
+{
+ "2/": {
+  "partes": [
+   {
+    "p": "Consider a firm that has a production function $F(K,L) = K^{\\frac{1}{2}}L^{\\frac{1}{2}}$. It faces a wage level $w$ and rental rate of capital $r$."
+   }
+  ]
+ },
+ "4/1": {
+  "partes": [
+   {
+    "p": "(3 Points) Derive the aggregate demand for milk, $Q_{d}$, as a function of price $p$ and the size of the population $N$."
+   }
+  ]
+ }
+}

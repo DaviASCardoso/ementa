@@ -1,0 +1,9 @@
+{
+ "3/b": {
+  "partes": [
+   {
+    "p": "Now suppose John has a utility function given by $U_{J}(Y_{1}, Y_{2}) = \\alpha Y_{1} + \\beta Y_{2}$ where $\\alpha, \\beta > 0$. Characterize the set of production vectors $X$ that gives John a utility of $V > 0$. (Hint: this will be a linear equation of $X_{1}$ and $X_{2}$ in terms of $\\alpha$, $\\beta$, and $V$)"
+   }
+  ]
+ }
+}

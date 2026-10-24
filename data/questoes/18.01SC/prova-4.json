@@ -18,30 +18,12 @@
      "p": "Compute the following integral:"
     },
     {
-     "img": "e1/p1-1.png",
-     "w": 16,
-     "h": 10
-    },
-    {
-     "p": "$$\\sqrt{t}\\text{ ln }tdt$$",
+     "p": "$$\\int_{1}^{4} \\sqrt{t}\\ln t\\,dt$$",
      "display": true
-    },
-    {
-     "p": "1"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 266,
-     "h": 67
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -59,26 +41,12 @@
      "p": "Compute the following integral:"
     },
     {
-     "img": "e1/p2-1.png",
-     "w": 101,
-     "h": 21
-    },
-    {
-     "p": "0"
+     "p": "$$\\int_{0}^{\\pi/4} \\tan^{4}\\theta\\sec^{6}\\theta\\,d\\theta$$",
+     "display": true
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p2.png",
-     "w": 283,
-     "h": 68
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {

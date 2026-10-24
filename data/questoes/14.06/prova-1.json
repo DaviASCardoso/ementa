@@ -100,20 +100,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "Consider now the general equilibrium. Write down the system of two first-order differential equations that characterizes the dynamics of consumption and capital. (Remark: These two conditions are the Euler condition and the resource constraints, expressed in such a way that the system depends only on $c, k,\\dot{c,}\\dot{k,}$ and the exogenous parameters, namely $\\tau , \\theta , \\alpha , \\delta$ , and $\\rho .) 10$ points"
+       "p": "Consider now the general equilibrium. Write down the system of two first-order differential equations that characterizes the dynamics of consumption and capital. (Remark: These two conditions are the Euler condition and the resource constraints, expressed in such a way that the system depends only on $c, k, \\dot{c}, \\dot{k}$, and the exogenous parameters, namely $\\tau, \\theta, \\alpha, \\delta$, and $\\rho$.) 10 points"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "manual/e1_q1c-p2.png",
-       "w": 471,
-       "h": 78
-      }
-     ],
      "solucao": [
       {
        "p": "First, we know that consumption growth must obey the euler equation. We know also that in general equilibrium the interest rate will be equal to the marginal product of capital. Accordingly we have"
@@ -320,20 +310,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "Consider now the general equilibrium. Write down the system of two first-order difference equations that characterizes the dynamics of consumption and capital. (Remark: These two conditions are the Euler condition and the resource constraints, expressed in such a way that the system depends only on $c_{t}, c_{t+1}, k_{t}, k_{t+1}$ and the exogenous parameters, namely $\\tau , \\theta , \\alpha , \\delta$ , and $\\beta$ or $\\rho .) 10$ points"
+       "p": "Consider now the general equilibrium. Write down the system of two first-order difference equations that characterizes the dynamics of consumption and capital. (Remark: These two conditions are the Euler condition and the resource constraints, expressed in such a way that the system depends only on $c_{t}, c_{t+1}, k_{t}, k_{t+1}$ and the exogenous parameters, namely $\\tau, \\theta, \\alpha, \\delta$, and $\\beta$ or $\\rho$.) 10 points"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "manual/e1_q1c-p3.png",
-       "w": 471,
-       "h": 78
-      }
-     ],
      "solucao": [
       {
        "p": "We use the same logic as before. The Euler equation becomes"

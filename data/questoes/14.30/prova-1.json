@@ -81,15 +81,20 @@
    "titulo": "",
    "partes": [
     {
-     "p": "You are a miner during the Alaska Gold Rush of the 1890s, and you are prospecting a tract of land along a small creek in the forests and want to determine whether you are likely to find gold there. It is costly to rush back to town to register a formal claim on the lot which would allow you to exploit it, so you want to be at least 60% certain that there is gold in the ground. Let $G$ be the event that there is gold on the specific tract you are surveying, and suppose that without additional information, the probability of finding gold is $P (G) = 0.1$. After years out in the wild, you have learned that there are are some important signs to look for: if there is gold, the rocks below the ground are darker than usual, the bushes have shorter roots, the cranberries you find in the place have a sweeter taste, and the first moose you'll see will wag its tail to the right. If there is no gold, you may still observe any of these indicators with some probability, to be specific:"
+     "p": "You are a miner during the Alaska Gold Rush of the 1890s, and you are prospecting a tract of land along a small creek in the forests and want to determine whether you are likely to find gold there. It is costly to rush back to town to register a formal claim on the lot which would allow you to exploit it, so you want to be at least 60% certain that there is gold in the ground. Let $G$ be the event that there is gold on the specific tract you are surveying, and suppose that without additional information, the probability of finding gold is $P(G) = 0.1$."
     },
     {
-     "img": "e1/p3-3.png",
-     "w": 228,
-     "h": 59
+     "p": "After years out in the wild, you have learned that there are are some important signs to look for: if there is gold, the rocks below the ground are darker than usual, the bushes have shorter roots, the cranberries you find in the place have a sweeter taste, and the first moose you'll see will wag its tail to the right. If there is no gold, you may still observe any of these indicators with some probability, to be specific:"
     },
     {
-     "p": "Regardless of whether there is gold or not, the pieces of evidence are independent of each other. Clearly, if you observe that either of the above is not true, the tract contains no gold for sure, and you should move on. However, there is fierce competition: other diggers are also surveying the same area, and the tract will be awarded to the first person to show up at the land registry and pay the official fee. Therefore, you want to base your conclusions on as few pieces of evidence as possible and rush to town as soon as you are certain enough that there is gold, i.e. as soon as $P (G|B) \\geq 0.6$."
+     "p": "$$\\begin{array}{lcc} B & P(B|G) & P(B|G^{C}) \\\\ \\hline \\text{Moose wags tail to the right} & 1.0 & 0.7 \\\\ \\text{Dark rocks} & 1.0 & 0.4 \\\\ \\text{Short roots} & 1.0 & 0.5 \\\\ \\text{Sweet cranberries} & 1.0 & 0.3 \\end{array}$$",
+     "display": true
+    },
+    {
+     "p": "Regardless of whether there is gold or not, the pieces of evidence are independent of each other. Clearly, if you observe that either of the above is not true, the tract contains no gold for sure, and you should move on."
+    },
+    {
+     "p": "However, there is fierce competition: other diggers are also surveying the same area, and the tract will be awarded to the first person to show up at the land registry and pay the official fee. Therefore, you want to base your conclusions on as few pieces of evidence as possible and rush to town as soon as you are certain enough that there is gold, i.e. as soon as $P(G|B) \\geq 0.6$."
     }
    ],
    "itens": [
@@ -163,16 +168,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p3.png",
-     "w": 464,
-     "h": 291
-    }
-   ],
    "fonte": 0
   }
  ]

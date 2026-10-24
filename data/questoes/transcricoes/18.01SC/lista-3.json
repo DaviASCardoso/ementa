@@ -1,0 +1,71 @@
+{
+ "2A-16/": {
+  "partes": [
+   {
+    "p": "(Exercício 2A-16)"
+   }
+  ]
+ },
+ "2A-16/a": {
+  "partes": [
+   {
+    "p": "Use the law of cosines to find the formula $\\sqrt{2 - \\cos(2\\pi/n)}$ for the length of the side of the equilateral $n$-gon inscribed in the unit circle."
+   }
+  ]
+ },
+ "2A-16/b": {
+  "partes": [
+   {
+    "p": "Compute the perimeter and then compute the limit as $n$ tends to infinity using the quadratic approximation to $\\cos\\theta$ near $\\theta = 0$. (Compare with 1J-4.)"
+   }
+  ]
+ },
+ "2C-10/": {
+  "partes": [
+   {
+    "p": "A swimmer is on the beach at a point $A$. The closest point on the straight shoreline to $A$ is called $P$. There is a platform in the water at $B$, and the nearest pont on the shoreline to $B$ is called $Q$. Suppose that the distance from $A$ to $P$ is 100 meters, the distance from $B$ to $Q$ is 100 meters and the distance from $P$ to $Q$ is $a$ meters. Finally suppose that the swimmer can run at 5 meters per second on the beach and swim at 2 meters per second in the water."
+   },
+   {
+    "img": "manual/2C-10.png"
+   },
+   {
+    "p": "Show that the path the swimmer should take to get to the platform in the least time has the property that the ratio of the sines of the angles the path makes with the shoreline is the reciprocal of the ratio of the speeds in the two regions:"
+   },
+   {
+    "p": "$$\\frac{\\sin\\alpha}{\\sin\\beta} = \\frac{5}{2}$$",
+    "display": true
+   },
+   {
+    "p": "(In optics, this is known as Snell's law describing the path taken by a light ray through two successive media. Snell discovered experimentally that the above ratio of sines was a constant, not depending on the starting point and endpoint of the path. This problem shows that Snell's law follows from a minimum principle: the light ray takes the path minimizing its total travel time. The ratio of sines is constant since it depends only on the speeds of light in the two media.)"
+   }
+  ]
+ },
+ "2D-1/": {
+  "partes": [
+   {
+    "p": "Consider a supersonic airplane wing with a cross-section in the shape of a thin diamond (rhombus) in which the half-angle of the opening is $\\tau$ and the attack angle $\\alpha$. (The attack angle is the angle that the long diagonal of the rhombus makes with the horizontal direction of motion of the plane. See the picture.) The ratio of the lift to the drag is given by the formula (from the Course 16 Unified Engineering notes on aerodynamics):"
+   },
+   {
+    "img": "manual/2D-1.png"
+   },
+   {
+    "p": "$$\\frac{\\text{lift}}{\\text{drag}} = \\frac{\\alpha}{\\alpha^{2} + \\tau^{2}}$$",
+    "display": true
+   }
+  ]
+ },
+ "2D-1/a": {
+  "partes": [
+   {
+    "p": "For a given fixed $\\tau$, find the best attack angle $\\alpha$, that is, the one the maximizes the ratio of lift to drag."
+   }
+  ]
+ },
+ "2G-6/": {
+  "partes": [
+   {
+    "p": "Using the form (2) of the Mean-value Theorem, prove that on an interval $[a, b]$,"
+   }
+  ]
+ }
+}

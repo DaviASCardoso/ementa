@@ -1,0 +1,9 @@
+{
+ "2/a": {
+  "partes": [
+   {
+    "p": "Show that the 'polarization identity' $\\frac{1}{4}\\left(|\\mathbf{u} + \\mathbf{v}|^{2} - |\\mathbf{u} - \\mathbf{v}|^{2}\\right) = \\mathbf{u} \\cdot \\mathbf{v}$ holds for any two n-vectors $\\mathbf{u}$ and $\\mathbf{v}$. (Use vector algebra, not components.)"
+   }
+  ]
+ }
+}

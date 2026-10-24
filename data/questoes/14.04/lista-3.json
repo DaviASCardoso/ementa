@@ -37,26 +37,19 @@
      "id": "1.1",
      "partes": [
       {
-       "p": "Shared Shock, Different Risk Aversion Open \"Risk Sharing Simulation.xlsx\" and enable macros. In this problem set you will analyze contracts in two ways: (1) by using the simulation as a rough approximation of risk sharing results, and (2) by calculating the expected utili ties exactly."
+       "p": "Shared Shock, Different Risk Aversion"
+      },
+      {
+       "p": "Open \"Risk Sharing Simulation.xlsx\" and enable macros. In this problem set you will analyze contracts in two ways: (1) by using the simulation as a rough approximation of risk sharing results, and (2) by calculating the expected utilities exactly."
       },
       {
        "p": "Suppose the weather determines whether harvests are High or Low, meaning Ridhi and Neha experience the same shocks to their output. If the weather is good, both enjoy High output. If the weather is bad, both suffer Low output. The weather is good 1/2 the time and bad 1/2 the time."
       },
       {
-       "p": "1 $\\frac{We greatly appreciate the work put in by Catherine Huang in designing parts of this}{problem set}$ $^{2}$As $\\theta_{Neha}$ approaches $0, U (c) \\approx c - 1$. As $\\theta_{Ridhi}$ approaches $1, U (c) \\approx$ ln($c)$."
+       "p": "Notes: (1) We greatly appreciate the work put in by Catherine Huang in designing parts of this problem set. (2) As $\\theta_{Neha}$ approaches 0, $U(c) \\approx c - 1$. As $\\theta_{Ridhi}$ approaches 1, $U(c) \\approx \\ln(c)$."
       }
      ],
-     "tipo": "grupo",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q11.1-p1.png",
-       "w": 354,
-       "h": 170
-      }
-     ]
+     "tipo": "grupo"
     },
     {
      "id": "1.1a",

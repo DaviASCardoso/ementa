@@ -153,7 +153,7 @@
        "display": true
       },
       {
-       "p": "But L is described redundantly: scaling $a$ and $b$ equally gives an equivalent equation. To remove this redundancy, we need to look at two cases: either $b = 0$ in which case we get the line $x = t, y = 0, z = -t$, or $b = 0$ in which case we may divide through by $b$ to get"
+       "p": "But L is described redundantly: scaling $a$ and $b$ equally gives an equivalent equation. To remove this redundancy, we need to look at two cases: either $b = 0$ in which case we get the line $x = t, y = 0, z = -t$, or $b \\neq 0$ in which case we may divide through by $b$ to get"
       },
       {
        "p": "$$x = \\alpha t, y = t, z = (-\\alpha - 2) t$$",
@@ -246,20 +246,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "Check that when $\\alpha = 0$ the curve $\\mathbf{r}_{0}(t)$ is the enlarged circle $\\mathcal{C}_{0}$ in the x-y plane. Then use the following 'quick-and-dirty' method to estimate the distortion in $\\mathcal{C}_{\\alpha}$ from the circle $\\mathcal{C}_{0}$ caused by the tilt: compute the distance $|\\mathbf{r}_{\\alpha}(t) - \\mathbf{r}_{0}(t)|$ between the two curves at the four 'corner' points corresponding to $t = 0, \\frac{\\pi}{2}, \\pi , \\frac{3\\pi}{2}$, and just take the largest value from these four."
+       "p": "Check that when $\\alpha = 0$ the curve $\\mathbf{r}_{0}(t)$ is the enlarged circle $\\mathcal{C}_{0}$ in the x-y plane. Then use the following 'quick-and-dirty' method to estimate the distortion in $\\mathcal{C}_{\\alpha}$ from the circle $\\mathcal{C}_{0}$ caused by the tilt: compute the distance $|\\mathbf{r}_{\\alpha}(t) - \\mathbf{r}_{0}(t)|$ between the two curves at the four 'corner' points corresponding to $t = 0, \\frac{\\pi}{2}, \\pi, \\frac{3\\pi}{2}$, and just take the largest value from these four."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4c-p3.png",
-       "w": 442,
-       "h": 77
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q4c-p3.png",

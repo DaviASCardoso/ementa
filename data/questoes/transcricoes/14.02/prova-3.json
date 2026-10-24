@@ -1,0 +1,52 @@
+{
+ "2/": {
+  "partes": [
+   {
+    "p": "Consider the IS-LM model with expectations."
+   },
+   {
+    "p": "$$IS: \\; Y = A(Y, T, r, Y'^{e}, T'^{e}, r'^{e}) + G$$",
+    "display": true
+   },
+   {
+    "p": "$$LM: \\; r = \\bar{r}$$",
+    "display": true
+   }
+  ]
+ },
+ "2/2": {
+  "partes": [
+   {
+    "p": "[4 points] Suppose now that after the decrease in $r$ investors expect interest rates to also remain low in the future. Using the diagram you drew in the previous question, illustrate the effect of a decrease in $r'^{e}$. Does the change in expectations lead to a larger or smaller effect on output?"
+   }
+  ]
+ },
+ "3/": {
+  "partes": [
+   {
+    "p": "Consider two projects $j \\in \\{1, 2\\}$. Each project generates a different stream of earnings. At the end of the first year $t = 1$, project $j$ generates $x_{j} > 0$ in earnings, and after that it perpetually generates $j$ in earnings at the end of each year $t > 1$. All cash flows are expressed in constant dollars and the interest rate is assumed constant and equal to $r \\in (0, 1)$. The firm must pick one of the two projects."
+   }
+  ]
+ },
+ "4/": {
+  "partes": [
+   {
+    "p": "Consider an open economy with demand for domestic goods:"
+   },
+   {
+    "p": "$$Z = C + I + G + X - IM/\\varepsilon$$",
+    "display": true
+   },
+   {
+    "p": "where government spending $G$, and taxes $T$ are exogenously given, $\\varepsilon$ is the real exchange rate, and $i$ denotes the domestic nominal interest rate. We assume"
+   },
+   {
+    "p": "$$\\begin{aligned} C &= c_{0} + c_{1}(Y - T) \\\\ I &= b_{0} - b_{2}i \\\\ X &= e_{0} \\cdot Y^{*}/\\varepsilon \\\\ IM &= d_{0} \\cdot Y \\cdot \\varepsilon \\end{aligned}$$",
+    "display": true
+   },
+   {
+    "p": "where foreign output $Y^{*}$ is exogenous, and all parameters are strictly positive with $d_{0} \\leq c_{1} < 1$. The foreign nominal interest rate and the expected exchange rate are equal to $i^{*}$ and $E^{e}$ and assumed to be exogenous. Recall that $E$ is the nominal exchange rate (the value of one unit of home currency in terms of foreign currency). Home prices are $P = 1$ and foreign prices are $P^{*} = 1$. Finally, assume that the UIP condition holds. Assume the country is under a flexible exchange rate regime."
+   }
+  ]
+ }
+}

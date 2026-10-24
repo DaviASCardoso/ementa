@@ -1,0 +1,30 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Suppose the wage-setting equation is given by:"
+   },
+   {
+    "p": "$$W = P(1 - u)z$$",
+    "display": true
+   },
+   {
+    "p": "where $z$ represents unemployment insurance, $u$ represents the unemployment rate and $W$ represents the nominal wage. Suppose the production function is given by $Y = N$, where $N$ is employment, and the price-setting equation is given by:"
+   },
+   {
+    "p": "$$P = W(1 + m)$$",
+    "display": true
+   },
+   {
+    "p": "where $m$ is the markup."
+   }
+  ]
+ },
+ "2/2": {
+  "partes": [
+   {
+    "p": "[8 Points] Use the WS and PS relations shown above, together with the specification of the function $F$, to derive a formula for $P_{t}$ in terms of $P_{t}^{e}$, $u_{t}$ and parameters $\\alpha, m, z$."
+   }
+  ]
+ }
+}

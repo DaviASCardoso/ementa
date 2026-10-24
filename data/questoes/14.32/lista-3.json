@@ -60,67 +60,47 @@
      "id": "b",
      "partes": [
       {
-       "p": "Suppose that f(0), the price of wine when first bottled, is a Cobb-Douglas function of the weather:"
+       "p": "Suppose that $f(0)$, the price of wine when first bottled, is a Cobb-Douglas function of the weather:"
       },
       {
-       "p": "(2) f(0) = *$_{t}$W$_{t}^{\\$}$H$_{t}^{(}$, for a wine bottled in year t,"
+       "p": "$$f(0) = \\delta_{t}W_{t}^{\\beta}H_{t}^{\\gamma}, \\text{ for a wine bottled in year } t, \\tag{2}$$",
+       "display": true
       },
       {
-       "p": "where W$_{t}$ is the average rainfall in August and September H$_{t}$ is the average temperature in July and August *$_{t}$ is an unobserved random shock that is independent of W$_{t}$ and H$_{t}$"
+       "p": "where"
       },
       {
-       "p": "Estimate and \\$ and r assuming ( = 0. What impact does the inclusion of data on rainfall have on your estimate of r? Why?"
+       "p": "$W_{t}$ is the average rainfall in August and September"
+      },
+      {
+       "p": "$H_{t}$ is the average temperature in July and August"
+      },
+      {
+       "p": "$\\delta_{t}$ is an unobserved random shock that is independent of $W_{t}$ and $H_{t}$"
+      },
+      {
+       "p": "Estimate and $\\beta$ and $r$ assuming $\\gamma = 0$. What impact does the inclusion of data on rainfall have on your estimate of $r$? Why?"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1b-p1.png",
-       "w": 463,
-       "h": 148
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",
      "partes": [
       {
-       "p": "Estimate r, \\$, and ( together. How does your estimate of r change? Why?"
+       "p": "Estimate $r$, $\\beta$, and $\\gamma$ together. How does your estimate of $r$ change? Why?"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1c-p1.png",
-       "w": 353,
-       "h": 21
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "d",
      "partes": [
       {
-       "p": "Construct an F-test of the joint hypothesis: \\$=0 and (=0."
+       "p": "Construct an F-test of the joint hypothesis: $\\beta = 0$ and $\\gamma = 0$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1d-p1.png",
-       "w": 277,
-       "h": 21
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "e",

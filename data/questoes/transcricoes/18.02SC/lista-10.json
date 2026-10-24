@@ -1,0 +1,39 @@
+{
+ "2/": {
+  "partes": [
+   {
+    "p": "(8: 2,2,2,2)"
+   },
+   {
+    "p": "$$\\iiint_{G} f(x,y,z)\\,dV = \\int_{0}^{2}\\int_{0}^{2x}\\int_{0}^{\\sqrt{4-x^{2}}} f(x,y,z)\\,dz\\,dy\\,dx.$$",
+    "display": true
+   }
+  ]
+ },
+ "2/a": {
+  "partes": [
+   {
+    "p": "Sketch the 3-D solid region $G$."
+   },
+   {
+    "p": "Rewrite $\\displaystyle\\iiint_{G} f(x,y,z)\\,dV$ as a triple integral with the correct limits of integration in the order:"
+   }
+  ]
+ },
+ "2/b": {
+  "partes": [
+   {
+    "p": "$$\\iiint f(x,y,z)\\,dy\\,dx\\,dz$$",
+    "display": true
+   }
+  ]
+ },
+ "2/c": {
+  "partes": [
+   {
+    "p": "$$\\iiint f(x,y,z)\\,dx\\,dz\\,dy$$",
+    "display": true
+   }
+  ]
+ }
+}

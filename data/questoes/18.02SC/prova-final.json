@@ -104,13 +104,13 @@
      "id": "c",
      "partes": [
       {
-       "p": "(5 pts.) Suppose that the point $P = (0, 0, 1)$ lies on $L$. Write down the method or formula you would use to find the point $P^{*}$ which is: (i) on $L$; (ii) the same distance away from the point (0,0,1) as $P$; and is (iii) on the other side of $\\mathcal{P}$ from $P$."
+       "p": "(5 pts.) Suppose that the point $P \\neq (0, 0, 1)$ lies on $L$. Write down the method or formula you would use to find the point $P^{*}$ which is: (i) on $L$; (ii) the same distance away from the point (0,0,1) as $P$; and is (iii) on the other side of $\\mathcal{P}$ from $P$."
       }
      ],
      "tipo": "aberta",
      "solucao": [
       {
-       "p": "$P$ on $L \\Rightarrow P = (t, 2t, 1)$ for some $t = 0$ (part (a)) $P^{*} = (-t,-2t, 1)$ since then dist($P_{0}, P) =$ dist($P_{0}, P^{*}) = |t|\\sqrt{5.}$"
+       "p": "$P$ on $L \\Rightarrow P = (t, 2t, 1)$ for some $t \\neq 0$ (part (a)) $P^{*} = (-t,-2t, 1)$ since then dist($P_{0}, P) =$ dist($P_{0}, P^{*}) = |t|\\sqrt{5.}$"
       }
      ]
     }
@@ -123,9 +123,7 @@
    "titulo": "(20 points)",
    "partes": [
     {
-     "img": "e1/p1-1.png",
-     "w": 255,
-     "h": 41
+     "p": "Given the $3 \\times 3$ matrix: $\\quad A_{a} = \\begin{bmatrix} 1 & 0 & 3 \\\\ -2 & 1 & -1 \\\\ -1 & 1 & a \\end{bmatrix}$:"
     }
    ],
    "itens": [
@@ -154,26 +152,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "(7 pts.) Find the line of solutions to $A_{2} ⎣ y ⎦ = ⎣ 0 ⎦$"
-      },
-      {
-       "img": "e1/p1-3.png",
-       "w": 408,
-       "h": 16
+       "p": "(7 pts.) Find the line of solutions to $A_{2}\\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 0 \\\\ 0 \\\\ 0 \\end{bmatrix}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3b-p1.png",
-       "w": 418,
-       "h": 71
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q3b-p1.png",
@@ -191,20 +173,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "(8 pts.) Suppose now that $a = 1$, and that A$_{1}^{-1} = ⎣ -3 p 5 ⎦$. Find $p$."
+       "p": "(8 pts.) Suppose now that $a = 1$, and that $A_{1}^{-1} = \\begin{bmatrix} * & * & * \\\\ -3 & p & 5 \\\\ * & * & * \\end{bmatrix}$. Find $p$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3c-p1.png",
-       "w": 418,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q3c-p2.png",
@@ -268,9 +240,7 @@
    "titulo": "(20 points)",
    "partes": [
     {
-     "img": "e1/p2-1.png",
-     "w": 276,
-     "h": 14
+     "p": "Consider the function $F(x, y, z) = z\\sqrt{x^{2} + y} + 2\\dfrac{y}{z}$:"
     }
    ],
    "itens": [
@@ -308,20 +278,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "(5 pts.) If starting at $P_{0}$ a small change were to be made in only one of the variables, which one would produce the largest change (in absolute value) in $F$? If the change is this variable was of size 0.1, approximately how large would the change in $F$ be?"
+       "p": "(5 pts.) If starting at $P_{0}$ a small change were to be made in only *one* of the variables, which one would produce the largest change (in absolute value) in $F$? If the change is this variable was of size 0.1, approximately how large would the change in $F$ be?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5b-p2.png",
-       "w": 442,
-       "h": 62
-      }
-     ],
      "solucao": [
       {
        "p": "At $P_{0} = (1, 3, 2)$ we have $|F_{y}| = 3/2 > |F_{x}|,|F_{z}|$. So, a change in $y$ produces the largest change in $F$. $\\Delta F = F_{y}\\Delta y = \\frac{3}{2} (0.1) = 0.15$."
@@ -412,26 +372,16 @@
      "id": "a",
      "partes": [
       {
-       "p": "(10 pts.) Let $F (x,y,z)$ be a smooth function of three variables for which $\\nabla F (1,-1,\\sqrt{2}) = \\langle 1, 2,-2\\rangle$ ."
+       "p": "(10 pts.) Let $F(x, y, z)$ be a smooth function of three variables for which $\\nabla F(1, -1, \\sqrt{2}) = \\langle 1, 2, -2\\rangle$."
       },
       {
-       "p": "Use the Chain Rule to evaluate $\\frac{\\partial F}{\\partial \\phi}$ at $(\\rho ,\\phi ,\\theta ) = (2, \\frac{\\pi}{4},-\\frac{\\pi}{4})$."
+       "p": "Use the Chain Rule to evaluate $\\dfrac{\\partial F}{\\partial \\phi}$ at $(\\rho, \\phi, \\theta) = (2, \\frac{\\pi}{4}, -\\frac{\\pi}{4})$."
       },
       {
-       "p": "(Use $x = \\rho$ sin $\\phi$ cos $\\theta , y = \\rho$ sin $\\phi$ sin $\\theta , z = \\rho$ cos $\\phi .)$"
+       "p": "(Use $x = \\rho\\sin\\phi\\cos\\theta$, $y = \\rho\\sin\\phi\\sin\\theta$, $z = \\rho\\cos\\phi$.)"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q8a-p2.png",
-       "w": 474,
-       "h": 80
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
@@ -443,7 +393,7 @@
      "tipo": "aberta",
      "solucao": [
       {
-       "p": "NOT Possible $\\langle -y, x\\rangle$ is not a gradient field. (Test: $\\langle -y, x\\rangle = \\langle P, Q\\rangle : P_{y} = -1 \\pm = Q_{x} = 1.)$"
+       "p": "NOT Possible $\\langle -y, x\\rangle$ is not a gradient field. (Test: $\\langle -y, x\\rangle = \\langle P, Q\\rangle : P_{y} = -1 \\pm \\neq Q_{x} = 1.)$"
       },
       {
        "img": "g1/p4-1.png",
@@ -511,35 +461,14 @@
    "titulo": "(15 points)",
    "partes": [
     {
-     "img": "e1/p3-1.png",
-     "w": 15,
-     "h": 8
+     "p": "Set up the integral $\\displaystyle\\iint_{R} f(x, y)\\,dA$ where $R$ is the region bounded by the four curves $x^{2}y = 4$, $x^{2}y = 9$, $\\frac{y}{x} = 1$, and $\\frac{y}{x} = 2$ as a double integral in the variables $u = x^{2}y$ and $v = \\frac{y}{x}$. (Your answer should be completely ready to integrate, once the function $f$ is given.)"
     },
     {
-     "p": "Set up the integral $f (x,y) dA$ where $R$ is the region bounded by the four curves"
-    },
-    {
-     "p": "$$R$$",
-     "display": true
-    },
-    {
-     "p": "$x^{2}y = 4, x^{2}y = 9, \\frac{y}{x} = 1$, and $\\frac{y}{x} = 2$ as a double integral in the variables $u = x^{2}y$ and $v = \\frac{y}{x}$. (Your answer should be completely ready to integrate, once the function $f$ is given.) Note: the inverse transformation is given by $x = u^{\\frac{1}{3}} v^{-\\frac{1}{3}}, y = u^{\\frac{1}{3}} v^{\\frac{2}{3}}$."
+     "p": "Note: the inverse transformation is given by $x = u^{\\frac{1}{3}}v^{-\\frac{1}{3}}$, $y = u^{\\frac{1}{3}}v^{\\frac{2}{3}}$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q10-p3.png",
-     "w": 442,
-     "h": 105
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -554,10 +483,7 @@
    "titulo": "(15 points)",
    "partes": [
     {
-     "p": "F$(x,y) = x (\\mathbf{i} + \\mathbf{j})$, and let $C$ be the closed curve in the xy-plane formed by the triangle with vertices at the origin and the points (1,0) and (0,1)."
-    },
-    {
-     "p": "integral. (Set up, then using short-cut is ok.)"
+     "p": "$\\mathbf{F}(x, y) = x\\,(\\mathbf{i} + \\mathbf{j})$, and let $C$ be the closed curve in the xy-plane formed by the triangle with vertices at the origin and the points (1,0) and (0,1)."
     }
    ],
    "itens": [
@@ -589,31 +515,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "(5 pts.) Compute the flux integral $\\mathbf{F} \\cdot \\hat{\\mathbf{n}} ds$ directly."
-      },
-      {
-       "p": "$$C$$",
-       "display": true
-      },
-      {
-       "img": "e1/p3-3.png",
-       "w": 7,
-       "h": 8
+       "p": "(5 pts.) Compute the flux integral $\\displaystyle\\oint_{C} \\mathbf{F} \\cdot \\hat{\\mathbf{n}}\\,ds$ directly. (Specify which orientation you are using for $C$.)"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q11b-p3.png",
-       "w": 315,
-       "h": 54
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q11b-p4.png",
@@ -631,11 +536,7 @@
      "id": "c",
      "partes": [
       {
-       "p": "(5 pts.) Compute the flux integral $\\mathbf{F} \\cdot \\hat{\\mathbf{n}} ds$ using the appropriate double"
-      },
-      {
-       "p": "$$C$$",
-       "display": true
+       "p": "(5 pts.) Compute the flux integral $\\displaystyle\\oint_{C} \\mathbf{F} \\cdot \\hat{\\mathbf{n}}\\,ds$ using the appropriate *double* integral. (Set up, then using short-cut is ok.)"
       }
      ],
      "contexto": [
@@ -644,18 +545,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q11c-p3.png",
-       "w": 442,
-       "h": 29
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q11c-p5.png",
@@ -739,9 +628,7 @@
    "titulo": "(15 points)",
    "partes": [
     {
-     "img": "e1/p3-5.png",
-     "w": 312,
-     "h": 13
+     "p": "$\\mathbf{F}(x, y, z) = (y + y^{2}z)\\,\\mathbf{i} + (x - z + 2xyz)\\,\\mathbf{j} + (-y + xy^{2})\\,\\mathbf{k}$"
     }
    ],
    "itens": [
@@ -788,29 +675,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "(2 pts.) Find $\\mathbf{F} \\cdot d\\mathbf{r}$, where $C$ is the straight line joining the points (2, 2, 1) and"
-      },
-      {
-       "p": "$$C$$",
-       "display": true
-      },
-      {
-       "p": "(1, -1, 2) (in that order), using as little computation as possible."
+       "p": "(2 pts.) Find $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$, where $C$ is the straight line joining the points (2, 2, 1) and (1, -1, 2) (in that order), using as little computation as possible."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q13c-p3.png",
-       "w": 442,
-       "h": 40
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q13c-p6.png",
@@ -850,26 +718,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "(10 pts.) Compute the flux integral $\\mathbf{F} \\cdot \\hat{\\mathbf{n}} dS$."
-      },
-      {
-       "p": "$$S$$",
-       "display": true
+       "p": "(10 pts.) Compute the flux integral $\\displaystyle\\iint_{S} \\mathbf{F} \\cdot \\hat{\\mathbf{n}}\\,dS$. (Use the normal which points 'outward' from $S$, i.e. on the side away from the $z$-axis.)"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q14b-p4.png",
-       "w": 283,
-       "h": 29
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q14b-p6.png",
@@ -929,15 +781,7 @@
    "titulo": "(25 points)",
    "partes": [
     {
-     "p": "F$(x,y,z) = (yz)\\mathbf{i} + (-xz)\\mathbf{j} + \\mathbf{k}$. Let $S$ be the portion of surface of the paraboloid $z = 4 - x^{2} - y^{2}$ which lies above the first octant; and let $C$ be the closed curve $C$ $= C_{1} + C_{2} + C_{3}$, where the curves $C_{1}, C_{2}$ and $C_{3}$ are the three curves formed by intersecting $S$ with the xy, yz and xz planes respectively (so that $C$ is the boundary of $S)$. Orient $C$ so that it is traversed CCW when seen from above in the first octant."
-    },
-    {
-     "img": "e1/p4-2.png",
-     "w": 7,
-     "h": 8
-    },
-    {
-     "p": "ing each piece of the curve $C$ and then adding up the three line integrals."
+     "p": "$\\mathbf{F}(x, y, z) = (yz)\\,\\mathbf{i} + (-xz)\\,\\mathbf{j} + \\mathbf{k}$. Let $S$ be the portion of surface of the paraboloid $z = 4 - x^{2} - y^{2}$ which lies above the first octant; and let $C$ be the closed curve $C = C_{1} + C_{2} + C_{3}$, where the curves $C_{1}$, $C_{2}$ and $C_{3}$ are the three curves formed by intersecting $S$ with the xy, yz and xz planes respectively (so that $C$ is the boundary of $S$). Orient $C$ so that it is traversed CCW when seen from above in the first octant."
     }
    ],
    "itens": [
@@ -945,41 +789,16 @@
      "id": "a",
      "partes": [
       {
-       "p": "(15 pts.) Use Stokes' Theorem to compute the loop integral $\\mathbf{F} \\cdot d\\mathbf{r}$ by using"
-      },
-      {
-       "p": "$$C$$",
-       "display": true
-      },
-      {
-       "img": "e1/p4-3.png",
-       "w": 7,
-       "h": 8
+       "p": "(15 pts.) Use Stokes' Theorem to compute the loop integral $\\displaystyle\\oint_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ by using the *surface integral* over the capping surface $S$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q15a-p4.png",
-       "w": 442,
-       "h": 71
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
      "partes": [
       {
-       "p": "(10 pts.) Set up and evaluate the loop integral $\\mathbf{F} \\cdot d\\mathbf{r}$ directly by parametriz"
-      },
-      {
-       "p": "$$C$$",
-       "display": true
+       "p": "(10 pts.) Set up and evaluate the loop integral $\\displaystyle\\oint_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ directly by parametrizing each piece of the curve $C$ and then adding up the three line integrals."
       }
      ],
      "contexto": [
@@ -988,18 +807,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q15b-p4.png",
-       "w": 438,
-       "h": 29
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q15b-p7.png",

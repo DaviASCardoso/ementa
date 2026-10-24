@@ -71,22 +71,11 @@
      "id": "a",
      "partes": [
       {
-       "img": "e1/p3-1.png",
-       "w": 125,
-       "h": 36
+       "p": "$$\\lim_{n \\to \\infty} \\sum_{i=1}^{n} \\left(1 + i \\cdot \\frac{3}{n}\\right)^{2} \\frac{3}{n}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3a-p3.png",
-       "w": 288,
-       "h": 55
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q3a-p3.png",
@@ -104,28 +93,14 @@
      "id": "b",
      "partes": [
       {
-       "p": "The value $f (4)$ for the continuous function $f$ satisfying"
+       "p": "The value $f(4)$ for the continuous function $f$ satisfying"
       },
       {
-       "img": "e1/p3-2.png",
-       "w": 112,
-       "h": 22
-      },
-      {
-       "p": "0"
+       "p": "$$x\\sin\\pi x = \\int_{0}^{x^{2}} f(t)\\,dt$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3b-p3.png",
-       "w": 313,
-       "h": 64
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q3b-p4.png",
@@ -204,39 +179,19 @@
      "p": "Given a definite integral"
     },
     {
-     "img": "e1/p5-1.png",
-     "w": 16,
-     "h": 10
-    },
-    {
-     "p": "$$f (x) dx$$",
+     "p": "$$\\int_{a}^{b} f(x)\\,dx,$$",
      "display": true
     },
     {
-     "p": "$$a$$",
-     "display": true
+     "p": "let $T_{n}$ be the trapezoid approximation with $n$ intervals, $M_{n}$ the midpoint approximation using $n$ intervals, and $S_{2n}$ the Simpson's rule approximation using $2n$ intervals. Prove that"
     },
     {
-     "p": "let $T_{n}$ be the trapezoid approximation with $n$ intervals, $M_{n}$ the midpoint approx imation using $n$ intervals, and $S_{2n}$ the Simpson's rule approximation using $2n$ intervals. Prove that"
-    },
-    {
-     "p": "$$\\frac{1}{3}T_{n} + \\frac{2}{3}M_{n} = S_{2n}$$",
+     "p": "$$\\frac{1}{3}T_{n} + \\frac{2}{3}M_{n} = S_{2n}.$$",
      "display": true
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5-p5.png",
-     "w": 442,
-     "h": 114
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {

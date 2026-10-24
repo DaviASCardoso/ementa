@@ -25,10 +25,12 @@
      "p": "Consider the following utility function and lifetime budget constraint:"
     },
     {
-     "p": "$u(c_{t}) = \\frac{c_{t}^{1-\\gamma}}{1-\\gamma}, \\gamma > 0$"
+     "p": "$$u(c_{t}) = \\frac{c_{t}^{1-\\gamma}}{1-\\gamma}, \\quad \\gamma > 0$$",
+     "display": true
     },
     {
-     "p": "$T T$ $\\sum_{t\\frac{T}{=}0}^{q c}t t^{=q}0 (^{1+R}0)^{a}0 \\frac{+ q y where q}{t=0}\\sum t t t^{=}\\frac{q_{t-1}}{1+ R}_{t}$"
+     "p": "$$\\sum_{t=0}^{T} q_{t}c_{t} = q_{0}(1 + R_{0})a_{0} + \\sum_{t=0}^{T} q_{t}y_{t} \\quad \\text{where } q_{t} = \\frac{q_{t-1}}{1 + R_{t}}$$",
+     "display": true
     }
    ],
    "itens": [
@@ -36,27 +38,22 @@
      "id": "a",
      "partes": [
       {
-       "p": "Assume that the agent's discount factor $\\beta$ is such that $1+R_{t} =1/\\beta$ for all . $t$"
+       "p": "Assume that the agent's discount factor $\\beta$ is such that $1 + R_{t} = 1/\\beta$ for all $t$."
       },
       {
-       "p": "i) Prove that he optimal consumption path is constant ii) Solve for the optimal consumption level in each period of life iii) Why was it necessary for us to assume $1+R_{t} =1/\\beta$ for all ?$t$"
+       "p": "i) Prove that the optimal consumption path is constant"
       },
       {
-       "p": "To simplify the math, assume $R = 0$ and $q_{0} =1$ for the remainder of this question."
+       "p": "ii) Solve for the optimal consumption level in each period of life"
+      },
+      {
+       "p": "iii) Why was it necessary for us to assume $1 + R_{t} = 1/\\beta$ for all $t$?"
+      },
+      {
+       "p": "To simplify the math, assume $R = 0$ and $q_{0} = 1$ for the remainder of this question."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1a-p1.png",
-       "w": 366,
-       "h": 96
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1a-p1.png",
@@ -74,20 +71,19 @@
      "id": "b",
      "partes": [
       {
-       "p": "Suppose the individual's income is constant in each period of life such that $y = y \\forall t$. i) What is the optimal consumption level in each period of life now? ii)How much does the individual save in period $t$ ? iii) Are the savings positive or negative? Explain your answer."
+       "p": "Suppose the individual's income is constant in each period of life such that $y = \\bar{y} \\;\\; \\forall t$."
+      },
+      {
+       "p": "i) What is the optimal consumption level in each period of life now?"
+      },
+      {
+       "p": "ii) How much does the individual save in period $t$?"
+      },
+      {
+       "p": "iii) Are the savings positive or negative? Explain your answer."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1b-p1.png",
-       "w": 376,
-       "h": 63
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1b-p2.png",
@@ -105,23 +101,19 @@
      "id": "c",
      "partes": [
       {
-       "p": "Now suppose that the government decides to tax individuals. The government implements a tax on income in each period of life such that an individual's income is now given by $(1-\\tau )y$, where $\\tau =1/ (1+T)$. The government takes the revenue from the tax and throws it in the ocean."
+       "p": "Now suppose that the government decides to tax individuals. The government implements a tax on income in each period of life such that an individual's income is now given by $(1-\\tau)\\bar{y}$, where $\\tau = 1/(1+T)$. The government takes the revenue from the tax and throws it in the ocean."
       },
       {
-       "p": "i) How much did the tax reduce the individual's per-period (contemporaneous) income? ii) How much did the tax reduce the individual's lifetime income? iii) How much does the optimal consumption at time $t = 0$ fall?"
+       "p": "i) How much did the tax reduce the individual's per-period (contemporaneous) income?"
+      },
+      {
+       "p": "ii) How much did the tax reduce the individual's lifetime income?"
+      },
+      {
+       "p": "iii) How much does the optimal consumption at time $t = 0$ fall?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1c-p1.png",
-       "w": 381,
-       "h": 117
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1c-p3.png",
@@ -134,23 +126,19 @@
      "id": "d",
      "partes": [
       {
-       "p": "Now suppose that the government taxes individual's income in only the last period of life when $t =T$. Specifically, assume that $\\tau =1$, in the last period of life, and $\\tau = 0$ in all earlier periods."
+       "p": "Now suppose that the government taxes individual's income in only the last period of life when $t = T$. Specifically, assume that $\\tau = 1$, in the last period of life, and $\\tau = 0$ in all earlier periods."
       },
       {
-       "p": "i) How much did the tax reduce the individual's per-period (contemporaneous) income in each period? ii) How much did the tax reduce the individual's lifetime income? iii) How much does the optimal consumption at time $t = 0$ fall?"
+       "p": "i) How much did the tax reduce the individual's per-period (contemporaneous) income in each period?"
+      },
+      {
+       "p": "ii) How much did the tax reduce the individual's lifetime income?"
+      },
+      {
+       "p": "iii) How much does the optimal consumption at time $t = 0$ fall?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1d-p1.png",
-       "w": 380,
-       "h": 103
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1d-p3.png",
@@ -172,16 +160,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1e-p2.png",
-       "w": 391,
-       "h": 44
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1e-p4.png",
@@ -192,16 +170,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 331,
-     "h": 97
-    }
-   ],
    "fonte": 0
   },
   {
@@ -209,17 +177,18 @@
    "titulo": "Consumption Smoothing with Uncertainty",
    "partes": [
     {
-     "p": "C onsider the following utility function and lifetime budget constraint."
+     "p": "Consider the following utility function and lifetime budget constraint."
     },
     {
-     "p": "$$t 2$$",
+     "p": "$$u(c(S^{t})) = c(S^{t}) - b\\frac{c(S^{t})^{2}}{2}, \\quad b > 0$$",
      "display": true
     },
     {
-     "p": "$u(c(S^{t}))=c(S^{t})-b\\frac{c(S)}{2}$, b $> 0$ $\\sum \\sum_{t\\frac{\\infty}{=}0}_{St}^{q}(^{St})^{c}(^{St})^{\\leq}\\sum \\sum_{t\\frac{\\infty}{=}0}_{St}^{q}(^{St})^{y}(^{St})$"
+     "p": "$$\\sum_{t=0}^{\\infty}\\sum_{S^{t}} q(S^{t})c(S^{t}) \\leq \\sum_{t=0}^{\\infty}\\sum_{S^{t}} q(S^{t})y(S^{t})$$",
+     "display": true
     },
     {
-     "p": "In this model of uncertainty, $S^{t}$ represents the 'event' $S$, at time $t$ , and all prices and consumption levels will be a function of $S^{t}$. There are two possible states of the world, $S \\in$ {war, peace}. Individuals have a discount factor of $\\beta$ . For this question, you should assume that the individual's wealth and income stream are such that his or her consumption is always in the range where marginal utility is positive."
+     "p": "In this model of uncertainty, $S^{t}$ represents the 'event' $S$, at time $t$, and all prices and consumption levels will be a function of $S^{t}$. There are two possible states of the world, $S \\in \\{\\text{war}, \\text{peace}\\}$. Individuals have a discount factor of $\\beta$. For this question, you should assume that the individual's wealth and income stream are such that his or her consumption is always in the range where marginal utility is positive."
     }
    ],
    "itens": [
@@ -288,29 +257,14 @@
      "id": "d",
      "partes": [
       {
-       "p": "Now consider two possible states of the world at time . In the first state, which $t$ we'll call $W^{t}$, the world has been at war for all periods of time up until time $t$ . In the second state, which we'll call $P^{t}$, the world has been at peace for all periods of time up until time . Use your FOCs from earlier to prove the following $t$ condition is true. Explain the intuition behind this condition. You will not receive credit for this question if you don't explain the intuition!"
+       "p": "Now consider two possible states of the world at time $t$. In the first state, which we'll call $W^{t}$, the world has been at war for all periods of time up until time $t$. In the second state, which we'll call $P^{t}$, the world has been at peace for all periods of time up until time $t$. Use your FOCs from earlier to prove the following condition is true. Explain the intuition behind this condition. You will not receive credit for this question if you don't explain the intuition!"
       },
       {
-       "p": "$$t t t$$",
-       "display": true
-      },
-      {
-       "p": "$$\\frac{\\pi (P)(1- bC (P))}{\\pi (W^{t})(1- bC (W^{t}))} = \\frac{q(P)}{q(W^{t})}$$",
+       "p": "$$\\frac{\\pi(P^{t})(1 - bC(P^{t}))}{\\pi(W^{t})(1 - bC(W^{t}))} = \\frac{q(P^{t})}{q(W^{t})}$$",
        "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2d-p2.png",
-       "w": 361,
-       "h": 109
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2d-p6.png",
@@ -323,20 +277,13 @@
      "id": "e",
      "partes": [
       {
-       "p": "If we assume that the interest rate is constant and equal to the individuals discount rate, it can be shown that $q(S^{t})=\\beta^{t}$ for all $S$ and $t$ . Assume this is true. Using your first order conditions from part (c), what can you say about how consumption varies across different states of the world? How is consumption smoothing different in this model of 'uncertainty' compared to consumption smoothing we find in the model of 'certainty'?"
+       "p": "If we assume that the interest rate is constant and equal to the individuals discount rate, it can be shown that $q(S^{t}) = \\beta^{t}$ for all $S$ and $t$. Assume this is true."
+      },
+      {
+       "p": "Using your first order conditions from part (c), what can you say about how consumption varies across different states of the world? How is consumption smoothing different in this model of 'uncertainty' compared to consumption smoothing we find in the model of 'certainty'?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2e-p2.png",
-       "w": 360,
-       "h": 83
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2e-p6.png",
@@ -347,19 +294,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "fórmula empilhada junto do texto",
-    "fórmula que o KaTeX não desenha",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p2.png",
-     "w": 426,
-     "h": 168
-    }
-   ],
    "fonte": 0
   }
  ]

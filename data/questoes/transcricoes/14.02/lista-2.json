@@ -1,0 +1,19 @@
+{
+ "1/b": {
+  "partes": [
+   {
+    "p": "Balanced Budget"
+   },
+   {
+    "p": "Now suppose that the government decided to choose $G$ such that budget is balanced:"
+   },
+   {
+    "p": "$$G = T,$$",
+    "display": true
+   },
+   {
+    "p": "that is, now we treat $G$ as another variable we need to solve for. The rest of the equations remain the same as in Part (a), i.e., taxes depend on consumption."
+   }
+  ]
+ }
+}

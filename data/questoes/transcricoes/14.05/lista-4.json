@@ -1,0 +1,126 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Consider households that live for three periods, $t \\in \\{0, 1, 2\\}$. There are two types of households, which are denoted by superscript $j \\in \\{inc, dec\\}$ and which are identical except for their income profile. In particular, half of the population consists of type $inc$ households, which have an increasing income profile over their life,"
+   },
+   {
+    "p": "$$y_{0}^{inc} < y_{1}^{inc} = y_{2}^{inc}. \\tag{1}$$",
+    "display": true
+   },
+   {
+    "p": "The other half of the population consists of $dec$ households who have a decreasing income profile over their life,"
+   },
+   {
+    "p": "$$y_{0}^{dec} > y_{1}^{dec} = y_{2}^{dec}.$$",
+    "display": true
+   },
+   {
+    "p": "Households start with no initial assets, that is $a_{0}^{j} = 0$ for each $j \\in \\{inc, dec\\}$."
+   },
+   {
+    "p": "Each household solves a standard consumption-savings problem, with discount rate $\\rho = 0$ and interest rate $r = 0$. In particular, a type $j \\in \\{inc, dec\\}$ household's optimization problem can be written as"
+   },
+   {
+    "p": "$$\\max_{\\{c_{t}^{j} \\geq 0,\\, a_{t+1}^{j}\\}_{t=0}^{2}} u(c_{0}^{j}) + u(c_{1}^{j}) + u(c_{2}^{j})$$",
+    "display": true
+   },
+   {
+    "p": "subject to"
+   },
+   {
+    "p": "$$\\begin{aligned} & c_{t}^{j} + a_{t+1}^{j} = a_{t}^{j} + y_{t}^{j} \\quad \\text{for each } t \\in \\{0, 1, 2\\} \\\\ & a_{3}^{j} = 0 \\quad \\text{(no assets are left behind)} \\\\ & a_{1}^{j} \\geq 0. \\end{aligned} \\tag{2}$$",
+    "display": true
+   },
+   {
+    "p": "Here, $a_{t+1}^{j}$ denotes the household's next period asset choice at date $t$. Condition (2) says that the household is subject to a severe borrowing constraint at date 0. For simplicity, the household can choose $a_{2}^{j}$ without constraints."
+   }
+  ]
+ },
+ "1/c": {
+  "partes": [
+   {
+    "p": "Now suppose agents are allowed to borrow up to a limit at date 0, that is, the constraint in (2) is relaxed to $a_{1}^{j} \\geq -b_{1}$, for some borrowing limit $b_{1} > 0$. Suppose $b_{1}$ is sufficiently small so that any agents that you identified to be constrained in part a) continue to be constrained also in this part. Characterize the households' average consumption, $c_{0} = \\frac{c_{0}^{inc} + c_{0}^{dec}}{2}$. Suppose $b_{1}$ increases by 1 dollar. What happens to $c_{0}$ and why?"
+   }
+  ]
+ },
+ "2/": {
+  "partes": [
+   {
+    "p": "Consider an economy populated by a unit mass of identical households. Each of them solves the following labor supply problem."
+   },
+   {
+    "p": "$$\\max_{c,l} u(c) - v(\\ell)$$",
+    "display": true
+   },
+   {
+    "p": "subject to the budget constraint"
+   },
+   {
+    "p": "$$c = w\\ell$$",
+    "display": true
+   },
+   {
+    "p": "where $w$ is wage, $c$ is consumption and $\\ell$ is labor. For the questions below, assume that $u(c) = c$ and $v(\\ell) = \\frac{\\gamma}{2}(\\ell)^{2}$."
+   }
+  ]
+ },
+ "2/b": {
+  "partes": [
+   {
+    "p": "Suppose that firms in this economy produce using the following production function: $y = A\\ell^{1-\\alpha}$ with $0 < \\alpha < 1$. All markets are competitive. First determine the demand for"
+   }
+  ]
+ },
+ "2/d": {
+  "partes": [
+   {
+    "p": "We now ask how wages and employment respond to changes in labor demand and labor supply."
+   },
+   {
+    "p": "i) We begin with labor demand. Suppose that firm productivity $A$ declines, i.e., workers are less productive and so less desirable for firms. What happens to $\\ell^{*}$ and $w^{*}$?"
+   },
+   {
+    "p": "ii) Now consider labor supply. For this change household preferences to"
+   },
+   {
+    "p": "$$u(c) - \\xi v(\\ell)$$",
+    "display": true
+   },
+   {
+    "p": "where $\\xi > 0$ captures the relative desirability of work. Suppose that $\\xi$ increases, i.e., work becomes less desirable (or equivalently, leisure becomes more desirable). What happens to $\\ell^{*}$ and $w^{*}$?"
+   },
+   {
+    "p": "iii) Consider a Covid shock. We can think of this shock as reducing both labor demand — because certain firms need to shut down — and labor supply — because workers are unwilling to go to work, out of fear of getting sick. What does this shock do to equilibrium employment and wages?"
+   }
+  ]
+ },
+ "4/": {
+  "partes": [
+   {
+    "p": "Consider the following slightly altered version of the static New Keynesian model with demand shocks. The static demand relation is"
+   },
+   {
+    "p": "$$-\\gamma y_{t} = r_{t}^{n} - \\pi_{t} - \\hat{\\theta}_{t} \\tag{3}$$",
+    "display": true
+   },
+   {
+    "p": "Note the change relative to the model in class: now contemporaneous inflation, $\\pi_{t}$, shows up in the aggregate demand equation (3). This change in the model allows it to more closely mimic an interesting property of the full dynamic New Keynesian model. The other two equations are unchanged: there is an aggregate supply relation,"
+   },
+   {
+    "p": "$$\\pi_{t} = \\kappa y_{t} \\tag{4}$$",
+    "display": true
+   },
+   {
+    "p": "and a policy relation,"
+   },
+   {
+    "p": "$$r_{t}^{n} = \\phi_{\\pi}\\pi_{t}. \\tag{5}$$",
+    "display": true
+   },
+   {
+    "p": "Note that there are no supply and policy shocks in (4) and (5), as this problem focuses on the propagation of demand shocks. Throughout this problem you should assume that $\\gamma > \\kappa$."
+   }
+  ]
+ }
+}

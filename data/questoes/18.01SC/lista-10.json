@@ -158,35 +158,32 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate a) tan$^{-1} \\sqrt{3}$ b) sin$^{-1}(\\sqrt{3}/2)$"
+     "p": "Evaluate"
     },
     {
-     "p": "c) If $\\theta =$ tan$^{-1} 5$, then evaluate sin $\\theta$ , cos $\\theta$ , cot $\\theta$ , csc $\\theta$ , and sec $\\theta$ ."
+     "p": "a) $\\tan^{-1}\\sqrt{3}$"
     },
     {
-     "img": "e1/p1-1.png",
-     "w": 199,
-     "h": 76
+     "p": "b) $\\sin^{-1}(\\sqrt{3}/2)$"
     },
     {
-     "p": "d) sin$^{-1}$ cos($\\pi /6)$ e) tan$^{-1}$ tan($\\pi /3)$"
+     "p": "c) If $\\theta = \\tan^{-1} 5$, then evaluate $\\sin\\theta$, $\\cos\\theta$, $\\cot\\theta$, $\\csc\\theta$, and $\\sec\\theta$."
     },
     {
-     "p": "f) tan$^{-1}$ tan(2$\\pi /3)$ g) $_{x\\to -\\infty}$lim tan$^{-1} x$."
+     "p": "d) $\\sin^{-1}\\cos(\\pi/6)$"
+    },
+    {
+     "p": "e) $\\tan^{-1}\\tan(\\pi/3)$"
+    },
+    {
+     "p": "f) $\\tan^{-1}\\tan(2\\pi/3)$"
+    },
+    {
+     "p": "g) $\\displaystyle\\lim_{x \\to -\\infty} \\tan^{-1} x$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5A-1-p1.png",
-     "w": 385,
-     "h": 133
-    }
-   ],
    "fonte": 0,
    "solucao": []
   },
@@ -195,26 +192,20 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Calculate a) $\\frac{dx}{x^{2} + 1}$ b) $\\frac{dx}{x^{2} + b^{2}}$ c) $\\frac{dx}{\\sqrt{1 - x^{2}}}$."
+     "p": "Calculate"
     },
     {
-     "p": "$$1 b -1$$",
-     "display": true
+     "p": "a) $\\displaystyle\\int_{1}^{2} \\frac{dx}{x^{2} + 1}$"
+    },
+    {
+     "p": "b) $\\displaystyle\\int_{b}^{2b} \\frac{dx}{x^{2} + b^{2}}$"
+    },
+    {
+     "p": "c) $\\displaystyle\\int_{-1}^{1} \\frac{dx}{\\sqrt{1 - x^{2}}}$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5A-2-p1.png",
-     "w": 345,
-     "h": 26
-    }
-   ],
    "fonte": 0
   },
   {
@@ -223,11 +214,6 @@
    "partes": [
     {
      "p": "Calculate the derivative with respect to $x$ of the following"
-    },
-    {
-     "img": "e1/p1-2.png",
-     "w": 331,
-     "h": 91
     }
    ],
    "itens": [
@@ -235,20 +221,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "sin$^{-1} \\frac{x - 1}{x + 1}$"
+       "p": "$\\sin^{-1}\\left(\\dfrac{x - 1}{x + 1}\\right)$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5A-3a-p1.png",
-       "w": 150,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q5A-3a-p2.png",
@@ -261,20 +237,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "tanh $x$"
+       "p": "$\\tanh x$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5A-3b-p1.png",
-       "w": 150,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "sech$^{2}x = 1/$ cosh$^{2} x = 4/(e^{x} + e^{-x})^{2}$"
@@ -285,20 +251,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "ln($x + \\sqrt{x^{2} + 1)}$"
+       "p": "$\\ln(x + \\sqrt{x^{2} + 1})$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5A-3c-p1.png",
-       "w": 341,
-       "h": 18
-      }
-     ],
      "solucao": [
       {
        "p": "$y = x + \\sqrt{x^{2} + 1,} dy/dx = 1 + x/\\sqrt{x^{2} + 1.}$"
@@ -313,20 +269,10 @@
      "id": "d",
      "partes": [
       {
-       "p": "$y$ such that cos $y = x, 0 \\leq x \\leq 1$ and $0 \\leq y \\leq \\pi /2$."
+       "p": "$y$ such that $\\cos y = x$, $0 \\leq x \\leq 1$ and $0 \\leq y \\leq \\pi/2$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5A-3d-p1.png",
-       "w": 341,
-       "h": 18
-      }
-     ],
      "solucao": [
       {
        "p": "cos $y = x \\Rightarrow (-$ sin $y)(dy/dx) = 1$"
@@ -341,20 +287,10 @@
      "id": "e",
      "partes": [
       {
-       "p": "sin$^{-1}(x/a)$"
+       "p": "$\\sin^{-1}(x/a)$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5A-3e-p1.png",
-       "w": 168,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "Chain rule:"
@@ -370,20 +306,10 @@
      "id": "f",
      "partes": [
       {
-       "p": "sin$^{-1}(a/x)$"
+       "p": "$\\sin^{-1}(a/x)$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5A-3f-p1.png",
-       "w": 168,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "Chain rule:"
@@ -399,20 +325,10 @@
      "id": "g",
      "partes": [
       {
-       "p": "tan$^{-1}(x/\\sqrt{1 - x^{2})}$"
+       "p": "$\\tan^{-1}(x/\\sqrt{1 - x^{2}})$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5A-3g-p1.png",
-       "w": 178,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$y = x/\\sqrt{1 - x^{2},} dy/dx = (1 - x^{2})^{-3/2}, 1 + y^{2} = 1/(1 - x^{2})$. Thus"
@@ -430,20 +346,10 @@
      "id": "h",
      "partes": [
       {
-       "p": "sin$^{-1} \\sqrt{1 - x}$"
+       "p": "$\\sin^{-1}\\sqrt{1 - x}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5A-3h-p1.png",
-       "w": 178,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$y = \\sqrt{x - 1,} dy/dx = -1/2\\sqrt{x - 1,} 1 - y^{2} = x$. Thus,"
@@ -530,12 +436,7 @@
      "id": "c",
      "partes": [
       {
-       "p": "Find $\\frac{d}{dx}$ sinh$^{-1} x$."
-      },
-      {
-       "img": "e1/p2-1.png",
-       "w": 6,
-       "h": 6
+       "p": "Find $\\dfrac{d}{dx}\\sinh^{-1} x$."
       }
      ],
      "tipo": "aberta",
@@ -557,20 +458,10 @@
      "id": "d",
      "partes": [
       {
-       "p": "Use your work to evaluate $\\frac{dx}{\\sqrt{a^{2} + x^{2}}}$"
+       "p": "Use your work to evaluate $\\displaystyle\\int \\frac{dx}{\\sqrt{a^{2} + x^{2}}}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5A-5d-p2.png",
-       "w": 193,
-       "h": 18
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q5A-5d-p4.png",
@@ -653,10 +544,10 @@
    "titulo": "",
    "partes": [
     {
-     "p": "The equality (1) of Notes F is valid for $x = 1,-2$. Therefore, the equality (4)"
+     "p": "The equality (1) of Notes F is valid for $x \\neq 1,-2$. Therefore, the equality (4)"
     },
     {
-     "p": "is also valid only when $x = 1,-2$, since it arises from (1) by multiplication."
+     "p": "is also valid only when $x \\neq 1,-2$, since it arises from (1) by multiplication."
     },
     {
      "p": "Why then is it legitimate to substitute $x = 1$ into (4)?"
@@ -674,7 +565,7 @@
      "display": true
     },
     {
-     "p": "by division by $x + 2$; since this new equation is valid for all $x$, the line (4) will be valid for $x = -2$, in particular it will be valid for $x = 1$."
+     "p": "by division by $x + 2$; since this new equation is valid for all $x$, the line (4) will be valid for $x \\neq -2$, in particular it will be valid for $x = 1$."
     }
    ]
   },
@@ -998,10 +889,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "This problem shows how to integrate any rational function of sin $\\theta$ and cos $\\theta$ using the substitution $z =$ tan($\\theta /2)$. The integrand is transformed into a rational function of $z$, which can be integrated using the method of partial fractions."
-    },
-    {
-     "p": "way!)"
+     "p": "This problem shows how to integrate any rational function of $\\sin\\theta$ and $\\cos\\theta$ using the substitution $z = \\tan(\\theta/2)$. The integrand is transformed into a rational function of $z$, which can be integrated using the method of partial fractions."
     }
    ],
    "itens": [
@@ -1012,12 +900,11 @@
        "p": "Show that"
       },
       {
-       "p": "cos $\\theta = \\frac{1 - z^{2}}{1 + z^{2}}$, sin $\\theta = \\frac{2z}{1 + z^{2}}, d\\theta = \\frac{2dz}{1 + z^{2}}$."
+       "p": "$$\\cos\\theta = \\frac{1 - z^{2}}{1 + z^{2}}, \\quad \\sin\\theta = \\frac{2z}{1 + z^{2}}, \\quad d\\theta = \\frac{2\\,dz}{1 + z^{2}}.$$",
+       "display": true
       },
       {
-       "img": "e1/p5-3.png",
-       "w": 208,
-       "h": 8
+       "p": "Calculate the following integrals using the substitution $z = \\tan(\\theta/2)$ of part (a)."
       }
      ],
      "tipo": "aberta",
@@ -1033,7 +920,8 @@
      "id": "b",
      "partes": [
       {
-       "p": "$\\frac{d\\theta}{1 + sin \\theta}$"
+       "p": "$$\\int_{0}^{\\pi} \\frac{d\\theta}{1 + \\sin\\theta}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
@@ -1049,7 +937,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "$\\frac{d\\theta}{(1 + sin \\theta )^{2}}$ d) sin $\\theta d\\theta$ (Not the easiest 0 0 0"
+       "p": "c) $\\displaystyle\\int_{0}^{\\pi} \\frac{d\\theta}{(1 + \\sin\\theta)^{2}}$"
+      },
+      {
+       "p": "d) $\\displaystyle\\int_{0}^{\\pi} \\sin\\theta\\,d\\theta$ (Not the easiest way!)"
       }
      ],
      "contexto": [
@@ -1058,16 +949,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5E-12c-p5.png",
-       "w": 337,
-       "h": 26
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q5E-12c-p17.png",
@@ -1124,32 +1005,23 @@
   {
    "n": "5F-1",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "Evaluate:"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "$x^{a}$ ln $xdx (a = -1)$ b) Evaluate the case $a = -1$ by substitu tion."
+       "p": "a) $\\displaystyle\\int x^{a}\\ln x\\,dx \\quad (a \\neq -1)$"
       },
       {
-       "img": "e1/p5-5.png",
-       "w": 235,
-       "h": 16
+       "p": "b) Evaluate the case $a = -1$ by substitution."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5F-1a-p5.png",
-       "w": 365,
-       "h": 71
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q5F-1a-p17.png",
@@ -1165,53 +1037,31 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5F-1-p5.png",
-     "w": 365,
-     "h": 19
-    }
-   ],
    "fonte": 0
   },
   {
    "n": "5F-2",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "Evaluate:"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "$xe^{x}dx$ b) $x^{2}e^{x}dx$ c) $x^{3}e^{x}dx$"
+       "p": "a) $\\displaystyle\\int xe^{x}\\,dx$"
       },
       {
-       "img": "e1/p6-1.png",
-       "w": 341,
-       "h": 16
+       "p": "b) $\\displaystyle\\int x^{2}e^{x}\\,dx$"
+      },
+      {
+       "p": "c) $\\displaystyle\\int x^{3}e^{x}\\,dx$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5F-2a-p5.png",
-       "w": 245,
-       "h": 19
-      },
-      {
-       "img": "e1/q5F-2a-p6.png",
-       "w": 351,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q5F-2a-p18.png",
@@ -1224,25 +1074,10 @@
      "id": "d",
      "partes": [
       {
-       "p": "Derive the reduction formula expressing $Z x^{n}e^{ax}dx$ in terms of $Z x^{n-1}e^{ax}dx$."
-      },
-      {
-       "img": "e1/p6-2.png",
-       "w": 134,
-       "h": 16
+       "p": "Derive the reduction formula expressing $\\displaystyle\\int x^{n}e^{ax}\\,dx$ in terms of $\\displaystyle\\int x^{n-1}e^{ax}\\,dx$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q5F-2d-p6.png",
-       "w": 383,
-       "h": 67
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q5F-2d-p18.png",
@@ -1258,17 +1093,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5F-2-p5.png",
-     "w": 245,
-     "h": 19
-    }
-   ],
    "fonte": 0
   },
   {
@@ -1276,26 +1100,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate $Z$ sin$^{-1}(4x)dx$"
-    },
-    {
-     "img": "e1/p6-3.png",
-     "w": 247,
-     "h": 16
+     "p": "Evaluate $\\displaystyle\\int \\sin^{-1}(4x)\\,dx$"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5F-3-p6.png",
-     "w": 257,
-     "h": 67
-    }
-   ],
    "fonte": 0
   },
   {
@@ -1303,27 +1112,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate $e^{x}$ cos $xdx$. (Integrate by parts twice.)"
-    },
-    {
-     "img": "e1/p6-4.png",
-     "w": 6,
-     "h": 6
+     "p": "Evaluate $\\displaystyle\\int e^{x}\\cos x\\,dx$. (Integrate by parts twice.)"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5F-4-p6.png",
-     "w": 257,
-     "h": 53
-    }
-   ],
    "fonte": 0
   },
   {
@@ -1331,26 +1124,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate cos(ln $x)dx$. (Integrate by parts twice.)"
-    },
-    {
-     "img": "e1/p6-5.png",
-     "w": 367,
-     "h": 16
+     "p": "Evaluate $\\displaystyle\\int \\cos(\\ln x)\\,dx$. (Integrate by parts twice.)"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5F-5-p6.png",
-     "w": 377,
-     "h": 60
-    }
-   ],
    "fonte": 0
   },
   {
@@ -1358,22 +1136,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Show the substitution $t = e^{x}$ transforms the integral $x^{n}e^{x}dx$, into (ln $t)^{n}dt$. Use a reduction procedure to evaluate this integral."
+     "p": "Show the substitution $t = e^{x}$ transforms the integral $\\displaystyle\\int x^{n}e^{x}\\,dx$, into $\\displaystyle\\int (\\ln t)^{n}\\,dt$. Use a reduction procedure to evaluate this integral."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5F-6-p6.png",
-     "w": 377,
-     "h": 35
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {

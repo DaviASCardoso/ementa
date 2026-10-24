@@ -76,20 +76,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "Now assume that it costs \" dollars to collect data on anyone in your experiment and that the job search assistance provided to the experimental group costs \\$ dollars. You can choose any sample size (n) but you must spend no more than R dollars on the experiment. Again, maintaining the assumption that there is no treatment effect, solve for the value of p which minimizes the variance of the treatment/control contrast given the experimenter's budget constraint. Interpret your result and compare to part (a)."
+       "p": "Now assume that it costs $\\alpha$ dollars to collect data on anyone in your experiment and that the job search assistance provided to the experimental group costs $\\beta$ dollars. You can choose any sample size ($n$) but you must spend no more than $R$ dollars on the experiment. Again, maintaining the assumption that there is no treatment effect, solve for the value of $p$ which minimizes the variance of the treatment/control contrast given the experimenter's budget constraint. Interpret your result and compare to part (a)."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2b-p1.png",
-       "w": 481,
-       "h": 68
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",

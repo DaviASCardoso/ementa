@@ -293,7 +293,7 @@
      "tipo": "aberta",
      "solucao": [
       {
-       "p": "$(1 - x)^{4} = \\pm (1 + x)^{4}$: neither."
+       "p": "$(1 - x)^{4} \\neq \\pm (1 + x)^{4}$: neither."
       }
      ]
     },
@@ -1009,7 +1009,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Calculate the following limits if they exist. If they do not exist, then indicate whether they are $+\\infty , -\\infty$ or undefined."
+     "p": "Calculate the following limits if they exist. If they do not exist, then indicate whether they are $+\\infty$, $-\\infty$ or undefined."
     }
    ],
    "itens": [
@@ -1017,20 +1017,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "$_{x}$lim$_{\\to 0} \\frac{4}{x - 1}$"
+       "p": "$$\\lim_{x \\to 0} \\frac{4}{x - 1}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1D-1a-p4.png",
-       "w": 268,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1D-1a-p7.png",
@@ -1043,25 +1034,13 @@
      "id": "b",
      "partes": [
       {
-       "p": "$_{x}$lim$_{\\to 2} \\frac{4x}{x + 1}$ c) $_{x}$lim$_{\\to -2} \\frac{4x^{2}}{x + 2}$"
+       "p": "b) $\\displaystyle\\lim_{x \\to 2} \\frac{4x}{x + 1}$"
       },
       {
-       "img": "e1/p4-1.png",
-       "w": 258,
-       "h": 61
+       "p": "c) $\\displaystyle\\lim_{x \\to -2} \\frac{4x^{2}}{x + 2}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1D-1b-p4.png",
-       "w": 268,
-       "h": 69
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1D-1b-p7.png",
@@ -1074,20 +1053,11 @@
      "id": "d",
      "partes": [
       {
-       "p": "$_{x}$lim$_{\\to 2+} \\frac{4x^{2}}{2 - x}$"
+       "p": "$$\\lim_{x \\to 2^{+}} \\frac{4x^{2}}{2 - x}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1D-1d-p4.png",
-       "w": 265,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "p": "Note that $2 - x$ is negative when $x > 2$, so the limit is $-\\infty$"
@@ -1098,20 +1068,13 @@
      "id": "e",
      "partes": [
       {
-       "p": "$_{x}$lim$_{\\to 2-} \\frac{4x^{2}}{2 - x}$ f) $_{x}$lim$_{\\to \\infty} \\frac{4x^{2}}{x - 2}$"
+       "p": "e) $\\displaystyle\\lim_{x \\to 2^{-}} \\frac{4x^{2}}{2 - x}$"
+      },
+      {
+       "p": "f) $\\displaystyle\\lim_{x \\to \\infty} \\frac{4x^{2}}{x - 2}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1D-1e-p4.png",
-       "w": 265,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "p": "Note that $2 - x$ is positive when $x < 2$, so the limit is $+\\infty$ (can also be written $\\infty )$"
@@ -1122,20 +1085,16 @@
      "id": "g",
      "partes": [
       {
-       "p": "$_{x}$lim$_{\\to \\infty} \\frac{4x^{2}}{x - 2} - 4x$ i) $_{x}$lim$_{\\to \\infty} \\frac{x^{2} + 2x + 3}{3x^{2} - 2x + 4}$ j) $_{x}$lim$_{\\to 2} \\frac{x - 2}{x^{2} - 4}$"
+       "p": "g) $\\displaystyle\\lim_{x \\to \\infty} \\frac{4x^{2}}{x - 2} - 4x$"
+      },
+      {
+       "p": "i) $\\displaystyle\\lim_{x \\to \\infty} \\frac{x^{2} + 2x + 3}{3x^{2} - 2x + 4}$"
+      },
+      {
+       "p": "j) $\\displaystyle\\lim_{x \\to 2} \\frac{x - 2}{x^{2} - 4}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1D-1g-p4.png",
-       "w": 265,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "p": "$\\frac{4x^{2}}{x - 2} - 4x = \\frac{4x^{2} - 4x(x - 2)}{x - 2} = \\frac{8x}{x - 2} = \\frac{8}{1 - (2/x)} \\to 8$ as $x \\to \\infty$"
@@ -1150,16 +1109,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "algo sumiu antes da pontuação"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1D-1-p4.png",
-     "w": 369,
-     "h": 29
-    }
-   ],
    "fonte": 0
   },
   {
@@ -1235,20 +1184,11 @@
      "id": "c",
      "partes": [
       {
-       "p": "$\\frac{x^{4}}{x^{3}}$"
+       "p": "$$\\frac{x^{4}}{x^{3}}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1D-3c-p4.png",
-       "w": 265,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "p": "$x = 0$ removable"
@@ -1259,25 +1199,11 @@
      "id": "d",
      "partes": [
       {
-       "p": "$$f (x) = x + a, x > 0$$",
-       "display": true
-      },
-      {
-       "p": "$$a - x, x < 0$$",
+       "p": "$$f(x) = \\begin{cases} x + a, & x > 0 \\\\ a - x, & x < 0 \\end{cases}$$",
        "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1D-3d-p4.png",
-       "w": 265,
-       "h": 31
-      }
-     ],
      "solucao": [
       {
        "p": "$x = 0$ removable e) $x = 0$ jump f) $x = 0$ removable"
@@ -1352,7 +1278,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Define $f (x) = x_{2}, x < 1$."
+     "p": "Define $f(x) = \\begin{cases} ax + b, & x \\geq 1; \\\\ x^{2}, & x < 1. \\end{cases}$"
     }
    ],
    "itens": [
@@ -1388,16 +1314,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1D-5-p4.png",
-     "w": 156,
-     "h": 24
-    }
-   ],
    "fonte": 0
   },
   {
@@ -1418,20 +1334,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "$f (x) =$"
+       "p": "$$f(x) = \\begin{cases} x^{2} + 4x + 1, & x \\geq 0; \\\\ ax + b, & x < 0. \\end{cases}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1D-6a-p4.png",
-       "w": 230,
-       "h": 17
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1D-6a-p9.png",
@@ -1444,20 +1351,11 @@
      "id": "b",
      "partes": [
       {
-       "p": "$f (x) =$"
+       "p": "$$f(x) = \\begin{cases} x^{2} + 4x + 1, & x \\geq 1; \\\\ ax + b, & x < 1. \\end{cases}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1D-6b-p4.png",
-       "w": 230,
-       "h": 17
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1D-6b-p9.png",
@@ -1530,29 +1428,12 @@
      "p": "Find the values of the constants $a$ and $b$ for which the following function is differentiable, but not continuous."
     },
     {
-     "p": "$$ax + b, x > 0$$",
+     "p": "$$f(x) = \\begin{cases} ax + b, & x > 0; \\\\ \\cos 2x, & x \\leq 0. \\end{cases}$$",
      "display": true
-    },
-    {
-     "p": "$$f (x) =$$",
-     "display": true
-    },
-    {
-     "p": "cos 2$x, x \\leq 0$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1D-9-p5.png",
-     "w": 369,
-     "h": 61
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -1662,25 +1543,13 @@
      "id": "a",
      "partes": [
       {
-       "p": "$ax + b (a$ and $b$ are constants.)$^{6} + 5x^{5} + 4x^{3}$"
+       "p": "a) $ax + b$ ($a$ and $b$ are constants.)"
       },
       {
-       "p": "$$b) x$$",
-       "display": true
+       "p": "b) $x^{6} + 5x^{5} + 4x^{3}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1E-2a-p5.png",
-       "w": 208,
-       "h": 18
-      }
-     ],
      "solucao": [
       {
        "p": "$ax^{2}/2 + bx + c$, where $a$ and $b$ are the given constants and $c$ is a third constant."
@@ -1747,21 +1616,11 @@
      "id": "a",
      "partes": [
       {
-       "p": "$f (x) = 5x^{5} + 3x^{4} + 7x^{2} + 8x + 4, x > 0$."
+       "p": "$$f(x) = \\begin{cases} ax^{2} + bx + 4, & x \\leq 0; \\\\ 5x^{5} + 3x^{4} + 7x^{2} + 8x + 4, & x > 0. \\end{cases}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1E-4a-p5.png",
-       "w": 428,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1E-4a-p11.png",
@@ -1774,21 +1633,11 @@
      "id": "b",
      "partes": [
       {
-       "p": "$f (x) = 5x^{5} + 3x^{4} + 7x^{2} + 8x + 4, x > 1$."
+       "p": "$$f(x) = \\begin{cases} ax^{2} + bx + 4, & x \\leq 1; \\\\ 5x^{5} + 3x^{4} + 7x^{2} + 8x + 4, & x > 1. \\end{cases}$$",
+       "display": true
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1E-4b-p5.png",
-       "w": 428,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1E-4b-p11.png",
@@ -2060,20 +1909,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "$D = p(x - a)^{2} + y_{0}^{2}, \\frac{dD}{dx} =$?"
+       "p": "$D = \\sqrt{(x - a)^{2} + y_{0}^{2}}$, $\\dfrac{dD}{dx} = ?$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1F-7a-p6.png",
-       "w": 344,
-       "h": 23
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1F-7a-p12.png",
@@ -2086,20 +1925,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "$m = p\\frac{m_{0}}{1 - v^{2}/c^{2}}, \\frac{dm}{dv} =$?"
+       "p": "$m = \\dfrac{m_{0}}{\\sqrt{1 - v^{2}/c^{2}}}$, $\\dfrac{dm}{dv} = ?$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1F-7b-p6.png",
-       "w": 344,
-       "h": 23
-      }
-     ],
      "solucao": [
       {
        "p": "$\\frac{dm}{dv} = m_{0} \\cdot \\frac{-1}{2} (1 - v^{2}/c^{2})^{-3/2} \\cdot \\frac{-2v}{c^{2}} = \\frac{m_{0}v}{c^{2}(1 - v^{2}/c^{2})^{3/2}}$"
@@ -2181,20 +2010,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "$c^{2} = a^{2} + b^{2} - 2ab$ cos $\\theta , \\frac{da}{db} =$?"
+       "p": "$c^{2} = a^{2} + b^{2} - 2ab\\cos\\theta$, $\\dfrac{da}{db} = ?$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1F-8c-p7.png",
-       "w": 178,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "$c^{2} = a^{2} + b^{2} - 2ab$ cos $\\theta$ implies"
@@ -2713,17 +2532,7 @@
        "p": "Find the period of revolution of a satellite that circles at an altitude of 1,000 km."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1H-8e-p9.png",
-       "w": 369,
-       "h": 29
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
@@ -2778,77 +2587,55 @@
      "id": "d",
      "partes": [
       {
-       "p": "$x$ ln $x - x$"
+       "p": "$x\\ln x - x$"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1I-1d-p10.png",
-       "w": 264,
-       "h": 18
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "e",
      "partes": [
       {
-       "p": "ln($x^{2})$ f) (ln $x)^{2}$"
-      }
-     ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
+       "p": "e) $\\ln(x^{2})$"
+      },
       {
-       "img": "e1/q1I-1e-p10.png",
-       "w": 264,
-       "h": 18
+       "p": "f) $(\\ln x)^{2}$"
       }
-     ]
+     ],
+     "tipo": "aberta"
     },
     {
      "id": "g",
      "partes": [
       {
-       "p": "$(e^{x2})^{2}$"
+       "p": "$(e^{x^{2}})^{2}$"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1I-1g-p10.png",
-       "w": 291,
-       "h": 20
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "h",
      "partes": [
       {
-       "p": "$x^{x}$ i) $(e^{x} + e^{-x})/2$"
+       "p": "h) $x^{x}$"
+      },
+      {
+       "p": "i) $(e^{x} + e^{-x})/2$"
+      },
+      {
+       "p": "j) $(e^{x} - e^{-x})/2$"
+      },
+      {
+       "p": "k) $\\ln(1/x)$"
+      },
+      {
+       "p": "l) $1/\\ln x$"
+      },
+      {
+       "p": "m) $(1 - e^{x})/(1 + e^{x})$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1I-1h-p10.png",
-       "w": 291,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1I-1h-p16.png",
@@ -3030,20 +2817,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "sin(5$x^{2})$"
+       "p": "$\\sin(5x^{2})$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1J-1a-p11.png",
-       "w": 324,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "$10x$ cos(5$x^{2})$ b) $6$sin(3$x$) cos(3$x)$ c) $-$2 sin(2$x)/$ cos(2$x) = -$2 tan(2$x)$"
@@ -3054,39 +2831,22 @@
      "id": "b",
      "partes": [
       {
-       "p": "sin$^{2}(3x)$ c) ln(cos(2$x))$"
-      }
-     ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
+       "p": "b) $\\sin^{2}(3x)$"
+      },
       {
-       "img": "e1/q1J-1b-p11.png",
-       "w": 324,
-       "h": 19
+       "p": "c) $\\ln(\\cos(2x))$"
       }
-     ]
+     ],
+     "tipo": "aberta"
     },
     {
      "id": "d",
      "partes": [
       {
-       "p": "ln(2cos $x)$"
+       "p": "$\\ln(2\\cos x)$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1J-1d-p11.png",
-       "w": 367,
-       "h": 18
-      }
-     ],
      "solucao": [
       {
        "p": "$-$2 sin $x/$(2 cos $x) = -$ tan $x$. (Why did the factor 2 disappear? Because ln(2 cos $x) =$ ln2 + ln(cos $x)$, and the derivative of the constant ln2 is zero.)"
@@ -3097,20 +2857,13 @@
      "id": "e",
      "partes": [
       {
-       "p": "$\\frac{sin x}{x}$ f) cos($x + y); y = f (x)$"
+       "p": "e) $\\dfrac{\\sin x}{x}$"
+      },
+      {
+       "p": "f) $\\cos(x + y)$; $y = f(x)$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1J-1e-p11.png",
-       "w": 367,
-       "h": 18
-      }
-     ],
      "solucao": [
       {
        "p": "$\\frac{x cos x - sin x}{x^{2}}$"
@@ -3121,48 +2874,49 @@
      "id": "g",
      "partes": [
       {
-       "p": "cos($x + y); y$ constant"
+       "p": "$\\cos(x + y)$; $y$ constant"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1J-1g-p11.png",
-       "w": 322,
-       "h": 21
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "h",
      "partes": [
       {
-       "p": "$e^{sin2}^{x}$ i) ln($x^{2}$ sin $x)$"
+       "p": "h) $e^{\\sin^{2} x}$"
       },
       {
-       "p": "m) The following three functions have the same derivative: cos(2$x)$, cos$^{2} x -$ sin$^{2} x$, and $2$cos$^{2} x$. Verify this. Are the three functions equal? Explain."
+       "p": "i) $\\ln(x^{2}\\sin x)$"
       },
       {
-       "img": "e1/p11-2.png",
-       "w": 325,
-       "h": 27
-      }
-     ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula que o KaTeX não desenha",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
+       "p": "j) $e^{2x}\\sin(10x)$"
+      },
       {
-       "img": "e1/q1J-1h-p11.png",
-       "w": 393,
-       "h": 87
+       "p": "k) $\\tan^{2}(3x)$"
+      },
+      {
+       "p": "l) $\\sec\\sqrt{1 - x^{2}}$"
+      },
+      {
+       "p": "m) The following three functions have the same derivative: $\\cos(2x)$, $\\cos^{2} x - \\sin^{2} x$, and $2\\cos^{2} x$. Verify this. Are the three functions equal? Explain."
+      },
+      {
+       "p": "n) $\\sec(5x)\\tan(5x)$"
+      },
+      {
+       "p": "o) $\\sec^{2}(3x) - \\tan^{2}(3x)$"
+      },
+      {
+       "p": "p) $\\sin(\\sqrt{x^{2} + 1})$"
+      },
+      {
+       "p": "q) $\\cos^{2}(\\sqrt{1 - x^{2}})$"
+      },
+      {
+       "p": "r) $\\tan^{2}\\left(\\dfrac{x}{x + 1}\\right)$"
       }
-     ]
+     ],
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
@@ -3173,25 +2927,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Calculate lim $\\frac{cos x}{x - \\pi /2}$ by relating it to a value of (cos $x)'$."
-    },
-    {
-     "p": "$$x\\to \\pi /2$$",
-     "display": true
+     "p": "Calculate $\\displaystyle\\lim_{x \\to \\pi/2} \\frac{\\cos x}{x - \\pi/2}$ by relating it to a value of $(\\cos x)'$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1J-2-p11.png",
-     "w": 301,
-     "h": 25
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -3337,35 +3077,32 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate a) tan$^{-1} \\sqrt{3}$ b) sin$^{-1}(\\sqrt{3}/2)$"
+     "p": "Evaluate"
     },
     {
-     "p": "c) If $\\theta =$ tan$^{-1} 5$, then evaluate sin $\\theta$ , cos $\\theta$ , cot $\\theta$ , csc $\\theta$ , and sec $\\theta$ ."
+     "p": "a) $\\tan^{-1}\\sqrt{3}$"
     },
     {
-     "img": "e2/p1-1.png",
-     "w": 199,
-     "h": 76
+     "p": "b) $\\sin^{-1}(\\sqrt{3}/2)$"
     },
     {
-     "p": "d) sin$^{-1}$ cos($\\pi /6)$ e) tan$^{-1}$ tan($\\pi /3)$"
+     "p": "c) If $\\theta = \\tan^{-1} 5$, then evaluate $\\sin\\theta$, $\\cos\\theta$, $\\cot\\theta$, $\\csc\\theta$, and $\\sec\\theta$."
     },
     {
-     "p": "f) tan$^{-1}$ tan(2$\\pi /3)$ g) $_{x\\to -\\infty}$lim tan$^{-1} x$."
+     "p": "d) $\\sin^{-1}\\cos(\\pi/6)$"
+    },
+    {
+     "p": "e) $\\tan^{-1}\\tan(\\pi/3)$"
+    },
+    {
+     "p": "f) $\\tan^{-1}\\tan(2\\pi/3)$"
+    },
+    {
+     "p": "g) $\\displaystyle\\lim_{x \\to -\\infty} \\tan^{-1} x$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q5A-1-p1.png",
-     "w": 385,
-     "h": 133
-    }
-   ],
    "fonte": 1,
    "solucao": []
   },
@@ -3374,26 +3111,20 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Calculate a) $\\frac{dx}{x^{2} + 1}$ b) $\\frac{dx}{x^{2} + b^{2}}$ c) $\\frac{dx}{\\sqrt{1 - x^{2}}}$."
+     "p": "Calculate"
     },
     {
-     "p": "$$1 b -1$$",
-     "display": true
+     "p": "a) $\\displaystyle\\int_{1}^{2} \\frac{dx}{x^{2} + 1}$"
+    },
+    {
+     "p": "b) $\\displaystyle\\int_{b}^{2b} \\frac{dx}{x^{2} + b^{2}}$"
+    },
+    {
+     "p": "c) $\\displaystyle\\int_{-1}^{1} \\frac{dx}{\\sqrt{1 - x^{2}}}$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q5A-2-p1.png",
-     "w": 345,
-     "h": 26
-    }
-   ],
    "fonte": 1
   },
   {
@@ -3414,20 +3145,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "sin$^{-1} \\frac{x - 1}{x + 1}$"
+       "p": "$\\sin^{-1}\\left(\\dfrac{x - 1}{x + 1}\\right)$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5A-3a-p1.png",
-       "w": 150,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q5A-3a-p2.png",
@@ -3440,20 +3161,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "tanh $x$"
+       "p": "$\\tanh x$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5A-3b-p1.png",
-       "w": 150,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "sech$^{2}x = 1/$ cosh$^{2} x = 4/(e^{x} + e^{-x})^{2}$"
@@ -3464,20 +3175,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "ln($x + \\sqrt{x^{2} + 1)}$"
+       "p": "$\\ln(x + \\sqrt{x^{2} + 1})$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5A-3c-p1.png",
-       "w": 341,
-       "h": 18
-      }
-     ],
      "solucao": [
       {
        "p": "$y = x + \\sqrt{x^{2} + 1,} dy/dx = 1 + x/\\sqrt{x^{2} + 1.}$"
@@ -3492,20 +3193,10 @@
      "id": "d",
      "partes": [
       {
-       "p": "$y$ such that cos $y = x, 0 \\leq x \\leq 1$ and $0 \\leq y \\leq \\pi /2$."
+       "p": "$y$ such that $\\cos y = x$, $0 \\leq x \\leq 1$ and $0 \\leq y \\leq \\pi/2$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5A-3d-p1.png",
-       "w": 341,
-       "h": 18
-      }
-     ],
      "solucao": [
       {
        "p": "cos $y = x \\Rightarrow (-$ sin $y)(dy/dx) = 1$"
@@ -3520,20 +3211,10 @@
      "id": "e",
      "partes": [
       {
-       "p": "sin$^{-1}(x/a)$"
+       "p": "$\\sin^{-1}(x/a)$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5A-3e-p1.png",
-       "w": 168,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "Chain rule:"
@@ -3549,20 +3230,10 @@
      "id": "f",
      "partes": [
       {
-       "p": "sin$^{-1}(a/x)$"
+       "p": "$\\sin^{-1}(a/x)$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5A-3f-p1.png",
-       "w": 168,
-       "h": 19
-      }
-     ],
      "solucao": [
       {
        "p": "Chain rule:"
@@ -3578,20 +3249,10 @@
      "id": "g",
      "partes": [
       {
-       "p": "tan$^{-1}(x/\\sqrt{1 - x^{2})}$"
+       "p": "$\\tan^{-1}(x/\\sqrt{1 - x^{2}})$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5A-3g-p1.png",
-       "w": 178,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$y = x/\\sqrt{1 - x^{2},} dy/dx = (1 - x^{2})^{-3/2}, 1 + y^{2} = 1/(1 - x^{2})$. Thus"
@@ -3609,20 +3270,10 @@
      "id": "h",
      "partes": [
       {
-       "p": "sin$^{-1} \\sqrt{1 - x}$"
+       "p": "$\\sin^{-1}\\sqrt{1 - x}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5A-3h-p1.png",
-       "w": 178,
-       "h": 20
-      }
-     ],
      "solucao": [
       {
        "p": "$y = \\sqrt{x - 1,} dy/dx = -1/2\\sqrt{x - 1,} 1 - y^{2} = x$. Thus,"
@@ -3736,20 +3387,10 @@
      "id": "d",
      "partes": [
       {
-       "p": "Use your work to evaluate $\\frac{dx}{\\sqrt{a^{2} + x^{2}}}$"
+       "p": "Use your work to evaluate $\\displaystyle\\int \\frac{dx}{\\sqrt{a^{2} + x^{2}}}$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5A-5d-p2.png",
-       "w": 193,
-       "h": 18
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q5A-5d-p4.png",
@@ -3832,10 +3473,10 @@
    "titulo": "",
    "partes": [
     {
-     "p": "The equality (1) of Notes F is valid for $x = 1,-2$. Therefore, the equality (4)"
+     "p": "The equality (1) of Notes F is valid for $x \\neq 1,-2$. Therefore, the equality (4)"
     },
     {
-     "p": "is also valid only when $x = 1,-2$, since it arises from (1) by multiplication."
+     "p": "is also valid only when $x \\neq 1,-2$, since it arises from (1) by multiplication."
     },
     {
      "p": "Why then is it legitimate to substitute $x = 1$ into (4)?"
@@ -3853,7 +3494,7 @@
      "display": true
     },
     {
-     "p": "by division by $x + 2$; since this new equation is valid for all $x$, the line (4) will be valid for $x = -2$, in particular it will be valid for $x = 1$."
+     "p": "by division by $x + 2$; since this new equation is valid for all $x$, the line (4) will be valid for $x \\neq -2$, in particular it will be valid for $x = 1$."
     }
    ]
   },
@@ -4228,7 +3869,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "$\\frac{d\\theta}{(1 + sin \\theta )^{2}}$ d) sin $\\theta d\\theta$ (Not the easiest 0 0 0"
+       "p": "c) $\\displaystyle\\int_{0}^{\\pi} \\frac{d\\theta}{(1 + \\sin\\theta)^{2}}$"
+      },
+      {
+       "p": "d) $\\displaystyle\\int_{0}^{\\pi} \\sin\\theta\\,d\\theta$ (Not the easiest way!)"
       }
      ],
      "contexto": [
@@ -4237,16 +3881,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5E-12c-p5.png",
-       "w": 337,
-       "h": 26
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q5E-12c-p17.png",
@@ -4303,32 +3937,23 @@
   {
    "n": "5F-1",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "Evaluate:"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "$x^{a}$ ln $xdx (a = -1)$ b) Evaluate the case $a = -1$ by substitu tion."
+       "p": "a) $\\displaystyle\\int x^{a}\\ln x\\,dx \\quad (a \\neq -1)$"
       },
       {
-       "img": "e2/p5-5.png",
-       "w": 235,
-       "h": 16
+       "p": "b) Evaluate the case $a = -1$ by substitution."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5F-1a-p5.png",
-       "w": 365,
-       "h": 71
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q5F-1a-p17.png",
@@ -4344,53 +3969,31 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q5F-1-p5.png",
-     "w": 365,
-     "h": 19
-    }
-   ],
    "fonte": 1
   },
   {
    "n": "5F-2",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "Evaluate:"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "$xe^{x}dx$ b) $x^{2}e^{x}dx$ c) $x^{3}e^{x}dx$"
+       "p": "a) $\\displaystyle\\int xe^{x}\\,dx$"
       },
       {
-       "img": "e2/p6-1.png",
-       "w": 341,
-       "h": 16
+       "p": "b) $\\displaystyle\\int x^{2}e^{x}\\,dx$"
+      },
+      {
+       "p": "c) $\\displaystyle\\int x^{3}e^{x}\\,dx$"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5F-2a-p5.png",
-       "w": 245,
-       "h": 19
-      },
-      {
-       "img": "e2/q5F-2a-p6.png",
-       "w": 351,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q5F-2a-p18.png",
@@ -4403,25 +4006,10 @@
      "id": "d",
      "partes": [
       {
-       "p": "Derive the reduction formula expressing $Z x^{n}e^{ax}dx$ in terms of $Z x^{n-1}e^{ax}dx$."
-      },
-      {
-       "img": "e2/p6-2.png",
-       "w": 134,
-       "h": 16
+       "p": "Derive the reduction formula expressing $\\displaystyle\\int x^{n}e^{ax}\\,dx$ in terms of $\\displaystyle\\int x^{n-1}e^{ax}\\,dx$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e2/q5F-2d-p6.png",
-       "w": 383,
-       "h": 67
-      }
-     ],
      "solucao": [
       {
        "img": "g2/q5F-2d-p18.png",
@@ -4437,17 +4025,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q5F-2-p5.png",
-     "w": 245,
-     "h": 19
-    }
-   ],
    "fonte": 1
   },
   {
@@ -4455,26 +4032,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate $Z$ sin$^{-1}(4x)dx$"
-    },
-    {
-     "img": "e2/p6-3.png",
-     "w": 247,
-     "h": 16
+     "p": "Evaluate $\\displaystyle\\int \\sin^{-1}(4x)\\,dx$"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q5F-3-p6.png",
-     "w": 257,
-     "h": 67
-    }
-   ],
    "fonte": 1
   },
   {
@@ -4482,27 +4044,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate $e^{x}$ cos $xdx$. (Integrate by parts twice.)"
-    },
-    {
-     "img": "e2/p6-4.png",
-     "w": 6,
-     "h": 6
+     "p": "Evaluate $\\displaystyle\\int e^{x}\\cos x\\,dx$. (Integrate by parts twice.)"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q5F-4-p6.png",
-     "w": 257,
-     "h": 53
-    }
-   ],
    "fonte": 1
   },
   {
@@ -4510,26 +4056,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate cos(ln $x)dx$. (Integrate by parts twice.)"
-    },
-    {
-     "img": "e2/p6-5.png",
-     "w": 367,
-     "h": 16
+     "p": "Evaluate $\\displaystyle\\int \\cos(\\ln x)\\,dx$. (Integrate by parts twice.)"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q5F-5-p6.png",
-     "w": 377,
-     "h": 60
-    }
-   ],
    "fonte": 1
   },
   {
@@ -4537,22 +4068,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Show the substitution $t = e^{x}$ transforms the integral $x^{n}e^{x}dx$, into (ln $t)^{n}dt$. Use a reduction procedure to evaluate this integral."
+     "p": "Show the substitution $t = e^{x}$ transforms the integral $\\displaystyle\\int x^{n}e^{x}\\,dx$, into $\\displaystyle\\int (\\ln t)^{n}\\,dt$. Use a reduction procedure to evaluate this integral."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e2/q5F-6-p6.png",
-     "w": 377,
-     "h": 35
-    }
-   ],
    "fonte": 1,
    "solucao": [
     {

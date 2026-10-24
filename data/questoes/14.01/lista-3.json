@@ -194,7 +194,7 @@
    "titulo": "Supply with varying input costs",
    "partes": [
     {
-     "p": "Consider a firm that has a production function $F (K,L) = K^{\\frac{1}{2}}L^{\\frac{1}{2}}$. It faces a wage level $w$ and rental rate of capital $r$."
+     "p": "Consider a firm that has a production function $F(K,L) = K^{\\frac{1}{2}}L^{\\frac{1}{2}}$. It faces a wage level $w$ and rental rate of capital $r$."
     }
    ],
    "itens": [
@@ -330,16 +330,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p1.png",
-     "w": 509,
-     "h": 56
-    }
-   ],
    "fonte": 0
   },
   {
@@ -493,16 +483,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q41-p3.png",
-       "w": 496,
-       "h": 29
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q41-p6.png",

@@ -22,32 +22,20 @@
   {
    "n": "1",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "(Problem 1)"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "Draw a picture of the region of integration of $dydx$."
-      },
-      {
-       "p": "$$0 x$$",
-       "display": true
+       "p": "Draw a picture of the region of integration of $\\displaystyle\\int_{0}^{1}\\int_{x}^{2x} dy\\,dx$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1a-p1.png",
-       "w": 375,
-       "h": 27
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1a-p1.png",
@@ -67,16 +55,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 375,
-     "h": 18
-    }
-   ],
    "fonte": 0
   },
   {
@@ -88,7 +66,7 @@
      "id": "a",
      "partes": [
       {
-       "p": "Find the mass $M$ of the upper half of the annulus $1 < x^{2} + y^{2} < 9 (y \\geq 0)$ with density $\\delta = \\frac{y}{x^{2} + y^{2}}$."
+       "p": "Find the mass $M$ of the upper half of the annulus $1 < x^{2} + y^{2} < 9$ ($y \\geq 0$) with density $\\delta = \\dfrac{y}{x^{2} + y^{2}}$."
       }
      ],
      "tipo": "aberta",
@@ -173,26 +151,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "Let C be the curve $x = 1 + y^{3}(1 - y)^{3}, 0 \\leq y \\leq 1$. Calculate $\\mathbf{F} \\cdot d\\mathbf{r}$."
-      },
-      {
-       "p": "$$C$$",
-       "display": true
+       "p": "Let C be the curve $x = 1 + y^{3}(1 - y)^{3}$, $0 \\leq y \\leq 1$. Calculate $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3c-p1.png",
-       "w": 361,
-       "h": 29
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q3c-p1.png",
@@ -208,43 +170,20 @@
   {
    "n": "4",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "(Problem 4)"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "Express the work done by the force field F = $(5x+3y)\\hat{\\imath}$+(1+cos $y)\\hat{\\mathbf{j}}$ on a particle"
-      },
-      {
-       "img": "e1/p1-3.png",
-       "w": 15,
-       "h": 9
-      },
-      {
-       "p": "moving counterclockwise once around the unit circle centered at the origin in the form $f (t)dt$."
-      },
-      {
-       "p": "$$a$$",
-       "display": true
-      },
-      {
-       "p": "(Do not evaluate the integral; don't even simplify $f (t).)$"
+       "p": "Express the work done by the force field $\\mathbf{F} = (5x + 3y)\\,\\hat{\\imath} + (1 + \\cos y)\\,\\hat{\\jmath}$ on a particle moving counterclockwise once around the unit circle centered at the origin in the form $\\displaystyle\\int_{a}^{b} f(t)\\,dt$. (Do not evaluate the integral; don't even simplify $f(t)$.)"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4a-p1.png",
-       "w": 478,
-       "h": 58
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q4a-p1.png",
@@ -271,16 +210,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p1.png",
-     "w": 466,
-     "h": 18
-    }
-   ],
    "fonte": 0
   },
   {

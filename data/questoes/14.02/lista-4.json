@@ -22,14 +22,14 @@
      "p": "Suppose the wage-setting equation is given by:"
     },
     {
-     "p": "$$W = P (1 - u) z$$",
+     "p": "$$W = P(1 - u)z$$",
      "display": true
     },
     {
-     "p": "where $z$ represents unemployment insurance, u represents the unemployment rate and W represents the nominal wage . Suppose the production function is given by $Y = N$, where N is employment, and the price-setting equation is given by:"
+     "p": "where $z$ represents unemployment insurance, $u$ represents the unemployment rate and $W$ represents the nominal wage. Suppose the production function is given by $Y = N$, where $N$ is employment, and the price-setting equation is given by:"
     },
     {
-     "p": "$$P = W (1 + m)$$",
+     "p": "$$P = W(1 + m)$$",
      "display": true
     },
     {
@@ -115,16 +115,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "algo sumiu antes da pontuação"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 514,
-     "h": 158
-    }
-   ],
    "fonte": 0
   },
   {
@@ -180,20 +170,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "[8 Points] Use the WS and PS relations shown above, together with the specifcation of the function $F$, to derive a formula for $P_{t}$in terms of $P_{t}^{e}, u_{t}$and parameters $\\alpha , m, z$."
+       "p": "[8 Points] Use the WS and PS relations shown above, together with the specification of the function $F$, to derive a formula for $P_{t}$ in terms of $P_{t}^{e}$, $u_{t}$ and parameters $\\alpha, m, z$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q22-p2.png",
-       "w": 498,
-       "h": 34
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q22-p3.png",

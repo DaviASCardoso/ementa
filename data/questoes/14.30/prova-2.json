@@ -111,20 +111,10 @@
      "id": "e",
      "partes": [
       {
-       "p": "State the joint p.d.f. $f_{\\lambda ,T}$of $(\\lambda , T$ ), and calculate the conditional probability $P (\\lambda = \\lambda_{S}|T = 10)$. How does this compare to the unconditional probability $P (\\lambda = \\lambda_{S}) = p_{S}$? Intuitively, how do you explain this difference?"
+       "p": "State the joint p.d.f. $f_{\\lambda,T}$ of $(\\lambda, T)$, and calculate the conditional probability $P(\\lambda = \\lambda_{S}|T = 10)$. How does this compare to the unconditional probability $P(\\lambda = \\lambda_{S}) = p_{S}$? Intuitively, how do you explain this difference?"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2e-p2.png",
-       "w": 455,
-       "h": 42
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
@@ -199,27 +189,17 @@
      "id": "e",
      "partes": [
       {
-       "p": "Use Chebyshev's Inequality $P (|X - E[X]| > \\varepsilon ) \\leq$ Var($_{2}X)$"
+       "p": "Use Chebyshev's Inequality"
       },
       {
-       "p": "$$\\varepsilon$$",
+       "p": "$$P(|X - \\mathbb{E}[X]| > \\varepsilon) \\leq \\frac{\\text{Var}(X)}{\\varepsilon^{2}}$$",
        "display": true
       },
       {
-       "p": "to give the largest value of $\\sigma^{2}$ which ensures Var($Y ) \\leq 0.05$ without any further knowledge on the distribution of $X$. How does this compare to your answer in (c)? Hint: Start by rewriting the left-hand side Chebyshev's Inequality in terms of the c.d.f. of $X$."
+       "p": "to give the largest value of $\\sigma^{2}$ which ensures $\\text{Var}(Y) \\leq 0.05$ without any further knowledge on the distribution of $X$. How does this compare to your answer in (c)? Hint: Start by rewriting the left-hand side Chebyshev's Inequality in terms of the c.d.f. of $X$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4e-p3.png",
-       "w": 455,
-       "h": 81
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",

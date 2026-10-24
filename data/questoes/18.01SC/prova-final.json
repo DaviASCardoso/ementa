@@ -239,43 +239,21 @@
      "id": "a",
      "partes": [
       {
-       "img": "e1/p7-1.png",
-       "w": 115,
-       "h": 36
+       "p": "$$\\lim_{n \\to \\infty} \\sum_{i=1}^{n} \\left[\\sqrt{1 + \\frac{2i}{n}}\\right]\\frac{2}{n}$$",
+       "display": true
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q7a-p7.png",
-       "w": 283,
-       "h": 57
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
      "partes": [
       {
-       "img": "e1/p7-2.png",
-       "w": 114,
-       "h": 31
+       "p": "$$\\lim_{h \\to 0} \\frac{1}{h}\\int_{2}^{2+h} \\sin(x^{2})\\,dx$$",
+       "display": true
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q7b-p7.png",
-       "w": 284,
-       "h": 51
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
@@ -294,53 +272,21 @@
      "id": "a",
      "partes": [
       {
-       "img": "e1/p8-1.png",
-       "w": 99,
-       "h": 21
-      },
-      {
-       "p": "0"
+       "p": "$$\\int_{0}^{\\pi/4} \\tan x\\sec^{2} x\\,dx$$",
+       "display": true
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q8a-p8.png",
-       "w": 276,
-       "h": 52
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
      "partes": [
       {
-       "img": "e1/p8-2.png",
-       "w": 16,
-       "h": 10
-      },
-      {
-       "p": "$$x\\text{ ln }xdx$$",
+       "p": "$$\\int_{1}^{2} x\\ln x\\,dx$$",
        "display": true
-      },
-      {
-       "p": "1"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q8b-p8.png",
-       "w": 257,
-       "h": 51
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
@@ -411,23 +357,14 @@
      "p": "The following integral has no elementary antiderivative:"
     },
     {
-     "img": "e1/p11-1.png",
-     "w": 16,
-     "h": 10
-    },
-    {
-     "p": "$$\\frac{e^{x}}{x} dx$$",
+     "p": "$$\\int_{1}^{5} \\frac{e^{x}}{x}\\,dx$$",
      "display": true
     },
     {
-     "p": "1 Use the trapezoid rule with two trapezoids and the following table of values (ac curate to one decimal place) to estimate this definite integral."
+     "p": "Use the trapezoid rule with two trapezoids and the following table of values (accurate to one decimal place) to estimate this definite integral."
     },
     {
-     "p": "$$x 1 2 3 4 5$$",
-     "display": true
-    },
-    {
-     "p": "$$e^{x}/x 2.7 3.7 6.7 13.6 29.7$$",
+     "p": "$$\\begin{array}{c|c|c|c|c|c} x & 1 & 2 & 3 & 4 & 5 \\\\ \\hline e^{x}/x & 2.7 & 3.7 & 6.7 & 13.6 & 29.7 \\end{array}$$",
      "display": true
     },
     {
@@ -436,16 +373,6 @@
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q11-p11.png",
-     "w": 448,
-     "h": 193
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -500,20 +427,11 @@
      "p": "Cornu's spiral is defined by the parametric equations"
     },
     {
-     "img": "e1/p13-1.png",
-     "w": 159,
-     "h": 21
+     "p": "$$\\begin{aligned} x = C(t) &= \\int_{0}^{t} \\cos(\\pi u^{2}/2)\\,du \\\\ y = S(t) &= \\int_{0}^{t} \\sin(\\pi u^{2}/2)\\,du \\end{aligned}$$",
+     "display": true
     },
     {
-     "p": "0"
-    },
-    {
-     "img": "e1/p13-2.png",
-     "w": 156,
-     "h": 21
-    },
-    {
-     "p": "0 That is, the parametric equations are given by Fresnel functions we met earlier in the semester."
+     "p": "That is, the parametric equations are given by Fresnel functions we met earlier in the semester."
     },
     {
      "p": "Find the arc length of the spiral from $t = 0$ to a fixed time $t = t_{0}$."
@@ -521,16 +439,6 @@
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q13-p13.png",
-     "w": 448,
-     "h": 158
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {

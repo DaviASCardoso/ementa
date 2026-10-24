@@ -52,9 +52,9 @@ SIMBOLOS = {
     '≽': r'\succeq ', '≼': r'\preceq ', '%': r'\%', '…': r'\ldots ', '⋯': r'\cdots ', '∥': r'\|', '≅': r'\cong ',
     '⊥': r'\perp ', '∧': r'\wedge ', '∨': r'\vee ', '¬': r'\neg ', '∖': r'\setminus ', 'ı': r'\imath ', 'ȷ': r'\jmath ',
     '′': "'", '←': r'\leftarrow ', '↔': r'\leftrightarrow ', '⇐': r'\Leftarrow ', '∪': r'\cup ', '⊇': r'\supseteq ',
-    '$': r'\$', '⊃': r'\supset ', '⇤': '*', '⇥': r'\times ', '◦': r'\circ ', '⌊': r'\lfloor ', '⌋': r'\rfloor ', '⌈': r'\lceil ', '⌉': r'\rceil ', '°': r'^\circ ',
+    '$': r'\$', '⊃': r'\supset ', '⇤': '*', '⇥': r'\times ', '◦': r'\circ ', '≢': r'\not\equiv ', '≮': r'\nless ', '≯': r'\ngtr ', '⊄': r'\not\subset ', '≁': r'\nsim ', '⌊': r'\lfloor ', '⌋': r'\rfloor ', '⌈': r'\lceil ', '⌉': r'\rceil ', '°': r'^\circ ',
 }
-NEUTRO = re.compile(r'^[\s0-9.,;:=+\-−–()\[\]/<>≤≥×·|!\']*$')
+NEUTRO = re.compile(r'^[\s0-9.,;:=+\-−–()\[\]/<>≤≥≠∉×·|!\']*$')
 
 
 # PDFs gerados no Mac (Quartz) a partir de fontes do TeX trocam letras gregas por símbolos
@@ -144,9 +144,26 @@ def partir(spans, s, x):
     return True
 
 
+NEGA = {'=': '≠', '∈': '∉', '≡': '≢', '<': '≮', '>': '≯', '⊂': '⊄', '∼': '≁'}
+
+
+def barras_de_negacao(pagina):
+    """Posições do traço de negação do TeX (\\not): glifo da fonte de símbolos sem largura e sem Unicode."""
+    out = []
+    for t in pagina.get_texttrace():
+        if not FONTE_SY.match(t['font'].split('+')[-1]):
+            continue
+        for ch in t['chars']:
+            r = ch[3]
+            if ch[0] == 0xFFFD and r[2] - r[0] < 1:
+                out.append((r[0], (r[1] + r[3]) / 2))
+    return out
+
+
 def spans_da_pagina(pagina):
     """Trechos de texto não vazios. Acentos e setas viram trechos próprios, para achar a letra que cobrem."""
     out = []
+    negacoes = barras_de_negacao(pagina)
     for b in pagina.get_text('rawdict')['blocks']:
         for l in b.get('lines', []):
             if l['dir'][0] < 0.99:  # texto girado (marcas laterais)
@@ -158,6 +175,11 @@ def spans_da_pagina(pagina):
                 i = 0
                 while i < len(chars):
                     c = chars[i]['c']
+                    if c in NEGA and negacoes:
+                        bx = chars[i]['bbox']
+                        if any(abs(nx - bx[0]) < 1.5 and bx[1] - 2 <= ny <= bx[3] + 2 for nx, ny in negacoes):
+                            c = NEGA[c]
+                            chars[i] = dict(chars[i], c=c)
                     if 0x1D400 <= ord(c) <= 0x1D7FF:
                         c = unicodedata.normalize('NFKC', c)
                         chars[i] = dict(chars[i], c=c)

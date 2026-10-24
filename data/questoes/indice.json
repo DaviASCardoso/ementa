@@ -22,7 +22,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 19,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 17,
   "avisos": []
  },
@@ -58,7 +58,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 24,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 24,
   "avisos": []
  },
@@ -91,7 +91,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 16,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 16,
   "avisos": []
  },
@@ -118,7 +118,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 12,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 11,
   "avisos": []
  },
@@ -145,7 +145,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 13,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 13,
   "avisos": []
  },
@@ -163,7 +163,7 @@
   "manual": false,
   "questoes": 2,
   "itens": 23,
-  "recorte": 6,
+  "recorte": 0,
   "gabarito_ligado": 28,
   "avisos": []
  },
@@ -172,7 +172,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 20,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -181,7 +181,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 18,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 18,
   "avisos": []
  },
@@ -190,7 +190,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 11,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -217,7 +217,7 @@
   "manual": false,
   "questoes": 2,
   "itens": 9,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": [
    "numeração de itens recomeça nas questões 2"
@@ -246,7 +246,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 17,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -264,7 +264,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 11,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -273,7 +273,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 14,
-  "recorte": 9,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -282,7 +282,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 14,
-  "recorte": 4,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -291,7 +291,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 16,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -300,7 +300,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 12,
-  "recorte": 11,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -309,7 +309,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 12,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -347,7 +347,7 @@
   "manual": false,
   "questoes": 2,
   "itens": 26,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 33,
   "avisos": [
    "questão com muitos itens"
@@ -358,7 +358,7 @@
   "manual": false,
   "questoes": 2,
   "itens": 10,
-  "recorte": 7,
+  "recorte": 0,
   "gabarito_ligado": 10,
   "avisos": []
  },
@@ -388,7 +388,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 19,
-  "recorte": 19,
+  "recorte": 0,
   "gabarito_ligado": 19,
   "avisos": [
    "numeração de itens recomeça nas questões 2"
@@ -399,7 +399,7 @@
   "manual": false,
   "questoes": 6,
   "itens": 16,
-  "recorte": 16,
+  "recorte": 0,
   "gabarito_ligado": 16,
   "avisos": [
    "numeração de itens recomeça nas questões 2"
@@ -410,7 +410,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 8,
-  "recorte": 8,
+  "recorte": 0,
   "gabarito_ligado": 8,
   "avisos": []
  },
@@ -419,7 +419,7 @@
   "manual": false,
   "questoes": 6,
   "itens": 22,
-  "recorte": 22,
+  "recorte": 0,
   "gabarito_ligado": 19,
   "avisos": []
  },
@@ -428,7 +428,7 @@
   "manual": false,
   "questoes": 7,
   "itens": 15,
-  "recorte": 15,
+  "recorte": 0,
   "gabarito_ligado": 11,
   "avisos": []
  },
@@ -437,7 +437,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 15,
-  "recorte": 15,
+  "recorte": 0,
   "gabarito_ligado": 15,
   "avisos": []
  },
@@ -446,7 +446,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 22,
-  "recorte": 22,
+  "recorte": 0,
   "gabarito_ligado": 18,
   "avisos": [
    "numeração de itens recomeça nas questões 1"
@@ -457,7 +457,7 @@
   "manual": false,
   "questoes": 6,
   "itens": 21,
-  "recorte": 21,
+  "recorte": 0,
   "gabarito_ligado": 21,
   "avisos": []
  },
@@ -475,7 +475,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 16,
-  "recorte": 2,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -484,7 +484,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 14,
-  "recorte": 2,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -502,7 +502,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 7,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -511,7 +511,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 7,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -520,7 +520,7 @@
   "manual": false,
   "questoes": 1,
   "itens": 5,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": []
  },
@@ -556,7 +556,7 @@
   "manual": false,
   "questoes": 61,
   "itens": 149,
-  "recorte": 28,
+  "recorte": 0,
   "gabarito_ligado": 102,
   "avisos": [
    "numeração de itens recomeça nas questões 1A-4, 1J-3",
@@ -568,16 +568,16 @@
   "manual": false,
   "questoes": 19,
   "itens": 44,
-  "recorte": 19,
+  "recorte": 0,
   "gabarito_ligado": 39,
   "avisos": []
  },
  "18.01SC/lista-11": {
   "id": "18.01SC/lista-11",
   "manual": false,
-  "questoes": 67,
-  "itens": 102,
-  "recorte": 3,
+  "questoes": 66,
+  "itens": 101,
+  "recorte": 0,
   "gabarito_ligado": 81,
   "avisos": [
    "numeração de itens recomeça nas questões 4H-3"
@@ -588,7 +588,7 @@
   "manual": false,
   "questoes": 80,
   "itens": 193,
-  "recorte": 47,
+  "recorte": 0,
   "gabarito_ligado": 141,
   "avisos": [
    "numeração de itens recomeça nas questões 1A-4, 1J-3",
@@ -600,7 +600,7 @@
   "manual": false,
   "questoes": 71,
   "itens": 113,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 83,
   "avisos": []
  },
@@ -609,7 +609,7 @@
   "manual": false,
   "questoes": 71,
   "itens": 113,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 83,
   "avisos": []
  },
@@ -618,16 +618,16 @@
   "manual": false,
   "questoes": 114,
   "itens": 216,
-  "recorte": 41,
+  "recorte": 0,
   "gabarito_ligado": 164,
   "avisos": []
  },
  "18.01SC/lista-6": {
   "id": "18.01SC/lista-6",
   "manual": false,
-  "questoes": 110,
-  "itens": 205,
-  "recorte": 41,
+  "questoes": 109,
+  "itens": 204,
+  "recorte": 0,
   "gabarito_ligado": 162,
   "avisos": [
    "numeração de itens recomeça nas questões 4H-3"
@@ -636,9 +636,9 @@
  "18.01SC/lista-7": {
   "id": "18.01SC/lista-7",
   "manual": false,
-  "questoes": 67,
-  "itens": 102,
-  "recorte": 3,
+  "questoes": 66,
+  "itens": 101,
+  "recorte": 0,
   "gabarito_ligado": 81,
   "avisos": [
    "numeração de itens recomeça nas questões 4H-3"
@@ -647,9 +647,9 @@
  "18.01SC/lista-8": {
   "id": "18.01SC/lista-8",
   "manual": false,
-  "questoes": 67,
-  "itens": 102,
-  "recorte": 3,
+  "questoes": 66,
+  "itens": 101,
+  "recorte": 0,
   "gabarito_ligado": 81,
   "avisos": [
    "numeração de itens recomeça nas questões 4H-3"
@@ -660,7 +660,7 @@
   "manual": false,
   "questoes": 19,
   "itens": 44,
-  "recorte": 19,
+  "recorte": 0,
   "gabarito_ligado": 39,
   "avisos": []
  },
@@ -687,7 +687,7 @@
   "manual": false,
   "questoes": 6,
   "itens": 10,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 10,
   "avisos": []
  },
@@ -696,7 +696,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 6,
-  "recorte": 2,
+  "recorte": 0,
   "gabarito_ligado": 6,
   "avisos": []
  },
@@ -705,7 +705,7 @@
   "manual": false,
   "questoes": 15,
   "itens": 24,
-  "recorte": 6,
+  "recorte": 0,
   "gabarito_ligado": 8,
   "avisos": []
  },
@@ -714,7 +714,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 5,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 5,
   "avisos": []
  },
@@ -723,7 +723,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 7,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 7,
   "avisos": []
  },
@@ -741,7 +741,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 14,
-  "recorte": 5,
+  "recorte": 0,
   "gabarito_ligado": 0,
   "avisos": [
    "o gabarito não casou com nenhuma questão"
@@ -761,7 +761,7 @@
   "manual": false,
   "questoes": 4,
   "itens": 11,
-  "recorte": 1,
+  "recorte": 0,
   "gabarito_ligado": 9,
   "avisos": []
  },
@@ -788,7 +788,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 9,
-  "recorte": 2,
+  "recorte": 0,
   "gabarito_ligado": 9,
   "avisos": []
  },
@@ -806,7 +806,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 14,
-  "recorte": 5,
+  "recorte": 0,
   "gabarito_ligado": 11,
   "avisos": []
  },
@@ -815,7 +815,7 @@
   "manual": false,
   "questoes": 3,
   "itens": 8,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 8,
   "avisos": []
  },
@@ -824,7 +824,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 13,
-  "recorte": 2,
+  "recorte": 0,
   "gabarito_ligado": 13,
   "avisos": []
  },
@@ -842,7 +842,7 @@
   "manual": false,
   "questoes": 6,
   "itens": 12,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 11,
   "avisos": []
  },
@@ -851,7 +851,7 @@
   "manual": false,
   "questoes": 5,
   "itens": 11,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 11,
   "avisos": []
  },
@@ -860,7 +860,7 @@
   "manual": false,
   "questoes": 15,
   "itens": 36,
-  "recorte": 11,
+  "recorte": 0,
   "gabarito_ligado": 32,
   "avisos": []
  },
@@ -869,7 +869,7 @@
   "manual": false,
   "questoes": 6,
   "itens": 13,
-  "recorte": 2,
+  "recorte": 0,
   "gabarito_ligado": 13,
   "avisos": []
  },
@@ -878,7 +878,7 @@
   "manual": false,
   "questoes": 7,
   "itens": 13,
-  "recorte": 3,
+  "recorte": 0,
   "gabarito_ligado": 13,
   "avisos": []
  },
@@ -887,7 +887,7 @@
   "manual": false,
   "questoes": 7,
   "itens": 14,
-  "recorte": 4,
+  "recorte": 0,
   "gabarito_ligado": 2,
   "avisos": []
  },
@@ -905,7 +905,7 @@
   "manual": false,
   "questoes": 18,
   "itens": 26,
-  "recorte": 9,
+  "recorte": 0,
   "gabarito_ligado": 19,
   "avisos": []
  }

@@ -1,0 +1,141 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Let $X$ be a random variable that is uniformly distributed on $[0, 1]$ (i.e. $f(x) = 1$ on that interval and zero elsewhere). In Problem Set #4, you use the \"2-step\"/CDF technique and the transformation method to determine the PDF of each of the following transformations, $Y = g(X)$. Now that you have the PDFs, compute (a) $\\mathbb{E}[g(X)]$, (b) $g(\\mathbb{E}[X])$, (c) $Var(g(X))$ and (d) $g(Var(X))$ for each of the following transformations:"
+   }
+  ]
+ },
+ "1/1": {
+  "partes": [
+   {
+    "p": "$Y = X^{\\frac{1}{4}}$, $f_{Y}(y) = 4y^{3}$ on $[0, 1]$ and zero otherwise."
+   }
+  ]
+ },
+ "1/2": {
+  "partes": [
+   {
+    "p": "$Y = e^{-X}$, $f_{Y}(y) = \\frac{1}{y}$ on $[\\frac{1}{e}, 1]$ and zero otherwise."
+   }
+  ]
+ },
+ "1/3": {
+  "partes": [
+   {
+    "p": "$Y = 1 - e^{-X}$, $f_{Y}(y) = \\frac{1}{1-y}$ on $[0, 1 - \\frac{1}{e}]$ and zero otherwise."
+   }
+  ]
+ },
+ "1/4": {
+  "partes": [
+   {
+    "p": "How does (a) $\\mathbb{E}[g(X)]$ compare to (b) $g(\\mathbb{E}[X])$ and (c) $Var(g(X))$ to (d) $g(Var(X))$ for each of the above transformations? Are there any generalities that can be noted? Explain."
+   }
+  ]
+ },
+ "2/": {
+  "partes": [
+   {
+    "p": "Compute the expectation and the variance for each of the following PDF's."
+   }
+  ]
+ },
+ "2/1": {
+  "partes": [
+   {
+    "p": "$f_{X}(x) = ax^{a-1}$, $0 < x < 1$, $a > 0$."
+   }
+  ]
+ },
+ "2/2": {
+  "partes": [
+   {
+    "p": "$f_{X}(x) = \\frac{1}{n}$, $x = 1, 2, \\ldots, n$, where $n$ is an integer."
+   }
+  ]
+ },
+ "3/": {
+  "partes": [
+   {
+    "p": "Suppose that $X$, $Y$, and $Z$ are independently and identically distributed with mean zero and variance one. Calculate the following:"
+   }
+  ]
+ },
+ "3/1": {
+  "partes": [
+   {
+    "p": "$\\mathbb{E}[3X + 2Y + Z]$"
+   }
+  ]
+ },
+ "4/": {
+  "partes": [
+   {
+    "p": "Simplify the following expressions for random variables $X$ and $Y$ and scalar constants $a, b \\in \\mathbb{R}$:"
+   }
+  ]
+ },
+ "5/": {
+  "partes": [
+   {
+    "p": "(Bain/Engelhardt p.190)"
+   },
+   {
+    "p": "Suppose $X$ and $Y$ are continuous random variables with joint PDF $f(x, y) = 4(x - xy)$ if $0 < x < 1$ and $0 < y < 1$, and zero otherwise."
+   }
+  ]
+ },
+ "5/1": {
+  "partes": [
+   {
+    "p": "Find $\\mathbb{E}[X^{2}Y]$."
+   }
+  ]
+ },
+ "5/2": {
+  "partes": [
+   {
+    "p": "Find $\\mathbb{E}[X - Y]$."
+   }
+  ]
+ },
+ "5/3": {
+  "partes": [
+   {
+    "p": "Find $Var(X - Y)$."
+   }
+  ]
+ },
+ "5/4": {
+  "partes": [
+   {
+    "p": "What is the value of the correlation coefficient, $\\rho_{XY} = \\frac{Cov(X,Y)}{\\sqrt{Var(X)Var(Y)}}$, of $X$ and $Y$?"
+   }
+  ]
+ },
+ "5/5": {
+  "partes": [
+   {
+    "p": "What is $\\mathbb{E}[Y|x]$?"
+   }
+  ]
+ },
+ "6/": {
+  "partes": [
+   {
+    "p": "(Bain/Engelhardt p. 191)"
+   },
+   {
+    "p": "Let $X$ and $Y$ have joint pdf $f(x, y) = e^{-y}$ if $0 < x < y < \\infty$ and zero otherwise. Find $\\mathbb{E}[X|y]$."
+   }
+  ]
+ },
+ "7/": {
+  "partes": [
+   {
+    "p": "Let $X$ be a uniform random variable defined over the interval $(a, b)$, i.e. $f(x) = \\frac{1}{b-a}$. The $k^{th}$ central moment of $X$ is defined as $\\mu_{k} = \\mathbb{E}[(X - \\mathbb{E}[X])^{k}]$. The standardized central moment is defined as $\\frac{\\mu_{k}}{(\\mu_{2})^{\\frac{k}{2}}}$. Find an expression for the $k^{th}$ standardized central moment of $X$."
+   }
+  ]
+ }
+}

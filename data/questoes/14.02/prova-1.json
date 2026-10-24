@@ -223,26 +223,20 @@
      "id": "B",
      "partes": [
       {
-       "p": "Computing Real GDP Growth"
+       "p": "Computing Real GDP Growth [3 Points]"
       },
       {
-       "p": "Consider an economy in which there are three goods produced: hamburgers, hand sanitizer. The following table gives the prices and quantitflies produced of the two goods for 2021 and 2022: 2021 2022 Price Quantity Price Quantity Hand sanitizer 1 2 2 4 Hamburgers 2 3 4 3"
+       "p": "Consider an economy in which there are three goods produced: hamburgers, hand sanitizer. The following table gives the prices and quantities produced of the two goods for 2021 and 2022:"
+      },
+      {
+       "p": "$$\\begin{array}{l|cc|cc} & \\text{2021} & & \\text{2022} & \\\\ & \\text{Price} & \\text{Quantity} & \\text{Price} & \\text{Quantity} \\\\ \\hline \\text{Hand sanitizer} & 1 & 2 & 2 & 4 \\\\ \\text{Hamburgers} & 2 & 3 & 4 & 3 \\end{array}$$",
+       "display": true
       },
       {
        "p": "Compute real GDP for each year, using 2021 as the base year. What's the growth rate in real GDP between 2021 and 2022?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1B-p3.png",
-       "w": 473,
-       "h": 179
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1B-p3.png",
@@ -328,48 +322,20 @@
      "id": "B",
      "partes": [
       {
-       "p": "Shock to Investment in the Basic IS-LM Model"
+       "p": "Shock to Investment in the Basic IS-LM Model [24 points]"
       },
       {
        "p": "Consider the following basic IS-LM model:"
       },
       {
-       "p": "$$Y = Z$$",
+       "p": "$$\\begin{aligned} Y &= Z \\\\ Z &= C + I + G \\\\ C &= c_{0} + c_{1}(Y - T) \\\\ I &= b_{0} + b_{1}Y - b_{2}i \\\\ i &= \\bar{i} \\end{aligned}$$",
        "display": true
       },
       {
-       "p": "$$Z = C + I + G$$",
-       "display": true
-      },
-      {
-       "p": "$$C = c_{�} + c_{�}(Y - T)$$",
-       "display": true
-      },
-      {
-       "p": "$$I = \\frac{b}{i}_{�} + b_{�}Y - b_{�}i$$",
-       "display": true
-      },
-      {
-       "p": "$$i =$$",
-       "display": true
-      },
-      {
-       "p": "where $C$ is consumption, $I$ is investment, $G$ is government spending, $T$ is taxes and $i$ is the nominal interest rate. Assume that the central bank sets the nominal interest rate $i = i$, and that $T$ and $G$ are exogenous. Parameters ($c_{�},c_{�},b_{�},b_{�},b_{�}$) are positive; $c_{�},b_{�} < 1$; and $c_{�} + b_{�} < 1$."
+       "p": "where $C$ is consumption, $I$ is investment, $G$ is government spending, $T$ is taxes and $i$ is the nominal interest rate. Assume that the central bank sets the nominal interest rate $i = \\bar{i}$, and that $T$ and $G$ are exogenous. Parameters $(c_{0}, c_{1}, b_{0}, b_{1}, b_{2})$ are positive; $c_{1}, b_{1} < 1$; and $c_{1} + b_{1} < 1$."
       }
      ],
      "tipo": "grupo",
-     "revisar": [
-      "caractere ilegível",
-      "fórmula curta solta",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2B-p5.png",
-       "w": 479,
-       "h": 208
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2B-p4.png",
@@ -422,31 +388,20 @@
      "id": "B3",
      "partes": [
       {
-       "p": "[8 points] Suppose that firms become more cautious and reduce their investment spending, so the intercept term in the investment equation falls from $b_{�}$ to $b_{�} - \\delta$ , for some $\\delta > 0$. How much does output change as a result of this shock to investment? Provide an algebraic answer in terms of the various parameters of the economy. Graph the IS and LM curves and equilibrium both before and after this shock. Make sure to label the axes, the equilibrium level of output before the shock $_{�*} Y_{�}^{*}$, and the equilibrium level of output after the shock $Y$."
+       "p": "[8 points] Suppose that firms become more cautious and reduce their investment spending, so the intercept term in the investment equation falls from $b_{0}$ to $b_{0} - \\delta$, for some $\\delta > 0$."
       },
       {
-       "img": "e1/p7-1.png",
-       "w": 428,
-       "h": 310
+       "p": "How much does output change as a result of this shock to investment? Provide an algebraic answer in terms of the various parameters of the economy."
+      },
+      {
+       "p": "Graph the IS and LM curves and equilibrium both before and after this shock. Make sure to label the axes, the equilibrium level of output before the shock $Y_{1}^{*}$, and the equilibrium level of output after the shock $Y_{2}^{*}$."
+      },
+      {
+       "img": "e1/p7-1.png"
       }
      ],
      "pai": "B",
      "tipo": "aberta",
-     "revisar": [
-      "caractere ilegível"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2B3-p6.png",
-       "w": 476,
-       "h": 37
-      },
-      {
-       "img": "e1/q2B3-p7.png",
-       "w": 461,
-       "h": 497
-      }
-     ],
      "solucao": [
       {
        "p": "[8 points] Suppose that investors become more cautious and reduce their investment spending, so the intercept term in the investment equation falls from $bb_{0}$ to $bb_{0} -\\delta \\delta$ , for some $\\delta \\delta > 0$. How much does output change as a result of this shock to investment? Provide an algebraic answer in terms of the various parameters of the economy. Graph the IS and LM curves and equilibrium both before and after this shock. Make sure to label the axes, the equilibrium level of output before the shock $YY_{1}^{*}$, and the equilibrium level of output after the shock $YY_{2}^{*}$."
@@ -465,21 +420,11 @@
      "id": "B4",
      "partes": [
       {
-       "p": "[4 points] Building on part 3, if the government wants to ensure output is unchanged from its initial level ($Y_{�}^{*}$) even though investment has declined, how much should it adjust taxes in response to this shock?"
+       "p": "[4 points] Building on part 3, if the government wants to ensure output is unchanged from its initial level ($Y_{1}^{*}$) even though investment has declined, how much should it adjust taxes in response to this shock?"
       }
      ],
      "pai": "B",
      "tipo": "aberta",
-     "revisar": [
-      "caractere ilegível"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2B4-p7.png",
-       "w": 469,
-       "h": 50
-      }
-     ],
      "solucao": [
       {
        "p": "[4 points] Building on part 3, if the government wants to ensure output is unchanged from its initial level ($YY_{1}^{*}$) even though investment has declined, how much should it adjust taxes in response to this shock? Using our answer to part 1, taxes need to fall by $\\frac{\\delta \\delta}{cc_{1}}$ to offset the investor caution."
@@ -490,55 +435,20 @@
      "id": "C",
      "partes": [
       {
-       "p": "Taxation and Budget Balance in the Basic IS-LM Model"
+       "p": "Taxation and Budget Balance in the Basic IS-LM Model [13 points]"
       },
       {
-       "p": "We now suppose that the government sets a tax schedule given by $T = t_{�} + t_{�}Y$, where $t_{�}$ and $t_{�}$ are positive parameters. Moreover, assume that the government adjusts government spending $G$ to balance the budget, i.e. the government sets $G = T$. In this case our IS-LM model is given by the following system of equations"
+       "p": "We now suppose that the government sets a tax schedule given by $T = t_{0} + t_{1}Y$, where $t_{0}$ and $t_{1}$ are positive parameters. Moreover, assume that the government adjusts government spending $G$ to balance the budget, i.e. the government sets $G = T$. In this case our IS-LM model is given by the following system of equations"
       },
       {
-       "p": "$$Y = Z$$",
+       "p": "$$\\begin{aligned} Y &= Z \\\\ Z &= C + I + G \\\\ C &= c_{0} + c_{1}(Y - T) \\\\ I &= b_{0} + b_{1}Y - b_{2}i \\\\ T &= t_{0} + t_{1}Y \\\\ G &= T \\\\ i &= \\bar{i} \\end{aligned}$$",
        "display": true
       },
       {
-       "p": "$$Z = C + I + G$$",
-       "display": true
-      },
-      {
-       "p": "$$C = c_{�} + c_{�}(Y - T)$$",
-       "display": true
-      },
-      {
-       "p": "$$I = b_{�} + b_{�}Y - b_{�}i$$",
-       "display": true
-      },
-      {
-       "p": "$$T = t_{�} + t_{�}Y$$",
-       "display": true
-      },
-      {
-       "p": "$$G = T$$",
-       "display": true
-      },
-      {
-       "p": "$$i = i$$",
-       "display": true
-      },
-      {
-       "p": "where $C$ is consumption, $I$ is investment, $G$ is government spending, $T$ is taxes and $i$ is the nominal interest rate. Assume that the central bank sets the nominal interest rate $i = i$. The parameters $(c_{�},c_{�},b_{�},b_{�},b_{�},t_{�},t_{�}$) are positive and satisfy $c_{�} + b_{�} + t_{�} < 1 + c_{�}t_{�}$."
+       "p": "where $C$ is consumption, $I$ is investment, $G$ is government spending, $T$ is taxes and $i$ is the nominal interest rate. Assume that the central bank sets the nominal interest rate $i = \\bar{i}$. The parameters $(c_{0}, c_{1}, b_{0}, b_{1}, b_{2}, t_{0}, t_{1})$ are positive and satisfy $c_{1} + b_{1} + t_{1} < 1 + c_{1}t_{1}$."
       }
      ],
      "tipo": "grupo",
-     "revisar": [
-      "caractere ilegível",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2C-p8.png",
-       "w": 479,
-       "h": 284
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2C-p6.png",
@@ -573,21 +483,11 @@
      "id": "C2",
      "partes": [
       {
-       "p": "[5 points] Suppose the government increases $t_{�}$ by one unit. What will be the impact on equilibrium output, Y? Does equilibrium output increase? Explain your answer."
+       "p": "[5 points] Suppose the government increases $t_{0}$ by one unit. What will be the impact on equilibrium output, $Y$? Does equilibrium output increase? Explain your answer."
       }
      ],
      "pai": "C",
      "tipo": "aberta",
-     "revisar": [
-      "caractere ilegível"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2C2-p9.png",
-       "w": 447,
-       "h": 37
-      }
-     ],
      "solucao": [
       {
        "p": "[5 points] Suppose the government increases $tt_{0}$ by one unit. What will be the impact on equilibrium output, Y? Does equilibrium output increase? Explain your answer."
@@ -601,53 +501,20 @@
      "id": "D",
      "partes": [
       {
-       "p": "Financial Shock in the Extended IS-LM Model"
+       "p": "Financial Shock in the Extended IS-LM Model [22 points]"
       },
       {
        "p": "Consider the following extended IS-LM model:"
       },
       {
-       "p": "$$Y = Z$$",
+       "p": "$$\\begin{aligned} Y &= Z \\\\ Z &= C + I + G \\\\ C &= c_{0} + c_{1}(Y - T) \\\\ I &= b_{0} + b_{1}Y - b_{2}(i - \\pi^{e} + x) \\\\ i &= \\bar{i} \\end{aligned}$$",
        "display": true
       },
       {
-       "p": "$$Z = C + I + G$$",
-       "display": true
-      },
-      {
-       "p": "$$C =\\frac{b}{i}c_{��} + c_{��}(Y - T)_{�} - \\pi_{�} + x)$$",
-       "display": true
-      },
-      {
-       "p": "$$I = + b Y - b (i$$",
-       "display": true
-      },
-      {
-       "p": "$$i =$$",
-       "display": true
-      },
-      {
-       "p": "where $C$ is consumption, $I$ is investment, $G$ is government spending, $T$ is taxes, $i$ is the nominal interest rate, $\\pi^{�}$ is expected inflation and $x$ is the risk premium. We assume that the central bank sets the nominal interest rate $i = i$, and that $T$ and $G$ are exogenous. Parameters ($c_{�},c_{�},b_{�},b_{�},b_{�})$ are positive and satisfy $c_{�} + b_{�} < 1$."
+       "p": "where $C$ is consumption, $I$ is investment, $G$ is government spending, $T$ is taxes, $i$ is the nominal interest rate, $\\pi^{e}$ is expected inflation and $x$ is the risk premium. We assume that the central bank sets the nominal interest rate $i = \\bar{i}$, and that $T$ and $G$ are exogenous. Parameters $(c_{0}, c_{1}, b_{0}, b_{1}, b_{2})$ are positive and satisfy $c_{1} + b_{1} < 1$."
       }
      ],
      "tipo": "grupo",
-     "revisar": [
-      "caractere ilegível",
-      "fórmula curta solta",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2D-p9.png",
-       "w": 306,
-       "h": 95
-      },
-      {
-       "img": "e1/q2D-p10.png",
-       "w": 475,
-       "h": 135
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2D-p7.png",
@@ -665,21 +532,11 @@
      "id": "D1",
      "partes": [
       {
-       "p": "[4 points] Solve for equilibrium output $Y$ as a function of the policy variables $i,G,T$, expected inflation $\\pi^{�}$, the risk premium $x$, and the various parameters."
+       "p": "[4 points] Solve for equilibrium output $Y$ as a function of the policy variables $\\bar{i}, G, T$, expected inflation $\\pi^{e}$, the risk premium $x$, and the various parameters."
       }
      ],
      "pai": "D",
      "tipo": "aberta",
-     "revisar": [
-      "caractere ilegível"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2D1-p10.png",
-       "w": 472,
-       "h": 38
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2D1-p8.png",
@@ -716,26 +573,14 @@
      "id": "D3",
      "partes": [
       {
-       "p": "[8 points] Suppose the risk premium $x$ increases by one unit. By how much does aggregate output change? Plot aggregate demand $Z$ as a function of $Y$ and the equilibrium condition $Z = Y$ both before and after the shock. Make sure to label the axes, the equilibrium level of output before the shock $Y_{�}^{*}$, and the equilibrium level of output after the shock $Y_{�}^{*}$."
+       "p": "[8 points] Suppose the risk premium $x$ increases by one unit. By how much does aggregate output change? Plot aggregate demand $Z$ as a function of $Y$ and the equilibrium condition $Z = Y$ both before and after the shock. Make sure to label the axes, the equilibrium level of output before the shock $Y_{1}^{*}$, and the equilibrium level of output after the shock $Y_{2}^{*}$."
       },
       {
-       "img": "e1/p11-1.png",
-       "w": 428,
-       "h": 310
+       "img": "e1/p11-1.png"
       }
      ],
      "pai": "D",
      "tipo": "aberta",
-     "revisar": [
-      "caractere ilegível"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2D3-p11.png",
-       "w": 475,
-       "h": 410
-      }
-     ],
      "solucao": [
       {
        "p": "[8 points] Suppose the risk premium $xx$ increases by one unit. By how much does aggregate output change? Plot aggregate demand $ZZ$ as a function of $YY$ and the equilibrium condition $ZZ= YY$ both before and after the shock. Make sure to label the axes, the equilibrium level of output before the shock $YY_{1}^{*}$, and the equilibrium level of output after the shock $YY_{2}^{*}$."

@@ -1,0 +1,62 @@
+{
+ "4H-1/b": {
+  "partes": [
+   {
+    "p": "b) $(-2, 0)$"
+   },
+   {
+    "p": "c) $(1, \\sqrt{3})$"
+   },
+   {
+    "p": "d) $(-2, 2)$"
+   }
+  ]
+ },
+ "4H-1/e": {
+  "partes": [
+   {
+    "p": "e) $(1, -1)$"
+   },
+   {
+    "p": "f) $(0, -2)$"
+   },
+   {
+    "p": "g) $(\\sqrt{3}, -1)$"
+   },
+   {
+    "p": "h) $(-2, -2)$"
+   }
+  ]
+ },
+ "4H-1/ec": {
+  "partes": [
+   {
+    "p": "(Exercício 4H-2, item c)"
+   },
+   {
+    "p": "(i) Find the polar equation for the line intersecting the positive $x$- and $y$-axes respectively at $A$ and $B$, and having perpendicular distance $a$ from the origin. (Let $\\alpha = \\angle DOA$; use the right triangle $DOP$ to get the equation connecting $r, \\theta, \\alpha$ and $a$."
+   },
+   {
+    "p": "(ii) Convert your polar equation to the usual rectangular equation involving $A$ and $B$, by using trigonometry."
+   },
+   {
+    "p": "(A figura deste item não aparece no PDF do MIT.)"
+   }
+  ]
+ },
+ "4I-7/": {
+  "partes": [
+   {
+    "p": "Calculate the area and arclength of a circle, parameterized by $x = a\\cos\\theta$, $y = a\\sin\\theta$."
+   }
+  ]
+ },
+ "4J-6#2/": {
+  "partes": [
+   {
+    "p": "(cópia da solução do 4J-6 lida como questão)"
+   }
+  ],
+  "tipo": "remover"
+ }
+}

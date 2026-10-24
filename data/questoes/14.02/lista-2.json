@@ -165,7 +165,7 @@
        "p": "Now suppose that the government decided to choose $G$ such that budget is balanced:"
       },
       {
-       "p": "$$G = T$$",
+       "p": "$$G = T,$$",
        "display": true
       },
       {
@@ -173,16 +173,6 @@
       }
      ],
      "tipo": "grupo",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1b-p2.png",
-       "w": 511,
-       "h": 100
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q1b-p2.png",

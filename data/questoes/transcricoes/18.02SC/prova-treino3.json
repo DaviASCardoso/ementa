@@ -1,0 +1,37 @@
+{
+ "3/c": {
+  "partes": [
+   {
+    "p": "(5) Still using the values of $a$ and $b$ from part (a), compute $\\displaystyle\\int_{C} \\vec{F} \\cdot d\\vec{r}$ along the curve $C$ such that $x = e^{t}\\cos t$, $y = e^{t}\\sin t$, $0 \\leq t \\leq \\pi$."
+   }
+  ]
+ },
+ "4/": {
+  "partes": [
+   {
+    "p": "(10) For $\\vec{F} = yx^{3}\\,\\hat{\\imath} + y^{2}\\,\\hat{\\jmath}$, find $\\displaystyle\\int_{C} \\vec{F} \\cdot d\\vec{r}$ on the portion of the curve $y = x^{2}$ from $(0, 0)$ to $(1, 1)$."
+   }
+  ]
+ },
+ "6/": {
+  "partes": [
+   {
+    "p": "(Problem 6)"
+   }
+  ]
+ },
+ "6/a": {
+  "partes": [
+   {
+    "p": "(5) Let $C$ be a simple closed curve going counterclockwise around a region $R$. Let $M = M(x, y)$. Express $\\displaystyle\\oint_{C} M\\,dx$ as a double integral over $R$."
+   }
+  ]
+ },
+ "6/b": {
+  "partes": [
+   {
+    "p": "(5) Find $M$ so that $\\displaystyle\\oint_{C} M\\,dx$ is the mass of $R$ with density $\\delta(x, y) = (x + y)^{2}$."
+   }
+  ]
+ }
+}

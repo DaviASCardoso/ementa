@@ -1,0 +1,530 @@
+{
+ "2A-16/": {
+  "partes": [
+   {
+    "p": "(Exercício 2A-16)"
+   }
+  ]
+ },
+ "2A-16/a": {
+  "partes": [
+   {
+    "p": "Use the law of cosines to find the formula $\\sqrt{2 - \\cos(2\\pi/n)}$ for the length of the side of the equilateral $n$-gon inscribed in the unit circle."
+   }
+  ]
+ },
+ "2A-16/b": {
+  "partes": [
+   {
+    "p": "Compute the perimeter and then compute the limit as $n$ tends to infinity using the quadratic approximation to $\\cos\\theta$ near $\\theta = 0$. (Compare with 1J-4.)"
+   }
+  ]
+ },
+ "2C-10/": {
+  "partes": [
+   {
+    "p": "A swimmer is on the beach at a point $A$. The closest point on the straight shoreline to $A$ is called $P$. There is a platform in the water at $B$, and the nearest pont on the shoreline to $B$ is called $Q$. Suppose that the distance from $A$ to $P$ is 100 meters, the distance from $B$ to $Q$ is 100 meters and the distance from $P$ to $Q$ is $a$ meters. Finally suppose that the swimmer can run at 5 meters per second on the beach and swim at 2 meters per second in the water."
+   },
+   {
+    "img": "manual/2C-10.png"
+   },
+   {
+    "p": "Show that the path the swimmer should take to get to the platform in the least time has the property that the ratio of the sines of the angles the path makes with the shoreline is the reciprocal of the ratio of the speeds in the two regions:"
+   },
+   {
+    "p": "$$\\frac{\\sin\\alpha}{\\sin\\beta} = \\frac{5}{2}$$",
+    "display": true
+   },
+   {
+    "p": "(In optics, this is known as Snell's law describing the path taken by a light ray through two successive media. Snell discovered experimentally that the above ratio of sines was a constant, not depending on the starting point and endpoint of the path. This problem shows that Snell's law follows from a minimum principle: the light ray takes the path minimizing its total travel time. The ratio of sines is constant since it depends only on the speeds of light in the two media.)"
+   }
+  ]
+ },
+ "2D-1/": {
+  "partes": [
+   {
+    "p": "Consider a supersonic airplane wing with a cross-section in the shape of a thin diamond (rhombus) in which the half-angle of the opening is $\\tau$ and the attack angle $\\alpha$. (The attack angle is the angle that the long diagonal of the rhombus makes with the horizontal direction of motion of the plane. See the picture.) The ratio of the lift to the drag is given by the formula (from the Course 16 Unified Engineering notes on aerodynamics):"
+   },
+   {
+    "img": "manual/2D-1.png"
+   },
+   {
+    "p": "$$\\frac{\\text{lift}}{\\text{drag}} = \\frac{\\alpha}{\\alpha^{2} + \\tau^{2}}$$",
+    "display": true
+   }
+  ]
+ },
+ "2G-6/": {
+  "partes": [
+   {
+    "p": "Using the form (2) of the Mean-value Theorem, prove that on an interval $[a, b]$,"
+   }
+  ]
+ },
+ "3A-2/a": {
+  "partes": [
+   {
+    "p": "$$\\int (2x^{4} + 3x^{2} + x + 8)\\,dx$$",
+    "display": true
+   }
+  ]
+ },
+ "3A-2/b": {
+  "partes": [
+   {
+    "p": "b) $\\displaystyle\\int \\left(\\sqrt{x} + \\frac{1}{\\sqrt{x}}\\right) dx$"
+   },
+   {
+    "p": "c) $\\displaystyle\\int \\sqrt{8 + 9x}\\,dx$"
+   }
+  ]
+ },
+ "3A-2/d": {
+  "partes": [
+   {
+    "p": "$$\\int x^{3}(1 - 12x^{4})^{1/8}\\,dx$$",
+    "display": true
+   }
+  ]
+ },
+ "3A-2/e": {
+  "partes": [
+   {
+    "p": "e) $\\displaystyle\\int \\frac{x}{\\sqrt{8 - 2x^{2}}}\\,dx$"
+   },
+   {
+    "p": "f) $\\displaystyle\\int e^{7x}\\,dx$"
+   }
+  ]
+ },
+ "3A-2/g": {
+  "partes": [
+   {
+    "p": "$$\\int 7x^{4}e^{x^{5}}\\,dx$$",
+    "display": true
+   }
+  ]
+ },
+ "3A-2/h": {
+  "partes": [
+   {
+    "p": "h) $\\displaystyle\\int \\frac{e^{\\sqrt{x}}}{\\sqrt{x}}\\,dx$"
+   },
+   {
+    "p": "i) $\\displaystyle\\int \\frac{dx}{3x + 2}$"
+   },
+   {
+    "p": "j) $\\displaystyle\\int \\frac{x + 5}{x}\\,dx$."
+   },
+   {
+    "p": "k) $\\displaystyle\\int \\frac{x}{x + 5}\\,dx$. (Write $\\frac{x}{x + 5} = 1 + \\ldots$)"
+   },
+   {
+    "p": "l) $\\displaystyle\\int \\frac{\\ln x}{x}\\,dx$"
+   },
+   {
+    "p": "m) $\\displaystyle\\int \\frac{dx}{x\\ln x}$"
+   }
+  ]
+ },
+ "3A-3/a": {
+  "partes": [
+   {
+    "p": "$$\\int \\sin(5x)\\,dx$$",
+    "display": true
+   }
+  ]
+ },
+ "3A-3/b": {
+  "partes": [
+   {
+    "p": "b) $\\displaystyle\\int \\sin(x)\\cos(x)\\,dx$"
+   },
+   {
+    "p": "c) $\\displaystyle\\int \\cos^{2} x\\sin x\\,dx$"
+   }
+  ]
+ },
+ "3A-3/d": {
+  "partes": [
+   {
+    "p": "$$\\int \\frac{\\cos x}{\\sin^{3} x}\\,dx$$",
+    "display": true
+   }
+  ]
+ },
+ "3A-3/e": {
+  "partes": [
+   {
+    "p": "e) $\\displaystyle\\int \\sec^{2}(x/5)\\,dx$"
+   },
+   {
+    "p": "f) $\\displaystyle\\int \\tan^{6} x\\sec^{2} x\\,dx$"
+   }
+  ]
+ },
+ "3A-3/g": {
+  "partes": [
+   {
+    "p": "$$\\int \\sec^{9} x\\tan x\\,dx$$",
+    "display": true
+   }
+  ]
+ },
+ "3B-1/": {
+  "partes": [
+   {
+    "p": "Evaluate"
+   }
+  ]
+ },
+ "3B-1/a": {
+  "partes": [
+   {
+    "p": "$$\\sum_{n=1}^{4} n^{2}$$",
+    "display": true
+   }
+  ]
+ },
+ "3B-1/b": {
+  "partes": [
+   {
+    "p": "$$\\sum_{j=1}^{6} 2^{j}$$",
+    "display": true
+   }
+  ]
+ },
+ "3B-1/c": {
+  "partes": [
+   {
+    "p": "$$\\sum_{j=1}^{5} (-1)^{j}j^{2}$$",
+    "display": true
+   }
+  ]
+ },
+ "3B-1/d": {
+  "partes": [
+   {
+    "p": "$$\\sum_{n=1}^{4} \\frac{1}{n}$$",
+    "display": true
+   }
+  ]
+ },
+ "3B-2/": {
+  "partes": [
+   {
+    "p": "Find a $\\Sigma$ notation expression for"
+   }
+  ]
+ },
+ "3B-3/a": {
+  "partes": [
+   {
+    "p": "$$\\int_{0}^{1} x^{3}\\,dx$$",
+    "display": true
+   }
+  ]
+ },
+ "3B-3/b": {
+  "partes": [
+   {
+    "p": "b) $\\displaystyle\\int_{-1}^{3} x^{2}\\,dx$"
+   },
+   {
+    "p": "c) $\\displaystyle\\int_{0}^{2\\pi} \\sin x\\,dx$"
+   }
+  ]
+ },
+ "3B-4/": {
+  "partes": [
+   {
+    "p": "Calculate the difference between the upper and lower Riemann sums for the following integrals with $n$ intervals"
+   }
+  ]
+ },
+ "3B-4/a": {
+  "partes": [
+   {
+    "p": "$$\\int_{0}^{b} x^{2}\\,dx$$",
+    "display": true
+   }
+  ]
+ },
+ "3B-4/b": {
+  "partes": [
+   {
+    "p": "$$\\int_{0}^{b} x^{3}\\,dx$$",
+    "display": true
+   },
+   {
+    "p": "Does the difference tend to zero as $n$ tends to infinity?"
+   }
+  ]
+ },
+ "3B-6/": {
+  "partes": [
+   {
+    "p": "Calculate $\\displaystyle\\int_{0}^{1} e^{x}\\,dx$ by using upper Riemann sums."
+   },
+   {
+    "p": "Hints: The sum is a geometric progression. You will need the limit $\\displaystyle\\lim_{n \\to \\infty} n(e^{1/n} - 1)$. This can be evaluated putting $h = 1/n$ and relating the limit to the derivative of $e^{x}$ at $x = 0$."
+   }
+  ]
+ },
+ "3C-2/a": {
+  "partes": [
+   {
+    "p": "$$\\int_{0}^{2} \\sqrt{3x + 5}\\,dx$$",
+    "display": true
+   }
+  ]
+ },
+ "3C-2/b": {
+  "partes": [
+   {
+    "p": "b) $\\displaystyle\\int_{0}^{2} (3x + 5)^{n}\\,dx$"
+   },
+   {
+    "p": "c) $\\displaystyle\\int_{3\\pi/4}^{\\pi} \\frac{\\sin x\\,dx}{\\cos^{3} x}$"
+   }
+  ]
+ },
+ "3C-4/": {
+  "partes": [
+   {
+    "p": "Calculate $\\displaystyle\\lim_{b \\to \\infty} \\int_{1}^{b} x^{-10}\\,dx$. What area does this integral describe?"
+   }
+  ]
+ },
+ "3D-1/": {
+  "partes": [
+   {
+    "p": "(Exercício 3D-1)"
+   }
+  ]
+ },
+ "3D-1/a": {
+  "partes": [
+   {
+    "p": "Prove that $\\displaystyle\\int_{0}^{x} \\frac{dt}{\\sqrt{t^{2} + a^{2}}} = \\ln(x + \\sqrt{x^{2} + a^{2}}) - \\ln a$, $a > 0$, $x > 0$."
+   }
+  ]
+ },
+ "3D-1/b": {
+  "partes": [
+   {
+    "p": "For what $c$ is $\\displaystyle\\int_{c}^{x} \\frac{dt}{\\sqrt{t^{2} + a^{2}}} = \\ln(x + \\sqrt{x^{2} + a^{2}})$?"
+   }
+  ]
+ },
+ "3D-2/": {
+  "partes": [
+   {
+    "p": "Show that the function $y = \\displaystyle\\int_{0}^{x} \\sqrt{1 - t^{2}}\\,dt$ satisfies the differential equation with side conditions:"
+   },
+   {
+    "p": "$$y'y'' = -x; \\quad y(0) = 0, \\; y'(0) = 1.$$",
+    "display": true
+   }
+  ]
+ },
+ "3D-3/": {
+  "partes": [
+   {
+    "p": "Discuss the function $F(x) = \\displaystyle\\int_{0}^{x} \\frac{1 - t^{2}}{1 + t^{2}}\\,dt$, including a sketch; describe"
+   }
+  ]
+ },
+ "3D-5/": {
+  "partes": [
+   {
+    "p": "Evaluate $\\displaystyle\\lim_{\\Delta x \\to 0} \\frac{1}{\\Delta x}\\int_{1}^{1+\\Delta x} \\frac{t}{\\sqrt{1 + t^{4}}}\\,dt$ two ways:"
+   }
+  ]
+ },
+ "3D-5/b": {
+  "partes": [
+   {
+    "p": "by relating the limit to $F'(1)$, where $F(x) = \\displaystyle\\int_{0}^{x} \\frac{t}{\\sqrt{1 + t^{4}}}\\,dt$"
+   }
+  ]
+ },
+ "3D-6/": {
+  "partes": [
+   {
+    "p": "For different values of $a$, the functions $F(x) = \\displaystyle\\int_{a}^{x} dt$ differ from each other by constants. Show this two ways:"
+   },
+   {
+    "p": "(O integrando aparece em branco no PDF do MIT.)"
+   }
+  ]
+ },
+ "3D-7/c": {
+  "partes": [
+   {
+    "p": "$$\\int_{x}^{x^{2}} \\tan u\\,du$$",
+    "display": true
+   }
+  ]
+ },
+ "3D-8/": {
+  "partes": [
+   {
+    "p": "Let $f(x)$ be continuous. Find $f(\\pi/2)$ if:"
+   }
+  ]
+ },
+ "3D-8/a": {
+  "partes": [
+   {
+    "p": "$$\\int_{0}^{x} f(t)\\,dt = 2x(\\sin x + 1)$$",
+    "display": true
+   }
+  ]
+ },
+ "3D-8/b": {
+  "partes": [
+   {
+    "p": "$$\\int_{0}^{x/2} f(t)\\,dt = 2x(\\sin x + 1)$$",
+    "display": true
+   }
+  ]
+ },
+ "3E-1/": {
+  "partes": [
+   {
+    "p": "Prove directly from the definition $L(x) = \\displaystyle\\int_{1}^{x} \\frac{dt}{t}$ that $L\\left(\\frac{1}{a}\\right) = -L(a)$, by making a change of variables in the definite integral."
+   }
+  ]
+ },
+ "3E-2/": {
+  "partes": [
+   {
+    "p": "The function defined by $E(x) = \\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_{0}^{x} e^{-u^{2}/2}\\,du$ is used in probability and statistics and has the same importance as sine and cosine functions have to trigonometry."
+   }
+  ]
+ },
+ "3E-2/a": {
+  "partes": [
+   {
+    "p": "Express $E(x)$ in terms of the function of example 5 of Notes FT, $F(x) = \\displaystyle\\int_{0}^{x} e^{-t^{2}}\\,dt$, by making a change of variable. It is known that $\\displaystyle\\lim_{x \\to \\infty} F(x) = \\sqrt{\\pi}/2$. What is $\\displaystyle\\lim_{x \\to \\infty} E(x)$?"
+   }
+  ]
+ },
+ "3E-2/b": {
+  "partes": [
+   {
+    "p": "Evaluate $\\displaystyle\\lim_{N \\to \\infty} \\frac{1}{\\sqrt{2\\pi}}\\int_{-N}^{N} e^{-u^{2}/2}\\,du$ and $\\displaystyle\\lim_{x \\to -\\infty} E(x)$."
+   }
+  ]
+ },
+ "3E-2/c": {
+  "partes": [
+   {
+    "p": "Express $\\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_{a}^{b} e^{-u^{2}/2}\\,du$ in terms of the function $E$ and the constants $a$ and $b$, where $a < b$."
+   }
+  ]
+ },
+ "3E-4/": {
+  "partes": [
+   {
+    "p": "From the definite integral $\\displaystyle\\int_{-1}^{1} \\sqrt{1 - x^{2}}\\,dx = \\pi/2$ deduce the value of $\\displaystyle\\int_{-a}^{a} \\sqrt{a^{2} - x^{2}}\\,dx$ by making a suitable change of variable of the form $x = ct$ ($c$ constant)."
+   }
+  ]
+ },
+ "3E-5/": {
+  "partes": [
+   {
+    "p": "Let $F(x) = \\displaystyle\\int_{0}^{x} f(t)\\,dt$."
+   }
+  ]
+ },
+ "3E-6/": {
+  "partes": [
+   {
+    "p": "By comparing the given integral with an integral that is easier to evaluate, establish each of the following estimations:"
+   }
+  ]
+ },
+ "3E-6/a": {
+  "partes": [
+   {
+    "p": "$$\\int_{0}^{1} \\frac{dx}{1 + x^{3}} > 0.65$$",
+    "display": true
+   }
+  ]
+ },
+ "3E-6/b": {
+  "partes": [
+   {
+    "p": "b) $\\displaystyle\\int_{0}^{\\pi} \\sin^{2}x\\,dx < 2$"
+   },
+   {
+    "p": "c) $\\displaystyle\\int_{10}^{20} \\sqrt{x^{2} + 1}\\,dx > 150$"
+   }
+  ]
+ },
+ "3E-7/": {
+  "partes": [
+   {
+    "p": "Show $\\displaystyle\\int_{1}^{N} \\frac{\\sin x}{x^{2}}\\,dx < 1$"
+   }
+  ]
+ },
+ "3G-1/": {
+  "partes": [
+   {
+    "p": "Find approximations to the following integrals using four intervals using Riemann sums with left endpoints, using the trapezoidal rule, and using Simpson's rule. Also give numerical approximations to the exact values of the integrals given to see how good these approximation methods are."
+   }
+  ]
+ },
+ "3G-1/a": {
+  "partes": [
+   {
+    "p": "$\\displaystyle\\int_{0}^{1} \\sqrt{x}\\,dx \\; (= 2/3.)$"
+   }
+  ]
+ },
+ "3G-1/b": {
+  "partes": [
+   {
+    "p": "$\\displaystyle\\int_{0}^{\\pi} \\sin x\\,dx \\; (= 2.)$"
+   }
+  ]
+ },
+ "3G-1/c": {
+  "partes": [
+   {
+    "p": "$\\displaystyle\\int_{0}^{1} \\frac{dx}{1 + x^{2}} \\; (= \\pi/4;$ cf. unit 5)"
+   }
+  ]
+ },
+ "3G-1/d": {
+  "partes": [
+   {
+    "p": "$\\displaystyle\\int_{1}^{2} \\frac{dx}{x} \\; (= \\ln 2)$"
+   }
+  ]
+ },
+ "3G-2/": {
+  "partes": [
+   {
+    "p": "Show that the value given by Simpson's rule for two intervals for the integral"
+   },
+   {
+    "p": "$$\\int_{0}^{b} f(x)\\,dx$$",
+    "display": true
+   },
+   {
+    "p": "gives the exact answer when $f(x) = x^{3}$. (Since a cubic polynomial is a sum of a quadratic polynomial and a polynomial $ax^{3}$, and Simpson's rule is exact for any quadratic polynomial, the result of this exercise implies by linearity (cf. Notes PI) that Simpson's rule will also be exact for any cubic polynomial.)"
+   }
+  ]
+ },
+ "3G-5/": {
+  "partes": [
+   {
+    "p": "If the trapezoidal rule is used to estimate the value of $\\displaystyle\\int_{a}^{b} f(x)\\,dx$ under what hypotheses on $f(x)$ will the estimate be too low? too high?"
+   }
+  ]
+ }
+}

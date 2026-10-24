@@ -1,0 +1,23 @@
+{
+ "3/i": {
+  "partes": [
+   {
+    "p": "$\\mathbf{v}(x, y, t) = t\\,\\langle -y, x\\rangle$, $\\quad \\rho(x, y, t) = \\sqrt{x^{2} + y^{2}}$"
+   }
+  ]
+ },
+ "3/ii": {
+  "partes": [
+   {
+    "p": "$\\mathbf{v}(x, y, t) = \\frac{1}{1+t}\\,\\langle x, -y\\rangle$, $\\quad \\rho(x, y, t) = xy$"
+   }
+  ]
+ },
+ "3/iii": {
+  "partes": [
+   {
+    "p": "$\\mathbf{v}(x, y, t) = t\\,\\langle x, y\\rangle$, $\\quad \\rho(x, y, t) = e^{-t^{2}}$."
+   }
+  ]
+ }
+}

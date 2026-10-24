@@ -22,7 +22,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Let X be a random variable that is uniformly distributed on [O,1] (i.e. f = 1 on that (x) interval and zero elsewhere). In Problem Set #4, you use the \"2-stepn/CDF technique and the transformation method to determine the PDF of each of the following transformations, Y g(X). Now that you have the PDFs, compute (a) IE[g(X)], (b) g(IE[X]), (c) Var(g(X)) and (d) g(Var(X)) for each of the following transformations:"
+     "p": "Let $X$ be a random variable that is uniformly distributed on $[0, 1]$ (i.e. $f(x) = 1$ on that interval and zero elsewhere). In Problem Set #4, you use the \"2-step\"/CDF technique and the transformation method to determine the PDF of each of the following transformations, $Y = g(X)$. Now that you have the PDFs, compute (a) $\\mathbb{E}[g(X)]$, (b) $g(\\mathbb{E}[X])$, (c) $Var(g(X))$ and (d) $g(Var(X))$ for each of the following transformations:"
     }
    ],
    "itens": [
@@ -30,20 +30,10 @@
      "id": "1",
      "partes": [
       {
-       "p": "Y = xi, fY(y) = 4y3 on [O, 11and zero otherwise."
+       "p": "$Y = X^{\\frac{1}{4}}$, $f_{Y}(y) = 4y^{3}$ on $[0, 1]$ and zero otherwise."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q11-p2.png",
-       "w": 284,
-       "h": 29
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q11-p2.png",
@@ -56,39 +46,19 @@
      "id": "2",
      "partes": [
       {
-       "p": "Y = epX, fy(y) = on [a,l]and zero otherwise."
+       "p": "$Y = e^{-X}$, $f_{Y}(y) = \\frac{1}{y}$ on $[\\frac{1}{e}, 1]$ and zero otherwise."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q12-p2.png",
-       "w": 278,
-       "h": 26
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "3",
      "partes": [
       {
-       "p": "Y = 1- e-$^{X}$, fv(y) = $--_{1-Y}^{1}$on [0,l - !] and zero otherwise."
+       "p": "$Y = 1 - e^{-X}$, $f_{Y}(y) = \\frac{1}{1-y}$ on $[0, 1 - \\frac{1}{e}]$ and zero otherwise."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q13-p2.png",
-       "w": 329,
-       "h": 32
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q13-p3.png",
@@ -101,20 +71,10 @@
      "id": "4",
      "partes": [
       {
-       "p": "How does (a) IE[g(X)] compare to (b) g(IE[X]) and (c) Var(g(X)) to (d) g(Var(X)) for each of the above transformations? Are there any generalities that can be noted? Explain."
+       "p": "How does (a) $\\mathbb{E}[g(X)]$ compare to (b) $g(\\mathbb{E}[X])$ and (c) $Var(g(X))$ to (d) $g(Var(X))$ for each of the above transformations? Are there any generalities that can be noted? Explain."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q14-p2.png",
-       "w": 469,
-       "h": 53
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q14-p4.png",
@@ -130,17 +90,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto",
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p2.png",
-     "w": 483,
-     "h": 114
-    }
-   ],
    "fonte": 0
   },
   {
@@ -156,40 +105,19 @@
      "id": "1",
      "partes": [
       {
-       "p": "fX(x) = axa-', 0 < x < 1,a > 0."
+       "p": "$f_{X}(x) = ax^{a-1}$, $0 < x < 1$, $a > 0$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q21-p2.png",
-       "w": 196,
-       "h": 27
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "2",
      "partes": [
       {
-       "p": "fx(x) =$,^{1}$ x l , 2 , .. n, where n is an integer."
+       "p": "$f_{X}(x) = \\frac{1}{n}$, $x = 1, 2, \\ldots, n$, where $n$ is an integer."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q22-p2.png",
-       "w": 278,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q22-p6.png",
@@ -205,16 +133,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p2.png",
-     "w": 396,
-     "h": 56
-    }
-   ],
    "fonte": 0
   },
   {
@@ -222,7 +140,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Suppose that X , Y, and Z are independently and identically distributed with mean zero and variance one. Calculate the following:"
+     "p": "Suppose that $X$, $Y$, and $Z$ are independently and identically distributed with mean zero and variance one. Calculate the following:"
     }
    ],
    "itens": [
@@ -230,33 +148,13 @@
      "id": "1",
      "partes": [
       {
-       "p": "IE[3X+ 2Y + Z]"
+       "p": "$\\mathbb{E}[3X + 2Y + Z]$"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q31-p2.png",
-       "w": 113,
-       "h": 26
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q3-p2.png",
-     "w": 479,
-     "h": 70
-    }
-   ],
    "fonte": 0
   },
   {
@@ -264,22 +162,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Simplify the following expressions for random variables X and Y and scalar constants a, $b$ E R:"
+     "p": "Simplify the following expressions for random variables $X$ and $Y$ and scalar constants $a, b \\in \\mathbb{R}$:"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto",
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p3.png",
-     "w": 481,
-     "h": 71
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -294,7 +181,10 @@
    "titulo": "",
    "partes": [
     {
-     "p": "190) (BainIEngelhardt p. Suppose X and Y are continuous random variables with joint PDF f 4(x - xy) (x, y) = if 0 < x < 1and 0 < y < 1,and zero otherwise."
+     "p": "(Bain/Engelhardt p.190)"
+    },
+    {
+     "p": "Suppose $X$ and $Y$ are continuous random variables with joint PDF $f(x, y) = 4(x - xy)$ if $0 < x < 1$ and $0 < y < 1$, and zero otherwise."
     }
    ],
    "itens": [
@@ -302,20 +192,10 @@
      "id": "1",
      "partes": [
       {
-       "p": "Find E[X2Y]."
+       "p": "Find $\\mathbb{E}[X^{2}Y]$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q51-p3.png",
-       "w": 103,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q51-p9.png",
@@ -328,20 +208,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "Find E[X - Y]."
+       "p": "Find $\\mathbb{E}[X - Y]$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q52-p3.png",
-       "w": 109,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q52-p9.png",
@@ -354,20 +224,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "Find Var(X - Y)."
+       "p": "Find $Var(X - Y)$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q53-p3.png",
-       "w": 125,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q53-p10.png",
@@ -385,39 +245,19 @@
      "id": "4",
      "partes": [
       {
-       "p": "What is the value of the correlation coefficient, pxy $=_{\\frac{Cov(X,Y)}{d v a r ( ~) v a r ( ~)}}$, of X and Y?"
+       "p": "What is the value of the correlation coefficient, $\\rho_{XY} = \\frac{Cov(X,Y)}{\\sqrt{Var(X)Var(Y)}}$, of $X$ and $Y$?"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q54-p3.png",
-       "w": 452,
-       "h": 25
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "5",
      "partes": [
       {
-       "p": "What is E[Ylx]?"
+       "p": "What is $\\mathbb{E}[Y|x]$?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q55-p3.png",
-       "w": 115,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q55-p11.png",
@@ -428,17 +268,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto",
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5-p3.png",
-     "w": 481,
-     "h": 86
-    }
-   ],
    "fonte": 0
   },
   {
@@ -446,21 +275,14 @@
    "titulo": "",
    "partes": [
     {
-     "p": "(BainIEngelhardt p. 191) Let X and Y have joint pdf f (x, Y) = e-Y if 0 < x < y < co and zero otherwise. Find E[XIYI."
+     "p": "(Bain/Engelhardt p. 191)"
+    },
+    {
+     "p": "Let $X$ and $Y$ have joint pdf $f(x, y) = e^{-y}$ if $0 < x < y < \\infty$ and zero otherwise. Find $\\mathbb{E}[X|y]$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q6-p3.png",
-     "w": 480,
-     "h": 88
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -475,21 +297,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "$^{Letcentral moment of}$is defined as $^{Xbe a uniform random variable defined over the interval}4._{(~212}^{X}$Find an expression for the $^{is defined aspk=E[(X-}$kth $^{IEIX])k].}$standardized central moment of $^{The standardized central moment(a, b),i.e.f(x)=A.}$X. $^{Thekth}$"
+     "p": "Let $X$ be a uniform random variable defined over the interval $(a, b)$, i.e. $f(x) = \\frac{1}{b-a}$. The $k^{th}$ central moment of $X$ is defined as $\\mu_{k} = \\mathbb{E}[(X - \\mathbb{E}[X])^{k}]$. The standardized central moment is defined as $\\frac{\\mu_{k}}{(\\mu_{2})^{\\frac{k}{2}}}$. Find an expression for the $k^{th}$ standardized central moment of $X$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q7-p3.png",
-     "w": 482,
-     "h": 95
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {

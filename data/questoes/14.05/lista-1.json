@@ -25,31 +25,15 @@
      "p": "In class we considered a household with log preferences, i.e.,"
     },
     {
-     "p": "$u(c) =$ log($c)$."
+     "p": "$$u(c) = \\log(c). \\tag{1}$$",
+     "display": true
     },
     {
      "p": "In this problem we will instead consider the following more general utility function, known as isoelastic utility:"
     },
     {
-     "p": "$$u(c) = \\frac{c^{1-\\gamma} - 1}{1 - \\gamma}, \\gamma \\geq 0$$",
+     "p": "$$u(c) = \\frac{c^{1-\\gamma} - 1}{1 - \\gamma}, \\quad \\gamma \\geq 0. \\tag{2}$$",
      "display": true
-    },
-    {
-     "p": "linear disutility over hours worked,"
-    },
-    {
-     "p": "$$v(n) = \\theta n, \\theta > 0$$",
-     "display": true
-    },
-    {
-     "p": "and that the production function is linear, i.e., $\\alpha = 1$ in (3). We will furthermore assume that"
-    },
-    {
-     "p": "$$0 \\leq n \\leq 1$$",
-     "display": true
-    },
-    {
-     "p": "The interpretation of (8) is that Robinson has one unit of time available, so at most he can work for one unit, and the smallest amount of work he can do is nothing. Characterize the planning solution. How does it depend on $\\theta$ and $A$? Will Robinson ever eat coconuts $(c^{*} > 0)$ yet not work all day $(n^{*} <$ 1)? [Hint: there are three cases to consider.]"
     }
    ],
    "itens": [
@@ -57,20 +41,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "Consider the isoleastic utility function (2). Show that, as $\\gamma \\to 1$, this utility function approaches the log case (1). [Hint: use L'Hôpital's rule.]"
+       "p": "Consider the isoelastic utility function (2). Show that, as $\\gamma \\to 1$, this utility function approaches the log case (1). [Hint: use L'Hôpital's rule.]"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1a-p1.png",
-       "w": 478,
-       "h": 36
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
@@ -126,16 +100,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 479,
-     "h": 245
-    }
-   ],
    "fonte": 0
   },
   {
@@ -192,18 +156,18 @@
      "p": "Consider a model economy in which a household born in the beginning of period $t$ dies at the end of the same period and gets replaced by their kids (i.e., think of a period as a generation). Parents like to consume themselves but also want to leave an inheritance to their kids. Their preferences are represented by"
     },
     {
-     "p": "$$u(c_{t}) + \\beta V (k_{t+1})$$",
+     "p": "$$u(c_{t}) + \\beta V(k_{t+1}) \\tag{9}$$",
      "display": true
     },
     {
-     "p": "where $u(c) =$ log$(c)$ is the utility of consumption, $V (k) =$ log $k$ is the value of inheritances, and $\\beta$ ∈ (0,1) is a scalar that parameterizes how much parents love their kids. The parents' lifetime budget is"
+     "p": "where $u(c) = \\log(c)$ is the utility of consumption, $V(k) = \\log k$ is the value of inheritances, and $\\beta \\in (0, 1)$ is a scalar that parameterizes how much parents love their kids. The parents' lifetime budget is"
     },
     {
-     "p": "$$c_{t} + k_{t+1} = y_{t}^{d} = y_{t} - T_{t}$$",
+     "p": "$$c_{t} + k_{t+1} = y_{t}^{d} = y_{t} - T_{t} \\tag{10}$$",
      "display": true
     },
     {
-     "p": "where $y_{t}^{d}$ denotes disposable income, $y_{t} = f (k_{t})$ is output (with the production function being neoclassical, as usual), and $T_{t}$ is the amount taxed by the government. The government's budget is given by"
+     "p": "where $y_{t}^{d}$ denotes disposable income, $y_{t} = f(k_{t})$ is output (with the production function being neoclassical, as usual), and $T_{t}$ is the amount taxed by the government. The government's budget is given by"
     },
     {
      "p": "$$T_{t} = g$$",
@@ -221,47 +185,27 @@
        "p": "The parents choose $c_{t}$ and $k_{t+1}$ so as to maximize (9) subject to (10). Write the Lagrangian of this problem, derive the FOCs, and show that the optimal amount of saving can be expressed as"
       },
       {
-       "p": "$$k_{t+1} =\\text{ sy}_{t}^{d}$$",
+       "p": "$$k_{t+1} = s y_{t}^{d},$$",
        "display": true
       },
       {
-       "p": "for some scalar $s$ ∈ (0,1). How does $s$ depend on $\\beta$ ?"
+       "p": "for some scalar $s \\in (0, 1)$. How does $s$ depend on $\\beta$?"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4a-p4.png",
-       "w": 478,
-       "h": 92
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
      "partes": [
       {
-       "p": "Use the above along with $y_{t}^{d} = y_{t} - T_{t}, y_{t} = f (k_{t})$ and $T_{t} = g$ to express the law of motion for capital in the form"
+       "p": "Use the above along with $y_{t}^{d} = y_{t} - T_{t}$, $y_{t} = f(k_{t})$ and $T_{t} = g$ to express the law of motion for capital in the form"
       },
       {
-       "p": "$$k_{t+1} = G(k_{t}; s, g)$$",
+       "p": "$$k_{t+1} = G(k_{t}; s, g).$$",
        "display": true
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4b-p4.png",
-       "w": 479,
-       "h": 53
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",
@@ -283,21 +227,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p3.png",
-     "w": 478,
-     "h": 60
-    },
-    {
-     "img": "e1/q4-p4.png",
-     "w": 478,
-     "h": 241
-    }
-   ],
    "fonte": 0
   }
  ]

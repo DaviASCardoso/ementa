@@ -1,0 +1,192 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Question One"
+   }
+  ]
+ },
+ "1/1": {
+  "partes": [
+   {
+    "p": "Write down the definition of a cumulative distribution function (CDF). Explain what it means in words, perhaps using an example."
+   }
+  ]
+ },
+ "1/2": {
+  "partes": [
+   {
+    "p": "Verify whether the following function is a valid CDF. If yes, draw a graph of the corresponding PDF."
+   },
+   {
+    "img": "e1/p2-2.png"
+   }
+  ]
+ },
+ "1/3": {
+  "partes": [
+   {
+    "p": "Verify that the following function is a valid PDF and draw the corresponding CDF."
+   },
+   {
+    "img": "e1/p2-3.png"
+   }
+  ]
+ },
+ "2/": {
+  "partes": [
+   {
+    "p": "Question Two"
+   }
+  ]
+ },
+ "2/1": {
+  "partes": [
+   {
+    "p": "Give a p.d.f. whose c.d.f. is not continuous but is right-continuous."
+   }
+  ]
+ },
+ "2/1'": {
+  "partes": [
+   {
+    "p": "If $P(A|B) > P(A)$ and $P(A|C) > P(A)$, then $P(A|B, C) > P(A)$."
+   }
+  ],
+  "contexto": [
+   {
+    "p": "True/false/uncertain: Always give a brief explanation if the statement is true, or counter-examples and a short explanation of the counter-examples if the statement is false or uncertain."
+   }
+  ],
+  "tipo": "vf"
+ },
+ "2/2": {
+  "partes": [
+   {
+    "p": "A continuous p.d.f. can never take a value greater than 1."
+   }
+  ],
+  "tipo": "vf"
+ },
+ "2/3": {
+  "partes": [
+   {
+    "p": "$P(A) = P(A|B)P(B)$ means that $A$ and $B$ are independent."
+   }
+  ],
+  "tipo": "vf"
+ },
+ "3/": {
+  "partes": [
+   {
+    "p": "(Source: Bain/Engelhardt, Ch. 2, ex. 8)"
+   },
+   {
+    "p": "A nonnegative integer-valued random variable $X$ has a CDF of the form $F(x) = 1 - (1/2)^{x+1}$ for $x = 0, 1, 2, \\ldots$ and zero if $x < 0$."
+   }
+  ]
+ },
+ "3/1": {
+  "partes": [
+   {
+    "p": "1. Find the pdf of $X$."
+   },
+   {
+    "p": "2. Find $P[10 < X \\leq 20]$."
+   }
+  ]
+ },
+ "3/3": {
+  "partes": [
+   {
+    "p": "Find $P[X \\text{ is even}]$."
+   }
+  ]
+ },
+ "4/": {
+  "partes": [
+   {
+    "p": "Question Four"
+   }
+  ]
+ },
+ "4/1": {
+  "partes": [
+   {
+    "p": "Suppose that a random variable has a PDF that is proportional to $x$ on the interval $[0, 1]$. Write down a formula for this PDF. What is the corresponding CDF?"
+   }
+  ]
+ },
+ "4/2": {
+  "partes": [
+   {
+    "p": "Now suppose that the random variable has a CDF that is proportional to $x$ on the interval $[0, 1]$. Write down a formula for this CDF. What is the corresponding PDF?"
+   }
+  ]
+ },
+ "5/": {
+  "partes": [
+   {
+    "p": "Suppose that the joint PDF of $X$ and $Y$ is given by"
+   },
+   {
+    "p": "$$f_{X,Y} = \\begin{cases} kx^{3}y & \\text{for } 0 < x < y < 1 \\\\ 0 & \\text{elsewhere} \\end{cases}.$$",
+    "display": true
+   }
+  ]
+ },
+ "5/1": {
+  "partes": [
+   {
+    "p": "What is the value of $k$?"
+   }
+  ]
+ },
+ "5/2": {
+  "partes": [
+   {
+    "p": "What is the marginal PDF, $f_{X}(x)$, of $x$?"
+   }
+  ]
+ },
+ "5/3": {
+  "partes": [
+   {
+    "p": "3. What is the value of the marginal cdf of $x$, $F_{X}(x)$, at $x = \\frac{1}{2}$?"
+   },
+   {
+    "p": "4. What is the conditional PDF of $y$ (conditional on $x$, i.e. $f(y|x)$)? Are $X$ and $Y$ independent? Explain."
+   }
+  ]
+ },
+ "5/5": {
+  "partes": [
+   {
+    "p": "What is the probability that $X + Y < 1$?"
+   }
+  ]
+ },
+ "6/": {
+  "partes": [
+   {
+    "p": "(Bain/Engelhardt, Ch. 2, ex. 10)"
+   },
+   {
+    "p": "Let $X$ be a discrete random variable such that $P[X = x] = 0$ otherwise. Suppose the CDF is $F(x) = .05x(1 + x)$ at the values $x = 1, 2, 3$, or $4$."
+   },
+   {
+    "p": "1. Sketch the graph of the CDF."
+   },
+   {
+    "p": "2. Sketch the graph of the discrete pdf, $f(x)$."
+   }
+  ]
+ },
+ "6/3": {
+  "partes": [
+   {
+    "p": "Write down the definition of $E[X]$ and find $E[X]$."
+   }
+  ]
+ }
+}

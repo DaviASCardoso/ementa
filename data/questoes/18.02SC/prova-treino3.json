@@ -107,34 +107,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "(5) Still using the values of $a$ and $b$ from part (a), compute $\\vec{F} \\cdot d\\vec{r}$ along the curve $C$ such"
-      },
-      {
-       "p": "$$C$$",
-       "display": true
-      },
-      {
-       "p": "that $x = e^{t}$ cos $t, y = e^{t}$ sin $t, 0 \\leq t \\leq \\pi$ ."
-      },
-      {
-       "img": "e1/p1-2.png",
-       "w": 451,
-       "h": 14
+       "p": "(5) Still using the values of $a$ and $b$ from part (a), compute $\\displaystyle\\int_{C} \\vec{F} \\cdot d\\vec{r}$ along the curve $C$ such that $x = e^{t}\\cos t$, $y = e^{t}\\sin t$, $0 \\leq t \\leq \\pi$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3c-p1.png",
-       "w": 478,
-       "h": 65
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
@@ -145,21 +121,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "(10) For $\\vec{F} = yx^{3}\\hat{\\imath}+ y^{2}\\hat{\\mathbf{j}}$, find $R_{C} \\vec{F} \\cdot d\\vec{r}$ on the portion of the curve $y = x^{2}$ from (0,0) to (1,1)."
+     "p": "(10) For $\\vec{F} = yx^{3}\\,\\hat{\\imath} + y^{2}\\,\\hat{\\jmath}$, find $\\displaystyle\\int_{C} \\vec{F} \\cdot d\\vec{r}$ on the portion of the curve $y = x^{2}$ from $(0, 0)$ to $(1, 1)$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p1.png",
-     "w": 461,
-     "h": 22
-    }
-   ],
    "fonte": 0
   },
   {
@@ -196,83 +162,32 @@
   {
    "n": "6",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "(Problem 6)"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "(5) Let $C$ be a simple closed curve going counterclockwise around a region $R$. Let"
-      },
-      {
-       "img": "e1/p1-3.png",
-       "w": 6,
-       "h": 6
-      },
-      {
-       "p": "$M = M (x, y)$. Express $Mdx$ as a double integral over $R$."
-      },
-      {
-       "p": "$$C$$",
-       "display": true
-      },
-      {
-       "img": "e1/p1-4.png",
-       "w": 6,
-       "h": 6
+       "p": "(5) Let $C$ be a simple closed curve going counterclockwise around a region $R$. Let $M = M(x, y)$. Express $\\displaystyle\\oint_{C} M\\,dx$ as a double integral over $R$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q6a-p1.png",
-       "w": 478,
-       "h": 54
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
      "partes": [
       {
-       "p": "(5) Find $M$ so that $Mdx$ is the mass of $R$ with density $\\delta (x, y) = (x + y)^{2}$."
-      },
-      {
-       "p": "$$C$$",
-       "display": true
+       "p": "(5) Find $M$ so that $\\displaystyle\\oint_{C} M\\,dx$ is the mass of $R$ with density $\\delta(x, y) = (x + y)^{2}$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q6b-p1.png",
-       "w": 392,
-       "h": 28
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q6-p1.png",
-     "w": 461,
-     "h": 18
-    }
-   ],
    "fonte": 0
   },
   {

@@ -86,21 +86,11 @@
        "p": "[6 points] Optimal investment by a competitive firm satisfies the optimality condition"
       },
       {
-       "p": "$$1 + r = f'(k) + (1 - \\delta )$$",
+       "p": "$$1 + r = f'(k) + (1 - \\delta)$$",
        "display": true
       }
      ],
-     "tipo": "vf",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1e-p1.png",
-       "w": 465,
-       "h": 49
-      }
-     ]
+     "tipo": "vf"
     }
    ],
    "tipo": "aberta",
@@ -111,25 +101,28 @@
    "titulo": "(35 points)",
    "partes": [
     {
-     "p": "Consider a household that makes consumption-savings decisions. The household lives three periods, $t$ ∈{0,1,2}, which you can respectively think of as young age, middle age, and retirement. The household starts with zero assets, $a_{0} = 0$, and her income stream satisfies,"
+     "p": "Consider a household that makes consumption-savings decisions. The household lives three periods, $t \\in \\{0, 1, 2\\}$, which you can respectively think of as young age, middle age, and retirement. The household starts with zero assets, $a_{0} = 0$, and her income stream satisfies,"
     },
     {
-     "p": "$y_{2} = 0$ < y$_{0} = 10$ < y$_{1} = 110$."
+     "p": "$$y_{2} = 0 < y_{0} = 10 < y_{1} = 110.$$",
+     "display": true
     },
     {
-     "p": "That is, in period 0, the household makes a relatively small amount of income. As she tran sitions to period 1, her income considerably increases. In period 2, however, the household's income drops to zero. The household's per-period utility function is given by $u(c) =$ log $c$. For simplicity, we normalize the discount rate as well as the interest rate to zero, $\\rho = r = 0$. First suppose the household can save or borrow (at rate $r = 0)$ without any constraints (except for the natural constraint that she cannot leave behind negative assets). In this case, the household's optimization problem can be written as,"
+     "p": "That is, in period 0, the household makes a relatively small amount of income. As she transitions to period 1, her income considerably increases. In period 2, however, the household's income drops to zero. The household's per-period utility function is given by $u(c) = \\log c$. For simplicity, we normalize the discount rate as well as the interest rate to zero, $\\rho = r = 0$."
     },
     {
-     "p": "$$_{c0,a}\\text{max}_{1,c1,a2,c2} u(c_{0}) + u(c_{1}) + u(c_{2})$$",
+     "p": "First suppose the household can save or borrow (at rate $r = 0$) without any constraints (except for the natural constraint that she cannot leave behind negative assets). In this case, the household's optimization problem can be written as,"
+    },
+    {
+     "p": "$$\\max_{c_{0}, a_{1}, c_{1}, a_{2}, c_{2}} u(c_{0}) + u(c_{1}) + u(c_{2})$$",
      "display": true
     },
     {
      "p": "subject to the three budget constraints"
     },
     {
-     "img": "e1/p2-1.png",
-     "w": 103,
-     "h": 50
+     "p": "$$\\begin{aligned} c_{0} + a_{1} &= y_{0}, \\\\ c_{1} + a_{2} &= y_{1} + a_{1}, \\\\ c_{2} &= a_{2}. \\end{aligned}$$",
+     "display": true
     }
    ],
    "itens": [
@@ -171,16 +164,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p2.png",
-     "w": 478,
-     "h": 366
-    }
-   ],
    "fonte": 0
   },
   {
@@ -188,24 +171,24 @@
    "titulo": "(35 points)",
    "partes": [
     {
-     "p": "We consider a variant of the (static) New Keynesian model with supply shocks. Aggregate demand is described by the following relation between output, interest rates, and inflation:$^{1}$"
+     "p": "We consider a variant of the (static) New Keynesian model with supply shocks. Aggregate demand is described by the following relation between output, interest rates, and inflation:"
     },
     {
-     "p": "$$-\\gamma y_{t} = r_{t}^{n} - \\pi_{t}$$",
+     "p": "$$-\\gamma y_{t} = r_{t}^{n} - \\pi_{t} \\tag{1}$$",
      "display": true
     },
     {
      "p": "Aggregate supply is"
     },
     {
-     "p": "$$\\pi_{t} = \\kappa (y_{t} - \\hat{a}_{t})$$",
+     "p": "$$\\pi_{t} = \\kappa(y_{t} - \\hat{a}_{t}) \\tag{2}$$",
      "display": true
     },
     {
      "p": "where $\\hat{a}_{t}$ is the supply shock. Finally the central bank follows a simple Taylor-type rule:"
     },
     {
-     "p": "$$r_{t}^{n} = \\phi_{\\pi}\\pi_{t}$$",
+     "p": "$$r_{t}^{n} = \\phi_{\\pi}\\pi_{t}, \\tag{3}$$",
      "display": true
     },
     {
@@ -254,16 +237,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q3-p3.png",
-     "w": 478,
-     "h": 224
-    }
-   ],
    "fonte": 0
   }
  ]

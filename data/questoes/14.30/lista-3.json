@@ -33,7 +33,11 @@
   {
    "n": "1",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "Question One"
+    }
+   ],
    "itens": [
     {
      "id": "1",
@@ -43,16 +47,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q11-p2.png",
-       "w": 428,
-       "h": 39
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q11-p2.png",
@@ -68,22 +62,10 @@
        "p": "Verify whether the following function is a valid CDF. If yes, draw a graph of the corresponding PDF."
       },
       {
-       "img": "e1/p2-2.png",
-       "w": 432,
-       "h": 180
+       "img": "e1/p2-2.png"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q12-p2.png",
-       "w": 442,
-       "h": 220
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q12-p2.png",
@@ -104,22 +86,10 @@
        "p": "Verify that the following function is a valid PDF and draw the corresponding CDF."
       },
       {
-       "img": "e1/p2-3.png",
-       "w": 432,
-       "h": 195
+       "img": "e1/p2-3.png"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q13-p2.png",
-       "w": 442,
-       "h": 233
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q13-p3.png",
@@ -135,45 +105,25 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p2.png",
-     "w": 126,
-     "h": 32
-    }
-   ],
    "fonte": 0
   },
   {
    "n": "2",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "Question Two"
+    }
+   ],
    "itens": [
     {
      "id": "1",
      "partes": [
       {
-       "p": "Give a whose c.cLf, is not wntinuous but is right-continuous. p.d.f,"
-      },
-      {
-       "p": "%e/f~/uncertaix AIways give a bfief if the statement is tme, or explanation counter-examples and a short ~ I a n a t i o n of the wunter-wmpleer if the statement Ealse or mrt;ain, is"
+       "p": "Give a p.d.f. whose c.d.f. is not continuous but is right-continuous."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q21-p3.png",
-       "w": 447,
-       "h": 83
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q21-p4.png",
@@ -191,25 +141,20 @@
      "id": "1'",
      "partes": [
       {
-       "p": "If P(Al > and > P(A), then P(AIB,C) B> P(A) P(AIC) P(A)."
+       "p": "If $P(A|B) > P(A)$ and $P(A|C) > P(A)$, then $P(A|B, C) > P(A)$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q21'-p3.png",
-       "w": 371,
-       "h": 31
-      }
-     ],
+     "tipo": "vf",
      "solucao": [
       {
        "img": "g1/q21'-p5.png",
        "w": 466,
        "h": 182
+      }
+     ],
+     "contexto": [
+      {
+       "p": "True/false/uncertain: Always give a brief explanation if the statement is true, or counter-examples and a short explanation of the counter-examples if the statement is false or uncertain."
       }
      ]
     },
@@ -217,20 +162,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "A continuous p.d.f. can never take s d u e greater than 1."
+       "p": "A continuous p.d.f. can never take a value greater than 1."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q22-p3.png",
-       "w": 323,
-       "h": 27
-      }
-     ],
+     "tipo": "vf",
      "solucao": [
       {
        "img": "g1/q22-p5.png",
@@ -243,20 +178,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "P(A) P(AI m e a ~ A anld $\\mathbf{B}$are independent. = B)P(B) that"
+       "p": "$P(A) = P(A|B)P(B)$ means that $A$ and $B$ are independent."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q23-p3.png",
-       "w": 339,
-       "h": 27
-      }
-     ],
+     "tipo": "vf",
      "solucao": [
       {
        "img": "g1/q23-p5.png",
@@ -267,16 +192,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p3.png",
-     "w": 126,
-     "h": 34
-    }
-   ],
    "fonte": 0
   },
   {
@@ -284,7 +199,10 @@
    "titulo": "",
    "partes": [
     {
-     "p": "1-(1/2)~+~ $^{(Source:B\\&n/Engelhardt,}$forx=O, $1,2^{Ch.},.,.^{2,}$aadzeroifx<O. $^{randomex.8)variablehw\\mathbf{a}CDF\\mathbf{of}theformPIX)}$ A nonnegative integer-valued $\\mathbf{X}=$"
+     "p": "(Source: Bain/Engelhardt, Ch. 2, ex. 8)"
+    },
+    {
+     "p": "A nonnegative integer-valued random variable $X$ has a CDF of the form $F(x) = 1 - (1/2)^{x+1}$ for $x = 0, 1, 2, \\ldots$ and zero if $x < 0$."
     }
    ],
    "itens": [
@@ -292,25 +210,13 @@
      "id": "1",
      "partes": [
       {
-       "p": "Find the pdf of X. 2, Find $\\mathbf{P}110 < 5 201$."
+       "p": "1. Find the pdf of $X$."
       },
       {
-       "p": "$$\\mathbf{X}$$",
-       "display": true
+       "p": "2. Find $P[10 < X \\leq 20]$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q31-p3.png",
-       "w": 148,
-       "h": 54
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q31-p6.png",
@@ -323,20 +229,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "Find PIX b evert] ."
+       "p": "Find $P[X \\text{ is even}]$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q33-p3.png",
-       "w": 125,
-       "h": 28
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q33-p6.png",
@@ -347,41 +243,25 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q3-p3.png",
-     "w": 449,
-     "h": 88
-    }
-   ],
    "fonte": 0
   },
   {
    "n": "4",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "Question Four"
+    }
+   ],
    "itens": [
     {
      "id": "1",
      "partes": [
       {
-       "p": "Suppose that $\\mathbf{n}$randam variable has $\\mathbf{a}$PDF that is proportional ko $\\mathbf{s}$on the interval GbF? [O, I]. Write down a formula for this PDF. What is the corwpanding"
+       "p": "Suppose that a random variable has a PDF that is proportional to $x$ on the interval $[0, 1]$. Write down a formula for this PDF. What is the corresponding CDF?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q41-p3.png",
-       "w": 431,
-       "h": 55
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q41-p7.png",
@@ -394,21 +274,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "Now suppose that the random &able has a CDF that parportional to s is on the interval [a, 11. Write down a for thh CDF. What is the correspondformula ing PDF?"
+       "p": "Now suppose that the random variable has a CDF that is proportional to $x$ on the interval $[0, 1]$. Write down a formula for this CDF. What is the corresponding PDF?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q42-p3.png",
-       "w": 434,
-       "h": 56
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q42-p7.png",
@@ -419,16 +288,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p3.png",
-     "w": 130,
-     "h": 35
-    }
-   ],
    "fonte": 0
   },
   {
@@ -436,7 +295,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Suppose that the joint PDF of $\\mathbf{X}$and $\\mathbf{Y}$is given by fx,. = { $11_{elsewhere}^{kzSyf o r O < x < y < l}$"
+     "p": "Suppose that the joint PDF of $X$ and $Y$ is given by"
+    },
+    {
+     "p": "$$f_{X,Y} = \\begin{cases} kx^{3}y & \\text{for } 0 < x < y < 1 \\\\ 0 & \\text{elsewhere} \\end{cases}.$$",
+     "display": true
     }
    ],
    "itens": [
@@ -444,20 +307,10 @@
      "id": "1",
      "partes": [
       {
-       "p": "What is the value of k?"
+       "p": "What is the value of $k$?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q51-p3.png",
-       "w": 148,
-       "h": 27
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q51-p7.png",
@@ -475,21 +328,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "What is the marginal PDF, fi of &? (\\$1,"
+       "p": "What is the marginal PDF, $f_{X}(x)$, of $x$?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q52-p4.png",
-       "w": 236,
-       "h": 25
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q52-p8.png",
@@ -502,20 +344,13 @@
      "id": "3",
      "partes": [
       {
-       "p": "What is the value of the marginal cdfof x, Fx(x), $\\mathbf{d}\\mathbf{x}=$ i? 4 What $_{ixkdependent?}$is the conditiod $_{Explain.}$PBF of y (conditional on x, i.6 $\\mathbf{f}$(ylx]}? Are $\\mathbf{X}$wd $\\mathbf{Y}$"
+       "p": "3. What is the value of the marginal cdf of $x$, $F_{X}(x)$, at $x = \\frac{1}{2}$?"
+      },
+      {
+       "p": "4. What is the conditional PDF of $y$ (conditional on $x$, i.e. $f(y|x)$)? Are $X$ and $Y$ independent? Explain."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q53-p4.png",
-       "w": 430,
-       "h": 76
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q53-p8.png",
@@ -533,20 +368,10 @@
      "id": "5",
      "partes": [
       {
-       "p": "Wt is the probability that $\\mathbf{X}$+V < l?"
+       "p": "What is the probability that $X + Y < 1$?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q55-p4.png",
-       "w": 241,
-       "h": 30
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q55-p10.png",
@@ -557,16 +382,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5-p3.png",
-     "w": 312,
-     "h": 102
-    }
-   ],
    "fonte": 0
   },
   {
@@ -574,7 +389,16 @@
    "titulo": "",
    "partes": [
     {
-     "p": "(Bh/EngeIhardt, Ch. ex. ID) 2, the $^{Let\\mathbf{X}}$is $^{\\mathbf{be}}$P(s) $^{~aW e t e}=$ .05x(X $^{random}+$ x] $^{variable}$ah the values $^{such}\\mathbf{z}^{that}= 1,^{P[X}2,3,^{=}$or $^{x]}4.^{=\\mathbf{U}othade.Snppcse}$ CDF I. Sketch the graph af the CDF. 2; Sketch th6 graph of &mete f(x), th& pdf,"
+     "p": "(Bain/Engelhardt, Ch. 2, ex. 10)"
+    },
+    {
+     "p": "Let $X$ be a discrete random variable such that $P[X = x] = 0$ otherwise. Suppose the CDF is $F(x) = .05x(1 + x)$ at the values $x = 1, 2, 3$, or $4$."
+    },
+    {
+     "p": "1. Sketch the graph of the CDF."
+    },
+    {
+     "p": "2. Sketch the graph of the discrete pdf, $f(x)$."
     }
    ],
    "itens": [
@@ -582,21 +406,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "Write down the debition E[X] a d find E[A. of"
+       "p": "Write down the definition of $E[X]$ and find $E[X]$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q63-p4.png",
-       "w": 289,
-       "h": 27
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q63-p12.png",
@@ -607,17 +420,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto",
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q6-p4.png",
-     "w": 447,
-     "h": 136
-    }
-   ],
    "fonte": 0
   }
  ]

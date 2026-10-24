@@ -1,0 +1,83 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Consider the Robinson Crusoe economy covered in Lecture Note 2. This problem asks you to study several variants of that economy."
+   },
+   {
+    "p": "In class we considered a household with log preferences, i.e.,"
+   },
+   {
+    "p": "$$u(c) = \\log(c). \\tag{1}$$",
+    "display": true
+   },
+   {
+    "p": "In this problem we will instead consider the following more general utility function, known as isoelastic utility:"
+   },
+   {
+    "p": "$$u(c) = \\frac{c^{1-\\gamma} - 1}{1 - \\gamma}, \\quad \\gamma \\geq 0. \\tag{2}$$",
+    "display": true
+   }
+  ]
+ },
+ "1/a": {
+  "partes": [
+   {
+    "p": "Consider the isoelastic utility function (2). Show that, as $\\gamma \\to 1$, this utility function approaches the log case (1). [Hint: use L'Hôpital's rule.]"
+   }
+  ]
+ },
+ "4/": {
+  "partes": [
+   {
+    "p": "Consider a model economy in which a household born in the beginning of period $t$ dies at the end of the same period and gets replaced by their kids (i.e., think of a period as a generation). Parents like to consume themselves but also want to leave an inheritance to their kids. Their preferences are represented by"
+   },
+   {
+    "p": "$$u(c_{t}) + \\beta V(k_{t+1}) \\tag{9}$$",
+    "display": true
+   },
+   {
+    "p": "where $u(c) = \\log(c)$ is the utility of consumption, $V(k) = \\log k$ is the value of inheritances, and $\\beta \\in (0, 1)$ is a scalar that parameterizes how much parents love their kids. The parents' lifetime budget is"
+   },
+   {
+    "p": "$$c_{t} + k_{t+1} = y_{t}^{d} = y_{t} - T_{t} \\tag{10}$$",
+    "display": true
+   },
+   {
+    "p": "where $y_{t}^{d}$ denotes disposable income, $y_{t} = f(k_{t})$ is output (with the production function being neoclassical, as usual), and $T_{t}$ is the amount taxed by the government. The government's budget is given by"
+   },
+   {
+    "p": "$$T_{t} = g$$",
+    "display": true
+   },
+   {
+    "p": "where $g$ is an exogenous amount of unproductive (\"wasteful\") government spending."
+   }
+  ]
+ },
+ "4/a": {
+  "partes": [
+   {
+    "p": "The parents choose $c_{t}$ and $k_{t+1}$ so as to maximize (9) subject to (10). Write the Lagrangian of this problem, derive the FOCs, and show that the optimal amount of saving can be expressed as"
+   },
+   {
+    "p": "$$k_{t+1} = s y_{t}^{d},$$",
+    "display": true
+   },
+   {
+    "p": "for some scalar $s \\in (0, 1)$. How does $s$ depend on $\\beta$?"
+   }
+  ]
+ },
+ "4/b": {
+  "partes": [
+   {
+    "p": "Use the above along with $y_{t}^{d} = y_{t} - T_{t}$, $y_{t} = f(k_{t})$ and $T_{t} = g$ to express the law of motion for capital in the form"
+   },
+   {
+    "p": "$$k_{t+1} = G(k_{t}; s, g).$$",
+    "display": true
+   }
+  ]
+ }
+}

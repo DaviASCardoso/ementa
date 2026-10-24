@@ -105,16 +105,6 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2a-p2.png",
-       "w": 442,
-       "h": 62
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q2a-p1.png",
@@ -153,10 +143,10 @@
    "titulo": "(7: 1,2,2,2)",
    "partes": [
     {
-     "p": "Using the usual rectangular and polar coordinates, let $w$ be the area of the right triangle in the first quadrant having its vertices at $(0, 0), (x, 0)$ and $(x, y)$. Using the equation expressing $w$ in terms of $x$ and $y$ and the equations expressing $y$ in terms of $x$ and $\\theta$ , calculate the two partial derivatives $\\frac{\\partial w}{\\partial x}$ and $\\frac{\\partial w}{\\partial \\theta}$ in three different ways. $^{\\theta}^{x}$"
+     "p": "(7: 1,2,2,2)"
     },
     {
-     "p": "and show they agree with the two corresponding partial derivatives."
+     "p": "Using the usual rectangular and polar coordinates, let $w$ be the area of the right triangle in the first quadrant having its vertices at $(0, 0)$, $(x, 0)$ and $(x, y)$. Using the equation expressing $w$ in terms of $x$ and $y$ and the equations expressing $y$ in terms of $x$ and $\\theta$, calculate the two partial derivatives $\\left(\\dfrac{\\partial w}{\\partial x}\\right)_{\\theta}$ and $\\left(\\dfrac{\\partial w}{\\partial \\theta}\\right)_{x}$ in three different ways."
     }
    ],
    "itens": [
@@ -180,24 +170,10 @@
      "id": "b",
      "partes": [
       {
-       "p": "By using the chain rule – for example $\\frac{\\partial w}{\\partial x} = w_{x} \\frac{\\partial x}{\\partial x} + w_{y} \\frac{\\partial y}{\\partial x}$, where"
-      },
-      {
-       "p": "$$\\theta \\theta \\theta$$",
-       "display": true
+       "p": "By using the chain rule – for example $\\left(\\dfrac{\\partial w}{\\partial x}\\right)_{\\theta} = w_{x}\\left(\\dfrac{\\partial x}{\\partial x}\\right)_{\\theta} + w_{y}\\left(\\dfrac{\\partial y}{\\partial x}\\right)_{\\theta}$, where $w_{x}$ and $w_{y}$ are the formal partial derivatives."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3b-p3.png",
-       "w": 442,
-       "h": 30
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q3b-p2.png",
@@ -231,11 +207,7 @@
      "id": "d",
      "partes": [
       {
-       "p": "Using the triangle picture and geometric intuition, estimate $\\frac{\\Delta w}{\\Delta x}$ and $\\frac{\\Delta w}{\\Delta \\theta}$"
-      },
-      {
-       "p": "$$\\theta x$$",
-       "display": true
+       "p": "Using the triangle picture and geometric intuition, estimate $\\left(\\dfrac{\\Delta w}{\\Delta x}\\right)_{\\theta}$ and $\\left(\\dfrac{\\Delta w}{\\Delta \\theta}\\right)_{x}$ and show they agree with the two corresponding partial derivatives."
       }
      ],
      "tipo": "aberta",
@@ -249,16 +221,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula que o KaTeX não desenha"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q3-p3.png",
-     "w": 442,
-     "h": 101
-    }
-   ],
    "fonte": 0
   }
  ]

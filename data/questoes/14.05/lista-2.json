@@ -22,32 +22,25 @@
      "p": "In the variants of the Solow model we have seen so far, we assumed the production function featured constant returns to scale in capital and labor. This assumption might be violated in practice if there are scarce factors, such as land or natural resources, that also affect production. This exercise develops a version of the Solow model with scarce factors. We do this using a variant of the Solow model in continuous time analyzed in the first part of Lecture 6. Suppose output is now given by"
     },
     {
-     "p": "$$Y (t) =\\text{ AK}(t)^{\\alpha}L(t)^{\\beta}Z^{1-\\alpha -\\beta}$$",
+     "p": "$$Y(t) = AK(t)^{\\alpha}L(t)^{\\beta}Z^{1-\\alpha-\\beta}, \\tag{1}$$",
      "display": true
     },
     {
-     "p": "where $\\alpha + \\beta < 1$. Here, $Z$ can be interpreted as the supply of the scarce factors such as land. The coefficient, 1 $- \\alpha - \\beta > 0$, can be interpreted as the share (or the \"importance\") of the scarce factors in aggregate output. Unlike $K(t)$ and $L(t)$, scarce factors cannot be accumulated—at least not as easily. We capture this feature by assuming that $Z$ is constant. To simplify the notation we also adopt the normalization $Z = 1$, so that output is given by"
+     "p": "where $\\alpha + \\beta < 1$. Here, $Z$ can be interpreted as the supply of the scarce factors such as land. The coefficient, $1 - \\alpha - \\beta > 0$, can be interpreted as the share (or the \"importance\") of the scarce factors in aggregate output. Unlike $K(t)$ and $L(t)$, scarce factors cannot be accumulated — at least not as easily. We capture this feature by assuming that $Z$ is constant. To simplify the notation we also adopt the normalization $Z = 1$, so that output is given by"
     },
     {
-     "p": "$$Y (t) =\\text{ AK}(t)^{\\alpha}L(t)^{\\beta}$$",
+     "p": "$$Y(t) = AK(t)^{\\alpha}L(t)^{\\beta}. \\tag{2}$$",
      "display": true
     },
     {
      "p": "The rest of the model is as before. Specifically, the dynamics of capital and labor are respectively given by,"
     },
     {
-     "p": "$$\\dot{K}(t) =\\text{ sY }(t) - \\delta K(t)$$",
+     "p": "$$\\begin{aligned} \\dot{K}(t) &= sY(t) - \\delta K(t) && (3) \\\\ \\dot{L}(t) &= L(t)n && (4) \\end{aligned}$$",
      "display": true
     },
     {
-     "p": "$$\\dot{L}(t) = L(t)n$$",
-     "display": true
-    },
-    {
-     "p": "for some constants $s$ ∈ (0,$1), \\delta > 0$ and $n \\geq 0$, and taking initial values $K(0)$ and $L(0)$ as given."
-    },
-    {
-     "p": "1"
+     "p": "for some constants $s \\in (0, 1)$, $\\delta > 0$ and $n \\geq 0$, and taking initial values $K(0)$ and $L(0)$ as given."
     }
    ],
    "itens": [
@@ -55,33 +48,23 @@
      "id": "a",
      "partes": [
       {
-       "p": "(3)-(4) can be combined to describe the dynamics of the model in terms of capital per labor, $k(t) = K(t)$/L$(t)$ and output per labor, $y(t) = Y (t)$/L$(t)$. Carry out this analysis and show that the following equation continues to hold in this setting,"
+       "p": "(3)-(4) can be combined to describe the dynamics of the model in terms of capital per labor, $k(t) = K(t)/L(t)$ and output per labor, $y(t) = Y(t)/L(t)$. Carry out this analysis and show that the following equation continues to hold in this setting,"
       },
       {
-       "p": "$$\\dot{k}(t) =\\text{ sy}(t) - (\\delta + n)k(t)$$",
+       "p": "$$\\dot{k}(t) = sy(t) - (\\delta + n)k(t). \\tag{5}$$",
        "display": true
       },
       {
        "p": "For the rest of the exercise, suppose population growth is zero, $n = 0$, so that the"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1a-p2.png",
-       "w": 478,
-       "h": 117
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
      "partes": [
       {
-       "p": "Use (2) to characterize $y(t)$ in terms of $k(t)$ and $L$. How does a greater population level, $L$, affect output per labor, $y(t)$, keeping $k(t)$ as well as the other parameters constant? Is this the same or different than what we had in lectures? How does the effect depend on the share of scarce resources, 1 $- \\alpha - \\beta$ ? Provide an intuition for these results."
+       "p": "Use (2) to characterize $y(t)$ in terms of $k(t)$ and $L$. How does a greater population level, $L$, affect output per labor, $y(t)$, keeping $k(t)$ as well as the other parameters constant? Is this the same or different than what we had in lectures? How does the effect depend on the share of scarce resources, $1 - \\alpha - \\beta$? Provide an intuition for these results."
       }
      ],
      "contexto": [
@@ -89,17 +72,7 @@
        "p": "population is constant at a particular level, $L(t) =$ L > 0."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q1b-p2.png",
-       "w": 479,
-       "h": 66
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",
@@ -112,16 +85,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 481,
-     "h": 514
-    }
-   ],
    "fonte": 0
   },
   {
@@ -129,14 +92,17 @@
    "titulo": "",
    "partes": [
     {
-     "p": "In the variants of the Solow model we have seen so far, the population was either constant, or it was growing at a constant rate, which did not affect the behavior of per-labor variables very much. This exercise analyzes a model in which population growth responds to changes in output per labor, an idea that was emphasized by Thomas Malthus more than 200 years ago. We also assume there are scarce factors in production, as in the first exercise. Specifically, consider the model in the first exercise with the only difference that popula tion growth is now given by"
+     "p": "In the variants of the Solow model we have seen so far, the population was either constant, or it was growing at a constant rate, which did not affect the behavior of per-labor variables very much. This exercise analyzes a model in which population growth responds to changes in output per labor, an idea that was emphasized by Thomas Malthus more than 200 years ago. We also assume there are scarce factors in production, as in the first exercise."
     },
     {
-     "p": "$$n(t) = \\frac{\\dot{L}(t)}{L(t)} = \\eta (y(t) - \\bar{y})$$",
+     "p": "Specifically, consider the model in the first exercise with the only difference that population growth is now given by"
+    },
+    {
+     "p": "$$n(t) = \\frac{\\dot{L}(t)}{L(t)} = \\eta(y(t) - \\bar{y}), \\tag{6}$$",
      "display": true
     },
     {
-     "p": "where $\\bar{y} > 0, \\eta > 0$, and $L(0)$ is given. The rest of the model is unchanged. In particular, we continue to assume that the production function is given by (2) with $\\alpha + \\beta < 1$."
+     "p": "where $\\bar{y} > 0$, $\\eta > 0$, and $L(0)$ is given. The rest of the model is unchanged. In particular, we continue to assume that the production function is given by (2) with $\\alpha + \\beta < 1$."
     }
    ],
    "itens": [
@@ -159,30 +125,20 @@
        "p": "(3) and (6) can be combined to obtain the (intensive form) dynamics in terms of $k(t)$. Carry out this analysis and show that"
       },
       {
-       "p": "$$\\dot{k}(t) =\\text{ sy}(t) - (\\delta + \\eta (y(t) - \\bar{y}))k(t)$$",
+       "p": "$$\\dot{k}(t) = sy(t) - (\\delta + \\eta(y(t) - \\bar{y}))k(t). \\tag{7}$$",
        "display": true
       },
       {
        "p": "As you have seen in part b) of the first exercise, output per labor, $y(t)$, in this model also"
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2b-p3.png",
-       "w": 479,
-       "h": 101
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",
      "partes": [
       {
-       "p": "Characterize the steady state levels of {$L^{*}$, k$^{*}$} as well as output per labor, $y^{*}$, in terms of the parameters. Consider the comparative statics with respect to the level of productivity, $A$. In particular, suppose the productivity doubles. Does this increase $y^{*}$ and $k^{*}$? Why or why not? Does this increase $L^{*}$? Why or why not?"
+       "p": "Characterize the steady state levels of $\\{L^{*}, k^{*}\\}$ as well as output per labor, $y^{*}$, in terms of the parameters. Consider the comparative statics with respect to the level of productivity, $A$. In particular, suppose the productivity doubles. Does this increase $y^{*}$ and $k^{*}$? Why or why not? Does this increase $L^{*}$? Why or why not?"
       }
      ],
      "contexto": [
@@ -190,17 +146,7 @@
        "p": "depends on the level of the population, $L(t)$. This implies that the dynamics of the model are now more complicated. In particular, the diferential equation (7) cannot be solved in isolation. Rather, the diferential equations (6) and (7) jointly determine the evolution of {$L(t)$, k$(t)$}, starting from an initial condition, {$L(0)$, k(0)}. That said, the steady state of the system is relatively less complicated. In the rest of this exercise, we focus on a steady state in which $L(t) = L^{*} > 0$ and $k(t) = k^{*} > 0$ for each $t$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q2c-p3.png",
-       "w": 477,
-       "h": 68
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "d",
@@ -213,16 +159,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p2.png",
-     "w": 478,
-     "h": 207
-    }
-   ],
    "fonte": 0
   },
   {
@@ -230,14 +166,20 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Consider the neoclassical growth model in continuous time. Output per labor is given by $y(t) = f (k(t))$, where $f ($•) is a neoclassical production function and $k(t)$ denotes the capital per labor. There is no population growth or technological progress (that is, $\\dot{L/L} = 0$ and $\\dot{A/A} = 0)$. We now also introduce government spending to the model, denoted by $g(t)$. The economy's resource constraint is given by:"
+     "p": "Consider the neoclassical growth model in continuous time. Output per labor is given by $y(t) = f(k(t))$, where $f(\\bullet)$ is a neoclassical production function and $k(t)$ denotes the capital per labor. There is no population growth or technological progress (that is, $\\dot{L}/L = 0$ and $\\dot{A}/A = 0$). We now also introduce government spending to the model, denoted by $g(t)$. The economy's resource constraint is given by:"
     },
     {
-     "p": "$$\\dot{k}(t) = f (k(t)) - \\delta k(t) - c(t) - g(t)$$",
+     "p": "$$\\dot{k}(t) = f(k(t)) - \\delta k(t) - c(t) - g(t) \\tag{8}$$",
      "display": true
     },
     {
-     "p": "The representative household has per-period utility $u(c) = \\frac{c^{1-\\theta}-1}{1-\\theta}$ and discount rate $\\rho$ . The economy is initially (at time $t = 0)$ at the steady state corresponding to $g^{old}(t) = 0$. Denote the consumption and capital per labor at this old steady-state with {$c^{*,old}$, k$^{*,old}$}. At time 0, Congress approves an increase in military spending. The announcement comes as a surprise. After the announcement, the government spending is $g^{new}(t) = \\bar{g} > 0$ for each $t \\geq 0$. Hence, the government spending increases permanently. For the purposes of this exercise, you can think of the government spending as purely wasteful (as it will be spent outside the country). Furthermore suppose that government spending is not too large, so that it satisfies $\\bar{g}$ < f$(k^{*,old}) - \\delta k^{*,old}$. First suppose government spending is financed by taking resources lump-sum from con sumers (i.e., a lump-sum tax), so that the Euler equation is not affected by the change."
+     "p": "The representative household has per-period utility $u(c) = \\frac{c^{1-\\theta} - 1}{1-\\theta}$ and discount rate $\\rho$."
+    },
+    {
+     "p": "The economy is initially (at time $t = 0$) at the steady state corresponding to $g^{old}(t) = 0$. Denote the consumption and capital per labor at this old steady-state with $\\{c^{*,old}, k^{*,old}\\}$. At time 0, Congress approves an increase in military spending. The announcement comes as a surprise. After the announcement, the government spending is $g^{new}(t) = \\bar{g} > 0$ for each $t \\geq 0$. Hence, the government spending increases permanently. For the purposes of this exercise, you can think of the government spending as purely wasteful (as it will be spent outside the country). Furthermore suppose that government spending is not too large, so that it satisfies $\\bar{g} < f(k^{*,old}) - \\delta k^{*,old}$."
+    },
+    {
+     "p": "First suppose government spending is financed by taking resources lump-sum from consumers (i.e., a lump-sum tax), so that the Euler equation is not affected by the change."
     }
    ],
    "itens": [
@@ -245,20 +187,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "Characterize the new steady-state levels of consumption per labor and capital per labor, {$c^{*,new}$, k$^{*,new}$}. How do the new steady-state levels, {$c^{*,new}$, k$^{*,new}$}, compare with the old steady-state levels, {$c^{*,old}$, k$^{*,old}$}? Provide a brief intuition."
+       "p": "Characterize the new steady-state levels of consumption per labor and capital per labor, $\\{c^{*,new}, k^{*,new}\\}$. How do the new steady-state levels, $\\{c^{*,new}, k^{*,new}\\}$, compare with the old steady-state levels, $\\{c^{*,old}, k^{*,old}\\}$? Provide a brief intuition."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3a-p4.png",
-       "w": 478,
-       "h": 51
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
@@ -276,7 +208,7 @@
      "id": "c",
      "partes": [
       {
-       "p": "Characterize the steady-state levels of consumption per labor and capital per labor, de noted by {$c^{*,dist}$, k$^{*,dist}$}. How do these levels compare with the steady-state levels without distortionary taxation, {$c^{*,new}$, k$^{*,new}$}? Provide a brief intuition."
+       "p": "Characterize the steady-state levels of consumption per labor and capital per labor, denoted by $\\{c^{*,dist}, k^{*,dist}\\}$. How do these levels compare with the steady-state levels without distortionary taxation, $\\{c^{*,new}, k^{*,new}\\}$? Provide a brief intuition."
       }
      ],
      "contexto": [
@@ -284,17 +216,7 @@
        "p": "financed with a distortionary tax on capital income $\\tau$ , which you can think of as a positive constant $\\tau > 0.^{3}$ That is, the net return on investment is now given by $r_{t} = (1-\\tau )(f'(k_{t})-\\delta )$."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q3c-p4.png",
-       "w": 477,
-       "h": 51
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "d",
@@ -307,21 +229,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q3-p3.png",
-     "w": 478,
-     "h": 249
-    },
-    {
-     "img": "e1/q3-p4.png",
-     "w": 478,
-     "h": 82
-    }
-   ],
    "fonte": 0
   },
   {
@@ -329,20 +236,24 @@
    "titulo": "(2021 exam question)",
    "partes": [
     {
-     "p": "Consider the competitive equilibrium of the neoclassical growth model. Time is discrete, $t$ ∈{0,1, . . .}. As usual, firms rent capital and hire labor. Now, however, the policymaker pays a subsidy $\\chi > 0$ to firms renting capital, so the profit maximization problem of the representative firm at time $t$ becomes"
+     "p": "Consider the competitive equilibrium of the neoclassical growth model. Time is discrete, $t \\in \\{0, 1, \\ldots\\}$. As usual, firms rent capital and hire labor. Now, however, the policymaker pays a subsidy $\\chi > 0$ to firms renting capital, so the profit maximization problem of the representative firm at time $t$ becomes"
     },
     {
-     "p": "$\\pi_{t}$ ≡ max$_{k,n} F ($k, $n) - w_{t}n - (1 - \\chi )r_{t}k$"
+     "p": "$$\\pi_{t} \\equiv \\max_{k,n} F(k, n) - w_{t}n - (1 - \\chi)r_{t}k$$",
+     "display": true
     },
     {
-     "p": "where $F ($•) as usual is a neoclassical production function. Household preferences take the CRRA form:"
+     "p": "where $F(\\bullet)$ as usual is a neoclassical production function. Household preferences take the CRRA form:"
     },
     {
      "p": "$$u(c) = \\frac{c^{1-\\theta} - 1}{1 - \\theta}$$",
      "display": true
     },
     {
-     "p": "$^{3}$Ultimately $\\tau$ is chosen so that total tax revenues equal $\\bar{g}$ at the steady state. You do not need to solve this fixed point loop; just think of $\\tau$ as a positive constant. The household problem is almost exactly as studied in class, with the sole exception that now the policymaker levies a tax on households to finance the capital subsidy $\\chi$ given to firms. In this problem you will explore the implications of the subsidy under different assumptions on its tax financing."
+     "p": "The household problem is almost exactly as studied in class, with the sole exception that now the policymaker levies a tax on households to finance the capital subsidy $\\chi$ given to firms. In this problem you will explore the implications of the subsidy under different assumptions on its tax financing."
+    },
+    {
+     "p": "(Footnote 3 of the problem set: Ultimately $\\tau$ is chosen so that total tax revenues equal $\\bar{g}$ at the steady state. You do not need to solve this fixed point loop; just think of $\\tau$ as a positive constant.)"
     }
    ],
    "itens": [
@@ -353,36 +264,30 @@
        "p": "Suppose first that the subsidy is financed with a lump-sum tax on households $\\tau_{t}$. That is, the household budget constraint becomes"
       },
       {
-       "p": "$$c_{t} + k_{t+1} = w_{t} + r_{t}k_{t} + (1 - \\delta )k_{t} + \\pi_{t} - \\tau_{t}$$",
+       "p": "$$c_{t} + k_{t+1} = w_{t} + r_{t}k_{t} + (1 - \\delta)k_{t} + \\pi_{t} - \\tau_{t}$$",
        "display": true
       },
       {
-       "p": "(i) What does the government budget constraint imply about the relationship between $\\tau_{t}, \\chi , r_{t}$, and $k_{t}$? [Hint: the tax revenue that the government collects from households will need to be equal to the amount that it is paying out as subsidies to firms.] (ii) Derive the optimality conditions for the household and firm problem. Combining those optimality conditions with (i) the household budget constraint, (ii) the ex pression for firm profits, and (iii) the government budget constraint, derive a pair of difference equations that characterize the dynamic evolution of consumption $c_{t}$ and capital $k_{t}$. Compare your system with the standard planner's system"
+       "p": "(i) What does the government budget constraint imply about the relationship between $\\tau_{t}$, $\\chi$, $r_{t}$, and $k_{t}$? [Hint: the tax revenue that the government collects from households will need to be equal to the amount that it is paying out as subsidies to firms.]"
       },
       {
-       "p": "$$c_{t} + k_{t+1} = (1 - \\delta )k_{t} + f (k_{t})$$",
+       "p": "(ii) Derive the optimality conditions for the household and firm problem. Combining those optimality conditions with (i) the household budget constraint, (ii) the expression for firm profits, and (iii) the government budget constraint, derive a pair of difference equations that characterize the dynamic evolution of consumption $c_{t}$ and capital $k_{t}$. Compare your system with the standard planner's system"
+      },
+      {
+       "p": "$$\\begin{aligned} c_{t} + k_{t+1} &= (1 - \\delta)k_{t} + f(k_{t}), \\\\ \\frac{c_{t}^{-\\theta}}{\\beta c_{t+1}^{-\\theta}} &= 1 - \\delta + f'(k_{t+1}). \\end{aligned}$$",
        "display": true
       },
       {
-       "p": "$$\\frac{c_{t}^{-\\theta}}{\\beta c_{t+1}^{-\\theta}} = 1 - \\delta + f'(k_{t+1})$$",
-       "display": true
+       "p": "Is it different? If so, why?"
       },
       {
-       "p": "Is it different? If so, why? (iii) Does $\\chi$ affect the steady-state levels of capital $k^{*}$ and consumption $c^{*}$? If so, how? In particular, is it possible that $k^{*}$ exceeds the golden rule level of the capital stock? (iv) Suppose that the economy is initially at steady state. Then, at $t = 0$, the subsidy $\\chi$ is unexpectedly and permanently removed (i.e., we go from $\\chi > 0$ to $\\chi = 0)$. Graphically illustrate the transition paths of capital $k(t)$ and consumption $c(t)$, using the phase diagram for the continuous-time version of the model."
+       "p": "(iii) Does $\\chi$ affect the steady-state levels of capital $k^{*}$ and consumption $c^{*}$? If so, how? In particular, is it possible that $k^{*}$ exceeds the golden rule level of the capital stock?"
+      },
+      {
+       "p": "(iv) Suppose that the economy is initially at steady state. Then, at $t = 0$, the subsidy $\\chi$ is unexpectedly and permanently removed (i.e., we go from $\\chi > 0$ to $\\chi = 0$). Graphically illustrate the transition paths of capital $k(t)$ and consumption $c(t)$, using the phase diagram for the continuous-time version of the model."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "algo sumiu antes da pontuação",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4a-p5.png",
-       "w": 478,
-       "h": 411
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "b",
@@ -391,24 +296,14 @@
        "p": "Suppose instead that the subsidy is financed with a tax $\\tau_{t}^{\\ell}$ on household labor income; that is, the household budget constraint becomes"
       },
       {
-       "p": "$$c_{t} + k_{t+1} = (1 - \\tau_{t}^{\\ell})w_{t} + r_{t}k_{t} + (1 - \\delta )k_{t} + \\pi_{t}$$",
+       "p": "$$c_{t} + k_{t+1} = (1 - \\tau_{t}^{\\ell})w_{t} + r_{t}k_{t} + (1 - \\delta)k_{t} + \\pi_{t}$$",
        "display": true
       },
       {
        "p": "and total tax revenue at time $t$ is $\\tau_{t}^{\\ell}w_{t}$. Repeat exercises (i) - (iv) from a) for this alternative economy. [Hint: This should be much less work than item a).] Explain the differences (if any) compared to item a)."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4b-p5.png",
-       "w": 479,
-       "h": 130
-      }
-     ]
+     "tipo": "aberta"
     },
     {
      "id": "c",
@@ -417,42 +312,17 @@
        "p": "Finally suppose that the subsidy is financed instead with a tax $\\tau_{t}^{k}$ on household capital rental payments received from firms; that is, the household budget constraint becomes"
       },
       {
-       "p": "$$c_{t} + k_{t+1} = w_{t} + (1 - \\tau_{t}^{k})r_{t}k_{t} + (1 - \\delta )k_{t} + \\pi_{t}$$",
+       "p": "$$c_{t} + k_{t+1} = w_{t} + (1 - \\tau_{t}^{k})r_{t}k_{t} + (1 - \\delta)k_{t} + \\pi_{t}$$",
        "display": true
       },
       {
        "p": "and total tax revenue at time $t$ is $\\tau_{t}^{k}r_{t}k_{t}$. Repeat exercises (i) - (iv) from a) for this alternative economy. [Hint: This should be much less work than item a).] Explain the differences (if any) compared to item a)."
       }
      ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q4c-p6.png",
-       "w": 477,
-       "h": 130
-      }
-     ]
+     "tipo": "aberta"
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p4.png",
-     "w": 478,
-     "h": 239
-    },
-    {
-     "img": "e1/q4-p5.png",
-     "w": 478,
-     "h": 66
-    }
-   ],
    "fonte": 0
   }
  ]

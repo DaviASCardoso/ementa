@@ -1,0 +1,26 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "Jordan struggles with chronic back pain, which causes her disutility. In particular, she has a daily utility function over suffering, $s$, and dollars of consumption of everything else, $e$, of the form"
+   },
+   {
+    "p": "$$U(e,s) = (e - 10)^{\\frac{1}{4}}(10 - s)^{\\frac{1}{4}}.$$",
+    "display": true
+   },
+   {
+    "p": "This is called a Stone-Geary utility function, and it is used to model a situation where she will sacrifice everything to consume $e$ when $e < 10$."
+   },
+   {
+    "p": "She has a prescription for unlimited hydrocodone (a narcotic painkiller) from her doctor, and she is trying to decide how many milligrams (mg) of medication, $m$, to take each day. If she takes no medication, she suffers a lot: $s = 10$. Each mg of hydrocodone reduces her suffering level $s$ by 1."
+   }
+  ]
+ },
+ "1/3": {
+  "partes": [
+   {
+    "p": "[8 points] Suppose Jordan's daily budget is $Y$ dollars, and that the price of hydrocodone is $p_{m}$ dollars per mg. The price of a dollar of everything else is by definition 1 dollar. Assume $Y > 10$."
+   }
+  ]
+ }
+}

@@ -28,7 +28,10 @@
    "titulo": "Confidence Intervals",
    "partes": [
     {
-     "p": "(Adapted from BainIEngelhardt p. 384) Consider a random sample of size n from a normal distribution, Xi$N$ N(p, a2)."
+     "p": "(Adapted from Bain/Engelhardt p. 384)"
+    },
+    {
+     "p": "Consider a random sample of size $n$ from a normal distribution, $X_{i} \\sim N(\\mu, \\sigma^{2})$."
     }
    ],
    "itens": [
@@ -36,36 +39,27 @@
      "id": "1",
      "partes": [
       {
-       "p": "If it is known that a2 15, find a 90% confidence interval for p based on the estimate Z 25.3 with n 16."
-      },
-      {
-       "p": "Solution to 1: We just plug in the components to the formula for the first of the \"Important Cases\" from the lecture notes:"
-      },
-      {
-       "img": "e1/p2-1.png",
-       "w": 470,
-       "h": 139
-      },
-      {
-       "p": "with a 90% probability, or the confidence interval covers the truth with a 90% probability (since p isn't random-the CI is random)."
+       "p": "If it is known that $\\sigma^{2} = 15$, find a 90% confidence interval for $\\mu$ based on the estimate $\\bar{x} = 25.3$ with $n = 16$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q11-p2.png",
-       "w": 480,
-       "h": 251
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q11-p2.png",
-       "w": 466,
-       "h": 38
+       "p": "We just plug in the components to the formula for the first of the \"Important Cases\" from the lecture notes:"
+      },
+      {
+       "p": "$$[A(X), B(X)] = \\left[\\hat{\\theta} - \\sqrt{\\sigma_{\\hat{\\theta}}^{2}}\\,\\Phi^{-1}\\left(1 - \\frac{\\alpha}{2}\\right),\\; \\hat{\\theta} + \\sqrt{\\sigma_{\\hat{\\theta}}^{2}}\\,\\Phi^{-1}\\left(1 - \\frac{\\alpha}{2}\\right)\\right]$$",
+       "display": true
+      },
+      {
+       "p": "which gives, for $\\hat{\\theta} = \\bar{x} = 25.3$, $\\alpha = .10$, and $\\sigma_{\\hat{\\theta}}^{2} = \\frac{\\sigma^{2}}{n} = \\frac{15}{16}$"
+      },
+      {
+       "p": "$$\\begin{aligned} [A(X), B(X)] &= \\left[25.3 - \\sqrt{\\frac{15}{16}}\\Phi^{-1}(.95),\\; 25.3 + \\sqrt{\\frac{15}{16}}\\Phi^{-1}(.95)\\right] \\\\ \\mu &\\in [23.71, 26.89] \\end{aligned}$$",
+       "display": true
+      },
+      {
+       "p": "with a 90% probability, or the confidence interval covers the truth with a 90% probability (since $\\mu$ isn't random – the CI is random)."
       }
      ]
     },
@@ -73,41 +67,23 @@
      "id": "2",
      "partes": [
       {
-       "p": "Based on the information in (I),find a one-sided lower 90% confidence limit for p. Also, find a one-sided upper 90% confidence limit for p."
-      },
-      {
-       "p": "Solution to 2: A one-sided lower 90% confidence limit for p and one-sided upper 90% confidence limit for p correspond to a lower/upper bound on p. We just adjust the probabilities for the upper and lower limit so that the 10% error is on the lower or upper end: and for the upper end"
-      },
-      {
-       "img": "e1/p3-1.png",
-       "w": 479,
-       "h": 63
-      },
-      {
-       "p": "Notice that the one-sided confidence intervals are actually shorter from f than the two-sided version, because we've allocated all of the error to just one side."
+       "p": "Based on the information in (1), find a one-sided lower 90% confidence limit for $\\mu$. Also, find a one-sided upper 90% confidence limit for $\\mu$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q12-p2.png",
-       "w": 467,
-       "h": 110
-      },
-      {
-       "img": "e1/q12-p3.png",
-       "w": 489,
-       "h": 119
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q12-p2.png",
-       "w": 467,
-       "h": 39
+       "p": "A one-sided lower 90% confidence limit for $\\mu$ and one-sided upper 90% confidence limit for $\\mu$ correspond to a lower/upper bound on $\\mu$. We just adjust the probabilities for the upper and lower limit so that the 10% error is on the lower or upper end:"
+      },
+      {
+       "p": "and for the upper end"
+      },
+      {
+       "p": "$$\\begin{aligned} [A(X), B(X)] &= \\left[25.3 - \\sqrt{\\frac{15}{16}}\\Phi^{-1}(1),\\; 25.3 + \\sqrt{\\frac{15}{16}}\\Phi^{-1}(.90)\\right] \\\\ &= [-\\infty, 26.54]. \\end{aligned}$$",
+       "display": true
+      },
+      {
+       "p": "Notice that the one-sided confidence intervals are actually shorter from $\\bar{x}$ than the two-sided version, because we've allocated all of the error to just one side."
       }
      ]
     },
@@ -115,39 +91,27 @@
      "id": "3",
      "partes": [
       {
-       "p": "For $_{length 2?derive a formula for the sample size required to obtain an interval of specified length,A.If}$a $_{a2}$confidence interval of the form given by $_{=9, then what sample size is needed to achieve a 90\\% confidence interval of}$(f - V1(l- B) 5,f +W1(1- 2)31,"
-      },
-      {
-       "p": "Solution to 3: The length of a confidence interval is just the difference between the two bounds:"
-      },
-      {
-       "img": "e1/p3-2.png",
-       "w": 479,
-       "h": 125
-      },
-      {
-       "p": "If for $a2 9, a$ .lo, and X 2, we will need a sample size as follows:"
-      },
-      {
-       "p": "So, we'll need a sample of size 25 in order to achieve a confidence interval of length 2 (or slightly less)."
+       "p": "For a confidence interval of the form given by $(\\bar{x} - \\Phi^{-1}(1 - \\frac{\\alpha}{2})\\frac{\\sigma}{\\sqrt{n}},\\; \\bar{x} + \\Phi^{-1}(1 - \\frac{\\alpha}{2})\\frac{\\sigma}{\\sqrt{n}})$, derive a formula for the sample size required to obtain an interval of specified length, $\\lambda$. If $\\sigma^{2} = 9$, then what sample size is needed to achieve a 90% confidence interval of length 2?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q13-p3.png",
-       "w": 489,
-       "h": 345
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q13-p2.png",
-       "w": 466,
-       "h": 79
+       "p": "The length of a confidence interval is just the difference between the two bounds:"
+      },
+      {
+       "p": "$$\\begin{aligned} \\lambda &= \\left(\\bar{x} + \\Phi^{-1}(1 - \\tfrac{\\alpha}{2})\\frac{\\sigma}{\\sqrt{n}}\\right) - \\left(\\bar{x} - \\Phi^{-1}(1 - \\tfrac{\\alpha}{2})\\frac{\\sigma}{\\sqrt{n}}\\right) \\\\ &= \\Phi^{-1}(1 - \\tfrac{\\alpha}{2})\\frac{\\sigma}{\\sqrt{n}} + \\Phi^{-1}(1 - \\tfrac{\\alpha}{2})\\frac{\\sigma}{\\sqrt{n}} \\\\ \\lambda &= 2\\frac{\\sigma}{\\sqrt{n}}\\Phi^{-1}(1 - \\tfrac{\\alpha}{2}) \\\\ n &= \\left(\\frac{2\\sigma}{\\lambda}\\Phi^{-1}(1 - \\tfrac{\\alpha}{2})\\right)^{2} \\end{aligned}$$",
+       "display": true
+      },
+      {
+       "p": "If for $\\sigma^{2} = 9$, $\\alpha = .10$, and $\\lambda = 2$, we will need a sample size as follows:"
+      },
+      {
+       "p": "$$\\begin{aligned} n &= \\left\\lceil\\left(\\frac{2 \\cdot 3}{2}\\Phi^{-1}(.95)\\right)^{2}\\right\\rceil \\\\ n &= 25 \\end{aligned}$$",
+       "display": true
+      },
+      {
+       "p": "So, we'll need a sample of size 25 in order to achieve a confidence interval of length 2 (or slightly less)."
       }
      ]
     },
@@ -155,61 +119,68 @@
      "id": "4",
      "partes": [
       {
-       "p": "Suppose now that $a2$ is unknown. Find a 90% confidence interval for $p$ if 3 25.3 and $s2$ 15.21 with n 16."
+       "p": "4. Suppose now that $\\sigma^{2}$ is unknown. Find a 90% confidence interval for $\\mu$ if $\\bar{x} = 25.3$ and $s^{2} = 15.21$ with $n = 16$."
       },
+      {
+       "p": "5. Based on the data in (4), find a 99% confidence interval for $\\sigma^{2}$. Also show for $n = 14$. (Hint: What is the distribution of $\\frac{n \\cdot s^{2}}{\\sigma^{2}}$? It's a $\\chi_{n-1}^{2}$, which happens to approach the Normal distribution, but use the $\\chi_{n-1}^{2}$ for this part.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
       {
        "p": "Solution to 4: We now just need to use the formula which using the t distribution's quantiles:"
       },
       {
-       "img": "e1/p3-3.png",
-       "w": 479,
-       "h": 33
+       "p": "$$[A(X), B(X)] = \\left[\\hat{\\theta} - \\sqrt{\\hat{S}^{2}}\\,t_{n-1}^{-1}\\left(1 - \\frac{\\alpha}{2}\\right),\\; \\hat{\\theta} + \\sqrt{\\hat{S}^{2}}\\,t_{n-1}^{-1}\\left(1 - \\frac{\\alpha}{2}\\right)\\right]$$",
+       "display": true
       },
       {
-       "p": "where the n - 1 subscript denotes the degrees of freedom parameter of the t distribution. This gives, for 0 f 25.3, a! .lo, and $s2 15.21$ Note that this 90% confidence interval is slightly wider due to two factors: 15.21>15 and the t distribution's critical values (quantiles) are wider than the Normal's. Most of the difference here is due to the t distribution's wider critical values."
+       "p": "where the $n - 1$ subscript denotes the degrees of freedom parameter of the t distribution. This gives, for $\\hat{\\theta} = \\bar{x} = 25.3$, $\\alpha = .10$, and $s^{2} = 15.21$ (…)"
       },
       {
-       "img": "e1/p4-1.png",
-       "w": 487,
-       "h": 32
+       "p": "Note that this 90% confidence interval is slightly wider due to two factors: $15.21 > 15$ and the t distribution's critical values (quantiles) are wider than the Normal's. Most of the difference here is due to the t distribution's wider critical values."
       },
       {
-       "img": "e1/p4-2.png",
-       "w": 487,
-       "h": 38
+       "p": "Solution to 5: To construct this confidence interval, we're going to use case 4 from the \"Important Cases\" in the lecture notes. We want to find constants $a$ and $b$ such that"
       },
       {
-       "img": "e1/p4-3.png",
-       "w": 487,
-       "h": 107
+       "p": "$$P_{\\sigma^{2}}(a \\leq s^{2} \\leq b) = F_{s^{2}}(b) - F_{s^{2}}(a) = 0.995 - 0.005 = 0.99.$$",
+       "display": true
       },
       {
-       "img": "e1/p4-4.png",
-       "w": 487,
-       "h": 32
-      }
-     ],
-     "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q14-p3.png",
-       "w": 489,
-       "h": 144
+       "p": "In other words, we're going to focus on a symmetric confidence interval. We just need to find $a$ and $b$ such that"
       },
       {
-       "img": "e1/q14-p4.png",
-       "w": 497,
-       "h": 629
-      }
-     ],
-     "solucao": [
+       "p": "$$F_{s^{2}}(b) = 0.995 \\text{ and } F_{s^{2}}(a) = 0.005.$$",
+       "display": true
+      },
       {
-       "img": "g1/q14-p2.png",
-       "w": 467,
-       "h": 39
+       "p": "So, what is the distribution of $s^{2}$? Well, we know what the distribution of $\\frac{n \\cdot s^{2}}{\\sigma^{2}}$ is. It is a $\\chi_{n-1}^{2}$. So, what we need to do is go back to where we started and retransform the problem into things we know:"
+      },
+      {
+       "p": "$$P_{\\sigma^{2}}(a \\leq s^{2} \\leq b) = P_{\\sigma^{2}}\\left(\\frac{n \\cdot a}{\\sigma^{2}} \\leq \\frac{n \\cdot s^{2}}{\\sigma^{2}} \\leq \\frac{n \\cdot b}{\\sigma^{2}}\\right)$$",
+       "display": true
+      },
+      {
+       "p": "which gives us the critical values for $\\frac{n \\cdot s^{2}}{\\sigma^{2}}$. But what would then be a reasonable way to obtain the confidence interval for $s^{2}$? We can perform the following algebra:"
+      },
+      {
+       "p": "$$\\begin{aligned} F_{\\chi_{n-1}^{2}}^{-1}(.005) &= 4.60 = \\frac{n \\cdot a}{\\sigma^{2}} \\\\ F_{\\chi_{n-1}^{2}}^{-1}(.995) &= 32.80 = \\frac{n \\cdot b}{\\sigma^{2}} \\end{aligned}$$",
+       "display": true
+      },
+      {
+       "p": "This suggests the following:"
+      },
+      {
+       "p": "$$\\begin{aligned} P_{\\sigma^{2}}(a \\leq s^{2} \\leq b) &= P_{\\sigma^{2}}\\left(4.60 \\cdot \\frac{\\sigma^{2}}{n} \\leq s^{2} \\leq 32.80 \\cdot \\frac{\\sigma^{2}}{n}\\right) \\\\ &= P_{\\sigma^{2}}\\left(\\frac{n \\cdot s^{2}}{32.80} \\leq \\sigma^{2} \\leq \\frac{n \\cdot s^{2}}{4.60}\\right) \\\\ &= P_{\\sigma^{2}}\\left(\\frac{n}{32.80} \\cdot s^{2} \\leq \\sigma^{2} \\leq \\frac{n}{4.60} \\cdot s^{2}\\right) \\end{aligned}$$",
+       "display": true
+      },
+      {
+       "p": "which gives us the confidence interval of"
+      },
+      {
+       "p": "$$[A(X), B(X)] = [7.42, 52.89]$$",
+       "display": true
       }
      ]
     },
@@ -217,40 +188,7 @@
      "id": "6",
      "partes": [
       {
-       "p": "Now use the Normal approximation to get a 99% confidence interval for 02.Also show for n 14. Does your estimate make sense for n 16 and n 14? Explain."
-      },
-      {
-       "p": "Solution to 6: The Normal approximation for the 99% confidence interval for a2 $_{the confidence intervals from that approximation. If you remember from one of}$will involve just pretending that Xi-1is approximately Normal, and constructing"
-      },
-      {
-       "p": "our previous problem sets, X E t N(k, 2k). Using this fact, we simply construct the confidence intervals as before, but where we use the Normal approximation rather than the Xi-1as follows:"
-      },
-      {
-       "p": "which gives us the critical values for \\$. But what would then be a reasonable way to obtain the confidence interval for s2?We can perform the following algebra:"
-      },
-      {
-       "img": "e1/p5-1.png",
-       "w": 476,
-       "h": 63
-      },
-      {
-       "p": "This suggests the following:"
-      },
-      {
-       "img": "e1/p5-2.png",
-       "w": 476,
-       "h": 104
-      },
-      {
-       "p": "which gives us the confidence interval of"
-      },
-      {
-       "img": "e1/p5-3.png",
-       "w": 476,
-       "h": 29
-      },
-      {
-       "p": "which is very asymmetric, since 15.21 is the point estimate. Note the very wide right tail. In fact, if I had adjusted the numbers slightly, we would have ended up with a confidence interval which would have had a negative right tail, due to the poorness of the approximation. For n = 14, we get a confidence interval of [8.15,-1586.71 which makes no sense at all since the upper endpoint isn't greater than the lower endpoint, and it is negative,which is impossible for a sum of squares. However, for larger values of n, the approximation works much better."
+       "p": "Now use the Normal approximation to get a 99% confidence interval for $\\sigma^{2}$. Also show for $n = 14$. Does your estimate make sense for $n = 16$ and $n = 14$? Explain."
       }
      ],
      "contexto": [
@@ -284,37 +222,42 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q16-p5.png",
-       "w": 486,
-       "h": 551
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q16-p2.png",
-       "w": 467,
-       "h": 39
+       "p": "The Normal approximation for the 99% confidence interval for $\\sigma^{2}$ will involve just pretending that $\\chi_{n-1}^{2}$ is approximately Normal, and constructing the confidence intervals from that approximation. If you remember from one of our previous problem sets, $\\chi_{k}^{2} \\to N(k, 2k)$. Using this fact, we simply construct the confidence intervals as before, but where we use the Normal approximation rather than the $\\chi_{n-1}^{2}$ as follows:"
+      },
+      {
+       "p": "$$P_{\\sigma^{2}}(a \\leq s^{2} \\leq b) = P_{\\sigma^{2}}\\left(\\frac{n \\cdot a}{\\sigma^{2}} \\leq \\frac{n \\cdot s^{2}}{\\sigma^{2}} \\leq \\frac{n \\cdot b}{\\sigma^{2}}\\right)$$",
+       "display": true
+      },
+      {
+       "p": "which gives us the critical values for $\\frac{n \\cdot s^{2}}{\\sigma^{2}}$. But what would then be a reasonable way to obtain the confidence interval for $s^{2}$? We can perform the following algebra:"
+      },
+      {
+       "p": "$$\\begin{aligned} F^{-1}(.005; n-1, 2(n-1)) &= 0.892 = \\frac{n \\cdot a}{\\sigma^{2}} \\\\ F^{-1}(.995; n-1, 2(n-1)) &= 29.11 = \\frac{n \\cdot b}{\\sigma^{2}} \\end{aligned}$$",
+       "display": true
+      },
+      {
+       "p": "This suggests the following:"
+      },
+      {
+       "p": "$$\\begin{aligned} P_{\\sigma^{2}}(a \\leq s^{2} \\leq b) &= P_{\\sigma^{2}}\\left(0.892 \\cdot \\frac{\\sigma^{2}}{n} \\leq s^{2} \\leq 29.11 \\cdot \\frac{\\sigma^{2}}{n}\\right) \\\\ &= P_{\\sigma^{2}}\\left(\\frac{n \\cdot s^{2}}{29.11} \\leq \\sigma^{2} \\leq \\frac{n \\cdot s^{2}}{0.892}\\right) \\\\ &= P_{\\sigma^{2}}\\left(\\frac{n}{29.11} \\cdot s^{2} \\leq \\sigma^{2} \\leq \\frac{n}{0.892} \\cdot s^{2}\\right) \\end{aligned}$$",
+       "display": true
+      },
+      {
+       "p": "which gives us the confidence interval of"
+      },
+      {
+       "p": "$$[A(X), B(X)] = [8.36, 272.95]$$",
+       "display": true
+      },
+      {
+       "p": "which is very asymmetric, since 15.21 is the point estimate. Note the very wide right tail. In fact, if I had adjusted the numbers slightly, we would have ended up with a confidence interval which would have had a negative right tail, due to the poorness of the approximation. For $n = 14$, we get a confidence interval of $[8.15, -1586.7]$ which makes no sense at all since the upper endpoint isn't greater than the lower endpoint, and it is negative, which is impossible for a sum of squares. However, for larger values of $n$, the approximation works much better."
       }
      ]
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto",
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p2.png",
-     "w": 445,
-     "h": 72
-    }
-   ],
    "fonte": 0
   },
   {
@@ -322,7 +265,7 @@
    "titulo": "Empirical Example",
    "partes": [
     {
-     "p": "The following data are times (in hours) between failures of air conditioning equipment in a particular airplane: 74, 57, 48, 29, 502, 12, 70, 21, 29, 386, 59, 27, 153, 25, 232. Assume that the data are observed values of a random sample from an exponential distribution Xi $N$ EXP(0)."
+     "p": "The following data are times (in hours) between failures of air conditioning equipment in a particular airplane: 74, 57, 48, 29, 502, 12, 70, 21, 29, 386, 59, 27, 153, 25, 232. Assume that the data are observed values of a random sample from an exponential distribution $X_{i} \\sim EXP(\\theta)$."
     }
    ],
    "itens": [
@@ -330,54 +273,44 @@
      "id": "1",
      "partes": [
       {
-       "p": "Find a 90% confidence interval for the mean time between failures, 8."
-      },
-      {
-       "img": "e1/p6-1.png",
-       "w": 461,
-       "h": 388
-      },
-      {
-       "p": "5"
-      },
-      {
-       "img": "e1/p6-2.png",
-       "w": 461,
-       "h": 72
-      },
-      {
-       "img": "e1/p7-1.png",
-       "w": 456,
-       "h": 39
-      },
-      {
-       "img": "e1/p7-2.png",
-       "w": 456,
-       "h": 34
+       "p": "Find a 90% confidence interval for the mean time between failures, $\\theta$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q21-p6.png",
-       "w": 471,
-       "h": 624
-      },
-      {
-       "img": "e1/q21-p7.png",
-       "w": 466,
-       "h": 115
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q21-p2.png",
-       "w": 384,
-       "h": 24
+       "p": "Computing the sample mean of the observations, I get $\\bar{x} = 114.93$. The parameter $\\theta$ has a maximum likelihood estimator of $\\hat{\\theta} = \\frac{1}{N}\\sum_{i=1}^{N} x_{i}$, the sample mean. So, in order to construct a confidence interval for $\\theta$, we need to either use a Normal approximation ($n = 15$ isn't large, but it might be large enough – see the picture below from Question 1 from Problem Set #5 where we derived the finite sample distribution for $EXP(\\theta = 1)$),"
+      },
+      {
+       "img": "manual/p6-1-grafico.png"
+      },
+      {
+       "p": "or the finite sample distribution for the average of $n$ exponentially distribued random variables. I will try the Normal approximation for the mean first, as it is much easier and fully nonparametric (doesn't rely on any distribution, as long as a CLT applies to invoke asymptotic normality):"
+      },
+      {
+       "p": "$$[A(X), B(X)] = \\left[\\hat{\\theta} - \\sqrt{\\hat{S}^{2}}\\,t_{n-1}^{-1}\\left(1 - \\frac{\\alpha}{2}\\right),\\; \\hat{\\theta} + \\sqrt{\\hat{S}^{2}}\\,t_{n-1}^{-1}\\left(1 - \\frac{\\alpha}{2}\\right)\\right]$$",
+       "display": true
+      },
+      {
+       "p": "where $\\alpha = .10$, $\\hat{\\theta} = \\bar{x} = 114.93$, $s^{2} = 21{,}651$, and $n = 15$. The variance of $\\hat{\\theta}$ is $\\frac{\\sigma^{2}}{n}$."
+      },
+      {
+       "p": "$$\\begin{aligned} [A(X), B(X)] &= \\left[114.93 - \\sqrt{\\frac{21{,}651}{15}}\\,t_{n-1}^{-1}(.95),\\; 114.93 + \\sqrt{\\frac{21{,}651}{15}}\\,t_{n-1}^{-1}(.95)\\right] \\\\ &= [48.01, 181.85]. \\end{aligned}$$",
+       "display": true
+      },
+      {
+       "p": "(…)"
+      },
+      {
+       "p": "$$P_{\\theta}(a \\leq \\hat{\\theta} \\leq b) = P_{\\theta}\\left(\\frac{1}{n}F_{\\Gamma}^{-1}(.05; n, \\theta) \\leq \\hat{\\theta} \\leq \\frac{1}{n}F_{\\Gamma}^{-1}(.95; n, \\theta)\\right)$$",
+       "display": true
+      },
+      {
+       "p": "which, using some mathematical software, we can invert the bounds by defining a function $G(\\theta; \\alpha) = \\frac{1}{n}F_{\\Gamma}^{-1}(\\alpha; n, \\theta)$:"
+      },
+      {
+       "p": "$$P_{\\theta}(G^{-1}(\\hat{\\theta}; 0.95) \\leq \\theta \\leq G^{-1}(\\hat{\\theta}; 0.05)) = [78.77, 186.45].$$",
+       "display": true
       }
      ]
     },
@@ -386,26 +319,6 @@
      "partes": [
       {
        "p": "Find a one-sided lower 95% confidence limit for the 10th percentile of the distribution of time between failures."
-      },
-      {
-       "p": "Solution to 2: Now that we have confidence intervals for 8, this is incredibly easy when we recognize that the 10th percentile of the distribution of time between failures is just a function of 0. Also, fortunately, it is a monotonic function, making our exercise even easier. Using the equivariance to monotone transformations property of quantiles, we just apply the following:"
-      },
-      {
-       "img": "e1/p7-3.png",
-       "w": 456,
-       "h": 32
-      },
-      {
-       "p": "for monotone function F(.). We just need to make sure that the 10th percentile function for an exponential random variable is monotonic in Q:"
-      },
-      {
-       "p": "where $u$ is the quantile of the CDF. We get which is clearly monotonic in 8. So, we simply apply what we showed above that for a monotonic function, we just need to evaluate that function at the boundaries of the 90% confidence interval for 8:"
-      },
-      {
-       "p": "for the normal approximation of the confidence interval for 6 or"
-      },
-      {
-       "p": "for the exact result using the Gamma distribution's quantiles for the 90% confidence interval for 8. For the one-sided lower bounds or one-sided 95% confidence interval, we just evaulate FP1(.lO;6) at the lower endpoint of the confidence interval from part (1): FP1(.lO;6) [5.06,oo] E for the normal approximation of the one-sided confidence interval and"
       }
      ],
      "contexto": [
@@ -429,75 +342,71 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q22-p7.png",
-       "w": 466,
-       "h": 237
-      },
-      {
-       "img": "e1/q22-p8.png",
-       "w": 425,
-       "h": 237
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q22-p2.png",
-       "w": 465,
-       "h": 39
+       "p": "Now that we have confidence intervals for $\\theta$, this is incredibly easy when we recognize that the 10th percentile of the distribution of time between failures is just a function of $\\theta$. Also, fortunately, it is a monotonic function, making our exercise even easier. Using the equivariance to monotone transformations property of quantiles, we just apply the following:"
+      },
+      {
+       "p": "$$P_{\\theta}(a \\leq \\theta \\leq b) = P_{F(\\theta)}(F(a) \\leq \\theta \\leq F(b))$$",
+       "display": true
+      },
+      {
+       "p": "for monotone function $F(\\cdot)$. We just need to make sure that the 10th percentile function for an exponential random variable is monotonic in $\\theta$:"
+      },
+      {
+       "p": "$$F(x; \\theta) = 1 - e^{-\\frac{x}{\\theta}} = u$$",
+       "display": true
+      },
+      {
+       "p": "where $u$ is the quantile of the CDF. We get (…) which is clearly monotonic in $\\theta$. So, we simply apply what we showed above that for a monotonic function, we just need to evaluate that function at the boundaries of the 90% confidence interval for $\\theta$:"
+      },
+      {
+       "p": "$$F^{-1}(.10; \\theta) \\in [5.06, 19.16]$$",
+       "display": true
+      },
+      {
+       "p": "for the normal approximation of the confidence interval for $\\theta$ or"
+      },
+      {
+       "p": "$$F^{-1}(.10; \\theta) \\in [8.30, 19.65]$$",
+       "display": true
+      },
+      {
+       "p": "for the exact result using the Gamma distribution's quantiles for the 90% confidence interval for $\\theta$. For the one-sided lower bounds or one-sided 95% confidence interval, we just evaulate $F^{-1}(.10; \\theta)$ at the lower endpoint of the confidence interval from part (1):"
+      },
+      {
+       "p": "$$F^{-1}(.10; \\theta) \\in [5.06, \\infty]$$",
+       "display": true
+      },
+      {
+       "p": "for the normal approximation of the one-sided confidence interval and (…)"
       }
      ]
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p5.png",
-     "w": 480,
-     "h": 100
-    }
-   ],
    "fonte": 0
   },
   {
    "n": "3",
    "titulo": "Hypothesis Testing Concepts",
-   "partes": [],
+   "partes": [
+    {
+     "p": "Question Three: Hypothesis Testing Concepts"
+    }
+   ],
    "itens": [
     {
      "id": "1",
      "partes": [
       {
-       "p": "Define the null, Ho,and alternative, Ha,hypotheses and explain their difference."
-      },
-      {
-       "p": "Solution for 1: The null hypothesis is the hypothesis to be tested, while the alternative hypothesis is the collection of other possible assumptions about the population other than the null. In particular, the null hypothesis is what we assert and try to statistically disprove or reject by gathering evidence or data. Sometimes we're not actually trying to disprove it, but rather we are trying to not accept nearby alternatives. For example, if we were trying to prove that the average return to a year of education is 9%, but our confidence intervals go from -20% and 38%, then while we fail to reject the null that the returns are 9%, we have insufficient evidence to reject other local alternatives such as 15% or -5%."
+       "p": "Define the null, $H_{0}$, and alternative, $H_{a}$, hypotheses and explain their difference."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q31-p8.png",
-       "w": 466,
-       "h": 168
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q31-p3.png",
-       "w": 440,
-       "h": 25
+       "p": "The null hypothesis is the hypothesis to be tested, while the alternative hypothesis is the collection of other possible assumptions about the population other than the null. In particular, the null hypothesis is what we assert and try to statistically disprove or reject by gathering evidence or data. Sometimes we're not actually trying to disprove it, but rather we are trying to not accept nearby alternatives. For example, if we were trying to prove that the average return to a year of education is 9%, but our confidence intervals go from -20% and 38%, then while we fail to reject the null that the returns are 9%, we have insufficient evidence to reject other local alternatives such as 15% or -5%."
       }
      ]
     },
@@ -506,33 +415,19 @@
      "partes": [
       {
        "p": "Write down the definition of a Type I error twice: first, mathematically and second, in words."
-      },
-      {
-       "p": "a Solution to 2: From the notes, we have"
-      },
-      {
-       "p": "$a$ P(Type I Error) P(reject 1 Ho)"
-      },
-      {
-       "p": "or, in words, Type I error is the event that we reject the null hypothesis when it was actually true."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q32-p8.png",
-       "w": 465,
-       "h": 133
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q32-p3.png",
-       "w": 465,
-       "h": 38
+       "p": "From the notes, we have"
+      },
+      {
+       "p": "$$\\alpha = P(\\text{Type I Error}) = P(\\text{reject}|H_{0})$$",
+       "display": true
+      },
+      {
+       "p": "or, in words, Type I error is the event that we reject the null hypothesis when it was actually true."
       }
      ]
     },
@@ -540,36 +435,20 @@
      "id": "3",
      "partes": [
       {
-       "p": "Now, write down the definition of a Type I1 error twice: first, mathematically and second, in words. Solution to 3: From the notes, again, we have"
-      },
-      {
-       "p": ",8 P(Type I1 Error) P(fai1 to reject 1 Ha)"
-      },
-      {
-       "p": "or, in words, Type I1 error is the event that we fail to reject the null hypothesis when the alternative is actually true."
+       "p": "Now, write down the definition of a Type II error twice: first, mathematically and second, in words."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q33-p8.png",
-       "w": 465,
-       "h": 39
-      },
-      {
-       "img": "e1/q33-p9.png",
-       "w": 425,
-       "h": 91
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q33-p3.png",
-       "w": 465,
-       "h": 38
+       "p": "From the notes, again, we have"
+      },
+      {
+       "p": "$$\\beta = P(\\text{Type II Error}) = P(\\text{fail to reject}|H_{a})$$",
+       "display": true
+      },
+      {
+       "p": "or, in words, Type II error is the event that we fail to reject the null hypothesis when the alternative is actually true."
       }
      ]
     },
@@ -577,25 +456,14 @@
      "id": "4",
      "partes": [
       {
-       "p": "Fill in where \"Type I error\" and \"Type I1 error\" fall in the following box: Reject Ho Fail to Reject Ho HoTrue Type I Error Good! HaTrue Good! Type I1 Error"
+       "p": "Fill in where \"Type I error\" and \"Type II error\" fall in the following box:"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q34-p9.png",
-       "w": 399,
-       "h": 79
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q34-p3.png",
-       "w": 485,
-       "h": 92
+       "p": "$$\\begin{array}{l|c|c} & \\textit{Reject } H_{0} & \\textit{Fail to Reject } H_{0} \\\\ \\hline H_{0} \\textit{ True} & \\text{Type I Error} & \\textit{Good!} \\\\ H_{a} \\textit{ True} & \\textit{Good!} & \\text{Type II Error} \\end{array}$$",
+       "display": true
       }
      ]
     },
@@ -603,47 +471,22 @@
      "id": "5",
      "partes": [
       {
-       "p": "In the United States, the criminal justice system claims that a suspect is \"innocent until proven guilty.\" Write down the equivalent null hypothesis and its complementary alternative for this statement. Further, define the Type I and Type I1 errors. Give your answer in a box as above in (4)."
-      },
-      {
-       "p": "Solution to 5: The null hypothesis is Ho : the defendant is innocent. The alternative is Ha : the defendant is guilty. The Type I error would be to prove that an innocent defendant is guilty and send him or her to jail. The Type I1 error would be to fail to convict a guilty defendant."
-      },
-      {
-       "p": "Prove Guilty Fail to Prove Guilty Defendant Innocent Type I Error Good! is Defendant Guilty Good! Type I1 Error is"
+       "p": "In the United States, the criminal justice system claims that a suspect is \"innocent until proven guilty.\" Write down the equivalent null hypothesis and its complementary alternative for this statement. Further, define the Type I and Type II errors. Give your answer in a box as above in (4)."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q35-p9.png",
-       "w": 465,
-       "h": 193
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q35-p3.png",
-       "w": 465,
-       "h": 67
+       "p": "The null hypothesis is $H_{0}$: the defendant is innocent. The alternative is $H_{a}$: the defendant is guilty. The Type I error would be to prove that an innocent defendant is guilty and send him or her to jail. The Type II error would be to fail to convict a guilty defendant."
+      },
+      {
+       "p": "$$\\begin{array}{l|c|c} & \\textit{Prove Guilty} & \\textit{Fail to Prove Guilty} \\\\ \\hline \\textit{Defendant is Innocent} & \\text{Type I Error} & \\textit{Good!} \\\\ \\textit{Defendant is Guilty} & \\textit{Good!} & \\text{Type II Error} \\end{array}$$",
+       "display": true
       }
      ]
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q3-p8.png",
-     "w": 391,
-     "h": 31
-    }
-   ],
    "fonte": 0
   },
   {
@@ -651,28 +494,14 @@
    "titulo": "Power Curves",
    "partes": [
     {
-     "p": "Suppose that a sample of size one is taken from the PDF fy(y) = xe-:, with y > 0, for the purpose of testing Ho : X = lversusH1 : X > 1. The null hypothesis is rejected if y > 3.20."
+     "p": "Suppose that a sample of size one is taken from the PDF $f_{Y}(y) = \\frac{1}{\\lambda}e^{-\\frac{y}{\\lambda}}$, with $y > 0$, for the purpose of testing"
     },
     {
-     "p": "$4._{if we reject the null hypothesis in the event that}$Sketch what you think the power curve for the test $_{y}$\\$ Ho $_{[0.25,1.75].}$: X = 1versus $_{Inparticular, will it be}$X # 1 will look like"
+     "p": "$$H_{0}: \\lambda = 1 \\;\\textit{versus}\\; H_{1}: \\lambda > 1.$$",
+     "display": true
     },
     {
-     "p": "symmetric or skewed? Compute the probability of a Type I1 error if X 0.25 and 1.75 to corroborate your answer."
-    },
-    {
-     "p": "Solution to 4: If we reject for y outside of the interval then the Type [0.25,1.75], I1 error probability is F(1.75) - F(0.25). We should expect this to be skewed. since the exponential distribution is skewed. Prvype Error) II 0.8"
-    },
-    {
-     "p": "$0.6^{-}$"
-    },
-    {
-     "p": "$0.4^{-}$"
-    },
-    {
-     "p": "$0.2^{-}$"
-    },
-    {
-     "p": "0 2 4 6 0 X"
+     "p": "The null hypothesis is rejected if $y > 3.20$."
     }
    ],
    "itens": [
@@ -681,27 +510,12 @@
      "partes": [
       {
        "p": "Calculate the probability of committing a Type I error."
-      },
-      {
-       "p": "Solution to 1: The probability of committing a Type I error is P(rejectlHo) = 1- F(3.201X 1) 0.0408."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q41-p9.png",
-       "w": 469,
-       "h": 66
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q41-p3.png",
-       "w": 310,
-       "h": 24
+       "p": "The probability of committing a Type I error is $P(reject|H_{0}) = 1 - F(3.20|\\lambda = 1) = 0.0408$."
       }
      ]
     },
@@ -709,21 +523,10 @@
      "id": "2",
      "partes": [
       {
-       "p": "Calculate the probability of committing a Type I1 error when X 1, 9 , 2, q, 3, or 3.2. = 9,"
+       "p": "Calculate the probability of committing a Type II error when $\\lambda = 1, \\frac{4}{3}, \\frac{3}{2}, 2, \\frac{5}{2}, 3$, or $3.2$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q42-p9.png",
-       "w": 470,
-       "h": 24
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q42-p3.png",
@@ -736,10 +539,7 @@
      "id": "3",
      "partes": [
       {
-       "p": "Let the Type I1 error be represented by P. Plot the values of 1$- P$ from (2) against X and connect the dots. You just constructed the power curve for the test!"
-      },
-      {
-       "p": "Solution to 3: For this I'm just going to plot the curve:"
+       "p": "Let the Type II error be represented by $\\beta$. Plot the values of $1 - \\beta$ from (2) against $\\lambda$ and connect the dots. You just constructed the power curve for the test!"
       }
      ],
      "contexto": [
@@ -758,36 +558,14 @@
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q43-p10.png",
-       "w": 465,
-       "h": 66
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q43-p3.png",
-       "w": 466,
-       "h": 39
+       "p": "For this I'm just going to plot the curve: (gráfico no PDF original)"
       }
      ]
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q4-p9.png",
-     "w": 481,
-     "h": 107
-    }
-   ],
    "fonte": 0
   },
   {
@@ -803,54 +581,44 @@
      "id": "1",
      "partes": [
       {
-       "p": "Let p be the probability that a whale leaves the area after hearing the sounds of a killer whale. Test Ho : p = 0.40 versus HI : p > 0.40 at the $a =$ 0.05 level of significance. Can it be argued on the basis of these data that transmitting underwater predator sounds it an effective technique for clearing fishing waters of unwanted whales?"
+       "p": "Let $p$ be the probability that a whale leaves the area after hearing the sounds of a killer whale. Test $H_{0}: p = 0.40$ versus $H_{1}: p > 0.40$ at the $\\alpha = 0.05$ level of significance. Can it be argued on the basis of these data that transmitting underwater predator sounds it an effective technique for clearing fishing waters of unwanted whales?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "We just want to test whether $\\hat{p} = \\frac{24}{52}$ is significantly different from 0.40. We can do this two different ways, either by computation of a p-value or construction of a 95% confidence interval. We will first compute a p-value by looking at the likelihood of getting something at least as extreme under the null:"
       },
       {
-       "p": "Solution to 1: We just want to test whether p = is significantly different from 0.40. We can do this two different ways, either by computation of a p-value or construction of a 95% confidence interval. We will first compute a p-value by looking at the likelihood of getting something at least as extreme under the null:"
+       "p": "$$p - value = 1 - F(23|H_{0}) = 1 - \\sum_{i=0}^{52} 0.4^{i}(1 - 0.4)^{52-i} = 0.2213.$$",
+       "display": true
       },
       {
-       "p": "52 $p -$ value 1- F(231H0) 1- i=O 0.4'(1 - 0.4)~~-' 0.2213."
+       "p": "Since the p-value $0.2213 > 0.05$, we don't have sufficient evidence to reject the null. For $\\alpha = .25$ we could reject, but this is not a very stringent requirement."
       },
       {
-       "p": "Since the p-value 0.2213>0.05, we don't have sufficient evidence to reject the null. For $a$ .25 we could reject, but this is not a very stringent requirement. Using a binomial or normal approximation, we can construct a one-sided 95% confidence interval: if we use the Normal distribution's critical values, but"
+       "p": "Using a binomial or normal approximation, we can construct a one-sided 95% confidence interval: (…) if we use the Normal distribution's critical values, but"
       },
       {
-       "p": "t52-1 if we use the critical values, which produces a small, unqualitatively important difference. Thus, regardless of the approximation, our confidence interval covers the null hypothesis, so we fail to reject. The p-values for the null hypothesis using the Normal and t-distribution approximations are 0.1867 and 0.1888, respectively. So, we are unable to say whether the underwater transmission of killer whale sounds has any effect. Maybe we should keep experimenting. We at least know that it isn't a perfect problem solver, as two-sided 95% confidence intervals go basically all the way to 0.60:"
+       "p": "$$\\begin{aligned} p &\\in \\left[\\frac{24}{52} - 1.6753 \\cdot \\sqrt{\\frac{\\frac{24}{52}(1 - \\frac{24}{52})}{52}},\\; 1\\right] \\\\ p &\\in [0.3457, 1] \\end{aligned}$$",
+       "display": true
       },
       {
-       "img": "e1/p13-1.png",
-       "w": 470,
-       "h": 69
+       "p": "if we use the $t_{52-1}$ critical values, which produces a small, unqualitatively important difference. Thus, regardless of the approximation, our confidence interval covers the null hypothesis, so we fail to reject. The p-values for the null hypothesis using the Normal and t-distribution approximations are 0.1867 and 0.1888, respectively. So, we are unable to say whether the underwater transmission of killer whale sounds has any effect. Maybe we should keep experimenting. We at least know that it isn't a perfect problem solver, as two-sided 95% confidence intervals go basically all the way to 0.60:"
+      },
+      {
+       "p": "$$\\begin{aligned} p &\\in \\left[\\frac{24}{52} - 1.96 \\cdot \\sqrt{\\frac{\\frac{24}{52}(1 - \\frac{24}{52})}{52}},\\; \\frac{24}{52} + 1.96 \\cdot \\sqrt{\\frac{\\frac{24}{52}(1 - \\frac{24}{52})}{52}}\\right] \\\\ p &\\in [0.3260, 0.5970] \\end{aligned}$$",
+       "display": true
       },
       {
        "p": "if we use the Normal distribution's critical values, but"
       },
       {
-       "p": "t52-1 if we use the critical values."
-      }
-     ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q51-p12.png",
-       "w": 466,
-       "h": 238
+       "p": "$$\\begin{aligned} p &\\in \\left[\\frac{24}{52} - 2.01 \\cdot \\sqrt{\\frac{\\frac{24}{52}(1 - \\frac{24}{52})}{52}},\\; \\frac{24}{52} + 2.01 \\cdot \\sqrt{\\frac{\\frac{24}{52}(1 - \\frac{24}{52})}{52}}\\right] \\\\ p &\\in [0.3457, 0.6003] \\end{aligned}$$",
+       "display": true
       },
       {
-       "img": "e1/q51-p13.png",
-       "w": 480,
-       "h": 386
-      }
-     ],
-     "solucao": [
-      {
-       "img": "g1/q51-p4.png",
-       "w": 466,
-       "h": 68
+       "p": "if we use the $t_{52-1}$ critical values."
       }
      ]
     },
@@ -858,43 +626,18 @@
      "id": "2",
      "partes": [
       {
-       "p": "Calculate the p - values for these data. For what values of $a$ would Ho be rejected?"
-      },
-      {
-       "p": "Solution to 2: See part 1."
+       "p": "Calculate the $p$-values for these data. For what values of $\\alpha$ would $H_{0}$ be rejected?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q52-p13.png",
-       "w": 461,
-       "h": 50
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q52-p4.png",
-       "w": 461,
-       "h": 25
+       "p": "See part 1."
       }
      ]
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q5-p12.png",
-     "w": 480,
-     "h": 143
-    }
-   ],
    "fonte": 0
   },
   {
@@ -902,10 +645,7 @@
    "titulo": "One v. Two Sided Hypotheses; Sample Vari",
    "partes": [
     {
-     "p": "ance"
-    },
-    {
-     "p": "Suppose that babies' weights at birth are normally distributed with a mean of 7 pounds and a variance of 1pound. A particular obstetrician is suspected of giving pregnant women poor advice on diet, which would cause babies to be 1pound lighter on average (but still have the same variance). You observe the weight of n 10 babies that he delivers. The mean weight of the 10 babies is 6.2 pounds."
+     "p": "Suppose that babies' weights at birth are normally distributed with a mean of 7 pounds and a variance of 1 pound. A particular obstetrician is suspected of giving pregnant women poor advice on diet, which would cause babies to be 1 pound lighter on average (but still have the same variance). You observe the weight of $n = 10$ babies that he delivers. The mean weight of the 10 babies is 6.2 pounds."
     }
    ],
    "itens": [
@@ -913,42 +653,27 @@
      "id": "1",
      "partes": [
       {
-       "p": "Suppose you want to do a test of the null hypothesis that the obstetrician is not giving poor advice against the alternative hypothesis that he is. Write down the null hypothesis and alternative hypothesis mathematically. Solution to 1: The null hypothesis that we want to test is whether the babies that this particular obstetrician delivers are the same weight:"
+       "p": "Suppose you want to do a test of the null hypothesis that the obstetrician is not giving poor advice against the alternative hypothesis that he is. Write down the null hypothesis and alternative hypothesis mathematically."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The null hypothesis that we want to test is whether the babies that this particular obstetrician delivers are the same weight:"
+      },
+      {
+       "p": "$$\\begin{aligned} H_{0}: \\mu &\\geq 7 \\\\ H_{a}: \\mu &< 7 \\end{aligned}$$",
+       "display": true
       },
       {
        "p": "Alternatively, we might write that the hypotheses are that"
       },
       {
-       "img": "e1/p14-1.png",
-       "w": 456,
-       "h": 52
+       "p": "$$\\begin{aligned} H_{0}: \\mu &= 7 \\\\ H_{a}: \\mu &= 6 \\end{aligned}$$",
+       "display": true
       },
       {
-       "p": "which would be a simple alternative hypothesis (also implicitly assuming Normality of birth weights-i.e. the doctor's advice only shifts the mean down to 6)."
-      }
-     ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q61-p13.png",
-       "w": 465,
-       "h": 53
-      },
-      {
-       "img": "e1/q61-p14.png",
-       "w": 466,
-       "h": 211
-      }
-     ],
-     "solucao": [
-      {
-       "img": "g1/q61-p4.png",
-       "w": 465,
-       "h": 53
+       "p": "which would be a simple alternative hypothesis (also implicitly assuming Normality of birth weights – i.e. the doctor's advice only shifts the mean down to 6)."
       }
      ]
     },
@@ -957,38 +682,29 @@
      "partes": [
       {
        "p": "Perform a 5% test of the null hypothesis."
-      },
-      {
-       "p": "Solution to 2: The probability of deliver 10 babies with an average weight of 6.2 or less under the null hypothesis is"
-      },
-      {
-       "img": "e1/p14-2.png",
-       "w": 456,
-       "h": 55
-      },
-      {
-       "p": "This is our p-value, which is far less than the 5% level that we required to reject the null. Thus, we conclude that this doctor is giving bad advice. If we used a simple hypothesis, we would just invoke the Neyman-Pearson Lemma and compute the $\\mathbf{k}$statistic, which is just a likelihood ratio test. This just involves evaluating"
-      },
-      {
-       "p": "and comparing it to the X: distribution's critical values. When we perform the test, using the Normal distribution for the null and alternative, but with different means, we obtain -2logT(Z) 6.00 which is larger than the x?'s 5% critical value of 3.84. So, we reject the null hypothesis in favor of the simple alternative."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q62-p14.png",
-       "w": 466,
-       "h": 290
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q62-p4.png",
-       "w": 238,
-       "h": 24
+       "p": "The probability of deliver 10 babies with an average weight of 6.2 or less under the null hypothesis is"
+      },
+      {
+       "p": "$$\\Phi\\left(\\frac{6.2 - 7}{\\frac{1}{\\sqrt{10}}}\\right) = 0.0057.$$",
+       "display": true
+      },
+      {
+       "p": "This is our p-value, which is far less than the 5% level that we required to reject the null. Thus, we conclude that this doctor is giving bad advice."
+      },
+      {
+       "p": "If we used a simple hypothesis, we would just invoke the Neyman-Pearson Lemma and compute the $k$ statistic, which is just a likelihood ratio test. This just involves evaluating"
+      },
+      {
+       "p": "$$-2\\log T(\\bar{x}) = -2\\log\\left(\\frac{f_{0}(\\bar{x})}{f_{a}(\\bar{x})}\\right)$$",
+       "display": true
+      },
+      {
+       "p": "and comparing it to the $\\chi_{1}^{2}$ distribution's critical values. When we perform the test, using the Normal distribution for the null and alternative, but with different means, we obtain $-2\\log T(\\bar{x}) = 6.00$ which is larger than the $\\chi_{1}^{2}$'s 5% critical value of 3.84. So, we reject the null hypothesis in favor of the simple alternative."
       }
      ]
     },
@@ -996,42 +712,26 @@
      "id": "3",
      "partes": [
       {
-       "p": "Suppose you only knew the mean of the distribution of babies' weight, not the variance, but you did have an estimate of the variance, s2 1.5. Perform a 5% test of the null against the alternative."
-      },
-      {
-       "p": "Solution to 3: Again, we perform virtually the same test, but using the quantiles of the t distribution: Thus, at the 5% level, we still reach the same conclusion, although our p-value is much larger now (6 times larger). We can perform this test using the simple alternative, although it becomes a little bit more complicated, since the ration of t distributions won't necessarily have the nice properties of the likelihood ratio being except asymptotically. But, Xf, we use it anyway and compute the likelihood ratio:"
-      },
-      {
-       "img": "e1/p15-1.png",
-       "w": 457,
-       "h": 82
-      },
-      {
-       "p": "which is less than the 5% critical value for the X: distribution of 3.84, so, again we fail to reject the null in favor of the simple alternative (which shouldn't be very surprising, as the estimate of our variance is larger)."
+       "p": "Suppose you only knew the mean of the distribution of babies' weight, not the variance, but you did have an estimate of the variance, $s^{2} = 1.5$. Perform a 5% test of the null against the alternative."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto",
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q63-p14.png",
-       "w": 466,
-       "h": 95
-      },
-      {
-       "img": "e1/q63-p15.png",
-       "w": 467,
-       "h": 225
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q63-p4.png",
-       "w": 466,
-       "h": 53
+       "p": "Again, we perform virtually the same test, but using the quantiles of the t distribution: (…)"
+      },
+      {
+       "p": "Thus, at the 5% level, we still reach the same conclusion, although our p-value is much larger now (6 times larger)."
+      },
+      {
+       "p": "We can perform this test using the simple alternative, although it becomes a little bit more complicated, since the ration of t distributions won't necessarily have the nice properties of the likelihood ratio being $\\chi_{1}^{2}$, except asymptotically. But, we use it anyway and compute the likelihood ratio:"
+      },
+      {
+       "p": "$$-2\\log\\left(\\frac{t_{9}\\left(\\frac{6.2-7}{\\sqrt{1.5}/\\sqrt{10}}\\right)}{t_{9}\\left(\\frac{6.2-6}{\\sqrt{1.5}/\\sqrt{10}}\\right)}\\right) = 3.59$$",
+       "display": true
+      },
+      {
+       "p": "which is less than the 5% critical value for the $\\chi_{1}^{2}$ distribution of 3.84, so, again we fail to reject the null in favor of the simple alternative (which shouldn't be very surprising, as the estimate of our variance is larger)."
       }
      ]
     },
@@ -1040,42 +740,20 @@
      "partes": [
       {
        "p": "Would any of your answers above change if your alternative hypothesis was that the obstetrician was doing something to affect babies' weights, either negatively or positively? If so, adjust your p-values and conclusions accordingly."
-      },
-      {
-       "p": "Solution to 4: If we instead had the alternative that he was doing something abnormal which could be represented as Ha $: p$ # 7, we would then have to adjust our test. Instead, our p-values would all double (to account for the possibility that we could have gotten something as extreme in the upper tail that would've rejected that he's doing something to influence birthweights. In particular, our pvalues would have become 0.0114 for part (2), which would not have affected our conclusion, but or 0.688 for part (3), which would have affected our conclusion-we would have failed to reject. This problem does not lend itself well to a simple alternative. Would you define it as $\\mathbf{p}=$ 8? The non-simple alternative that $p$ # 7 seems more reasonable for two-sided testing."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "página escaneada"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q64-p15.png",
-       "w": 466,
-       "h": 225
-      }
-     ],
      "solucao": [
       {
-       "img": "g1/q64-p4.png",
-       "w": 465,
-       "h": 53
+       "p": "If we instead had the alternative that he was doing something abnormal which could be represented as $H_{a}: \\mu \\neq 7$, we would then have to adjust our test. Instead, our p-values would all double (to account for the possibility that we could have gotten something as extreme in the upper tail that would've rejected that he's doing something to influence birthweights. In particular, our p-values would have become 0.0114 for part (2), which would not have affected our conclusion, but or 0.688 for part (3), which would have affected our conclusion – we would have failed to reject."
+      },
+      {
+       "p": "This problem does not lend itself well to a simple alternative. Would you define it as $\\mu = 8$? The non-simple alternative that $\\mu \\neq 7$ seems more reasonable for two-sided testing."
       }
      ]
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "página escaneada"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q6-p13.png",
-     "w": 480,
-     "h": 135
-    }
-   ],
    "fonte": 0
   }
  ]

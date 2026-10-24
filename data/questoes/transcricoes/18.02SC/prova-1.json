@@ -1,0 +1,31 @@
+{
+ "4/": {
+  "partes": [
+   {
+    "p": "$$M = \\begin{pmatrix} 1 & 2 & 3 \\\\ 3 & 2 & 1 \\\\ 2 & -1 & -1 \\end{pmatrix} \\qquad M^{-1} = \\frac{1}{12}\\begin{pmatrix} 1 & 1 & 4 \\\\ a & 7 & -8 \\\\ b & -5 & 4 \\end{pmatrix}$$",
+    "display": true
+   }
+  ]
+ },
+ "4/b": {
+  "partes": [
+   {
+    "p": "(10) Find the numbers $a$ and $b$ in the formula for the matrix $M^{-1}$."
+   }
+  ]
+ },
+ "4/c": {
+  "partes": [
+   {
+    "p": "(10) Find the solution $\\vec{r} = \\langle x, y, z\\rangle$ to"
+   },
+   {
+    "p": "$$\\begin{aligned} x + 2y + 3z &= 0 \\\\ 3x + 2y + z &= t \\\\ 2x - y - z &= 3 \\end{aligned}$$",
+    "display": true
+   },
+   {
+    "p": "as a function of $t$."
+   }
+  ]
+ }
+}

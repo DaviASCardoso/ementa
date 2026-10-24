@@ -22,40 +22,24 @@
    "titulo": "Monetary and Fiscal Policy with Flexible Exchange Rates [40",
    "partes": [
     {
-     "p": "Points]"
-    },
-    {
      "p": "An open economy with flexible exchange rates is characterized by the following equations"
     },
     {
-     "p": "$$C_{t}=c_{0}+ c_{1}(Y_{t}- T_{t})$$",
+     "p": "$$\\begin{aligned} C_{t} &= c_{0} + c_{1}(Y_{t} - T_{t}) \\\\ I_{t} &= b_{0} + b_{1}Y_{t} - b_{2}i_{t} \\\\ X_{t} &= x_{1}Y_{t}^{*} - x_{2}\\varepsilon_{t} \\\\ \\frac{IM_{t}}{\\varepsilon_{t}} &= x_{0}Y_{t} \\\\ \\varepsilon_{t} &= E_{t}\\frac{P_{t}}{P_{t}^{*}} \\end{aligned}$$",
      "display": true
     },
     {
-     "p": "$$I_{t}=b_{0}+ b_{1}Y_{t}- b_{2}i_{t}$$",
+     "p": "where $C_{t}$ is consumption, $I_{t}$ is investment, $X_{t}$ is exports, $T_{t}$ is taxes, $IM_{t}$ is imports, $Y_{t}$ is output, and $Y_{t}^{*}$ is foreign output. Assume that $Y_{t}^{*}$ and $i_{t}^{*}$, foreign output and the foreign interest rate, are both exogenous and can be taken as fixed. All the parameters, $c_{0}, c_{1}, b_{1}, b_{2}, x_{0}, x_{1}$, and $x_{2}$ are positive with $x_{0} < c_{1} + b_{1} < 1$."
+    },
+    {
+     "p": "Equilibrium in the goods market is characterized by"
+    },
+    {
+     "p": "$$Y_{t} = C_{t} + I_{t} - \\frac{IM_{t}}{\\varepsilon_{t}} + X_{t} + G_{t}$$",
      "display": true
     },
     {
-     "p": "$$X_{t}=x_{1}Y_{t}^{*} - x_{2}\\varepsilon_{t}$$",
-     "display": true
-    },
-    {
-     "p": "$$\\frac{IM_{t}}{\\varepsilon_{t}} =x_{0}Y_{t}$$",
-     "display": true
-    },
-    {
-     "p": "$$\\varepsilon_{t}=E_{t}\\frac{P_{t}}{P_{t}^{*}}$$",
-     "display": true
-    },
-    {
-     "p": "where $C_{t}$is consumption, $I_{t}$is investment, $_{*}_{*} X_{t}$is exports, $T_{t}$is taxes, IM$_{t}$is imports, $Y_{t}$is output, and $Y_{t}^{*}$ is foreign output. Assume that $Y_{t}$and $i_{t}$, foreign output and the foreign interest rate, are both exogenous and can be taken as fixed. All the parameters, $c_{0}, c_{1}, b_{1}, b_{2}, x_{0}, x_{1}$, and $x_{2}$are positive with $x_{0}< c_{1}+ b_{1}<$ 1. Equilibrium in the goods market is characterized by"
-    },
-    {
-     "p": "$$Y_{t}= C_{t}+ I_{t}- \\frac{IM_{t}}{\\varepsilon_{t}} + X_{t}+ G_{t}$$",
-     "display": true
-    },
-    {
-     "p": "where $G_{t}$is government spending."
+     "p": "where $G_{t}$ is government spending."
     }
    ],
    "itens": [
@@ -275,17 +259,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula que o KaTeX não desenha",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 511,
-     "h": 311
-    }
-   ],
    "fonte": 0
   },
   {
@@ -393,20 +366,10 @@
      "id": "3",
      "partes": [
       {
-       "p": "[10 Points] If an economic shock, such as a disruption in energy supplies, leads to a reduction in $_{t*'}_{*}_{t*}_{t}$ output in the foreign country to $Y = Y - \\Delta Y$, what is the impact on domestic output $Y$? Why does foreign output matter for domestic output? If political leaders decided to change government spending by an amount that would just offset the impact of the drop in foreign output, how much would they need to change $G_{t}$, and in what direction?"
+       "p": "[10 Points] If an economic shock, such as a disruption in energy supplies, leads to a reduction in output in the foreign country to $Y_{t}^{*'} = Y^{*} - \\Delta Y_{t}^{*}$, what is the impact on domestic output $Y_{t}$? Why does foreign output matter for domestic output? If political leaders decided to change government spending by an amount that would just offset the impact of the drop in foreign output, how much would they need to change $G_{t}$, and in what direction?"
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula que o KaTeX não desenha"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q23-p3.png",
-       "w": 498,
-       "h": 74
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q23-p7.png",

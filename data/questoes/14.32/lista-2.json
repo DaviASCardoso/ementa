@@ -31,27 +31,19 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Consider E[Y| X] where X is a dummy variable that equals one with probability p and is zero otherwise. Prove that the CEF and the regression of Y on X are the same in this case. Do this by showing that for Bernoulli X:"
+     "p": "Consider $E[Y|X]$ where $X$ is a dummy variable that equals one with probability $p$ and is zero otherwise. Prove that the CEF and the regression of $Y$ on $X$ are the same in this case. Do this by showing that for Bernoulli $X$:"
     },
     {
-     "p": "\" = E(Y)-\\$E(X) = E[Y| X=0]"
+     "p": "$$\\alpha = E(Y) - \\beta E(X) = E[Y|X=0]$$",
+     "display": true
     },
     {
-     "p": "\\$ = COV(X,Y)/V(X) = (E[Y| X=1]-E[Y| X=0])"
+     "p": "$$\\beta = COV(X,Y)/V(X) = (E[Y|X=1] - E[Y|X=0])$$",
+     "display": true
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q1-p1.png",
-     "w": 441,
-     "h": 97
-    }
-   ],
    "fonte": 0
   },
   {

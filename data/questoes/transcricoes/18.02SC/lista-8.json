@@ -1,0 +1,37 @@
+{
+ "1/b": {
+  "partes": [
+   {
+    "p": "Show *without calculation* that for this field, $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r} \\neq 0$, if $C$ is any positively oriented right triangle with legs parallel to the axes and hypotenuse on $L$."
+   }
+  ]
+ },
+ "3/b": {
+  "partes": [
+   {
+    "p": "Show that for any path $C$ joining two points $P_{1}$ and $P_{2}$ the values of $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ depends only on the ratio $r_{2}/r_{1}$, where $r_{i}$ is the distance of $P_{i}$ to the origin."
+   }
+  ]
+ },
+ "4/a": {
+  "partes": [
+   {
+    "p": "Write the integral $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ in the form $\\displaystyle\\int_{C} M\\,dx + N\\,dy$."
+   }
+  ]
+ },
+ "4/b": {
+  "partes": [
+   {
+    "p": "By parametrizing the curve $C$ write the integral $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$ as an explicit definite integral in $t$. (*Do not evaluate.*)"
+   }
+  ]
+ },
+ "4/c": {
+  "partes": [
+   {
+    "p": "Use the Fundamental Theorem to (easily) compute $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$."
+   }
+  ]
+ }
+}

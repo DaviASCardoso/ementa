@@ -1,0 +1,23 @@
+{
+ "2/e": {
+  "partes": [
+   {
+    "p": "State the joint p.d.f. $f_{\\lambda,T}$ of $(\\lambda, T)$, and calculate the conditional probability $P(\\lambda = \\lambda_{S}|T = 10)$. How does this compare to the unconditional probability $P(\\lambda = \\lambda_{S}) = p_{S}$? Intuitively, how do you explain this difference?"
+   }
+  ]
+ },
+ "4/e": {
+  "partes": [
+   {
+    "p": "Use Chebyshev's Inequality"
+   },
+   {
+    "p": "$$P(|X - \\mathbb{E}[X]| > \\varepsilon) \\leq \\frac{\\text{Var}(X)}{\\varepsilon^{2}}$$",
+    "display": true
+   },
+   {
+    "p": "to give the largest value of $\\sigma^{2}$ which ensures $\\text{Var}(Y) \\leq 0.05$ without any further knowledge on the distribution of $X$. How does this compare to your answer in (c)? Hint: Start by rewriting the left-hand side Chebyshev's Inequality in terms of the c.d.f. of $X$."
+   }
+  ]
+ }
+}

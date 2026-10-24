@@ -1,0 +1,44 @@
+{
+ "1/": {
+  "partes": [
+   {
+    "p": "(Problem 1)"
+   }
+  ]
+ },
+ "1/a": {
+  "partes": [
+   {
+    "p": "Draw a picture of the region of integration of $\\displaystyle\\int_{0}^{1}\\int_{x}^{2x} dy\\,dx$."
+   }
+  ]
+ },
+ "2/a": {
+  "partes": [
+   {
+    "p": "Find the mass $M$ of the upper half of the annulus $1 < x^{2} + y^{2} < 9$ ($y \\geq 0$) with density $\\delta = \\dfrac{y}{x^{2} + y^{2}}$."
+   }
+  ]
+ },
+ "3/c": {
+  "partes": [
+   {
+    "p": "Let C be the curve $x = 1 + y^{3}(1 - y)^{3}$, $0 \\leq y \\leq 1$. Calculate $\\displaystyle\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r}$."
+   }
+  ]
+ },
+ "4/": {
+  "partes": [
+   {
+    "p": "(Problem 4)"
+   }
+  ]
+ },
+ "4/a": {
+  "partes": [
+   {
+    "p": "Express the work done by the force field $\\mathbf{F} = (5x + 3y)\\,\\hat{\\imath} + (1 + \\cos y)\\,\\hat{\\jmath}$ on a particle moving counterclockwise once around the unit circle centered at the origin in the form $\\displaystyle\\int_{a}^{b} f(t)\\,dt$. (Do not evaluate the integral; don't even simplify $f(t)$.)"
+   }
+  ]
+ }
+}

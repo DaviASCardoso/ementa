@@ -142,20 +142,19 @@
        "p": "Suppose now there is free trade. We will go through the steps to solve for equilibrium prices, consumption, factor allocations, and net exports from $A$ to $B$."
       },
       {
-       "p": "i) With free trade and the same technology and preferences in both coun tries, what does this tell us about good and factor prices in country $A$ compared to country $B$? ii) Using your answer in (i), solve for good and factor prices. iii) Do factor allocations and production change with free trade? How about consumption? iv) Calculate net exports from $A$ to $B$ for goods $x$ and $y$. Hint: calculate total income for each country, then solve for consumption using the good prices."
-      }
-     ],
-     "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
+       "p": "i) With free trade and the same technology and preferences in both countries, what does this tell us about good and factor prices in country $A$ compared to country $B$?"
+      },
       {
-       "img": "e1/q2b'-p2.png",
-       "w": 354,
-       "h": 164
+       "p": "ii) Using your answer in (i), solve for good and factor prices."
+      },
+      {
+       "p": "iii) Do factor allocations and production change with free trade? How about consumption?"
+      },
+      {
+       "p": "iv) Calculate net exports from $A$ to $B$ for goods $x$ and $y$. Hint: calculate total income for each country, then solve for consumption using the good prices."
       }
-     ]
+     ],
+     "tipo": "aberta"
     },
     {
      "id": "c'",

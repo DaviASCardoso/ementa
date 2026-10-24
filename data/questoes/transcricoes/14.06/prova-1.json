@@ -1,0 +1,16 @@
+{
+ "1A/c": {
+  "partes": [
+   {
+    "p": "Consider now the general equilibrium. Write down the system of two first-order differential equations that characterizes the dynamics of consumption and capital. (Remark: These two conditions are the Euler condition and the resource constraints, expressed in such a way that the system depends only on $c, k, \\dot{c}, \\dot{k}$, and the exogenous parameters, namely $\\tau, \\theta, \\alpha, \\delta$, and $\\rho$.) 10 points"
+   }
+  ]
+ },
+ "1B/c": {
+  "partes": [
+   {
+    "p": "Consider now the general equilibrium. Write down the system of two first-order difference equations that characterizes the dynamics of consumption and capital. (Remark: These two conditions are the Euler condition and the resource constraints, expressed in such a way that the system depends only on $c_{t}, c_{t+1}, k_{t}, k_{t+1}$ and the exogenous parameters, namely $\\tau, \\theta, \\alpha, \\delta$, and $\\beta$ or $\\rho$.) 10 points"
+   }
+  ]
+ }
+}

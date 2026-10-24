@@ -43,7 +43,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Let A $= ⎝2 c 1⎠, \\mathbf{x} = ⎝y⎠, 0 = ⎝0⎠, \\mathbf{A}^{-1} = ⎝\\cdot \\cdot \\cdot ⎠$."
+     "p": "Let $\\mathbf{A} = \\begin{pmatrix} 1 & 0 & c \\\\ 2 & c & 1 \\\\ 1 & -1 & 2 \\end{pmatrix}$, $\\mathbf{x} = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}$, $\\mathbf{0} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}$, $\\mathbf{A}^{-1} = \\begin{pmatrix} \\cdot & \\cdot & \\cdot \\\\ \\cdot & \\cdot & \\cdot \\\\ \\cdot & \\times & \\cdot \\end{pmatrix}$."
     }
    ],
    "itens": [
@@ -67,17 +67,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q2-p1.png",
-     "w": 381,
-     "h": 21
-    }
-   ],
    "fonte": 0
   },
   {
@@ -242,36 +231,17 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Let $\\omega = f (x, y, z)$ with the constraint $g(x, y, z) = 3$. At the point $P: (0, 0, 0)$, we have $\\nabla f =< 1, 1, 2 >$ and $\\nabla g =< 2,-1,-1 >$, Find the value at $P$ of the two quantities (show work): a) $\\frac{\\partial z}{\\partial x}$ b) $\\frac{\\partial \\omega}{\\partial x}$"
+     "p": "Let $\\omega = f(x, y, z)$ with the constraint $g(x, y, z) = 3$."
     },
     {
-     "p": "$$y y$$",
-     "display": true
+     "p": "At the point $P: (0, 0, 0)$, we have $\\nabla f = \\langle 1, 1, 2\\rangle$ and $\\nabla g = \\langle 2, -1, -1\\rangle$. Find the value at $P$ of the two quantities (show work):"
     },
     {
-     "img": "e1/p2-1.png",
-     "w": 347,
-     "h": 26
+     "p": "a) $\\left(\\dfrac{\\partial z}{\\partial x}\\right)_{y}$ $\\qquad$ b) $\\left(\\dfrac{\\partial \\omega}{\\partial x}\\right)_{y}$"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q8-p1.png",
-     "w": 478,
-     "h": 62
-    },
-    {
-     "img": "e1/q8-p2.png",
-     "w": 357,
-     "h": 34
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -286,22 +256,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate by changing the order of integration: $Z^{3} Z^{9} xe^{-y2}dydz$."
+     "p": "Evaluate by changing the order of integration: $\\displaystyle\\int_{0}^{3}\\int_{z^{3}}^{9} xe^{-y^{2}}\\,dy\\,dz$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q9-p2.png",
-     "w": 357,
-     "h": 26
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -316,21 +275,17 @@
    "titulo": "",
    "partes": [
     {
-     "p": "A plane region $R$ is bounded by four semicircles of radius 1. having ends at $(1, 1), (1, = 1), (-1, 1), (-1,-1)$ and centerpoints at $(2, 0), (-2, 0), (0, 2), (0,-2)$. Set up an iterated integral in polar coordinates for the moment of inertia of $R$ about the origin; take the density $\\delta = 1$. Supply integrand and limits, but do not evaluate the integral. Use symmetry to simplify the limits of integration."
+     "p": "A plane region $R$ is bounded by four semicircles of radius 1, having ends at $(1, 1), (1, -1), (-1, 1), (-1, -1)$ and centerpoints at $(2, 0), (-2, 0), (0, 2), (0, -2)$."
+    },
+    {
+     "p": "Set up an iterated integral in polar coordinates for the moment of inertia of $R$ about the origin; take the density $\\delta = 1$. Supply integrand and limits, but *do not evaluate* the integral."
+    },
+    {
+     "p": "Use symmetry to simplify the limits of integration."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q10-p2.png",
-     "w": 478,
-     "h": 89
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -380,25 +335,10 @@
    "partes": [
     {
      "p": "A solid hemisphere of radius 1 has its lower flat base on the $xy$-plane and center at the origin. Its density function is $\\delta = z$. Find the force of gravitational attraction it exerts on a unit mass at the origin."
-    },
-    {
-     "img": "e1/p2-2.png",
-     "w": 6,
-     "h": 6
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q12-p2.png",
-     "w": 478,
-     "h": 43
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -413,27 +353,11 @@
    "titulo": "",
    "partes": [
     {
-     "p": "Evaluate $(y - x)dz + (y - z)dz$ over the line segment $C$ from $P: (1, 1, 1)$ to $Q: (2, 4, 8)$."
-    },
-    {
-     "p": "$$C$$",
-     "display": true
+     "p": "Evaluate $\\displaystyle\\int_{C} (y - x)\\,dz + (y - z)\\,dz$ over the line segment $C$ from $P: (1, 1, 1)$ to $Q: (2, 4, 8)$."
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q13-p2.png",
-     "w": 470,
-     "h": 26
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -452,26 +376,20 @@
   {
    "n": "14",
    "titulo": "",
-   "partes": [],
+   "partes": [
+    {
+     "p": "(Problem 14)"
+    }
+   ],
    "itens": [
     {
      "id": "a",
      "partes": [
       {
-       "p": "Let F $= ay^{2}\\mathbf{i} + 2y(x + z)\\mathbf{j} + (by^{2} + z^{2})\\mathbf{k}$. For what values of the constants $a$ and $b$ will $F$ be conservative? Show work."
+       "p": "Let $\\mathbf{F} = ay^{2}\\,\\mathbf{i} + 2y(x + z)\\,\\mathbf{j} + (by^{2} + z^{2})\\,\\mathbf{k}$. For what values of the constants $a$ and $b$ will $\\mathbf{F}$ be conservative? Show work."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula empilhada junto do texto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q14a-p2.png",
-       "w": 477,
-       "h": 36
-      }
-     ],
      "solucao": [
       {
        "p": "$\\vec{F} =< ay^{2}, 2yx + 2yz, by^{2} + z^{2} >$"
@@ -504,29 +422,10 @@
      "id": "c",
      "partes": [
       {
-       "p": "Using these values, give the equation of a surface $S$ having the property: $\\mathbf{F} \\cdot dr = 0$ for any two"
-      },
-      {
-       "p": "$$P$$",
-       "display": true
-      },
-      {
-       "p": "points $P$ and $Q$ on the surface $S$."
+       "p": "Using these values, give the equation of a surface $S$ having the property: $\\displaystyle\\int_{P}^{Q} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ for any two points $P$ and $Q$ on the surface $S$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "fórmula curta solta",
-      "fórmula empilhada junto do texto",
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q14c-p2.png",
-       "w": 478,
-       "h": 35
-      }
-     ],
      "solucao": [
       {
        "p": "Any surface $S: xy^{2} + y^{2}z + \\frac{z^{3}}{3} = C$"
@@ -535,16 +434,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula empilhada junto do texto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q14-p2.png",
-     "w": 477,
-     "h": 18
-    }
-   ],
    "fonte": 0
   },
   {
@@ -599,43 +488,14 @@
    "titulo": "",
    "partes": [
     {
-     "p": "An $xz$-cylinder in 3-space is a surface given by an equation $f (x, z) = 0$ in $x$ and $z$ alone; its section by any plane $y = c$ perpendicular to the $y$-axis is always the same $xz$-curve."
+     "p": "An $xz$-cylinder in 3-space is a surface given by an equation $f(x, z) = 0$ in $x$ and $z$ alone; its section by any plane $y = c$ perpendicular to the $y$-axis is always the same $xz$-curve."
     },
     {
-     "img": "e1/p2-4.png",
-     "w": 6,
-     "h": 6
-    },
-    {
-     "p": "Show that if F $= z^{2}\\mathbf{i} + y^{2}\\mathbf{j} + xz\\mathbf{k}$ then $\\mathbf{F} \\cdot dr = 0$ for any simple closed curve $C$ lying on an $xz$-cylinder."
-    },
-    {
-     "p": "$$C$$",
-     "display": true
-    },
-    {
-     "p": "(Use Stokes' theorem)"
-    },
-    {
-     "img": "e1/p2-5.png",
-     "w": 376,
-     "h": 41
+     "p": "Show that if $\\mathbf{F} = z^{2}\\,\\mathbf{i} + y^{2}\\,\\mathbf{j} + xz\\,\\mathbf{k}$ then $\\displaystyle\\oint_{C} \\mathbf{F} \\cdot d\\mathbf{r} = 0$ for any simple closed curve $C$ lying on an $xz$-cylinder. (Use Stokes' theorem)"
     }
    ],
    "itens": [],
    "tipo": "aberta",
-   "revisar": [
-    "fórmula curta solta",
-    "fórmula empilhada junto do texto",
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q17-p2.png",
-     "w": 478,
-     "h": 112
-    }
-   ],
    "fonte": 0,
    "solucao": [
     {
@@ -658,7 +518,7 @@
    "titulo": "",
    "partes": [
     {
-     "p": "$Z e^{-x2}dx$ is not elementary but $I = Z^{\\infty} e^{-x2}dx$ can still be evaluated."
+     "p": "$\\displaystyle\\int e^{-x^{2}}\\,dx$ is not elementary but $I = \\displaystyle\\int_{0}^{\\infty} e^{-x^{2}}\\,dx$ can still be evaluated."
     }
    ],
    "itens": [
@@ -666,20 +526,10 @@
      "id": "a",
      "partes": [
       {
-       "p": "Evaluate the iterated integral $Z^{\\infty} Z^{\\infty} e^{-x2}e^{-0y2} dydx$, in terms of I. 0 0"
+       "p": "Evaluate the iterated integral $\\displaystyle\\int_{0}^{\\infty}\\int_{0}^{\\infty} e^{-x^{2}}e^{-y^{2}}\\,dy\\,dx$, in terms of $I$."
       }
      ],
      "tipo": "aberta",
-     "revisar": [
-      "pedaço de fórmula solto"
-     ],
-     "recorte": [
-      {
-       "img": "e1/q18a-p2.png",
-       "w": 318,
-       "h": 37
-      }
-     ],
      "solucao": [
       {
        "img": "g1/q18a-p4.png",
@@ -706,16 +556,6 @@
     }
    ],
    "tipo": "aberta",
-   "revisar": [
-    "pedaço de fórmula solto"
-   ],
-   "recorte": [
-    {
-     "img": "e1/q18-p2.png",
-     "w": 386,
-     "h": 26
-    }
-   ],
    "fonte": 0
   }
  ]
