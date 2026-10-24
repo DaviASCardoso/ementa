@@ -1,0 +1,759 @@
+{
+ "etapa": "14.06/lista-4",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-06-intermediate-macroeconomic-theory-spring-2004/3da70d25129f5983c169e414ba05c360_14_06problemset4.pdf",
+   "paginas": 3
+  }
+ ],
+ "avisos": [
+  "questão com muitos itens"
+ ],
+ "intro": [
+  {
+   "p": "Problem Set #4 Course 14.06 – Intermediate Applied Macroeconomics"
+  },
+  {
+   "p": "Distributed: April 7, 2004 Due: Thursday, April 14, 2004 [in class]"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Learning by Doing Model",
+   "partes": [
+    {
+     "p": "This question is based on the Learning by Doing model discussed in the class notes and Romer's textbook (page 120). The economy is described as follows:"
+    },
+    {
+     "p": "$1- 1\\theta$ $u(c_{t}) = \\frac{c_{t}}{1- 1}$"
+    },
+    {
+     "p": "$Y_{t} = K_{t}^{\\alpha}($h L$_{t}_{\\frac{\\theta}{t}})^{1-\\alpha}, k_{t+1} =(1-\\delta )k_{t} +i_{t,} h_{t} =$ bk$_{t}, b > 0, L_{t} = L \\forall t$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Describe how human capital, as given by $h_{t}$, accumulates in this economy. Do firms or individuals directly invest in improving the level of human capital? Or, is it simply a side effect of physical capital accumulation? Given your answer, do you believe that the social planner and decentralized competitive equilibrium will coincide in this model?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Describe how human capital, as given by $h_{t}$, accumulates in this economy. Do firms or individuals directly invest in improving the level of human capital? Or, is it simply a side effect of physical capital accumulation? Given your answer, do you believe that the social planner and decentralized competitive equilibrium will coincide in this model? (worth 2 points)"
+      },
+      {
+       "p": "The accumulation of human capital in this economy is simply a side effect of the accumulation of physical capital. The more physical capital per unit of labor, $k_{t}$, the more human capital per unit of labor. Thus, the more physical capital workers have, the more human capital they will accumulate by working with that capital. They learn more by working with more physical capital… i.e. learning by doing."
+      },
+      {
+       "p": "Since human capital is not the result of direct investment and is simply an externality from the creation of physical capital, we should not expect that the decentralized competitive equilibrium will coincide with the social planner problem. In fact, we should expect that an underinvestment in physical capital will occur in the decentralized competitive equilibrium."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Write out and solve the social planner's problem in this economy. [Assume that the discount factor is $\\beta \\in (0,1)]$"
+      }
+     ],
+     "tipo": "grupo",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1b-p1.png",
+       "w": 363,
+       "h": 32
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1b-p1.png",
+       "w": 384,
+       "h": 32
+      }
+     ]
+    },
+    {
+     "id": "ba",
+     "partes": [
+      {
+       "p": "What is the growth rate of consumption in the economy?"
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "What is the growth rate of consumption in the economy?"
+      }
+     ]
+    },
+    {
+     "id": "bb",
+     "partes": [
+      {
+       "p": "What is the optimal savings rate? (Assume a linear savings function as done in the class notes)"
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "What is the optimal savings rate? (Assume a linear savings function as done in the class notes)"
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 156,
+       "h": 19
+      },
+      {
+       "img": "g1/p2-2.png",
+       "w": 77,
+       "h": 20
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Solve for the competitive equilibrium in this economy. (Solve the model in the same fashion as done in the first half of the course. For simplicity, assume that the labor supply of individuals is exogenous and equal to 1. Moreover, assume that the borrowing constraint is never binding.)"
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "Solve for the competitive equilibrium in this economy. (Solve the model in the same fashion as done in the first half of the course. For simplicity, assume that the labor supply of individuals is exogenous and equal to 1. Moreover, assume that the borrowing constraint is never binding.) (worth 2 points)"
+      }
+     ]
+    },
+    {
+     "id": "ca",
+     "partes": [
+      {
+       "p": "Prove the household budget constraint can be written as:"
+      },
+      {
+       "p": "$$c_{t} + k_{t+1} +b_{t+1} = w h_{t}_{t} +(1+r_{t} -\\delta k_{t} +(1+ R_{t})b_{t}$$",
+       "display": true
+      },
+      {
+       "p": "where $b_{t}$ are government bonds that have return $R_{t}$"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "fórmula que o KaTeX não desenha",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1ca-p1.png",
+       "w": 262,
+       "h": 47
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1ca-p2.png",
+       "w": 283,
+       "h": 33
+      }
+     ]
+    },
+    {
+     "id": "cb",
+     "partes": [
+      {
+       "p": "What is the arbitrage condition between risk-free bonds and capital?"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1cb-p3.png",
+       "w": 312,
+       "h": 130
+      }
+     ]
+    },
+    {
+     "id": "cc",
+     "partes": [
+      {
+       "p": "Use the FOCs of the household to find the Euler condition."
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1cc-p3.png",
+       "w": 293,
+       "h": 130
+      }
+     ]
+    },
+    {
+     "id": "cd",
+     "partes": [
+      {
+       "p": "Using the firm's profit maximizing behavior, what is the equilibrium interest rate for physical capital and the equilibrium wage rate? (Remember, the firm takes human capital as exogenous)."
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1cd-p3.png",
+       "w": 315,
+       "h": 134
+      },
+      {
+       "img": "g1/q1cd-p4.png",
+       "w": 108,
+       "h": 33
+      }
+     ]
+    },
+    {
+     "id": "ce",
+     "partes": [
+      {
+       "p": "What is the growth rate of consumption?"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1ce-p4.png",
+       "w": 303,
+       "h": 94
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Compare the growth rate of the social planner's equilibrium from Part (b) to that of the decentralized equilibrium in Part (c). How are they different, and why?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Compare the growth rate of the social planner's equilibrium from Part B to that of the decentralized equilibrium in Part C. How are they different, and why? (worth 2 points)"
+      },
+      {
+       "p": "Clearly, the growth rate in the decentralized competitive equilibrium is lower. The reason for this is that competitive firms do not take into account that investing in more capital will have an externality in increasing the human capital stock. The social planner, however, takes into account this externality from physical capital when it chooses the optimal amount of physical capital. Hence, the decentralized equilibrium has a lower growth rate because firms underinvest in physical capital relative to a social planner."
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Now suppose that the government subsidizes the private cost of capital for firms. In particular, assume that the private cost of capital for firms is now given by $(1-\\tau )r_{t}$ and the government pays for this subsidy via lump sum taxes, $T$ , on individuals. Resolve for the competitive equilibrium of this economy."
+      }
+     ],
+     "tipo": "grupo",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1e-p2.png",
+       "w": 378,
+       "h": 57
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1e-p4.png",
+       "w": 393,
+       "h": 278
+      },
+      {
+       "img": "g1/q1e-p5.png",
+       "w": 95,
+       "h": 34
+      }
+     ]
+    },
+    {
+     "id": "ea",
+     "partes": [
+      {
+       "p": "What is the subsidy, $\\tau$ , the government should set such that the competitive equilibrium growth rate of consumption coincides with the social planner's outcome we found in Part (a)?"
+      }
+     ],
+     "pai": "e",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1ea-p5.png",
+       "w": 314,
+       "h": 79
+      }
+     ]
+    },
+    {
+     "id": "eb",
+     "partes": [
+      {
+       "p": "Why does the government want to subsidize investment in this model?"
+      }
+     ],
+     "pai": "e",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Why does the government want to subsidize investment in this model?"
+      },
+      {
+       "p": "The government wishes to subsidize investment in physical capital since firms undervalue the return to capital since they do not take into account the additional learning by doing that can be done with more physical capital."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "fórmula que o KaTeX não desenha",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p1.png",
+     "w": 405,
+     "h": 105
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Taxes in the Human Capital Model",
+   "partes": [
+    {
+     "p": "This question will add taxes to the human capital model discussed in the notes. Specifically, assume the following conditions for the economy:"
+    },
+    {
+     "p": "$1- 1\\theta$ $u(c_{t}) = \\frac{c_{t}}{1- 1}$"
+    },
+    {
+     "p": "$_{t+1}^{t}\\frac{Y = BK h L}{k = 1-\\delta k +i}(^{t\\alpha}()^{t}_{t}^{\\frac{\\theta}{t}})_{tk}^{1-\\beta ,B}^{>}^{0,Lt}^{=}^{L}^{\\forall t}$"
+    },
+    {
+     "p": "$h_{t+1} =(1-\\delta h_{t} +i_{t}^{h}$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "What must I assume about the variables $\\alpha$ and $\\beta$ in order to have constant returns to scale (CRS) for physical capital and human capital? Why do we want to make this type of assumption?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2a-p5.png",
+       "w": 371,
+       "h": 105
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Solve the social planner's problem in this economy."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "For the remainder of this question, assume CRS as done in Part (a)."
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "img": "g1/q2b-p5.png",
+       "w": 329,
+       "h": 94
+      },
+      {
+       "img": "g1/q2b-p6.png",
+       "w": 245,
+       "h": 161
+      }
+     ]
+    },
+    {
+     "id": "b1",
+     "partes": [
+      {
+       "p": "What is the optimal $k / h$ ratio?"
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2b1-p6.png",
+       "w": 197,
+       "h": 44
+      }
+     ]
+    },
+    {
+     "id": "b2",
+     "partes": [
+      {
+       "p": "What is the equilibrium growth rate of consumption?"
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2b2-p6.png",
+       "w": 266,
+       "h": 69
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Solve for the decentralized competitive equilibrium: Assume that labor supply is exogenous, and that the borrowing constraint is never binding."
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "Solve for the decentralized competitive equilibrium: Assume that labor supply is exogenous, and that the borrowing constraint is never binding. (worth 2 points)"
+      }
+     ]
+    },
+    {
+     "id": "c1",
+     "partes": [
+      {
+       "p": "Prove that the household budget constraint can be written as: $c_{t} +k_{t+1} +h_{t+1} +b_{t+1} = (1+ w_{t} -\\delta h_{t} +(1+ r_{t} -\\delta k_{t} +(1+ R_{t})b_{t}$"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q2c1-p2.png",
+       "w": 281,
+       "h": 33
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q2c1-p6.png",
+       "w": 303,
+       "h": 164
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "partes": [
+      {
+       "p": "What is the arbitrage condition of the economy?"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2c2-p6.png",
+       "w": 315,
+       "h": 67
+      },
+      {
+       "img": "g1/q2c2-p7.png",
+       "w": 235,
+       "h": 57
+      }
+     ]
+    },
+    {
+     "id": "c3",
+     "partes": [
+      {
+       "p": "Use the arbitrage condition to show that the household's budget constraint can be written as: $c_{t} +a_{t+1} =(1+R_{t})a_{t}$, where $a_{t} =b_{t} +k_{t} +h_{t}$, and use the FOCs to find the Euler Condition."
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q2c3-p2.png",
+       "w": 314,
+       "h": 47
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q2c3-p7.png",
+       "w": 316,
+       "h": 153
+      }
+     ]
+    },
+    {
+     "id": "c4",
+     "partes": [
+      {
+       "p": "Using the firm's profit maximizing behavior, what are the equilibrium interest rate and wage rate (for human capital)?"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2c4-p7.png",
+       "w": 296,
+       "h": 149
+      }
+     ]
+    },
+    {
+     "id": "c5",
+     "partes": [
+      {
+       "p": "What is the optimal $k / h$ ratio?"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2c5-p7.png",
+       "w": 317,
+       "h": 58
+      }
+     ]
+    },
+    {
+     "id": "c6",
+     "partes": [
+      {
+       "p": "What is the growth rate of consumption?"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "What is the growth rate of consumption?"
+      },
+      {
+       "p": "Using the arbitrage condition, and plugging in for $R_{t}$ in the individual's Euler Condition, we have:"
+      },
+      {
+       "img": "g1/p7-2.png",
+       "w": 111,
+       "h": 22
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Does the consumption growth in the competitive equilibrium from Part (c) match the social planner's optimal consumption growth rate you found in Part"
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "Does the consumption growth in the competitive equilibrium from Part C match the social planner's optimal consumption growth rate you found in Part B? Why are they different or the same? How is this model different than the learning by doing model in Question #1? (worth 1 point) Yes, the decentralized equilibrium matches the equilibrium we found in the social planner's problem. The two growth rates are the same because there are no externalities in this model (i.e. the private return to each capital equals the social return). Individual's explicitly take account of the return to investing in their human capital in this model whereas in question #1, human capital was produced as an externality from the use of physical capital and the private return to physical capital was less than the social return."
+      }
+     ]
+    },
+    {
+     "id": "db",
+     "partes": [
+      {
+       "p": "? Why are they different or the same? How is this model different than the learning by doing model in Question #1?"
+      }
+     ],
+     "pai": "d",
+     "tipo": "aberta"
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Assume the government decides to tax a firm's output in this economy. In particular, assume the government takes a fraction $\\tau^{y}$ of all firms' output. The government then balances its budget by returning the tax as a lump sum payment $T_{t}$ to individuals. Resolve for the decentralized equilibrium as done in Part (c)."
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "img": "g1/q2e-p8.png",
+       "w": 362,
+       "h": 262
+      }
+     ]
+    },
+    {
+     "id": "e1",
+     "partes": [
+      {
+       "p": "Is the optimal ratio of $k / h$ affected? Why or why not?."
+      }
+     ],
+     "pai": "e",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2e1-p8.png",
+       "w": 315,
+       "h": 70
+      }
+     ]
+    },
+    {
+     "id": "e2",
+     "partes": [
+      {
+       "p": "How does the equilibrium return to physical capital change?"
+      }
+     ],
+     "pai": "e",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2e2-p8.png",
+       "w": 311,
+       "h": 72
+      }
+     ]
+    },
+    {
+     "id": "e3",
+     "partes": [
+      {
+       "p": "How does the tax affect the growth of consumption?"
+      }
+     ],
+     "pai": "e",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2e3-p8.png",
+       "w": 315,
+       "h": 69
+      },
+      {
+       "img": "g1/q2e3-p9.png",
+       "w": 146,
+       "h": 30
+      }
+     ]
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "Now assume that the government taxes the private return of human capital for individuals. In other words, the private return is now given by $(1-\\tau^{h})w_{t}$ where $\\tau^{h} > 0$. The government returns the tax as a lump sum subsidy to individuals. Resolve for the decentralized equilibrium."
+      }
+     ],
+     "tipo": "grupo",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q2f-p3.png",
+       "w": 351,
+       "h": 61
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q2f-p9.png",
+       "w": 364,
+       "h": 179
+      }
+     ]
+    },
+    {
+     "id": "f1",
+     "partes": [
+      {
+       "p": "Is the optimal ratio of $k / h$ affected now? Why or why not?"
+      }
+     ],
+     "pai": "f",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2f1-p9.png",
+       "w": 317,
+       "h": 131
+      }
+     ]
+    },
+    {
+     "id": "f2",
+     "partes": [
+      {
+       "p": "How does the tax affect the equilibrium prices for capital and the growth of consumption?"
+      }
+     ],
+     "pai": "f",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2f2-p9.png",
+       "w": 317,
+       "h": 263
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "fórmula que o KaTeX não desenha",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p2.png",
+     "w": 390,
+     "h": 139
+    }
+   ],
+   "fonte": 0
+  }
+ ]
+}

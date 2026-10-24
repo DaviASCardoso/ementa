@@ -1,0 +1,249 @@
+{
+ "etapa": "18.02SC/lista-11",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/3ab56b603e45206b3b455dfe15791e44_MIT18_02SC_pset11.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Problem Set 11"
+  },
+  {
+   "p": "At MIT problem sets are referred to as 'psets'. You will see this term used occasionally within the problems sets. The 18.02 psets are split into two parts 'part I' and 'part II'. The part I are all taken from the supplementary problems. You will find a link to the supplementary problems and solutions on this website. The intention is that these help the student develop some fluency with concepts and techniques. Students have access to the solutions while they do the problems, so they can check their work or get a little help as they do the problems. After you finish the problems go back and redo the ones for which you needed help from the solutions. The part II problems are more involved. At MIT the students do not have access to the solutions while they work on the problems. They are encouraged to work together, but they have to write their solutions independently."
+  },
+  {
+   "p": "Part I (10 points)"
+  },
+  {
+   "p": "At MIT the underlined problems must be done and turned in for grading. The 'Others' are some suggested choices for more practice. A listing like '$§$1B$: \\frac{2,}{.}$ 5b, 10' means do the indicated problems from supplementary problems section 1B 1 3D vector fields. Surface integrals and flux. $§$6A: $\\frac{3;}{1,} 2$Others:;1, 2, 4. 4, 12 $§$6B:,3,6,8 Others:"
+  },
+  {
+   "p": "2 Divergence Theorem. $§$6C: 3, 5, 7a, 8; Others: 1a, 2, 6, 10, 11 Part II (24 points)"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "(4)",
+   "partes": [
+    {
+     "p": "Show that the average straight-line distance to a fixed point on the surface of a sphere of radius $a$ is $\\frac{4a}{3}$. Suggestion: take the sphere centered at the origin, and choose the 'north pole' as the fixed point. Then compute the average the straight-line distance to the north pole over all points on the surface of the sphere.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "We put the center of the sphere at the origin O as usual, and take the \"North Pole\" $N = (0, 0, a)$ as the fixed point. Let $P$ be an arbitrary point on the surface of the the sphere $S$, and $D$ the straight-line distance from $N$ to $\\frac{P.}{ON}$Then$\\frac{D i}{OP}$s the length of a side of the triangle $\\Delta$ ONP. The other two sides and both have length $a$ and the angle between them is $\\phi$ in spherical coordinates, so the Law of Cosines gives $D = a\\sqrt{2} (1 -$ cos $\\phi )^{\\frac{1}{2}}$. Then"
+    },
+    {
+     "img": "g1/p1-1.png",
+     "w": 389,
+     "h": 62
+    },
+    {
+     "p": "(As a check: $\\bar{D}$ clearly scales by $a$, i.e. $\\bar{D} = Ka$ for some constant $K. D = a$ when $\\phi = \\frac{\\pi}{3}$, or at 30 degrees North latitude. Since there are more points on $S$ below this latitude, we should have $K > 1$. But $D_{max} = 2a$ (when $P$ is the South Pole), so we also must have $K < 2$. So $K = \\frac{4}{3}$ is at least in the correct range."
+    }
+   ]
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(3 pts) $z$"
+    },
+    {
+     "img": "e1/p2-1.png",
+     "w": 473,
+     "h": 86
+    },
+    {
+     "p": "(Assume density = $1.) x$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Limits (in spherical coordinates): $\\rho$ from 0 to $a, \\phi$ from 0 to $\\phi_{0}, \\theta$ from 0 to $2\\pi$ . If $dm$ is located at $(x, y, z)$ then the force due to $dm$ is"
+    },
+    {
+     "img": "g1/p1-2.png",
+     "w": 492,
+     "h": 254
+    }
+   ]
+  },
+  {
+   "n": "3",
+   "titulo": "(7 2,3,2)",
+   "partes": [
+    {
+     "p": "Continuing with the solid in problem 2: take $a = \\sqrt{2}$ and the vertex angle to be $\\pi /2$ (so $\\phi_{0} = \\pi /4)$. Let F $= z\\mathbf{k}$. Warning: the calculations are a bit messy."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Let $T$ be the horizontal disk with boundary the intersection of the sphere and the cone. Compute directly the upward flux of F through $T$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q3a-p1.png",
+       "w": 272,
+       "h": 19
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Let $U$ be the boundary of the conical lower surface, $S$ the upper spherical cap of the solid. Use the divergence theorem and part (b) to compute the upward flux of F through $U$ and $S$. (You will need to be careful with signs.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q3b-p1.png",
+       "w": 336,
+       "h": 20
+      },
+      {
+       "img": "g1/q3b-p2.png",
+       "w": 496,
+       "h": 585
+      },
+      {
+       "img": "g1/q3b-p3.png",
+       "w": 495,
+       "h": 113
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Set up, but don't compute, the integral for the flux of F through $U$. Write the integral in cylindrical coordinates."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q3c-p3.png",
+       "w": 190,
+       "h": 21
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "(7 2,2,3)",
+   "partes": [
+    {
+     "p": "Let $f (x, y, z) = 1/\\rho$ ."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Compute F $= \\nabla f$ and show divF = 0."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Use $\\frac{\\partial \\rho}{\\partial x} = \\frac{x}{\\rho}$, etc. $\\Rightarrow \\frac{\\partial}{\\partial x}\\rho^{-1} = -\\frac{x}{\\rho^{3}}$ etc. $\\Rightarrow \\mathbf{F} = \\nabla f = - \\frac{x}{\\rho^{3}}, \\rho \\frac{y}{3}, \\rho \\frac{z}{3}$."
+      },
+      {
+       "p": "Now use $\\frac{\\partial}{\\partial x}x\\rho^{-3} = \\rho^{-3} - 3x^{2}\\rho^{-5}$ (and similarly for $\\frac{\\partial}{\\partial y}$ and $\\frac{\\partial}{\\partial z})$. $\\Rightarrow$ divF $= (-\\rho^{-3} + 3x^{2}\\rho^{-5}) + (-\\rho^{-3} + 3y^{2}\\rho^{-5}) + (-\\rho^{-3} + 3z^{2}\\rho^{-5}) = -3\\rho^{-3} + 3\\rho^{2} \\cdot \\rho^{-5} = 0$. QE"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the outward flux of F through the sphere of radius $a$ centered at the origin. Why does this not contradict the divergence theorem?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The divergence theorem does not apply because F is not defined at 0."
+      },
+      {
+       "p": "On $S: \\mathbf{n} = \\frac{\\langle x, y, z\\rangle}{a}, \\mathbf{F} = \\frac{\\langle -x. - y,-z\\rangle}{a^{3}}$."
+      },
+      {
+       "p": "$\\Rightarrow \\mathbf{F} \\cdot \\mathbf{n} = -\\frac{1}{a^{2}} \\Rightarrow$ flux $= -\\frac{1}{a^{2}}\\cdot$ area $= -\\frac{1}{a^{2}} 4\\pi a^{2} = -4\\pi$ ."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Imititating what we did with Green's theorem, use the extended divergence theorem to show that the flux of F through any closed surface surrounding the origin is $-4\\pi$ ."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Let $S$ be any closed surface around 0. Let $S_{1}$ be a small sphere centered at 0 and completely insided $S$. Use outward normals for both surfaces (and be careful with signs)."
+      },
+      {
+       "img": "g1/p3-2.png",
+       "w": 486,
+       "h": 115
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "(3)",
+   "partes": [
+    {
+     "p": "The Laplacian of a function of three variables is defined by $\\nabla^{2}f = f_{xx} + f_{yy} + f_{zz}$ Suppose that the simple closed surface $S$ is the iso-surface of some smooth function $f (x, y, z)$, that is, the set of points in 3-space satisfying $f (x, y, z) = c$ for some constant $c$. Use the Divergence Theorem to show that if $G$ is the interior of $S$, then"
+    },
+    {
+     "img": "e1/p3-1.png",
+     "w": 195,
+     "h": 29
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q5-p3.png",
+     "w": 399,
+     "h": 145
+    }
+   ]
+  }
+ ]
+}

@@ -52,14 +52,21 @@ SIMBOLOS = {
     '≽': r'\succeq ', '≼': r'\preceq ', '%': r'\%', '…': r'\ldots ', '⋯': r'\cdots ', '∥': r'\|', '≅': r'\cong ',
     '⊥': r'\perp ', '∧': r'\wedge ', '∨': r'\vee ', '¬': r'\neg ', '∖': r'\setminus ', 'ı': r'\imath ', 'ȷ': r'\jmath ',
     '′': "'", '←': r'\leftarrow ', '↔': r'\leftrightarrow ', '⇐': r'\Leftarrow ', '∪': r'\cup ', '⊇': r'\supseteq ',
-    '$': r'\$', '⊃': r'\supset ', '⇤': '*', '⇥': r'\times ', '⌊': r'\lfloor ', '⌋': r'\rfloor ', '⌈': r'\lceil ', '⌉': r'\rceil ', '°': r'^\circ ',
+    '$': r'\$', '⊃': r'\supset ', '⇤': '*', '⇥': r'\times ', '◦': r'\circ ', '⌊': r'\lfloor ', '⌋': r'\rfloor ', '⌈': r'\lceil ', '⌉': r'\rceil ', '°': r'^\circ ',
 }
 NEUTRO = re.compile(r'^[\s0-9.,;:=+\-−–()\[\]/<>≤≥×·|!\']*$')
+
+
+# PDFs gerados no Mac (Quartz) a partir de fontes do TeX trocam letras gregas por símbolos
+QUARTZ = {'↵': 'α', '✏': 'ε', '✓': 'θ', '⇡': 'π', '⌧': 'τ', '⇤': '*', '⇥': '×'}
+DELIM_PECAS = re.compile('[⎛-⎭]')  # pedaços de parênteses e colchetes grandes
 
 
 def latex(texto, fonte=''):
     if fonte == 'RAWMATH':
         return texto
+    if FONTE_MAT.match(fonte):
+        texto = ''.join(QUARTZ.get(c, c) for c in texto)
     if FONTE_SY.match(fonte):
         return ''.join(CMSY_ASCII.get(c, (GREGO[c] + ' ') if c in GREGO else SIMBOLOS.get(c, (r'\mathcal{' + c + '}') if c.isupper() else c)) for c in texto)
     return ''.join((GREGO[c] + ' ') if c in GREGO else SIMBOLOS.get(c, c) for c in texto)
@@ -229,6 +236,9 @@ def fileira(candidatos, colado):
             for t in grupo:
                 comum = min(s['bbox'].y1, t['bbox'].y1) - max(s['bbox'].y0, t['bbox'].y0)
                 sobrepoe = comum > 0.3 * min(s['bbox'].height, t['bbox'].height)
+                # expoente já montado (fração pequena) logo acima e ao lado de uma letra do numerador
+                if s['font'] == 'RAWMATH' and s['size'] < 0.85 * t['size'] and s['bbox'].y1 > t['bbox'].y0 - 0.3 * t['size'] and s['bbox'].y0 < t['bbox'].y1:
+                    sobrepoe = True
                 lado = s['x0'] >= t['x1'] - 1 or s['x1'] <= t['x0'] + 1
                 vizinho = lado and min(abs(s['x0'] - t['x1']), abs(t['x0'] - s['x1'])) < 0.5 * max(s['size'], t['size'])
                 if sobrepoe and vizinho:
@@ -486,6 +496,9 @@ def montar_linha(l):
         viz = [pecas[j][0] for j in (i - 1, i + 1) if 0 <= j < len(pecas)]
         viz2 = [pecas[j][0] for j in (i - 2, i + 2) if 0 <= j < len(pecas)]
         perto = 'mat' in viz or ('esp' in viz and 'mat' in viz2)
+        antes = ''.join(x[1] for x in pecas[:i] if x[0] != 'esp')
+        if re.search(r'(Problem|Question|Exercise)\s*$', antes, re.I):
+            perto = False  # o número da questão fica no texto
         if perto and NEUTRO.match(t):
             pecas[i] = ['mat', latex(t), 0, f]
         elif perto and FONTE_NEGRITO.search(f) and re.fullmatch(r'\s*[A-Za-z]\s*', t):
@@ -562,6 +575,7 @@ CAB_Q = [
 CAB_ITEM = re.compile(r'^\(?([a-h]|i{1,3}|iv|v|vi{1,3})\)\s*(.*)$|^([a-h])\.\s+(.*)$')
 CAB_ITEM_NUM = re.compile(r'^(\d{1,2})[.)]\s+(.*)$')
 CAB_OPCAO = re.compile(r'^\(?([A-E])[.)]\s+(.*)$')
+CAB_SUBSECAO = re.compile(r'^(?:Part\s*\(?([a-zA-Z]|\d+)\)?|(\d+\.\d+))\s*[:.]?\s+([A-Z].{2,100})$')
 CAB_SECAO = re.compile(r'^(?:Part\s+)?([A-H])[.):]\s+(.+?)\s*[\[(]\s*\d+\s*(?:points?|pts?)\s*[\])]\s*$', re.I)
 VF = re.compile(r'true["”’\']?\s*,?\s*(or\s*)?["“‘\']?false|true or false|verdadeiro ou falso|false,?\s*or\s*uncertain', re.I)
 SOLUCAO = re.compile(r'\b(Solution|Answer|Soluç[ãa]o|Resposta)\s*:', re.I)
@@ -576,7 +590,7 @@ def cabecalho_questao(l, txt, estilo=None):
             destaque = l['negrito'] or l['tam'] > 1.1 * l.get('corpo', l['tam'])
             if i == 1 and not m.group(2) and not destaque:
                 continue  # "1. (5 points)" sem título e sem destaque é item, não questão
-            if i == 3 and re.match(r'^\d+[.)]?\s+(\$|[a-z])', txt) and not l['negrito']:
+            if i == 3 and re.match(r'^\d+[.)]?\s+(\$|[a-z])', txt) and not l['negrito'] and not re.match(r'^\d+[.)]?\s+\(?[a-h]\)', txt):
                 continue
             if i == 3 and re.match(r'^\d+\s', txt) and not (l['negrito'] or l['tam'] > 1.1 * l.get('corpo', l['tam'])):
                 continue
@@ -601,7 +615,7 @@ def regioes_para_recortar(pagina, linhas, escaneada, corpo, falhas):
             regioes.append(r)
     desenhos = [d['rect'] for d in pagina.get_drawings()]
     for l in linhas:
-        if any(FONTE_EXTENSIVEL.match(s['font']) for s in l['spans']):
+        if any(FONTE_EXTENSIVEL.match(s['font']) or DELIM_PECAS.search(s['text']) for s in l['spans']):
             regioes.append(pymupdf.Rect(l['rect']))
     # figura vetorial (gráfico): vários traços agrupados numa área grande
     figuras = []
@@ -770,7 +784,8 @@ def transcrever(caminho, pasta_img):
     for l in todas:
         if not l.get('img') and l.get('borda'):
             vezes.setdefault(norm(l['txt']), set()).add(l['pagina'])
-    todas = [l for l in todas if l.get('img') or not l.get('borda') or len(vezes.get(norm(l['txt']), ())) < 2]
+    cab = lambda t: any(rx.match(POR_EXTENSO.sub(lambda m: m.group(1) + EXTENSO[m.group(2).lower()], t)) for rx in CAB_Q[:3])
+    todas = [l for l in todas if l.get('img') or not l.get('borda') or len(vezes.get(norm(l['txt']), ())) < 2 or cab(l['txt'])]
     todas.sort(key=lambda x: (x['pagina'], x['y0']))
 
     xs = [round(l['x0']) for l in todas if not l.get('img')]
@@ -836,7 +851,7 @@ def transcrever(caminho, pasta_img):
         if x.get('img'):
             r = x['rect']
             nome = f"{x['id']}.png"
-            pix = doc[x['pagina']].get_pixmap(clip=pymupdf.Rect(r.x0 - 3, r.y0 - 3, r.x1 + 3, r.y1 + 3), dpi=200)
+            pix = doc[x['pagina']].get_pixmap(clip=pymupdf.Rect(r.x0 - 3, r.y0 - 3, r.x1 + 3, r.y1 + 3), dpi=150)
             pix.save(os.path.join(pasta_img, nome))
             alvo.setdefault(lista, []).append({'img': nome, 'w': round(r.width), 'h': round(r.height)})
             if not em_solucao:
@@ -876,7 +891,8 @@ def transcrever(caminho, pasta_img):
             if corrido:
                 mi = CAB_ITEM.match(titulo)
                 if mi:  # "1. (a) ..." : o primeiro item vem na mesma linha
-                    item = {'id': mi.group(1) or mi.group(3), 'partes': [{'p': mi.group(2) or mi.group(4)}]}
+                    resto = mi.group(2) or mi.group(4)
+                    item = {'id': mi.group(1) or mi.group(3), 'partes': [{'p': resto}] if resto else []}
                     q['itens'].append(item)
                     anota(item, x)
                     ult_base = x['base']
@@ -912,7 +928,7 @@ def transcrever(caminho, pasta_img):
                 pai = q['_pilha'][irma][3]
             else:
                 pilha = [p for p in q['_pilha'] if p[0] < x['x0'] - 3]
-                pai = pilha[-1][1] if pilha else (secao if secao and idi.isdigit() else None)
+                pai = pilha[-1][1] if pilha else secao
         cheio = lambda i: (pai or '') + i
         # dentro de uma solução, letra que já existe no grupo é a solução daquele item, não um item novo
         if idi and em_solucao and any(it['id'] == cheio(idi) for it in q['itens']):
@@ -966,6 +982,16 @@ def transcrever(caminho, pasta_img):
             ult_base = None
         else:
             ms = CAB_SECAO.match(txt) if q and not em_solucao else None
+            sub = CAB_SUBSECAO.match(txt) if q and not em_solucao and not ms else None
+            if sub and (sub.group(1) or x['negrito'] or x['tam'] > 1.05 * x['corpo']):
+                # subseção: "1.2 Shared Shock..." ou "Part (b) The Effects of..."
+                secao = sub.group(1) or sub.group(2)
+                item = {'id': secao, 'partes': [{'p': sub.group(3).strip()}], '_secao': True, '_x': x['x0']}
+                q['itens'].append(item)
+                q['_pilha'] = [p for p in q.get('_pilha', []) if p[0] < x['x0'] - 3] + [(x['x0'], secao, secao, None, 'secao')]
+                anota(item, x)
+                ult_base = x['base']
+                continue
             if ms:
                 secao = ms.group(1).upper()
                 item = {'id': secao, 'partes': [{'p': ms.group(2).strip()}], '_secao': True, '_x': x['x0']}
@@ -1036,7 +1062,7 @@ def transcrever(caminho, pasta_img):
         for np, r in sorted(por_pagina.items()):
             r = pymupdf.Rect(r.x0 - 4, r.y0 - 4, r.x1 + 6, r.y1 + 4) & doc[np].rect
             nome = f'{prefixo}-p{np + 1}.png'
-            doc[np].get_pixmap(clip=r, dpi=170).save(os.path.join(pasta_img, nome))
+            doc[np].get_pixmap(clip=r, dpi=130).save(os.path.join(pasta_img, nome))
             out.append({'img': nome, 'w': round(r.width), 'h': round(r.height)})
         return out
 
@@ -1058,6 +1084,10 @@ def transcrever(caminho, pasta_img):
         for k in ('reg', 'apertada', 'escaneada', 'solta', 'katex'):
             alvo.pop(k, None)
 
+    for a in [intro] + questoes + [it for q in questoes for it in q['itens']]:
+        for chave in ('partes', 'solucao', 'contexto'):
+            if chave in a:
+                a[chave] = [p for p in a[chave] if 'img' in p or (p.get('p') or '').strip()]
     validar_katex([intro] + questoes + [it for q in questoes for it in q['itens']])
     for q in questoes:
         cab = q['titulo'] + ' ' + ' '.join(p.get('p', '') for p in q['partes'][:2])
@@ -1071,7 +1101,7 @@ def transcrever(caminho, pasta_img):
             it['tipo'] = 'alternativa' if it.get('opcoes') else ('vf' if vf_it else 'aberta')
             if any(o.get('pai') == it['id'] for o in q['itens']):
                 it['tipo'] = 'grupo'
-            if it.pop('_secao', False):
+            if it.pop('_secao', False) and any(o.get('pai') == it['id'] for o in q['itens']):
                 it['tipo'] = 'grupo'
             if not it.get('opcoes'):
                 it.pop('opcoes', None)

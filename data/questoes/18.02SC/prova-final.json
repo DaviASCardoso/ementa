@@ -1,0 +1,1021 @@
+{
+ "etapa": "18.02SC/prova-final",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/8048c12b339cefb160f8540aa3507fc7_MIT18_02SC_finalexam.pdf",
+   "paginas": 5
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Final Exam"
+  },
+  {
+   "p": "No books, notes or calculators. 15 problems, 250 points."
+  },
+  {
+   "p": "Useful formula: cos$^{2}(\\theta ) = \\frac{1}{2}(1 +$ cos(2$\\theta ))$"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "(20 points)",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(15 pts.) Find the equation in the form $Ax + By + Cz = D$ of the plane $\\mathcal{P}$ which contains the line $L$ given by $x = 1 -t, y = 1 + 2t, z = 2 - 3t$ and the point (- 1, 1, 2)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1a-p1.png",
+       "w": 420,
+       "h": 171
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5 pts.) Let $\\mathcal{Q}$ be the plane $2x + y + z = 4$. Find the component of a unit normal vector for $\\mathcal{Q}$ projected on a unit direction vector for the line $L$ of part(a)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1b-p1.png",
+       "w": 505,
+       "h": 207
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "(15 points)",
+   "partes": [
+    {
+     "p": "Let $L$ denote the line which passes through (0,0,1) and is parallel to the line in the xy-plane given by $y = 2x$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(5 pts.) Sketch $L$ and give its equation in vector-parametric form."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2a-p1.png",
+       "w": 209,
+       "h": 89
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5 pts.) Let $\\mathcal{P}$ be the plane which passes through (0,0,1) and is perpendicular to the line $L$ of part(a). Sketch in $\\mathcal{P}$ (above) and give its equation in point-normal form."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "n = normal vector for $\\mathcal{P} = \\langle 1, 2, 0\\rangle$ since $L \\perp \\mathcal{P}$. $P_{0} = (0, 0, 1) \\Rightarrow 1(x - 0) + 2(y - 0) + 0(z - 1)$ or $x + 2y = 0$."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "(5 pts.) Suppose that the point $P = (0, 0, 1)$ lies on $L$. Write down the method or formula you would use to find the point $P^{*}$ which is: (i) on $L$; (ii) the same distance away from the point (0,0,1) as $P$; and is (iii) on the other side of $\\mathcal{P}$ from $P$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$P$ on $L \\Rightarrow P = (t, 2t, 1)$ for some $t = 0$ (part (a)) $P^{*} = (-t,-2t, 1)$ since then dist($P_{0}, P) =$ dist($P_{0}, P^{*}) = |t|\\sqrt{5.}$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "(20 points)",
+   "partes": [
+    {
+     "img": "e1/p1-1.png",
+     "w": 255,
+     "h": 41
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(5 pts.) Let $a = 2$: show that $| A_{2} | = 0$"
+      },
+      {
+       "img": "e1/p1-2.png",
+       "w": 308,
+       "h": 41
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q3a-p1.png",
+       "w": 390,
+       "h": 48
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(7 pts.) Find the line of solutions to $A_{2} ⎣ y ⎦ = ⎣ 0 ⎦$"
+      },
+      {
+       "img": "e1/p1-3.png",
+       "w": 408,
+       "h": 16
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q3b-p1.png",
+       "w": 418,
+       "h": 71
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q3b-p1.png",
+       "w": 442,
+       "h": 72
+      },
+      {
+       "img": "g1/q3b-p2.png",
+       "w": 298,
+       "h": 49
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "(8 pts.) Suppose now that $a = 1$, and that A$_{1}^{-1} = ⎣ -3 p 5 ⎦$. Find $p$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q3c-p1.png",
+       "w": 418,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q3c-p2.png",
+       "w": 466,
+       "h": 118
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "(10 points)",
+   "partes": [
+    {
+     "p": "Let $\\mathbf{r}(t) = \\langle$ cos($e^{t})$, sin($e^{t}), e^{t}\\rangle$ ."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(5 pts.) Compute and simplify the unit tangent vector $\\mathbf{T}(t) = \\frac{\\mathbf{r}'(t)}{| \\mathbf{r}'(t) |}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\mathbf{r}'(t) = \\langle -$ sin(e$^{t}$)e$^{t}$, cos(e$^{t}$)e$^{t}$, e$^{t} \\rangle \\Rightarrow |\\mathbf{r}'(t)|$ = e$^{t}\\sqrt{1 + 1}$ = e$^{t}\\sqrt{2}$"
+      },
+      {
+       "p": "$\\Rightarrow \\mathbf{T}(t) = \\frac{\\mathbf{r}'(t)}{|\\mathbf{r}'(t)|} = \\frac{1}{\\sqrt{2}}\\langle -$ sin(e$^{t})$, cos(e$^{t}), 1\\rangle$ ."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5 pts.) Compute $\\mathbf{T}'(t)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q4b-p2.png",
+       "w": 382,
+       "h": 42
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "(20 points)",
+   "partes": [
+    {
+     "img": "e1/p2-1.png",
+     "w": 276,
+     "h": 14
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(10 pts.) The point $P_{0}: (1, 3, 2)$ lies on the surface $F (x,y,z) = 7$. Find the equation of the tangent plane to the surface $F = 7$ at $P_{0}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$F_{x} = \\frac{\\partial F}{\\partial x} = \\frac{xz}{(x^{2} + y)^{1/2}} \\Rightarrow F_{x}(1, 3, 23) = 2/2 = 1$."
+      },
+      {
+       "p": "$F_{y} = \\frac{\\partial F}{\\partial y} = \\frac{z}{2(x^{2} + y)^{1/2}} + \\frac{2}{z} \\Rightarrow F_{y}(1, 3, 2) = 3/2$."
+      },
+      {
+       "p": "$F_{z} = \\frac{\\partial F}{\\partial z} = (x^{2} + y)^{1/2} - \\frac{2y}{z^{2}} \\Rightarrow F_{z}(1, 3, 2) = \\frac{1}{2}$."
+      },
+      {
+       "p": "n $= \\nabla F (1, 3, 2) = 1, \\frac{3}{2}, \\frac{1}{2}, P_{0} = (1, 3, 2)$"
+      },
+      {
+       "p": "$\\Rightarrow$ tangent plane equation"
+      },
+      {
+       "p": "$$1(x - 1) + \\frac{3}{2} (y - 3) + \\frac{1}{2} (z - 2)\\text{ or }2x + 3y + z = 13$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5 pts.) If starting at $P_{0}$ a small change were to be made in only one of the variables, which one would produce the largest change (in absolute value) in $F$? If the change is this variable was of size 0.1, approximately how large would the change in $F$ be?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q5b-p2.png",
+       "w": 442,
+       "h": 62
+      }
+     ],
+     "solucao": [
+      {
+       "p": "At $P_{0} = (1, 3, 2)$ we have $|F_{y}| = 3/2 > |F_{x}|,|F_{z}|$. So, a change in $y$ produces the largest change in $F$. $\\Delta F = F_{y}\\Delta y = \\frac{3}{2} (0.1) = 0.15$."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "(5 pts.) What distance from $P_{0}$ in the direction $\\pm \\langle -2, 2,-1\\rangle$ will produce an approximate change in $F$ of size 0.1 units, according to the (already computed) lin earization of $F$?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q5c-p2.png",
+       "w": 430,
+       "h": 68
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "6",
+   "titulo": "(15 points)",
+   "partes": [
+    {
+     "p": "Let $f (x,y) = x + 4y + \\frac{2}{xy}$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(10 pts.) Find the critical point(s) of $f (x,y)$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5 pts.) Use the second-derivative test to test the critical point(s) found in part(a)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f_{xx} = 4/(x^{2}y), f_{yy} = 4/(xy^{3}), f_{xy} = f_{yx} = 2/(x^{2}y^{2})$ $A = f_{xx}(2, 1/2) = 1, C = f_{yy}(2, 1/2) = 16, B = f_{xy}(2, 1/2) = 2$ $\\Rightarrow AC - B^{2} = 12 > 0, A > 0 \\Rightarrow f$ has a relative minimum at $(2, 1/2)$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "7",
+   "titulo": "(10 points)",
+   "partes": [
+    {
+     "p": "Let $\\mathcal{P}$ be the plane with equation $Ax + By + Cz = D$ and $P_{0} = (x_{0}, y_{0}, z_{0})$ be a point which is not on $\\mathcal{P}$. Use the Lagrange multiplier method to set up the equations satisfied by the point $(x,y,z)$ on $\\mathcal{P}$ which is closest to $P_{0}$. (Do not solve.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q7-p3.png",
+     "w": 352,
+     "h": 146
+    }
+   ]
+  },
+  {
+   "n": "8",
+   "titulo": "(15 points)",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(10 pts.) Let $F (x,y,z)$ be a smooth function of three variables for which $\\nabla F (1,-1,\\sqrt{2}) = \\langle 1, 2,-2\\rangle$ ."
+      },
+      {
+       "p": "Use the Chain Rule to evaluate $\\frac{\\partial F}{\\partial \\phi}$ at $(\\rho ,\\phi ,\\theta ) = (2, \\frac{\\pi}{4},-\\frac{\\pi}{4})$."
+      },
+      {
+       "p": "(Use $x = \\rho$ sin $\\phi$ cos $\\theta , y = \\rho$ sin $\\phi$ sin $\\theta , z = \\rho$ cos $\\phi .)$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "algo sumiu antes da pontuação"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q8a-p2.png",
+       "w": 474,
+       "h": 80
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5 pts.) Suppose $f (x,y)$ is a smooth, non-constant function. Is it possible that, for all points $(x,y)$, the gradient of $f$ at the point $(x,y)$ is equal to the vector $\\langle -y,x\\rangle$ ? Justify (briefly)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "NOT Possible $\\langle -y, x\\rangle$ is not a gradient field. (Test: $\\langle -y, x\\rangle = \\langle P, Q\\rangle : P_{y} = -1 \\pm = Q_{x} = 1.)$"
+      },
+      {
+       "img": "g1/p4-1.png",
+       "w": 352,
+       "h": 188
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "9",
+   "titulo": "(10 points)",
+   "partes": [
+    {
+     "img": "e1/p2-2.png",
+     "w": 203,
+     "h": 21
+    },
+    {
+     "p": "$R 0 x^{2}$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(5 pts.) Sketch the region $R$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q9a-p4.png",
+       "w": 20,
+       "h": 19
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5 pts.) Rewrite the double integral as an iterated integral with the order inter changed."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q9b-p4.png",
+       "w": 390,
+       "h": 51
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "10",
+   "titulo": "(15 points)",
+   "partes": [
+    {
+     "img": "e1/p3-1.png",
+     "w": 15,
+     "h": 8
+    },
+    {
+     "p": "Set up the integral $f (x,y) dA$ where $R$ is the region bounded by the four curves"
+    },
+    {
+     "p": "$$R$$",
+     "display": true
+    },
+    {
+     "p": "$x^{2}y = 4, x^{2}y = 9, \\frac{y}{x} = 1$, and $\\frac{y}{x} = 2$ as a double integral in the variables $u = x^{2}y$ and $v = \\frac{y}{x}$. (Your answer should be completely ready to integrate, once the function $f$ is given.) Note: the inverse transformation is given by $x = u^{\\frac{1}{3}} v^{-\\frac{1}{3}}, y = u^{\\frac{1}{3}} v^{\\frac{2}{3}}$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula curta solta",
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q10-p3.png",
+     "w": 442,
+     "h": 105
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/p4-3.png",
+     "w": 496,
+     "h": 103
+    }
+   ]
+  },
+  {
+   "n": "11",
+   "titulo": "(15 points)",
+   "partes": [
+    {
+     "p": "F$(x,y) = x (\\mathbf{i} + \\mathbf{j})$, and let $C$ be the closed curve in the xy-plane formed by the triangle with vertices at the origin and the points (1,0) and (0,1)."
+    },
+    {
+     "p": "integral. (Set up, then using short-cut is ok.)"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(5 pts.) Give a rough sketch of the field F in the first quadrant, and use it to predict whether the net flux out of the region $R =$ the interior of $C$ will be positive or negative."
+      },
+      {
+       "img": "e1/p3-2.png",
+       "w": 7,
+       "h": 8
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Net flux out of $R$ will be positive (more flow out than into $R)$"
+      },
+      {
+       "img": "g1/p4-4.png",
+       "w": 144,
+       "h": 118
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5 pts.) Compute the flux integral $\\mathbf{F} \\cdot \\hat{\\mathbf{n}} ds$ directly."
+      },
+      {
+       "p": "$$C$$",
+       "display": true
+      },
+      {
+       "img": "e1/p3-3.png",
+       "w": 7,
+       "h": 8
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q11b-p3.png",
+       "w": 315,
+       "h": 54
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q11b-p4.png",
+       "w": 403,
+       "h": 106
+      },
+      {
+       "img": "g1/q11b-p5.png",
+       "w": 346,
+       "h": 115
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "(5 pts.) Compute the flux integral $\\mathbf{F} \\cdot \\hat{\\mathbf{n}} ds$ using the appropriate double"
+      },
+      {
+       "p": "$$C$$",
+       "display": true
+      }
+     ],
+     "contexto": [
+      {
+       "p": "(Specify which orientation you are using for $C.)$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q11c-p3.png",
+       "w": 442,
+       "h": 29
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q11c-p5.png",
+       "w": 433,
+       "h": 56
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "12",
+   "titulo": "(20 points)",
+   "partes": [
+    {
+     "img": "e1/p3-4.png",
+     "w": 432,
+     "h": 13
+    },
+    {
+     "p": "and by the plane $z = 2$. The problem is to compute $\\bar{z} =$ the $z$-coordinate of the center of mass of $G$, in the case where the density is equal to the height above the xy-plane."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(5 pts.) Find the mass of $G$ using cylindrical coordinates"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q12a-p5.png",
+       "w": 442,
+       "h": 314
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5 pts.) Set up the calculation for $\\bar{z}$ using cylindrical coordinates (Answers should be ready to integrate out – but do not evaluate.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q12b-p5.png",
+       "w": 362,
+       "h": 51
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "(10 pts.) Set up the calculation for $\\bar{z}$ using spherical coordinates. (Answers should be ready to integrate out – but do not evaluate.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q12c-p5.png",
+       "w": 422,
+       "h": 84
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "13",
+   "titulo": "(15 points)",
+   "partes": [
+    {
+     "img": "e1/p3-5.png",
+     "w": 312,
+     "h": 13
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(3 pts.) Show that $\\mathbf{F}(x,y,z)$ is a gradient field using the derivative conditions."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "We have F $= \\langle P, Q, R\\rangle$ , where $P = y + y^{2}z, Q = x - z + 2xyz, R = -y + xy^{2}$."
+      },
+      {
+       "p": "$$\\frac{\\partial P}{\\partial z} = y^{2} = \\frac{\\partial R}{\\partial x}; \\frac{\\partial Q}{\\partial z} = -1 + 2xy = \\frac{\\partial R}{\\partial y}; \\frac{\\partial P}{\\partial y} = 1 + 2yz = \\frac{\\partial Q}{\\partial x}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(10 pts.) Find a potential function $f (x,y,z)$ for $\\mathbf{F}(x,y,z)$, using any systematic method. Show the method used and all work clearly."
+      },
+      {
+       "img": "e1/p3-6.png",
+       "w": 7,
+       "h": 8
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q13b-p6.png",
+       "w": 397,
+       "h": 288
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "(2 pts.) Find $\\mathbf{F} \\cdot d\\mathbf{r}$, where $C$ is the straight line joining the points (2, 2, 1) and"
+      },
+      {
+       "p": "$$C$$",
+       "display": true
+      },
+      {
+       "p": "(1, -1, 2) (in that order), using as little computation as possible."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q13c-p3.png",
+       "w": 442,
+       "h": 40
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q13c-p6.png",
+       "w": 289,
+       "h": 29
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "14",
+   "titulo": "(25 points)",
+   "partes": [
+    {
+     "p": "In this problem $S$ is the surface given by the quarter of the right-circular cylinder centered on the $z$-axis, of radius 2 and height 4, which lies in the first octant. The field $\\mathbf{F}(x,y,z) = x \\mathbf{i}$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(5 pts.) Sketch the surface $S$ and the field F. (Suggestion: use a coordinate system with $y$ pointing out of the paper.)"
+      },
+      {
+       "img": "e1/p4-1.png",
+       "w": 15,
+       "h": 8
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(10 pts.) Compute the flux integral $\\mathbf{F} \\cdot \\hat{\\mathbf{n}} dS$."
+      },
+      {
+       "p": "$$S$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q14b-p4.png",
+       "w": 283,
+       "h": 29
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q14b-p6.png",
+       "w": 327,
+       "h": 47
+      },
+      {
+       "img": "g1/q14b-p7.png",
+       "w": 487,
+       "h": 107
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "(5 pts.) $G$ be the 3D solid in the first octant given by the interior of the quarter cylinder defined above. Use the divergence theorem to compute the flux of the field F $= x \\mathbf{i}$ out of the region $G$."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "(Use the normal which points 'outward' from $S$, i.e. on the side away from the $z$-axis.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q14c-p7.png",
+       "w": 459,
+       "h": 31
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "(5 pts.) The boundary surface of $G$ is comprised of $S$ together with four other faces. What is the flux outward through these four faces, and why? Use the answers to parts(b) and (c), and also verify using the sketch of part(a)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q14d-p7.png",
+       "w": 435,
+       "h": 91
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "15",
+   "titulo": "(25 points)",
+   "partes": [
+    {
+     "p": "F$(x,y,z) = (yz)\\mathbf{i} + (-xz)\\mathbf{j} + \\mathbf{k}$. Let $S$ be the portion of surface of the paraboloid $z = 4 - x^{2} - y^{2}$ which lies above the first octant; and let $C$ be the closed curve $C$ $= C_{1} + C_{2} + C_{3}$, where the curves $C_{1}, C_{2}$ and $C_{3}$ are the three curves formed by intersecting $S$ with the xy, yz and xz planes respectively (so that $C$ is the boundary of $S)$. Orient $C$ so that it is traversed CCW when seen from above in the first octant."
+    },
+    {
+     "img": "e1/p4-2.png",
+     "w": 7,
+     "h": 8
+    },
+    {
+     "p": "ing each piece of the curve $C$ and then adding up the three line integrals."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(15 pts.) Use Stokes' Theorem to compute the loop integral $\\mathbf{F} \\cdot d\\mathbf{r}$ by using"
+      },
+      {
+       "p": "$$C$$",
+       "display": true
+      },
+      {
+       "img": "e1/p4-3.png",
+       "w": 7,
+       "h": 8
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q15a-p4.png",
+       "w": 442,
+       "h": 71
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(10 pts.) Set up and evaluate the loop integral $\\mathbf{F} \\cdot d\\mathbf{r}$ directly by parametriz"
+      },
+      {
+       "p": "$$C$$",
+       "display": true
+      }
+     ],
+     "contexto": [
+      {
+       "p": "the surface integral over the capping surface $S$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q15b-p4.png",
+       "w": 438,
+       "h": 29
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q15b-p7.png",
+       "w": 332,
+       "h": 19
+      },
+      {
+       "img": "g1/q15b-p8.png",
+       "w": 460,
+       "h": 251
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

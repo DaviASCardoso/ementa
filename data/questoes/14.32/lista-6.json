@@ -1,0 +1,81 @@
+{
+ "etapa": "14.32/lista-6",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-32-econometrics-spring-2007/c2f12729f849097ba2dca6ed90d3ff24_psy07n06.pdf",
+   "paginas": 1
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "Problem Set VI"
+  },
+  {
+   "p": "MIT (14.32) Spring 2007"
+  },
+  {
+   "p": "A. Wooldridge, problems 15.2, 15.3, 15.7, 15.10"
+  },
+  {
+   "p": "B. Use the data set on the course web site to replicate the OLS and IV estimates of the returns to schooling for the 1980 Census reported in Table V, Columns 1 through 4, of the paper by Angrist and Krueger (1991). Organize your results into a table that has the same layout as Table V. Show both your results and the Angrist and Krueger results side by side."
+  },
+  {
+   "p": "C. Wooldridge, problems 16.1, 16.2, 16.6"
+  },
+  {
+   "p": "D. Data from Graddy's paper on the Fulton Fish Market."
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Combine the data for Asians and Whites and construct 2SLS estimates of the elasticity of overall demand for whiting. Your model should include day-of-the-week dummies as exogenous covariates. Do this two ways: i. Manual 2SLS (i.e., run a second stage on first-stage fitted values with PROC REG) ii. Using SAS PROC SYSLIN"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compare the standard errors you got in (i) and (ii). What explains the difference? Compare the 2SLS estimates to OLS estimates."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The quantity of fish sold seems to differ from day to day. What must be true for you to be able to use these daily shifts to identify the supply equation? Using the day-of-the-week dummies as instruments, estimate the supply elasticity by two-stage least squares (using SYSLIN). Do the results appear to make sense? Is there any way you can test whether day of the week dummies are valid instruments for the supply equation? (Hint: Wooldridge Section 15.5)."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Jointly estimate separate demand equations for Asians and Whites using 3SLS. Test whether the elasticities are in fact equal across the two groups (use the STEST statement). Discuss your results in light of the fact that Asians appear to pay less for fish than whites."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

@@ -1,0 +1,503 @@
+{
+ "etapa": "14.30/lista-6",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-30-introduction-to-statistical-methods-in-economics-spring-2009/3fd1cf8f29a4bee9cfa9879c1f4489c5_MIT14_30s09_pset06.pdf",
+   "paginas": 3
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "Problem Set #6 14.30 - Intro. to Statistical Methods in Economics Instructor: Konrad Menzel"
+  },
+  {
+   "p": "Due: Tuesday, April 7, 2009"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Let X be a random variable that is uniformly distributed on [O,1] (i.e. f = 1 on that (x) interval and zero elsewhere). In Problem Set #4, you use the \"2-stepn/CDF technique and the transformation method to determine the PDF of each of the following transformations, Y g(X). Now that you have the PDFs, compute (a) IE[g(X)], (b) g(IE[X]), (c) Var(g(X)) and (d) g(Var(X)) for each of the following transformations:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Y = xi, fY(y) = 4y3 on [O, 11and zero otherwise."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q11-p2.png",
+       "w": 284,
+       "h": 29
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q11-p2.png",
+       "w": 468,
+       "h": 79
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Y = epX, fy(y) = on [a,l]and zero otherwise."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q12-p2.png",
+       "w": 278,
+       "h": 26
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Y = 1- e-$^{X}$, fv(y) = $--_{1-Y}^{1}$on [0,l - !] and zero otherwise."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q13-p2.png",
+       "w": 329,
+       "h": 32
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q13-p3.png",
+       "w": 326,
+       "h": 55
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "How does (a) IE[g(X)] compare to (b) g(IE[X]) and (c) Var(g(X)) to (d) g(Var(X)) for each of the above transformations? Are there any generalities that can be noted? Explain."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q14-p2.png",
+       "w": 469,
+       "h": 53
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q14-p4.png",
+       "w": 469,
+       "h": 77
+      },
+      {
+       "img": "g1/q14-p5.png",
+       "w": 485,
+       "h": 274
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto",
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p2.png",
+     "w": 483,
+     "h": 114
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the expectation and the variance for each of the following PDF's."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "fX(x) = axa-', 0 < x < 1,a > 0."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q21-p2.png",
+       "w": 196,
+       "h": 27
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "fx(x) =$,^{1}$ x l , 2 , .. n, where n is an integer."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "algo sumiu antes da pontuação",
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q22-p2.png",
+       "w": 278,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q22-p6.png",
+       "w": 466,
+       "h": 522
+      },
+      {
+       "img": "g1/q22-p7.png",
+       "w": 479,
+       "h": 212
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p2.png",
+     "w": 396,
+     "h": 56
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Suppose that X , Y, and Z are independently and identically distributed with mean zero and variance one. Calculate the following:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "IE[3X+ 2Y + Z]"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q31-p2.png",
+       "w": 113,
+       "h": 26
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q3-p2.png",
+     "w": 479,
+     "h": 70
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Simplify the following expressions for random variables X and Y and scalar constants a, $b$ E R:"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto",
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q4-p3.png",
+     "w": 481,
+     "h": 71
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q4-p8.png",
+     "w": 480,
+     "h": 277
+    }
+   ]
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "190) (BainIEngelhardt p. Suppose X and Y are continuous random variables with joint PDF f 4(x - xy) (x, y) = if 0 < x < 1and 0 < y < 1,and zero otherwise."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Find E[X2Y]."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q51-p3.png",
+       "w": 103,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q51-p9.png",
+       "w": 363,
+       "h": 260
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Find E[X - Y]."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q52-p3.png",
+       "w": 109,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q52-p9.png",
+       "w": 363,
+       "h": 408
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Find Var(X - Y)."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q53-p3.png",
+       "w": 125,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q53-p10.png",
+       "w": 466,
+       "h": 577
+      },
+      {
+       "img": "g1/q53-p11.png",
+       "w": 482,
+       "h": 64
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "What is the value of the correlation coefficient, pxy $=_{\\frac{Cov(X,Y)}{d v a r ( ~) v a r ( ~)}}$, of X and Y?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q54-p3.png",
+       "w": 452,
+       "h": 25
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "What is E[Ylx]?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q55-p3.png",
+       "w": 115,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q55-p11.png",
+       "w": 467,
+       "h": 192
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto",
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q5-p3.png",
+     "w": 481,
+     "h": 86
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(BainIEngelhardt p. 191) Let X and Y have joint pdf f (x, Y) = e-Y if 0 < x < y < co and zero otherwise. Find E[XIYI."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q6-p3.png",
+     "w": 480,
+     "h": 88
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q6-p11.png",
+     "w": 480,
+     "h": 88
+    }
+   ]
+  },
+  {
+   "n": "7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "$^{Letcentral moment of}$is defined as $^{Xbe a uniform random variable defined over the interval}4._{(~212}^{X}$Find an expression for the $^{is defined aspk=E[(X-}$kth $^{IEIX])k].}$standardized central moment of $^{The standardized central moment(a, b),i.e.f(x)=A.}$X. $^{Thekth}$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q7-p3.png",
+     "w": 482,
+     "h": 95
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q7-p12.png",
+     "w": 482,
+     "h": 94
+    }
+   ]
+  }
+ ]
+}

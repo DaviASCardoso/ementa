@@ -1,0 +1,326 @@
+{
+ "etapa": "18.02SC/prova-treino2",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/8d46e0b6446f4a0e3a8b8dfb868a90b5_MIT18_02SC_prac2A.pdf",
+   "paginas": 3
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Practice Exam 2 A"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "(10 points: 5, 5)",
+   "partes": [
+    {
+     "p": "Let $f (x, y) = xy - x^{4}$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the gradient of $f$ at $P: (1, 1)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\nabla f = (y - 4x^{3})\\hat{\\imath} + x \\hat{j;}$ at $P, \\nabla f = \\langle -3, 1\\rangle$ ."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Give an approximate formula telling how small changes $\\Delta x$ and $\\Delta y$ produce a small change $\\Delta w$ in the value of $w = f (x, y)$ at the point $(x, y) = (1, 1)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\Delta w ' -3 \\Delta x + \\Delta y$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "(20 points)",
+   "partes": [
+    {
+     "p": "On the topographical map below, the level curves for the height function $h(x, y)$ are marked (in feet); adjacent level curves represent a difference of 100 feet in height. A scale is given."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Estimate to the nearest.1 the value at the point $P$ of the directional derivative $\\frac{dh}{ds}$, where"
+      },
+      {
+       "p": "$$\\hat{u}$$",
+       "display": true
+      },
+      {
+       "p": "$\\hat{u}$ is the unit vector in the direction of $\\hat{\\imath} + \\hat{j.}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q2a-p1.png",
+       "w": 478,
+       "h": 37
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q2a-p1.png",
+       "w": 320,
+       "h": 27
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Mark on the map a point $Q$ at which $h = 2200, \\frac{\\partial h}{\\partial x} = 0$ and $\\frac{\\partial h}{\\partial y} < 0$. Estimate to the nearest.1 the value of $\\frac{\\partial h}{\\partial y}$ at $Q$."
+      },
+      {
+       "img": "e1/p1-1.png",
+       "w": 468,
+       "h": 260
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2b-p1.png",
+       "w": 478,
+       "h": 37
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "(10 points)",
+   "partes": [
+    {
+     "p": "Find the equation of the tangent plane to the surface $x^{3}y + z^{2} = 3$ at the point $(-1, 1, 2)$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$f (x, y, z) = x^{3}y + z^{2} = 3$: the normal vector is $\\nabla f = \\langle 3x^{2}y, x^{3}, 2z\\rangle = \\langle 3,-1, 4\\rangle$ . The tangent plane is $3x - y + 4z = 4$."
+    }
+   ]
+  },
+  {
+   "n": "4",
+   "titulo": "(20 points: 5,5,5,5)",
+   "partes": [
+    {
+     "p": "A rectangular box is placed in the first octant as shown, with one corner at the origin and the three adjacent faces in the coordinate planes. The opposite point $P: (x, y, z)$ is constrained to lie on the paraboloid $x^{2} + y^{2} + z = 1$. Which $P$ gives the box of greatest volume? z"
+    },
+    {
+     "img": "e1/p2-1.png",
+     "w": 468,
+     "h": 34
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Show that the problem leads one to maximize $f (x, y) = xy -x^{3}y -xy^{3}$, and"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q4a-p2.png",
+       "w": 384,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "The volume is $xyz = xy(1-x^{2} -y^{2}) = xy-x^{3}y-xy^{3}$. Critical points: $f_{x} = y-3x^{2}y-y^{3} = 0$, $f_{y} = x - x^{3} - 3xy^{2} = 0$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find a critical point of $f$ which lies in the first quadrant $(x > 0, y > 0)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Assuming $x > 0$ and $y > 0$, the equations can be rewritten as $1-3x^{2}-y^{2} = 0, 1-x^{2}-3y^{2} = 0$."
+      },
+      {
+       "p": "$x^{2} = y^{2} = 1/4$, i.e. $(x, y) = (1/2, 1/2)$."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Determine the nature of this critical point by using the second derivative test. x"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f_{xx} = -6xy = -3/2, f_{yy} = -6xy = -3/2, f_{xy} = 1 - 3x^{2} - 3y^{2} = -1/2$. So $f_{xx}f_{yy} - f_{xy}^{2} > 0$, and $f_{xx} < 0$, it is a local maximum."
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Find the maximum of $f$ in the first quadrant (justify your answer)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The maximum of $f$ lies either at $(1/2, 1/2)$, or on the boundary of the domain or at infinity. Since $f (x, y) = xy(1 - x^{2} - y^{2}), f = 0$ when either $x \\to 0$ or $y \\to 0$, and $f \\to -\\infty$ when $x \\to \\infty$ or $y \\to \\infty$ (since $x^{2} + y^{2} \\to \\infty )$. So the maximum is at $(x, y) = ( \\frac{1}{2}, \\frac{1}{2})$, where $f ( \\frac{1}{2}, \\frac{1}{2}) = \\frac{1}{8}$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "(15 points)",
+   "partes": [
+    {
+     "p": "In Problem 4 above, instead of substituting for $z$, one could also use Lagrange multipliers to maximize the volume $V = xyz$ with the same constraint $x^{2} + y^{2} + z = 1$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Write down the Lagrange multiplier equations for this problem."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (x, y, z) = xyz, g(x, y, z) = x^{2} + y^{2} + z = 1$: one must solve the Lagrange multiplier equation $\\nabla f = \\lambda \\nabla g$, i.e. $yz = 2\\lambda x, xz = 2\\lambda y, xy = \\lambda$ , and the constraint equation $x^{2} + y^{2} + z = 1$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Solve the equations (still assuming $x > 0, y > 0)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Dividing the first two equations $yz = 2\\lambda x$ and $xz = 2\\lambda y$ by each other, we get $y/x = x/y$, so $x^{2} = y^{2}$; since $x > 0$ and $y > 0$ we get $y = x$. Substituting this into the Lagrange multiplier equations, we get $z = 2\\lambda$ and $x^{2} = \\lambda$ . Hence $z = 2x^{2}$, and the constraint equation becomes $4x^{2} = 1$, so $x = \\frac{1}{2}, y = \\frac{1}{2}, z = \\frac{1}{2}$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "6",
+   "titulo": "(10 points)",
+   "partes": [
+    {
+     "p": "Let $w = f (u,v)$, where $u = xy$ and $v = x/y$. Using the chain rule, express $\\frac{\\partial w}{\\partial x}$ and $\\frac{\\partial w}{\\partial y}$ in terms of $x, y, f_{u}$ and $f_{v}$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$\\frac{\\partial w}{\\partial x} = f_{u}u_{x} + f_{v}v_{x} = y f_{u} + \\frac{1}{y} f_{v}. \\frac{\\partial w}{\\partial y} = f_{u}u_{y} + f_{v}v_{y} = x f_{u} - \\frac{x}{y^{2}} f_{v}$."
+    }
+   ]
+  },
+  {
+   "n": "7",
+   "titulo": "(15 points)",
+   "partes": [
+    {
+     "p": "Suppose that $x^{2}y + xz^{2} = 5$, and let $w = x^{3}y$. Express $\\frac{\\partial w}{\\partial z}$ as a function of $x, y, z$, and evaluate"
+    },
+    {
+     "p": "$$y$$",
+     "display": true
+    },
+    {
+     "p": "it numerically when $(x, y, z) = (1, 1, 2)$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula curta solta",
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q7-p2.png",
+     "w": 478,
+     "h": 62
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q7-p1.png",
+     "w": 478,
+     "h": 94
+    }
+   ]
+  }
+ ]
+}

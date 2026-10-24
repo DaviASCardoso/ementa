@@ -1,0 +1,506 @@
+{
+ "etapa": "14.01/lista-8",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset8.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.01 Problem Set 8"
+  },
+  {
+   "p": "Due at 5pm on December 8st, 2023 Late problem sets are not accepted."
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "True, False or Uncertain?",
+   "partes": [
+    {
+     "p": "True, false or Uncertain? Justify your answer"
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) In a market with asymmetric information, the party with private information will always end up better off than in a market with perfect information."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) In a market with asymmetric information, the party with private information will always end up better of than in a market with perfect information."
+      },
+      {
+       "p": "False. This is not always the case. It is possible that having more information does not lead to any benefit. One example is if a risk adverse agent wants to buy insurnace, but the insurance market may collaspe altogether. Having private information would not be beneficial in this case."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) The market for health insurance will fail due to adverse selection."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) The market for health insurance will fail due to adverse selection."
+      },
+      {
+       "p": "Uncertain. If the healthy people are adverse enough then it may not even suffer from adverse selection."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) An increase in labor taxes induce people to work more."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) An increase in labor taxes induce people to work more."
+      },
+      {
+       "p": "Uncertain. The effect of an increase in labor taxes on work incentives is mixed due to opposing income and substitution effects. Higher taxes could lead to less work as people lose motivation when they keep less of their earnings (income effect), or more work as they try to maintain their income (substitution effect). The actual outcome varies by individual circumstances and income levels."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) Consider an economy with two people, Pedro and Andrew, and a single good: money. Both Pedro and Andrew have the utility funtion $u =$ log $w$, where $w$ is the amount of money they possess. Now consider a government intervention where Pedro transfers some dollars to Andrew. A government who maximizes a utilitarian social welfare function will want to implement this transaction only if Pedro is richer than Andrew."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) Consider an economy with two people, Pedro and Andrew, and a single good: money. Both Pedro and Andrew have the utility funtion $u =$ log $w$, where $w$ is the amount of money they possess. Now consider a government intervention where Pedro transfers some dollars to Andrew. A government who maximizes a utilitarian social welfare function will want to implement this transaction only if Pedro is richer than Andrew."
+      },
+      {
+       "p": "True. Suppose that Pedro has an amount of money $x$ and Andrew has an amount of money $y$. If Pedro transfers an amount $z$ to Andrew, the social welfare before the transfer is log $x +$ log $y =$ log $xy$. After the transfer, the social welfare is log($x - z) +$ log($y + z) =$ log($xy + z(x - y - z))$. Therefore, the government will prefer the transfer if $x > y + z$, implying that Pedro is richer.\""
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Health Insurance and Incomplete Information",
+   "partes": [
+    {
+     "p": "Students of MIT are automatically enrolled in the MIT Student Health Insurance Plan (MIT SHIP), which provides comprehensive coverage. MIT SHIP is offered by Blue Cross Blue Shield of Massachusetts (BCBS). There are two types of students: healthy students and unhealthy students. Healthy students fall sick with a probability $p_{H}$, and unhealthy students fall sick with a probability $p_{U} > p_{H}$. If a student becomes sick, then they have costs of 1000 dollars."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Assume everyone enrolls in MIT SHIP. Suppose BCBS cannot distinguish between healthy and unhealthy students and does not make any (expected) profits on MIT SHIP. How much should it charge? Let $c$ denote the cost of coverage."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Assume everyone enrolls in MIT SHIP. Suppose BCBS cannot distinguish between healthy and unhealthy students and does not make any (expected) profits on MIT SHIP. How much should it charge? Let $c$ denote the cost of coverage."
+      },
+      {
+       "p": "We assume that the proportions of healthy and unhealthy students are $q$ and $1 - q$ respectively. The expected cost for the insurance provider per student (healthy or unhealthy) would be:"
+      },
+      {
+       "p": "$E$[cost per student] $= q \\cdot (1000 \\cdot p_{H}) + (1 - q) \\cdot (1000 \\cdot p_{U})$ Since the insurance provider does not make any profit on average, they would need to set the cost of coverage $c$ equal to the expected cost per student:"
+      },
+      {
+       "p": "$$c = q \\cdot (1000 \\cdot p_{H}) + (1 - q) \\cdot (1000 \\cdot p_{U})$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Let $w$ denote the willingness to pay for insurance. How does $w$ depend on risk aversion? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Let $w$ denote the willingness to pay for insurance. How does $w$ depend on risk aversion? Provide an economic intuition."
+      },
+      {
+       "p": "The more risk-averse an individual is, the higher their willingness to pay for insurance, because the disutility of potential financial loss weighs heavily on them, and they derive more utility from the peace of mind that insurance provides."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) How does $w$ depend on whether the student is healthy or unhealthy? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) How does $w$ depend on whether the student is healthy or unhealthy? Provide an economic intuition."
+      },
+      {
+       "p": "Healthy students, with a lower probability of falling sick, will generally have a lower willingness to pay $w$ for insurance compared to unhealthy students. Unhealthy students are more likely to incur medical costs, thereby valuing the risk protection from insurance more and having a higher $w$. The willingness to pay reflects each group's perceived risk and the utility they would gain from mitigating that risk through insurance."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) Suppose at price $c$ only unhealthy students purchase the health insurance. What happens to the insurance market for MIT students? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Suppose at price $c$ only unhealthy students purchase the health insurance. What happens to the insurance market for MIT students? Provide an economic intuition."
+      },
+      {
+       "p": "If only unhealthy students buy health insurance at price $c$, the MIT student insurance market could collapse due to adverse selection. This scenario means the insurer predominantly covers individuals more likely to make claims, driving up costs and premiums. Higher premiums may further deter healthy individuals from buying insurance, exacerbating the issue and potentially leading to a market failure where the insurance becomes unafordable or unsustainable to offer."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 Points) What can BCBS do to avoid the market collapse?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What can BCBS do to avoid the market collapse?"
+      },
+      {
+       "p": "BCBS could subsidize premiums or offer incentives to encourage healthy students to enroll, thus balancing the risk pool. Additionally, tiered pricing based on engagement in wellness programs or preventive care might attract healthier individuals, while also promoting better overall health outcomes for all insured students."
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(5 Points) What can the government/MIT administration do to avoid the market collapse?"
+      },
+      {
+       "p": "Now suppose each student at MIT can decide whether to engage in healthy or unhealthy behavior, so their"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What can the government/MIT administration do to avoid the market collapse?"
+      },
+      {
+       "p": "The government or MIT administration can mandate that all students, regardless of their health status, must enroll in the MIT SHIP, ensuring a balanced risk pool. Another approach could be to provide subsidies or financial assistance for the insurance premiums, making the insurance more attractive to healthy students. They could also introduce regulations to prevent insurance pricing that disproportionately affects high-risk individuals. Lastly, they can invest in health education and preventive health measures on campus, reducing the overall risk of illness and the subsequent insurance claims."
+      },
+      {
+       "p": "Now suppose each student at MIT can decide whether to engage in healthy or unhealthy behavior, so their"
+      }
+     ]
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "(5 Points) Suppose MIT SHIP offers full coverage in the case the student falls sick. Consider a student who has insurance, would they choose to be healthy or unhealthy? Explain."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "health status is not exogenous anymore. Students can exert some effort to be healthy, but this effort is costly for them."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Suppose MIT SHIP offers full coverage in the case the student falls sick. Consider a student who has insurance, would they choose to be healthy or unhealthy? Explain."
+      },
+      {
+       "p": "If MIT SHIP offers full coverage, students may be less motivated to maintain healthy behaviors, since they won't bear the financial costs of falling sick—this is the moral hazard associated with comprehensive insurance."
+      }
+     ]
+    },
+    {
+     "id": "8",
+     "partes": [
+      {
+       "p": "(5 Points) How much should BCBS charge for insurance in this case? Explain the difference from 1."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) How much should BCBS charge for insurance in this case? Explain the difference from 1."
+      },
+      {
+       "p": "The new cost of coverage would incorporate the students will choose to behave in an unhealthy manner. Therefore:"
+      },
+      {
+       "p": "$$c' = 1000 \\cdot p_{U} > c$$",
+       "display": true
+      },
+      {
+       "p": "which is higher than the cost in the case of adverse selection because now every student is riskier."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Taxes and Redistribution",
+   "partes": [
+    {
+     "p": "Consider an economy with two types of individuals: high skilled and low skilled. The only difference between the two is that the skilled have a higher wage $w_{s} = 2$ than the unskilled $w_{u} = 1$. Suppose that a fraction $\\theta$ of the population is skilled. Suppose also that each individual has the same preferences over consumption and labor"
+    },
+    {
+     "p": "$$U (c,l) = c - \\frac{1}{2} (24 - l)^{2}$$",
+     "display": true
+    },
+    {
+     "p": "where $0 \\leq l \\leq 24$ is leisure."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Write down the high skilled and low skilled worker's budget constraints in a graph with leisure $(l)$ on the $x$ axis and consumption on the $y$ axis."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Write down the high skilled and low skilled worker's budget constraints in a graph with leisure $(l)$ on the $x$ axis and consumption on the $y$ axis."
+      },
+      {
+       "p": "The high skilled worker has a budget constraint of"
+      },
+      {
+       "p": "$$c + 2l = 48$$",
+       "display": true
+      },
+      {
+       "p": "The low skilled worker has income"
+      },
+      {
+       "p": "$$c + l = 24$$",
+       "display": true
+      },
+      {
+       "img": "g1/p3-1.png",
+       "w": 499,
+       "h": 188
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Solve for each type's optimal choice of consumption and labor."
+      },
+      {
+       "p": "Now suppose the government decides to levy an labor income tax. This tax collects a fraction $\\tau$ of each"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Solve for each type's optimal choice of consumption and labor."
+      },
+      {
+       "p": "Let $l = 24 - L$ be leisure. To solve for the optimal choice, we set the marginal rate of substitution"
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) Write down the new budget constraints. Solve for each type's optimal choice of consumption and labor in terms the tax rate $\\tau$ and the lump-sum transfer $T$."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "individual's earnings. The tax proceedings are rebated lump-sum equally between workers. Let $T$ denote the lump-sum transfer."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Write down the new budget constraints. Solve for each type's optimal choice of consumption and labor in terms the tax rate $\\tau$ and the lump-sum transfer $T$."
+      },
+      {
+       "p": "The workers have a budget constraint of"
+      },
+      {
+       "p": "$$c = T + (1 - \\tau )wL$$",
+       "display": true
+      },
+      {
+       "p": "When we take the first order conditions, the T drops out, and we get that $L = (1 - \\tau )w$ at the optimum. This means that high skilled worker works $2(1 - \\tau )$ and"
+      },
+      {
+       "p": "$$c = T + 4(1 - \\tau )^{2}$$",
+       "display": true
+      },
+      {
+       "p": ", and the low skilled worker works $(1 - \\tau )$ hours and"
+      },
+      {
+       "p": "$$c = T + (1 - \\tau )^{2}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) How does labor supply depend on the tax rate $\\tau$ and the lump sum transfer $T$?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) How does labor supply depend on the tax rate $\\tau$ and the lump sum transfer $T$?"
+      },
+      {
+       "p": "The labor supply will be affected by the tax rate, $\\tau$ , because for both types of worker, the number of hours worked depends on $(1 - \\tau )$. This means that as the tax rate increases, the labor supply decreases. The labor supply does not depend on $T$ because this variable drops out of the first order condition. Since $T$ is a constant, the labor supply does not depend on the lump sum transfer."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 Points) Compute the tax collected from each type separately. What is the equilibrium value of the lumpsum transfer $T$ as a function of $\\tau$ ? Is this policy redistributing from high skilled to low skilled? Explain."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Compute the tax collected from each type separately. What is the equilibrium value of the lumpsum transfer $T$ as a function of $\\tau$ ? Is this policy redistributing from high skilled to low skilled? Explain."
+      },
+      {
+       "p": "The government will keep $\\tau$ of each person's income. In the problem, we are given that $\\theta$ of the workers are skilled. This means that the tax collected from each high skilled worker will be"
+      },
+      {
+       "p": "$$\\tau (2 * 2(1 - \\tau )) = 4\\tau (1 - \\tau )$$",
+       "display": true
+      },
+      {
+       "p": "and the tax collected from each low skilled worker will be"
+      },
+      {
+       "p": "$$\\tau (1 * (1 - \\tau )) = \\tau (1 - \\tau )$$",
+       "display": true
+      },
+      {
+       "p": "The equilibrium value of"
+      },
+      {
+       "p": "$$T = \\theta * 4\\tau (1 - \\tau ) + (1 - \\theta ) * \\tau (1 - \\tau ) = (3\\theta + 1)\\tau (1 - \\tau )$$",
+       "display": true
+      },
+      {
+       "p": "The policy is redistributing from high skilled to low skilled workers because the high skilled works consume more, which means that they are paying more taxes. In the lump sum payment, each person is getting paid an equal proportion of the total tax revenue. Because the high skilled workers pay more taxes than the low skilled workers, this means that this tax policy will give some of the tax earned from the high skilled workers to the low skilled workers."
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(5 Points) Solve for each type's utility in equilibrium, in terms of the tax rate $\\tau$ . Let $V_{H} (\\tau )$ and $V_{L}(\\tau )$ denote the utilites of high-skilled and low-skilled workers in equilibrium. How does an increase in $\\tau$ affect each worker's welfare? Explain."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Solve for each type's utility in equilibrium, in terms of the tax rate $\\tau$ . Let $V_{H} (\\tau )$ and $V_{L}(\\tau )$ denote the utilites of high-skilled and low-skilled workers in equilibrium. How does an increase in $\\tau$ affect each worker's welfare? Explain."
+      },
+      {
+       "p": "For high skilled workers, we have"
+      },
+      {
+       "p": "$$V_{H} (\\tau ) = T + 4(1 - \\tau )^{2} - \\frac{1}{2} 4(1 - \\tau )^{2} = T + 2(1 - \\tau )^{2} = (3\\theta + 1)\\tau (1 - \\tau ) + 2(1 - \\tau )^{2}$$",
+       "display": true
+      },
+      {
+       "p": ". For low skilled workers, we have"
+      },
+      {
+       "p": "$$V_{L}(\\tau ) = T + (1 - \\tau )^{2} - \\frac{1}{2} (1 - \\tau )^{2} = T + \\frac{1}{2} (1 - \\tau )^{2} = (3\\theta + 1)\\tau (1 - \\tau ) + \\frac{1}{2} (1 - \\tau )^{2}$$",
+       "display": true
+      },
+      {
+       "p": "Then, $\\frac{dV_{H}}{d\\tau} < 0$ and $\\frac{dV_{L}}{d\\tau} > 0$. Increasing the tax rate redistributes from high-skilled to low-skilled making the former better of and the latter worse of."
+      }
+     ]
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "(10 Points) Suppose the government wants to maximize a utilitarian social welfare function. That is, the government chooses the tax rate $\\tau$ such to maximize"
+      },
+      {
+       "p": "$$\\mathcal{W} = \\theta V_{H} (\\tau ) + (1 - \\theta ) V_{L}(\\tau )$$",
+       "display": true
+      },
+      {
+       "p": "What are the trade-offs faced by this government? How would the optimal tax rate compare if the government had Rawlsian preferences? Explain. You don't need to solve for the optimal value of $\\tau$ , providing the correct economic intuition is sufficient for full credit."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(10 Points) Suppose the government wants to maximize a utilitarian social welfare function. That is, the government chooses the tax rate $\\tau$ such to maximize"
+      },
+      {
+       "p": "$$\\mathcal{W} = \\theta V_{H} (\\tau ) + (1 - \\theta ) V_{L}(\\tau )$$",
+       "display": true
+      },
+      {
+       "p": "What are the trade-ofs faced by this government? How would the optimal tax rate compare if the government had Rawlsian preferences? Explain. You don't need to solve for the optimal value of $\\tau$ , providing the correct economic intuition is sufficient for full credit."
+      },
+      {
+       "p": "The tradeofs that are faced by the government is that a higher $\\tau$ will lead to more utility for the low skilled workers and more redistribution of wealth. However, a higher $\\tau$ also means that there is less labor supply because it increases the distortion in the labor market. The government needs to weigh both of these when making a decision on $\\tau$ . In an optimum, the government would choose a higher tax rate if they had Rawlsian preferences because they would put more weight on the low-skilled workers. Thus, it would choose to redistribute more."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

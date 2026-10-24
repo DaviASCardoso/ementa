@@ -1,0 +1,443 @@
+{
+ "etapa": "14.02/lista-3",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset3.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.02 - Principles of Macroeconomics Problem Set 3"
+  },
+  {
+   "p": "Spring 2023"
+  },
+  {
+   "p": "NOTE: in the following questions you will be asked to draw some graphs. Please make sure to always label axes and curve, add arrows to denote shifts in the relevant curves, and mark the axes in the locations corresponding to equilibrium quantities and prices (otherwise points will be deducted!)."
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Interest Rate Sensitivity of Investment [30 points]",
+   "partes": [
+    {
+     "p": "Consider a start-up firm with ten possible projects of developing new apps: $j =$ 1, 2, ..., 10. Each app $j$ is projected to cost \\$50 Million to develop, and generates a different stream of earnings. In the first year, project $j$ generates \\$2 Million in earnings annually, and after then it perpetually generates \\$$j$ Million in earnings annually. All cash flows are expressed in constant dollars, i.e., prices are constant."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[6 Points] Calculate the present discounted value of the earnings stream associated with app $j$ when the interest rate is $i$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[6 points] If the interest rate is 5% $(i =.05)$, how many apps will the start-up firm develop?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[6 Points] What if the interest rate is 10%$(i =.1)$?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[6 Points] What is the highest value of $i$ for which all the projects will be developed?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "[6 Points] What does your answer suggest about the slope of the IS curve? Is it downward sloping or upward sloping?"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Basic IS-LM Model [45 Points]",
+   "partes": [
+    {
+     "p": "Consider the following IS-LM model:"
+    },
+    {
+     "p": "$$Z = C + I + G$$",
+     "display": true
+    },
+    {
+     "p": "$$C = c_{0}+ c_{1}(Y - T)$$",
+     "display": true
+    },
+    {
+     "p": "$$I = b_{0}+ b_{1}Y - b_{2}i$$",
+     "display": true
+    },
+    {
+     "p": "$$i = \\bar{i}$$",
+     "display": true
+    },
+    {
+     "p": "where $C$ is consumption, $I$ is investment, $G$ is government spending, $T$ is taxes, $i$ is the interest rate. We assume that the Central Bank sets the nominal interest rate $i = \\bar{i}$, and that $T$ and $G$ are exogenous. Parameters ($c_{0}, c_{1}, b_{0}, b_{1}, b_{2}$) are positive and $b_{1}+ c_{1}< 1$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[5 points] Derive the mathematical expression for the IS curve in this model. i.e., $i$ as a function of the equilibrium value of $Y$. What is the slope of the IS curve?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Derive the mathematical expression for the IS curve in this model. i.e., $i$ as a function of the equilibrium value of $Y$. What is the slope of the IS curve?"
+      },
+      {
+       "p": "Demand has to equate production in equilibrium:"
+      },
+      {
+       "p": "$$Y = Z$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow Y = c_{0}+ c_{1}(Y - T) + b_{0}+ b_{1}Y - b_{2}i + G$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow Y(1 - c_{1}- b_{1}) = c_{0}- c_{1}T + b_{0}- b_{2}i + G$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow Y = \\frac{1}{1 - c_{1}- b_{1}} (c_{0}- c_{1}T + b_{0}- b_{2}i + G)$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow i = \\frac{-(1 - c_{1}- b_{1})}{b_{2}}Y + \\frac{1}{b_{2}} (c_{0}- c_{1}T + b_{0}+ G)$$",
+       "display": true
+      },
+      {
+       "p": "The slope of the curve shoud be given by $\\frac{-(1-c_{1}-b_{1})}{b_{2}}$ so that the IS curve is downward-sloping."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[5 points] Please describe how equilibrium output is determined in this model. Be specific about what role each of the curves plays."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Please describe how equilibrium output is determined in this model. Be specific about what role each of the curves plays."
+      },
+      {
+       "p": "Equilibrium output is determined by the intersection of the IS and LM curves. It identifes the point where both the goods and financial markets are in equilibrium. Specifically, the IS curve traces out each of the points that represent equilibrium in the goods market which are found using the Keynesian cross. The LM curve traces out all the equilibrium points in the money market."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[5 points] Please draw a graph depicting the IS and LM curves in this economy. Indicate equilib rium output. Place $Y$ on the x axis and $i$ on the y axis."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Please draw a graph depicting the IS and LM curves in this economy. Indicate equilib rium output. Place $Y$ on the x axis and $i$ on the y axis."
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 532,
+       "h": 396
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[10 points] Suppose that investors become worried about the future so that they invest less as a proportion of output than they had previously. i.e., $b_{1}$declines to a new lower level $b_{1}'$. By how much will equilibrium output change? and why? Re-draw the graph from question 3 to represent this scenario."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 points] Suppose that investors become worried about the future so that they invest less as a proportion of output than they had previously. i.e., $b_{1}$declines to a new lower level $b_{1}'$. By how much will equilibrium output change? and why? Re-draw the graph from question 3 to represent this scenario."
+      },
+      {
+       "p": "A decline in b$_{1}$will cause investment to be lower at every level of output. In equilibrium, output responds to a change in b$_{1}$as follows:"
+      },
+      {
+       "p": "$$\\frac{dY}{db_{1}} = \\frac{1}{(1 - (c_{1}+ b_{1}))^{2}} (c_{0}+ b_{0}+ G - c_{1}T - b_{2}i)$$",
+       "display": true
+      },
+      {
+       "p": "$$= \\frac{Y}{1 - (c_{1}+ b_{1})}$$",
+       "display": true
+      },
+      {
+       "p": "Therefore, output will fall by the amount $\\frac{Y}{1-(c_{1}+b_{1})}$ db$_{1}$. Graphicallly, the IS curve becomes steeper."
+      },
+      {
+       "img": "g1/p3-1.png",
+       "w": 532,
+       "h": 396
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "[10 points] Monetary Policy response: Suppose that the central bank responds to the decline in $b_{1}$described above by changing the interest rate $i$. By how much would the central bank need to change $i$ to keep output at the same level? Discus the role played by the parameter $b_{2}$in this ex pression. Re-draw the graph in question 4 to represent a scenario where the central bank changes $i$ by exactly this amount."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 points] Monetary Policy response: Suppose that the central bank responds to the decline in $b_{1}$described above by changing the interest rate $i$. By how much would the central bank need to change $i$ to keep output at the same level? Discus the role played by the parameter $b_{2}$in this expression. Re-draw the graph in question 4 to represent a scenario where the central bank changes $i$ by exactly this amount. Totally differentiating equation 1 w.r.t. b$_{1}$and i we have:"
+      },
+      {
+       "p": "dY $= \\frac{dY}{db_{1}}$ db$_{1}+ \\frac{dY}{di}$ di"
+      },
+      {
+       "p": "Setting dY = 0, we can solve for the required change in i as:"
+      },
+      {
+       "p": "0 $= \\frac{Y}{1 - (c_{1}+ b_{1})}$ db$_{1}- \\frac{b_{2}}{1 - (c_{1}+ b_{1})}$ di"
+      },
+      {
+       "p": "di $= \\frac{Y}{b_{2}}$ db$_{1}$"
+      },
+      {
+       "p": "This means that the central bank needs to lower the interest rate. b$_{2}$represents the sensitivity of output to the interest rate. At higher levels of b$_{2}$the central bank is required to change the interest rate by less to achieve the same effect on output. Graphically, this scenario is represented by a shift downwards of the LM curve:"
+      },
+      {
+       "img": "g1/p4-1.png",
+       "w": 524,
+       "h": 396
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "[10 points] Fiscal Policy Response: Suppose instead that the government decides to maintain out put constant by changing government spending. By how much would $G$ need to change to achieve this objective? Re-draw the graph in question 4 to represent this scenario."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 points] Fiscal Policy Response: Suppose instead that the government decides to maintain out put constant by changing government spending. By how much would $G$ need to change to achieve this objective? Re-draw the graph in question 4 to represent this scenario."
+      },
+      {
+       "p": "Similarly, we start by totally differentiating equation 1 w.r.t. our variables of interest:"
+      },
+      {
+       "p": "dY $= \\frac{dY}{db_{1}}$ db$_{1}+ \\frac{dY}{dG}$ dG"
+      },
+      {
+       "p": "Then, set dY = 0 and solve for the required change in G:"
+      },
+      {
+       "p": "0 $= \\frac{Y}{1 - (c_{1}+ b_{1})}$ db$_{1}+ \\frac{1}{1 - (c_{1}+ b_{1})}$ dG"
+      },
+      {
+       "p": "dG $= -$Ydb$_{1}$"
+      },
+      {
+       "p": "Therefore, to keep output constant in response to a decline in b$_{1}$, the government needs to increase its spending. Graphically, this will shift the IS curve outward:"
+      },
+      {
+       "img": "g1/p5-1.png",
+       "w": 532,
+       "h": 396
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Extended IS-LM Model [25 Points]",
+   "partes": [
+    {
+     "p": "Consider the extended IS-LM model where investment depends on the real interest rate $r$, which is given by the nominal interest rate $i$ minus inflation expectations $\\pi^{e}$,"
+    },
+    {
+     "p": "$$r = i - \\pi^{e}$$",
+     "display": true
+    },
+    {
+     "p": "This is known as the \"Fisher equation\". The extended IS-LM model is then pinned down by the follow ing system of equations"
+    },
+    {
+     "p": "$$Z = C + I + G$$",
+     "display": true
+    },
+    {
+     "p": "$$C = c_{0}+ c_{1}(Y - T)$$",
+     "display": true
+    },
+    {
+     "p": "$$I = b_{0}+ b_{1}Y - b_{2}r$$",
+     "display": true
+    },
+    {
+     "p": "$$i = \\bar{i}$$",
+     "display": true
+    },
+    {
+     "p": "where as before, $C$ is consumption, $I$ is investment, $G$ is government spending, $T$ is taxes and $r$ is the real interest rate. We assume that the Central Bank sets the nominal interest rate $i = \\bar{i}$, and that $T$ and $G$ are exogenous. Parameters ($c_{0}, c_{1}, b_{0}, b_{1}, b_{2}$) are positive and $b_{1}+ c_{1}< 1$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[5 points] The University of Michigan runs a monthly survey of households, asking respondents for expected inflation over the next 12 months. Plot this (e.g. on FRED the series name is 'MICH'). What has happened to inflation expectations over the last two years?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] The University of Michigan runs a monthly survey of households, asking respondents for expected inflation over the next 12 months. Plot this (e.g. on FRED the series name is 'MICH'). What has happened to inflation expectations over the last two years?"
+      },
+      {
+       "p": "Inflation expectations have risen in the last two years and have been declining again recently."
+      },
+      {
+       "img": "g1/p6-1.png",
+       "w": 428,
+       "h": 165
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[5 points] Solve for equilibrium output in the extended IS-LM model. In particular, please solve for $Y$ as a function of the nominal interest rate $i$, rather than the real interest rate, and include $\\pi^{e}$in the expression."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Solve for equilibrium output in the extended IS-LM model. In particular, please solve for $Y$ as a function of the nominal interest rate $i$, rather than the real interest rate, and include $\\pi^{e}$in the expression."
+      },
+      {
+       "p": "Accounting for inflation expectations, we get:"
+      },
+      {
+       "p": "$$Y = Z$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow Y = c_{0}+ c_{1}(Y - T) + b_{0}+ b_{1}Y - b_{2}r + G$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow Y(1 - c_{1}- b_{1}) = c_{0}- c_{1}T + b_{0}- b_{2}r + G$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow Y = \\frac{1}{1 - c_{1}- b_{1}} (c_{0}- c_{1}T + b_{0}- b_{2}r + G)$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow Y = \\frac{1}{1 - c_{1}- b_{1}} (c_{0}- c_{1}T + b_{0}- b_{2}i + b_{2}\\pi^{e}+ G)$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[5 points] Suppose inflation expectations rise 3 percentage points. By how much should the central bank raise the nominal interest rate to keep output $Y$ constant?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Suppose inflation expectations rise 3 percentage points. By how much should the central bank raise the nominal interest rate to keep output $Y$ constant?"
+      },
+      {
+       "p": "From equation (2), we can see that i must increase 1-for-1 with expected inflation $\\pi^{e}$to keep output constant. So i should rise by 3 percentage points as well."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[5 points] Suppose the central bank fxes the nominal interest rate at some level $i$, but announces that it plans to increase the money supply and generate inflation in the future. This announcement causes expected inflation $\\pi^{e}$to rise. This is a policy known as \"forward guidance\".What happens to the real interest rate? What happens to output?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Suppose the central bank fxes the nominal interest rate at some level $i$, but announces that it plans to increase the money supply and generate inflation in the future. This announcement causes expected inflation $\\pi^{e}$to rise. This is a policy known as \"forward guidance\".What happens to the real interest rate? What happens to output?"
+      },
+      {
+       "p": "From equation (2), we can see that output increases, $\\frac{dY}{d\\pi^{e}} = \\frac{b_{2}}{1-c_{1}-b_{1}} > 0$, so Y increases by $\\frac{b_{2}}{1-c_{1}-b_{1}}\\delta$ . The real interest rate decreases 1-for-1 by an amount $-\\delta$ .."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "[5 points] Recall that nominal interest rates cannot go much below zero, because if a bond paid a negative nominal interest rate, holders of the bond would want to switch from holding bonds to holding cash, which always pays a 0% nominal interest rate. Suppose inflation expectations are currently 2%, $\\pi^{e}=$ 2%. Assuming that $i \\geq$ 0, what is the lowest real interest rate that the central bank could achieve?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Recall that nominal interest rates cannot go much below zero, because if a bond paid a negative nominal interest rate, holders of the bond would want to switch from holding bonds to holding cash, which always pays a 0% nominal interest rate. Suppose inflation expectations are currently 2%, $\\pi^{e}=$ 2%. Assuming that $i \\geq$ 0, what is the lowest real interest rate that the central bank could achieve?"
+      },
+      {
+       "p": "Due to the zero lower bound, the nominal interest rate must satisfy i $\\geq 0$. Since i $= r + \\pi^{e}$, this implies r $\\geq -\\pi^{e}= -$2%."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

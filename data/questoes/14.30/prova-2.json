@@ -1,0 +1,282 @@
+{
+ "etapa": "14.30/prova-2",
+ "fontes": [
+  {
+   "rotulo": "Prova de 2009",
+   "url": "https://ocw.mit.edu/courses/14-30-introduction-to-statistical-methods-in-economics-spring-2009/437ceb34efa23a56f7fb7b47b837574d_MIT14_30s09_exam02_09.pdf",
+   "paginas": 5
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.30 Exam II Spring 2009 Instructions: This exam is closed-book and closed-notes. You may use a calculator. Please read through the exam first in order to ask clarifying questions and to allocate your time appropriately. In order to receive partial credit in the case of computational errors, please show all work. You have approximately 85 minutes to complete the exam. Good luck!"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(15 points) Short Questions Answers should be brief, but complete."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Confirm or correct the following statement: for any random variables $X_{1}$ and $X_{2}$, $E[X_{1} + X_{2}] = E[X_{1}] + E[X_{2}]$ and Var($X_{1} + X_{2}$) = Var($X_{1}$) + Var($X_{2})$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Suppose $X \\sim U [0$, 1], and $Y = -_{\\lambda}^{1}$ log(1$- X$). Find the c.d.f. of $Y$ ."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Briefly explain the relationship (1) between the binomial distribution and the standard normal distribution, and (2) between the binomial distribution and the Poisson distribution for a large number $n$ of trials in the binomial experiment."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(20 points) We are investigating the duration of unemployment for workers who just lost their jobs, and unemployment durations $T$ are distributed according to the p.d.f."
+    },
+    {
+     "img": "e1/p2-1.png",
+     "w": 159,
+     "h": 24
+    },
+    {
+     "p": "for some $\\lambda > 0$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Calculate $E[T ]$ and $E[T^{2}]$ for a fixed value for $\\lambda$ ."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Calculate Var($T )$ for a given $\\lambda$ . Suppose now that there are two different types of workers losing their jobs: there is a proportion $p_{S}= 0.2$ of skilled workers which are in high demand and tend to find a new job easily, and a share $(1 - p_{S})$ of unskilled workers $U$ that tend to be unemployed for a longer period. For skilled workers, the distribution of unemployment durations measured in weeks is given by the p.d.f. stated above with $\\lambda_{S}= 0.32$, and for unskilled workers, we have $\\lambda = \\lambda_{U}= 0.08$. In other words, we can treat $\\lambda$ as a random variable which takes the values $\\lambda_{S}$and $\\lambda_{U}$with probabilities $p_{S}$and $1 - p_{S}$, respectively, and the p.d.f. $f_{T} (t; \\lambda )$ corresponds to the conditional p.d.f. of $T$ given $\\lambda$ ."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Calculate the unconditional expectation $E[T ]$ of length of an unemployment spell."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Calculate the (unconditional) variance Var($T )$ of unemployment duration."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "State the joint p.d.f. $f_{\\lambda ,T}$of $(\\lambda , T$ ), and calculate the conditional probability $P (\\lambda = \\lambda_{S}|T = 10)$. How does this compare to the unconditional probability $P (\\lambda = \\lambda_{S}) = p_{S}$? Intuitively, how do you explain this difference?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "algo sumiu antes da pontuação"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q2e-p2.png",
+       "w": 455,
+       "h": 42
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(10 points) Suppose you have the following information about the joint distribution of two random variables $X$ and $Y$ : Their expectations are $E[X$] = 2 and $E[Y ] = 1.5$, and the variances are Var($X) = 4$ and Var($Y ) = 9$, respectively. Also, it is known that the correlation coefficient is $(X, Y ) =_{3}^{1}$. Calculate the expectation of the product $E[XY ]$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(30 points) Suppose $X \\sim N (0, \\sigma^{2}$), and we define"
+    },
+    {
+     "img": "e1/p2-2.png",
+     "w": 164,
+     "h": 35
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Given $\\sigma^{2}$, what is the p.d.f. of $Y$ ?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Calculate the expectation $E[Y ]$ and the variance Var($Y )$ as a function of $\\sigma^{2}$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "What would $\\sigma^{2}$ have to be in order for the variance to be Var($Y ) = 0.05$?"
+      },
+      {
+       "p": "Now, suppose instead that $X$ is from some unknown symmetric distribution, i.e. with a c.d.f. satisfying $F_{X} (x) = 1 - F_{X} (x$), and suppose that $E[X] = 0$ and Var($X) = \\sigma^{2}$. Also given this new random variable, $Y = g(X)$ is defined as above."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Find the expectation $E[Y ]$ and the variance Var($Y )$ in terms of values of the c.d.f. $F_{X} (x)$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Use Chebyshev's Inequality $P (|X - E[X]| > \\varepsilon ) \\leq$ Var($_{2}X)$"
+      },
+      {
+       "p": "$$\\varepsilon$$",
+       "display": true
+      },
+      {
+       "p": "to give the largest value of $\\sigma^{2}$ which ensures Var($Y ) \\leq 0.05$ without any further knowledge on the distribution of $X$. How does this compare to your answer in (c)? Hint: Start by rewriting the left-hand side Chebyshev's Inequality in terms of the c.d.f. of $X$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q4e-p3.png",
+       "w": 455,
+       "h": 81
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(15 points) Suppose you observe a sample $X_{1}, . . . , X_{n}$of i.i.d. random variables, where the $X_{i}$s are exponentially distributed with failure rate $\\lambda$ for each $i$, i.e. $X_{i}$has marginal p.d.f."
+    },
+    {
+     "img": "e1/p3-1.png",
+     "w": 153,
+     "h": 24
+    },
+    {
+     "p": "We are interested in the maximum of the sample, $Y_{n}$:= max$\\{X_{1}, . . . , X_{n}\\}$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Give the cumulative distribution function (c.d.f) $F_{Yn} (y)$ of $Y_{n}$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Now suppose $\\lambda$ = 1. Derive the c.d.f. $F_{\\tilde{Y}n} (y)$ of $\\tilde{Y}_{n}$:= max$\\{X_{1}, . . . , X_{n}\\} -$ log$n$, and show that for $n \\to \\infty$ ,"
+      },
+      {
+       "p": "$$_{n}\\text{lim }_{\\to \\infty}F_{\\tilde{Y}n} (y) = e^{-e-y}$$",
+       "display": true
+      },
+      {
+       "img": "e1/p4-1.png",
+       "w": 16,
+       "h": 288
+      },
+      {
+       "img": "e1/p5-1.png",
+       "w": 13,
+       "h": 364
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

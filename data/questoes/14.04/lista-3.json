@@ -1,0 +1,308 @@
+{
+ "etapa": "14.04/lista-3",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-04-intermediate-microeconomic-theory-fall-2020/mit14_04f20_pset3.pdf",
+   "paginas": 5
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "Problem Set 3 14.04, Fall 2020 Prof: Robert Townsend TA: Laura Zhang and Michael Wong$^{1}$"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Risk Sharing",
+   "partes": [
+    {
+     "p": "Ridhi and Neha are neighbors who farm wheat for a living. In each of 30 periods, they grow, harvest, and eat wheat. They are permitted to gift wheat to their neighbor, but they may not save wheat between periods or throw wheat away. The two farmers have CRRA utility functions, such that if one of them has risk aversion parameter $\\theta$ and consumes $c$ bushels of wheat, that farmer gets"
+    },
+    {
+     "p": "$$U (c) = \\frac{c^{1-\\theta} - 1}{1 - \\theta}$$",
+     "display": true
+    },
+    {
+     "p": "units of utility in the given period. Ridhi is risk adverse, with $\\theta_{Ridhi} = 0.999$ and Neha is nearly risk neutral, with $\\theta_{Neha} = 0.001.^{2}$ In the \"Risk Sharing Simulation.xlsx\" model, they each grow on average 28 bushels of wheat when output is High. When output is Low, they each grow on average 10 bushels of wheat."
+    },
+    {
+     "p": "Notes on Excel program: You need to enable macros when you open the Excel document to use the formulas. If you get a compile error, you may be using an earlier version of Excel that does not have the functions needed to run the program. Go to MIT IS&T to download the 2019 version of Excel."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1.1",
+     "partes": [
+      {
+       "p": "Shared Shock, Different Risk Aversion Open \"Risk Sharing Simulation.xlsx\" and enable macros. In this problem set you will analyze contracts in two ways: (1) by using the simulation as a rough approximation of risk sharing results, and (2) by calculating the expected utili ties exactly."
+      },
+      {
+       "p": "Suppose the weather determines whether harvests are High or Low, meaning Ridhi and Neha experience the same shocks to their output. If the weather is good, both enjoy High output. If the weather is bad, both suffer Low output. The weather is good 1/2 the time and bad 1/2 the time."
+      },
+      {
+       "p": "1 $\\frac{We greatly appreciate the work put in by Catherine Huang in designing parts of this}{problem set}$ $^{2}$As $\\theta_{Neha}$ approaches $0, U (c) \\approx c - 1$. As $\\theta_{Ridhi}$ approaches $1, U (c) \\approx$ ln($c)$."
+      }
+     ],
+     "tipo": "grupo",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q11.1-p1.png",
+       "w": 354,
+       "h": 170
+      }
+     ]
+    },
+    {
+     "id": "1.1a",
+     "partes": [
+      {
+       "p": "Ridhi and Neha's friend Rob proposes a contract in which Ridhi gives Neha 9 bushels of wheat when the weather is good, and Neha gives Ridhi 9 bushels of wheat when the weather is bad. Use the \"Randomize State and Yield\" button to repeatedly simulate 30 periods of consumption and utilities in the Excel spreadsheet. Is Ridhi's simulated mean utility typically higher under autarky or under Rob's risk-sharing contract? Why? Answer the same for Neha. (A few sentences will suffice.)"
+      }
+     ],
+     "pai": "1.1",
+     "tipo": "aberta"
+    },
+    {
+     "id": "1.1b",
+     "partes": [
+      {
+       "p": "Approximate Ridhi and Neha's utilities by letting $U_{Ridhi}(c) =$ ln($c)$ and $U_{Neha}(c) = c - 1$. Calculate each farmer's expected utility first in au tarky, then under the contract. Will Ridhi will accept Rob's risk-sharing contract? Will Neha? Provide intuition for why in each case."
+      }
+     ],
+     "pai": "1.1",
+     "tipo": "aberta"
+    },
+    {
+     "id": "1.2",
+     "partes": [
+      {
+       "p": "Shared Shock, Same Risk Aversion"
+      }
+     ],
+     "tipo": "grupo"
+    },
+    {
+     "id": "1.2a",
+     "partes": [
+      {
+       "p": "Now suppose output level still depends on the weather, but Neha's risk aversion increases such that $\\theta_{Neha} = 0.999$ also. Using simulations from the Excel spreadsheet, describe whether Neha's simulated mean utility is typically higher under autarky or under Rob's risk-sharing contract. Is this different from your answer that in 1.1(a)? Why?"
+      }
+     ],
+     "pai": "1.2",
+     "tipo": "aberta"
+    },
+    {
+     "id": "1.2b",
+     "partes": [
+      {
+       "p": "Approximate Ridhi and Neha's utilities by letting $U_{Ridhi}(c) =$ ln($c)$ and $U_{Neha}(c) =$ ln($c)$. Use expected utility theory to explain whether Ridhi and Neha will both accept the contract. Provide intuition."
+      }
+     ],
+     "pai": "1.2",
+     "tipo": "aberta"
+    },
+    {
+     "id": "1.2c",
+     "partes": [
+      {
+       "p": "Is there any contract that Ridhi and Neha would both accept? Why?"
+      }
+     ],
+     "pai": "1.2",
+     "tipo": "aberta"
+    },
+    {
+     "id": "1.3",
+     "partes": [
+      {
+       "p": "Idiosyncratic Shock, Same Risk Aversion Suppose $\\theta_{Ridhi} = \\theta_{Neha} = 0.999$ still, but now shocks are idiosyncratic: the weather doesn't matter, but each year, a swarm of Hessian flies attacks Ridhi's farm with probability 1/2. The same swarm may attack Neha's farm with independent probability 1/2. If a farm is attacked, that farmer's output is Low. If a farm is not attacked, that farmer's output is High. Rob also changes the contract. If Ridhi has High output, she gives Neha 6 bushels regardless of Neha's output in the same period. If Neha has High output, she gives Ridhi 7 bushels regardless of Ridhi's output in the same period. Farmers do not give anything to their neighbor if they experience Low output."
+      }
+     ],
+     "tipo": "grupo"
+    },
+    {
+     "id": "1.3a",
+     "partes": [
+      {
+       "p": "Using simulations from the Excel spreadsheet, explain whether Neha's sim ulated mean utility is typically higher under autarky or under Rob's risksharing contract and why. Do the same for Ridhi."
+      }
+     ],
+     "pai": "1.3",
+     "tipo": "aberta"
+    },
+    {
+     "id": "1.3b",
+     "partes": [
+      {
+       "p": "Approximate Ridhi and Neha's utilities by letting $U_{Ridhi}(c) =$ ln($c)$ and $U_{Neha}(c) =$ ln($c)$. Use expected utility theory to explain whether Ridhi and Neha will both accept the contract."
+      }
+     ],
+     "pai": "1.3",
+     "tipo": "aberta"
+    },
+    {
+     "id": "1.4",
+     "partes": [
+      {
+       "p": "Idiosyncratic Shock, Different Risk Aversion Now, let $\\theta_{Ridhi} = 0.999$ and $\\theta_{Neha} = 0.001$. Consider a contract that takes the same form as the one in Question 3: if Ridhi has High output, she gives Neha $r$ bushels regardless of Neha's output in the same period. If Neha has High output, she gives Ridhi $n$ bushels regardless of Ridhi's output in the same period."
+      },
+      {
+       "p": "With risk neutral utility, Neha will reject the contract in Question 3. Given $\\theta_{Ridhi} = 0.999$ and $\\theta_{Neha} = 0.001$, is there a contract both farmers would ac cept? Explain."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Contracting with Asymmetric Information",
+   "partes": [
+    {
+     "p": "A monastery $(M)$ is endowed with $W$ units of wealth and a villa $V$ is endowed with $\\theta$ units of wealth, where $\\theta$ is a random variable taking on the following values:"
+    },
+    {
+     "img": "e1/p3-1.png",
+     "w": 104,
+     "h": 22
+    },
+    {
+     "p": "Assume $W > H > L$. The monastery can send a transfer $\\tau$ to the villa. (We allow the possibility of $\\tau < 0$, i.e. the villa pays the monastery.) The monastery's utility is $W - \\tau$ and the villa's utility is $u(\\theta + \\tau )$ where $u(\\cdot )$ is strictly increasing and strictly concave. There is a social planner, who chooses the transfer to maximize a $\\lambda$ -weighted sum of the monastery's and villa's expected utilities."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Suppose for now that the social planner can observe the realization of $\\theta$ and can decide on a transfer $\\tau (\\theta )$ after they have done so. Set up the social planner's optimization problem."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Derive the first-order conditions and show that the social planner optimally chooses the transfer so that the villa's consumption $(\\theta +\\tau (\\theta ))$ does not depend on $\\theta$ ."
+      },
+      {
+       "p": "Now suppose the social planner cannot observe $\\theta$ . Instead, only the villa"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Suppose the social planner simply assumes the villa's report is always truth ful, so that she selects the $\\tau (H)$ from part b) when the villa reports $\\tilde{\\theta} = H$ and the $\\tau (L)$ from part b) when the villa reports $\\tilde{\\theta} = L$. What will the villa optimally report:"
+      },
+      {
+       "p": "i. When $\\theta = H$? ii. When $\\theta = L$?"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "sees the value of $\\theta$ . The social planner relies on the villa to make a report of $\\theta$ , $\\tilde{\\theta}$, to her, and then chooses a (non-random) transfer $\\tau (\\tilde{\\theta})$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Write down the incentive compatibility constraints that the social planner's transfer scheme $\\tau (\\tilde{\\theta})$ must satisfy if the villa is to tell the truth. What do these constraints imply about $\\tau (H)$ and $\\tau (L$)? Now, suppose the social planner can offer a lottery as a transfer. That is,"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Write down the social planner's optimization problem now, including the new incentive compatibility constraints."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "the transfer can take on $K$ values $\\{\\tau_{1}, . . . , \\tau_{K}\\}$ and the social planner can choose the probability of each value conditional on the report, $\\{\\pi (\\tau_{k}|\\tilde{\\theta})\\}_{k=1}^{K}$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "Discuss briefly how one could, in practice, solve this problem given a func tional form for $u(\\cdot )$ (but there is no need to actually solve it)."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Contracting with Moral Hazard",
+   "partes": [
+    {
+     "p": "Consider a principal $(P)$ and an agent $(A). A$ can exert an effort level $e \\in \\{0, 1\\}$, which yields some profit $\\pi e$ to the principal, where $\\pi \\in R. P$ can make a transfer to $A$ denoted by $t \\in R$. The player's payoffs are given by"
+    },
+    {
+     "p": "$$u_{A}(e,t) = t - e$$",
+     "display": true
+    },
+    {
+     "p": "$$u_{P} (e,t) = \\pi e - t$$",
+     "display": true
+    },
+    {
+     "p": "A social planner can choose a deterministic allocation rule $(e,t)$ to implement. In this question, we will focus on the case where the social planner always wants to maximize the unweighted sum of the two player's payoffs."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Suppose that the social planner can directly choose A's level of effort $e$. Write down the planner's problem to find $e^{F B}$ and $t^{F B}$ that maximizes the unweighted sum of the two player's utilities. Under what condition is $e^{F B} =$ 1?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Now suppose that the social planner must choose an effort level $e$ that $A$ is willing to perform. Write down the planner's problem to find $e^{MH}$ and $t^{MH}$ that maximize the sum of the two player's utilities, subject to $A$'s incentive compatibility constraints, which requires that the agent is willing to exert the chosen level of effort."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Is it ever possible to have $e^{MH} =$ 1? What if we allow for lotteries over transfers?"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

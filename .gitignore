@@ -20,3 +20,4 @@ supabase/.temp/
 .vercel
 .env*
 __pycache__/
+data/raw/pdf/

@@ -1,0 +1,302 @@
+{
+ "etapa": "18.02SC/prova-2",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/82e746297259b200cb983347a8e8b737_MIT18_02SC_exam2.pdf",
+   "paginas": 2
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Exam 2"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Let $f (x, y) = x^{2}y^{2} - x$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(5) Find $\\nabla f$ at (2,1)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\mathcal{V}f = (2xy^{2} - 1, 2x^{2}y) = (3, 8) = 3\\hat{i} + 8\\hat{j}$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5) Write the equation for the tangent plane to the graph of $f$ at (2,1,2)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$z - 2 = 3(x - 2) + 8(y - 1)$ or $z = 3x + 8y - 12$."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "(5) Use a linear approximation to find the approximate value of $f (1.9, 1.1)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\Delta x = 1.9-2 = -1/10$ and $\\Delta y = 1.1-1 = 1/10$. So $z c 2+3\\Delta x+8\\Delta y = 2-3/10+8/10 = 2.5$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "(5) Find the directional derivative of $f$ at (2,1) in the direction of $-\\hat{\\imath} + \\hat{\\mathbf{j}}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1d-p1.png",
+       "w": 253,
+       "h": 29
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(10) On the contour plot below, mark the portion of the level curve $f = 2000$ on which $\\frac{\\partial f}{\\partial y} \\geq 0$."
+    },
+    {
+     "img": "e1/p1-1.png",
+     "w": 98,
+     "h": 141
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2-p1.png",
+     "w": 383,
+     "h": 172
+    }
+   ]
+  },
+  {
+   "n": "3",
+   "titulo": "a) (10) Find the critical points of",
+   "partes": [
+    {
+     "p": "$$w = -3x^{2} - 4xy - y^{2} - 12y + 16x$$",
+     "display": true
+    },
+    {
+     "p": "and say what type each critical point is."
+    }
+   ],
+   "itens": [
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(10) Find the point of the first quadrant $x \\geq 0, y \\geq 0$ at which $w$ is largest. Justify your answer."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "There is no critical point in the first quadrant, hence the maximum must be at infinity or on the boundary of the first quadrant. The boundary is composed of two half-lines:"
+      },
+      {
+       "p": "$• x = 0$ and $y \\geq 0$ on which $w = -y^{2} - 12y$. It has a maximum $(w = 0)$ at $y = 0$. $• y = 0$ and $x \\geq 0$, where $w = -3x^{2} + 16x$. (The graph is a parabola pointing downwards). Maximum: $w_{x} = -6x + 16 = 0 \\Rightarrow x = 8/3$. Hence $w$ has a maximum at $(8/3, 0)$ and $w = -3(8/3)^{2} + 16 \\cdot 8/3 = 64/3 > 0$."
+      },
+      {
+       "p": "We now check that the maximum of $w$ is not at infinity:"
+      },
+      {
+       "p": "$•$ If $y \\geq 0$ and $x +\\infty$ then $w \\leq -3x^{2} + 16x$, which tends to $-\\infty$ as $x +\\infty$ . $•$ If $0 \\leq x \\leq C \\overrightarrow{and} y \\to +\\infty$ , then $w \\leq -y^{2} + 16C$, which tends to $-\\infty \\overrightarrow{as} y \\to +\\infty$ ."
+      },
+      {
+       "p": "We conclude that the maximum of $w$ in the first quadrant is at $(8/3, 0)$."
+      },
+      {
+       "p": "$$w_{x} = u_{x}w_{u} + v_{x}w_{v} = -\\frac{y}{x^{2}}w_{u} + 2xw_{v}$$",
+       "display": true
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Let $u = y/x, v = x^{2} + y^{2}, w = w(u, v)$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(10) Express the partial derivatives $w_{x}$ and $w_{y}$ in terms of $w_{u}$ and $w_{v}$ (and $x$ and $y)$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(7) Express $xw_{x} + yw_{y}$ in terms of $w_{u}$ and $w_{v}$. Write the coefficients as functions of $u$ and $v$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$xw_{x} + yw_{y} = x(-\\frac{y}{x^{2}}w_{u} + 2xw_{v}) + y( \\frac{1}{x}w_{u} + 2yw_{v}) = (-\\frac{y}{x} + \\frac{y}{x})w_{u} + (2x^{2} + 2y^{2})w_{v} = 2vw_{v}$."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "(3) Find $xw_{x} + yw_{y}$ in case $w = v^{5}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$xw_{x} + yw_{y} = 2vw_{v} = 2v \\cdot 5v^{4} = 10v^{5}$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(10) Find the Lagrange multiplier equations for the point of the surface"
+      },
+      {
+       "p": "$$x^{4} + y^{4} + z^{4} + xy + yz + zx = 6$$",
+       "display": true
+      },
+      {
+       "p": "at which $x$ is largest. (Do not solve.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (x,y,z) = x$; the constraint is $g(x,y,z) = x^{4} + y^{4} + z^{4} + xy + yz + zx = 6$. The Lagrange multiplier equation is:"
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 208,
+       "h": 38
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(5) Given that $x$ is largest at the point $(x_{0}, y_{0}, z_{0})$, find the equation for the tangent plane to the surface at that point."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q5b-p2.png",
+       "w": 478,
+       "h": 140
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Suppose that $x^{2} + y^{3} - z^{4} = 1$ and $z^{3} + zx + xy = 3$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "(8) Take the total differential of each of these equations."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Taking the total differential of $x^{2}+ y^{3} -z^{4} = 1$, we get: $2xdx +3y^{2} dy- 4z^{3} dz = 0$. Similarly, from $z^{3} + zx + xy = 3$, we get: $(y + z) dx + xdy + (3z^{2} + x) dz = 0$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "(7) The two surfaces in part (a) intersect in a curve along which $y$ is a function of $x$. Find $dy/dx$ at $(x, y, z) = (1, 1, 1)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "At (1,1,1) we have: $2 dx + 3 dy - 4 dz = 0$ and $2 dx + dy + 4 dz = 0$. We eliminate $dz$ (by adding these two equations): $4 dx + 4 dy = 0$, so $dy = -dx$, and hence $dy/dx = -1$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

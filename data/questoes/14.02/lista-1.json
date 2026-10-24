@@ -1,0 +1,434 @@
+{
+ "etapa": "14.02/lista-1",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset1.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.02 - Principles of Macroeconomics Problem Set 1"
+  },
+  {
+   "p": "Spring 2023"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Economic Data [35 Points]",
+   "partes": [
+    {
+     "p": "This question will ask you to get familiar with economic data, plotting it, and drawing conclusions. Please use the Federal Reserve Economic Data (FRED) database, maintained by the Federal Reserve Bank of St. Louis (link here). For your reference, note that the National Bureau of Economic Research (NBER) is the entity that dates the business cycles in the US (link here). Please be precise about what units you are using and don't forget to include a title and axis labels in all charts, you can use any software you'd like, e.g. Excel is fine."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[10 Points] Download and plot the series of US Real Gross Domestic Product (code GDPC1, bil lions of chained 2012 dollars annual rate) at a quarterly frequency, from the earliest available date to the last available date. What is the fourth quarter of 2021 real GDP? At a quarterly frequency, how much did real GDP fall \"from peak to trough\" during the COVID-19 recession? (i.e.: from the maximum RGDP before the recession, to the lowest point during the recession.) How much did real GDP fall from peak to trough during the Great Recession (2007-2009)?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Download and plot the series of US Real Gross Domestic Product (code GDPC1, billions of chained 2012 dollars annual rate) at a quarterly frequency, from the earliest available date to the last available date. What is the fourth quarter of 2021 real GDP? At a quarterly frequency, how much did real GDP fall \"from peak to trough\" during the COVID-19 recession? (i.e.: from the maximum RGDP before the recession, to the lowest point during the recession.) How much did real GDP fall from peak to trough during the Great Recession (2007-2009)?"
+      },
+      {
+       "img": "g1/p1-1.png",
+       "w": 292,
+       "h": 112
+      },
+      {
+       "p": "Courtesy of Federal Reserve Bank of St. Louis. https://fred.stlouisfed.org. 2021Q4 Real GDP: 19,805 Billions of 2012 USD. During the COVID-19 recession, real GDP hit bottom during Q2 2020, when GDP was \\$17,258.20 (in 2012 billions of dollars); down from a peak of \\$19,202.31 in Q4 2019. Thus, real GDP fell during the pandemic by 10.1%. During the Great Recession, real GDP hit bottom during Q2 2009, when GDP was \\$15,161.77 (in 2012 billions of dollars); down from a peak of \\$15,792.77 in Q2 2008. Thus, real GDP fell by 4.0%. (Setting the peak at Q4 2007 is also acceptable since this is the date chosen by the NBER, Real GDP is \\$15, 767)."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[5 Points] Download and plot the series for quarterly unemployment (UNRATE), from the earliest available date to the latest. How does the unemployment rate in Q4 2019 compare to Q2 2020? How do the changes in unemployment rate now compare to the period between Q2 2008 and Q2 2009?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q12-p1.png",
+       "w": 498,
+       "h": 60
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q12-p2.png",
+       "w": 498,
+       "h": 60
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[10 Points] Using the real GDP series you downloaded in (1), compute the quarterly output growh rate as $g_{t}= \\frac{GDP_{t}-GDP_{t-1}}{GDP_{t-1}} \\times$ 100 . Next, using the unemployment rate series you downloaded in (2), compute the quarterly change in the unemployment rate as $\\Delta u_{t}= u_{t}- u_{t-1}$. Plot $\\Delta u_{t}$on the y-axis, and $g_{t}$on the x-axis over the period 1960-2019, and over the period 1960-2022. Describe the pattern you find in words. Are the changes in output and unemployment during the 2008 financial crisis and the COVID-19 recession qualitatively consistent with what we would expect from Okun's law?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Using the real GDP series you downloaded in (1), compute the quarterly output growh rate as $g_{t}= \\frac{GDP_{t}-GDP_{t-1}}{GDP_{t-1}} \\times$ 100 . Next, using the unemployment rate series you downloaded in (2), compute the quarterly change in the unemployment rate as $\\Delta u_{t}= u_{t}- u_{t-1}$. Plot $\\Delta u_{t}$on the y-axis, and $g_{t}$on the x-axis over the period 1960-2019, and over the period 1960-2022. Describe the pattern you find in words. Are the changes in output and unemployment during the 2008 financial crisis and the COVID-19 recession qualitatively consistent with what we would expect from Okun's law?"
+      },
+      {
+       "img": "g1/p2-2.png",
+       "w": 145,
+       "h": 87
+      },
+      {
+       "img": "g1/p2-3.png",
+       "w": 291,
+       "h": 87
+      },
+      {
+       "p": "The pattern is called Okun's law: output growth that is higher than usual is associated with a reduction in the unemployment rate; output growth that is lower than usual is associated with an increase in the unemployment rate. The change in unemployment and output in the recent months in more pronounced and happened in a shorter period of time. These changes are consistent with Okun's law: unemployment rose when RGDP fell, and vice versa"
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[5 Points] Download the quarterly Employment to Population Ratio for 25-54 year olds (LNS12300060), from the earliest available date to the latest. Plot the non-employment to population ratio, calcu lated as 100% - employment to population ratio. How does the non-employment to population ratio in Q4 2019 compare to Q2 2020? How do the changes in the non-employment to population ratio compare to the period between Q2 2008 and Q2 2009?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Download the quarterly Employment to Population Ratio for 25-54 year olds (LNS12300060), from the earliest available date to the latest. Plot the non-employment to population ratio, calcu lated as 100% - employment to population ratio. How does the non-employment to population ratio in Q4 2019 compare to Q2 2020? How do the changes in the non-employment to population ratio compare to the period between Q2 2008 and Q2 2009?"
+      },
+      {
+       "img": "g1/p3-1.png",
+       "w": 451,
+       "h": 112
+      },
+      {
+       "p": "2019Q4: 19.7%, 2020Q4: 23.9%, 2008Q2: 20.5%, 2009Q2: 24.0%. The change in the non-employment to population ratio is more pronounced and occurred in a shorter period of time during the COVID19 recession compared to the Great Recession."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "[5 Points] Compare the relationship between the evolution of the Unemployment Rate and the evo lution of the Non-Employment to Population Ratio from peak to trough of the COVID-19 recession and the 2008 financial crisis. Why is there not a 1-1 relationship between the two variables (write down the formulas for each one)? What can you conclude about labor force participation during the COVID-19 recession (feel free to use FRED to answer this question if helpful)?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Compare the relationship between the evolution of the Unemployment Rate and the evo lution of the Non-Employment to Population Ratio from peak to trough of the COVID-19 recession and the 2008 financial crisis. Why is there not a 1-1 relationship between the two variables (write down the formulas for each one)? What can you conclude about labor force participation during the COVID-19 recession (feel free to use FRED to answer this question if helpful)?"
+      },
+      {
+       "p": "Consider the formulas for the unemployment rate (UR): $\\frac{U}{U+E}$ and the formula for the non-employment to population ratio (NEPOP): $1 -_{Population}^{E}= 1 - \\frac{E}{U+E+N}$, where U is the level of unemployment, E is the level of employment, and N is the number of people Not in the labor force. The relationship may not be one to one because people may be dropping out of the labor force, this would lead the denominator of the UR and not the NEPOP to change. As you can see on FRED, there was lower labor force participation during COVID, suggesting more people dropped out of the labor force during this period than during the financial crisis."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Measuring nominal and real GDP [30 Points]",
+   "partes": [
+    {
+     "p": "Consider the following closed-economy in which there are only three goods: masks, movies, and air travel. The following table gives the prices and quantities consumed of the three goods for 2019 and 2020, and 2021:"
+    },
+    {
+     "p": "2019 2020 2021 Price Quantity Price Quantity Price Quantity"
+    },
+    {
+     "img": "e1/p2-1.png",
+     "w": 314,
+     "h": 39
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[5 Points] Compute the Nominal GDP (NGDP) of each year, show your work."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Compute the Nominal GDP (NGDP) of each year, show your work. NGDP$_{19}= 0.1 * 60 + 5 * 90 + 100 * 15 = 1956$ NGDP$_{20}= 2 * 400 + 5 * 10 + 40 * 10 = 1250$ NGDP$_{21}= 0.5 * 350 + 5 * 60 + 75 * 20 = 1975$"
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[5 Points] Compute the real GDP (RGDP) for each year using 2019 as the base year. Then compute annual RGDP growth for each year and express it as a percentage."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Compute the real GDP (RGDP) for each year using 2019 as the base year. Then compute annual RGDP growth for each year and express it as a percentage."
+      },
+      {
+       "p": "Denote RGDP$_{t}(b)$ as real GDP for year t using base year b; and g$_{t,t+1}(b)$ as the growth rate between t and t + 1 using base year b. Then:"
+      },
+      {
+       "p": "RGDP$_{19}(19) = 0.1 * 60 + 5 * 90 + 100 * 15 = 1956$ RGDP$_{20}(19) = 0.1 * 400 + 5 * 10 + 100 * 10 = 1090$ RGDP$_{21}(19) = 0.1 * 350 + 5 * 60 + 100 * 20 = 2335$ $g_{19,20}(19) = 100 *$ RGDP$_{20}(19) -$ RGDP$_{19}(19) \\approx -$44.27% RGDP$_{19}(19)$ $g_{20,21}(19) = 100 *$ RGDP$_{21}(19) -$ RGDP$_{20}(19) \\approx$ 114.22% RGDP$_{20}(19)$"
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[10 Points] Compute the real GDP (RGDP) for each year using 2020 as the base year. Then compute RGDP growth and express it as a percentage. Explain why it is different from the real GDP growth computed using 2019 as the base year. Do the same using 2021 as the base year."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Compute the real GDP (RGDP) for each year using 2020 as the base year. Then compute RGDP growth and express it as a percentage. Explain why it is different from the real GDP growth computed using 2019 as the base year. Do the same using 2021 as the base year."
+      },
+      {
+       "p": "SOLUTION9"
+      },
+      {
+       "p": "RGDP$_{19}(20) = 2 * 60 + 5 * 90 + 40 * 15 = 1170$ RGDP$_{20}(20) = 2 * 400 + 5 * 10 + 40 * 10 = 1250$ RGDP$_{21}(20) = 2 * 350 + 5 * 60 + 40 * 20 = 1800$ $g_{19,20}(20) = 100 *$ RGDP$_{20}(20) -$ RGDP$_{19}(20) =$ 6.84% RGDP$_{19}(20)$ $g_{20,21}(20) = 100 *$ RGDP$_{21}(20) -$ RGDP$_{20}(20) \\approx$ 44.00% RGDP$_{20}(20)$"
+      },
+      {
+       "p": "RGDP$_{19}(21) = 0.5 * 60 + 5 * 90 + 75 * 15 = 1605$ RGDP$_{20}(21) = 0.5 * 400 + 5 * 10 + 75 * 10 = 1000$ RGDP$_{21}(21) = 0.5 * 350 + 5 * 60 + 75 * 20 = 1975$ $g_{19,20}(21) = 100 *$ RGDP$_{20}(21) -$ RGDP$_{19}(21) \\approx -$37.69% RGDP$_{19}(20)$ $g_{20,21}(21) = 100 *$ RGDP$_{21}(21) -$ RGDP$_{20}(21) \\approx$ 97.5% RGDP$_{20}(21)$"
+      },
+      {
+       "p": "The two calculations of GDP growth are different because changes in relative prices affect the weights asso ciated with each of the goods."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[10 Points] The BEA has adopted a different method to compute growth rates (it is explained in full in the appendix of Chapter 2). The formula is given by:"
+      },
+      {
+       "p": "$$g \\frac{BEA}{T-t,T} = \\frac{g_{T-t,T}(T - t) + g_{T-t,T}(T)}{2}$$",
+       "display": true
+      },
+      {
+       "p": "Where $g_{T-t,T}^{BEA}$is the growth rate calculated by the BEA between years $T$ and $T - t$. And $g_{T-t,T}(b)$ is the growth rate between year $T$ and $T - t$ using $b \\in \\{T, T - t\\}$ as the base year. Use this method to calculate the growth rate between 2021 and 2020, and between 2020 and 2019. Is this a better method? Explain."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] The BEA has adopted a different method to compute growth rates (it is explained in full in the appendix of Chapter 2). The formula is given by:"
+      },
+      {
+       "p": "$$g \\frac{BEA}{T-t,T} = \\frac{g_{T-t,T}(T - t) + g_{T-t,T}(T)}{2}$$",
+       "display": true
+      },
+      {
+       "p": "Where $g_{T-t,T}^{BEA}$is the growth rate calculated by the BEA between years $T$ and $T - t$. And $g_{T-t,T}(b)$ is the growth rate between year $T$ and $T - t$ using $b \\in \\{T, T - t\\}$ as the base year. Use this method to calculate the growth rate between 2021 and 2020, and between 2020 and 2019. Is this a better method? Explain."
+      },
+      {
+       "p": "$g\\frac{BEA}{19,20} = \\frac{g_{19,20}(19) + g_{19,20}(20)}{2} \\approx -$18.71%"
+      },
+      {
+       "p": "$g \\frac{BEA}{20,21} = \\frac{g_{20,21}(20) + g_{20,21}(21)}{2} \\approx$ 70.75%"
+      },
+      {
+       "p": "The idea of averaging the growth rates using different base years is to capture substitution across goods if some of the goods become more expensive. Using a fixed set of relative prices across years is equivalent to assuming that consumer baskets did not change in reponse to price changes. In this sense the BEA method is better. However it is still imperfect. For example, in the context of the COVID pandemic it makes little sense to place any weight on the value of masks before the pandemic (i.e., during 2019) when compared to their value during it (i.e., during 2020 or 2021)."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "The Goods Market [35 Points]",
+   "partes": [
+    {
+     "p": "Consider the following economy. The demand for goods, $Z$, is given by"
+    },
+    {
+     "p": "$$Z \\equiv C + I + G$$",
+     "display": true
+    },
+    {
+     "p": "where $C$ is consumption, $I$ is investment, and $G$ is government spending. The consumption function is given by"
+    },
+    {
+     "p": "$$C = c_{0}+ c_{1}Y_{D}$$",
+     "display": true
+    },
+    {
+     "p": "where $c_{0}\\geq 0, 0 < c_{1}< 1, Y_{D}\\equiv Y - T$ is disposable income, and $T$ is taxes. When we say \"exogenous variables\", this refers to variables determined outside of the model such as, for example $c_{0}, c_{1}$. In contrast, $C, Y$ are endogenous variables. Hereafter, we assume $T$ is either exogenous, or endogenous as specified below, while $G$ and $I$ will always be treated as exogenous."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[5 Points] Describe in words what $c_{0}$and $c_{1}$represent."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Describe in words what $c_{0}$and $c_{1}$represent."
+      },
+      {
+       "p": "$c_{0}$is what people would consume if their disposable income in the current year were equal to 0. c$_{1}$represents the \"marginal propensity to consume\" or simply \"propensity to consume\", it gives the effect an additional dollar of disposable income has on consumption."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[5 Points] What equilibrium condition can you use to solve for equilibrium output? Explain it."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] What equilibrium condition can you use to solve for equilibrium output? Explain it."
+      },
+      {
+       "p": "The equilibrium condition is that the demand for goods equals total output. We write this as Y = Z."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[5 Points] Draw a graph representing equilibrium in the goods market, appropriately label all axes."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Draw a graph representing equilibrium in the goods market, appropriately label all axes."
+      },
+      {
+       "img": "g1/p6-1.png",
+       "w": 167,
+       "h": 156
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[5 Points] Solve for equilibrium output $Y$ assuming that $G, T$ and $I$ are exogenous."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Solve for equilibrium output $Y$ assuming that $G, T$ and $I$ are exogenous."
+      },
+      {
+       "p": "Equilibrium in the goods market implies"
+      },
+      {
+       "p": "$$Y = c_{0}+ c_{1}(Y - T) + G + I$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Rightarrow Y = \\frac{1}{1 - c_{1}} [c_{0}- c_{1}T + G + I]$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "[5 Points] What is the autonomous spending $(c_{0})$ multiplier in this case? That is, how much does equilibrium output change in response to an increase in $c_{0}$?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] What is the autonomous spending $(c_{0})$ multiplier in this case? That is, how much does equilibrium output change in response to an increase in $c_{0}$?"
+      },
+      {
+       "p": "The multiplier is, using the previous result:"
+      },
+      {
+       "p": "$$\\frac{dY}{dc_{0}} = \\frac{1}{1 - c_{1}}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "[5 Points] Let $S \\equiv Y - T - C$ denote the private saving. Express $S$ in terms of $I, T$, and $G$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Let $S \\equiv Y - T - C$ denote the private saving. Express $S$ in terms of $I, T$, and $G$."
+      },
+      {
+       "p": "Substituting Y $= C + I +$ G into the definition of private saving, we obtain"
+      },
+      {
+       "p": "$$S = (C + I + G) - T - C$$",
+       "display": true
+      },
+      {
+       "p": "$$= I + G - T$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "[5 Points] How much does private saving $S$ increase in response to an increase in $G$? (Use your answer to part 3)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] How much does private saving $S$ increase in response to an increase in $G$? (Use your answer to part 3)"
+      },
+      {
+       "p": "Since I and T are exogenous, the IS relation implies S increases by the same amount as G."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

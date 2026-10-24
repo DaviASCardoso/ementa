@@ -1,0 +1,317 @@
+{
+ "etapa": "14.30/lista-4",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-30-introduction-to-statistical-methods-in-economics-spring-2009/b1c8e1965950d6efe3e3cfbf345f8319_MIT14_30s09_pset04.pdf",
+   "paginas": 3
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "Problem Set #4"
+  },
+  {
+   "p": "14.30 - Intro. to Statistical Methods in Economics"
+  },
+  {
+   "p": "Instructor: Konrad Menzel"
+  },
+  {
+   "p": "Due: Tuesday, March 17, 2009"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Suppose that the PDF of X is as follows:"
+    },
+    {
+     "p": "f (4$=_{0f o r x 5 O}^{e-\"forx>0}$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Determine the PDF for Y Xi."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q11-p2.png",
+       "w": 198,
+       "h": 26
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q11-p2.png",
+       "w": 443,
+       "h": 235
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Determine the PDF for W = X : for $\\mathbf{k}$E N."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q12-p2.png",
+       "w": 262,
+       "h": 27
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q12-p2.png",
+       "w": 429,
+       "h": 52
+      },
+      {
+       "img": "g1/q12-p3.png",
+       "w": 445,
+       "h": 213
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p2.png",
+     "w": 289,
+     "h": 102
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Suppose that the PDF of a random variable X is as follows:"
+    },
+    {
+     "p": "f (4$=_{0otherwise}^{L x f o r O < x < 5}$"
+    },
+    {
+     "p": "$_{this in two ways. First, you can compute fy(y) using the formula given in class:}$Also, suppose that Y = X(5-X). Determine the PDF and CDF of Y. You can solve"
+    },
+    {
+     "p": "taking care that g(x) is piece-wise monotonic. Second, you can solve this by finding Fy(y) = P[Y 5 y] directly, as we did in recitation. You will receive extra-credit if you can do it both ways."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p2.png",
+     "w": 445,
+     "h": 239
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2-p3.png",
+     "w": 445,
+     "h": 239
+    }
+   ]
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(BainIEngelhardt, p. 226) (6 points) Let X be a random variable that is uniformly distributed on [O,1] (i.e. $f$(x) = 1 on that interval and zero elsewhere). Use two techniques from class (\"2- stepn/CDF technique and the transformation method) to determine the PDF of each of the following:"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q3-p3.png",
+     "w": 446,
+     "h": 114
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q3-p5.png",
+     "w": 445,
+     "h": 114
+    }
+   ]
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(BainIEngelhardt p. 227) If X $N$ Binomial(n,p), then find the pdf of Y = n - X."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q4-p3.png",
+     "w": 319,
+     "h": 71
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q4-p7.png",
+     "w": 319,
+     "h": 72
+    }
+   ]
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(BainIEngelhardt p. 227) Let X and Y have joint PDF f (x,Y) = 4e- 2(x+y) for 0 < x < 00 and 0 < y < co, and zero otherwise."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Find the CDF of W = X +Y ."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q51-p3.png",
+       "w": 189,
+       "h": 26
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q51-p8.png",
+       "w": 431,
+       "h": 287
+      },
+      {
+       "img": "g1/q51-p9.png",
+       "w": 390,
+       "h": 416
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Find the joint pdf of U = \\$ and V = X."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q52-p3.png",
+       "w": 238,
+       "h": 30
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q52-p9.png",
+       "w": 430,
+       "h": 71
+      },
+      {
+       "img": "g1/q52-p10.png",
+       "w": 390,
+       "h": 249
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Find the marginal pdf of U."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q53-p3.png",
+       "w": 171,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q53-p10.png",
+       "w": 430,
+       "h": 277
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q5-p3.png",
+     "w": 453,
+     "h": 85
+    }
+   ],
+   "fonte": 0
+  }
+ ]
+}

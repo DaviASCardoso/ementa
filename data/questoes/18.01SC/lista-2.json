@@ -1,0 +1,4566 @@
+{
+ "etapa": "18.01SC/lista-2",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/87d9380ba7de44cbeaca3b655844a1d4_MIT18_01SC_pset1prb.pdf",
+   "paginas": 13
+  },
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/50d9ff5b7a30fe96bd69017ca5104d6e_MIT18_01SC_pset5prb.pdf",
+   "paginas": 7
+  }
+ ],
+ "avisos": [
+  "numeração de itens recomeça nas questões 1A-4, 1J-3",
+  "itens repetidos na questão 1A-4"
+ ],
+ "intro": [
+  {
+   "p": "18.01 EXERCISES"
+  },
+  {
+   "p": "Unit 1. Differentiation"
+  },
+  {
+   "p": "18.01 EXERCISES"
+  },
+  {
+   "p": "Unit 5. Integration techniques"
+  },
+  {
+   "p": "Evaluate the following integrals"
+  },
+  {
+   "img": "e2/p2-3.png",
+   "w": 350,
+   "h": 16
+  },
+  {
+   "img": "e2/p2-4.png",
+   "w": 396,
+   "h": 85
+  },
+  {
+   "img": "e2/p2-5.png",
+   "w": 6,
+   "h": 6
+  },
+  {
+   "p": "5B-13. $\\frac{x^{2}dx}{1 + x^{6}}$. Hint: Try $u = x^{3}$."
+  },
+  {
+   "p": "Evaluate the following integrals by substitution and changing the limits of integration."
+  },
+  {
+   "img": "e2/p3-1.png",
+   "w": 378,
+   "h": 26
+  },
+  {
+   "p": "Evaluate the following"
+  },
+  {
+   "img": "e2/p3-2.png",
+   "w": 357,
+   "h": 16
+  },
+  {
+   "img": "e2/p3-3.png",
+   "w": 358,
+   "h": 16
+  },
+  {
+   "img": "e2/p3-4.png",
+   "w": 383,
+   "h": 16
+  },
+  {
+   "img": "e2/p3-5.png",
+   "w": 389,
+   "h": 16
+  },
+  {
+   "img": "e2/p3-6.png",
+   "w": 15,
+   "h": 8
+  },
+  {
+   "p": "5C-12. sin $x$ cos(2$x)dx$ (See 27.) 0"
+  },
+  {
+   "p": "5C-13. Find the length of the curve $y =$ lnsin $x$ for $\\pi /4 \\leq x \\leq \\pi /2$."
+  },
+  {
+   "p": "5C-14. Find the volume of one hump of $y =$ sin $ax$ revolved around the $x$-axis."
+  },
+  {
+   "p": "Evaluate the following integrals"
+  },
+  {
+   "img": "e2/p3-7.png",
+   "w": 288,
+   "h": 6
+  },
+  {
+   "p": "5D-1. $\\frac{dx}{(a^{2} - x^{2})^{3/2}}$ 5D-2. $\\frac{x^{3}dx}{\\sqrt{a^{2} - x^{2}}}$ 5D-3. $\\frac{(x + 1)dx}{4 + x^{2}}$"
+  },
+  {
+   "img": "e2/p3-8.png",
+   "w": 386,
+   "h": 16
+  },
+  {
+   "p": "(For 5D-4,6 use $x = a$ sinh $y$, and cosh$^{2} y =$ (cosh(2$y) + 1)/2$, sinh 2$y = 2$sinh $y$ cosh $y.)$"
+  },
+  {
+   "img": "e2/p3-9.png",
+   "w": 250,
+   "h": 16
+  },
+  {
+   "p": "5D-9. Find the arclength of $y =$ ln $x$ for $1 \\leq x \\leq b$."
+  },
+  {
+   "p": "Completing the square"
+  },
+  {
+   "p": "Calculate the following integrals"
+  },
+  {
+   "img": "e2/p4-1.png",
+   "w": 426,
+   "h": 17
+  },
+  {
+   "img": "e2/p4-2.png",
+   "w": 308,
+   "h": 6
+  },
+  {
+   "p": "5D-13. $\\frac{dx}{\\sqrt{2x - x^{2}}}$ 5D-14. $\\frac{xdx}{\\sqrt{x^{2} + 4x + 13}}$ 5D-15. $\\frac{\\sqrt{4x^{2} - 4x + 17dx}}{2x - 1}$"
+  },
+  {
+   "img": "e2/p4-3.png",
+   "w": 288,
+   "h": 6
+  },
+  {
+   "p": "5E-1. $\\frac{dx}{(x - 2)(x + 3)}dx$ 5E-2. $\\frac{xdx}{(x - 2)(x + 3)}dx$ 5E-3. $\\frac{xdx}{(x^{2} - 4)(x + 3)}dx$"
+  },
+  {
+   "img": "e2/p4-4.png",
+   "w": 288,
+   "h": 6
+  },
+  {
+   "p": "5E-4. $\\frac{3x^{2} + 4x - 11}{(x^{2} - 1)(x - 2)}dx$ 5E-5. $\\frac{3x + 2}{x(x + 1)^{2}}dx$ 5E-6. $\\frac{2x - 9}{(x^{2} + 9)(x + 2)}dx$"
+  },
+  {
+   "p": "Evaluate the following integrals"
+  },
+  {
+   "img": "e2/p5-4.png",
+   "w": 355,
+   "h": 16
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1A-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "By completing the square, use translation and change of scale to sketch"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$y = x^{2} - 2x - 1$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$y = 3x^{2} + 6x + 2$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1A-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Sketch, using translation and change of scale"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$y = 1 + |x + 2|$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$y = \\frac{2}{(x - 1)^{2}}$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1A-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Identify each of the following as even, odd, or neither"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{x^{3} + 3x}{1 - x^{4}}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (-x) = \\frac{(-x)^{3} - 3x}{1 - (-x)^{4}} = \\frac{-x^{3} - 3x}{1 - x^{4}} = -f (x)$, so it is odd."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "sin$^{2}x$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(sin($-x))^{2} =$ (sin $x)^{2}$, so it is even."
+      },
+      {
+       "p": "odd"
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$\\frac{tan x}{1 + x^{2}}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": ", so it is odd even"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$(1 + x)^{4}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$(1 - x)^{4} = \\pm (1 + x)^{4}$: neither."
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$J_{0}(x^{2})$, where $J_{0}(x)$ is a function you never heard of"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$J_{0}((-x)^{2}) = J_{0}(x^{2})$, so it is even."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1A-4",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Show that every polynomial is the sum of an even and an odd function."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$p(x) = p_{e}(x)+ p_{o}(x)$, where $p_{e}(x)$ is the sum of the even powers and $p_{o}(x)$ is the sum of the odd powers"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Generalize part (a) to an arbitrary function $f (x)$ by writing"
+      },
+      {
+       "p": "$$f (x) = \\frac{f (x) + f (-x)}{2} + \\frac{f (x) + f (-x)}{2}$$",
+       "display": true
+      },
+      {
+       "p": "Verify this equation, and then show that the two functions on the right are respec tively even and odd."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (x) = \\frac{f (x) + f (-x)}{2} + \\frac{f (x) - f (-x)}{2}$"
+      },
+      {
+       "p": "$F (x) = \\frac{f (x) + f (-x)}{2}$ is even and $G(x) = \\frac{f (x) - f (-x)}{2}$ is odd because $F (-x) = \\frac{f (-x) + f (-(-x))}{2} = F (x); G(-x) = \\frac{f (x) - f (-x)}{2} = -G(-x)$."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "How would you write $\\frac{1}{x + a}$ as the sum of an even and an odd function?"
+      },
+      {
+       "p": "1A-5. Find the inverse to each of the following, and sketch both $f (x)$ and the inverse function $g(x)$. Restrict the domain if necessary. (Write $y = f (x)$ and solve for $y$; then interchange $x$ and $y.)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Use part b:"
+      },
+      {
+       "p": "$\\frac{1}{x + a} + \\frac{1}{-x + a} = \\frac{2a}{(x + a)(-x + a)} = \\frac{2a}{a^{2} - x^{2}}$ even"
+      },
+      {
+       "p": "$\\frac{1}{x + a} - \\frac{1}{-x + a} = \\frac{-2x}{(x + a)(-x + a)} = \\frac{-2x}{a^{2} - x^{2}}$ odd"
+      },
+      {
+       "p": "$\\Rightarrow \\frac{1}{x + a} = \\frac{a}{a^{2} - x^{2}} - \\frac{x}{a^{2} - x^{2}}$"
+      }
+     ]
+    },
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{x - 1}{2x + 3}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$p(x) = p_{e}(x)+ p_{o}(x)$, where $p_{e}(x)$ is the sum of the even powers and $p_{o}(x)$ is the sum of the odd powers"
+      }
+     ]
+    },
+    {
+     "id": "b'",
+     "partes": [
+      {
+       "p": "$x^{2} + 2x$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1A-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Express in the form $A$ sin ($x + c)$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "sin $x + \\sqrt{3}$ cos $x$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$A = \\sqrt{1 + 3} = 2$, tan $c = \\frac{\\sqrt{3}}{1}, c = \\frac{\\pi}{3}$. So sin $x + \\sqrt{3}$ cos $x = 2$sin($x + \\frac{\\pi}{3})$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "sin $x -$ cos $x$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\sqrt{2}$ sin($x - \\frac{\\pi}{4})$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1A-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the period, amplitude, and phase angle, and use these to sketch"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "3 sin (2$x - \\pi )$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$3$sin(2$x - \\pi ) =$ 3 sin 2($x - \\frac{\\pi}{2})$, amplitude 3, period $\\pi$ , phase angle $\\pi /2$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$-$4 cos ($x + \\pi /2)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1A-7b-p2.png",
+       "w": 295,
+       "h": 18
+      },
+      {
+       "img": "g1/q1A-7b-p3.png",
+       "w": 385,
+       "h": 278
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1A-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Suppose $f (x)$ is odd and periodic. Show that the graph of $f (x)$ crosses the $x$-axis infinitely often."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1A-9",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Graph the function $f$ that consist of straight line segments joining the points $(-1,-1), (1, 2), (3,-1)$, and (5,2). Such a function is called piecewise linear."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Extend the graph of $f$ periodically. What is its period?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Graph the function $g(x) = 3f ((x/2) - 1) - 3$."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1B-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A test tube is knocked off a tower at the top of the Green building. (For the purposes of this experiment the tower is 400 feet above the ground, and all the air in the vicinity of the Green building was evacuated, so as to eliminate wind resistance.) The test tube drops $16t^{2}$ feet in $t$ seconds. Calculate"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "the average speed in the first two seconds of the fall"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$h =$ height of tube = $400 - 16t^{2}$."
+      },
+      {
+       "p": "average speed $\\frac{h(2) - h(0)}{2} = \\frac{(400 - 16 \\cdot 2^{2}) - 400}{2} = -$32ft/sec"
+      },
+      {
+       "p": "(The minus sign means the test tube is going down. You can also do this whole problem using the function $s(t) = 16t^{2}$, representing the distance down measured from the top. Then all the speeds are positive instead of negative.)"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "the average speed in the last two seconds of the fall"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Solve $h(t) = 0$ (or $s(t) = 400)$ to find landing time $t = 5$. Hence the average speed for the last two seconds is"
+      },
+      {
+       "p": "$\\frac{h(5) - h(3)}{2} = \\frac{0 - (400 - 16 \\cdot 3^{2})}{2} = -$128ft/sec"
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "the instantaneous speed at landing"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1B-1c-p4.png",
+       "w": 296,
+       "h": 65
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1B-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A tennis ball bounces so that its initial speed straight upwards is $b$ feet per second. Its height $s$ in feet at time $t$ seconds is given by $s = bt - 16t^{2}$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the velocity $v = ds/dt$ at time $t$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1B-2a-p4.png",
+       "w": 315,
+       "h": 138
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the time at which the height of the ball is at its maximum height."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The ball reaches its maximum height exactly when the ball has finished going up. This is time at which $v(t) = 0$, namely, $t = b/32$."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Find the maximum height."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The maximum height is $s(b/32) = b^{2}/64$."
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Make a graph of $v$ and directly below it a graph of $s$ as a function of time. Be sure to mark the maximum of $s$ and the beginning and end of the bounce."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The graph of $v$ is a straight line with slope $-32$. The graph of $s$ is a parabola with maximum at place where $v = 0$ at $t = b/32$ and landing time at $t = b/16$."
+      },
+      {
+       "img": "g1/p4-2.png",
+       "w": 176,
+       "h": 77
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Suppose that when the ball bounces a second time it rises to half the height of the first bounce. Make a graph of $s$ and of $v$ of both bounces, labelling the important points. (You will have to decide how long the second bounce lasts and the initial velocity at the start of the bounce.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "If the initial velocity on the first bounce was $b_{1} = b$, and the velocity of the second bounce is $b_{2}$, then $b_{2}^{2}/64 = (1/2)b_{1}^{2}/64$. Therefore, $b_{2} = b_{1}/\\sqrt{2.}$ The second bounce is at $b_{1}/16 + b_{2}/16$. (continued $\\to )$"
+      }
+     ]
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "If the ball continues to bounce, how long does it take before it stops?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "If the ball continues to bounce then the landing times form a geometric series"
+      },
+      {
+       "p": "$(11) b_{1}/16 + b_{2}/16 + b_{3}/16 + \\cdot \\cdot \\cdot = b/16 + b/16\\sqrt{2} + b/16(\\sqrt{2)}^{2} + \\cdot \\cdot \\cdot$ (12) $= (b/16)(1 + (1/\\sqrt{2)} + (1/\\sqrt{2)}^{2} + \\cdot \\cdot \\cdot )$"
+      },
+      {
+       "p": "(13) $= \\frac{b/16}{1 - (1/\\sqrt{2)}}$"
+      },
+      {
+       "p": "Put another way, the ball stops bouncing after $1/(1 - (1/\\sqrt{2})) \\approx 3.4$ times the length of time the first bounce."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1C-1",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Use the difference quotient definition of derivative to calculate the rate of change of the area of a disk with respect to its radius. (Your answer should be the circumference of the disk.)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Use the difference quotient definition of derivative to calculate the rate of change of the volume of a ball with respect to the radius. (Your answer should be the surface area of the ball.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1C-1b-p5.png",
+       "w": 354,
+       "h": 107
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1C-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Let $f (x) = (x-a)g(x)$. Use the definition of the derivative to calculate that $f'(a) = g(a)$, assuming that $g$ is continuous."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$\\frac{f (x) - f (a)}{x - a} = \\frac{(x - a)g(x) - 0}{x - a} = g(x) \\to g(a)$ as $x \\to a$."
+    }
+   ]
+  },
+  {
+   "n": "1C-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate the derivative of each of these functions directly from the definition."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$f (x) = 1/(2x + 1)$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$f (x) = 2x^{2} + 5x + 4$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1C-3b-p6.png",
+       "w": 375,
+       "h": 97
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$f (x) = 1/(x^{2} + 1)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1C-3c-p6.png",
+       "w": 319,
+       "h": 151
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$f (x) = 1/\\sqrt{x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Common denominator:"
+      },
+      {
+       "p": "$$\\frac{1}{h} \\frac{1}{\\sqrt{x + h}} -\\surd \\frac{1}{x} = \\frac{1}{h} \\frac{\\sqrt{\\surd x} \\sqrt{x + h}}{\\sqrt{x}}\\frac{-}{x + h}$$",
+       "display": true
+      },
+      {
+       "img": "g1/p6-2.png",
+       "w": 322,
+       "h": 73
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "For part (a) and (b) find points where the slope is $+1, -1, 0$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "For part (a), $-2/(2x + 1)^{2} < 0$, so there are no points where the slope is 1 or 0. For slope $-1$, $-2/(2x + 1)^{2} = -1 \\Rightarrow (2x + 1)^{2} = 2 \\Rightarrow 2x + 1 = \\pm \\sqrt{2} \\Rightarrow x = -1/2 \\pm \\sqrt{2}/2$"
+      },
+      {
+       "p": "For part (b), the slope is 0 at $x = -5/4, 1$ at $x = -1$ and $-1$ at $x = -3/2$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1C-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Write an equation for the tangent line for the following functions"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$f (x) = 1/(2x + 1)$ at $x = 1$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f'(1) = -2/9$ and $f (1) = 1/3$, so $y = -(2/9)(x - 1) + 1/3 = (-2x + 5)/9$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$f (x) = 2x^{2} + 5x + 4$ at $x = a$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (a) = 2a^{2} + 5a + 4$ and $f'(a) = 4a + 5$, so"
+      },
+      {
+       "p": "$$y = (4a + 5)(x - a) + 2a^{2} + 5a + 4 = (4a + 5)x - 2a^{2} + 4$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$f (x) = 1/(x^{2} + 1)$ at $x = 0$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (0) = 1$ and $f'(0) = 0$, so $y = 0(x - 0) + 1$, or $y = 1$."
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$f (x) = 1/\\sqrt{x}$ at $x = a$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (a) = 1/\\sqrt{a}$ and $f'(a) = -(1/2)a^{-3/2}$, so"
+      },
+      {
+       "p": "$$y = -(1/2)a^{3/2}(x - a) + 1/\\sqrt{a} = -a^{-3/2}x + (3/2)a^{-1/2}$$",
+       "display": true
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1C-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find all tangent lines through the origin to the graph of $y = 1 + (x - 1)^{2}$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q1C-5-p7.png",
+     "w": 369,
+     "h": 263
+    }
+   ]
+  },
+  {
+   "n": "1C-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Graph the derivative of the following functions directly below the graph of the function. It is very helpful to know that the derivative of an odd function is even and the derivative of an even function is odd (see 1F-6)."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "semicircle"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "parabola c) odd function d) even function e) periodic; period = ?"
+      },
+      {
+       "img": "e1/p3-1.png",
+       "w": 30,
+       "h": 24
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1D-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate the following limits if they exist. If they do not exist, then indicate whether they are $+\\infty , -\\infty$ or undefined."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$_{x}$lim$_{\\to 0} \\frac{4}{x - 1}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1D-1a-p4.png",
+       "w": 268,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1D-1a-p7.png",
+       "w": 35,
+       "h": 17
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$_{x}$lim$_{\\to 2} \\frac{4x}{x + 1}$ c) $_{x}$lim$_{\\to -2} \\frac{4x^{2}}{x + 2}$"
+      },
+      {
+       "img": "e1/p4-1.png",
+       "w": 258,
+       "h": 61
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1D-1b-p4.png",
+       "w": 268,
+       "h": 69
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1D-1b-p7.png",
+       "w": 38,
+       "h": 17
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$_{x}$lim$_{\\to 2+} \\frac{4x^{2}}{2 - x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1D-1d-p4.png",
+       "w": 265,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Note that $2 - x$ is negative when $x > 2$, so the limit is $-\\infty$"
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$_{x}$lim$_{\\to 2-} \\frac{4x^{2}}{2 - x}$ f) $_{x}$lim$_{\\to \\infty} \\frac{4x^{2}}{x - 2}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1D-1e-p4.png",
+       "w": 265,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Note that $2 - x$ is positive when $x < 2$, so the limit is $+\\infty$ (can also be written $\\infty )$"
+      }
+     ]
+    },
+    {
+     "id": "g",
+     "partes": [
+      {
+       "p": "$_{x}$lim$_{\\to \\infty} \\frac{4x^{2}}{x - 2} - 4x$ i) $_{x}$lim$_{\\to \\infty} \\frac{x^{2} + 2x + 3}{3x^{2} - 2x + 4}$ j) $_{x}$lim$_{\\to 2} \\frac{x - 2}{x^{2} - 4}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1D-1g-p4.png",
+       "w": 265,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$\\frac{4x^{2}}{x - 2} - 4x = \\frac{4x^{2} - 4x(x - 2)}{x - 2} = \\frac{8x}{x - 2} = \\frac{8}{1 - (2/x)} \\to 8$ as $x \\to \\infty$"
+      },
+      {
+       "p": "i) $\\frac{x^{2} + 2x + 3}{3x^{2} - 2x + 4} = \\frac{1 + (2/x) + (3/x^{2})}{3 - (2/x) + 4/x^{2})} \\to \\frac{1}{3}$ as $x \\to \\infty$"
+      },
+      {
+       "p": "j) $\\frac{x - 2}{x^{2} - 4} = \\frac{x - 2}{(x - 2)(x + 2)} = \\frac{1}{x + 2} \\to \\frac{1}{4}$ as $x \\to 2$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "algo sumiu antes da pontuação"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1D-1-p4.png",
+     "w": 369,
+     "h": 29
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "1D-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "For which of the following should one use the one-sided limit? Evaluate it."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$_{x}$lim$_{\\to 0} \\sqrt{x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$_{x}$lim$_{\\to 0} \\sqrt{x} = 0$ b) $_{x}$lim$_{\\to 1+} \\frac{1}{x - 1} = \\infty_{x}$lim$_{\\to 1-} \\frac{1}{x - 1} = -\\infty$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$_{x}$lim$_{\\to 1} \\frac{1}{x - 1}$ c) $_{x}$lim$_{\\to 1} \\frac{1}{(x - 1)^{4}}$ d) $_{x}$lim$_{\\to 0} |$ sin $x|$ e) $_{x}$lim$_{\\to 0} \\frac{|x|}{x}$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1D-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Identify and give the type of the points of discontinuity of each of the following:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{x - 2}{x^{2} - 4}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$x = 2$ removable $x = -2$ infinite b) $x = 0,\\pm \\pi ,\\pm 2\\pi$ , ... infinite"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$$\\frac{1}{sin x}$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$\\frac{x^{4}}{x^{3}}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1D-3c-p4.png",
+       "w": 265,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$x = 0$ removable"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$$f (x) = x + a, x > 0$$",
+       "display": true
+      },
+      {
+       "p": "$$a - x, x < 0$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1D-3d-p4.png",
+       "w": 265,
+       "h": 31
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$x = 0$ removable e) $x = 0$ jump f) $x = 0$ removable"
+      },
+      {
+       "img": "g1/p8-1.png",
+       "w": 231,
+       "h": 83
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$f'(x)$, for the $f (x)$ in d)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "$(f (x))^{2}$, where $f (x) = \\frac{d}{dx}|x|$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1D-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Graph the following functions."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{4x^{2}}{x - 2}$ (See 1D-1efg.)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{1}{x^{2} + 2x + 2}$"
+      },
+      {
+       "img": "e1/p4-2.png",
+       "w": 163,
+       "h": 27
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1D-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Define $f (x) = x_{2}, x < 1$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find all values of $a, b$ such that $f (x)$ is continuous."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "for continuity, want $ax + b = 1$ when $x = 1$. Ans.: all $a, b$ such that $a + b = 1$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find all values of $a, b$ such that $f'(x)$ is continuous. (Be careful!)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1D-5b-p9.png",
+       "w": 369,
+       "h": 75
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1D-5-p4.png",
+     "w": 156,
+     "h": 24
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "1D-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "For each of the following functions, find all values of the constants $a$ and $b$ for which the function is differentiable."
+    },
+    {
+     "img": "e1/p4-3.png",
+     "w": 314,
+     "h": 27
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$f (x) =$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1D-6a-p4.png",
+       "w": 230,
+       "h": 17
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1D-6a-p9.png",
+       "w": 298,
+       "h": 91
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$f (x) =$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1D-6b-p4.png",
+       "w": 230,
+       "h": 17
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1D-6b-p9.png",
+       "w": 369,
+       "h": 250
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1D-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the values of the constants $a, b$ and $c$ for which the following function is differentiable. (Give $a$ and $b$ in terms of $c.)$"
+    },
+    {
+     "img": "e1/p5-1.png",
+     "w": 129,
+     "h": 27
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1D-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "For each of the following functions, find the values of the constants $a$ and $b$ for which the function is continuous, but not differentiable."
+    },
+    {
+     "p": "$$ax + b, x > 0; ax + b, x > 0$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$f (x) =$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$f (x) =$ sin 2$x, x \\leq 0$. cos 2$x, x \\leq 0$."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1D-9",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the values of the constants $a$ and $b$ for which the following function is differentiable, but not continuous."
+    },
+    {
+     "p": "$$ax + b, x > 0$$",
+     "display": true
+    },
+    {
+     "p": "$$f (x) =$$",
+     "display": true
+    },
+    {
+     "p": "cos 2$x, x \\leq 0$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1D-9-p5.png",
+     "w": 369,
+     "h": 61
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "There cannot be any such values because every differentiable function is continuous."
+    },
+    {
+     "p": "1E: Differentiation formulas: polynomials, products, quotients"
+    }
+   ]
+  },
+  {
+   "n": "1D-10",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Show that"
+    },
+    {
+     "p": "$g(h) = \\frac{f (a + h) - f (a)}{h}$ has a removable discontinuity at $h = 0 \\Leftarrow \\Rightarrow f'(a)$ exists."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1E-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the derivative of the following polynomials."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$x^{10} + 3x^{5} + 2x^{3} + 4$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$10x^{9} + 15x^{4} + 6x^{2}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$e^{2} + 1 ( e =$ base of natural logs)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "0 $(e^{2} + 1 \\approx 8.4$ is a constant and the derivative of a constant is zero.)"
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$x/2 + \\pi^{3}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1E-1c-p10.png",
+       "w": 37,
+       "h": 17
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$(x^{3} + x)(x^{5} + x^{2})$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "By the product rule: $(3x^{2} + 1)(x^{5} + x^{2}) + (x^{3} + x)(5x^{4} + 2x) = 8x^{7} + 6x^{5} + 5x^{4} + 3x^{2}$. Alternatively, multiply out the polynomial first to get $x^{8} + x^{6} + x^{5} + x^{3}$ and then differentiate."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1E-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the antiderivative of the following polynomials."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$ax + b (a$ and $b$ are constants.)$^{6} + 5x^{5} + 4x^{3}$"
+      },
+      {
+       "p": "$$b) x$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1E-2a-p5.png",
+       "w": 208,
+       "h": 18
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$ax^{2}/2 + bx + c$, where $a$ and $b$ are the given constants and $c$ is a third constant."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$(x^{3} + 1)^{2}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The only way to get at this is to multiply it out: $x^{6} + 2x^{3} + 1$. Now you can take the antiderivative of each separate term to get"
+      },
+      {
+       "p": "$$\\frac{x^{7}}{7} + \\frac{x^{4}}{2} + x + c$$",
+       "display": true
+      },
+      {
+       "p": "Warning: The answer is not $(1/3)(x^{3} + 1)^{3}$. (The derivative does not match if you apply the chain rule, the rule to be treated below in E4.)"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1E-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the points $(x, y)$ of the graph $y = x^{3} + x^{2} - x + 2$ at which the slope of the tangent line is horizontal."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$y' = 3x^{2} + 2x - 1 = 0 \\Rightarrow (3x - 1)(x + 1) = 0$. Hence $x = 1/3$ or $x = -1$ and the points are $(1/3, 49/27)$ and $(-1, 3)$"
+    }
+   ]
+  },
+  {
+   "n": "1E-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "For each of the following, find all values of $a$ and $b$ for which $f (x)$ is differ entiable."
+    },
+    {
+     "img": "e1/p5-2.png",
+     "w": 418,
+     "h": 27
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$f (x) = 5x^{5} + 3x^{4} + 7x^{2} + 8x + 4, x > 0$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1E-4a-p5.png",
+       "w": 428,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1E-4a-p11.png",
+       "w": 369,
+       "h": 73
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$f (x) = 5x^{5} + 3x^{4} + 7x^{2} + 8x + 4, x > 1$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1E-4b-p5.png",
+       "w": 428,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1E-4b-p11.png",
+       "w": 369,
+       "h": 110
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1E-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the derivatives of the following rational functions."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{x}{1 + x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{1}{(1 + x)^{2}}$ b) $\\frac{1 - 2ax - x^{2}}{(x^{2} + 1)^{2}}$ c) $\\frac{-x^{2} - 4x - 1}{(x^{2} - 1)^{2}}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{x + a}{x^{2} + 1} (a$ is constant)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$\\frac{x + 2}{x^{2} - 1}$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$\\frac{x^{4} + 1}{x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$3x^{2} - 1/x^{2}$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1F-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the derivative of the following functions:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$(x^{2} + 2)^{2}$ (two methods)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Let $u = (x^{2} + 2)$"
+      },
+      {
+       "p": "$$\\frac{d}{dx}u^{2} = \\frac{du}{dx} \\frac{d}{du}u^{2} = (2x)(2u) = 4x(x^{2} + 2) = 4x^{3} + 8x$$",
+       "display": true
+      },
+      {
+       "p": "Alternatively,"
+      },
+      {
+       "p": "$$\\frac{d}{dx} (x^{2} + 2)^{2} = \\frac{d}{dx} (x^{4} + 4x^{2} + 4) = 4x^{3} + 8x$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$(x^{2} + 2)^{100}$. Which of the two methods from part (a) do you prefer?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Let $u = (x^{2} +2)$; then $\\frac{d}{dx}u^{100} = \\frac{du}{dx} \\frac{d}{du}u^{100} = (2x)(100u^{99}) = (200x)(x^{2} + 2)^{99}$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1F-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the derivative of $x^{10}(x^{2} + 1)^{10}$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Product rule and chain rule:"
+    },
+    {
+     "p": "$$10x^{9}(x^{2} + 1)^{10} + x^{10}[10(x^{2} + 1)^{9}(2x)] = 10(3x^{2} + 1)x^{9}(x^{2} + 1)^{9}$$",
+     "display": true
+    }
+   ]
+  },
+  {
+   "n": "1F-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find $dy/dx$ for $y = x^{1/n}$ by implicit differentiation."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$y = x^{1/n} \\Rightarrow y^{n} = x \\Rightarrow ny^{n-1}y' = 1$. Therefore,"
+    },
+    {
+     "p": "$$y' = \\frac{1}{ny^{n-1}} = \\frac{1}{n}y^{1-n} = \\frac{1}{n}x^{\\frac{1}{n}-1}$$",
+     "display": true
+    }
+   ]
+  },
+  {
+   "n": "1F-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate $dy/dx$ for $x^{1/3} + y^{1/3} = 1$ by implicit differentiation. Then solve for $y$ and calculate $y'$ using the chain rule. Confirm that your two answers are the same."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$(1/3)x^{-2/3} + (1/3)y^{-2/3}y' = 0$ implies"
+    },
+    {
+     "p": "$$y' = -x^{-2/3}y^{2/3}$$",
+     "display": true
+    },
+    {
+     "p": "Put $u = 1 - x^{1/3}$. Then $y = u^{3}$, and the chain rule implies"
+    },
+    {
+     "p": "$$\\frac{dy}{dx} = 3u^{2} \\frac{du}{dx} = 3(1 - x^{1/3})^{2}(-(1/3)x^{-2/3}) = -x^{-2/3}(1 - x^{1/3})^{2}$$",
+     "display": true
+    },
+    {
+     "p": "The chain rule answer is the same as the one using implicit differentiation because"
+    },
+    {
+     "p": "$$y = (1 - x^{1/3})^{3} \\Rightarrow y^{2/3} = (1 - x^{1/3})^{2}$$",
+     "display": true
+    }
+   ]
+  },
+  {
+   "n": "1F-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find all points of the curve(s) sin $x +$ sin $y = 1/2$ with horizontal tangent lines. (This is a collection of curves with a periodic, repeated pattern because the equation is unchanged under the transformations $y \\to y + 2\\pi$ and $x \\to x + 2\\pi .)$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q1F-5-p12.png",
+     "w": 369,
+     "h": 110
+    }
+   ]
+  },
+  {
+   "n": "1F-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Show that the derivative of an even function is odd and that the derivative of an odd function is even."
+    },
+    {
+     "p": "(Write the equation that says $f$ is even, and differentiate both sides, using the chain rule.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Following the hint, let $z = -x$. If $f$ is even, then $f (x) = f (z)$ Differentiating and using the chain rule:"
+    },
+    {
+     "p": "$f'(x) = f'(z)(dz/dx) = -f'(z)$ because $dz/dx = -1$"
+    },
+    {
+     "p": "But this means that $f'$ is odd. Similarly, if $g$ is odd, then $g(x = -g(z)$. Differenti ating and using the chain rule:"
+    },
+    {
+     "p": "$g'(x) = -g'(z)(dz/dx) = g'(z)$ because $dz/dx = -1$"
+    },
+    {
+     "img": "g1/p12-1.png",
+     "w": 295,
+     "h": 15
+    }
+   ]
+  },
+  {
+   "n": "1F-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate the derivatives. Assume all letters represent constants, except for the independent and dependent variables occurring in the derivative."
+    },
+    {
+     "img": "e1/p6-1.png",
+     "w": 334,
+     "h": 15
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$D = p(x - a)^{2} + y_{0}^{2}, \\frac{dD}{dx} =$?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1F-7a-p6.png",
+       "w": 344,
+       "h": 23
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1F-7a-p12.png",
+       "w": 305,
+       "h": 23
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$m = p\\frac{m_{0}}{1 - v^{2}/c^{2}}, \\frac{dm}{dv} =$?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1F-7b-p6.png",
+       "w": 344,
+       "h": 23
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$\\frac{dm}{dv} = m_{0} \\cdot \\frac{-1}{2} (1 - v^{2}/c^{2})^{-3/2} \\cdot \\frac{-2v}{c^{2}} = \\frac{m_{0}v}{c^{2}(1 - v^{2}/c^{2})^{3/2}}$"
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$F = \\frac{mg}{(1 + r^{2})^{3/2}}, \\frac{dF}{dr} =$?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{dF}{dr} = mg \\cdot (-\\frac{3}{2})(1 + r^{2})^{-5/2} \\cdot 2r = \\frac{-3mgr}{(1 + r^{2})^{5/2}}$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$Q = \\frac{at}{(1 + bt^{2})^{3}}, \\frac{dQ}{dt} =$?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{dQ}{dt} = at \\cdot \\frac{-6bt}{(1 + bt^{2})^{4}} + \\frac{a}{(1 + bt^{2})^{3}} = \\frac{a(1 - 5bt^{2})}{(1 + bt^{2})^{4}}$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1F-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate the derivative by implicit differentiation. (Same assumptions about the letters as in the preceding exercise.)"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$V = \\frac{1}{3}\\pi r^{2}h, \\frac{dr}{dh} =$?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$V = \\frac{1}{3}\\pi r^{2}h \\Rightarrow 0 = \\frac{1}{3}\\pi (2rr'h + r^{2} \\Rightarrow r' = \\frac{-r^{2}}{2rh} = \\frac{-r}{2h}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$PV^{c} = nRT, \\frac{dP}{dV} =$?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1F-8b-p12.png",
+       "w": 323,
+       "h": 20
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$c^{2} = a^{2} + b^{2} - 2ab$ cos $\\theta , \\frac{da}{db} =$?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "algo sumiu antes da pontuação"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1F-8c-p7.png",
+       "w": 178,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$c^{2} = a^{2} + b^{2} - 2ab$ cos $\\theta$ implies"
+      },
+      {
+       "p": "$0 = 2aa' + 2b -$ 2(cos $\\theta (a'b + a)) \\Rightarrow a' = \\frac{-2b + 2cos \\theta \\cdot a}{2a - 2 cos \\theta \\cdot b} = \\frac{a cos \\theta - b}{a - b cos \\theta}$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1G-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate $y^{''}$ for the following functions."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$3x^{2} + 2x + 4\\sqrt{x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$6 - x^{-3/2}$ b) $\\frac{-10}{(x + 5)^{3}}$ c) $\\frac{-10}{(x + 5)^{3}}$ d) 0"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{x}{x + 5}$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$\\frac{-5}{x + 5}$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$\\frac{x^{2} + 5x}{x + 5}$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1G-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find all functions $f (x)$ whose third derivative $f^{'''}(x)$ is identically zero. (\"Identically\" is math jargon for \"always\" or \"for every value of $x$\".)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q1G-2-p13.png",
+     "w": 369,
+     "h": 284
+    }
+   ]
+  },
+  {
+   "n": "1G-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate $y^{''}$ using implicit differentiation and simplify as much as possible."
+    },
+    {
+     "p": "$$x^{2}a^{2} + y^{2}b^{2} = 1$$",
+     "display": true
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1G-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the formula for the $n$th derivative $y^{(n)}$ of $y = 1/(x + 1)$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$y = (x + 1)^{-1}$, so $y^{(1)} = -(x + 1)^{-2}, y^{(2)} = (-1)(-2)(x + 1)^{-3}$, and"
+    },
+    {
+     "p": "$$y^{(3)} = (-1)(-2)(-3)(x + 1)^{-4}$$",
+     "display": true
+    },
+    {
+     "p": "The pattern is"
+    },
+    {
+     "p": "$$y^{(n)} = (-1)^{n}(n!)(x + 1)^{-n-1}$$",
+     "display": true
+    }
+   ]
+  },
+  {
+   "n": "1G-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Let $y = u(x)v(x)$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find $y', y^{''}$, and $y^{'''}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y' = u'v + uv' \\Rightarrow y^{''} = u^{''}v + 2u'v' + uv^{''}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "The general formula for $y^{(n)}$, the n-th derivative, is called Leibniz' formula: it uses the same coefficients as the binomial theorem, and looks like"
+      },
+      {
+       "img": "e1/p7-1.png",
+       "w": 260,
+       "h": 23
+      },
+      {
+       "p": "Use this to check your answers in part (a), and use it to calculate $y^{(p+q)}$, if $y = x^{p}(1 + x)^{q}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1G-5b-p14.png",
+       "w": 369,
+       "h": 110
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1H-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The half-life $\\lambda$ of a radioactive substance decaying according to the law $y = y_{0}e^{-kt}$ is defined to be the time it takes the amount to decrease to 1/2 of the initial amount $y_{0}$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Express the half-life $\\lambda$ in terms of $k$. (Do this from scratch — don't just plug into formulas given here or elsewhere.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "To see when $y = y_{0}/2$, we must solve the equation $\\frac{y_{0}}{2} = y_{0}e^{-kt}$, or $\\frac{1}{2} = e^{-kt}$."
+      },
+      {
+       "p": "Take ln of both sides: $-$ ln 2 $= -kt$, from which $t = \\frac{ln 2}{k}$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Show using your expression for $\\lambda$ that if at time $t_{1}$ the amount is $y_{1}$, then at time $t_{1} + \\lambda$ it will be $y_{1}/2$, no matter what $t_{1}$ is."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1H-1b-p14.png",
+       "w": 369,
+       "h": 41
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1H-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "If a solution containing a heavy concentration of hydrogen ions (i.e., a strong acid) is diluted with an equal volume of water, by approximately how much is its pH changed? (Express (pH)$_{diluted}$ in terms of (pH)$_{original}.)$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$pH = -$ log$_{10}[H^{+}]$; by assumption, $[H^{+}]_{dil} = \\frac{1}{2} [H^{+}]_{orig}$. Take $-$ log$_{10}$ of both sides (note that log $2 \\approx .3)$:"
+    },
+    {
+     "p": "$-$ log [$H^{+}]_{dil} =$ log $2 -$ log [$H^{+}]_{orig} \\Rightarrow pH_{dil} = pH_{orig} +$ log$_{2}$."
+    }
+   ]
+  },
+  {
+   "n": "1H-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Solve the following for $y$:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "ln($y + 1) +$ ln($y - 1) = 2x +$ ln $x$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "ln($y + 1) +$ ln($y - 1) = 2x +$ ln $x$; exponentiating both sides and solving for $y$:"
+      },
+      {
+       "p": "$(y + 1) \\cdot (y - 1) = e^{2x} \\cdot x \\Rightarrow y^{2} - 1 = xe^{2x} \\Rightarrow y = \\sqrt{xe^{2x} + 1,}$ since $y > 0$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "log($y + 1) = x^{2} +$ log($y - 1)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1H-3b-p14.png",
+       "w": 369,
+       "h": 60
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "2 ln $y =$ ln($y + 1) + x$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "2 ln $y -$ ln($y + 1) = x$; exponentiating both sides and solving for $y$: $\\frac{y^{2}}{y + 1} = e^{x} \\Rightarrow y^{2} - e^{x}y - e^{x} = 0 \\Rightarrow y = \\frac{e^{x}\\sqrt{e^{2x} + 4e^{x}}}{2}$, since $y - 1 > 0$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1H-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Solve $\\frac{ln a}{ln b} = c$ for $a$ in terms of $b$ and $c$; then repeat, replacing ln by log."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q1H-4-p15.png",
+     "w": 323,
+     "h": 48
+    }
+   ]
+  },
+  {
+   "n": "1H-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Solve for $x$ (hint: put $u = e^{x}$, solve first for $u)$:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{e^{x} + e^{-x}}{e^{x} - e^{-x}} = y$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Put $u = e^{x}$ (multiply top and bottom by $e^{x}$ first): $\\frac{u^{2} + 1}{u^{2} - 1} = y$; this"
+      },
+      {
+       "p": "gives $u^{2} = \\frac{y + 1}{y - 1} = e^{2x}$; taking ln: $2x =$ ln( $\\frac{y + 1}{y - 1}), x = \\frac{1}{2}$ ln( $\\frac{y + 1}{y - 1})$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$y = e^{x} + e^{-x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$e^{x} + e^{-x} = y$; putting $u = e^{x}$ gives $u + \\frac{1}{u} = y$; solving for $u$ gives"
+      },
+      {
+       "img": "g1/p15-1.png",
+       "w": 359,
+       "h": 25
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1H-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate from scratch the number $A =$ log $e \\cdot$ ln10. Then generalize the problem, and repeat the evaluation."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q1H-6-p15.png",
+     "w": 350,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "n": "1H-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The decibel scale of loudness is"
+    },
+    {
+     "p": "$$L = 10\\text{log}_{10}(I/I_{0})$$",
+     "display": true
+    },
+    {
+     "p": "where $I$, measured in watts per square meter, is the intensity of the sound and $I_{0} = 10^{-12}$ watt/m$^{2}$ is the softest audible sound at 1000 hertz. Classical music typically ranges from 30 to 100 decibels. The human ear's pain threshold is about 120 decibels."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Suppose that a jet engine at 50 meters has a decibel level of 130, and a normal conversation at 1 meter has a decibel level of 60. What is the ratio of the intensities of the two sounds?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "If $I_{1}$ is the intensity of the jet and $I_{2}$ is the intensity of the conversation, then"
+      },
+      {
+       "p": "log$_{10}(I_{1}/I_{2}) =$ log$_{10} \\frac{I_{1}/I_{0}}{I_{2}/I_{0}} =$ log$_{10}(I_{1}/I_{0}) -$ log$_{10}(I_{2}/I_{0}) = 13 - 6 = 7$"
+      },
+      {
+       "p": "Therefore, $I_{1}/I_{2} = 10^{7}$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Suppose that the intensity of sound is proportional to the inverse square of the distance from the sound. Based on this rule, calculate the decibel level of the sound from the jet at a distance of 100 meters, at distance of 1 km.$^{1}$"
+      },
+      {
+       "p": "1The inverse square law is justified by the fact that the intensity is measured in energy per unit time per unit area. When the sound has travelled a distance $r$, the energy of a sound spread over a sphere of radius $r$ centered at the source. The area of that sphere is proportional to $r^{\\frac{spread}{2}}$, so the average intensity is proportional to $1/r^{\\frac{source.}{2}}$. Fortunately for people who live near airports, sound"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$I = C/r^{2}$ and $I = I_{1}$ when $r = 50$ implies"
+      },
+      {
+       "p": "$$I_{1} = C/50^{2} \\Rightarrow C = I_{1}50^{2} \\Rightarrow I = I_{1}50^{2}/r^{2}$$",
+       "display": true
+      },
+      {
+       "p": "This shows that when $r = 100$, we have $I = I_{1}50^{2}/100^{2} = I_{1}/4$. It follows that 10 log$_{10}(I/I_{0}) = 10$log$_{10}(I_{1}/4I_{0}) = 10$log$_{10}(I_{1}/I_{0}) -$ 10 log$_{10} 4 \\approx 130 - 6.0 \\approx 124$ The sound at 100 meters is 124 decibels."
+      },
+      {
+       "p": "The sound at 1 km has $1/100$ the intensity of the sound at 100 meters, because $100m/1km = 1/10$. 10 log$_{10}(1/100) = 10(-2) = -20$ so the decibel level is $124 - 20 = 104$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1H-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The mean distance of each of the planets to the Sun and their mean period of revolution is as follows.$^{2}$ (Distance is measured in millions of kilometers and time in Earth years.)"
+    },
+    {
+     "img": "e1/p9-1.png",
+     "w": 375,
+     "h": 33
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the pattern in these data by making a graph of (ln $x$, ln $y)$ where $x$ is the distance to the Sun and $y$ is the period of revolution for the first four points (Mercury through Mars). Observe that these points are nearly on a straight line. Plot a line with ruler and estimate its slope. (You can check your estimated slope by calculating slopes of lines connecting consecutive data points.)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Using an approximation to the slope $m$ that you found in part (a) accurate to two significant figures, give a formula for $y$ in the form ln $y = m$ ln $x + c$ (Use the Earth to evaluate $c.)$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Solve for $y$ and make a table for the predicted values of the periods of revolutions of all the planets based on their distance to the Sun. (Your answers should be accurate to one percent.)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "The Earth has radius approximately 6,000 km and the Moon is at a distance of about 382,000 km. The period of revolution of the Moon is a lunar month, say 28 days. Assume that the slope $m$ is the same for revolution around the Earth as the on you found for revolution around the Sun in (a). Find the distance above the surface of the Earth of geosynchronous orbit, that is, the altitude of the orbit of a satellite that stays above one place on the equator. (For satellites this close to Earth it is important to know that $y$ is predicting the distance from the satellite to the center of the Earth. This is why you need to know the radius of the Earth.)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Find the period of revolution of a satellite that circles at an altitude of 1,000 km."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1H-8e-p9.png",
+       "w": 369,
+       "h": 29
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1I-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate the derivatives"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$xe^{x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$(x +1)e^{x}$ b) $4xe^{2x}$ c) $(-2x)e^{-x2}$ d) ln $x$ e) $2/x$ f) 2(ln $x)/x$ g) $4xe^{2x2}$"
+      },
+      {
+       "img": "g1/p16-1.png",
+       "w": 295,
+       "h": 14
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$(2x - 1)e^{2x}$ c) $e^{-x2}$"
+      },
+      {
+       "p": "doesn't travel as well as this. Part of the energy is dissipated into heating the air and another part into vibration of insulating materials on the way to the listener's ear. $^{\\frac{part}{2}}$from \"Fundamentals of Physics, vol. 1,\" by D. Halliday and R. Resnick"
+      },
+      {
+       "img": "e1/p10-1.png",
+       "w": 281,
+       "h": 48
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$x$ ln $x - x$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1I-1d-p10.png",
+       "w": 264,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "ln($x^{2})$ f) (ln $x)^{2}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1I-1e-p10.png",
+       "w": 264,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "g",
+     "partes": [
+      {
+       "p": "$(e^{x2})^{2}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1I-1g-p10.png",
+       "w": 291,
+       "h": 20
+      }
+     ]
+    },
+    {
+     "id": "h",
+     "partes": [
+      {
+       "p": "$x^{x}$ i) $(e^{x} + e^{-x})/2$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1I-1h-p10.png",
+       "w": 291,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1I-1h-p16.png",
+       "w": 305,
+       "h": 22
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1I-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Graph the function $y = (e^{x} + e^{-x})/2$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1I-3",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Evaluate $_{n}$lim$_{\\to \\infty}n$ ln(1 $+ \\frac{1}{n})$. Hint: Let $h = 1/n$, and use $(d/dx)$ln(1 $+ x)|_{x=0} = 1$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1I-3a-p16.png",
+       "w": 350,
+       "h": 87
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Deduce that $_{n}$lim$_{\\to \\infty}(1 + \\frac{1}{n})^{n} = e$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Take the logarithm of both sides. We need to show"
+      },
+      {
+       "p": "$_{n}$lim$_{\\to \\infty}$ ln(1 + $\\frac{1}{n})^{n} =$ ln $e = 1$"
+      },
+      {
+       "p": "But ln(1 + $\\frac{1}{n})^{n} = n$ ln(1 + $\\frac{1}{n})$ so the limit is the same as the one in part (a)."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1I-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Using $_{n}$lim$_{\\to \\infty}(1 + \\frac{1}{n})^{n} = e$, calculate"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$_{n}$lim$_{\\to \\infty}(1 + \\frac{1}{n})^{3n}$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$_{n}$lim$_{\\to \\infty}(1 + \\frac{2}{n})^{5n}$ c) $_{n}$lim$_{\\to \\infty}(1 + \\frac{1}{2n})^{5n}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Put $m = n/2$. Then"
+      },
+      {
+       "img": "g1/p16-4.png",
+       "w": 293,
+       "h": 20
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1I-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "If you invest $P$ dollars at the annual interest rate $r$, then after one year the interest is $I = rP$ dollars, and the total amount is $A = P + I = P (1 + r)$. This is simple interest."
+    },
+    {
+     "p": "For compound interest, the year is divided into $k$ equal time periods and the interest is calculated and added to the account at the end of each period. So at the end of the first period, $A = P (1 + r( \\frac{1}{k}))$; this is the new amount for the second period, at the end of which $A = P (1 + r( \\frac{1}{k}))(1 + r( \\frac{1}{k}))$, and continuing this way, at the end of the year the amount is"
+    },
+    {
+     "img": "e1/p10-2.png",
+     "w": 80,
+     "h": 16
+    },
+    {
+     "p": "The compound interest rate $r$ thus earns the same in a year as the simple interest rate of"
+    },
+    {
+     "img": "e1/p10-3.png",
+     "w": 65,
+     "h": 16
+    },
+    {
+     "p": "this equivalent simple interest rate is in bank jargon the \"annual percentage rate\" or APR.$^{3}$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Compute the APR of 5% compounded monthly, daily,$^{4}$ and continuously. Continuous compounding means the limit as $k$ tends to infinity."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "As in part (a), compute the APR of 10% compounded monthly, biweekly (k=26), daily, and continuously. (We have thrown in the biweekly rate because loans can be paid off biweekly.)"
+      },
+      {
+       "p": "3Banks are required to reveal this so-called APR when they offer loans. The APR also takes into account certain bank fees known as points. Unfortunately, not all fees are included in it, and the true costs are higher if the loan is paid off early. 4For daily compounding assume that the year has 365 days, not 365.25. Banks are quite careful about these subtle differences. If you look at official tables of rates from precalculator days you will find that they are off by small amounts because U.S. regulations permitted banks to pretend that a year has 360 days."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1J-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate the derivatives of the following functions"
+    },
+    {
+     "img": "e1/p11-1.png",
+     "w": 357,
+     "h": 58
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "sin(5$x^{2})$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1J-1a-p11.png",
+       "w": 324,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$10x$ cos(5$x^{2})$ b) $6$sin(3$x$) cos(3$x)$ c) $-$2 sin(2$x)/$ cos(2$x) = -$2 tan(2$x)$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "sin$^{2}(3x)$ c) ln(cos(2$x))$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1J-1b-p11.png",
+       "w": 324,
+       "h": 19
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "ln(2cos $x)$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1J-1d-p11.png",
+       "w": 367,
+       "h": 18
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$-$2 sin $x/$(2 cos $x) = -$ tan $x$. (Why did the factor 2 disappear? Because ln(2 cos $x) =$ ln2 + ln(cos $x)$, and the derivative of the constant ln2 is zero.)"
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$\\frac{sin x}{x}$ f) cos($x + y); y = f (x)$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1J-1e-p11.png",
+       "w": 367,
+       "h": 18
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$\\frac{x cos x - sin x}{x^{2}}$"
+      }
+     ]
+    },
+    {
+     "id": "g",
+     "partes": [
+      {
+       "p": "cos($x + y); y$ constant"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1J-1g-p11.png",
+       "w": 322,
+       "h": 21
+      }
+     ]
+    },
+    {
+     "id": "h",
+     "partes": [
+      {
+       "p": "$e^{sin2}^{x}$ i) ln($x^{2}$ sin $x)$"
+      },
+      {
+       "p": "m) The following three functions have the same derivative: cos(2$x)$, cos$^{2} x -$ sin$^{2} x$, and $2$cos$^{2} x$. Verify this. Are the three functions equal? Explain."
+      },
+      {
+       "img": "e1/p11-2.png",
+       "w": 325,
+       "h": 27
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula que o KaTeX não desenha",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1J-1h-p11.png",
+       "w": 393,
+       "h": 87
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1J-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate lim $\\frac{cos x}{x - \\pi /2}$ by relating it to a value of (cos $x)'$."
+    },
+    {
+     "p": "$$x\\to \\pi /2$$",
+     "display": true
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1J-2-p11.png",
+     "w": 301,
+     "h": 25
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Because cos($\\pi /2) = 0$,"
+    },
+    {
+     "p": "$_{x\\to}$lim$_{\\pi /2} \\frac{cos x}{x - \\pi /2} =_{x\\to}$lim$_{\\pi /2} \\frac{cos x - cos(\\pi /2)}{x - \\pi /2} = \\frac{d}{dx}$ cos $x|_{x=\\pi /2} = -$ sin $x|_{x=\\pi /2} = -1$"
+    }
+   ]
+  },
+  {
+   "n": "1J-3",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Let $a > 0$ be a given constant. Find in terms of $a$ the value of $k > 0$ for which $y =$ sin($kx)$ and $y =$ cos($kx)$ both satisfy the equation"
+      },
+      {
+       "p": "$$y^{''} + ay = 0$$",
+       "display": true
+      },
+      {
+       "p": "Use this value of $k$ in each of the following parts."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(sin($kx))' = k$ cos($kx)$. Hence (sin($kx))^{''} = (k$ cos($kx))' = -k^{2}$ sin($kx)$. Similarly, differentiating cosine twice switches from sine and then back to cosine with only one sign change, so (cos($kx)^{''} = -k^{2}$ cos($kx)$ Therefore, sin($kx)^{''} + k^{2}$ sin($kx) = 0$ and cos($kx)^{''} + k^{2}$ cos($kx) = 0$ Since we are assuming $k > 0, k = \\sqrt{a.}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Show that $y = c_{1}$ sin($kx) + c_{2}$ cos($kx)$ is also a solution to the equation in"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "This follows from the linearity of the operation of differentiation. With $k^{2} = a$, (48) $(c_{1}$ sin($kx) + c_{2}$ cos($kx))^{''} + k^{2}(c_{1}$ sin($kx) + c_{2}$ cos($kx))$"
+      },
+      {
+       "img": "g1/p18-3.png",
+       "w": 341,
+       "h": 44
+      }
+     ]
+    },
+    {
+     "id": "a'",
+     "partes": [
+      {
+       "p": ", for any constants $c_{1}$ and $c_{2}$."
+      }
+     ],
+     "tipo": "grupo"
+    },
+    {
+     "id": "a'c",
+     "partes": [
+      {
+       "p": "Show that the function $y =$ sin($kx + \\phi )$ (whose graph is a sine wave with phase shift $\\phi )$ also satisfies the equation in (a), for any constant $\\phi$ ."
+      }
+     ],
+     "pai": "a'",
+     "tipo": "aberta"
+    },
+    {
+     "id": "a'd",
+     "partes": [
+      {
+       "p": "Show that the function in (c) is already included among the functions of part (b), by using the trigonometric addition formula for the sine function. In other words, given $k$ and $\\phi$ , find values of $c_{1}$ and $c_{2}$ for which sin($kx + \\phi ) = c_{1}$ sin($kx) + c_{2}$ cos($kx)$"
+      }
+     ],
+     "pai": "a'",
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "1J-4",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Show that a chord of the unit circle with angle $\\theta$ has length $\\sqrt{2 - 2 cos \\theta .}$ Deduce from the half-angle formula"
+      },
+      {
+       "img": "e1/p11-3.png",
+       "w": 96,
+       "h": 19
+      },
+      {
+       "p": "that the length of the chord is 2 sin($\\theta /2)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The Pythagorean theorem implies that $c^{2} =$ sin$^{2} \\theta + (1 -$ cos $\\theta )^{2} =$ sin$^{2} \\theta + 1 -$ 2 cos $\\theta +$ cos$^{2} \\theta = 2 -$ 2 cos $\\theta$ Thus,"
+      },
+      {
+       "img": "g1/p19-1.png",
+       "w": 192,
+       "h": 19
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Calculate the perimeter of an equilateral $n$-gon with vertices at a distance 1 from the center. Show that as $n$ tends to infinity, the perimeter tends to $2\\pi$ , the circumference of the unit circle."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1J-4b-p19.png",
+       "w": 360,
+       "h": 71
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "5A-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate a) tan$^{-1} \\sqrt{3}$ b) sin$^{-1}(\\sqrt{3}/2)$"
+    },
+    {
+     "p": "c) If $\\theta =$ tan$^{-1} 5$, then evaluate sin $\\theta$ , cos $\\theta$ , cot $\\theta$ , csc $\\theta$ , and sec $\\theta$ ."
+    },
+    {
+     "img": "e2/p1-1.png",
+     "w": 199,
+     "h": 76
+    },
+    {
+     "p": "d) sin$^{-1}$ cos($\\pi /6)$ e) tan$^{-1}$ tan($\\pi /3)$"
+    },
+    {
+     "p": "f) tan$^{-1}$ tan(2$\\pi /3)$ g) $_{x\\to -\\infty}$lim tan$^{-1} x$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q5A-1-p1.png",
+     "w": 385,
+     "h": 133
+    }
+   ],
+   "fonte": 1,
+   "solucao": []
+  },
+  {
+   "n": "5A-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate a) $\\frac{dx}{x^{2} + 1}$ b) $\\frac{dx}{x^{2} + b^{2}}$ c) $\\frac{dx}{\\sqrt{1 - x^{2}}}$."
+    },
+    {
+     "p": "$$1 b -1$$",
+     "display": true
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q5A-2-p1.png",
+     "w": 345,
+     "h": 26
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "5A-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate the derivative with respect to $x$ of the following"
+    },
+    {
+     "img": "e2/p1-2.png",
+     "w": 331,
+     "h": 91
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "sin$^{-1} \\frac{x - 1}{x + 1}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5A-3a-p1.png",
+       "w": 150,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q5A-3a-p2.png",
+       "w": 349,
+       "h": 135
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "tanh $x$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5A-3b-p1.png",
+       "w": 150,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "sech$^{2}x = 1/$ cosh$^{2} x = 4/(e^{x} + e^{-x})^{2}$"
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "ln($x + \\sqrt{x^{2} + 1)}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5A-3c-p1.png",
+       "w": 341,
+       "h": 18
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$y = x + \\sqrt{x^{2} + 1,} dy/dx = 1 + x/\\sqrt{x^{2} + 1.}$"
+      },
+      {
+       "p": "$$\\frac{d}{dx}\\text{ ln }y = \\frac{dy/dx}{y} = \\frac{1 + x/\\sqrt{x^{2} + 1}}{x + \\sqrt{x^{2} + 1}} = \\frac{1}{\\sqrt{x^{2} + 1}}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$y$ such that cos $y = x, 0 \\leq x \\leq 1$ and $0 \\leq y \\leq \\pi /2$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5A-3d-p1.png",
+       "w": 341,
+       "h": 18
+      }
+     ],
+     "solucao": [
+      {
+       "p": "cos $y = x \\Rightarrow (-$ sin $y)(dy/dx) = 1$"
+      },
+      {
+       "p": "$$\\frac{dy}{dx} = \\frac{-1}{sin y} = \\frac{-1}{\\sqrt{1 - x^{2}}}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "sin$^{-1}(x/a)$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5A-3e-p1.png",
+       "w": 168,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Chain rule:"
+      },
+      {
+       "img": "g2/p2-3.png",
+       "w": 201,
+       "h": 15
+      }
+     ]
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "sin$^{-1}(a/x)$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5A-3f-p1.png",
+       "w": 168,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Chain rule:"
+      },
+      {
+       "img": "g2/p2-4.png",
+       "w": 214,
+       "h": 15
+      }
+     ]
+    },
+    {
+     "id": "g",
+     "partes": [
+      {
+       "p": "tan$^{-1}(x/\\sqrt{1 - x^{2})}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5A-3g-p1.png",
+       "w": 178,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$y = x/\\sqrt{1 - x^{2},} dy/dx = (1 - x^{2})^{-3/2}, 1 + y^{2} = 1/(1 - x^{2})$. Thus"
+      },
+      {
+       "p": "$$\\frac{d}{dx}\\text{ tan}^{-1} y = \\frac{dy/dx}{1 + y^{2}} = (1 - x^{2})^{-3/2}(1 - x^{2}) = \\frac{1}{\\sqrt{1 - x^{2}}}$$",
+       "display": true
+      },
+      {
+       "p": "Why is this the same as the derivative of sin$^{-1} x$?"
+      }
+     ]
+    },
+    {
+     "id": "h",
+     "partes": [
+      {
+       "p": "sin$^{-1} \\sqrt{1 - x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5A-3h-p1.png",
+       "w": 178,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$y = \\sqrt{x - 1,} dy/dx = -1/2\\sqrt{x - 1,} 1 - y^{2} = x$. Thus,"
+      },
+      {
+       "img": "g2/p2-5.png",
+       "w": 162,
+       "h": 24
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "5A-4",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "If the tangent line to $y =$ cosh $x$ at $x = a$ goes through the origin, what equation must $a$ satisfy?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y' =$ sinh $x$. A tangent line through the origin has the equation $y = mx$. If it meets the graph at $x = a$, then $ma =$ cosh($a)$ and $m =$ sinh($a)$. Therefore, $a$ sinh($a) =$ cosh($a)$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Solve for $a$ using Newton's method."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q5A-4b-p3.png",
+       "w": 369,
+       "h": 146
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "5A-5",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Sketch the graph of $y =$ sinh $x$, by finding its critical points, points of inflection, symmetries, and limits as $x \\to \\infty$ and $-\\infty$ ."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Give a suitable definition for sinh$^{-1} x$, and sketch its graph, indicating the domain of definition. (The inverse hyperbolic sine.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y =$ sinh$^{-1} x \\Leftarrow \\Rightarrow x =$ sinh $y$. Domain is the whole $x$-axis."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Find $\\frac{d}{dx}$ sinh$^{-1} x$."
+      },
+      {
+       "img": "e2/p2-1.png",
+       "w": 6,
+       "h": 6
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Differentiate $x =$ sinh $y$ implicitly with respect to $x$:"
+      },
+      {
+       "p": "1 = cosh $y \\cdot \\frac{dy}{dx}$"
+      },
+      {
+       "img": "g2/p3-2.png",
+       "w": 156,
+       "h": 53
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Use your work to evaluate $\\frac{dx}{\\sqrt{a^{2} + x^{2}}}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5A-5d-p2.png",
+       "w": 193,
+       "h": 18
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q5A-5d-p4.png",
+       "w": 235,
+       "h": 111
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "5A-6",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the average value of $y$ with respect to arclength on the semicircle $x^{2} + y^{2} = 1, y > 0$, using polar coordinates."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q5A-6a-p4.png",
+       "w": 138,
+       "h": 26
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "A weighted average of a function is"
+      },
+      {
+       "img": "e2/p2-2.png",
+       "w": 128,
+       "h": 28
+      },
+      {
+       "p": "Do part (a) over again expressing arclength as $ds = w(x)dx$. The change of variables needed to evaluate the numerator and denominator will bring back part (a)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q5A-6b-p4.png",
+       "w": 369,
+       "h": 252
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Find the average height of $\\sqrt{1 - x^{2}}$ on $-1 < x < 1$ with respect to $dx$. Notice that this differs from part (b) in both numerator and denominator."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q5A-6c-p4.png",
+       "w": 277,
+       "h": 95
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "5E-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The equality (1) of Notes F is valid for $x = 1,-2$. Therefore, the equality (4)"
+    },
+    {
+     "p": "is also valid only when $x = 1,-2$, since it arises from (1) by multiplication."
+    },
+    {
+     "p": "Why then is it legitimate to substitute $x = 1$ into (4)?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 1,
+   "solucao": [
+    {
+     "p": "Instead of thinking of (4) as arising from (1) by multiplication by $x-1$, think of it as arising from"
+    },
+    {
+     "p": "$$x - 7 = A(x + 2) + B(x - 1)$$",
+     "display": true
+    },
+    {
+     "p": "by division by $x + 2$; since this new equation is valid for all $x$, the line (4) will be valid for $x = -2$, in particular it will be valid for $x = 1$."
+    }
+   ]
+  },
+  {
+   "n": "5E-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Express the following as a sum of a polynomial and a proper rational function"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{x^{2}}{x^{2} - 1}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{x^{2}}{x^{2} - 1} = 1 + \\frac{1}{x^{2} - 1}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{x^{3}}{x^{2} - 1}$ c) $\\frac{x^{2}}{3x - 1}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{x^{3}}{x^{2} - 1} = x + \\frac{x}{x^{2} - 1}$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$\\frac{x + 2}{3x - 1}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{x + 2}{3x - 1} = \\frac{1}{3} + \\frac{7/3}{3x - 1}$"
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$\\frac{x^{8}}{(x + 2)^{2}(x - 2)^{2}}$ (just give the form of the solution)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{x^{8}}{(x + 2)^{2}(x - 2)^{2}} = A_{4}x^{4}+A_{3}x^{3}+A_{2}x^{2}+A_{1}x+A_{0}+ \\frac{B_{3}x^{3} + B_{2}x^{2} + B_{1}x + B_{0}}{(x + 2)^{2}(x - 2)^{2}}$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "5E-9",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Integrate the functions in Problem 5E-8."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 1,
+   "solucao": []
+  },
+  {
+   "n": "5E-10",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate the following integrals"
+    },
+    {
+     "img": "e2/p4-5.png",
+     "w": 288,
+     "h": 6
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{dx}{x^{3} - x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "By cover-up,"
+      },
+      {
+       "p": "$$\\frac{1}{x^{3} - x} = \\frac{1}{x(x - 1)(x + 1)} = \\frac{-1}{x} + \\frac{1/2}{x - 1} + \\frac{1/2}{x + 1}$$",
+       "display": true
+      },
+      {
+       "img": "g2/p14-5.png",
+       "w": 6,
+       "h": 6
+      },
+      {
+       "p": "$\\frac{dx}{x^{3} - x} = -$ ln $x + \\frac{1}{2}$ ln($x - 1) + \\frac{1}{2}$ ln($x + 1) + c$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{(x + 1)dx}{(x - 2)(x - 3)}$ c) $\\frac{(x^{2} + x + 1)dx}{x^{2} + 8x}$"
+      },
+      {
+       "img": "e2/p5-1.png",
+       "w": 287,
+       "h": 6
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "By cover-up, $\\frac{(x + 1)}{(x - 2)(x - 3)} = \\frac{-3}{x - 2} + \\frac{4}{x - 3}$. Therefore,"
+      },
+      {
+       "img": "g2/p14-6.png",
+       "w": 6,
+       "h": 6
+      },
+      {
+       "p": "$\\frac{(x + 1)}{(x - 2)(x - 3)}dx = -$3 ln($x - 2) +$ 4 ln($x - 3) + c$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$\\frac{(x^{2} + x + 1)dx}{x^{2} + 8x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Seeing double? It must be late."
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$\\frac{dx}{x^{3} + x^{2}}$ f) $\\frac{(x^{2} + 1)dx}{x^{3} + 2x^{2} + x}$"
+      },
+      {
+       "img": "e2/p5-2.png",
+       "w": 162,
+       "h": 6
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{1}{x^{3} + x^{2}} = \\frac{1}{x^{2}(x + 1)} = \\frac{A}{x} + \\frac{B}{x^{2}} + \\frac{C}{x + 1}$"
+      },
+      {
+       "p": "Use the cover-up method to get $B = 1$ and $C = 1$. For $A$,"
+      },
+      {
+       "p": "$$x = 1 \\Rightarrow \\frac{1}{2} = A + 1 + \\frac{1}{2} \\Rightarrow A = -1$$",
+       "display": true
+      },
+      {
+       "p": "In all,"
+      },
+      {
+       "img": "g2/p15-2.png",
+       "w": 164,
+       "h": 7
+      },
+      {
+       "p": "$\\frac{dx}{x^{3} + x^{2}} = -\\frac{1}{x} + \\frac{1}{x^{2}} + \\frac{1}{x + 1} dx = -$ ln $x +$ ln($x + 1) - \\frac{1}{x} + c$"
+      }
+     ]
+    },
+    {
+     "id": "g",
+     "partes": [
+      {
+       "p": "$\\frac{x^{3}dx}{(x + 1)^{2}(x - 1)}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Multiply out denominator: $(x + 1)^{2}(x - 1) = x^{3} + x^{2} - x - 1$. Divide into numerator:"
+      },
+      {
+       "p": "$$\\frac{x^{3}}{x^{3} + x^{2} - x - 1} = 1 + \\frac{-x^{2} + x + 1}{x^{3} + x^{2} - x - 1}$$",
+       "display": true
+      },
+      {
+       "p": "Write the proper rational function as"
+      },
+      {
+       "p": "$$\\frac{-x^{2} + x + 1}{(x + 1)^{2}(x - 1)} = \\frac{A}{x + 1} + \\frac{B}{(x + 1)^{2}} + \\frac{C}{x - 1}$$",
+       "display": true
+      },
+      {
+       "p": "By cover-up, $B = 1/2$ and $C = 1/4$. For $A$,"
+      },
+      {
+       "p": "$$x = 0 \\Rightarrow -1 = A + \\frac{1}{2} - \\frac{1}{4} \\Rightarrow A = -\\frac{5}{4}\\text{ and}$$",
+       "display": true
+      },
+      {
+       "img": "g2/p16-1.png",
+       "w": 272,
+       "h": 17
+      },
+      {
+       "p": "$= x - (5/$4) ln($x + 1) - \\frac{1}{2(x + 1)} + (1/$4) ln($x - 1) + c$"
+      },
+      {
+       "img": "g2/p16-2.png",
+       "w": 217,
+       "h": 6
+      }
+     ]
+    },
+    {
+     "id": "h",
+     "partes": [
+      {
+       "p": "$\\frac{(x^{2} + 1)dx}{x^{2} + 2x + 2}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q5E-10h-p16.png",
+       "w": 369,
+       "h": 70
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "5E-11",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Solve the differential equation $dy/dx = y(1 - y)$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 1,
+   "solucao": [
+    {
+     "p": "Separate:"
+    },
+    {
+     "p": "$$\\frac{dy}{y(1 - y)} = dx$$",
+     "display": true
+    },
+    {
+     "p": "Expand using partial fractions and integrate"
+    },
+    {
+     "img": "g2/p16-3.png",
+     "w": 109,
+     "h": 17
+    },
+    {
+     "p": "Hence, ln $y -$ ln($y - 1) = x + c$ Exponentiate:"
+    },
+    {
+     "p": "$$\\frac{y}{y - 1} = e^{x+c} = Ae^{x} (A = e^{c})$$",
+     "display": true
+    },
+    {
+     "p": "$$y = \\frac{Ae^{x}}{Ae^{x} - 1}$$",
+     "display": true
+    },
+    {
+     "p": "(If you integrated $1/(1 - y)$ to get $-$ ln(1 $- y)$ then you arrive at"
+    },
+    {
+     "p": "$$y = \\frac{Ae^{x}}{Ae^{x} + 1}$$",
+     "display": true
+    },
+    {
+     "p": "This is the same family of answers with $A$ and $-A$ traded.)"
+    }
+   ]
+  },
+  {
+   "n": "5E-12",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "This problem shows how to integrate any rational function of sin $\\theta$ and cos $\\theta$ using the substitution $z =$ tan($\\theta /2)$. The integrand is transformed into a rational function of $z$, which can be integrated using the method of partial fractions."
+    },
+    {
+     "p": "way!)"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Show that"
+      },
+      {
+       "p": "cos $\\theta = \\frac{1 - z^{2}}{1 + z^{2}}$, sin $\\theta = \\frac{2z}{1 + z^{2}}, d\\theta = \\frac{2dz}{1 + z^{2}}$."
+      },
+      {
+       "img": "e2/p5-3.png",
+       "w": 208,
+       "h": 8
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q5E-12a-p16.png",
+       "w": 328,
+       "h": 162
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{d\\theta}{1 + sin \\theta}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q5E-12b-p17.png",
+       "w": 265,
+       "h": 107
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$\\frac{d\\theta}{(1 + sin \\theta )^{2}}$ d) sin $\\theta d\\theta$ (Not the easiest 0 0 0"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Calculate the following integrals using the substitution $z =$ tan($\\theta /2)$ of part (a)."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5E-12c-p5.png",
+       "w": 337,
+       "h": 26
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q5E-12c-p17.png",
+       "w": 345,
+       "h": 186
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "5E-13",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Use the polar coordinate formula for area to compute the area of the region $0 < r < 1/$(1 + cos $\\theta ), 0 \\leq \\theta \\leq \\pi /2$. Hint: Problem 12 shows how the substi tution $z =$ tan($\\theta /2)$ allows you to integrate any rational function of a trigonometric function."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q5E-13a-p17.png",
+       "w": 369,
+       "h": 92
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Compute this same area using rectangular coordinates and compare your answers."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q5E-13b-p17.png",
+       "w": 335,
+       "h": 83
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "5F-1",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$x^{a}$ ln $xdx (a = -1)$ b) Evaluate the case $a = -1$ by substitu tion."
+      },
+      {
+       "img": "e2/p5-5.png",
+       "w": 235,
+       "h": 16
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5F-1a-p5.png",
+       "w": 365,
+       "h": 71
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q5F-1a-p17.png",
+       "w": 316,
+       "h": 19
+      },
+      {
+       "img": "g2/q5F-1a-p18.png",
+       "w": 282,
+       "h": 66
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q5F-1-p5.png",
+     "w": 365,
+     "h": 19
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "5F-2",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$xe^{x}dx$ b) $x^{2}e^{x}dx$ c) $x^{3}e^{x}dx$"
+      },
+      {
+       "img": "e2/p6-1.png",
+       "w": 341,
+       "h": 16
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5F-2a-p5.png",
+       "w": 245,
+       "h": 19
+      },
+      {
+       "img": "e2/q5F-2a-p6.png",
+       "w": 351,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q5F-2a-p18.png",
+       "w": 297,
+       "h": 60
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Derive the reduction formula expressing $Z x^{n}e^{ax}dx$ in terms of $Z x^{n-1}e^{ax}dx$."
+      },
+      {
+       "img": "e2/p6-2.png",
+       "w": 134,
+       "h": 16
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q5F-2d-p6.png",
+       "w": 383,
+       "h": 67
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q5F-2d-p18.png",
+       "w": 381,
+       "h": 301
+      },
+      {
+       "img": "g2/q5F-2d-p19.png",
+       "w": 320,
+       "h": 308
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q5F-2-p5.png",
+     "w": 245,
+     "h": 19
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "5F-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate $Z$ sin$^{-1}(4x)dx$"
+    },
+    {
+     "img": "e2/p6-3.png",
+     "w": 247,
+     "h": 16
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q5F-3-p6.png",
+     "w": 257,
+     "h": 67
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "5F-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate $e^{x}$ cos $xdx$. (Integrate by parts twice.)"
+    },
+    {
+     "img": "e2/p6-4.png",
+     "w": 6,
+     "h": 6
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q5F-4-p6.png",
+     "w": 257,
+     "h": 53
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "5F-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate cos(ln $x)dx$. (Integrate by parts twice.)"
+    },
+    {
+     "img": "e2/p6-5.png",
+     "w": 367,
+     "h": 16
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q5F-5-p6.png",
+     "w": 377,
+     "h": 60
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "5F-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Show the substitution $t = e^{x}$ transforms the integral $x^{n}e^{x}dx$, into (ln $t)^{n}dt$. Use a reduction procedure to evaluate this integral."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q5F-6-p6.png",
+     "w": 377,
+     "h": 35
+    }
+   ],
+   "fonte": 1,
+   "solucao": [
+    {
+     "img": "g2/q5F-6-p19.png",
+     "w": 327,
+     "h": 100
+    }
+   ]
+  }
+ ]
+}

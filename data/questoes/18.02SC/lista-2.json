@@ -1,0 +1,212 @@
+{
+ "etapa": "18.02SC/lista-2",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/378ff61797746177a933b67e50f1f074_MIT18_02SC_pset2.pdf",
+   "paginas": 3
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Problem Set 2 At MIT problem sets are referred to as 'psets'. You will see this term used occasionally within the problems sets. The 18.02 psets are split into two parts 'part I' and 'part II'. The part I are all taken from the supplementary problems. You will find a link to the supplementary problems and solutions on this website. The intention is that these help the student develop some fluency with concepts and techniques. Students have access to the solutions while they do the problems, so they can check their work or get a little help as they do the problems. After you finish the problems go back and redo the ones for which you needed help from the solutions. The part II problems are more involved. At MIT the students do not have access to the solutions while they work on the problems. They are encouraged to work together, but they have to write their solutions independently."
+  },
+  {
+   "p": "Part I (10 points)"
+  },
+  {
+   "p": "At MIT the underlined problems must be done and turned in for grading. The 'Others' are some suggested choices for more practice. A listing like '$§$1B$: \\frac{2,}{.}$ 5b, 10' means do the indicated problems from supplementary problems section 1B"
+  },
+  {
+   "p": "1 Matrices and inverse matrices $§$1F: 5b$\\frac{,}{,} 4$8a$\\frac{;}{5;}$ Others: 5a, 9; $§$1G: 3"
+  },
+  {
+   "p": "2 Theorems about square systems. Equations of Planes. $§$1H: 3abc$\\frac{;}{cd,}2$, Others: 7. 1abe, 3, 5 $§$1E: 1 6; Others: Part II (17 points)"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "(5: 1,2,2)",
+   "partes": [
+    {
+     "p": "Suppose we know that when the three planes $\\mathcal{P}_{1}, \\mathcal{P}_{2}$ and $\\mathcal{P}_{3}$ in $R^{3}$ intersect in pairs, we get three lines L$_{1}$, L$_{2}$, and L$_{3}$ which are distinct and parallel."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Sketch a picture of this situation."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1a-p1.png",
+       "w": 36,
+       "h": 19
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Show that the three normals to $\\mathcal{P}_{1}, \\mathcal{P}_{2}$ and $\\mathcal{P}_{3}$ all lie in one plane, using a geometric argument."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "See the diagram. Because the lines are parallel, we can cut through them with a single plane which is orthogonal to each line. The normal vectors $\\mathbf{n}_{1}, \\mathbf{n}_{2}, \\mathbf{n}_{3}$ lie in this plane."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Show that the three normals to $\\mathcal{P}_{1}, \\mathcal{P}_{2}$ and $\\mathcal{P}_{3}$ all lie in one plane, using an algebraic argument. (Note that the three planes clearly do not all intersect at one point.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1c-p1.png",
+       "w": 399,
+       "h": 327
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "(6: 3,1,2)",
+   "partes": [
+    {
+     "p": "A manufacturing process mixes three raw materials M$_{1}$, M$_{2}$, and M$_{3}$ to produce three products P$_{1}$, P$_{2}$, and P$_{3}$. The ratios of the amounts of the raw materials (in the order M$_{1}$, M$_{2}$, M$_{3})$ which are used to make up each of the three products are as follows: For P$_{1}$ the ratio is 1: 2: 3; for P$_{2}$ the ratio is 1: 3: 5; and for P$_{3}$ the ratio is 3: 5: 8. In a certain production run, 137 units of M$_{1}, 279$ units of M$_{2}$, and 448 units of M$_{3}$ were used. The problem is to determine how many units of each of the products P$_{1}$, P$_{2}$, and P$_{3}$ were produced in that run."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Set this problem up in matrix form. Use the letter $A$ for the matrix, and write down the (one-line) formula for the solution in matrix form."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "In 1 unit of P$_{1}$ there are 1/6 of a unit of M$_{1}, 2/6$ of a unit of M$_{2}$, and 3/6 of a unit of M$_{3}$. So to produce $p_{1}$ units of P$_{1}$, we need $\\frac{1}{6}p_{1}$ units of M$_{1}$, $\\frac{1}{3}p_{1}$ units of M$_{2}$, and $\\frac{1}{2}p_{1}$ units of M$_{3}$. Thus (using similar reasoning for P$_{2}$ and P$_{3})$ the linear system is $A\\mathbf{p} = \\mathbf{m}$ with"
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 100,
+       "h": 41
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Compute the inverse matrix of $A$ and use it to solve for the production vector P."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Using the method of cofactors we compute $|A| = \\frac{1}{864} = 0$, and then $A^{-1}$. We get"
+      },
+      {
+       "img": "g1/p2-2.png",
+       "w": 230,
+       "h": 42
+      },
+      {
+       "p": "If m $= \\langle 137, 279, 448\\rangle^{T}$, then p $= A^{-1}(\\mathbf{m}) = \\langle 144, 288, 432\\rangle^{T}$. So: 144 units of P$_{1}, 288$ of P$_{2}$, and 432 of P$_{3}$ produced."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Find a choice for the ratios for the third product (in lowest form), different from the other two ratios, and for which the resulting system has non-unique solutions."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2c-p2.png",
+       "w": 399,
+       "h": 362
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "(6: 4,2)",
+   "partes": [
+    {
+     "p": "For any plane $\\mathcal{P}$ which is not parallel to the x-y plane, define the steepest direction on $\\mathcal{P}$ to be the direction of any vector which lies in $\\mathcal{P}$ and which makes the largest (acute) angle with the x-y plane."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Let $\\mathcal{P}$ be the plane through the origin with normal vector n. Derive a formula, in terms of n, for a vector w which points in the steepest direction on $\\mathcal{P}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Key to this problem: use the cross-product (repeatedly!). There are two planes involved, the plane $\\mathcal{P}$ with normal n and the $x-y$ plane with normal k. Taking the cross product $\\mathbf{n} \\times \\mathbf{k}$ gives a vector which points along the intersection of the two planes. By inspection of the sketch, it is clear that any vector w which points in the steepest direction of $\\mathcal{P}$ lies both in $\\mathcal{P}$ and is perpendicular to the line of intersection of $\\mathcal{P}$ and the x-y plane. Since w lies $\\mathcal{P}$, it is in perpendicular to n; and since it is perpendicular to the line of intersection of $\\mathcal{P}$ and the x-y plane, it is perpendicular to $\\mathbf{n} \\times \\mathbf{k}$. Thus"
+      },
+      {
+       "p": "w = ($\\mathbf{n} \\times \\mathbf{k}) \\times \\mathbf{n}$"
+      },
+      {
+       "p": "is a vector in $\\mathcal{P}$ which points in the steepest direction of $\\mathcal{P}$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Now let $\\mathcal{P}$ be the plane through the origin which contains two non-parallel vectors u and v, where u and v do not both lie in the x-y plane. Derive a formula, in terms of u and v, for a vector w which points in the steepest direction on $\\mathcal{P}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "For the plane containing u and v we can take n = $\\mathbf{u} \\times \\mathbf{v}$ as a normal vector. Substituting this in the answer to part(a), we get"
+      },
+      {
+       "p": "w = (($\\mathbf{u} \\times \\mathbf{v}) \\times \\mathbf{k}) \\times (\\mathbf{u} \\times \\mathbf{v})$."
+      },
+      {
+       "p": "Notes: (i) Obviously taking the products in different orders just introduces a scalar factor. (ii) The formula for w does not give the zero vector (which would be bad!) because the plane $\\mathcal{P}$ is assumed to not be the $x-y$ plane. So we are ensured that n and k form a positive angle."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

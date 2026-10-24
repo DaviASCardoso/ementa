@@ -1,0 +1,1051 @@
+{
+ "etapa": "14.01/prova-final",
+ "fontes": [
+  {
+   "rotulo": "Prova com gabarito no mesmo PDF",
+   "url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+   "paginas": 13
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.01 Final Solutions"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Long Question: Consumer Theory [55 points]",
+   "partes": [
+    {
+     "p": "Jordan struggles with chronic back pain, which causes her disutility. In particular, she has a daily utility function over suffering, $s$, and dollars of consumption of everything else, $e$, of the form"
+    },
+    {
+     "p": "$$U (e,s) = (e - 10)^{\\frac{1}{4}} (10 - s)^{\\frac{1}{4}}$$",
+     "display": true
+    },
+    {
+     "p": "This is called a Stone-Geary utility function, and it is used to model a situation where she will sacrifice everything to consume $e$ when $e < 10$. She has a prescription for unlimited hydrocodone (a narcotic painkiller) from her doctor, and she is trying to decide how many milligrams (mg) of medication, $m$, to take each day. If she takes no medication, she suffers a lot: $s = 10$. Each mg of hydrocodone reduces her suffering level $s$ by 1."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[2 points] Carefully rewrite Jordan's utility function in terms of $e$ and $m$."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Since $s = 10 - m$, her utility can be written as $U (e,m) = ((e - 10)m)^{\\frac{1}{4}}$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[11 points]"
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "a. [4 points]"
+      },
+      {
+       "img": "manual/e1_p2-1.png",
+       "w": 495,
+       "h": 114
+      },
+      {
+       "p": "m"
+      },
+      {
+       "p": "U = 0 U = 1"
+      },
+      {
+       "p": "Grading note: 1 point for vertical line at $m = 10, 1$ point for horizontal line at $e = 0$, 1 point for hyperbola, 1 point for asymptotes. b. [2 points] No. c. [3 points] The marginal utility of $m$ is negative for values of $e < 10$. This means that for $e < 10$, Jordan will prefer to consume $m = 0$. Grading note: 1 point for correct MU, 1 point for noticing negative, 1 point for preferred consumption. d. [2 points] It violates monotonicity, or \"more is better\"."
+      }
+     ]
+    },
+    {
+     "id": "2a",
+     "partes": [
+      {
+       "p": "[4 points] Graph Jordan's two Indifference Curves defined by $U (e,m) = 0$, and by $U (e,m) = 1$, with everything else $(e)$ on the x-axis, and mg hydrocodone $(m)$ on the y-axis."
+      }
+     ],
+     "pai": "2",
+     "tipo": "aberta"
+    },
+    {
+     "id": "2b",
+     "partes": [
+      {
+       "p": "[2 points] Note that at $e < 10$ and $m > 0$, utility becomes negative. Does the fact that utility is negative violate any standard assumptions about utility that we usually make? If so, which?"
+      }
+     ],
+     "pai": "2",
+     "tipo": "aberta"
+    },
+    {
+     "id": "2c",
+     "partes": [
+      {
+       "p": "[3 points] What happens to the sign of the marginal utility of $m$ when $e < 10$? What does this imply about the preferred level of consumption of $m$ for small $e$?"
+      }
+     ],
+     "pai": "2",
+     "tipo": "aberta"
+    },
+    {
+     "id": "2d",
+     "partes": [
+      {
+       "p": "[2 points] Does this violate any standard assumptions about utility that we usually make? If so, which?"
+      }
+     ],
+     "pai": "2",
+     "tipo": "aberta"
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[8 points] Suppose Jordan's daily budget is $Y$ dollars, and that the price of hydrocodone is $p_{m}$ dollars per mg. The price of a dollar of everything else is by definition 1 dollar. Assume $Y > 10$."
+      }
+     ],
+     "tipo": "grupo",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "manual/e1_q13-p2.png",
+       "w": 470,
+       "h": 51
+      }
+     ],
+     "solucao": [
+      {
+       "p": "a. [2 points] Jordan's BC is"
+      },
+      {
+       "p": "$$e + p_{m}m = Y$$",
+       "display": true
+      },
+      {
+       "p": "b. [6 points] First, find Jordan's MRS and MRT."
+      },
+      {
+       "p": "$$U_{e} = \\frac{1}{4}( \\frac{m}{e - 10})^{\\frac{-3}{4}}$$",
+       "display": true
+      },
+      {
+       "p": "$$U_{m} = \\frac{1}{4}( \\frac{e - 10}{m})^{\\frac{-3}{4}}$$",
+       "display": true
+      },
+      {
+       "p": "$$MRS_{e,m} = \\frac{U_{e}}{U_{m}} = \\frac{m}{e - 10}$$",
+       "display": true
+      },
+      {
+       "p": "$$MRT_{e,m} = \\frac{p_{e}}{p_{m}} = \\frac{1}{p_{m}}$$",
+       "display": true
+      },
+      {
+       "p": "The tangency condition is therefore:"
+      },
+      {
+       "p": "$$\\frac{m}{e - 10} = \\frac{1}{p_{m}}$$",
+       "display": true
+      },
+      {
+       "p": "$$m = \\frac{e - 10}{p_{m}}$$",
+       "display": true
+      },
+      {
+       "p": "Plugging this into the budget constraint yields:"
+      },
+      {
+       "p": "$$e^{*} = \\frac{Y + 10}{2}$$",
+       "display": true
+      },
+      {
+       "p": "$$m^{*} = \\frac{Y - 10}{2p_{m}}$$",
+       "display": true
+      },
+      {
+       "p": "Grading note: 1 point for MRS defn., 1 point for MRT defn., 2 points for equality condition., 1 point for BC, 1 point for correct math."
+      }
+     ]
+    },
+    {
+     "id": "3a",
+     "partes": [
+      {
+       "p": "[2 points] What is Jordan's budget constraint?"
+      }
+     ],
+     "pai": "3",
+     "tipo": "aberta"
+    },
+    {
+     "id": "3b",
+     "partes": [
+      {
+       "p": "[6 points] Solve for Jordan's daily consumption of hydrocodone and everything else, in terms of $p_{m}$ and $Y$ ."
+      }
+     ],
+     "pai": "3",
+     "tipo": "aberta"
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[14 points] Now imagine that there are 20 people in the economy with back pain. All of them have the same utility function $U (e,m)$ as Jordan. However, they have different income. 10 people are \"rich\", and have \\$28 per day to spend. The other 10 are \"poor\", and only have \\$8 to spend each day. In addition, suppose the marginal cost of making hydrocodone is \\$1 per mg, and that markets are perfectly competitive."
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "a. [2 points] Demand is $e = \\frac{Y +10}{2}$ and $m = \\frac{Y -10}{2p_{m}}$. So,"
+      },
+      {
+       "p": "$$e_{r}^{*} = 19$$",
+       "display": true
+      },
+      {
+       "p": "$$m_{r}^{*} = \\frac{9}{p_{m}}$$",
+       "display": true
+      },
+      {
+       "p": "b. [4 points] The poor will consume"
+      },
+      {
+       "p": "$$e_{p}^{*} = 8$$",
+       "display": true
+      },
+      {
+       "p": "$$m_{p}^{*} = 0$$",
+       "display": true
+      },
+      {
+       "p": "You can solve this either by noticing that this corresponds to the case in (2.c), where the marginal utility of $m$ is negative, and hence all income will be spent on $e$, or noting that MRS=MRT is satisfied at an infeasible bundle, and then checking the corners. c. [2 points] Market demand is the horizontal sum of individual demand:"
+      },
+      {
+       "p": "$$Q_{m} = 10 \\times \\frac{9}{p_{m}}$$",
+       "display": true
+      },
+      {
+       "p": "$$= \\frac{90}{p_{m}}$$",
+       "display": true
+      },
+      {
+       "p": "d. [3 points]"
+      },
+      {
+       "img": "manual/e1_p4-1.png",
+       "w": 495,
+       "h": 156
+      },
+      {
+       "p": "e. [3 points] Inverse supply is $p_{m} = 1$, and Demand is $Q_{m} = \\frac{90}{p_{m}}$. Their intersection is:"
+      },
+      {
+       "p": "$$p_{m}^{*} = 1$$",
+       "display": true
+      },
+      {
+       "p": "$$Q_{m}^{*} = 90$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "4a",
+     "partes": [
+      {
+       "p": "[2 points] What is the optimal consumption of $m$ for the rich, in terms of $p_{m}$?"
+      }
+     ],
+     "pai": "4",
+     "tipo": "aberta"
+    },
+    {
+     "id": "4b",
+     "partes": [
+      {
+       "p": "[4 points] What is the optimal consumption of $e$ and $m$ for the poor, in terms of $p_{m}$? [Hint: it is not possible to consume negative amounts!]"
+      }
+     ],
+     "pai": "4",
+     "tipo": "aberta"
+    },
+    {
+     "id": "4c",
+     "partes": [
+      {
+       "p": "[2 points] What is the total market demand, $Q_{m}$, for mg hydrocodone in the economy?"
+      }
+     ],
+     "pai": "4",
+     "tipo": "aberta"
+    },
+    {
+     "id": "4d",
+     "partes": [
+      {
+       "p": "[3 points] Graph the intersection of supply and demand."
+      }
+     ],
+     "pai": "4",
+     "tipo": "aberta"
+    },
+    {
+     "id": "4e",
+     "partes": [
+      {
+       "p": "[3 points] What is the equilibrium price? How much total hydrocodone do people take each day?"
+      }
+     ],
+     "pai": "4",
+     "tipo": "aberta"
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "[20 points] Suppose the government is considering a tax and transfer program that will take \\$10 from each rich person, and give \\$10 to each poor person. Assume the program is com pletely nondistortive (so there is no change to pre-tax income if implemented.) The govern ment is utilitarian."
+      }
+     ],
+     "tipo": "grupo"
+    },
+    {
+     "id": "5a",
+     "partes": [
+      {
+       "p": "[6 points] What is the utility of each type of person (i.e. for the \"rich\" who have \\$28, and for the \"poor\" who have \\$8) without the tax and transfer program?"
+      }
+     ],
+     "pai": "5",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Utility is $U(e,m) = ((e - 10)m)^{\\frac{1}{4}}$. For the rich, this is $U_{r} = ((19 - 10)9)^{\\frac{1}{4}} = 3$. For the poor, $U_{p} = ((5 - 10)0)^{\\frac{1}{4}} = 0$."
+      }
+     ]
+    },
+    {
+     "id": "5b",
+     "partes": [
+      {
+       "p": "[3 points] What is total social welfare without the program?"
+      }
+     ],
+     "pai": "5",
+     "solucao": [
+      {
+       "p": "Total social welfare is the sum of utilities, or $10 \\times 3 + 10 \\times 0 = 30$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "5c",
+     "partes": [
+      {
+       "p": "[6 points] What is total social welfare with the program?"
+      }
+     ],
+     "pai": "5",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "With the program, the rich and poor both have \\$18 to spend, so $e = 14$, $m = 4$, and $U = 2$. Total social welfare is $20 \\times 2 = 40$."
+      }
+     ]
+    },
+    {
+     "id": "5d",
+     "partes": [
+      {
+       "p": "[1 points] Will the government implement the program?"
+      }
+     ],
+     "pai": "5",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Yes: total social welfare is higher with the program."
+      }
+     ]
+    },
+    {
+     "id": "5e",
+     "partes": [
+      {
+       "p": "[4 points] Imagine now that the program is distortive: it still results in a post-tax income of \\$18 for the rich, but the post-tax income of the poor is only \\$10. Will the government implement the program in this case?"
+      }
+     ],
+     "pai": "5",
+     "solucao": [
+      {
+       "p": "No: in this case, the utility of the rich is still 2, but the utility of the poor is 0. Social utility is $2 \\times 10 + 0 \\times 10 = 20 < 30$."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "manual/e1_q1-p1.png",
+     "w": 481,
+     "h": 195
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Long Question 2 (50 points)",
+   "partes": [
+    {
+     "p": "Consider the market for laptop computers. Firms use capital and labor to produce a laptop, and their production technology can be represented by the following function:"
+    },
+    {
+     "p": "$$F (L,K) = \\sqrt{LK}$$",
+     "display": true
+    },
+    {
+     "p": "Suppose that the wage is $w = 2$ and the rental rate of capital is $r = 2$. Throughout this problem we will assume that we are in the long-run, so firms can freely choose labor and capital, and there are no fixed costs. The market demand for laptops is"
+    },
+    {
+     "p": "$$Q^{D} (p) = 10 - p$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(3 points) Write the Marginal Rate of Technical Substitution (MRTS) as a function of $L$ and $K$. Briefly explain the interpretation of the MRTS (one or two sentences are enough)."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$$MRTS = -\\frac{\\frac{1}{2}K^{\\frac{1}{2}}L^{-\\frac{1}{2}}}{\\frac{1}{2}K^{-\\frac{1}{2}}L^{\\frac{1}{2}}} = -\\frac{K}{L}$$"
+      },
+      {
+       "p": "The interpretation is that if we decrease labor by one unit and want to keep production constant, we have to increase capital by $\\frac{K}{L}$ units."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(8 points) If the firm wants to produce $q$ units at minimum cost, how many units of labor and capital should it use? Using this result, find the cost function $C (q)$ (make sure to use the values provided above for the wage and rental rate of capital)."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "min 2$_{L,K} L + 2K$"
+      },
+      {
+       "p": "$$s.t. \\sqrt{LK} \\geq q$$",
+       "display": true
+      },
+      {
+       "p": "$$MRTS = MRT$$",
+       "display": true
+      },
+      {
+       "p": "$$\\frac{K}{L} = 1$$",
+       "display": true
+      },
+      {
+       "p": "$$K = L$$",
+       "display": true
+      },
+      {
+       "p": "Replacing in the constraint:"
+      },
+      {
+       "p": "$$\\sqrt{LK} = q$$",
+       "display": true
+      },
+      {
+       "p": "$$L = q$$",
+       "display": true
+      },
+      {
+       "p": "$$K = q$$",
+       "display": true
+      },
+      {
+       "p": "So the cost function is"
+      },
+      {
+       "p": "$$C (q) = 4q$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Suppose that the market is perfectly competitive and there are infinite potential firms, all with the same production technology."
+      }
+     ],
+     "tipo": "grupo"
+    },
+    {
+     "id": "3a",
+     "partes": [
+      {
+       "p": "(4 points) Find the quantity supplied by each firm at every possible value of $p$. Using this result, find the market supply curve."
+      }
+     ],
+     "pai": "3",
+     "solucao": [
+      {
+       "p": "in this case, the individual and the market supply are the same:"
+      },
+      {
+       "img": "manual/e1_p6-1.png",
+       "w": 416,
+       "h": 90
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "3b",
+     "partes": [
+      {
+       "p": "(4 points) What will be the equilibrium price and quantity in the market for laptops?"
+      }
+     ],
+     "pai": "3",
+     "solucao": [
+      {
+       "p": "the equilibrium price is $P^{*} = 4$, while the equilibrium quantity is $Q^{*} = 6$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "The government needs to raise revenue in order to redistribute towards poor families. With this objective in mind, it is considering the following policy: only one firm will be allowed to sell laptops, and in exchange for this permission the firm will have to pay the government the sum of $T$ dollars."
+      }
+     ],
+     "tipo": "grupo"
+    },
+    {
+     "id": "4a",
+     "partes": [
+      {
+       "p": "(6 points) At what price will a firm sell laptops if it is the only one who is allowed to operate in this market (assume that this monopolist cannot practice any type of price discrimination)? What will be the quantity sold?"
+      }
+     ],
+     "pai": "4",
+     "solucao": [
+      {
+       "p": "The profit maximization problem is"
+      },
+      {
+       "p": "max (10$_{Q} - Q) Q - 4Q$"
+      },
+      {
+       "p": "FOC:"
+      },
+      {
+       "p": "$$10 - 2Q = 4$$",
+       "display": true
+      },
+      {
+       "p": "$$Q_{1} = 3$$",
+       "display": true
+      },
+      {
+       "p": "$$P_{1} = 7$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "4b",
+     "partes": [
+      {
+       "p": "(4 points) What is the maximum amount $T$ that the government can charge for the permit to sell laptops?"
+      }
+     ],
+     "pai": "4",
+     "solucao": [
+      {
+       "p": "the monopolist makes $a$ profit of"
+      },
+      {
+       "p": "$$(10 - 3) 3 - 4 \\times 3 = 9$$",
+       "display": true
+      },
+      {
+       "p": "so the government can charge up to $T = 9$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "4c",
+     "partes": [
+      {
+       "p": "(5 points) Just as in Okun's \"leaky bucket\" example, the government is willing to accept some efficiency loss in order to raise revenue for redistribution. In particular, assume that the government is willing to accept a loss of up to \\$0.4 of total surplus for every \\$1 of revenue it raises. We can represent this with a government \"utility function\""
+      },
+      {
+       "p": "$$U^{G} = -2.5DWL + R$$",
+       "display": true
+      },
+      {
+       "p": "where $DWL$ stands for Deadweight Loss and $R$ is government revenue. Will the government decide to apply the policy under consideration or will it prefer to maintain perfect competition? (Hint: when calculating the DWL, it might be helpful for you to draw $a$ graph of the monopoly problem)"
+      }
+     ],
+     "pai": "4",
+     "solucao": [
+      {
+       "p": "under perfect competition, there is no DWL and no revenue. With $a$ monopoly, the DWL is"
+      },
+      {
+       "p": "$$DWL_{1} = \\frac{(P_{1} - P^{*}) (Q^{*} - Q_{1})}{2}$$",
+       "display": true
+      },
+      {
+       "p": "$$= \\frac{9}{2}$$",
+       "display": true
+      },
+      {
+       "p": "so the governments utility would be $U^{G} = -2.5 \\frac{9}{2} + 9 < 0$. Therefore, the government will not implement this policy."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "Now the government is considering a similar policy as in part 4, but instead of allowing only one firm to sell laptops, it will allow two firms to operate and it will charge each firm \\$$t$ for this permission. Suppose that the two firms in operation compete as in the Cournot duopoly."
+      }
+     ],
+     "tipo": "grupo"
+    },
+    {
+     "id": "5a",
+     "partes": [
+      {
+       "p": "(7 points) What will be the equilibrium price and market quantity if there are two firms competing a-la-Cournot?"
+      }
+     ],
+     "pai": "5",
+     "solucao": [
+      {
+       "p": "Each firm solves max (10$_{qi} - q_{i} - q_{j} - 4) q_{i}$"
+      },
+      {
+       "p": "FOC:"
+      },
+      {
+       "p": "$$6 - 2q_{i} - q_{j} = 0$$",
+       "display": true
+      },
+      {
+       "p": "Using that the equilibrium is symmetric:"
+      },
+      {
+       "p": "$$6 - 3q = 0$$",
+       "display": true
+      },
+      {
+       "p": "$$q = 2$$",
+       "display": true
+      },
+      {
+       "p": "The market quantity is"
+      },
+      {
+       "p": "$$Q_{2} = 4$$",
+       "display": true
+      },
+      {
+       "p": "and the price is"
+      },
+      {
+       "p": "$$P_{2} = 6$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "5b",
+     "partes": [
+      {
+       "p": "(4 points) What is the maximum amount \\$$t$ that the government can charge each firm for the permit? What is the total government revenue?"
+      }
+     ],
+     "pai": "5",
+     "solucao": [
+      {
+       "p": "each firm's profits are $\\pi = 4$ , so this is the maximum amount that the govern ment can charge. Total revenue will be $T = 2t = 8$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "5c",
+     "partes": [
+      {
+       "p": "(5 points) How does this government revenue compare to the monopoly case? And how does the DWL compare? Suppose that the government has the same preferences over efficiency and equity as described in part 4c. Will the government want to sell the two permits or will it prefer perfect competition?"
+      }
+     ],
+     "pai": "5",
+     "solucao": [
+      {
+       "p": "the DWL is"
+      },
+      {
+       "p": "$$DWL_{2} = \\frac{2 \\times 2}{2}$$",
+       "display": true
+      },
+      {
+       "p": "= 2 so the government gets $a$ utility of $-2.5 \\times 2 + 8 > 0$. The goverment prefers to have $a$ duopoly than to have perfect competition."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta"
+  },
+  {
+   "n": "3",
+   "titulo": "Long Question: Savings [35 points]",
+   "partes": [
+    {
+     "p": "Assume Paul lives for two periods, $t \\in \\{1, 2\\}$, and in each period, he has an income $y_{t}$. Denote $c_{t}$ as his consumption level at period $t$. In the first period, $t = 1$, he can save or borrow at an interest rate of $r$. That is, if he chooses to save (or borrow) \\$$x$ at $t = 1$, then at $t = 2$, he gets \\$$(1 + r)x$ from the bank (or pays a debt of \\$$(1 + r)x$ to the bank)."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(3 points) What is the present value of Paul's lifetime income (including the income from both periods) at $t = 1$?"
+      },
+      {
+       "img": "manual/e1_p9-1.png",
+       "w": 264,
+       "h": 226
+      }
+     ],
+     "solucao": [
+      {
+       "p": "The NPV of Paul's lifetime incomes is $y_{1} + \\frac{y_{2}}{1+r}. (3$ points)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(6 points) Call $c_{1}, c_{2}$ Paul's consumptions at $t = 1$ and $t = 2$ respectively. Write down the budget constraint Paul faces as an equation of $c_{1}$ and $c_{2}$. Now assume $y_{2} = 0$. Draw Paul's lifetime budget constraint over $c_{1}$ and $c_{2}$, with $c_{1}$ on the x-axis. Make sure to clearly label the diagram and intercepts."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Paul faces a budget constraint of"
+      },
+      {
+       "p": "$c_{1} + \\frac{c_{2}}{1 + r} = y_{1} + \\frac{y_{2}}{1 + r}. (3$ points)"
+      },
+      {
+       "p": "Graph (3 points): (1 point for the correct intersection on $c_{1}, 1$ point for the correct intersec"
+      },
+      {
+       "p": "tion on $c_{2}, 1$ point for the correct shape and label.) 4. If $\\beta$ increases, then $c_{1}^{*}$ decreases and $c_{2}^{*}$ increases. The intuition is that because as $\\beta$ increases, Paul cares more about his future consumption and therefore will shift his consumption from period 1 to period 2. (4 points) (2 points for the right direction of $c_{1}. 2$ points for the intuition (mentioning \"care more about period 2 consumption\" or similar idea is enough).)"
+      },
+      {
+       "p": "6. If Paul is risk neutral, then he will pick up the choice that gives him the highest expected return. Therefore, I will suggest him to invest in stocks since it has higher expected return. (2 points) (1 point for the correct direction, 1 point for the intuition (mentioning higher expected return or similar is enough).) Problem [True/False, Short question]"
+      },
+      {
+       "p": "True/False. Please fully explain your answer, including diagrams where appropriate. Points are awarded based on explanations."
+      },
+      {
+       "p": "2. (5 points) A binding price ceiling can decrease the deadweight loss of monopoly pricing."
+      },
+      {
+       "p": "3. (5 points) In country A, each worker can produce either 3 apples or 1 orange. In country B, however, each worker can produce either 6 apples or 2 oranges. Opening up to trade between A and B will lead to greater welfare for both countries."
+      },
+      {
+       "p": "4. (5 points) Because long-run aggregate supply is upward sloping when aggregate labor sup ply is upward sloping, firms will make profits whenever aggregate labor supply is upward sloping. Short question (12 points) Consider the case of cigarette smoke. Suppose the social cost of the negative externality to be \\$1 per a pack of cigarettes. Government levies a tax per a pack of cigarettes at an amount $\\tau$ . In the following parts find arguments why the optimal tax that the government is planning to set should be $>,<, = 1. ($please limit your answer to 1-2 sentences)"
+      },
+      {
+       "p": "2. Provide a reason why the tax $\\tau > 1$?"
+      },
+      {
+       "p": "3. Provide a reason why the tax $\\tau < 1$?"
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(8 points) Given $y_{2} = 0$, and suppose now the government decides to tax the interest earnings. Will this interest tax increase Paul's first period savings? Make sure to clearly explain your reasoning."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "It depends. Taxing the interests earning is equivalent to a drop in the interest rate. The total effect of an interest rate increase can be decomposed into two parts. The substitution effect implies that as interest rate falls, the marginal return of saving becomes lower, and therefore Paul may want to decrease his savings. (3 points) 1 point for mention the effect name. 1 point for the right direction. 1 point for the explanation. For example, if the students merely mention the substitution effect but no explanations or wrong explanations, give them 1 point. The income effect implies that Paul will be poorer after a fall in interest rate, and there fore decrease the consumptions in both periods. As a result, his savings at period 1 will be increased. In other words, he has to save more to afford the consumption level at period 2. (3 points) 1 point for mention the effect name. 1 point for the right direction. 1 point for the explanation. For example, if the students merely mention the income effect but no explana tions or wrong explanations, give them 1 point. The direction of the total effect thus depends on which effect dominates. (2 point) (6 points if correctly discuss the two effects, but somehow mistakenly conclude one effect dominates. 5 points for only explaining substitution effect or only explaining income effect, and conclude the right direction (corresponding to that direction). 4 points if clearly explain one effect but conclude the wrong direction (or even conclude it depends). 4 points if merely mention both effects and conclude it depends but the explanations/directions of both effects are wrong/missing. 6 points if mention both effects and directions, conclude it depends, but miss/wrong explana tions for both effects.)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(4 points) Suppose Paul's lifetime utility is $u(c_{1}, c_{2}) = \\sqrt{c_{1}} + \\beta \\sqrt{c_{2}}$. If $\\beta$ increases, without doing any math, will you expect Paul to consume more or less at period $t = 1$? Briefly explain the intuition."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(6 points) If Paul invests \\$100 in stocks at $t = 1$, what is the expected value of his second period wealth? If instead, he invests \\$100 in savings at $t = 1$, what is the expected value of his second period wealth?"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Throughout the rest of the question, assume that $y_{1} = 200, y_{2} = 0$, and assume that Paul decides to spend half of his first period income immediately, so $c_{1} = 100$, and invest the other half (\\$100). Paul has two investment options. One option is to buy stocks from company B. Each share costs \\$1 at $t = 1$. At $t = 2$, the stock price is uncertain. There is a 10% chance the stock price goes up to \\$4 per share, a 50% chance the stock price goes up to \\$2.25 per share, and a 40% chance the company B is bankrupted and the stock price falls to \\$0 per share. Paul has another option: to invest all \\$100 in a savings account. But at $t = 2$, there is also a random shock to the savings account. With a 50% chance, the bank operates normally and the interest rate is $r$ = 44%; but with a 50% chance, the interest rate falls down to 0 (but Paul can still get his \\$100 principal back)."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Now if Paul buys 100 shares of stocks at $t = 1$, then at $t = 2$, he will get \\$400 with 10% probability, \\$225 with 50% and \\$0 with 40% probability. Hence, his expected income from the stock investment is"
+      },
+      {
+       "p": "E($\\tilde{s}) = 400 \\times$ 10% + $225 \\times$ 50% + $0 \\times$ 40% = 152.5."
+      },
+      {
+       "p": "(3 points) (1 point for the correct support of the distribution, 1 point for the correct proba bility, 1 point for the right expectation formula, 1 point for the final answer. If the students writes the right equation directly, give them full credits. If students make minor algebraic mistakes and have the right expression, give them 2 points. Or if they mistakenly uses the wrong distribution but everything else correct, give them 2 points.) Now if Paul saves \\$100 shares at $t = 1$, then at $t = 2$, he will get \\$144 with 50% probability, and \\$100 with 50% probability. Hence, his expected income from the savings is"
+      },
+      {
+       "p": "E($\\tilde{s}) = 144 \\times$ 50% + $100 \\times$ 50% = $122$."
+      },
+      {
+       "p": "(3 points) (1 point for the correct support of the distribution, 1 point for the correct proba bility, 1 point for the right expectation formula, 1 point for the final answer. If the students writes the right equation directly, give them full credits. If students make minor algebraic mistakes and have the right expression, give them 2 points. Or if they mistakenly uses the wrong distribution but everything else correct, give them 2 points.)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(2 points) If Paul is risk neutral, as a financial advisor, would you suggest Paul to invest in savings or in stocks? Explain the reasoning."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "(6 points) If Paul's utility function is $u(c_{1}, c_{2}) =\\sqrt{c_{1}} +\\sqrt{c_{2}}$. As before, assume without proof that at $t = 1$, he still consumes \\$100 and invests the rest \\$100. Calculate Paul's lifetime expected utility from investing purely in stocks and that from investing purely in savings. Would you suggest that Paul invest his \\$100 in savings or in stocks? Explain why your answer is or is not the same as in part 6."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "If Paul invests in stock, then at $t = 2$, he will gets \\$400 with 10% probability, \\$225 with 50% and \\$0 with 40% probability. Hence, his expected utility is"
+      },
+      {
+       "img": "manual/e1_p10-1.png",
+       "w": 441,
+       "h": 54
+      },
+      {
+       "p": "make minor algebraic mistakes and have the right expression, give them 1 point. Or if they mistakenly uses the wrong distribution but everything else correct, give them 1 point.) Similarly if Paul saves \\$100, then his expected utility is"
+      },
+      {
+       "img": "manual/e1_p10-2.png",
+       "w": 278,
+       "h": 53
+      },
+      {
+       "p": "(2 points) (1 point for the right expectation formula, 1 point for the final answer. If students make minor algebraic mistakes and have the right expression, give them 1 point. Or if they mistakenly uses the wrong distribution but everything else correct, give them 1 point.) Notice the expected utility from saving is higher than that from buying stocks. Therefore I will suggest Paul to invest in savings. The conclusion is different from that in part 6 because the stock option is too risky for Paul, who is risk averse and may prefer savings, which is relatively safer. (2 points) (1 point for the right suggestion. 1 point for the reason (mentioning risk averse/concavity of utility function is enough).)"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "Problem [True/False, Short question]",
+   "tipo": "aberta",
+   "partes": [
+    {
+     "p": "True/False. Please fully explain your answer, including diagrams where appropriate. Points are awarded based on explanations."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "tipo": "vf",
+     "partes": [
+      {
+       "p": "(5 points) In the short run, perfectly competitive firms with higher fixed costs must also charge a higher price, all else equal."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "False. Perfectly competitive firms cannot alter their price - they are price takers of the market price. Furthermore, in the short run, fixed costs are equivalent to sunk costs, and will not affect the firm's decision making. $MC(q) = p$ will hold, and this condition will determine their level of output."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "tipo": "vf",
+     "partes": [
+      {
+       "p": "(5 points) A binding price ceiling can decrease the deadweight loss of monopoly pricing."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "True. Setting the price ceiling equal to the marginal cost of producing the output level at which demand intersects marginal cost completely removes the deadweight loss from monopoly pricing."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "tipo": "vf",
+     "partes": [
+      {
+       "p": "(5 points) In country A, each worker can produce either 3 apples or 1 orange. In country B, however, each worker can produce either 6 apples or 2 oranges. Opening up to trade between A and B will lead to greater welfare for both countries."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "False, even though country B has an absolute advantage in both sectors, countries A and B have no comparative advantage in either sector, hence, there is no benefits from country A and country B opening to trade."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "tipo": "vf",
+     "partes": [
+      {
+       "p": "(5 points) Because long-run aggregate supply is upward sloping when aggregate labor supply is upward sloping, firms will make profits whenever aggregate labor supply is upward sloping."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "False. Aggregate supply will be upward sloping if aggregate labor supply is upward sloping, but firms will not make profits. Because note that if the aggregate quantity supplied goes up, this will raise the wage (because labor market demand must rise to increase production, which increases the wage because of upward sloping aggregate labor supply). This increase in the wage will in turn raise marginal and average costs. However, new firms are entering the market until $p = AC$ for the new average cost curves, and so firms still make no profits. Thus, supply will increase when prices rise, but firms will still make zero profits."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "tipo": "vf",
+     "partes": [
+      {
+       "p": "[O início deste enunciado não está no PDF do MIT.] … with probability $\\frac{1}{6}$. Suppose each individual has utility $U(w) = \\sqrt{w}$, and initially has wealth of \\$100. In the case of an accident, both types of drivers lose all of their wealth. Suppose insurance company can not distinguish the two types of drivers and charges the actuarially fair price. In this market, safe drivers will buy insurance from the insurance company."
+      }
+     ],
+     "solucao": [
+      {
+       "p": "False. Insurance company sets a fair price equal to $\\frac{1}{2}(\\frac{1}{2} \\times 100) + \\frac{1}{2}(\\frac{1}{6} \\times 100) = 33.3$. Safe drivers will not buy the insurance because $\\sqrt{100 - 33.3} < \\frac{5}{6}\\sqrt{100}$ ($8.1 < 8.3$)."
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "tipo": "grupo",
+     "partes": [
+      {
+       "p": "Short question (12 points). Consider the case of cigarette smoke. Suppose the social cost of the negative externality to be \\$1 per a pack of cigarettes. Government levies a tax per a pack of cigarettes at an amount $\\tau$. In the following parts find arguments why the optimal tax that the government is planning to set should be $>, <, = 1$. (Please limit your answer to 1-2 sentences.)"
+      }
+     ]
+    },
+    {
+     "id": "6a",
+     "pai": "6",
+     "tipo": "aberta",
+     "partes": [
+      {
+       "p": "Provide a reason why the tax $\\tau = 1$?"
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Negative externalities. This Pigouvian taxation is used to resolve negative externalities (i.e. smoking is an activity that harms others). [More detail: a Pigouvian tax is set equal to the social cost of the negative externalities in order to make the equilibrium output equal to its socially optimal level. In fact, the Pigouvian tax increases the private costs by exactly the difference between the social and private cost. As a result, the equilibrium quantity coincides with the socially optimal level.]"
+      }
+     ]
+    },
+    {
+     "id": "6b",
+     "pai": "6",
+     "tipo": "aberta",
+     "partes": [
+      {
+       "p": "Provide a reason why the tax $\\tau > 1$?"
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Behavioral. This is for the case that there is time inconsistency (self-control). Government can provide a commitment device so that when smokers are hurting themselves, government can tax them to correct that behavior. [More detail: in this case government takes into account behavioral issues like time inconsistency by banning smoking or providing commitment tool via taxes.]"
+      }
+     ]
+    },
+    {
+     "id": "6c",
+     "pai": "6",
+     "tipo": "aberta",
+     "partes": [
+      {
+       "p": "Provide a reason why the tax $\\tau < 1$?"
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Tax redistribution (consumption taxes). Taxes on sales of goods, particularly, specific excise taxes on cigarettes. [More detail: When this tax is imposed on consumers in a competitive market, the consumers will not be willing to pay as much for the taxed good, so prices will fall, offsetting to some extent the statutory tax burden on consumers.]"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "manual": true
+}

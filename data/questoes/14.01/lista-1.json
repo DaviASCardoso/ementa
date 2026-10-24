@@ -1,0 +1,889 @@
+{
+ "etapa": "14.01/lista-1",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset1.pdf",
+   "paginas": 5
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.01 Problem Set 1"
+  },
+  {
+   "p": "Please note that this problem set is due over two weeks and is worth 1.5x the credit of a weekly pset, so plan ahead for it to take longer than a weekly pset"
+  },
+  {
+   "p": "Due at 5pm on September 29th, 2023 Late problem sets are not accepted."
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Positive and Normative Statements",
+   "partes": [
+    {
+     "p": "Please classify the following statements as either positive or normative. Briefly explain the reasoning for your choice."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(2 points) The unemployment rate in the US is currently 4 percent."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) The unemployment rate in the US is currently 4 percent."
+      },
+      {
+       "p": "Positive. It describes the state of the US economy."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(2 points) The government should increase the minimum wage."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) The government should increase the minimum wage."
+      },
+      {
+       "p": "Normative. This statement is about what the government should do, which is a value judgement."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(2 points) Inflation is always and everywhere caused by an increase in government spending."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) Inflation is always and everywhere caused by an increase in government spending."
+      },
+      {
+       "p": "Positive. It establishes a causal relationship between inflation and government spending."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(2 points) Tax cuts for businesses stimulate growth."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) Tax cuts for businesses stimulate growth."
+      },
+      {
+       "p": "Positive. It establishes a causal relationship between taxes and growth, which can be true or false."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(2 points) Tax cuts for businesses are good for the people of the US."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) Tax cuts for businesses are good for the people of the US."
+      },
+      {
+       "p": "Normative. It is a prescription on what the government should do."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Indifference Curves",
+   "partes": [
+    {
+     "p": "In each of the following examples, the consumer consumes only two goods, x and y. Based on the information given in each statement, sketch a plausible set of indifference curves (draw at least two curves on a set of labeled axes and indicate the direction of higher utility). Then, write down a possible form of the utility function $u(x,y)$ that is consistent with your graph."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 points) Pedro is thirsty can choose between buying store-brand bottled water $(x)$ or premium-brand bottled water $(y)$. For him, these two types of bottled water are perfect substitutes, and he always chooses the cheaper option without any consideration for the brand name."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Pedro is thirsty can choose between buying store-brand bottled water $(x)$ or premium-brand bottled water $(y)$. For him, these two types of bottled water are perfect substitutes, and he always chooses the cheaper option without any consideration for the brand name."
+      },
+      {
+       "p": "Pedro only cares about the price, so he chooses the cheapest one. His preferences can be represented by $U (x,y) = x + y$."
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 499,
+       "h": 186
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 points) Andrew is a well-known collector of Air Jordans. When considering buying a new model, he needs one right shoe $(x)$ and one left shoe $(y)$ of that model. Just one without the other one is useless to him."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Andrew is a well-known collector of Air Jordans. When considering buying a new model, he needs one right shoe $(x)$ and one left shoe $(y)$ of that model. Just one without the other one is useless to him."
+      },
+      {
+       "p": "Andrew only values having both shoes. His preferences can be represented by $U (x,y) = min\\{x,y\\}$."
+      },
+      {
+       "img": "g1/p2-2.png",
+       "w": 499,
+       "h": 186
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 points) Joshua wants good grades $(x)$ but does not like studying $(y)$. He will trade one extra hour of study for ten more points in the exam."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Joshua wants good grades $(x)$ but does not like studying $(y)$. He will trade one extra hour of study for ten more points in the exam."
+      },
+      {
+       "p": "Joshua is indifferent between one extra hour of study if he has ten more points in the exam. His preferences can be represented by $U (x,y) = x - 10y$."
+      },
+      {
+       "img": "g1/p3-1.png",
+       "w": 486,
+       "h": 186
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 points) Jon likes consuming apples $(x)$ and bananas $(y)$, but only cares about the one he consumes the greatest quantity."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Jon likes consuming apples $(x)$ and bananas $(y)$, but only cares about the one he consumes the greatest quantity."
+      },
+      {
+       "p": "Jon only cares about the greater quantity of apples or bananas. His preferences can be represented by $U (x,y) = max\\{x,y\\}$."
+      },
+      {
+       "img": "g1/p3-2.png",
+       "w": 486,
+       "h": 186
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Utility Maximization",
+   "partes": [
+    {
+     "p": "Tai consumes only wine $(x)$ and cheese $(y)$. His preferences can be expressed by the following utility function: $U (x,y) = xy^{3}$. The price of wine is $p_{x}$, the price of cheese is $p_{y}$, and Tai has an income of $m$ dollars."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(2 points) Write down Tai's budget constraint."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) Write down Tai's budget constraint."
+      },
+      {
+       "p": "Tai's budget constraint is"
+      },
+      {
+       "p": "$$p_{x}x + p_{y}y = m$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(4 points) Calculate the Marginal Rate of Substitution (MRS) at an arbitrary bundle $(x,y)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(4 points) Calculate the Marginal Rate of Substitution (MRS) at an arbitrary bundle $(x,y)$."
+      },
+      {
+       "p": "The marginal rate of substitution between wine and cheese is"
+      },
+      {
+       "p": "$$MRS = -^{\\frac{\\partial U (x,y)}{\\partial x}} = -\\frac{y^{3}}{3xy^{2}} = -\\frac{1}{3} \\frac{y}{x}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\frac{\\partial U (x,y)}{\\partial y}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(4 points) Compute Tai's demand for wine and cheese as a function of $p_{x}, p_{y}$, and $m$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(4 points) Compute Tai's demand for wine and cheese as a function of $p_{x}, p_{y}$, and $m$."
+      },
+      {
+       "p": "The marginal rate of substitution between wine and cheese is"
+      },
+      {
+       "p": "$$MRS = -^{\\frac{\\partial U (x,y)}{\\partial x}} = -\\frac{y^{3}}{3xy^{2}} = -\\frac{1}{3} \\frac{y}{x}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\frac{\\partial U (x,y)}{\\partial y}$$",
+       "display": true
+      },
+      {
+       "p": "In an optimum"
+      },
+      {
+       "p": "$$MRS = -\\frac{p_{x}}{p_{y}} \\Rightarrow \\frac{1}{3} \\frac{y}{x} = \\frac{p_{x}}{p_{y}} \\Rightarrow y = 3 \\frac{p_{x}}{p_{y}}x$$",
+       "display": true
+      },
+      {
+       "p": "Replacing in the budget constraint"
+      },
+      {
+       "p": "$$p_{x}x + p_{y}3 \\frac{p_{x}}{p_{y}}x = m \\Rightarrow 4p_{x}x = m \\Rightarrow x = \\frac{1}{4} \\frac{m}{p_{x}} y = \\frac{3}{4} \\frac{m}{p_{y}}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(4 points) Repeat parts 2 and 3, but this time assuming Tai's preferences are $U (x,y) = x + 3y$."
+      },
+      {
+       "p": "Return to the original preferences given by $U (x,y) = xy^{3}$. Suppose that the government imposes a tax on wine,"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(4 points) Repeat parts 2 and 3, but this time assuming Tai's preferences are $U (x,y) = x + 3y$."
+      },
+      {
+       "p": "If preferences are $U (x,y)$ then the MRS is constant and equal to $MRS = -\\frac{1}{3}$. This means that Tai is willing to trade three units of wine for a unit of cheese. Put it other way, he is willing to pay three times more for a unit of cheese than a unit of wine. Then, there are three cases:"
+      },
+      {
+       "img": "g1/p4-1.png",
+       "w": 252,
+       "h": 43
+      },
+      {
+       "p": "Return to the original preferences given by $U (x,y) = xy^{3}$. Suppose that the government imposes a tax on wine,"
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(2 points) What is the new budget constraint? In an $xy$ graph, plot the budget constraint before and after the implementation of the tax on wine."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "such that if the price of a wine is $p_{x}$, the consumer must pay (1 $+ \\tau )p_{x}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) What is the new budget constraint? In an $xy$ graph, plot the budget constraint before and after the implementation of the tax on wine."
+      },
+      {
+       "p": "The new budget constraint is"
+      },
+      {
+       "p": "$$(1 + \\tau )p_{x}x + p_{y}y \\leq m$$",
+       "display": true
+      },
+      {
+       "p": "Graphically"
+      },
+      {
+       "img": "g1/p5-1.png",
+       "w": 499,
+       "h": 186
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(4 points) What is the new demand function for wine? Draw the demand curve before and after the tax and briefly explain intuitively the difference between them (You don't need to plot specific values of $m,\\tau$ , but make sure your graph is qualitatively accurate)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(4 points) What is the new demand function for wine? Draw the demand curve before and after the tax and briefly explain intuitively the difference between them (You don't need to plot specific values of $m,\\tau$ , but make sure your graph is qualitatively accurate)."
+      },
+      {
+       "p": "The new demand curve is"
+      },
+      {
+       "p": "$$x = \\frac{1}{4} \\frac{m}{(1 + \\tau ) p_{x}}$$",
+       "display": true
+      },
+      {
+       "p": "Graphically The tax works as an increase in the price consumers need to pay for wine. For each price $p_{x}$ now"
+      },
+      {
+       "img": "g1/p5-2.png",
+       "w": 499,
+       "h": 186
+      },
+      {
+       "p": "consumers need to pay (1 $+ \\tau )p_{x}$, thus from the law of demand we now the quantity demanded will be lower at any price $p_{x}$."
+      }
+     ]
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "(5 points) Assume that $\\frac{m}{p_{x}} > 5$. Write down Tai's new budget set. Draw the new budget set on an $xy$ graph."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Return to the case without taxes and recall preferences are given by $U (x,y) = xy^{3}$. Suppose Tai has a 50 percent discount coupon for the first 5 bottles of wine he purchases."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Assume that $\\frac{m}{p_{x}} > 5$. Write down Tai's new budget set. Draw the new budget set on an $xy$ graph."
+      },
+      {
+       "p": "The new budget set is"
+      },
+      {
+       "img": "g1/p6-1.png",
+       "w": 167,
+       "h": 28
+      },
+      {
+       "p": "Graphically"
+      },
+      {
+       "img": "g1/p6-2.png",
+       "w": 486,
+       "h": 188
+      }
+     ]
+    },
+    {
+     "id": "8",
+     "partes": [
+      {
+       "p": "(5 points) Let $p_{x} = 2, p_{y} = 1$ and $m = 40$. How many wine and cheese will Tai consume?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Let $p_{x} = 2, p_{y} = 1$ and $m = 40$. How many wine and cheese will Tai consume?"
+      },
+      {
+       "p": "Conjecture Tai consumes more than 5 bottles of wine. If he consumes more than 5 bottles of wine then the relative price of an additional bottle of wine is equal to $\\frac{p_{x}}{p_{y}}$ , whereas if he consumed less than five bottles it would have been $\\frac{1}{2} \\frac{p_{x}}{p_{y}}$ because of the discount. From $MRS = -\\frac{p_{x}}{p_{y}}$ we have $y = 3 \\frac{p_{x}}{p_{y}}x$. Replacing in the budget set:"
+      },
+      {
+       "p": "$$\\frac{1}{2} 5p_{x} + p_{x} (x - 5) + p_{y}3 \\frac{p_{x}}{p_{y}}x =m$$",
+       "display": true
+      },
+      {
+       "p": "$$4p_{x}x - \\frac{5}{2}p_{x} =m$$",
+       "display": true
+      },
+      {
+       "p": "Then"
+      },
+      {
+       "p": "$$x = \\frac{1}{4} \\frac{m + \\frac{5}{2}p_{x}}{p_{x}} y = \\frac{3}{4} \\frac{m + \\frac{5}{2}p_{x}}{p_{y}}$$",
+       "display": true
+      },
+      {
+       "p": "Plugging in $p_{x} = 2, p_{y} = 1$ and $m = 40$, Tai consumes $x = \\frac{45}{8}$ and $y = \\frac{135}{4}$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "Market for Gas",
+   "partes": [
+    {
+     "p": "Consider the following demand function for gas among Cambridge residents"
+    },
+    {
+     "p": "$$Q_{d} = \\alpha + \\beta P_{g} + \\gamma P_{t}$$",
+     "display": true
+    },
+    {
+     "p": "where $P_{g}$ is the price for gas, and $P_{t}$ is the price of a one-way subway ticket."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(2 points) What sign would you expect $\\gamma$ to have? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) What sign would you expect $\\gamma$ to have? Provide an economic intuition."
+      },
+      {
+       "p": "$\\gamma$ should be positive because subway rides and gas are substitutes: if it is cheaper to take the T then fewer people will ride their car and therefore decrease the demand for gas."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(3 points) Suppose $\\alpha = 10, \\beta = -2, \\gamma = 1$, and $P_{t} = 1$ and supply is given by"
+      },
+      {
+       "p": "$$Q_{s} = 10 + P_{g}$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(3 points) Suppose $\\alpha = 10, \\beta = -2, \\gamma = 1$, and $P_{t} = 1$ and supply is given by"
+      },
+      {
+       "p": "$$Q_{s} = 10 + P_{g}$$",
+       "display": true
+      },
+      {
+       "img": "g1/p7-1.png",
+       "w": 499,
+       "h": 188
+      },
+      {
+       "p": "Supply and demand are given by"
+      },
+      {
+       "p": "$$Q_{d} =11 - 2P_{g}$$",
+       "display": true
+      },
+      {
+       "p": "$$Q_{s} =10 + P_{g}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "$(5_{*'}$points) Suppose the$_{*'}$ price of the subway ticket decreases to $P_{t}' = 0.5$. Solve for the new equilibrium price $P$ and quantity $Q$. How do they compare with their previous values? Provide an economic intuition. In an $xy$ graph, plot the old and new demand curves, and show the old and new equilibria."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Solve for the equilibrium price $P^{*}$ and quantity $Q^{*}$. In an $xy$ axis plot the demand and supply curves, and show where the market equilibrium is."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$(5_{*'}$points) Suppose the$_{*'}$ price of the subway ticket decreases to $P_{t}' = 0.5$. Solve for the new equilibrium price $P$ and quantity $Q$. How do they compare with their previous values? Provide an economic intuition. In an $xy$ graph, plot the old and new demand curves, and show the old and new equilibria."
+      },
+      {
+       "p": "Supply and demand are given by"
+      },
+      {
+       "p": "$$Q_{d} =10.5 - 2P_{g}$$",
+       "display": true
+      },
+      {
+       "p": "$$Q_{s} =10 + P_{g}$$",
+       "display": true
+      },
+      {
+       "img": "g1/p8-1.png",
+       "w": 486,
+       "h": 235
+      },
+      {
+       "p": "In equilibrium"
+      },
+      {
+       "p": "$$Q_{d} = Q_{s} \\Rightarrow 10.5 - 2P_{g} = 10 + P_{g} \\Rightarrow P^{*'} = \\frac{1}{6} Q^{*'} = \\frac{61}{6}$$",
+       "display": true
+      },
+      {
+       "p": "A decrease in the price of the subway ticket decreases the demand for gas. At the old equilibrium price $P^{*}$ there is excess supply because of the decrease in demand. Therefore, the market adjusts by a decrease in the price until demand matches supply."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 points) Return to the original demand curve where $P_{t} = 1$. Suppose supply decreases to $Q_{s} = 5 + P_{g}$. Solve for the new equilibrium price $P^{*'}$ and quantity $Q^{*'}$. How do they compare with $P^{*}$ and $Q^{*}$? Provide an economic intuition. In an $xy$ graph, plot the old and new supply curves, and show the old and new equilibria."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Return to the original demand curve where $P_{t} = 1$. Suppose supply decreases to $Q_{s} = 5 + P_{g}$. Solve for the new equilibrium price $P^{*'}$ and quantity $Q^{*'}$. How do they compare with $P^{*}$ and $Q^{*}$? Provide an economic intuition. In an $xy$ graph, plot the old and new supply curves, and show the old and new equilibria."
+      },
+      {
+       "p": "Supply and demand are given by"
+      },
+      {
+       "p": "$$Q_{d} =11 - 2P_{g}$$",
+       "display": true
+      },
+      {
+       "p": "$$Q_{s} =5 + P_{g}$$",
+       "display": true
+      },
+      {
+       "p": "In equilibrium"
+      },
+      {
+       "img": "g1/p8-2.png",
+       "w": 486,
+       "h": 253
+      },
+      {
+       "p": "A decrease in supply implies that at the old equilibrium price $P^{*}$ there is excess demand. Therefore, the market adjusts by an in the price until demand matches supply."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 points) Suppose that in response to the decrease in supply the government puts a cap on gas prices. In particular, suppose the government places a price cap $\\bar{P}$ lower than the equilibrium value from part 4. Under this policy, is the market for gas in equilibrium? If the answer is negative, show whether there is excess demand or excess supply. In an $xy$ graph, plot what happens to the market for gas under this policy."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q45-p9.png",
+       "w": 496,
+       "h": 53
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "Income and Substitution Effects",
+   "partes": [
+    {
+     "p": "Ben consumes only apples $(x)$ and t-shirts $(y)$. His preferences can be represented by the following utility function: $U (x,y) = x^{2}y^{3}$ The price of apples is $p_{x}$, the price of t-shirts is $p_{y}$, and Ben has an income of $m$ dollars."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 points) Find the demand for apples and t-shirts as a function of $p_{x}, p_{y}$ and $m$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Find the demand for apples and t-shirts as a function of $p_{x}, p_{y}$ and $m$."
+      },
+      {
+       "p": "In an optimum"
+      },
+      {
+       "p": "$$MRS = \\frac{p_{x}}{p_{y}} \\Rightarrow \\frac{2}{3} \\frac{y}{x} = \\frac{p_{x}}{p_{y}} \\Rightarrow y = \\frac{3}{2} \\frac{p_{x}}{p_{y}}x$$",
+       "display": true
+      },
+      {
+       "p": "In the budget constraint"
+      },
+      {
+       "p": "$$p_{x}x + p_{y} \\frac{3}{2} \\frac{p_{x}}{p_{y}}x = m \\Rightarrow x = \\frac{2}{5} \\frac{m}{p_{x}} y = \\frac{3}{5} \\frac{m}{p_{y}}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 points) What is the price elasticity of the demand for apples? What is the cross-price elasticity of the demand for apples with respect to the price of t-shirts?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) What is the price elasticity of the demand for apples? What is the cross-price elasticity of the demand for apples with respect to the price of t-shirts?"
+      },
+      {
+       "p": "The price elasticity of the demand for apples is"
+      },
+      {
+       "p": "$$\\varepsilon_{px}^{x} = \\frac{\\partial x}{\\partial p_{x}} \\frac{p_{x}}{x} = -\\frac{2}{5} \\frac{m}{p_{x}^{2}}_{\\frac{2}{5}}p_{\\frac{m}{p_{x}}}^{x} = -1$$",
+       "display": true
+      },
+      {
+       "p": "The cross-price elasticity of the demand for apples with respect to the price of t-shirts is"
+      },
+      {
+       "p": "$$\\varepsilon_{py}^{x} = \\frac{\\partial x}{\\partial p_{y}} \\frac{p_{y}}{x} = 0$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 points) Draw the Engel curve for t-shirts. Are t-shirts an inferior or a normal good? What is the income elasticity of the demand for t-shirts?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Draw the Engel curve for t-shirts. Are t-shirts an inferior or a normal good? What is the income elasticity of the demand for t-shirts?"
+      },
+      {
+       "p": "The Engel curve for t-shirts is Since the demand for t-shirts is increasing in income, then they are"
+      },
+      {
+       "img": "g1/p10-1.png",
+       "w": 499,
+       "h": 186
+      },
+      {
+       "p": "a normal good. The income elasticity of the demand for t-shirts is"
+      },
+      {
+       "p": "$$\\varepsilon_{m}^{y} = \\frac{\\partial y}{\\partial m} \\frac{m}{y} = \\frac{3}{5} \\frac{1}{p_{y}}_{\\frac{3}{5}}p_{\\frac{m}{p_{y}}}^{y} = 1$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 points) True or False? Provide an explanation: Since Ben's demand of t-shirts does not depend on the price of apples then $a$ change in the price of apples has no substitution nor income effect on the demand for t-shirts."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) True or False? Provide an explanation: Since Ben's demand of t-shirts does not depend on the price of apples then $a$ change in the price of apples has no substitution nor income effect on the demand for t-shirts."
+      },
+      {
+       "p": "False: From the substitution effect the demand for t-shirts increase in response to an increase in the price of apples, whereas from the income effect the demand decreases. With these preferences, they offset each other so the total effect is zero."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "6",
+   "titulo": "Income and Substitution Effect Concepts",
+   "partes": [],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(7 points) In a world with only two goods, can it be that both of these goods are inferior? In a world with two goods, can both of them be normal? Explain."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(7 points) In a world with only two goods, can it be that both of these goods are inferior? In a world with two goods, can both of them be normal? Explain."
+      },
+      {
+       "p": "It cannot be the case that in a world with two goods, both of these goods are inferior. When one goes up, you have to spend more money on something (assuming non-satiation holds). If both were inferior goods, you'd end up spending less on both. That can't be optimal if non-satiation is satisfied. (In fact, even if non-satiation isn't satisfied, you still can't have both goods be inferior. Your original bundle is still affordable when your income rises, so you can't 'switch' to something else that was also originally affordable when the income goes up. That would imply a violation of transitivity.) In a world with two goods, both can be normal: consider $U (x,y) = xy$."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(8 points) Suppose there is an increase in prices and consumption decreases. Given this information, the good must be a normal good. True or false? Explain."
+      },
+      {
+       "p": "Suppose a consumer desires only two goods, $x$ and $y$, and her prefereces are represented by the utility function $U (x,y) = x + y$. In addition, suppose that $p_{y} = 3$ and her income is $m = 6$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(8 points) Suppose there is an increase in prices and consumption decreases. Given this information, the good must be a normal good. True or false? Explain."
+      },
+      {
+       "p": "False. The good can be inferior, but the substitution effect is larger than the income effect."
+      },
+      {
+       "p": "Suppose a consumer desires only two goods, $x$ and $y$, and her prefereces are represented by the utility function $U (x,y) = x + y$. In addition, suppose that $p_{y} = 3$ and her income is $m = 6$."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(2 points) Suppose $p_{x} = 4$, how much does the consumer demand of each good?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) Suppose $p_{x} = 4$, how much does the consumer demand of each good?"
+      },
+      {
+       "p": "If $p_{x} > p_{y}$ then the consumer only consumes of good $y$, so $x = 0$ and $y = 2$."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(2 points) Suppose $p_{x}$ decreases from $p_{x} = 4$ to $p_{x}' = 2$. How much does the consuemr demand of each good?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) Suppose $p_{x}$ decreases from $p_{x} = 4$ to $p_{x}' = 2$. How much does the consuemr demand of each good?"
+      },
+      {
+       "p": "Now $p_{x}' < p_{y}'$, so the consumer only consumes good $x$ and therefore $x' = 3$ and $y' = 0$"
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(2 points) Suppose $p_{x}' = 2$ to $p_{x}^{''} = 1$. How much does the consumer demand of each good?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 points) Suppose $p_{x}' = 2$ to $p_{x}^{''} = 1$. How much does the consumer demand of each good?"
+      },
+      {
+       "p": "We still have that the price of $x$ is cheaper, so the consumer only consumes good $x$ and therefore $x^{''} = 6$ and $y^{''} = 0$"
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(4 points) True or False? Provide an explanation: when $p_{x}$ changes from $p_{x} = 4$ to $p_{x}' = 2$ there are both income and substitution effects, whereas when $p_{x}$ changes from $p_{x}' = 2$ to $p_{x}^{''} = 1$ there is no substitution effect."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(4 points) True or False? Provide an explanation: when $p_{x}$ changes from $p_{x} = 4$ to $p_{x}' = 2$ there are both income and substitution effects, whereas when $p_{x}$ changes from $p_{x}' = 2$ to $p_{x}^{''} = 1$ there is no substitution effect."
+      },
+      {
+       "p": "True: when $p_{x}$ changes from 4 to 2 the consumer substitutes from good $y$ to $x$ because now $x$ became cheaper, and also income effects because now prices are lower and their purchasing power is higher. When $p_{x}$ further decreases to 1 there is only income effect since the consumer was already consuming all of tood $x$ and all the increase in consumption of $x$ is due to an increase in his purchasing power."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "etapa": "18.01SC/prova-2",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/31f017f339405b5c2d7b273462522c23_MIT18_01SCF10_exam2.pdf",
+   "paginas": 7
+  }
+ ],
+ "avisos": [],
+ "intro": [],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Give a general expression for the quadratic approximation to a twice differ entiable function $f (x)$ at $x = a$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Give a general expression for the quadratic approximation to a twice differentiable function $f (x)$ at $x = a$."
+      },
+      {
+       "p": "$$f (x) = f (a) + f'(a)(x - a) + \\frac{f^{''}(a)}{2} (x - a)^{2}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Use your answer from part (a) to give an approximate value for ln(1.2), where ln($x)$ is the natural log function."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Use your answer from part (a) to give an approximate value for ln(1.2), where ln($x)$ is the natural log function."
+      },
+      {
+       "p": "(ln$x)' = \\frac{1}{x}$, (ln$x)^{''} = -\\frac{1}{x^{2}}$"
+      },
+      {
+       "p": "ln(1.2$) \\approx$ ln 1 + (ln$'(1))(1.2 - 1) + \\frac{ln^{''}(1)}{2} (1.2 - 1)^{2}$"
+      },
+      {
+       "p": "$$= 0 + 0.2 - \\frac{1}{2} (0.2)^{2}$$",
+       "display": true
+      },
+      {
+       "p": "$$= 0.2 - \\frac{0.04}{2}$$",
+       "display": true
+      },
+      {
+       "p": "ln(1.2$) \\approx 0.18$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Salt is poured from a conveyer belt at a rate of 30 ft$^{3}/$min, forming a conical pile with a circular base whose height and diameter of base are always equal. How fast is the height of the pile increasing when the pile is 10 ft. high?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2-p1.png",
+     "w": 442,
+     "h": 299
+    },
+    {
+     "img": "g1/q2-p2.png",
+     "w": 71,
+     "h": 49
+    }
+   ]
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Draw a careful picture of the graph of the function"
+    },
+    {
+     "p": "$$f (x) = x - 3x^{1/3}$$",
+     "display": true
+    },
+    {
+     "p": "Be sure to indicate the coordinates of any local maxima and minima, the intervals on which the function is increasing and decreasing, and asymptotes (if any of these features occur). Computing inflection points may help you draw an accurate picture, but is not necessary."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q3-p2.png",
+     "w": 534,
+     "h": 447
+    }
+   ]
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A metal storage tank is to be made in the shape of a cylinder with a circular base and a hemispherical top. Find the dimensions of the tank which require the least amount of metal used to hold a fixed constant volume $V$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q4-p2.png",
+     "w": 534,
+     "h": 100
+    },
+    {
+     "img": "g1/q4-p3.png",
+     "w": 427,
+     "h": 619
+    },
+    {
+     "img": "g1/q4-p4.png",
+     "w": 427,
+     "h": 47
+    }
+   ]
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Explain why Newton's method eventually fails when finding zeroes of $f (x) = x^{3} - 3x + 7$ with a starting value $x_{1} = 2$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Explain why Newton's method eventually fails when finding zeroes of $f (x) = x^{3} - 3x + 7$ with a starting value $x_{1} = 2$. Newton's method says that $x_{n} = x_{n-1} - \\frac{f (x_{n-1})}{f'(x_{n-1})}$. Here $f'(x) = 3x^{2} - 3$."
+    },
+    {
+     "p": "For $x_{1} = 2, x_{2} = 2 - \\frac{f (2)}{f'(2)} = 2 - \\frac{9}{9} = 1$."
+    },
+    {
+     "p": "$x_{3} = 1 - \\frac{f (1)}{f'(1)} = 1 - \\frac{5}{0}$ is undefined. In particular, $f'(x_{2}) = 0$. The problem is that the tangent line to the graph of$f$ at$x = x_{2}$ = 1 is horizontal. Thus, it does not intersect the $x$-axis and we cannot continue Newton's method."
+    }
+   ]
+  },
+  {
+   "n": "6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Prove that"
+    },
+    {
+     "p": "$$\\sqrt{1 + x} < 1 + \\frac{1}{2}x\\text{, if }x > 0$$",
+     "display": true
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Prove that"
+    },
+    {
+     "p": "$$\\sqrt{1 + x} < 1 + \\frac{1}{2}x\\text{, if }x > 0$$",
+     "display": true
+    },
+    {
+     "p": "Let $g(x) = 1 + \\frac{1}{2} - \\sqrt{1 + x.}$ We need to show that $g(x) > 0$ for $x > 0$. $g(0) = 1 + 0 - 1 = 0$, so by the mean value theorem, it's sufficient to show that $g'(x) > 0$ for all $x > 0$."
+    },
+    {
+     "p": "$$g'(x) = 0 + \\frac{1}{2} - \\frac{1}{2} \\frac{1}{\\sqrt{1 + x}} = \\frac{1}{2} - \\frac{1}{2\\sqrt{1 + x}}$$",
+     "display": true
+    },
+    {
+     "p": "Because $x > 0$,"
+    },
+    {
+     "p": "$$\\sqrt{1 + x} > \\sqrt{1} = 1\\text{, so}$$",
+     "display": true
+    },
+    {
+     "p": "$$\\frac{1}{\\sqrt{1 + x}} < \\frac{1}{1} = 1\\text{, and}$$",
+     "display": true
+    },
+    {
+     "p": "$$-\\frac{1}{2\\sqrt{1 + x}} > -\\frac{1}{2} \\cdot 1 = -\\frac{1}{2}$$",
+     "display": true
+    },
+    {
+     "p": "Therefore $g'(x) = \\frac{1}{2} - \\frac{1}{2\\sqrt{1 + x}} > \\frac{1}{2} - \\frac{1}{2} = 0$."
+    },
+    {
+     "p": "We have shown $g(0) = 0$ and $g'(x) > 0$ for $x > 0$, so $g(x) > 0$ for $x > 0$, which implies $\\sqrt{1 + x} < 1 + \\frac{1}{2}x$ if $x > 0$."
+    }
+   ]
+  }
+ ]
+}

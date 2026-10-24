@@ -1,0 +1,621 @@
+{
+ "etapa": "18.01SC/prova-final",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/93c7107d33490a892fdf426e5033062e_MIT18_01SCF10_final.pdf",
+   "paginas": 17
+  }
+ ],
+ "avisos": [],
+ "intro": [],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the following derivatives:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$f'(x)$ where $f (x) = x^{3}e^{x}$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$f^{(7)}(x)$, the seventh derivative of $f$, where $f (x) =$ sin(2$x)$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the tangent line to $y = 3x^{2} - 5x + 2$ at $x = 2$. Express your answer in the form $y = mx + b$ with slope $m$ and $y$-intercept $b$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Show that the curve defined implicitly by the equation"
+      },
+      {
+       "p": "$$xy^{3} + x^{3}y = 4$$",
+       "display": true
+      },
+      {
+       "p": "has no horizontal tangent."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Use the DEFINITION of the derivative to compute $\\frac{d}{dx} \\frac{x}{x + 1}$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Compute the following limit:"
+      },
+      {
+       "p": "$$\\text{lim }\\frac{tan^{-1}(x) \\pi /3}{x - 3}\\surd -$$",
+       "display": true
+      },
+      {
+       "p": "$$x\\to \\sqrt{3}$$",
+       "display": true
+      },
+      {
+       "p": "where as usual tan$^{-1}(x)$ denotes the inverse tangent function."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Sketch the graph of the function"
+    },
+    {
+     "p": "$$y = \\frac{x}{x^{2} + 1}$$",
+     "display": true
+    },
+    {
+     "p": "Be sure to identify in writing all local maxs and mins, regions where the function is increasing/decreasing, points of inflection, symmetries, and vertical or horizontal asymptotes (if any of these behaviors occur)."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "As shown in the graph below,$y = \\frac{x}{x^{2} + 1}$ has the following properties:"
+    },
+    {
+     "p": "$•$ Local maximum $(y' = 0, y^{''} < 0)$ at x=1 $•$ Local minimum $(y' = 0, y^{''} > 0)$ at x=-1 $•$ The function is increasing $(y' > 0)$ when $|x| < 1$ $•$ The function is decreasing $(y' < 0)$ when $|x| > 1$ $•$ The inflection points $(y^{''} = 0)$ are $x = 0,\\pm \\sqrt{3}$ $•$ The graph is symmetric about the origin"
+    },
+    {
+     "p": "$•$ The horizontal asymptote $_{x}$lim$_{\\to \\infty} \\frac{x}{x^{2} + 1}$ is the line $y = 0$"
+    },
+    {
+     "p": "$•$ There is no vertical asymptote"
+    },
+    {
+     "img": "g1/p3-1.png",
+     "w": 330,
+     "h": 203
+    }
+   ]
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A poster is to be designed with 50 in$^{2}$ of printed type, 4 inch margins on both the top and the bottom, and 2 inch margins on each side. Find the dimensions of the poster which minimize the amount of paper used. (Be sure to indicate why the answer you found is a minimum.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q5-p3.png",
+     "w": 301,
+     "h": 19
+    },
+    {
+     "img": "g1/q5-p4.png",
+     "w": 399,
+     "h": 472
+    }
+   ]
+  },
+  {
+   "n": "6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A highway patrol plane is flying 1 mile above a long, straight road, with constant ground speed of 120 m.p.h. Using radar, the pilot detects a car whose distance from the plane is 1.5 miles and decreasing at a rate of 136 m.p.h. How fast is the car traveling along the highway? (Hint: You may give an exact answer, or use the fact that $\\sqrt{5} \\approx 2.2.)$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Let $y$ be the total distance from the plane to the car, and let $x$ be the horizontal distance between the plane and the car. The question asks for $dc/dt$, the car's speed."
+    },
+    {
+     "img": "g1/p5-1.png",
+     "w": 283,
+     "h": 258
+    },
+    {
+     "p": "From the Pythagorean theorem, $y = \\sqrt{x^{2} + 1,}$ because the plane is a distance one mile above the road. By definition, we also know that $dc/dt = dx/dt - 120$, as the plane has speed 120 mph with respect to the ground. In"
+    },
+    {
+     "img": "g1/p5-2.png",
+     "w": 384,
+     "h": 13
+    },
+    {
+     "p": "We can then determine that:"
+    },
+    {
+     "p": "$$\\frac{dy}{dt} = \\frac{1}{2} (x^{2} + 1)^{-1/2}(2x) \\frac{dx}{dt} = -136$$",
+     "display": true
+    },
+    {
+     "p": "and we can substitute $x = \\sqrt{5}/2$ to obtain:"
+    },
+    {
+     "p": "$$\\frac{dx}{dt} = -136 \\frac{3}{\\sqrt{5}} \\approx -\\frac{408}{2.2}$$",
+     "display": true
+    },
+    {
+     "p": "From this we can calculate:"
+    },
+    {
+     "p": "$$dc/dt = \\frac{408}{2.2} - 120 \\approx 65.5\\text{ mph}$$",
+     "display": true
+    }
+   ]
+  },
+  {
+   "n": "7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate the following limits:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "img": "e1/p7-1.png",
+       "w": 115,
+       "h": 36
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q7a-p7.png",
+       "w": 283,
+       "h": 57
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "img": "e1/p7-2.png",
+       "w": 114,
+       "h": 31
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q7b-p7.png",
+       "w": 284,
+       "h": 51
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the following definite integrals:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "img": "e1/p8-1.png",
+       "w": 99,
+       "h": 21
+      },
+      {
+       "p": "0"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q8a-p8.png",
+       "w": 276,
+       "h": 52
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "img": "e1/p8-2.png",
+       "w": 16,
+       "h": 10
+      },
+      {
+       "p": "$$x\\text{ ln }xdx$$",
+       "display": true
+      },
+      {
+       "p": "1"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q8b-p8.png",
+       "w": 257,
+       "h": 51
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "9",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate the following indefinite integral:"
+    },
+    {
+     "img": "e1/p9-1.png",
+     "w": 7,
+     "h": 8
+    },
+    {
+     "p": "$$\\frac{x^{2} dx}{\\sqrt{9 - x^{2}}}$$",
+     "display": true
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q9-p6.png",
+     "w": 403,
+     "h": 33
+    },
+    {
+     "img": "g1/q9-p7.png",
+     "w": 381,
+     "h": 233
+    }
+   ]
+  },
+  {
+   "n": "10",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The disk bounded by the circle $x^{2} + y^{2} = a^{2}$ is revolved about the $y$-axis to make a sphere. Then a hole of diameter $a$ is bored through the sphere along the $y$-axis (from north to south pole, like a cored apple). Find the volume of the resulting \"cored\" sphere. (Hint: Draw a picture of the two-dimensional region to be revolved, and label parts of your picture to help set up the integration.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q10-p7.png",
+     "w": 399,
+     "h": 353
+    },
+    {
+     "img": "g1/q10-p8.png",
+     "w": 399,
+     "h": 305
+    }
+   ]
+  },
+  {
+   "n": "11",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The following integral has no elementary antiderivative:"
+    },
+    {
+     "img": "e1/p11-1.png",
+     "w": 16,
+     "h": 10
+    },
+    {
+     "p": "$$\\frac{e^{x}}{x} dx$$",
+     "display": true
+    },
+    {
+     "p": "1 Use the trapezoid rule with two trapezoids and the following table of values (ac curate to one decimal place) to estimate this definite integral."
+    },
+    {
+     "p": "$$x 1 2 3 4 5$$",
+     "display": true
+    },
+    {
+     "p": "$$e^{x}/x 2.7 3.7 6.7 13.6 29.7$$",
+     "display": true
+    },
+    {
+     "p": "(Hint: It may help to draw a very rough picture of the area under the curve you are computing, divided into two trapezoids.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q11-p11.png",
+     "w": 448,
+     "h": 193
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Let $y(x) = \\frac{e^{x}}{x}$. Using the two-trapezoid method, the picture should be approximately as follows:"
+    },
+    {
+     "img": "g1/p9-1.png",
+     "w": 479,
+     "h": 301
+    },
+    {
+     "p": "The areas of the regions are then: Region I: $(3 - 1)y(1) = 2y(1) = 2(2.7) = 5.4$ Region II: $(5 - 3)y(3) = 2y(3) = 2(6.7) = 13.4$ Region III: $(.5)(3 - 1)(y(3) - y(1)) = y(3) - y(1) = 6.7 - 2.7 = 4$ Region IV:($. 5)(5 - 3)(y(5) - y(3)) = y(5) - y(3) = 29.7 - 6.7 = 23$ And the total area is then 45.8 units$^{2}$."
+    }
+   ]
+  },
+  {
+   "n": "12",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The rate of radioactive decay of a mass of Radium-226 (call it $dm/dt)$ is propor tional to the amount $m$ of Radium present at time $t$. Suppose we begin with 100 milligrams of Radium at time $t = 0$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Given that the half life of Radium-226 is roughly 1600 years (half life is the time it takes for the mass to decay by half), find a formula for the mass of Radium that remains after $t$ years by solving a differential equation."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the amount of Radium remaining after 1000 years. Simplify your answer using the fact that $2^{-10/16} \\approx .65$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "13",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Cornu's spiral is defined by the parametric equations"
+    },
+    {
+     "img": "e1/p13-1.png",
+     "w": 159,
+     "h": 21
+    },
+    {
+     "p": "0"
+    },
+    {
+     "img": "e1/p13-2.png",
+     "w": 156,
+     "h": 21
+    },
+    {
+     "p": "0 That is, the parametric equations are given by Fresnel functions we met earlier in the semester."
+    },
+    {
+     "p": "Find the arc length of the spiral from $t = 0$ to a fixed time $t = t_{0}$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q13-p13.png",
+     "w": 448,
+     "h": 158
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q13-p10.png",
+     "w": 399,
+     "h": 144
+    },
+    {
+     "img": "g1/q13-p11.png",
+     "w": 399,
+     "h": 313
+    }
+   ]
+  },
+  {
+   "n": "14",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the Taylor series of ln(1 $+ x)$ centered at $a = 0$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Determine the radius of convergence of this Taylor series."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Use the first two non-zero terms of the power series you found in (a) to approximate ln$3/2$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Give an upper bound on the error in your approximation in (c) using Taylor's inequality."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "15",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(BONUS – Only attempt this problem if you are finished with the exam and have time to spare.) Prove or disprove the following statement:"
+    },
+    {
+     "p": "$\\frac{x}{1 + x^{2}} <$ tan$^{-1}(x) < x$ for all $x > 0$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q15-p12.png",
+     "w": 399,
+     "h": 93
+    },
+    {
+     "img": "g1/q15-p13.png",
+     "w": 355,
+     "h": 111
+    }
+   ]
+  }
+ ]
+}

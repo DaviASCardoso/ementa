@@ -1,0 +1,235 @@
+{
+ "etapa": "18.02SC/lista-10",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/9bfbf5bc05f40ab889390d19d58932af_MIT18_02SC_pset10.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Problem Set 10"
+  },
+  {
+   "p": "At MIT problem sets are referred to as 'psets'. You will see this term used occasionally within the problems sets. The 18.02 psets are split into two parts 'part I' and 'part II'. The part I are all taken from the supplementary problems. You will find a link to the supplementary problems and solutions on this website. The intention is that these help the student develop some fluency with concepts and techniques. Students have access to the solutions while they do the problems, so they can check their work or get a little help as they do the problems. After you finish the problems go back and redo the ones for which you needed help from the solutions. The part II problems are more involved. At MIT the students do not have access to the solutions while they work on the problems. They are encouraged to work together, but they have to write their solutions independently."
+  },
+  {
+   "p": "Part I (11 points)"
+  },
+  {
+   "p": "At MIT the underlined problems must be done and turned in for grading. The 'Others' are some suggested choices for more practice. A listing like '$§$1B$: \\frac{2,}{.}$ 5b, 10' means do the indicated problems from supplementary problems section 1B"
+  },
+  {
+   "p": "1 Triple Integrals in rectangular and cylindrical coordinates. $§$5A: 2d, 3, 4, 5; Others: 1, 2ac, 3, 6, 7"
+  },
+  {
+   "p": "2 Triple integrals in spherical coordinates. Gravitational attraction. $§$5B: 1bc$\\frac{,}{;} 2, 3$, 4b; Others: 1a, 4ac $§$5C: 2 Others: 3, 4 Part II (19 points)"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "(6: 3,3)",
+   "partes": [
+    {
+     "p": "Let $\\mathcal{G}$ be the solid region in 3-space which lies inside the surface $x^{2} + (y - 1)^{2} = 1$,"
+    },
+    {
+     "img": "e1/p2-1.png",
+     "w": 263,
+     "h": 14
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the volume of $\\mathcal{G}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1a-p1.png",
+       "w": 347,
+       "h": 128
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the z-coordinate of the centroid of $\\mathcal{G}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1b-p2.png",
+       "w": 340,
+       "h": 164
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "(8: 2,2,2,2)",
+   "partes": [
+    {
+     "p": "$$2 2x \\sqrt{4-x^{2}}$$",
+     "display": true
+    },
+    {
+     "p": "$$f (x,y,z) dV = f (x,y,z) dz dy dx$$",
+     "display": true
+    },
+    {
+     "p": "$G 0 0 0$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Sketch the 3-D solid region $G$. Rewrite $f (x,y,z) dV$ as a triple integral with the correct limits of integration"
+      },
+      {
+       "p": "$$G$$",
+       "display": true
+      },
+      {
+       "p": "in the order:"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q2a-p2.png",
+       "w": 442,
+       "h": 65
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q2a-p2.png",
+       "w": 308,
+       "h": 138
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$f (x,y,z) dy dx dz$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2b-p2.png",
+       "w": 317,
+       "h": 112
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$f (x,y,z) dx dz dy$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2c-p2.png",
+       "w": 349,
+       "h": 47
+      },
+      {
+       "img": "g1/q2c-p3.png",
+       "w": 310,
+       "h": 54
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Take $f = 1$ (constant) and verify that get you the same answer (which is the volume of $G)$ from (i) the iterated integrals in the given order, and (ii) the iterated integrals you found in part(b). (Take a look at the integration you'd need to do for the order of part(c) too, just to convince yourself that you don't want to mess with it – unless of course you do.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2d-p3.png",
+       "w": 465,
+       "h": 337
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p2.png",
+     "w": 308,
+     "h": 58
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "(5)",
+   "partes": [
+    {
+     "p": "In this problem we use triple integrals to compute the amount of work needed to fill a tank. (This is the calculation one uses for example to compute the energy which can be stored and then used to generate electricity as needed; for more on this application, see....) As an example, suppose that a storage device uses electricity to pump water into a storage vessel which is shaped like a parabolic trough, with cross-section profile given by the curve $z = \\frac{1}{100}x^{4}$ with $z = 0$ to 81 meters, and with length is $L = 200$ meters, as shown:"
+    },
+    {
+     "img": "e1/p2-2.png",
+     "w": 144,
+     "h": 107
+    },
+    {
+     "img": "e1/p3-1.png",
+     "w": 144,
+     "h": 107
+    },
+    {
+     "p": "Compute the total amount of energy that can be stored in this storage vessel, using $1 kg/m^{3}$ as the mass density of water. Express answer in Joules. (Hint: The potential energy of a mass $m$ increases by $mgh$ when it is lifted a height $h$, where $g = 9.8 m/s^{2}$. Assume that all of the water was initially at height $z = 0$ before being pumped into the vessel)."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q3-p3.png",
+     "w": 454,
+     "h": 161
+    }
+   ]
+  }
+ ]
+}

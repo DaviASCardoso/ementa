@@ -1,0 +1,725 @@
+{
+ "etapa": "14.01/lista-7",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset7.pdf",
+   "paginas": 5
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.01 Problem Set 7"
+  },
+  {
+   "p": "Please note that this problem set is due over two weeks and is worth 1.5x the credit of a weekly pset, so plan ahead for it to take longer than a weekly pset"
+  },
+  {
+   "p": "Due at 5pm on December 1st, 2023 Late problem sets are not accepted."
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "True or False?",
+   "partes": [
+    {
+     "p": "True or False? Justify your answer"
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(4 Points) Imagine an economy with two countries, Argentina and Brazil, and two goods, meat and wine. Argentina's cost of producing meat and wine is lower than Brazil's. Then, Argentina can never gain from opening to trade with Brazil."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(4 Points) Imagine an economy with two countries, Argentina and Brazil, and two goods, meat and wine. Argentina's cost of producing meat and wine is lower than Brazil's. Then, Argentina can never gain from opening to trade with Brazil."
+      },
+      {
+       "p": "False. It is possible that Argentina can gain from opening trade with Brazil if Brazil has a product that has a lower relative production cost. It is possible that Argentina has a lower absolute cost of producing meat and wine, but Brazil has a comparative advantage for one of the goods, and it would be beneficial for Argentina to trade with Brazil for that product."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(4 Points) Suppose there are two goods: computers and clothes. In Canada, producing a computer requires 100 units of labor and producing cars requires 1000 units of labor. Then, if the price of a car is 1000 price and the price of a computer is 200 Canada will export computers."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(4 Points) Suppose there are two goods: computers and clothes. In Canada, producing a computer requires 100 units of labor and producing cars requires 1000 units of labor. Then, if the price of a car is 1000 price and the price of a computer is 200 Canada will export computers."
+      },
+      {
+       "p": "True. The relative price of computers in autarky is equal to $100/1000 = 1/10$ cars, where as the relative price of computers in the international market is equal to $200/1000 = 1/5$ cars. Since the relative price of computers in autarky is less than the relative price on international markets, Canada has a comparative advantage in producing computers rather than cars realtive to the rest of the world and will export computers."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(4 Points) Consider a gamble that pays 10 dollars with probability $p$ and 0 dollars with probability $1 - p$. Then, if this individual does not like risk he is willing to accept a certain payment of less than 5 dollars to this gamble."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(4 Points) Consider a gamble that pays 10 dollars with probability $p$ and 0 dollars with probability $1 - p$. Then, if this individual does not like risk he is willing to accept a certain payment of less than 5 dollars to this gamble."
+      },
+      {
+       "p": "False. Suppose $p = 0.99$. This would mean that the expected value of the gamble is \\$9.90. It is possible that someone who does not like risk will not accept any payment less than 5 dollars. In other words, an individual who does not like risk may be indifferent to a gamble where their payoff is \\$10 with $p = 0.99$ and \\$0 with $1 - p = 0.01$ at an amount that is greater than \\$5 and less than \\$9.90."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Portfolio Diversification",
+   "partes": [
+    {
+     "p": "Pedro has wealth $M = 1$ that he wants to invest. He can either invest in"
+    },
+    {
+     "p": "• A risk-free bond, which yields a return of $r$ with no uncertainty."
+    },
+    {
+     "p": "• The stock market, which is has an uncertain return."
+    },
+    {
+     "p": "The price of both the risk free bond and the stock is equal to one. With probability $p$, the price of the stock becomes 1 $+ \\theta$ and becomes $1 - \\theta$ with probability $1 - p$. We assume that $\\theta > r$. Finally, assume Pedro only consumes next year, and his utility function is"
+    },
+    {
+     "p": "$$U (c) = -e^{-\\sigma c}$$",
+     "display": true
+    },
+    {
+     "p": "where $c = W$, and $W$ is Pedro's wealth in the second period.."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Plot $U (c)$ for different values of $\\sigma$ . How does $U (c)$ depend on $\\sigma$ ? How is $\\sigma$ related to Pedro's dislike for risk?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Plot $U (c)$ for different values of $\\sigma$ . How does $U (c)$ depend on $\\sigma$ ? How is $\\sigma$ related to Pedro's dislike for risk?"
+      },
+      {
+       "p": "Below we plot $U (c)$ for three values of $\\sigma , \\sigma_{1} > \\sigma_{2} > \\sigma_{3}$: Notice that the higher the value of $\\sigma$ , the more concave the utility function. This implies that Pedro is more risk averse (i.e., he dislikes risk more) as $\\sigma$ increases."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Let $x \\in (0, 1)$ denote the fraction of Pedro's wealth that he puts on Tesla stocks (Pedro is not allowed to short the stock market nor take leverage, which is why $x$ is between zero and one). Write down Pedro's budget constraint on the second period."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Let $x \\in (0, 1)$ denote the fraction of Pedro's wealth that he puts on Tesla stocks (Pedro is not allowed to short the stock market nor take leverage, which is why $x$ is between zero and one). Write down Pedro's budget constraint on the second period."
+      },
+      {
+       "p": "Let $x$ denote the fraction of wealth invested in the stock market, and $1 -x$ is the fraction invested in the risk-free bond. In the second period, Pedro's wealth $W$ will depend on whether the stock price increases or decreases. Pedro's budget constraint in the second period is:"
+      },
+      {
+       "p": "• If the stock price increases: $W_{up} = x(1 + \\theta ) + (1 - x)(1 + r)$ • If the stock price decreases: $W_{down} = x(1 - \\theta ) + (1 - x)(1 + r)$"
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) Write down Pedro's (expected) utility maximiation problem. Solve for Pedro's optimal allocation of wealth on the stock market $x^{*}$. Hint: replace $W$ in both states using the budget constraint."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Write down Pedro's (expected) utility maximiation problem. Solve for Pedro's optimal allocation of wealth on the stock market $x^{*}$. Hint: replace $W$ in both states using the budget constraint."
+      },
+      {
+       "p": "Pedro's expected utility maximization problem is to choose $x$ to maximize:"
+      },
+      {
+       "p": "$E[U (W)] = pU (W_{up}) + (1 - p)U (W_{down}) = -pe^{-\\sigma (x(1+\\theta )+(1-x)(1+r))} - (1 - p)e^{-\\sigma (x(1-\\theta )+(1-x)(1+r))}$"
+      },
+      {
+       "p": "where $W_{up}$ and $W_{down}$ are the wealth levels in the two states described in question 2. The first-order condition is:"
+      },
+      {
+       "p": "$$\\sigma (\\theta - r)pe^{-\\sigma (x(1+\\theta )+(1-x)(1+r))} - \\sigma (\\theta + r)(1 - p)e^{-\\sigma (x(1-\\theta )+(1-x)(1+r))} = 0$$",
+       "display": true
+      },
+      {
+       "p": "We can solve for $x^{*}$ as:"
+      },
+      {
+       "p": "$$x^{*} = \\frac{1}{2\\sigma \\theta}\\text{ log }\\frac{(\\theta - r)p}{(\\theta + r)(1 - p)}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) How would your answer change if $\\theta < r$? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) How would your answer change if $\\theta < r$? Provide an economic intuition."
+      },
+      {
+       "p": "If $\\theta < r$, the expected return on the stock market is less than the return on the risk-free bond. This means that, on average, investing in the stock market is expected to yield less wealth in the second period compared to the guaranteed return of 1 $+ r$ from the risk-free bond. Consequently, there is no economic incentive for Pedro to invest in the stock market, as it would lead to a lower expected utility. The rational choice, in this case, would be to allocate all wealth to the risk-free bond, maximizing the expected utility by avoiding the lower returns and higher risk associated with the stock market."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 Points) How does $x^{*}$ depend on $p$ and $\\sigma$ ? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) How does $x^{*}$ depend on $p$ and $\\sigma$ ? Provide an economic intuition."
+      },
+      {
+       "p": "The optimal fraction of wealth to invest in stocks, $x^{*}$, is positively related to $p$. Intuitively, as $p$ increases, the potential for higher returns on the stock market becomes more likely, prompting Pedro to allocate a larger portion of his wealth to stocks. Conversely, $x^{*}$ is inversely related to $\\sigma$ , which measures Pedro's risk aversion. As $\\sigma$ increases, indicating that Pedro is more risk-averse, he is less likely to invest a large fraction of his wealth in the riskier stock market and will favor the safer risk-free bond instead."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Insurance",
+   "partes": [
+    {
+     "p": "Andrew has just bought a car, and has wealth $W$. He crashes his car with probability $\\theta$ . If he crashes his car, the total costs of repairing his car are $r$. Andrew is looking to purchase insurance for his car. Cambridge Insurance offers coverage of $x$ dollars in case of a crash for a price of $p$ independente of whether Andrew crashes his car or not. Andrew's utility function is equal"
+    },
+    {
+     "p": "$$U (W) =\\text{ log }W$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Let $I$ denote the amount of insurance Andrew purchases. Write down Andrew's budget constraint both when he crashes his car and when he does not."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Let $I$ denote the amount of insurance Andrew purchases. Write down Andrew's budget constraint both when he crashes his car and when he does not."
+      },
+      {
+       "p": "If Andrew does not crash his car, he simply pays the insurance premium and does not receive any insurance payout. His budget constraint in this case is:"
+      },
+      {
+       "p": "$$W_{nocrash} = W - pI$$",
+       "display": true
+      },
+      {
+       "p": "If Andrew crashes his car, he pays for the repair cost but receives the insurance coverage. His budget constraint in this case is:"
+      },
+      {
+       "p": "$$W_{crash} = W - pI - r + xI$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Solve for Andrew's optimal amount of insurance."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Solve for Andrew's optimal amount of insurance."
+      },
+      {
+       "p": "Andrew's expected utility maximization problem is to choose $I$, subject to $I$ being non-negative, to maximize:"
+      },
+      {
+       "p": "$E[U (W)] = (1 - \\theta )U (W_{nocrash}) + \\theta U (W_{crash}) = (1 - \\theta )$log($W - pI) + \\theta$ log($W - pI - r + xI)$"
+      },
+      {
+       "p": "The first order condition for maximization is given by:"
+      },
+      {
+       "p": "$$(1 - \\theta ) \\frac{1}{W - pI} (-p) + \\theta \\frac{1}{W - pI + xI - r} (x - p) = 0$$",
+       "display": true
+      },
+      {
+       "p": "After solving the equation, the optimal amount of insurance $I^{*}$ is:"
+      },
+      {
+       "p": "$$I^{*} = \\frac{W\\theta x - Wp + pr - p\\theta r}{p(x - p)}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) How does Andrew's choice of insurance change with $\\theta , r$ and $p$? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "algo sumiu antes da pontuação"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q33-p2.png",
+       "w": 488,
+       "h": 17
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q33-p3.png",
+       "w": 488,
+       "h": 17
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) Write down an expression for Cambridge Insurance's expected profits from Andrew's contract."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Write down an expression for Cambridge Insurance's expected profits from Andrew's contract."
+      },
+      {
+       "p": "The expected profit for Cambridge Insurance can be expressed as:"
+      },
+      {
+       "p": "$$pI - \\theta (xI) = I(p - \\theta x)$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 Points) Find the price of the contract such that Cambridge Insurance makes zero expected profits from Andrew's contract. How does it depend on $\\theta$ ? Provide an economic intuition. This price is called the actuarially fair price."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Find the price of the contract such that Cambridge Insurance makes zero expected profits from Andrew's contract. How does it depend on $\\theta$ ? Provide an economic intuition. This price is called the actuarially fair price."
+      },
+      {
+       "p": "The actuarially fair price $p$ is found by setting the expected profits of Cambridge Insurance to zero:"
+      },
+      {
+       "p": "$$p = \\theta x$$",
+       "display": true
+      },
+      {
+       "p": "It reflects the insurer's expected cost per dollar of coverage, without any profit margin. As $\\theta$ increases, the fair price $p$ increases proportionally. This is because a higher probability of a crash means there's a greater chance the insurance company will have to pay out, so the price charged for insurance must increase to compensate for this higher expected cost."
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(5 Points) Show that, when the price is the actuarially fair price then Andrew purchases full coverage of insurance. That is, his wealth when he crashes is equal to his wealth when he does not crash."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Show that, when the price is the actuarially fair price then Andrew purchases full coverage of insurance. That is, his wealth when he crashes is equal to his wealth when he does not crash."
+      },
+      {
+       "p": "At the actuarially fair price where $p = \\theta x$, Andrew's optimal insurance purchase $I^{*}$ simplifies to:"
+      },
+      {
+       "p": "$$I^{*} = \\frac{W\\theta x - W\\theta x + \\theta xr - \\theta x\\theta r}{\\theta x(x - \\theta x)} = \\frac{r - \\theta r}{x - \\theta x} = \\frac{r}{x}$$",
+       "display": true
+      },
+      {
+       "p": "This result shows that Andrew will purchase full insurance coverage such that the insurance payout exactly equals the repair cost $r$, thereby ensuring his wealth is the same whether he crashes his car or not."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "Trade and Welfare",
+   "partes": [
+    {
+     "p": "Listenbourg is a fictional country located in an extension of the Iberian Peninsula. Listenbourg's market for wine consist in the following aggregate demand and supply"
+    },
+    {
+     "p": "$$Q_{D} = 1 - p$$",
+     "display": true
+    },
+    {
+     "p": "$$Q_{S} = p$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Suppose Listerbourg does not trade with the rest of the world. Find the equilibrium price and quantity, $p^{A}$ and $Q^{A}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Suppose Listerbourg does not trade with the rest of the world. Find the equilibrium price and quantity, $p^{A}$ and $Q^{A}$."
+      },
+      {
+       "p": "The equilibrium price and quantity are"
+      },
+      {
+       "p": "$$p^{A} = \\frac{1}{2} Q^{A} = \\frac{1}{2}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) How does consumption and domestic production change in response to to Listenbourg opening to trade? Calculate the consumption, production and imports of wine."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Now suppose the Prime Minister of Listenbourg decides to open up to trade. The international price of wine is $p^{*} = \\frac{1}{4}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) How does consumption and domestic production change in response to to Listenbourg opening to trade? Calculate the consumption, production and imports of wine."
+      },
+      {
+       "p": "If the price is $p^{*} = \\frac{1}{4}$ then"
+      },
+      {
+       "p": "$$Q_{D}^{*} = \\frac{3}{4} Q_{S}^{*} = \\frac{1}{4} M = Q_{D}^{*} - Q_{S}^{*} = \\frac{1}{2}$$",
+       "display": true
+      },
+      {
+       "p": "where $M$ is imports"
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(10 Points) In labeled axes, plot the demand and supply curves for wine. Show the equilibrium price and quantity under autarky and under trade, as well as the old and new consumer and producer surplus (For this part, follow the method used in class: label the different areas of the graph and then show in a separate table which areas correspond to consumer and producer surplus both before and after)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(10 Points) In labeled axes, plot the demand and supply curves for wine. Show the equilibrium price and quantity under autarky and under trade, as well as the old and new consumer and producer surplus (For this part, follow the method used in class: label the different areas of the graph and then show in a separate table which areas correspond to consumer and producer surplus both before and after)."
+      },
+      {
+       "img": "g1/p5-1.png",
+       "w": 486,
+       "h": 276
+      },
+      {
+       "p": "$$CS^{A} = a PS^{A} = bc$$",
+       "display": true
+      },
+      {
+       "p": "$$CS^{*} = abde PS^{*} = c$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) What is the consumer and domestic producer surplus before and after Listerbourg opens up to trade? Are both consumer and producers better off? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What is the consumer and domestic producer surplus before and after Listerbourg opens up to trade? Are both consumer and producers better off? Provide an economic intuition."
+      },
+      {
+       "p": "The consumer and producer surplus before Listenbourg opens up to trade are"
+      },
+      {
+       "p": "$$CS^{A} = \\frac{1}{2} \\times \\frac{1}{2} \\times 1 - \\frac{1}{2} = \\frac{1}{8}$$",
+       "display": true
+      },
+      {
+       "p": "$$PS^{A} = \\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{8}$$",
+       "display": true
+      },
+      {
+       "p": "After Listebourg opens up to trade"
+      },
+      {
+       "p": "$$CS^{*} = \\frac{1}{2} \\times \\frac{3}{4} \\times 1 - \\frac{1}{4} = \\frac{9}{32}$$",
+       "display": true
+      },
+      {
+       "p": "$$PS^{*} = \\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{32}$$",
+       "display": true
+      },
+      {
+       "p": "Then consumers are better off but producers are worse off. Intuitively, a decrease in the price benefits consumers, who now can consumer their desired amount at a lower price, and makes producers worse off. This is different from a price control, because now supply is unlimited at this lower price."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(10 Points) In labeled axes, plot the demand and supply curves for wine. Show the equilibrium quantities before and after the implementation of the tariff, as well as the old and new consumer and producer surplus and the revenue from the tariff. Suppose the revenue for the tariff goes back to consumers, is it enough to compensate them for the tariff? Provide an economic intuition. You don't need to provide exact calculations of the magnitudes. A correct qualitative graph and explanation is enough."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Opening to trade has brought protests from the local wine producers. They argue that since the international price is lower than the price under autarky then many workers were laid off because they could not compete with the foreign producers. In response, the Prime Minister concedes them a tariff of $t = \\frac{1}{8}$, so that now the local price of wine becomes $p^{*} + t = \\frac{3}{8}$. To compensate consumers for the increase in prices, the government announced that it will redistribute any proceedings from the tariff directly to the consumer's pockets."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(10 Points) In labeled axes, plot the demand and supply curves for wine. Show the equilibrium quantities before and after the implementation of the tariff, as well as the old and new consumer and producer surplus and the revenue from the tariff. Suppose the revenue for the tariff goes back to consumers, is it enough to compensate them for the tariff? Provide an economic intuition. You don't need to provide exact calculations of the magnitudes. A correct qualitative graph and explanation is enough."
+      },
+      {
+       "img": "g1/p6-1.png",
+       "w": 499,
+       "h": 276
+      },
+      {
+       "p": "An tariff increases the price domestic consumers and producers face, thus the quantity demanded decreases to $Q_{D}^{t} < Q_{D}^{*}$ and the quantity supplies increases to $Q_{S}^{t} > Q_{S}^{*}$ and imports decrease. The consumer and producer surplus before the tariff are"
+      },
+      {
+       "p": "$$CS^{*} = abcefghij PS^{*} = d$$",
+       "display": true
+      },
+      {
+       "p": "After the tariff"
+      },
+      {
+       "p": "$$CS^{t} = abij PS^{t} = cd$$",
+       "display": true
+      },
+      {
+       "p": "The revenue from the tariff is"
+      },
+      {
+       "p": "$$R = fg$$",
+       "display": true
+      },
+      {
+       "p": "If the tariff is rebated directly to the consumers then their welfare is equal to"
+      },
+      {
+       "p": "$$CS^{t} + R = abijfg$$",
+       "display": true
+      },
+      {
+       "p": "Thus, their welfare is lower after the tariff:"
+      },
+      {
+       "p": "$$CS^{*} - CS^{t} = -eh$$",
+       "display": true
+      },
+      {
+       "p": "So the rebate is not enough to compensate them for the tariff. Intuitively, the tariff has two effects. First, it encourages more inefficient domestic producers to enter the market $(e)$ and it precludes some consumers who would like to consume at the international price $(h)$. The tax revenue helps the consumers who are still consuming to offset the decrease in their welfare due to the increase in prices $(fg)$ but is not enough to compensate those who are not consuming anymore."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "Trade and the Production Possibilities Frontier",
+   "partes": [
+    {
+     "p": "Consider the production of rice and wheat from India and Ukraine. Labor is the only input for production. The table below gives the number of necessary hours to produce a ton of each"
+    },
+    {
+     "p": "India Ukraine Rice 10 20 Wheat 20 10"
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) For each good, which country has an absolute advantage? Which country has a comparative advantage?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) For each good, which country has an absolute advantage? Which country has a comparative advantage?"
+      },
+      {
+       "p": "For rice, India has the absolute advantage because it takes less hours to produce the same output of rice. Likewise, for wheat, Ukraine has the absolute advantage. India has the comparative advantage for rice, and Ukraine has the comparative advantage for wheat. This can be seen by looking at the ratios of necessary hours to produce a ton of each good."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) For each country, what is the relative price such if they were in autarky? Assume all markets are perfectly competitive."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) For each country, what is the relative price such if they were in autarky? Assume all markets are perfectly competitive."
+      },
+      {
+       "p": "For India, the price of rice satisfies"
+      },
+      {
+       "p": "$$w = p_{R}MPL_{R} = p_{R} * ( \\frac{1}{10})$$",
+       "display": true
+      },
+      {
+       "p": "$$p_{R} = 10w$$",
+       "display": true
+      },
+      {
+       "p": "The price of wheat satisfies"
+      },
+      {
+       "p": "$$w = p_{W}MPL_{W} = p_{W} * ( \\frac{1}{20})$$",
+       "display": true
+      },
+      {
+       "p": "$$p_{W} = 20w$$",
+       "display": true
+      },
+      {
+       "p": "Therefore, the relative price in India of rice to wheat is $\\frac{10w}{20w} = \\frac{1}{2}$. By similar reasoning, the relative price of rice in Ukraine is $\\frac{20w}{10w} = 2$."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) If India and Ukraine fully specialized, which country would export which good? What is the range of price ratios at which both countries are willing to trade with each other."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) If India and Ukraine fully specialized, which country would export which good? What is the range of price ratios at which both countries are willing to trade with each other."
+      },
+      {
+       "p": "Because India has the comparative advantage in rice and Ukraine has the comparative advantage in wheat, India would export rice and Ukraine would export wheat. As long as the trading rate of rice to wheat is below the autarky relative price of rice to wheat in Ukraine, then Ukraine is willing to send wheat and receive rice. This means that as long at the trading rate is at least $10/20 = 1/2$ tons of rice per ton of wheat, then Ukraine is willing to trade. By similar reasoning, India is willing to send rice in exchange for wheat as long as the rate is at most $20/10 = 2$ tons of rice per ton of wheat."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) Suppose both countries are still in autarky. Draw the production possibility frontier for each country for a one-hour period. That is, the combinations of quantities of each good they could produce in one hour. Draw your graph with rice on the $x$ axis and wheat on the $y$ axis."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Suppose both countries are still in autarky. Draw the production possibility frontier for each country for a one-hour period. That is, the combinations of quantities of each good they could produce in one hour. Draw your graph with rice on the $x$ axis and wheat on the $y$ axis."
+      },
+      {
+       "img": "g1/p8-1.png",
+       "w": 486,
+       "h": 188
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(8 Points) Suppose India and Ukraine agree to trade at a rate of one ton of wheat for one ton of rice. Are both countries better off? Provide an economic intuition. Draw the old production possibility frontier and the new consumption set for each country."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(8 Points) Suppose India and Ukraine agree to trade at a rate of one ton of wheat for one ton of rice. Are both countries better off? Provide an economic intuition. Draw the old production possibility frontier and the new consumption set for each country."
+      },
+      {
+       "p": "Both countries are better off because the relative price of rice is between their opportunity costs. Intuitively, India can specialize in the production of rice and trade it more wheat than it is foregoing by producing rice; and Ukraine can specialize in the production of wheat and trade it for more rice than it is foregoing by producing wheat. Graphically, this implies their consumption set is larger then the production possibility frontier. In this particular case, the consumption set (in red) is equal for both countries."
+      },
+      {
+       "img": "g1/p8-2.png",
+       "w": 486,
+       "h": 188
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

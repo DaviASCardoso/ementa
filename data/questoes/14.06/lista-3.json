@@ -1,0 +1,223 @@
+{
+ "etapa": "14.06/lista-3",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-06-intermediate-macroeconomic-theory-spring-2004/e8e80132ad28956c111cba9b2a9536e3_14_06problemset3.pdf",
+   "paginas": 1
+  },
+  {
+   "rotulo": "Consumption Problem",
+   "url": "https://ocw.mit.edu/courses/14-06-intermediate-macroeconomic-theory-spring-2004/72cb5230dc4738ee515351c8a53cffd4_1406pset3conprob.pdf",
+   "paginas": 2
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "Problem Set 3 14.06 2004"
+  },
+  {
+   "p": "% 14.06 Recitation March 5 2004 % Example Matlab Code"
+  },
+  {
+   "p": "% Starting hints: % 1) Open MATLAB and selction from the menu select: File=>New=>M File. % The M-file is where you will write your program. Save it in an % appropriate place % 2) make sure that \"current directory\" is set to the folder in which your m-file is saved % 3) To run a program simply use the \"save and run\" button in the m-file % window % 4) The output of the program will show in the command window of Matlab % 5) You can type commands (eg plot commands) direct in the command window % to operate on variables that are in MATLAB's memory from the last % program that ran. % TO STOP A RUNNING PROGRAMMING (if it is taking too long or is not % coverging) simnply use \"cntrl\" and \"C\" at once."
+  },
+  {
+   "p": "% This is a simple program to solve a deterministic dynamic programming problem % The value function is V(Wt) = max {ln(c) + beta*V(Wt+1)} where % the evolution of wealth occurs according to Wt+1=(1+r)Wt-c+y % The agent receives a constant income y each period"
+  },
+  {
+   "p": "%To begin with I need to declare paramater values for r beta y and epsilon"
+  },
+  {
+   "p": "clear all; % clears all variables from memory"
+  },
+  {
+   "p": "y = 1; r = 0.1; beta = 1/1.1; epsilon = 0.2; % this is the convergence criterion"
+  },
+  {
+   "p": "% Now to set the size of the interval over which we discretize the problem"
+  },
+  {
+   "p": "wmin = -10; % Sets the minimum value of the grid for W - THINK ABOUT THIS VALUE wmax = 40; % Sets the maximum value of the grid for W grid = 0.1; % Sets the fineness of the grid - smaller leads to more accuracy % BUT comes at the cost of make the program slow"
+  },
+  {
+   "p": "W = [wmin:grid:wmax]';"
+  },
+  {
+   "p": "nom = length(W); % Finds the length of this vector"
+  },
+  {
+   "p": "% The W matrix defines the possible values that we let the state variable take on % It will remain unchanged throughout the program."
+  },
+  {
+   "p": "V = zeros(nom,1);"
+  },
+  {
+   "p": "% This V matrix is our starting guess for the value function."
+  },
+  {
+   "p": "P = zeros(nom,1);"
+  },
+  {
+   "p": "% This sets up the policy rule - it will be update as we go"
+  },
+  {
+   "p": "k=1;"
+  },
+  {
+   "p": "while k > epsilon;"
+  },
+  {
+   "p": "k %Note that I am allowing this to be printed (by dropping the \";\") so we can see the convergence"
+  },
+  {
+   "p": "G = zeros(nom,1); i = 1;"
+  },
+  {
+   "p": "while i < nom + 1 M = zeros(nom, 1); x = W(i,1); j = 1; while j < nom + 1; M(j,1) = log( max(x*(1+r) + y - W(j,1),0.0000000000000000001) ) + beta*V(j,1); j=j+1; end"
+  },
+  {
+   "p": "% We now find the optimal choice and put the associate value into the new guess at the value function G"
+  },
+  {
+   "p": "G(i,1) = max(M);"
+  },
+  {
+   "p": "% Now to find the location of the maximizing choice of W"
+  },
+  {
+   "p": "e = 1; while G(i,1) > M(e,1); e = e + 1; end"
+  },
+  {
+   "p": "% Here the policy finction P is the optinal level of wealth to leave over % for the future - could covert to consumption through the budget % constraint."
+  },
+  {
+   "p": "P(i,1)=W(e,1);"
+  },
+  {
+   "p": "i=i+1;"
+  },
+  {
+   "p": "end"
+  },
+  {
+   "p": "% Now we see if the new value function G is far away from the previous % guess - if the normed difference is less than 0.1 then"
+  },
+  {
+   "p": "k = norm(V-G);"
+  },
+  {
+   "p": "V=G;"
+  },
+  {
+   "p": "end"
+  },
+  {
+   "p": "% Now we have have converged, I print the \"policy function\" and the expected value function"
+  },
+  {
+   "p": "[P V]"
+  },
+  {
+   "p": "% To plot these (against the correct x-axis ie W): % plot(W,P) % plot(W,V)"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Numerical Dynamic Programming. Submit your code and the requested plots. Consider the planner's problem in a basic ramsey model. There is no population growth. The planner's objective is to maximize"
+    },
+    {
+     "img": "e1/p1-1.png",
+     "w": 283,
+     "h": 59
+    },
+    {
+     "p": "and the resource constraint of the economy requires that"
+    },
+    {
+     "p": "$$C_{t} + I_{t} \\leq Y_{t} = K_{t}^{\\alpha}$$",
+     "display": true
+    },
+    {
+     "p": "You can assume (without loss of generality) that the resource constraint will always bind with equality in the planner's solution. Our task is to use the method of numerical dynamic programming to characterize the planner's solution to this problem. Observe that $K_{t}$ is the state variable and the control variables are $C_{t}$ and $I_{t}$. The bellman equaltion can then be written as"
+    },
+    {
+     "p": "$V (K_{t}$) = max$_{Ct,It} \\{$ln ($C_{t}) + \\beta V (K_{t+1})\\}$"
+    },
+    {
+     "p": "subject to (1) and (2). Use the following paramater values:"
+    },
+    {
+     "p": "$$\\alpha = 0.33, \\beta = 0.95, \\delta = 0.05$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "First, show (on paper) that the bellman equation can be written as"
+      },
+      {
+       "p": "$V (K_{t}$) = max$_{Kt+1} \\{$ln ((1$- \\delta ) K_{t} + K_{t}^{\\alpha} - K_{t+1}) + \\beta V (K_{t+1})\\}$ ."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Using numerical dynamic programming, solve for the value function. You are looking to find a vector of values which give the value of $V$ at different levels of $K_{t}$. Plot and print the value function (make sure you plot $V$ against $K_{t})$. HINTS: Solve this by understanding and editing the example MATLAB code that I have posted on the Pset page. Now the state variable is capital instead of wealth. The range of the state variable should be strictly positive (pick the minimum to be very slightly above zero to avoid finding the origin as a solution). The most important thing that you need to change is the line where I evaluate the value function since the resource constraints here are different to those for the consumer's problem. Start with a coarse grid then when you have the program working run it with a finer grid."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Plot and print the policy function. For the problem, as we have re-formulated it, this means finding the function $K_{t+1} (K_{t})$. Again make sure you get the axis right. [HINT: This should be easy since the code you have is already written calculate a policy function of $W_{t+1} (W_{t}).]$ Check that the policy function crosses the 45 degree line - if it does not then you should expand the range over which you evaualte the state variable. Explain why."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "From your plot in part c) approximate what the steady state level of capital is."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Using the policy function in$K_{t+1} (K_{t})$ combined with (1) and (2) find the optimal policy functions for consumption$C_{t} (K_{t})$ and investment$I_{t} (K_{t})$. Using these, approximate the steady state level of consumption and investment."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "If you have made it this far you have already characterized the saddle path of the system! What is it? Suppose that the discount factor decreases from 0.95 to 0.85. How does this affect the saddle path? Show this by plotting the two saddle paths and comparing. How does the steady state level of capital and consumption change? [HINT: answer this by re-running your program with the new paramater value]."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

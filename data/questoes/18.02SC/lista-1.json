@@ -1,0 +1,223 @@
+{
+ "etapa": "18.02SC/lista-1",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/2ea35c7ab33c5c143ae8f60f949588f2_MIT18_02SC_pset1.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Problem Set 1"
+  },
+  {
+   "p": "At MIT problem sets are referred to as 'psets'. You will see this term used occasionally within the problems sets. The 18.02 psets are split into two parts 'part I' and 'part II'. The part I are all taken from the supplementary problems. You will find a link to the supplementary problems and solutions on this website. The intention is that these help the student develop some fluency with concepts and techniques. Students have access to the solutions while they do the problems, so they can check their work or get a little help as they do the problems. After you finish the problems go back and redo the ones for which you needed help from the solutions. The part II problems are more involved. At MIT the students do not have access to the solutions while they work on the problems. They are encouraged to work together, but they have to write their solutions independently."
+  },
+  {
+   "p": "Part I (12 points)"
+  },
+  {
+   "p": "At MIT the underlined problems must be done and turned in for grading. The 'Others' are some suggested choices for more practice. A listing like '$§$1B$: \\frac{2,}{.}$ 5b, 10' means do the indicated problems from supplementary problems section 1B"
+  },
+  {
+   "p": "1 Vectors and dot product. $§$1A$: \\frac{6,}{2,} \\frac{7,}{5}$b$\\frac{9;}{,}12$Others: 1, 4, 5, 8, 11;5a, 10, 11 $§$1B:, 13; Others: 3ab, 4,"
+  },
+  {
+   "p": "2 Cross product and determinants. $§$1C: $\\frac{2,}{2}$, 5a$\\frac{;}{,} 7$Others: 1, 3, 6, 7 $§$1D: 5; Others: 1, 3, 4 Part II (15 points)"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "(5)",
+   "partes": [
+    {
+     "p": "Find the dihedral angle between two faces of a regular tetrahedron."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "There are several ways to set up the tetrahedron for this problem. The simplest way is to inscribe it in the unit cube, so that it has vertices (0,0,0), (1,1,0),(0,1,1),(1,0,1). If you didn't think of this, you could also set it up with one face defined by $(0, 0, 0), (1, 0, 0), (0,\\sqrt{3}/2, 0)$ and then figure out where the fourth vertex should be. In this solution we'll use the sim pler inscribed tetrahedron. In this case, we define the plane $\\mathcal{P}_{1}$ to contain (0,0,0),(1,1,0) and (1,0,1); taking the cross product we see a normal to this plane is"
+    },
+    {
+     "p": "$$\\mathbf{n}_{1} = \\langle 1, 0, 1\\rangle \\times \\langle 1, 1, 0\\rangle = \\langle -1, 1, 1\\rangle$$",
+     "display": true
+    },
+    {
+     "p": "Similarly, we define the plane $\\mathcal{P}_{2}$ to contain (0,0,0),(1,1,0) and (0,1,1); a normal to this plane is"
+    },
+    {
+     "p": "$$\\mathbf{n}_{2} = \\langle 1, 1, 0\\rangle \\times \\langle 0, 1, 1\\rangle = \\langle 1,-1, 1\\rangle$$",
+     "display": true
+    },
+    {
+     "p": "The dihedral angle between these two planes is the smaller angle $\\theta$ between $\\mathbf{n}_{1}$ and $\\mathbf{n}_{2}$, with"
+    },
+    {
+     "p": "$$\\text{cos }\\theta = \\frac{\\mathbf{n}_{1} \\cdot \\mathbf{n}_{2}}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|} = \\frac{1}{3}$$",
+     "display": true
+    },
+    {
+     "p": "(We use the absolute value to ensure that we get the cosine of the smaller angle.) We conclude that"
+    },
+    {
+     "p": "$\\theta =$ cos$^{-1}(1/3) \\approx 1.23$ or $\\approx 70.5$ deg."
+    },
+    {
+     "p": "(Any other tetrahedron will be similar (in the geometric sense) to this one so it will have the same dihedral angle.)"
+    }
+   ]
+  },
+  {
+   "n": "2",
+   "titulo": "(5: 2,3)",
+   "partes": [
+    {
+     "img": "e1/p2-1.png",
+     "w": 432,
+     "h": 14
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Show that the 'polarization identity' $\\frac{1}{4} \u0000| \\mathbf{u} + \\mathbf{v} |^{2} -| \\mathbf{u} - \\mathbf{v} |^{2} \u0001 = \\mathbf{u} \\cdot \\mathbf{v}$ holds for any two n-vectors u and v. (Use vector algebra, not components.)"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula que o KaTeX não desenha",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q2a-p2.png",
+       "w": 442,
+       "h": 39
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Calculating directly, we see"
+      },
+      {
+       "p": "$$|\\mathbf{u} + \\mathbf{v}|^{2} = (\\mathbf{u} + \\mathbf{v}) \\cdot (\\mathbf{u} + \\mathbf{v}) = \\mathbf{u} \\cdot \\mathbf{u} + 2\\mathbf{u} \\cdot \\mathbf{v} + \\mathbf{v} \\cdot \\mathbf{v}$$",
+       "display": true
+      },
+      {
+       "p": "since $\\mathbf{u} \\cdot \\mathbf{v} = \\mathbf{v} \\cdot \\mathbf{u}$. Also,"
+      },
+      {
+       "p": "$$|\\mathbf{u} - \\mathbf{v}|^{2} = (\\mathbf{u} - \\mathbf{v}) \\cdot (\\mathbf{u} - \\mathbf{v}) = \\mathbf{u} \\cdot \\mathbf{u} - 2\\mathbf{u} \\cdot \\mathbf{v} + \\mathbf{v} \\cdot \\mathbf{v}$$",
+       "display": true
+      },
+      {
+       "p": "Subtracting these two equations gives"
+      },
+      {
+       "p": "$$|\\mathbf{u} + \\mathbf{v}|^{2} -|\\mathbf{u} - \\mathbf{v}|^{2} = 4\\mathbf{u} \\cdot \\mathbf{v}$$",
+       "display": true
+      },
+      {
+       "p": "as desired."
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 288,
+       "h": 160
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Given two non-zero vectors u and v, give the formula for the unit vector which bisects the (smaller) angle between u and v. (Use the notation $\\hat{\\mathbf{u}}$ for the unit vector in the u - direction.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Since u and v have the same length (=1), u+v bisects the angle between u and v. We make this a unit vector:"
+      },
+      {
+       "p": "$$\\frac{u + v}{|\\mathbf{u} + \\mathbf{v}|}$$",
+       "display": true
+      },
+      {
+       "p": "See figure."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "(5: 3,2)",
+   "partes": [
+    {
+     "p": "In this problem we examine tacking, which is the process sailboats use to travel against the wind. Sails are a familiar tool to harness the energy of the wind for transportation over the sea. Early ships had large fixed sails which would capture the wind blowing from behind to propel the ship forward. Even if the wind is blowing from behind at an (acute) angle the component of the wind vector perpendicular to the sail will push on the sail and hence on the boat. However, these early fixed sail ships had no way to go against the wind and had to rely on oarsmen if the wind was blowing in the wrong direction. A great advance that allowed boats to sail against the wind was the invention of movable sails in combination with a rudder and a keel. By carefully positioning the sail the boat can be made to sail into the wind –this process is called tacking As noted before, the component of the wind perpendicular to the sail pushes on the sail and, through it, the boat. The keel only allows the boat to move along its axis. (The rudder is used to turn the boat.) That is, for any force on the boat, only the component along the boat's axis actually pushes the boat. Described mathematically, the wind vector is first projected on $y$"
+    },
+    {
+     "img": "e1/p2-2.png",
+     "w": 433,
+     "h": 45
+    },
+    {
+     "p": "orienting the sail correctly this double projection can result in a vector with a component pointing into the wind. $\\frac{\\beta \\alpha}{w = a\\mathbf{i}} x$"
+    },
+    {
+     "img": "e1/p2-3.png",
+     "w": 317,
+     "h": 40
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Let $\\mathbf{w}_{1}$ be the projection of w onto the line $l_{s}$. Show that $\\mathbf{w}_{1}$ does not have a non zero component in the direction opposite w. (It is sufficient to show the projections on the sketch.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "See the sketch with part (b). It is clear that no matter what the angle $\\alpha$ the vector $\\mathbf{w}_{1}$ has a rightward component."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the projection of $\\mathbf{w}_{1}$ onto $l_{B}$. (Give an explicit formula in terms of $\\alpha$ and $\\beta .)$ What is the condition on $\\alpha$ and $\\beta$ that this projection has a component in the $-\\mathbf{i}$ direction? (For warmup you might try the specific case $\\alpha = \\pi /3 = \\beta .)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "In the sketch we've labeled the projection we want as $\\mathbf{w}_{2}$. We see easily that $|\\mathbf{w}_{1}| = a$ cos $\\alpha$ and $|\\mathbf{w}_{2}| =$ cos $\\beta |\\mathbf{w}_{1}| = a$ cos $\\beta$ cos $\\alpha$ ."
+      },
+      {
+       "img": "g1/p2-2.png",
+       "w": 493,
+       "h": 147
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

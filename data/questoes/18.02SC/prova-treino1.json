@@ -1,0 +1,296 @@
+{
+ "etapa": "18.02SC/prova-treino1",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/fab3055ba2c2f06834f14004c7d0047e_MIT18_02SC_prac1A.pdf",
+   "paginas": 2
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Practice Exam 1 z"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "(15 points)",
+   "partes": [
+    {
+     "img": "e1/p1-1.png",
+     "w": 419,
+     "h": 20
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Express the vectors $\\overrightarrow{OQ}$ (a diagonal of the cube) and $\\overrightarrow{OR}$ O R y (joining O to the center of a face) in terms of $\\hat{\\imath ,} \\hat{j,} \\hat{k.}$ x"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\overrightarrow{OQ} = \\hat{\\imath +} \\hat{j +} \\hat{k;} \\overrightarrow{OR} = \\frac{1}{2} \\hat{\\imath +} \\hat{j +} \\frac{1}{2} \\hat{k.}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the cosine of the angle between OQ and OR."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1b-p1.png",
+       "w": 250,
+       "h": 32
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "(10 points)",
+   "partes": [
+    {
+     "p": "The motion of a point $P$ is given by the position vector $\\vec{R} = 3$cos $t \\hat{\\imath} +$ 3 sin $t \\hat{j +} t \\hat{k.}$ Compute the velocity and the speed of $P$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2-p1.png",
+     "w": 421,
+     "h": 40
+    }
+   ]
+  },
+  {
+   "n": "3",
+   "titulo": "(15 points: 10, 5)",
+   "partes": [
+    {
+     "img": "e1/p1-2.png",
+     "w": 435,
+     "h": 88
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Let $A = ⎢ 2 0 -1 ⎥⎦$; then det($A) = 2$ and $A^{-1} = \\frac{1}{2} ⎢⎣ -1 -2 5 ⎥⎦$; find $a$ and $b$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q3a-p1.png",
+       "w": 445,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q3a-p1.png",
+       "w": 445,
+       "h": 34
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Solve the system $A X = B$, where $X = ⎢⎣ y ⎥⎦$ and $B = ⎢⎣ -2 ⎥⎦$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q3b-p1.png",
+       "w": 331,
+       "h": 23
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q3b-p1.png",
+       "w": 131,
+       "h": 25
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "In the matrix $A$, replace the entry 2 in the upper-right corner by $c$. Find a value of $c$ for which the resulting matrix $M$ is not invertible. For this value of $c$ the system $M X = 0$ has other solutions than the obvious one $X = 0$: find such a solution by using vector operations. (Hint: call $U, V$ and $W$ the three rows of $M$, and observe that $M X = 0$ if and only if $X$ is orthogonal to the vectors $U, V$ and $W.)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q3c-p1.png",
+       "w": 373,
+       "h": 139
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "(15 points)",
+   "partes": [
+    {
+     "img": "e1/p1-3.png",
+     "w": 457,
+     "h": 55
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q4-p1.png",
+     "w": 444,
+     "h": 68
+    }
+   ]
+  },
+  {
+   "n": "5",
+   "titulo": "(25 points: 10, 5, 10)",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the area of the space triangle with vertices $P_{0}: (2, 1, 0), P_{1}: (1, 0, 1), P_{2}: (2,-1, 1)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q5a-p1.png",
+       "w": 393,
+       "h": 45
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the equation of the plane containing the three points $P_{0}, P_{1}, P_{2}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q5b-p1.png",
+       "w": 368,
+       "h": 26
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Find the intersection of this plane with the line parallel to the vector $\\vec{V} = \\langle 1, 1, 1\\rangle$ and passing through the point $S: (-1, 0, 0)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Parametric equations for the line: $x = -1 + t, y = t, z = t$. Substituting: $-1 + 4t = 3, t = 1$, intersection point (0,1,1)."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "6",
+   "titulo": "(20 points: 5, 5, 10)",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Let $\\vec{R} = x(t)\\hat{\\imath +} y(t)\\hat{j +} z(t)\\hat{k}$ be the position vector of a path. Give a simple intrinsic formula for $\\frac{d}{dt} (\\vec{R} \\cdot \\vec{R})$ in vector notation (not using coordinates)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{d}{dt} ( V \\cdot V) = V \\cdot V + V \\cdot V = 2 V \\cdot V$ . $R R V R R V R V$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Show that if $\\vec{R}$ has constant length, then $\\vec{R}$ and $\\vec{V}$ are perpendicular."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q6b-p2.png",
+       "w": 330,
+       "h": 21
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "let $\\vec{A}$ be the acceleration: still assuming that $\\vec{R}$ has constant length, and using vector differ entiation, express the quantity $\\vec{R} \\cdot \\vec{A}$ in terms of the velocity vector only."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$V \\cdot V = 0$, so $\\frac{d}{dt} ( V \\cdot V ) = V \\cdot V + V \\cdot V = 0$. Therefore $V \\cdot V = -|V |^{2}$. $R V R V V V R A R A V$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

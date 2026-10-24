@@ -1,0 +1,358 @@
+{
+ "etapa": "18.02SC/prova-3",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/d888514d0c2dcfec354fd56b8f51dd89_MIT18_02SC_exam3.pdf",
+   "paginas": 2
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Exam 3"
+  },
+  {
+   "img": "e1/p1-1.png",
+   "w": 37,
+   "h": 9
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Draw a picture of the region of integration of $dydx$."
+      },
+      {
+       "p": "$$0 x$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1a-p1.png",
+       "w": 375,
+       "h": 27
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1a-p1.png",
+       "w": 466,
+       "h": 59
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Exchange the order of integration to express the integral in part (a) in terms of integration in the order $dxdy$. Warning: your answer will have two pieces."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p1.png",
+     "w": 375,
+     "h": 18
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the mass $M$ of the upper half of the annulus $1 < x^{2} + y^{2} < 9 (y \\geq 0)$ with density $\\delta = \\frac{y}{x^{2} + y^{2}}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\delta dA = \\frac{r sin \\theta}{r^{2}}rdrd\\theta =$ sin $\\theta drd\\theta$ ."
+      },
+      {
+       "img": "g1/p1-2.png",
+       "w": 331,
+       "h": 29
+      },
+      {
+       "img": "g1/p1-3.png",
+       "w": 105,
+       "h": 9
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Express the $x$-coordinate of the center of mass, $\\bar{x}$, as an iterated integral. (Write explicitly the integrand and limits of integration.) Without evaluating the integral, explain why $\\bar{x} = 0$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2b-p1.png",
+       "w": 478,
+       "h": 55
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Show that F = $(3x^{2} - 6y^{2})\\hat{\\imath} + (-12xy + 4y)\\hat{\\mathbf{j}}$ is conservative."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$N_{x} = -12y = M_{y}$, hence F is conservative."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find a potential function for F."
+      },
+      {
+       "img": "e1/p1-2.png",
+       "w": 6,
+       "h": 7
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f_{x} = 3x^{2} - 6y^{2} \\Rightarrow f = x^{3} - 6y^{2}x + c(y) \\Rightarrow f_{y} = -12xy + c'(y) = -12xy + 4y$. So $c'(y) = 4y$, thus $c(y) = 2y^{2} (+$ constant). In conclusion"
+      },
+      {
+       "p": "$f = x^{3} - 6xy^{2} + 2y^{2} (+$ constant)."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Let C be the curve $x = 1 + y^{3}(1 - y)^{3}, 0 \\leq y \\leq 1$. Calculate $\\mathbf{F} \\cdot d\\mathbf{r}$."
+      },
+      {
+       "p": "$$C$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q3c-p1.png",
+       "w": 361,
+       "h": 29
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q3c-p1.png",
+       "w": 356,
+       "h": 54
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Express the work done by the force field F = $(5x+3y)\\hat{\\imath}$+(1+cos $y)\\hat{\\mathbf{j}}$ on a particle"
+      },
+      {
+       "img": "e1/p1-3.png",
+       "w": 15,
+       "h": 9
+      },
+      {
+       "p": "moving counterclockwise once around the unit circle centered at the origin in the form $f (t)dt$."
+      },
+      {
+       "p": "$$a$$",
+       "display": true
+      },
+      {
+       "p": "(Do not evaluate the integral; don't even simplify $f (t).)$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q4a-p1.png",
+       "w": 478,
+       "h": 58
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q4a-p1.png",
+       "w": 478,
+       "h": 69
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Evaluate the line integral using Green's theorem."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q4b-p1.png",
+       "w": 401,
+       "h": 157
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q4-p1.png",
+     "w": 466,
+     "h": 18
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Consider the rectangle $R$ with vertices (0,0),(1,0),(1,4) and (0,4). The boundary of $R$ is the curve $C$, consisting of $C_{1}$, the segment from (0,0) to $(1, 0), C_{2}$, the segment from (1,0) to $(1, 4), C_{3}$ the segment from (1,4) to (0,4) and $C_{4}$ the segment from (0,4) to (0,0). Consider the vector field F $= (xy +$ sin $x$ cos $y)\\hat{\\imath} -$ (cos $x$ sin $y)\\hat{\\mathbf{j}}$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the flux of F out of $R$ through $C$. Show your reasoning."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q5a-p1.png",
+       "w": 286,
+       "h": 25
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Is the total flux out of $R$ through $C_{1}, C_{2}$ and $C_{3}$, more than, less than or equal to the flux out of $R$ through $C$? Show your reasoning."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q5b-p2.png",
+       "w": 478,
+       "h": 79
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the volume of the region enclosed by the plane $z = 4$ and the surface"
+    },
+    {
+     "p": "$$z = (2x - y)^{2} + (x + y - 1)^{2}$$",
+     "display": true
+    },
+    {
+     "p": "(Suggestion: change of variables.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q6-p2.png",
+     "w": 407,
+     "h": 212
+    }
+   ]
+  }
+ ]
+}

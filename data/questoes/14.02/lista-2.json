@@ -1,0 +1,740 @@
+{
+ "etapa": "14.02/lista-2",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset2.pdf",
+   "paginas": 5
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.02 - Principles of Macroeconomics Problem Set 2"
+  },
+  {
+   "p": "Spring 2023"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "The Goods Market continued [40 Points]",
+   "partes": [
+    {
+     "p": "Consider the following economy. The demand for goods, $Z$, is given by"
+    },
+    {
+     "p": "$$Z \\equiv C + I + G$$",
+     "display": true
+    },
+    {
+     "p": "where $C$ is consumption, $I$ is investment, and $G$ is government spending. The consumption function is given by"
+    },
+    {
+     "p": "$$C = c_{0}+ c_{1}Y_{D}$$",
+     "display": true
+    },
+    {
+     "p": "where $c_{0}\\geq 0, 0 < c_{1}< 1, Y_{D}\\equiv Y - T$ is disposable income, and $T$ is taxes. When we say \"exogenous variables\", this refers to variables determined outside of the model such as, for example, $c_{0}, c_{1}$. In contrast, $C, Y$ are endogenous variables. $G$ and $I$ will always be treated as exogenous. In Problem Set 1, you found that when T is exogenously given by T=$t_{0}$, equilibrium in the goods market implies:"
+    },
+    {
+     "p": "$$Y = \\frac{1}{1 - c_{1}} [c_{0}- c_{1}t_{0}+ G + I]$$",
+     "display": true
+    },
+    {
+     "p": "In this case, the government spending multiplier is given by:"
+    },
+    {
+     "p": "$$\\frac{dY}{dG} = \\frac{1}{1 - c_{1}}$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Endogenous T:"
+      },
+      {
+       "p": "Now, consider the case where $T$ is endogenously given. Specifically, it depends on income in the follow ing way: $T = t_{0}+ t_{1}Y$."
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "Endogenous T:"
+      },
+      {
+       "p": "Now, consider the case where $T$ is endogenously given. Specifically, it depends on income in the follow ing way: $T = t_{0}+ t_{1}Y$."
+      }
+     ]
+    },
+    {
+     "id": "a1",
+     "partes": [
+      {
+       "p": "[5 Points] Solve for equilibrium output $Y$ assuming that $t_{1}\\in (0, 1)$."
+      }
+     ],
+     "pai": "a",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Solve for equilibrium output $Y$ assuming that $t_{1}\\in (0, 1)$."
+      },
+      {
+       "p": "Solving for Y:"
+      },
+      {
+       "p": "$$Y = c_{0}+ c_{1}(Y - t_{0}- t_{1}Y) + G + I$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Rightarrow Y = \\frac{1}{(1 - c_{1}(1 - t_{1}))} [c_{0}- c_{1}t_{0}+ G + I]$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "a2",
+     "partes": [
+      {
+       "p": "[5 Points] What is the government spending multiplier now? Does the economy respond more to government spending in this case or in the previous one?"
+      }
+     ],
+     "pai": "a",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] What is the government spending multiplier now? Does the economy respond more to government spending in this case or in the previous one?"
+      },
+      {
+       "p": "The multiplier is, using the previous result:"
+      },
+      {
+       "p": "$$\\frac{dY}{dG} = \\frac{1}{1 - c_{1}(1 - t_{1})}$$",
+       "display": true
+      },
+      {
+       "p": "and as we can see the multiplier is smaller now given that c$_{1}(1 - t_{1}) < c_{1}$."
+      }
+     ]
+    },
+    {
+     "id": "a3",
+     "partes": [
+      {
+       "p": "[5 Points] How much does public saving, $T - G$, decrease in response to an increase in $G$? Is it less than or greater than one?"
+      }
+     ],
+     "pai": "a",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] How much does public saving, $T - G$, decrease in response to an increase in $G$? Is it less than or greater than one?"
+      },
+      {
+       "p": "The public saving can be expressed as"
+      },
+      {
+       "p": "$$T - G = t_{0}+ t_{1}Y - G$$",
+       "display": true
+      },
+      {
+       "p": "$$= t_{0}+ \\frac{t_{1}}{1 - c_{1}(1 - t_{1})} (c_{0}+ I + G - t_{0}c_{1}) - G$$",
+       "display": true
+      },
+      {
+       "p": "$$= t_{0}+ \\frac{t_{1}}{1 - c_{1}(1 - t_{1})} (c_{0}+ I - t_{0}c_{1}) - \\frac{(1 - c_{1})(1 - t_{1})}{1 - c_{1}(1 - t_{1})}G$$",
+       "display": true
+      },
+      {
+       "p": "Therefore public saving decreases by the amount $\\frac{(1-c_{1})(1-t_{1})}{1-c_{1}(1-t_{1})}$. This value is less than one because the govern ment's tax revenue increases to partly offset the increase in expenditure."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Balanced Budget"
+      },
+      {
+       "p": "Now suppose that the government decided to choose $G$ such that budget is balanced:"
+      },
+      {
+       "p": "$$G = T$$",
+       "display": true
+      },
+      {
+       "p": "that is, now we treat $G$ as another variable we need to solve for. The rest of the equations remain the same as in Part (a), i.e., taxes depend on consumption."
+      }
+     ],
+     "tipo": "grupo",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1b-p2.png",
+       "w": 511,
+       "h": 100
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q1b-p2.png",
+       "w": 511,
+       "h": 101
+      }
+     ]
+    },
+    {
+     "id": "b1",
+     "partes": [
+      {
+       "p": "[5 Points] Among the variables $Y, C, G, I$ and $T$, identify which variable is exogenous and which is endogenous in this case."
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Among the variables $Y, C, G, I$ and $T$, identify which variable is exogenous and which is endogenous in this case."
+      },
+      {
+       "p": "Only I is exogenous."
+      }
+     ]
+    },
+    {
+     "id": "b2",
+     "partes": [
+      {
+       "p": "[5 Points] Solve for equilibrium output $Y$ as a function of exogenous variables/parameters."
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Solve for equilibrium output $Y$ as a function of exogenous variables/parameters."
+      },
+      {
+       "p": "First, we need to solve for equilibrium consumption as a function of equilibrium output Y as in Part (b)"
+      },
+      {
+       "p": "$$Y = C + I + G$$",
+       "display": true
+      },
+      {
+       "p": "$$Y = c_{0}+ c_{1}(Y - t_{0}- t_{1}Y) + I + t_{0}+ t_{1}Y$$",
+       "display": true
+      },
+      {
+       "p": "$$(1 - c_{1}+ c_{1}t_{1}- t_{1})Y = c_{0}- c_{1}t_{0}+ I + t_{0}$$",
+       "display": true
+      },
+      {
+       "p": "$$Y = \\frac{1}{1 - c_{1}+ c_{1}t_{1}- t_{1}} [c_{0}- c_{1}t_{0}+ I + t_{0}]$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "b3",
+     "partes": [
+      {
+       "p": "[5 Points] Now, suppose $G$ is exogenous but that taxes are set to match government spending (i.e., so the budget is still balanced but taxes no longer depend on consumption as in part (a)). Solve for equilibrium output again. How much does equilibrium output change in response to an increase in government spending $G$? Compare this new multiplier to the case of exogenous taxes (in the prompt) and endogenous taxes (Part (a))."
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Now, suppose $G$ is exogenous but that taxes are set to match government spending (i.e., so the budget is still balanced but taxes no longer depend on consumption as in part (a)). Solve for equilibrium output again. How much does equilibrium output change in response to an increase in government spending $G$? Compare this new multiplier to the case of exogenous taxes (in the prompt) and endogenous taxes (Part (a))."
+      },
+      {
+       "p": "First, we need to solve for equilibrium consumption as a function of equilibrium output Y as in Part (b)"
+      },
+      {
+       "p": "$$Y = C + I + G$$",
+       "display": true
+      },
+      {
+       "p": "$$Y = c_{0}+ c_{1}(Y - T) + I + G$$",
+       "display": true
+      },
+      {
+       "p": "$$(1 - c_{1})Y = c_{0}- c_{1}T + I + G$$",
+       "display": true
+      },
+      {
+       "p": "Now use $T = G$"
+      },
+      {
+       "p": "$$Y = \\frac{1}{1 - c_{1}} (c_{0}- c_{1}G + I + G)$$",
+       "display": true
+      },
+      {
+       "p": "$$Y = \\frac{1}{1 - c_{1}} (c_{0}+ I + (1 - c_{1})G)$$",
+       "display": true
+      },
+      {
+       "p": "$$Y = \\frac{1}{1 - c_{1}} (c_{0}+ I) + G$$",
+       "display": true
+      },
+      {
+       "p": "The multiplier is, using the previous result:"
+      },
+      {
+       "p": "$$\\frac{dY}{dG} = 1$$",
+       "display": true
+      },
+      {
+       "p": "so that"
+      },
+      {
+       "p": "$$\\frac{dY}{dG} > \\frac{dY}{dG} > \\frac{dY}{dG}$$",
+       "display": true
+      },
+      {
+       "p": "(exogenousT) (endogenousT) (balancedbudget) as c$_{1}\\in (0, 1)$ and t$_{1}> 0$."
+      }
+     ]
+    },
+    {
+     "id": "b4",
+     "partes": [
+      {
+       "p": "[5 Points] Interpret the result in b.3."
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Interpret the result in b.3."
+      },
+      {
+       "p": "With a balanced budget, an increase in government spending is exactly offset by an increase in taxes, so consumption falls exactly by the same amount that government spending increased. In the case of endogenous taxes, the increase in government spending has an indirect yet positive effect on taxes through its effect on output Y. However, they do not rise by as much as in the balanced budget case so the multiplier is larger. The multiplier is largest in the case of exogenous taxes because they do not change in response to higher government spending. Therefore any government stimulus is not offset by responses in consumption induced by changes in the tax schedule."
+      }
+     ]
+    },
+    {
+     "id": "b5",
+     "partes": [
+      {
+       "p": "[5 Points] Express $S$ in terms of exogenous variables when the government follows a balanced bud get. Remember $S \\equiv Y - T - C$. How does $S$ respond to a change in $G$?"
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Express $S$ in terms of exogenous variables when the government follows a balanced bud get. Remember $S \\equiv Y - T - C$. How does $S$ respond to a change in $G$?"
+      },
+      {
+       "p": "Since G=T, in equilibrium Private Savings is given by:"
+      },
+      {
+       "p": "$$S = Y - T - C$$",
+       "display": true
+      },
+      {
+       "p": "$$S = C + I + G - T - C$$",
+       "display": true
+      },
+      {
+       "p": "$$S = I$$",
+       "display": true
+      },
+      {
+       "p": "Therefore, private savings does not change in response to a change in Government Spending."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Financial markets [45 Points]",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Demand for money and bonds"
+      },
+      {
+       "p": "Suppose there are only two assets in the economy: money and bonds. Suppose that money demand in an economy is given by: $M^{d}=$ \\$$Y(a - i)$ where \\$$Y$ is nominal GDP, $a >$ 0 is a parameter, and $i \\geq$ 0 is the interest rate."
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "Demand for money and bonds"
+      },
+      {
+       "p": "Suppose there are only two assets in the economy: money and bonds. Suppose that money demand in an economy is given by: $M^{d}=$ \\$$Y(a - i)$ where \\$$Y$ is nominal GDP, $a >$ 0 is a parameter, and $i \\geq$ 0 is the interest rate."
+      }
+     ]
+    },
+    {
+     "id": "a1",
+     "partes": [
+      {
+       "p": "[5 points] Describe how money demand depends on the interest rate and income (that is, say whether it increases, decreases, or is non-monotonic in each variable). Explain the intuition."
+      }
+     ],
+     "pai": "a",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Describe how money demand depends on the interest rate and income (that is, say whether it increases, decreases, or is non-monotonic in each variable). Explain the intuition."
+      },
+      {
+       "p": "The benefit of holding money relative to bonds is that it can be used for transactions, whereas the cost is that it does not generate interest income. As the interest rate increases, the opportunity cost of forgone interest payments increases, which leads people to hold less money and more bonds. As income in creases, the level of transactions increases, which leads people to hold more money."
+      }
+     ]
+    },
+    {
+     "id": "a2",
+     "partes": [
+      {
+       "p": "[5 points] A bond will pay \\$120 in one year. Express the price of the bond as a function of the inter est rate. How does the price of the bond depend on the interest rate? Explain how this is consistent with the idea that increasing the interest rate increases the demand for bonds."
+      }
+     ],
+     "pai": "a",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2a2-p4.png",
+       "w": 498,
+       "h": 46
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Determining the interest rate For the rest of Question 2 you can assume $a =.6$."
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "Determining the interest rate For the rest of Question 2 you can assume $a =.6$."
+      }
+     ]
+    },
+    {
+     "id": "b1",
+     "partes": [
+      {
+       "p": "[5 Points] Suppose nominal GDP is \\$20$T$. When the central bank supplies \\$10$T$ of money, what is the equilibrium interest rate?"
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2b1-p5.png",
+       "w": 498,
+       "h": 33
+      }
+     ]
+    },
+    {
+     "id": "b2",
+     "partes": [
+      {
+       "p": "[5 Points] Now suppose the central bank wants to control the interest rate. Assuming again that nominal GDP is \\$20$T$, how much money does the central bank need to supply in order to set the interest rate equal to $i =$. 05?"
+      }
+     ],
+     "pai": "b",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Now suppose the central bank wants to control the interest rate. Assuming again that nominal GDP is \\$20$T$, how much money does the central bank need to supply in order to set the interest rate equal to $i =$. 05?"
+      },
+      {
+       "p": "Equilibrium in financial markets implies"
+      },
+      {
+       "p": "$M^{s}= M^{d}=$ \\$$Y(a - i)$ = \\$20$T(.6 -.05)$ = \\$11$T$"
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Maintaining the interest rate"
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "Maintaining the interest rate"
+      }
+     ]
+    },
+    {
+     "id": "c1",
+     "partes": [
+      {
+       "p": "[5 Points] Now suppose that the economy grows and nominal GDP increases to \\$25$T$. If the central bank keeps the same money supply as in b.2, what is the equilibrium interest rate?"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2c1-p5.png",
+       "w": 498,
+       "h": 33
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "partes": [
+      {
+       "p": "[5 Points] If nominal GDP increases to \\$25$T$, how much money should the central bank supply in order to maintain the targeted interest rate of $i =$. 05?"
+      }
+     ],
+     "pai": "c",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] If nominal GDP increases to \\$25$T$, how much money should the central bank supply in order to maintain the targeted interest rate of $i =$. 05?"
+      },
+      {
+       "p": "Equilibrium in financial markets implies"
+      },
+      {
+       "p": "$M^{s}= M^{d}=$ \\$$Y(a - i)$ = \\$25$T(.6 -.05)$ = \\$13.75$T$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Changing the interest rate"
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "Changing the interest rate"
+      }
+     ]
+    },
+    {
+     "id": "d1",
+     "partes": [
+      {
+       "p": "[5 points] Consider again the case where nominal GDP is \\$20$T$ and the Fed wants to decrease the targeted interest rate from $i =$. 05 to $i =$ 0. How much money should it supply to implement this interest rate?"
+      }
+     ],
+     "pai": "d",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Consider again the case where nominal GDP is \\$20$T$ and the Fed wants to decrease the targeted interest rate from $i =$. 05 to $i =$ 0. How much money should it supply to implement this interest rate?"
+      },
+      {
+       "p": "Equilibrium in financial markets implies"
+      },
+      {
+       "p": "$M^{s}= M^{d}=$ \\$$Y(a - i)$ = \\$20$T(.6 - 0)$ = \\$12$T$"
+      }
+     ]
+    },
+    {
+     "id": "d2",
+     "partes": [
+      {
+       "p": "[5 points] Comparing your solutions to b.2 and d.1, describe how the central bank needs to change the money supply to decrease the interest rate. Describe the process by which the central bank can implement this change in the money supply."
+      }
+     ],
+     "pai": "d",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Comparing your solutions to b.2 and d.1, describe how the central bank needs to change the money supply to decrease the interest rate. Describe the process by which the central bank can implement this change in the money supply."
+      },
+      {
+       "p": "From b.2, the money supply that implements i =.05 is \\$11T. From d.1, the money supply that implements i = 0 is \\$12T. Therefore the central bank must increase the money supply by \\$1T. It can do this using expansionary open market operations in which it buys bonds and pays for them by creating money."
+      }
+     ]
+    },
+    {
+     "id": "d3",
+     "partes": [
+      {
+       "p": "[5 Points] If the central bank supplies more money than the amount derived in d.1, how will the interest rate change? Explain the reasoning behind your answer."
+      }
+     ],
+     "pai": "d",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] If the central bank supplies more money than the amount derived in d.1, how will the interest rate change? Explain the reasoning behind your answer."
+      },
+      {
+       "p": "As money increases beyond the amount in d.1, the interest rate will be equal to i = 0 and not change. One way to think about this is that if the interest rate is equal to 0% then people are indifferent between holding money or bonds. Therefore, as money supply increases, people are willing to hold more of their assets in money without a decrease in the interest rate."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Core IS-LM [15 Points]",
+   "partes": [
+    {
+     "p": "Consider the following version of the IS-LM model. Consumption is given by"
+    },
+    {
+     "p": "$$C = c_{0}+ c_{1}(Y - T)$$",
+     "display": true
+    },
+    {
+     "p": "where $c_{0}> 0, 0 < c_{1}< 1, Y$ is income, and $T$ is taxes. Investment is given by"
+    },
+    {
+     "p": "$$I = b_{0}+ b_{1}Y - b_{2}i$$",
+     "display": true
+    },
+    {
+     "p": "where $b_{0}> 0, b_{1}> 0, b_{2}>$ 0, and $i$ is the nominal interest rate. Also assume $c_{1}+ b_{1}<$ 1. The demand for goods is given by"
+    },
+    {
+     "p": "$$Z = C + I + G$$",
+     "display": true
+    },
+    {
+     "p": "Assume $G$ and $T$ are exogenous."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Equilibrium in Goods Market"
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "Equilibrium in Goods Market"
+      }
+     ]
+    },
+    {
+     "id": "a1",
+     "partes": [
+      {
+       "p": "[5 points] Explain intuitively why it is reasonable to assume that investment negatively depends on the interest rate. Provide an explanation for the case of a firm that must borrow to invest, and also provide an explanation for the case of a firm that has enough of its own funds to finance invest ment projects without borrowing. (Hint: If the firm does not use its funds to finance investment projects, what can it do with its money?)"
+      }
+     ],
+     "pai": "a",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Explain intuitively why it is reasonable to assume that investment negatively depends on the interest rate. Provide an explanation for the case of a firm that must borrow to invest, and also provide an explanation for the case of a firm that has enough of its own funds to finance invest ment projects without borrowing. (Hint: If the firm does not use its funds to finance investment projects, what can it do with its money?)"
+      },
+      {
+       "p": "Consider a firm that must borrow. As the interest rate increases, borrowing and hence in vestment become more costly, which leads to decreased investment. Now consider a firm with a large stock of funds. As the interest rate increases, buying bonds becomes relatively more attractive compared to financing investment projects, which leads to decreased investment."
+      }
+     ]
+    },
+    {
+     "id": "a2",
+     "partes": [
+      {
+       "p": "[5 points] Using equilibrium condition, $Y = Z$, derive the mathematical expression for equilibrium output for a given interest rate, $i$. Explain also graphically how the equilibrium output is deter mined. (Put $Z$ on the y-axis and $Y$ on the x-axis)."
+      }
+     ],
+     "pai": "a",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] Using equilibrium condition, $Y = Z$, derive the mathematical expression for equilibrium output for a given interest rate, $i$. Explain also graphically how the equilibrium output is deter mined. (Put $Z$ on the y-axis and $Y$ on the x-axis)."
+      },
+      {
+       "p": "The demand for goods in this economy is"
+      },
+      {
+       "p": "$$Z = C + I + G$$",
+       "display": true
+      },
+      {
+       "p": "$$= c_{0}+ c_{1}(Y - T) + b_{0}+ b_{1}Y - b_{2}i + G$$",
+       "display": true
+      },
+      {
+       "p": "$$= c_{0}+ b_{0}+ G - c_{1}T + (c_{1}+ b_{1})Y - b_{2}i$$",
+       "display": true
+      },
+      {
+       "p": "Using the equilibrium condition, Y = Z, we can solve for Y:"
+      },
+      {
+       "p": "$$Y = \\frac{1}{1 - (c_{1}+ b_{1})} (c_{0}+ b_{0}+ G - c_{1}T - b_{2}i)$$",
+       "display": true
+      },
+      {
+       "p": "Figure 2 shows the determination of goods market equilibrium graphically."
+      },
+      {
+       "img": "g1/p7-1.png",
+       "w": 488,
+       "h": 264
+      }
+     ]
+    },
+    {
+     "id": "a3",
+     "partes": [
+      {
+       "p": "[5 points] What is the government spending multiplier in this economy for a given interest rate, $i$? (That is, how much does the equilibrium output change in response to an increase in $G$?). Is the government spending multiplier larger than the case where investment is exogenous, $I = \\bar{I}$? Why or why not?"
+      }
+     ],
+     "pai": "a",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 points] What is the government spending multiplier in this economy for a given interest rate, $i$? (That is, how much does the equilibrium output change in response to an increase in $G$?). Is the government spending multiplier larger than the case where investment is exogenous, $I = \\bar{I}$? Why or why not?"
+      },
+      {
+       "p": "From equation (5), we can see that the government spending multiplier is $\\frac{1}{1-(c_{1}+b_{1})}$. Re call from the previous problem set that the government spending multiplier was $\\frac{1}{1-c_{1}}$ when investment was exogenous. Therefore the government spending multiplier with endogenous investment is larger than the economy with exogenous investment. The reason is that in an economy where investment responds to output, when the government spending increases, this increases output, which in turn increases both con sumption and investment. This further increases demand, and thus output. In an economy with exogenous investment, this additional increase coming from investment was absent. The following Figure 1 describes how the economy responds."
+      },
+      {
+       "img": "g1/p8-1.png",
+       "w": 336,
+       "h": 242
+      },
+      {
+       "p": "Figure 1: Response of the Goods Market Equilibrium when G increases to G$'$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

@@ -1,0 +1,912 @@
+{
+ "14.01/lista-1": {
+  "id": "14.01/lista-1",
+  "manual": false,
+  "questoes": 6,
+  "itens": 32,
+  "recorte": 0,
+  "gabarito_ligado": 32,
+  "avisos": []
+ },
+ "14.01/lista-2": {
+  "id": "14.01/lista-2",
+  "manual": false,
+  "questoes": 5,
+  "itens": 21,
+  "recorte": 0,
+  "gabarito_ligado": 21,
+  "avisos": []
+ },
+ "14.01/lista-3": {
+  "id": "14.01/lista-3",
+  "manual": false,
+  "questoes": 4,
+  "itens": 19,
+  "recorte": 1,
+  "gabarito_ligado": 17,
+  "avisos": []
+ },
+ "14.01/lista-4": {
+  "id": "14.01/lista-4",
+  "manual": false,
+  "questoes": 4,
+  "itens": 21,
+  "recorte": 0,
+  "gabarito_ligado": 20,
+  "avisos": []
+ },
+ "14.01/lista-5": {
+  "id": "14.01/lista-5",
+  "manual": false,
+  "questoes": 3,
+  "itens": 20,
+  "recorte": 0,
+  "gabarito_ligado": 20,
+  "avisos": []
+ },
+ "14.01/lista-6": {
+  "id": "14.01/lista-6",
+  "manual": false,
+  "questoes": 4,
+  "itens": 22,
+  "recorte": 0,
+  "gabarito_ligado": 22,
+  "avisos": []
+ },
+ "14.01/lista-7": {
+  "id": "14.01/lista-7",
+  "manual": false,
+  "questoes": 5,
+  "itens": 24,
+  "recorte": 1,
+  "gabarito_ligado": 24,
+  "avisos": []
+ },
+ "14.01/lista-8": {
+  "id": "14.01/lista-8",
+  "manual": false,
+  "questoes": 3,
+  "itens": 19,
+  "recorte": 0,
+  "gabarito_ligado": 19,
+  "avisos": []
+ },
+ "14.01/prova-1": {
+  "id": "14.01/prova-1",
+  "manual": false,
+  "questoes": 4,
+  "itens": 19,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.01/prova-final": {
+  "id": "14.01/prova-final",
+  "manual": true,
+  "questoes": 4,
+  "avisos": []
+ },
+ "14.02/lista-1": {
+  "id": "14.02/lista-1",
+  "manual": false,
+  "questoes": 3,
+  "itens": 16,
+  "recorte": 1,
+  "gabarito_ligado": 16,
+  "avisos": []
+ },
+ "14.02/lista-2": {
+  "id": "14.02/lista-2",
+  "manual": false,
+  "questoes": 3,
+  "itens": 20,
+  "recorte": 0,
+  "gabarito_ligado": 27,
+  "avisos": []
+ },
+ "14.02/lista-3": {
+  "id": "14.02/lista-3",
+  "manual": false,
+  "questoes": 3,
+  "itens": 16,
+  "recorte": 0,
+  "gabarito_ligado": 11,
+  "avisos": []
+ },
+ "14.02/lista-4": {
+  "id": "14.02/lista-4",
+  "manual": false,
+  "questoes": 3,
+  "itens": 12,
+  "recorte": 1,
+  "gabarito_ligado": 11,
+  "avisos": []
+ },
+ "14.02/lista-5": {
+  "id": "14.02/lista-5",
+  "manual": false,
+  "questoes": 4,
+  "itens": 15,
+  "recorte": 0,
+  "gabarito_ligado": 16,
+  "avisos": []
+ },
+ "14.02/lista-6": {
+  "id": "14.02/lista-6",
+  "manual": false,
+  "questoes": 3,
+  "itens": 14,
+  "recorte": 0,
+  "gabarito_ligado": 14,
+  "avisos": []
+ },
+ "14.02/lista-7": {
+  "id": "14.02/lista-7",
+  "manual": false,
+  "questoes": 3,
+  "itens": 13,
+  "recorte": 1,
+  "gabarito_ligado": 13,
+  "avisos": []
+ },
+ "14.02/lista-8": {
+  "id": "14.02/lista-8",
+  "manual": false,
+  "questoes": 3,
+  "itens": 18,
+  "recorte": 0,
+  "gabarito_ligado": 20,
+  "avisos": []
+ },
+ "14.02/prova-1": {
+  "id": "14.02/prova-1",
+  "manual": false,
+  "questoes": 2,
+  "itens": 23,
+  "recorte": 6,
+  "gabarito_ligado": 28,
+  "avisos": []
+ },
+ "14.02/prova-2": {
+  "id": "14.02/prova-2",
+  "manual": false,
+  "questoes": 3,
+  "itens": 20,
+  "recorte": 1,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.02/prova-3": {
+  "id": "14.02/prova-3",
+  "manual": false,
+  "questoes": 4,
+  "itens": 18,
+  "recorte": 1,
+  "gabarito_ligado": 18,
+  "avisos": []
+ },
+ "14.04/lista-1": {
+  "id": "14.04/lista-1",
+  "manual": false,
+  "questoes": 4,
+  "itens": 11,
+  "recorte": 1,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.04/lista-2": {
+  "id": "14.04/lista-2",
+  "manual": false,
+  "questoes": 3,
+  "itens": 9,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.04/lista-3": {
+  "id": "14.04/lista-3",
+  "manual": false,
+  "questoes": 3,
+  "itens": 17,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.04/lista-4": {
+  "id": "14.04/lista-4",
+  "manual": false,
+  "questoes": 2,
+  "itens": 9,
+  "recorte": 1,
+  "gabarito_ligado": 0,
+  "avisos": [
+   "numeração de itens recomeça nas questões 2"
+  ]
+ },
+ "14.04/lista-5": {
+  "id": "14.04/lista-5",
+  "manual": false,
+  "questoes": 3,
+  "itens": 12,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.04/prova-1": {
+  "id": "14.04/prova-1",
+  "manual": false,
+  "questoes": 4,
+  "itens": 14,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.04/prova-2": {
+  "id": "14.04/prova-2",
+  "manual": false,
+  "questoes": 4,
+  "itens": 17,
+  "recorte": 1,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.04/prova-3": {
+  "id": "14.04/prova-3",
+  "manual": false,
+  "questoes": 5,
+  "itens": 18,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.05/lista-1": {
+  "id": "14.05/lista-1",
+  "manual": false,
+  "questoes": 4,
+  "itens": 11,
+  "recorte": 3,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.05/lista-2": {
+  "id": "14.05/lista-2",
+  "manual": false,
+  "questoes": 4,
+  "itens": 14,
+  "recorte": 9,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.05/lista-3": {
+  "id": "14.05/lista-3",
+  "manual": false,
+  "questoes": 4,
+  "itens": 14,
+  "recorte": 4,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.05/lista-4": {
+  "id": "14.05/lista-4",
+  "manual": false,
+  "questoes": 4,
+  "itens": 16,
+  "recorte": 3,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.05/prova-1": {
+  "id": "14.05/prova-1",
+  "manual": false,
+  "questoes": 3,
+  "itens": 12,
+  "recorte": 11,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.05/prova-2": {
+  "id": "14.05/prova-2",
+  "manual": false,
+  "questoes": 3,
+  "itens": 12,
+  "recorte": 1,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.06/lista-1": {
+  "id": "14.06/lista-1",
+  "manual": false,
+  "questoes": 4,
+  "itens": 4,
+  "recorte": 0,
+  "gabarito_ligado": 1,
+  "avisos": []
+ },
+ "14.06/lista-2": {
+  "id": "14.06/lista-2",
+  "manual": false,
+  "questoes": 4,
+  "itens": 4,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": [
+   "o gabarito não casou com nenhuma questão"
+  ]
+ },
+ "14.06/lista-3": {
+  "id": "14.06/lista-3",
+  "manual": false,
+  "questoes": 1,
+  "itens": 6,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.06/lista-4": {
+  "id": "14.06/lista-4",
+  "manual": false,
+  "questoes": 2,
+  "itens": 26,
+  "recorte": 3,
+  "gabarito_ligado": 33,
+  "avisos": [
+   "questão com muitos itens"
+  ]
+ },
+ "14.06/lista-5": {
+  "id": "14.06/lista-5",
+  "manual": false,
+  "questoes": 2,
+  "itens": 10,
+  "recorte": 7,
+  "gabarito_ligado": 10,
+  "avisos": []
+ },
+ "14.06/prova-1": {
+  "id": "14.06/prova-1",
+  "manual": true,
+  "questoes": 3,
+  "avisos": []
+ },
+ "14.06/prova-final": {
+  "id": "14.06/prova-final",
+  "manual": false,
+  "questoes": 2,
+  "itens": 10,
+  "recorte": 0,
+  "gabarito_ligado": 10,
+  "avisos": []
+ },
+ "14.30/lista-1": {
+  "id": "14.30/lista-1",
+  "manual": true,
+  "questoes": 8,
+  "avisos": []
+ },
+ "14.30/lista-2": {
+  "id": "14.30/lista-2",
+  "manual": false,
+  "questoes": 5,
+  "itens": 19,
+  "recorte": 19,
+  "gabarito_ligado": 19,
+  "avisos": [
+   "numeração de itens recomeça nas questões 2"
+  ]
+ },
+ "14.30/lista-3": {
+  "id": "14.30/lista-3",
+  "manual": false,
+  "questoes": 6,
+  "itens": 16,
+  "recorte": 16,
+  "gabarito_ligado": 16,
+  "avisos": [
+   "numeração de itens recomeça nas questões 2"
+  ]
+ },
+ "14.30/lista-4": {
+  "id": "14.30/lista-4",
+  "manual": false,
+  "questoes": 5,
+  "itens": 8,
+  "recorte": 8,
+  "gabarito_ligado": 8,
+  "avisos": []
+ },
+ "14.30/lista-5": {
+  "id": "14.30/lista-5",
+  "manual": false,
+  "questoes": 6,
+  "itens": 22,
+  "recorte": 22,
+  "gabarito_ligado": 19,
+  "avisos": []
+ },
+ "14.30/lista-6": {
+  "id": "14.30/lista-6",
+  "manual": false,
+  "questoes": 7,
+  "itens": 15,
+  "recorte": 15,
+  "gabarito_ligado": 11,
+  "avisos": []
+ },
+ "14.30/lista-7": {
+  "id": "14.30/lista-7",
+  "manual": false,
+  "questoes": 5,
+  "itens": 15,
+  "recorte": 15,
+  "gabarito_ligado": 15,
+  "avisos": []
+ },
+ "14.30/lista-8": {
+  "id": "14.30/lista-8",
+  "manual": false,
+  "questoes": 5,
+  "itens": 22,
+  "recorte": 22,
+  "gabarito_ligado": 18,
+  "avisos": [
+   "numeração de itens recomeça nas questões 1"
+  ]
+ },
+ "14.30/lista-9": {
+  "id": "14.30/lista-9",
+  "manual": false,
+  "questoes": 6,
+  "itens": 21,
+  "recorte": 21,
+  "gabarito_ligado": 21,
+  "avisos": []
+ },
+ "14.30/prova-1": {
+  "id": "14.30/prova-1",
+  "manual": false,
+  "questoes": 2,
+  "itens": 9,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.30/prova-2": {
+  "id": "14.30/prova-2",
+  "manual": false,
+  "questoes": 5,
+  "itens": 16,
+  "recorte": 2,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.30/prova-3": {
+  "id": "14.30/prova-3",
+  "manual": false,
+  "questoes": 4,
+  "itens": 14,
+  "recorte": 2,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.32/lista-0": {
+  "id": "14.32/lista-0",
+  "manual": false,
+  "questoes": 4,
+  "itens": 6,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.32/lista-1": {
+  "id": "14.32/lista-1",
+  "manual": false,
+  "questoes": 3,
+  "itens": 7,
+  "recorte": 1,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.32/lista-2": {
+  "id": "14.32/lista-2",
+  "manual": false,
+  "questoes": 3,
+  "itens": 7,
+  "recorte": 1,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.32/lista-3": {
+  "id": "14.32/lista-3",
+  "manual": false,
+  "questoes": 1,
+  "itens": 5,
+  "recorte": 3,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.32/lista-4": {
+  "id": "14.32/lista-4",
+  "manual": false,
+  "questoes": 1,
+  "itens": 5,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.32/lista-5": {
+  "id": "14.32/lista-5",
+  "manual": false,
+  "questoes": 7,
+  "itens": 7,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "14.32/lista-6": {
+  "id": "14.32/lista-6",
+  "manual": false,
+  "questoes": 4,
+  "itens": 4,
+  "recorte": 0,
+  "gabarito_ligado": 0,
+  "avisos": []
+ },
+ "18.01SC/lista-1": {
+  "id": "18.01SC/lista-1",
+  "manual": false,
+  "questoes": 61,
+  "itens": 149,
+  "recorte": 28,
+  "gabarito_ligado": 102,
+  "avisos": [
+   "numeração de itens recomeça nas questões 1A-4, 1J-3",
+   "itens repetidos na questão 1A-4"
+  ]
+ },
+ "18.01SC/lista-10": {
+  "id": "18.01SC/lista-10",
+  "manual": false,
+  "questoes": 19,
+  "itens": 44,
+  "recorte": 19,
+  "gabarito_ligado": 39,
+  "avisos": []
+ },
+ "18.01SC/lista-11": {
+  "id": "18.01SC/lista-11",
+  "manual": false,
+  "questoes": 67,
+  "itens": 102,
+  "recorte": 3,
+  "gabarito_ligado": 81,
+  "avisos": [
+   "numeração de itens recomeça nas questões 4H-3"
+  ]
+ },
+ "18.01SC/lista-2": {
+  "id": "18.01SC/lista-2",
+  "manual": false,
+  "questoes": 80,
+  "itens": 193,
+  "recorte": 47,
+  "gabarito_ligado": 141,
+  "avisos": [
+   "numeração de itens recomeça nas questões 1A-4, 1J-3",
+   "itens repetidos na questão 1A-4"
+  ]
+ },
+ "18.01SC/lista-3": {
+  "id": "18.01SC/lista-3",
+  "manual": false,
+  "questoes": 71,
+  "itens": 113,
+  "recorte": 3,
+  "gabarito_ligado": 83,
+  "avisos": []
+ },
+ "18.01SC/lista-4": {
+  "id": "18.01SC/lista-4",
+  "manual": false,
+  "questoes": 71,
+  "itens": 113,
+  "recorte": 3,
+  "gabarito_ligado": 83,
+  "avisos": []
+ },
+ "18.01SC/lista-5": {
+  "id": "18.01SC/lista-5",
+  "manual": false,
+  "questoes": 114,
+  "itens": 216,
+  "recorte": 41,
+  "gabarito_ligado": 164,
+  "avisos": []
+ },
+ "18.01SC/lista-6": {
+  "id": "18.01SC/lista-6",
+  "manual": false,
+  "questoes": 110,
+  "itens": 205,
+  "recorte": 41,
+  "gabarito_ligado": 162,
+  "avisos": [
+   "numeração de itens recomeça nas questões 4H-3"
+  ]
+ },
+ "18.01SC/lista-7": {
+  "id": "18.01SC/lista-7",
+  "manual": false,
+  "questoes": 67,
+  "itens": 102,
+  "recorte": 3,
+  "gabarito_ligado": 81,
+  "avisos": [
+   "numeração de itens recomeça nas questões 4H-3"
+  ]
+ },
+ "18.01SC/lista-8": {
+  "id": "18.01SC/lista-8",
+  "manual": false,
+  "questoes": 67,
+  "itens": 102,
+  "recorte": 3,
+  "gabarito_ligado": 81,
+  "avisos": [
+   "numeração de itens recomeça nas questões 4H-3"
+  ]
+ },
+ "18.01SC/lista-9": {
+  "id": "18.01SC/lista-9",
+  "manual": false,
+  "questoes": 19,
+  "itens": 44,
+  "recorte": 19,
+  "gabarito_ligado": 39,
+  "avisos": []
+ },
+ "18.01SC/prova-1": {
+  "id": "18.01SC/prova-1",
+  "manual": false,
+  "questoes": 6,
+  "itens": 10,
+  "recorte": 0,
+  "gabarito_ligado": 10,
+  "avisos": []
+ },
+ "18.01SC/prova-2": {
+  "id": "18.01SC/prova-2",
+  "manual": false,
+  "questoes": 6,
+  "itens": 7,
+  "recorte": 0,
+  "gabarito_ligado": 7,
+  "avisos": []
+ },
+ "18.01SC/prova-3": {
+  "id": "18.01SC/prova-3",
+  "manual": false,
+  "questoes": 6,
+  "itens": 10,
+  "recorte": 3,
+  "gabarito_ligado": 10,
+  "avisos": []
+ },
+ "18.01SC/prova-4": {
+  "id": "18.01SC/prova-4",
+  "manual": false,
+  "questoes": 5,
+  "itens": 6,
+  "recorte": 2,
+  "gabarito_ligado": 6,
+  "avisos": []
+ },
+ "18.01SC/prova-final": {
+  "id": "18.01SC/prova-final",
+  "manual": false,
+  "questoes": 15,
+  "itens": 24,
+  "recorte": 6,
+  "gabarito_ligado": 8,
+  "avisos": []
+ },
+ "18.02SC/lista-1": {
+  "id": "18.02SC/lista-1",
+  "manual": false,
+  "questoes": 3,
+  "itens": 5,
+  "recorte": 1,
+  "gabarito_ligado": 5,
+  "avisos": []
+ },
+ "18.02SC/lista-10": {
+  "id": "18.02SC/lista-10",
+  "manual": false,
+  "questoes": 3,
+  "itens": 7,
+  "recorte": 1,
+  "gabarito_ligado": 7,
+  "avisos": []
+ },
+ "18.02SC/lista-11": {
+  "id": "18.02SC/lista-11",
+  "manual": false,
+  "questoes": 5,
+  "itens": 9,
+  "recorte": 0,
+  "gabarito_ligado": 9,
+  "avisos": []
+ },
+ "18.02SC/lista-12": {
+  "id": "18.02SC/lista-12",
+  "manual": false,
+  "questoes": 4,
+  "itens": 14,
+  "recorte": 5,
+  "gabarito_ligado": 0,
+  "avisos": [
+   "o gabarito não casou com nenhuma questão"
+  ]
+ },
+ "18.02SC/lista-2": {
+  "id": "18.02SC/lista-2",
+  "manual": false,
+  "questoes": 3,
+  "itens": 8,
+  "recorte": 0,
+  "gabarito_ligado": 8,
+  "avisos": []
+ },
+ "18.02SC/lista-3": {
+  "id": "18.02SC/lista-3",
+  "manual": false,
+  "questoes": 4,
+  "itens": 11,
+  "recorte": 1,
+  "gabarito_ligado": 9,
+  "avisos": []
+ },
+ "18.02SC/lista-4": {
+  "id": "18.02SC/lista-4",
+  "manual": false,
+  "questoes": 5,
+  "itens": 13,
+  "recorte": 0,
+  "gabarito_ligado": 11,
+  "avisos": []
+ },
+ "18.02SC/lista-5": {
+  "id": "18.02SC/lista-5",
+  "manual": false,
+  "questoes": 4,
+  "itens": 12,
+  "recorte": 0,
+  "gabarito_ligado": 10,
+  "avisos": []
+ },
+ "18.02SC/lista-6": {
+  "id": "18.02SC/lista-6",
+  "manual": false,
+  "questoes": 3,
+  "itens": 9,
+  "recorte": 2,
+  "gabarito_ligado": 9,
+  "avisos": []
+ },
+ "18.02SC/lista-7": {
+  "id": "18.02SC/lista-7",
+  "manual": false,
+  "questoes": 5,
+  "itens": 14,
+  "recorte": 0,
+  "gabarito_ligado": 6,
+  "avisos": []
+ },
+ "18.02SC/lista-8": {
+  "id": "18.02SC/lista-8",
+  "manual": false,
+  "questoes": 5,
+  "itens": 14,
+  "recorte": 5,
+  "gabarito_ligado": 11,
+  "avisos": []
+ },
+ "18.02SC/lista-9": {
+  "id": "18.02SC/lista-9",
+  "manual": false,
+  "questoes": 3,
+  "itens": 8,
+  "recorte": 3,
+  "gabarito_ligado": 8,
+  "avisos": []
+ },
+ "18.02SC/prova-1": {
+  "id": "18.02SC/prova-1",
+  "manual": false,
+  "questoes": 5,
+  "itens": 13,
+  "recorte": 2,
+  "gabarito_ligado": 13,
+  "avisos": []
+ },
+ "18.02SC/prova-2": {
+  "id": "18.02SC/prova-2",
+  "manual": false,
+  "questoes": 6,
+  "itens": 13,
+  "recorte": 0,
+  "gabarito_ligado": 12,
+  "avisos": []
+ },
+ "18.02SC/prova-3": {
+  "id": "18.02SC/prova-3",
+  "manual": false,
+  "questoes": 6,
+  "itens": 12,
+  "recorte": 3,
+  "gabarito_ligado": 11,
+  "avisos": []
+ },
+ "18.02SC/prova-4": {
+  "id": "18.02SC/prova-4",
+  "manual": false,
+  "questoes": 5,
+  "itens": 11,
+  "recorte": 3,
+  "gabarito_ligado": 11,
+  "avisos": []
+ },
+ "18.02SC/prova-final": {
+  "id": "18.02SC/prova-final",
+  "manual": false,
+  "questoes": 15,
+  "itens": 36,
+  "recorte": 11,
+  "gabarito_ligado": 32,
+  "avisos": []
+ },
+ "18.02SC/prova-treino1": {
+  "id": "18.02SC/prova-treino1",
+  "manual": false,
+  "questoes": 6,
+  "itens": 13,
+  "recorte": 2,
+  "gabarito_ligado": 13,
+  "avisos": []
+ },
+ "18.02SC/prova-treino2": {
+  "id": "18.02SC/prova-treino2",
+  "manual": false,
+  "questoes": 7,
+  "itens": 13,
+  "recorte": 3,
+  "gabarito_ligado": 13,
+  "avisos": []
+ },
+ "18.02SC/prova-treino3": {
+  "id": "18.02SC/prova-treino3",
+  "manual": false,
+  "questoes": 7,
+  "itens": 14,
+  "recorte": 4,
+  "gabarito_ligado": 2,
+  "avisos": []
+ },
+ "18.02SC/prova-treino4": {
+  "id": "18.02SC/prova-treino4",
+  "manual": false,
+  "questoes": 6,
+  "itens": 14,
+  "recorte": 0,
+  "gabarito_ligado": 13,
+  "avisos": []
+ },
+ "18.02SC/prova-treino5f": {
+  "id": "18.02SC/prova-treino5f",
+  "manual": false,
+  "questoes": 18,
+  "itens": 26,
+  "recorte": 9,
+  "gabarito_ligado": 19,
+  "avisos": []
+ }
+}

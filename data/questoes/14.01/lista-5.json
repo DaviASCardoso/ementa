@@ -1,0 +1,599 @@
+{
+ "etapa": "14.01/lista-5",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset5.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.01 Problem Set 5"
+  },
+  {
+   "p": "Due at 5pm on November 3th, 2023 Late problem sets are not accepted."
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Short Questions",
+   "partes": [],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Show mathematically why the marginal revenue curve of a monopolist is always below the demand curve."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Show mathematically why the marginal revenue curve of a monopolist is always below the demand curve."
+      },
+      {
+       "p": "Let $Q_{d}(p)$ denote the demand curve. The inverse demand curve is given by $p(Q_{D})$. The revenue is"
+      },
+      {
+       "p": "$$Q_{D}p (Q_{D})$$",
+       "display": true
+      },
+      {
+       "p": "So the marginal revenue is"
+      },
+      {
+       "p": "$$MR = \\frac{dp}{dQ_{d}}Q_{D} + p(Q_{d}) = p(Q_{d}) 1 + \\frac{1}{\\varepsilon}$$",
+       "display": true
+      },
+      {
+       "p": "where $\\varepsilon = \\frac{dQ_{D}}{dp} \\frac{p}{Q_{D}}$ is the price elasticity of demand. Since the (inverse) demand is $p(Q_{D})$ and the elasticity is negative then the marginal revenue is always below the demand curve"
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Show mathematically that a monopolist will always want to be on the elastic portion of the demand curve."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Show mathematically that a monopolist will always want to be on the elastic portion of the demand curve."
+      },
+      {
+       "p": "The marginal revenue is"
+      },
+      {
+       "p": "$$MR = \\frac{dp}{dQ_{d}}Q_{D} + p(Q_{d}) = p(Q_{d}) 1 + \\frac{1}{\\varepsilon}$$",
+       "display": true
+      },
+      {
+       "p": "In an optimum"
+      },
+      {
+       "p": "$$MR = MC$$",
+       "display": true
+      },
+      {
+       "p": "So if the monopolist is making money then necessarily $|\\varepsilon | > 1$, otherwise markups are negative."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) Show mathematically that the markup is decreasing on the absolute value of the demand elasticity."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Show mathematically that the markup is decreasing on the absolute value of the demand elasticity."
+      },
+      {
+       "p": "From the previous exercise, if demand is more elastic (i.e., $\\varepsilon$ is more negative) then markups are lower."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "True or False",
+   "partes": [
+    {
+     "p": "Decide whether the following statements are True or False. Explain your answers."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) In Cournot duopoly, if one firm decreases its output then it is optimal for the other firm to also decrease its output."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) In Cournot duopoly, if one firm decreases its output then it is optimal for the other firm to also decrease its output."
+      },
+      {
+       "p": "False. If the other firm decreases output this increases the marginal revenue for this firm, so it is optimal to increase output."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Bertrand competition always results in zero economic profits in the long run."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) Bertrand competition always results in zero economic profits in the long run."
+      },
+      {
+       "p": "False. This is true if both firms have the same technology. If one firm is more efficient then it will make positive profits in equilibrium."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) Competitive markets are always preferable to monopoly."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) Competitive markets are always preferable to monopoly."
+      },
+      {
+       "p": "False. If there is a natural monopoly then monopoly is preferable because firm would shut down in competitive markets."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) Government regulation can improve welfare under noncompetitive markets."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) Government regulation can improve welfare under noncompetitive markets."
+      },
+      {
+       "p": "True. If there is a monopoly then government intervention can help improve total surplus by, for example, imposing price caps"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Cournot Competition and Cartels",
+   "partes": [
+    {
+     "p": "The global Oil market is considered to be a Cournot industry. The largest oil producing countries control a significant fraction of the world's oil production. These countries make decisions about how much oil to produce, taking into account the decisions of the other nations. In these countries, oil is very easy to extract, so we will assume throughout the exercise that it can be extracted at a constant marginal cost equal to one. Suppose that the world's demand for oil is given by"
+    },
+    {
+     "p": "$$Q_{D} = 2 - p$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) If the market for oil was perfectly competitive, what would be the equilibrium price and quantity of oil? What is the consumer, producer, and total surplus?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) If the market for oil was perfectly competitive, what would be the equilibrium price and quantity of oil? What is the consumer, producer, and total surplus?"
+      },
+      {
+       "p": "Under competitive markets"
+      },
+      {
+       "p": "$$p = MC \\Rightarrow p^{*} = 1 Q^{*} = 1$$",
+       "display": true
+      },
+      {
+       "p": "The consumer surplus, producer surplus and total surplus are"
+      },
+      {
+       "p": "$$CS^{*} = \\frac{1(2 - 1)}{2} = \\frac{1}{2}$$",
+       "display": true
+      },
+      {
+       "p": "$$PS^{*} = 0$$",
+       "display": true
+      },
+      {
+       "p": "$$TS^{*} = \\frac{1}{2}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) What price does the monopolist charge, and what quantity do they produce? What is the consumer surplus, producer surplus and deidweight loss?"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Suppose there is only one country producing in this market: Saudi Arabia, so there is a monopoly. Saudi Arabia can produce oil at a constant marginal cost of one."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What price does the monopolist charge, and what quantity do they produce? What is the consumer surplus, producer surplus and deidweight loss?"
+      },
+      {
+       "p": "If the firm is a monopolist then"
+      },
+      {
+       "p": "$$MR = MC \\Rightarrow 2 - 2Q = 1 \\Rightarrow p^{M} = \\frac{3}{2} Q^{M} = \\frac{1}{2}$$",
+       "display": true
+      },
+      {
+       "p": "Now we solve for the consumer surplus, producer surplus and deidweight loss"
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 99,
+       "h": 25
+      },
+      {
+       "p": "$$PS^{M} = \\frac{1}{2} \\frac{3}{2} - 1 = \\frac{1}{4}$$",
+       "display": true
+      },
+      {
+       "p": "$$DWL^{M} = \\frac{1}{2} - \\frac{1}{8} + \\frac{1}{4} = \\frac{1}{8}$$",
+       "display": true
+      },
+      {
+       "img": "g1/p3-1.png",
+       "w": 499,
+       "h": 190
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) Graph the marginal revenue, marginal cost, and demand curves in the same graph. Identify the equilibrium quantity and price, as well as the consumer surplus, producer surplus and deadweight loss. How do they differ from their counterparts under a competitive equilibrium? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Graph the marginal revenue, marginal cost, and demand curves in the same graph. Identify the equilibrium quantity and price, as well as the consumer surplus, producer surplus and deadweight loss. How do they differ from their counterparts under a competitive equilibrium? Provide an economic intuition."
+      },
+      {
+       "p": "The shaded area in red in the consumer surplus, in blue is the producer surplus and in orange is the deadweight loss. CS is lower than under a competitive equilibrium because the producer internalizes that by reducing the quantity they can increase the price. This increases the PS but generates a DWL because there are transactions that are not being made."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) What is each firm's best-response function? How much will each firm produce in a Nash equilib rium?"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Now suppose a new country, the UAE, enters the market. Both countries can produce at a constant marginal cost of one. Suppose the firms compete a la Cournot. Let $q_{S}$ denote the quantity produced by Saudi Arabia and $q_{U}$ denote the quantity produced by the UAE."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What is each firm's best-response function? How much will each firm produce in a Nash equilib rium?"
+      },
+      {
+       "p": "Consider the problem of Saudi Arabia. They maximize"
+      },
+      {
+       "p": "$$\\pi = (2 - (q_{S} + q_{U})) q_{S} - q_{S}$$",
+       "display": true
+      },
+      {
+       "p": "The first order condition defines the best-response function"
+      },
+      {
+       "p": "$$2 - 2q_{S} - q_{U} = 1 \\Rightarrow q_{S} = \\frac{1 - q_{U}}{2}$$",
+       "display": true
+      },
+      {
+       "p": "Equivalently, for the UAE"
+      },
+      {
+       "p": "$$q_{U} = \\frac{1 - q_{S}}{2}$$",
+       "display": true
+      },
+      {
+       "p": "Replacing, the Nash equilibrium is"
+      },
+      {
+       "p": "$$q_{S} = \\frac{1 - \\frac{1-q_{S}}{2}}{2} \\Rightarrow q_{S}^{C} = q_{U}^{C} = \\frac{1}{3}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 Points) Graph the two firms' best-response function in a graph with $q_{S}$ on the $x$ axis and $q_{U}$ on the $y$ axis. Indicate the Nash equilibrium."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Graph the two firms' best-response function in a graph with $q_{S}$ on the $x$ axis and $q_{U}$ on the $y$ axis. Indicate the Nash equilibrium."
+      },
+      {
+       "img": "g1/p4-1.png",
+       "w": 499,
+       "h": 192
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(5 Points) What are the consumer and producer surplus? How large is the loss of efficiency in this market?"
+      },
+      {
+       "p": "Most of the major oil-producing nations in the world are members of the Organization of the Petroleum Exporting"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What are the consumer and producer surplus? How large is the loss of efficiency in this market?"
+      },
+      {
+       "p": "The equilibrium aggregate quantity and price are"
+      },
+      {
+       "p": "$$Q^{C} = \\frac{2}{3} p^{C} = \\frac{4}{3}$$",
+       "display": true
+      },
+      {
+       "p": "We solve for the consumer surplus, producer surplus and deadweight loss"
+      },
+      {
+       "img": "g1/p4-2.png",
+       "w": 97,
+       "h": 25
+      },
+      {
+       "p": "$$PS^{C} = \\frac{2}{3} \\frac{4}{3} - 1 = \\frac{2}{9}$$",
+       "display": true
+      },
+      {
+       "p": "$$DWL^{C} = \\frac{1}{2} - \\frac{2}{9} + \\frac{2}{9} = \\frac{1}{18}$$",
+       "display": true
+      },
+      {
+       "p": "Most of the major oil-producing nations in the world are members of the Organization of the Petroleum Exporting"
+      }
+     ]
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "(5 Points) How much would the equilibrium price and quantity compare with the monopoly and duopoly cases? Assuming both countries produce the same quantity when they form a cartel, how much would each firm produce in this case? Let $\\hat{q}$ denote such quantity. How does this quantity compare with the quantity under a Cournot equilibrium? Provide an economic intuition."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Countries (OPEC). The primary goal of OPEC is to coordinate and manage the production and pricing of oil to stabilize oil markets. OPEC try to manage oil prices by regulating their production levels. We can interpret OPEC's production decisions as forming a cartel. Suppose Saudi Arabia and the UAE, the sole producers of oil in this economy, are member of OPEC and decide to form a cartel."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) How much would the equilibrium price and quantity compare with the monopoly and duopoly cases? Assuming both countries produce the same quantity when they form a cartel, how much would each firm produce in this case? Let $\\hat{q}$ denote such quantity. How does this quantity compare with the quantity under a Cournot equilibrium? Provide an economic intuition."
+      },
+      {
+       "p": "Under collusion, $q_{S} + q_{U} = Q^{M}$, so $\\hat{q} = \\frac{Q^{M}}{2} = \\frac{1}{4}$. The price will be equal to the monopoly price. They produce less and charge more, because they internalize that if they compete that will be detrimental to their profits."
+      }
+     ]
+    },
+    {
+     "id": "8",
+     "partes": [
+      {
+       "p": "(5 Points) If country $s$ chose $D$, what quantity would they chose to produce? Provide an economic intuition."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Suppose that the firms have agreed to produce quantities $\\hat{q}$. Then, each firm can individually decide to choose one of the following two actions:"
+      },
+      {
+       "p": "• Follow (F) the decision made in the meeting and produce $\\hat{q}$."
+      },
+      {
+       "p": "• Defect (D) and produce the quantity that is the best response to $\\hat{q}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) If country $s$ chose $D$, what quantity would they chose to produce? Provide an economic intuition."
+      },
+      {
+       "p": "To know how much a country would choose to produce if they defect we need to plug in $\\hat{q}$ into the best response function. Without loss of generality assume that country is Saudi Arabia:"
+      },
+      {
+       "p": "$$q = \\frac{1 - \\hat{q}}{2} \\Rightarrow q^{D} = \\frac{3}{8}$$",
+       "display": true
+      },
+      {
+       "p": "Intuitively, under collusion both countries agree to reduce production to increase prices. But given that the UAE has reduced production it is not dominant for Saudi Arabia to produce $\\hat{q}$ anymore. Thus, they increase the oil production."
+      }
+     ]
+    },
+    {
+     "id": "9",
+     "partes": [
+      {
+       "p": "(10 Points) Write out a game-theory payoff matrix representing the profits that each country makes depending on the strategies chosen by each country."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(10 Points) Write out a game-theory payoff matrix representing the profits that each country makes depending on the strategies chosen by each country."
+      },
+      {
+       "p": "• Under $(F,F)$ both collude and their profits are half of the monopolist profits, each:"
+      },
+      {
+       "p": "$$\\pi^{F,F} = \\frac{1}{8}$$",
+       "display": true
+      },
+      {
+       "p": "• Under $(F,D)$ or $(D,F)$ one of them plays $\\hat{q}$ but the other one plays the best response $\\hat{q}^{D}$. We have $\\hat{q}^{D} = 3/8$. Hence their profits are, respectively:"
+      },
+      {
+       "p": "$$\\pi^{F,D} = (3/8)(3/8) = 9/64$$",
+       "display": true
+      },
+      {
+       "p": "and the other firm gets $(3/8)(1/4) = 3/32$. Symmetrically,"
+      },
+      {
+       "p": "$$\\pi^{D,F} = 9/64$$",
+       "display": true
+      },
+      {
+       "p": "• Under $(D,D)$ both defect and play $q^{D}$. Total quantity is $3/4$. Their profits are"
+      },
+      {
+       "p": "$$\\pi^{D,D} = (1/4)(3/8) = 3/32 < 9/64$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "10",
+     "partes": [
+      {
+       "p": "(5 Points) What is the Nash Equiibrium of this game? The US Strategic Petroleum Reserve (SPR) is the world's largest supply of emergency crude oil, established"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What is the Nash Equiibrium of this game?"
+      },
+      {
+       "p": "The Nash Equilibria are $(F,D), (D,F)$, and $(D,D)$"
+      },
+      {
+       "p": "The US Strategic Petroleum Reserve (SPR) is the world's largest supply of emergency crude oil, established"
+      }
+     ]
+    },
+    {
+     "id": "11",
+     "partes": [
+      {
+       "p": "(5 Points) Write down the problem of the OPEC members, taking the supply from the US as given."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "to reduce the impact of disruptions in supplies of petroleum products. The stocks are owned by the Federal Government, and are stored in huge underground caverns. SPR oil is sold competitively when the US President finds that a sale is required (Note: the SPR actually exists, you can find more about it here). Suppose in response to Saudi Arabia and the UAE colluding to increase oil prices, the President of the US decides to use the SPR. In particular, let $q_{US}$ denote the amount they decide to offer to the market."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Write down the problem of the OPEC members, taking the supply from the US as given."
+      },
+      {
+       "p": "OPEC members maximize"
+      },
+      {
+       "p": "$$(2 - (q_{OPEC} + q_{US})) q_{OPEC} - q_{OPEC}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "12",
+     "partes": [
+      {
+       "p": "(5 Points) What is the equilibrium price and quantity, as a function of $q_{US}$?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What is the equilibrium price and quantity, as a function of $q_{US}$?"
+      },
+      {
+       "p": "The best response for OPEC members, given $q_{US}$ is"
+      },
+      {
+       "p": "$$q_{OPEC} = \\frac{1 - q_{US}}{2} \\Rightarrow Q = q_{OPEC} + q_{US} = \\frac{1 + q_{US}}{2} p = \\frac{3 - q_{US}}{2}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "13",
+     "partes": [
+      {
+       "p": "(5 Points) What would happen to the equilibrium price and quantity if the size of the government intervention was equal to $q_{US} = \\frac{1}{3}$? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What would happen to the equilibrium price and quantity if the size of the government intervention was equal to $q_{US} = \\frac{1}{3}$? Provide an economic intuition."
+      },
+      {
+       "p": "$q_{US} = \\frac{1}{3}$ then $Q = \\frac{2}{3}$ and $p = \\frac{4}{3}$, which are the equilibrium price and quantities when firms do not form a cartel. By increasing the supply of oil, the US can offset the negative effect of forming a cartel."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

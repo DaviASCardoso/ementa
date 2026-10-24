@@ -1,0 +1,266 @@
+{
+ "etapa": "14.06/prova-final",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-06-intermediate-macroeconomic-theory-spring-2004/cbc105b99659482969c5ae34db15dd0e_1406fexam_s04.pdf",
+   "paginas": 2
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.06 Final Spring 2004"
+  },
+  {
+   "p": "You have 1h30min. Please answer each question in separate booklets. Each question counts for a total of 60 points. Allocate your time efficiently. If you can not answer some part analytically, but you can still give the intuition for the sought result, your answer will count partially."
+  },
+  {
+   "p": "GOOD LUCK!!!"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "[60 points]",
+   "partes": [
+    {
+     "p": "Consider an endogenous growth economy. Time is discrete, $t \\in \\{0, 1, ...\\}$; there is no population growth; there is no exogenous technological change; and there is perfect competition. The source of growth is productive services provided by the government. The representative firm maximizes profits,"
+    },
+    {
+     "p": "$$\\Pi_{t} = Y_{t} - r_{t} K_{t} - w_{t} L_{t}$$",
+     "display": true
+    },
+    {
+     "p": "subject to the technology"
+    },
+    {
+     "p": "$$Y_{t} = A_{t} K_{t}^{\\alpha}L_{t} 1^{-\\alpha}$$",
+     "display": true
+    },
+    {
+     "p": "where$\\alpha \\in (0, 1)$ denotes the income share of capital and$A_{t}$ denotes productivity in period$t$. We assume that the productivity of a firm increases with the level of public services. In particular, we denote the level of government spending per head by $g_{t}$ and let"
+    },
+    {
+     "p": "$$A_{t} = g_{t}^{1-\\alpha}$$",
+     "display": true
+    },
+    {
+     "p": "Note that the individual firm (or household) takes $A_{t}$ as exogenous, but in general equilibrium $A_{t}$ increases with $g_{t}$. The government may impose a different tax on income from financial assets and a different tax on wages. We denote the tax on financial assets by $\\tau^{k}$ and that on labor income by $\\tau^{w}$. The government budget writes"
+    },
+    {
+     "p": "$$g_{t} = \\tau^{k} r_{t} k_{t} + \\tau^{w} w_{t}$$",
+     "display": true
+    },
+    {
+     "p": "where $k_{t} = K_{t}/L_{t}$ is the capital per head (or per household). Accordingly, the budget of the representative household is"
+    },
+    {
+     "p": "$$c_{t} + k_{t+1} = (1 - \\tau^{k}) r_{t} k_{t} + (1 - \\tau^{w}) w_{t}$$",
+     "display": true
+    },
+    {
+     "p": "Preferences are given by"
+    },
+    {
+     "img": "e1/p1-1.png",
+     "w": 395,
+     "h": 51
+    },
+    {
+     "p": "$$k_{t+1} = y_{t} - c_{t} - g_{t}$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Characterize $r_{t}$ and $w_{t}$ from the firm's problem. Combine then with (1)-(3) to express $g_{t}, y_{t}$, $r_{t}$ and $w_{t}$ in terms of $k_{t}$ and $(\\tau^{k}, \\tau^{w})$ alone. Similarly, write the resource constraint (5) in terms of $(c_{t}, k_{t}, k_{t+1})$ and $(\\tau^{k}, \\tau^{w})$ alone. Explain why this economy is an example of an $AK-$type economy. Explain how do $\\tau^{k}$ and $\\tau^{w}$ affect $y_{t}$ and $r_{t}. [15$ points]"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1a-p1.png",
+       "w": 266,
+       "h": 459
+      },
+      {
+       "img": "g1/q1a-p2.png",
+       "w": 371,
+       "h": 366
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Write the Euler condition that characterizes optimal consumption growth in terms of $(c_{t}, c_{t+1})$ and $(\\tau^{k}, \\tau^{w})$ alone. How do $\\tau^{k}$ and $\\tau^{w}$ affect the incentives to save? Interpret. (Hint: Do not try to solve for savings. Another way to interpret this question is \"how do $\\tau^{k}$ and $\\tau^{w}$ affect the rate of consumption growth?\") [10 points]"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1b-p2.png",
+       "w": 288,
+       "h": 230
+      },
+      {
+       "img": "g1/q1b-p3.png",
+       "w": 372,
+       "h": 165
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Combining your results from parts (a) and (b) above, express the long-run growth rate of the economy $\\gamma = c_{t+1}/c_{t} = y_{t+1}/y_{t}$ and the consumption-output ratio $c/y = c_{t}/y_{t}$ as functions of $(\\tau^{k}, \\tau^{w})$. [HINT: You should already have the long run growth rate of the economy from part (b). To solve for $c/y$, use your resource constraint from part (a) and divide through by $k_{t}$. You will then need to use the fact that on the balanced growth path, it must be that consumption and capital grow at the same rate in order to solve for $c/y] [5$ points]"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1c-p3.png",
+       "w": 387,
+       "h": 283
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Interpret the effects of $\\tau^{k}$ and $\\tau^{w}$ on $\\gamma$ and $c/y. [10$ points]"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The impact of the taxes on $\\gamma$ was already explained in part (b). The impact of the taxes on $c / y$ are as follows: An increase in the tax on wages clearly reduces $c / y$. The higher tax implies a higher return to savings because of more government expenditures, and this means individuals will save more thus driving down the ratio of consumption to output in each period of time. The tax on capital, however, again has the same two opposing effects as before on the incentive to save (and hence the level of consumption). But, we can see that as a whole, an increase in the tax on capital will push down $c / y$. The increase in the interest rate from additional government expenditures will be enough to offset the fact that individuals receive a smaller net return on capital because of the tax. Thus, they will still saving more."
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Fix $\\tau^{w} = 0$ and let $\\tau^{k} \\in [0, 1]$. What value of $\\tau^{k}$ maximizes $c/y$ and what maximizes $\\gamma$ ? Next, fix $\\tau^{k} = 0$ and let $\\tau^{w} \\in [0, 1]$. What value of $\\tau^{w}$ maximizes $c/y$ and what maximizes $\\gamma$ ? Why is there a difference? [10 points]"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1e-p4.png",
+       "w": 385,
+       "h": 377
+      }
+     ]
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "Suppose that the government can choose freely both$\\tau^{k}$ and$\\tau^{w}$ so as to maximize social welfare. Discuss what are the trade-offs the government faces in choosing the optimal tax rates that maximize social welfare. Is it optimal to use both $\\tau^{w} > 0$ and $\\tau^{k} > 0$, or just one of them, and if one which one? [10 points]"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q1f-p4.png",
+       "w": 379,
+       "h": 156
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "[60 points]",
+   "partes": [
+    {
+     "p": "Discuss whether each of the following statements is true, false, or uncertain. Provide a brief but clear explanation of your answer."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "If the aggregate technology exhibits constant returns with respect to the vector of accumulable factors (different types of capital), then the economy has necessarily a constant growth rate at all times, and it is impossible to make sense of conditional convergence. [15 points]"
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "With an aggregate technology that exhibits constant returns to scale, we know that there will be a balanced growth path with constant growth. If all countries are on their BGP, then it is hard to reconcile a model of endogenous growth with conditional convergence since everyone may be growing at different rates, and we actually would have divergence in levels."
+      },
+      {
+       "p": "HOWEVER, it is also plausible to think that not all countries began on their balanced growth path and that countries off the BGP take time to get to the BGP. Then, we could again have conversion dynamics, as maybe countries that began further away from their BGP grow faster as they converge to the BGP."
+      },
+      {
+       "p": "Additionally, we could also think of endogenous growth models where convergence occurs because of technology transfers from rich to poor countries… Given these two above cases the answer to this question should be UNCERTAIN."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "More competition necessarily promotes economic growth and social welfare, since firms are forced to produce more goods and extract less profits from consumers. [15 points]"
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "This statement is false. From the endogenous growth model involving R&D through \"Expanding Variety\", we know that monopoly power for those that sell the intermediate goods provides the necessary profits to induce individuals to do R&D in the first place. In this model, more competition can actually reduce the incentive to do R&D and thus reduce the growth rate of the economy (in the competitive equilibrium)."
+      },
+      {
+       "p": "This result comes from the fact that the knowledge is often a 'non-rival' good. Once it's invented (at a cost), its marginal cost of production is often nothing. But at a price of zero (as implied by competition), no one would be able to recoup their initial costly investment to produce the new knowledge. Thus, it is necessary to provide some incentives to do this, and this is often done by granting the inventor some monopoly power, as through a patent."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Consider an individual agent. If her income varies randomly from one period to another, then her consumption will also vary from one period to another, but less so than her income. [15 points]"
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "The answer is uncertain. From the permanent income hypothesis, we know that the response of contemporaneous consumption to changes in income will depend on how much of the change in income is permanent, and how much is transitory."
+      },
+      {
+       "p": "When all of the income changes are purely transitory (and permanent, lifetime income is unaffected), then we know that consumption will not respond at all to the changes in income because consumption only responds to changes in permanent income. However, if the movements in income represent pure movements in the expected permanent income, than it is possible that consumption could move one to one with the changes in income. Finally, you should have noted that the sensitivity of consumption also depends on the degree of insurance (complete vs. incomplete markets) available to the agents in the economy."
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "The neoclassical growth model (the RBC paradigm) can well account for the business-cycle variation in output, investment, employment, and total factor productivity. [15 points]"
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "This statement is false. While the neoclassical growth model does reasonably well in accounting for the business cycle movements of output and investment. It does not do a very good job in accounting for the movement in employment. While it does find that employment should be pro-cyclical, the predicted movements in employment (from the RBC model) are much lower that what we see in the data. Moreover, the RBC model does not help explain at all the cyclical variation in the Solow residual (TFP) because it takes it for exogenous."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

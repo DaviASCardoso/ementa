@@ -1,0 +1,678 @@
+{
+ "etapa": "14.30/lista-8",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-30-introduction-to-statistical-methods-in-economics-spring-2009/4b6cf5c45dd7d3f1b6ed5d3c31ca2b91_MIT14_30s09_pset08.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [
+  "numeração de itens recomeça nas questões 1"
+ ],
+ "intro": [
+  {
+   "p": "Problem Set #8"
+  },
+  {
+   "p": "14.30 - Intro. to Statistical Methods in Economics"
+  },
+  {
+   "p": "Instructor: Konrad Menzel"
+  },
+  {
+   "p": "Due: Tuesday, April 28, 2009"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Law of Large Numbers and Central Limit",
+   "partes": [
+    {
+     "p": "Theorem"
+    },
+    {
+     "p": "Probably the two most important concepts that you will take away from this course are the Law of Large Numbers and the Central Limit Theorem and how they allow us to use averages to learn about the world around us."
+    },
+    {
+     "p": "I. State the Law of Large Numbers (please, just copy it down from the lecture notes)."
+    }
+   ],
+   "itens": [
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Explain what the Law of Large Numbers tells us about the average of an i.i.d. (independent, identically distributed) sample of the random variable X with mean $\\mathbf{p}$and variance a2."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q12-p2.png",
+       "w": 466,
+       "h": 53
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q12-p2.png",
+       "w": 467,
+       "h": 123
+      }
+     ]
+    },
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Write down an estimator, &, of the unemployment rate, a, which is the fraction of the labor force that is unemployed. Is your estimator a Method of Moments estimator for a Bernoulli random variable?"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Suppose you wanted to know the unemployment rate for residents of Cambridge during April 2009. The \"unemployed are defined as \"Persons 16 years and over who had no employment during the reference week, were available for work, except for temporary illness, and had made specific efforts to find employment sometime during the 4-week period ending with the reference week. Persons who were waiting to be recalled to a job from which they had been laid off need not have been looking for work to be classified as unemployed.\" (Source: http://www.econmodel.com/classic/terms/ur.htm .) Suppose you utilize a phone survey to sample the random variable X = l(Emp1oyed) where I(.) is the indicator function for whether someone is employed."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q11-p2.png",
+       "w": 466,
+       "h": 53
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q11-p3.png",
+       "w": 487,
+       "h": 594
+      }
+     ]
+    },
+    {
+     "id": "2'",
+     "partes": [
+      {
+       "p": "Describe how the Law of Large Numbers applies to the estimator by stating what (at least three) conditions are required to hold about X in order for your estimator to be consistent (by the Law of Large Numbers you copied down from the lecture notes above)."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q12'-p2.png",
+       "w": 466,
+       "h": 67
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "For each condition you wrote down, comment on the plausibility of the assumption holding with respect to the unemployment rate."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q13-p2.png",
+       "w": 464,
+       "h": 38
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q13-p3.png",
+       "w": 472,
+       "h": 195
+      }
+     ]
+    },
+    {
+     "id": "1'",
+     "partes": [
+      {
+       "p": "State the Central Limit Theorem (please, just copy it down from the lecture notes)."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Now we're going to take a closer look at the Central Limit Theorem."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q11'-p3.png",
+       "w": 457,
+       "h": 24
+      }
+     ]
+    },
+    {
+     "id": "2''",
+     "partes": [
+      {
+       "p": "Explain what the Central Limit Theorem tells us about the average of an i.i.d. (independent, identically distributed) sample of the random variable X with mean $p$ and variance a2."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q12''-p3.png",
+       "w": 466,
+       "h": 53
+      }
+     ]
+    },
+    {
+     "id": "3'",
+     "partes": [
+      {
+       "p": "Describe how the Central Limit Theorem applies to the estimator you wrote down for the unemployment rate by stating what (at least three) conditions are required to hold about X in order for your estimator to be asymptotically normally distributed. Are these conditions different from those required for the Law of Large Numbers to apply?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q13'-p3.png",
+       "w": 465,
+       "h": 67
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "Write down the distribution that your estimator converges to as N t oo, where N is the number of people you surveyed."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q14-p3.png",
+       "w": 466,
+       "h": 39
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q14-p4.png",
+       "w": 466,
+       "h": 84
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "Write down an estimator for the variance of X. Briefly comment on the assumptions required of the random variable Y X2in order for your estimator to be consistent."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q15-p3.png",
+       "w": 466,
+       "h": 39
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q15-p4.png",
+       "w": 467,
+       "h": 306
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "Now, use the fact that X is a Bernoulli random variable to write down a different estimator of the variance of X as a method of moments estimator (i.e. a function of your consistent estimator of the unemployment rate). Although the formula looks different, are these two estimators numerically identical? Do they need the same assumptions to hold for the Law of Large Numbers to apply?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q16-p3.png",
+       "w": 465,
+       "h": 82
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q16-p5.png",
+       "w": 467,
+       "h": 434
+      }
+     ]
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "Use your estimators for the average unemployment rate and the variance of X: How many people do you need to call if you want your estimator of $a$ to be within 0.002 (i.e. 0.2% unemployment) with 95% probability? (Assume that since unemployment rose from 8.1 to 8.5 from February to March that your expectations are that it will rise to 8.7 in April.)"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q17-p3.png",
+       "w": 466,
+       "h": 82
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q17-p5.png",
+       "w": 467,
+       "h": 139
+      },
+      {
+       "img": "g1/q17-p6.png",
+       "w": 430,
+       "h": 660
+      },
+      {
+       "img": "g1/q17-p7.png",
+       "w": 427,
+       "h": 140
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p2.png",
+     "w": 484,
+     "h": 131
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Unbiasedness v. Consistency",
+   "partes": [
+    {
+     "p": "First, what is the difference between unbiasedness and consistency? Second, prove that $_{variables,}$the sample average, $_{XI,...,XN,}$k$_{where}$EL,$_{IEIXi]}$Xi, is an unbiased estimator of a sample of $_{=p.Third, show that it is a consistent estimator of}$N i.i.d. random $_{p}$"
+    },
+    {
+     "p": "under one additional assumption and give the assumption that you need to make."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p3.png",
+     "w": 481,
+     "h": 99
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2-p7.png",
+     "w": 481,
+     "h": 138
+    }
+   ]
+  },
+  {
+   "n": "3",
+   "titulo": "Avoiding Vocabulary Ambiguity",
+   "partes": [
+    {
+     "p": "Avoid ambiguity in your understanding and use of similar terms."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Define the term \"statistic.\" Is a statistic a random variable?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q31-p3.png",
+       "w": 333,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q31-p8.png",
+       "w": 466,
+       "h": 66
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Define the term \"estimator.\" Is an estimator a random variable? What's the difference between an estimator and a statistic? Or is this just semantics?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q32-p3.png",
+       "w": 465,
+       "h": 38
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q32-p8.png",
+       "w": 465,
+       "h": 124
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Define the term \"realization\" of an estimator."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q33-p3.png",
+       "w": 258,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q33-p8.png",
+       "w": 465,
+       "h": 81
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "Define the term \"estimate.\""
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q34-p4.png",
+       "w": 166,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q34-p8.png",
+       "w": 466,
+       "h": 66
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "Define the \"standard deviation\" of a random variable, X ."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q35-p4.png",
+       "w": 321,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q35-p8.png",
+       "w": 432,
+       "h": 52
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "Define the \"standard error\" of an estimator, o(x)."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q36-p4.png",
+       "w": 282,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q36-p8.png",
+       "w": 465,
+       "h": 93
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q3-p3.png",
+     "w": 417,
+     "h": 56
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "The Delta Method",
+   "partes": [
+    {
+     "p": "$_{asymptotic distribution of o ~ ? )ables that are normally distributed is called the Delta Method: Wikipedia: Delta Method.ods you've already learned about transformations of random variables.}$Give the standard error of the estimator $_{However, for this simple, univariate transformation, you should be able to just use the meth-kurtosisZkcwith standardized kurtosisANow, perform a change of variables to obtain the standard error of the estimator~more general version of obtaining the distribution of transformations of random vari-\\frac{,LL)~}{\"[(X-'\"I4]}~-u4(}_{x=for a random variable64~}_{lE[Z4]=S4.}$Oz $_{Xwith}=_{Assume that}$kzz1$_{E[X]}$Z: $_{=p, Var(X)}$for a standardized random variable $_{Nis \"large.\" (Hint: What is the=02,and standardized\\&=}$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula que o KaTeX não desenha",
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q4-p4.png",
+     "w": 484,
+     "h": 190
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q4-p8.png",
+     "w": 480,
+     "h": 86
+    }
+   ]
+  },
+  {
+   "n": "5",
+   "titulo": "Maximum Likelihood Estimators",
+   "partes": [
+    {
+     "p": "Maximum likelihood estimators are very commonly used in economics. I. N i.i.d. Poisson random variables, XI,...,XN. Give the likelihood function of a sample of"
+    }
+   ],
+   "itens": [
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Give the log-likelihood function and simplify."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q52-p4.png",
+       "w": 258,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q52-p10.png",
+       "w": 487,
+       "h": 218
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Take the first order conditions and solve for the maximum likelihood estimator of A."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q53-p4.png",
+       "w": 458,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q53-p10.png",
+       "w": 464,
+       "h": 100
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "How does the MLE from (3) compare to the Method of Moments (MOM) estimator from lecture?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q54-p4.png",
+       "w": 465,
+       "h": 39
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q54-p11.png",
+       "w": 466,
+       "h": 145
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q5-p4.png",
+     "w": 488,
+     "h": 81
+    }
+   ],
+   "fonte": 0
+  }
+ ]
+}

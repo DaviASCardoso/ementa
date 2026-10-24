@@ -1,0 +1,247 @@
+{
+ "etapa": "14.30/prova-3",
+ "fontes": [
+  {
+   "rotulo": "Prova de 2009",
+   "url": "https://ocw.mit.edu/courses/14-30-introduction-to-statistical-methods-in-economics-spring-2009/275c335ed43005ad0fea614233c0a676_MIT14_30s09_exam03_09.pdf",
+   "paginas": 3
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.30 Exam III Spring 2009"
+  },
+  {
+   "p": "Instructions: This exam is closed-book and closed-notes. You may use a calculator and a cheat sheet consisting of 1 page of notes or formulae. Please read through the exam first in order to ask clarifying questions and to allocate your time appropriately. In order to receive partial credit in the case of computational errors, please show all work. You have approximately 85 minutes to complete the exam. Good luck!"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(15 points) Short Questions True/false? Explain, and if false, give a correct version of the statement."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Given a single observation $X$, the most powerful test of the simple hypotheses $H_{0}: \\theta = \\theta_{0}$against $H_{A}: \\theta = \\theta_{A}$for fixed values $\\theta_{0}$and $\\theta_{A}$rejects for small values of the likelihood ratio $\\frac{f_{0}(X)}{f_{A}(X)}$ if $\\theta_{A}< \\theta_{0}$, and for large values of the likelihood ratio if $\\theta_{A}> \\theta_{0}$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "In order to construct a hypothesis test of $H_{0}: \\theta = \\theta_{0}$versus $H_{A}: \\theta = \\theta_{A}$based on a statistic $T (X_{1}, . . . , X_{n}$), and with size $\\alpha = 0.1$, we only have to know the distribution of $T (X_{1}, . . . , X_{n})$ under the null hypothesis."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "An estimator $\\hat{\\theta}_{n}$is always consistent if Var($\\hat{\\theta}_{n}) \\to$ 0 as the sample size $n \\to \\infty$ ."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(25 points) Suppose you observe a random variable $X \\sim U [-\\theta , \\theta$ ]. You have only this one single observation."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find a method of moments estimator for $\\theta$ . Is this estimator unbiased?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Derive $F_{Y}(y$), the c.d.f. of $Y := X^{2}$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Use your result from part (b) to construct a $1 - \\alpha = 0.9$ confidence interval for $\\theta$ based on $Y$ . Does it matter whether you had an unbiased estimator for $\\theta$ ?"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "algo sumiu antes da pontuação"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p2.png",
+     "w": 450,
+     "h": 30
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(35 points) You have an i.i.d. sample $X_{1}, . . . , X_{n}$, where $X_{i}$is exponentially distributed with failure rate $\\lambda$ , so that the p.d.f. of $X_{i}$is given by"
+    },
+    {
+     "img": "e1/p2-1.png",
+     "w": 162,
+     "h": 30
+    },
+    {
+     "p": "Suppose we observe the sample $\\{0.37, 2.58, 2.04, 2.32, 2.88, 0.29, 2.41, 0.16\\}$ of 8 observations, which has"
+    },
+    {
+     "img": "e1/p2-2.png",
+     "w": 454,
+     "h": 45
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Write down the likelihood function for and a sample $X, . . . , X$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q3a-p2.png",
+       "w": 320,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Derive the maximum likelihood estimator and compute the estimate for the given sample."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Is the maximum likelihood estimator for $\\lambda$ unbiased? If not, can you sign its bias? Hint: use Jensen's Inequality."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Derive a most powerful test of the hypothesis $H_{0}: \\lambda = 0.4$ against $H_{A}: \\lambda = 0.2$ for a given significance level $\\alpha$ . Describe the critical region in terms of the sample mean, $\\bar{X}_{n}$. Hint: for this part of the problem you don't have to derive the critical level explicitly."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Now, suppose we are interested in testing the hypothesis $H_{0}: \\lambda = 0.4$ against $H_{A}: \\lambda = 0.2$. Otherwise the setup is the same as before. Hint: You don't have to solve parts (a)-(c) before doing the remaining questions."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "It can be shown that for $n$ i.i.d. draws $X_{1}, . . . , X_{n}$from an exponential distribution with failure rate $\\lambda , Y_{n}:= 2\\lambda (X_{1}+ X_{2}+ . . . + X_{n})$ follows a $\\chi^{2}$distribution with 2$n$ degrees of freedom (this result is far from obvious and the math needed to derive this is beyond the scope of this class). In order to achieve a probability of a type-I error $\\alpha = 0.1$, how do you choose the critical value on the sample mean in the test from part (d)? Do you reject the null hypothesis for the sample of size 8 given above?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "algo sumiu antes da pontuação"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q3e-p3.png",
+       "w": 456,
+       "h": 78
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(15 points) You are conducting a randomized trial which is supposed to determine whether a new drug lowers blood pressure. Suppose, you observe an i.i.d. sample of $n$1 outcomes for the treatment group which gets the active ingredient, $X_{1}, . . . , X_{n1}$, and an i.i.d. sample of $n$2 observations $Z_{1}, . . . , Z_{n2}$ for the control group which is administered a placebo. The two samples are mutually independent and $X_{i}\\sim N (\\mu_{X}, \\sigma_{X}^{2})$ and $Z_{i}\\sim N (\\mu_{Z}, \\sigma_{Z}^{2}$), where $\\sigma_{X}^{2}$and $\\sigma_{Z}^{2}$are known."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Suppose you want to test $H_{0}: \\mu_{X}= \\mu_{Z}$against $H_{A}: \\mu_{Z}> \\mu_{X}$. Give the variance of the difference in sample means $\\bar{X}_{n1}- \\bar{Z}_{n2}$, and construct a test based on $\\bar{X}_{n1}- \\bar{Z}_{n2}$at a significance level $\\alpha = 0.05$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Derive the power of this test as a function of $\\mu_{X}- \\mu_{Z}$. How does the power depend on the variance of $\\bar{X}_{n1}- \\bar{Z}_{n2}$?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Suppose you can allocate a total of $n$ subjects to a treatment group of size $n1 = \\gamma n$ and a control group of size $n2 = (1 - \\gamma )n$. Depending on the ratio $c :=_{\\sigma Z}^{\\sigma X}$, what is the optimal fraction $\\gamma$ of subjects you should allocate to treatment? If $\\sigma_{X}^{2}> \\sigma_{Z}^{2}$, should you allocate more or less than half of the $n$ subjects to the treatment group?"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

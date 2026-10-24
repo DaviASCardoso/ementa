@@ -1,0 +1,304 @@
+{
+ "etapa": "14.05/lista-1",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-05-intermediate-macroeconomics-fall-2025/mit14_05_f25_pset1.pdf",
+   "paginas": 5
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.05 – Intermediate Macroeconomics Problem Set 1, Fall 2025"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Consider the Robinson Crusoe economy covered in Lecture Note 2. This problem asks you to study several variants of that economy."
+    },
+    {
+     "p": "In class we considered a household with log preferences, i.e.,"
+    },
+    {
+     "p": "$u(c) =$ log($c)$."
+    },
+    {
+     "p": "In this problem we will instead consider the following more general utility function, known as isoelastic utility:"
+    },
+    {
+     "p": "$$u(c) = \\frac{c^{1-\\gamma} - 1}{1 - \\gamma}, \\gamma \\geq 0$$",
+     "display": true
+    },
+    {
+     "p": "linear disutility over hours worked,"
+    },
+    {
+     "p": "$$v(n) = \\theta n, \\theta > 0$$",
+     "display": true
+    },
+    {
+     "p": "and that the production function is linear, i.e., $\\alpha = 1$ in (3). We will furthermore assume that"
+    },
+    {
+     "p": "$$0 \\leq n \\leq 1$$",
+     "display": true
+    },
+    {
+     "p": "The interpretation of (8) is that Robinson has one unit of time available, so at most he can work for one unit, and the smallest amount of work he can do is nothing. Characterize the planning solution. How does it depend on $\\theta$ and $A$? Will Robinson ever eat coconuts $(c^{*} > 0)$ yet not work all day $(n^{*} <$ 1)? [Hint: there are three cases to consider.]"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Consider the isoleastic utility function (2). Show that, as $\\gamma \\to 1$, this utility function approaches the log case (1). [Hint: use L'Hôpital's rule.]"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q1a-p1.png",
+       "w": 478,
+       "h": 36
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Suppose (as in class) that the production function takes the form"
+      },
+      {
+       "p": "$f (n) =$ An$^{\\alpha}, 0 < \\alpha < 1$, A > 0,"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Now assume that, without any work, Robinson has access to some free amount $b$ of coconuts (e.g., they have already fallen to the ground). The production function thus changes to $f (n) = b +$ An$^{\\alpha}$, b > 0, $0 < \\alpha < 1$, A > 0"
+      },
+      {
+       "p": "Characterize the planning solution. How does an increase in $b$ affect consumption and hours worked? [Hint: you won't be able to obtain $a$ closed-form solution here. You should derive the conditions that characterize the planning solution, and then provide $a$ graphical argument plus economic intuition.]"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "while labor disutility takes the form"
+      },
+      {
+       "p": "$$v(n) = \\theta \\frac{n^{1+}}{1 + \\frac{1}{\\epsilon}}^{\\frac{1}{\\epsilon}}, \\theta , \\epsilon > 0$$",
+       "display": true
+      },
+      {
+       "p": "Solve for hours worked $n^{*}$ and consumption $c^{*}$ in the planning solution, now (and dif ferently from class) assuming that preferences take the form (2). How do hours worked and consumption respond to changes in $A$ when (i) $\\gamma < 1$, (ii) $\\gamma = 1$ (the case covered in"
+      },
+      {
+       "p": "1 class), and (iii) $\\gamma >$ 1? Provide economic intuition for and a graphical representation of all three cases."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Finally assume that Robinson has linear utility over consumption,"
+      },
+      {
+       "p": "$$u(c) = c$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p1.png",
+     "w": 479,
+     "h": 245
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "This exercise is about testing the conditional convergence prediction of the Solow model. The data comes from the Penn World Tables (PWT). The PWT provide national income accounts converted to international prices for 189 countries/territories for some or all of the years 1950-2017. The European Union or the OECD provide more detailed real product estimates for their countries and the World Bank makes current price estimates for most PWT countries at the GDP level."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Go to the PWT website http://www.rug.nl/ggdc/productivity/pwt/ and familiarize yourself with the documentation and the variables in the database. You will end up using this database extensively for your paper. Go to the online data access tool https: //pwt-data-tool.streamlit.app/ or download Excel or Stata fles on https://www. rug.nl/ggdc/productivity/pwt/ and construct the following dataset:"
+      },
+      {
+       "p": "• Go to \"Thematic Select\" and select the following 10 countries: Belgium, Canada, Switzerland, Germany, France, UK, Italy, Japan, Netherlands, US. • Download the expenditure-side real GDP at chained PPP's in 2017 US dollars, and the number of persons engaged for every available year for these countries. (You can export the results to.xlsx.) • Compute the real GDP per worker at chained PPP's by dividing the total GDP each year by the number of persons engaged in that year. • Compute the average growth rate of GDP per worker between 1950 and 2017 for each of the ten countries. • Reduce the dataset to a small dataset with 10 observations and 3 variables: – country names – average growth rate $g_{i}$ for every country from 1950 to 2017 – log GDP per labor in the year $1950, y_{1950,i}$ (measured in 2017 US dollars)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Use this dataset to produce a scatterplot with the average growth rate of GDP per labor on the y-axis and GDP per labor in 1950 on the x-axis. Comment on the results. In particular, to what extent can these results be reconciled with the Solow model? Would the scatterplot look different if we included a greater set of countries, say all the countries available in the PWT data set? Why or why not? (You don't need to redo the analysis for all the countries. You can refer to the lecture notes or the readings here.)"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "In Lecture Note 4 we introduced the idea of \"poverty traps\" and showed how to capture it in the Solow model. Skim through the paper by Kraay and McKenzie (2014, JEP) posted on Canvas. The authors criticize a number of mechanisms put forward in the literature on why poverty traps might occur. Focus on the first two of those (\"saving-based\" and \"big push\") and write one paragraph (or two) for each, first describing the specific mechanism that leads to poverty traps and then Kraay and McKenzie's critique. If you have any counterargument to Kraay and McKenzie's critique, briefy mention it."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Consider a model economy in which a household born in the beginning of period $t$ dies at the end of the same period and gets replaced by their kids (i.e., think of a period as a generation). Parents like to consume themselves but also want to leave an inheritance to their kids. Their preferences are represented by"
+    },
+    {
+     "p": "$$u(c_{t}) + \\beta V (k_{t+1})$$",
+     "display": true
+    },
+    {
+     "p": "where $u(c) =$ log$(c)$ is the utility of consumption, $V (k) =$ log $k$ is the value of inheritances, and $\\beta$ ∈ (0,1) is a scalar that parameterizes how much parents love their kids. The parents' lifetime budget is"
+    },
+    {
+     "p": "$$c_{t} + k_{t+1} = y_{t}^{d} = y_{t} - T_{t}$$",
+     "display": true
+    },
+    {
+     "p": "where $y_{t}^{d}$ denotes disposable income, $y_{t} = f (k_{t})$ is output (with the production function being neoclassical, as usual), and $T_{t}$ is the amount taxed by the government. The government's budget is given by"
+    },
+    {
+     "p": "$$T_{t} = g$$",
+     "display": true
+    },
+    {
+     "p": "where $g$ is an exogenous amount of unproductive (\"wasteful\") government spending."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "The parents choose $c_{t}$ and $k_{t+1}$ so as to maximize (9) subject to (10). Write the Lagrangian of this problem, derive the FOCs, and show that the optimal amount of saving can be expressed as"
+      },
+      {
+       "p": "$$k_{t+1} =\\text{ sy}_{t}^{d}$$",
+       "display": true
+      },
+      {
+       "p": "for some scalar $s$ ∈ (0,1). How does $s$ depend on $\\beta$ ?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q4a-p4.png",
+       "w": 478,
+       "h": 92
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Use the above along with $y_{t}^{d} = y_{t} - T_{t}, y_{t} = f (k_{t})$ and $T_{t} = g$ to express the law of motion for capital in the form"
+      },
+      {
+       "p": "$$k_{t+1} = G(k_{t}; s, g)$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q4b-p4.png",
+       "w": 479,
+       "h": 53
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "What happens to the steady state levels of $k$ and $y$ if $g$ increases?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Suppose that the government does not just consume; it also invests in bridges, roads, etc. How would you modify the model to capture this productive effect of $g$? How could this affect your answer to the previous question? You do not have to fully solve the modifed model, but you need to be clear on how you would modify the model. (Hint: There are several ways to think of this.)"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q4-p3.png",
+     "w": 478,
+     "h": 60
+    },
+    {
+     "img": "e1/q4-p4.png",
+     "w": 478,
+     "h": 241
+    }
+   ],
+   "fonte": 0
+  }
+ ]
+}

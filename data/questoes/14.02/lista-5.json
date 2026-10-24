@@ -1,0 +1,463 @@
+{
+ "etapa": "14.02/lista-5",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset5.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.02 - Principles of Macroeconomics Problem Set 5"
+  },
+  {
+   "p": "Spring 2023"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Shocks in the IS-LM-PC Model [30 Points]",
+   "partes": [
+    {
+     "p": "Consider a closed economy with aggregate demand given by"
+    },
+    {
+     "p": "$$Y_{t}= c_{0}+ c_{1}(Y_{t}- T) + b_{0}+ b_{1}Y_{t}- b_{2}(r_{t}+ x_{t}) + G$$",
+     "display": true
+    },
+    {
+     "p": "and the Phillps curve,"
+    },
+    {
+     "p": "$$\\pi_{t}- \\pi_{t}^{e}= -\\alpha (u_{t}- u_{n})$$",
+     "display": true
+    },
+    {
+     "p": "where $t$ is a time index, $\\alpha , c_{0}, c_{1}, b_{0}, b_{1}, b_{2}>$ 0 and $c_{1}+ b_{1}<$ 1. The natural rate of unemployment is given by $u_{n}= \\frac{m+z}{\\alpha}$ where $m$ is a markup and $z$ is a catch-all variable that stands for all other variables that may affect the natural rate of unemployment. The labor force $L_{t}= L$ is constant and the production function is given by"
+    },
+    {
+     "p": "$$Y_{t}= N_{t}$$",
+     "display": true
+    },
+    {
+     "p": "Total employment $N_{t}$is given by $N_{t}= (1 - u_{t}) \\cdot L_{t}$. The variables $T, G, m, z, L, x, \\pi_{t}^{e}$are all exogenous."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[10 Points] Rewrite the Phillips curve relationship in terms of $(Y_{t}- Y_{n})$ instead of $(u_{t}- u_{n})$, where $Y_{n}$is the natural rate of output or potential output. Calculate the natural rate of output $Y_{n}$in terms of the exogenous variables and fixed parameters. By how much does $Y_{n}$change if the labor force $L$ increased by one unit? Provide an answer in terms of the exogenous variables and fixed parameters."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Rewrite the Phillips curve relationship in terms of $(Y_{t}- Y_{n})$ instead of $(u_{t}- u_{n})$, where $Y_{n}$is the natural rate of output or potential output. Calculate the natural rate of output $Y_{n}$in terms of the exogenous variables and fixed parameters. By how much does $Y_{n}$change if the labor force$L$ increased by one unit? Provide an answer in terms of the exogenous variables and fixed parameters."
+      },
+      {
+       "p": "Using the production function, express Y$_{t}- Y_{n}$as:"
+      },
+      {
+       "p": "$$Y_{t}- Y_{n}= N_{t}- N_{n}$$",
+       "display": true
+      },
+      {
+       "p": "$$= (1 - u_{t}) L - (1 - u_{n}) L$$",
+       "display": true
+      },
+      {
+       "p": "$$= - (u_{t}- u_{n}) L$$",
+       "display": true
+      },
+      {
+       "p": "hence"
+      },
+      {
+       "p": "$$u_{t}- u_{n}= -\\frac{1}{L} (Y_{t}- Y_{n})$$",
+       "display": true
+      },
+      {
+       "p": "Then, substituting inside (PC) we get:"
+      },
+      {
+       "p": "$$\\pi_{t}- \\pi_{t}^{e}= \\frac{\\alpha}{L} (Y_{t}- Y_{n})$$",
+       "display": true
+      },
+      {
+       "p": "The potential output is"
+      },
+      {
+       "p": "$$Y_{n}= L \\cdot (1 - u_{n}) = L \\cdot (1 - \\frac{m + z}{\\alpha})$$",
+       "display": true
+      },
+      {
+       "p": "The effect of a unit increase in $L$ is given by ($1 - \\frac{m +z}{\\alpha})$."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[10 Points] Suppose now that $Y_{n}$is constant. Using the Phillips curve you derived in question 1 and the expression for $Y_{t}$derived in question 2, derive the change in inflation in response to a unitincrease in $x$. Express your answer in terms of exogenous variables and fixed parameters. Will inflation increase or decrease? Explain."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "$2. Y_{t}r_{t} x_{t}$and other exogenous variables/parameters [10 Points] Solve for equilibrium output as a function of , (Hint: this is an IS-LM review)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Suppose now that $Y_{n}$is constant. Using the Phillips curve you derived in question 1 and the expression for $Y_{t}$derived in question 2, derive the change in inflation in response to a unitincrease in $x$. Express your answer in terms of exogenous variables and fixed parameters. Will inflation increase or decrease? Explain."
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 495,
+       "h": 18
+      },
+      {
+       "p": "So the effect on inflation is $-\\frac{\\alpha}{L} \\frac{b_{2}}{1-c_{1}-b_{1}} <$ 0. An increase in the risk premium decreases output, which decreases employment and so the unemployment rate increases. In the wage setting equi librium, wages must adjust downward. This in turn leads to a decrease in prices."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "algo sumiu antes da pontuação"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p1.png",
+     "w": 511,
+     "h": 234
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Comparing Standards of Living Using PPP Numbers [20 Points]",
+   "partes": [
+    {
+     "p": "Assume that the average consumer in the U.S. and India buy the quantities and pay the prices indicated in the following table:"
+    },
+    {
+     "p": "Food Transportation Services Price Quantity Price Quantity U.S. \\$1 1,000 \\$2 2,000 India 50 rupees 500 150 rupees 300"
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[5 Points] For both countries, compute consumption per capita in its domestic currency."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] For both countries, compute consumption per capita in its domestic currency.Solution. Consumption per capita is 1, 000 $\\times$ \\$1 + $2000 \\times$ \\$2 = \\$5, 000 USD in the U.S. and 500 $\\times 50 + 300 \\times$ 150 = 70, 000 rupees in India."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[5 Points] Suppose that 1 dollar is worth 80 rupees. Compute India's consumption per capita in dollars."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Suppose that 1 dollar is worth 80 rupees. Compute India's consumption per capita in dollars.Solution. India's consumption per capita is 70, 000/80 = \\$875 USD."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[5 Points] Using the purchasing power parity method and U.S. prices, compute India's consump tion per capita in dollars."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Using the purchasing power parity method and U.S. prices, compute India's consump tion per capita in dollars.Solution. India's PPP adjusted consumption per capita is 500 $\\times 1 + 300 \\times$ 2 = \\$1, 100 USD."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[5 Points] In questions 2 and 3 we asked you to compute consumption per capita using two differ ent methods. Under each method, how much lower is the standard of living in India than in the United States? Why is there a difference between the two methods?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] In questions 2 and 3 we asked you to compute consumption per capita using two differ ent methods. Under each method, how much lower is the standard of living in India than in the United States? Why is there a difference between the two methods?Solution. Measured at Indian prices adjusted for real exchange rate, India's consumption per capita is 17.5% of that in the U.S. Using PPP method, India's consumption per capita is 22% of that in the U.S. India's consumption per capita computed using PPP method is higher, so the choice of the method makes a difference. This is because both goods are cheaper in India than in the U.S."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "The Aggregate Production Function [20 Points]",
+   "partes": [
+    {
+     "p": "Consider the production function"
+    },
+    {
+     "p": "$$Y = K^{0.4}N^{0.6}$$",
+     "display": true
+    },
+    {
+     "p": "where $K$ denotes the amount of capital being used in production and $N$ denotes the amount of labor."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[6 Points] Compute output when $K =$ 100 and $N = 50$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[6 Points] Compute output when $K =$ 100 and $N = 50$. Solution$. Y = 100^{0.4}50^{0.6}= 65.98$."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[8 Points] If both capital and labor double, what happens to output? Is this production function characterized by constant returns to scale? Explain."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[8 Points] If both capital and labor double, what happens to output? Is this production function characterized by constant returns to scale? Explain.Solution.The production function has constant returns to scale:"
+      },
+      {
+       "p": "$$Y' = (2K)^{0.4}(2N)^{0.6}= 2K^{0.4}N^{0.6} = 2Y$$",
+       "display": true
+      },
+      {
+       "p": "hence doubling both capital and labor would result in double output."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[6 Points] Write this production function as a relation between output per worker and capital per worker."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[6 Points] Write this production function as a relation between output per worker and capital per"
+      },
+      {
+       "img": "g1/p3-1.png",
+       "w": 191,
+       "h": 16
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "Solow Model [30 points]",
+   "partes": [
+    {
+     "p": "Suppose that the economy's production function is given by"
+    },
+    {
+     "p": "$$Y = K^{\\alpha}N^{1-\\alpha}$$",
+     "display": true
+    },
+    {
+     "p": "where Y is output, K is capital and N is labor. Assume that $\\alpha =$ 1/3, and that $\\delta$ , the depreciation rate of capital, equals 0.10."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[5 Points] Is this production function characterized by constant returns to scale? Are there decreas ing returns to capital? Are there decreasing returns to labor?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Is this production function characterized by constant returns to scale? Are there decreas ing returns to capital? Are there decreasing returns to labor? Solution. The production function is characterized by constant returns to scale, but there is de creasing returns to both capital and labor."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[5 Points] Transform the production function into a relationship between output per worker and capital per worker. For a given saving rate, $s$, and depreciation rate, $\\delta$ , derive expressions for capi tal per worker and output per worker in the steady state."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Transform the production function into a relationship between output per worker and capital per worker. For a given saving rate, $s$, and depreciation rate, $\\delta$ , derive expressions for capital per worker and output per worker in the steady state. Solution. We can obtain the production function in terms of output per capita by dividing both sides by $N$. Letting $y \\equiv \\frac{Y}{N}$ and $k \\equiv \\frac{K}{N}$:"
+      },
+      {
+       "p": "$$y = k^{\\alpha}$$",
+       "display": true
+      },
+      {
+       "p": "To derive the capital per capita in the steady state, note that in steady state we have"
+      },
+      {
+       "p": "$$K^{*} = (1 - \\delta ) K^{*} +\\text{ sY}^{*}$$",
+       "display": true
+      },
+      {
+       "p": "Dividing both sides by $N$ and use the per-capita production function, we get"
+      },
+      {
+       "p": "$$k^{*} = (1 - \\delta ) k^{*} + s (k^{*})^{\\alpha}$$",
+       "display": true
+      },
+      {
+       "p": "Re-arranging, we get"
+      },
+      {
+       "img": "g1/p4-1.png",
+       "w": 101,
+       "h": 16
+      },
+      {
+       "p": "Output per capita in the steady-state is thus"
+      },
+      {
+       "img": "g1/p4-2.png",
+       "w": 141,
+       "h": 16
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[5 Points] Solve for the steady-state level of consumption per worker when $s =$ 0.1 and $s = 0.2$. Explain the intuition behind the change as you increase $s$. Can you find the saving rate that maxi mizes the steady-state levels of consumption per worker?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q43-p4.png",
+       "w": 498,
+       "h": 277
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[10 Points] Suppose the economy is in steady state with $s =$ 0.1 in period $t -$ 1. Assume that at the start of period $t$, the depreciation rate increases permanently from 0.1 to 0.2 while the savings rate remains $s = 0.1$."
+      }
+     ],
+     "tipo": "grupo",
+     "solucao": [
+      {
+       "p": "[10 Points] Suppose the economy is in steady state with $s =$ 0.1 in period $t -$ 1. Assume that at the start of period $t$, the depreciation rate increases permanently from 0.1 to 0.2 while the savings rate remains $s = 0.1$."
+      }
+     ]
+    },
+    {
+     "id": "4a",
+     "partes": [
+      {
+       "p": "What will be the new steady-state level of capital per worker and output per worker?"
+      }
+     ],
+     "pai": "4",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "What will be the new steady-state level of capital per worker and output per worker?"
+      }
+     ]
+    },
+    {
+     "id": "4b",
+     "partes": [
+      {
+       "p": "Compute the path of capital per worker and output per worker over the first five periods (t, t+1, t+2, t+3, t+4) after the change in the depreciation rate"
+      }
+     ],
+     "pai": "4",
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Compute the path of capital per worker and output per worker over the first five periods (t, t+1, t+2, t+3, t+4) after the change in the depreciation rateSolution."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "[5 Points] Now assume that instead of $\\delta$ rising in period $t, \\delta$ remains fixed at 0.1 but $s$ rises to 0.2 starting in period $t$. Illustrate this change graphically. Using capital per worker as the X-axis, plot output per worker, depreciation per worker, as well as investment per worker before and after the change. Indicate the previous and the new steady-state level of capital per worker. Indicate the dynamics of capital per worker starting from the initial steady-state. What is the new steady-state level of capital per worker and output per worker."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[5 Points] Now assume that instead of $\\delta$ rising in period $t, \\delta$ remains fixed at 0.1 but $s$ rises to 0.2 starting in period $t$. Illustrate this change graphically. Using capital per worker as the X-axis, plot output per worker, depreciation per worker, as well as investment per worker before and after the change. Indicate the previous and the new steady-state level of capital per worker. Indicate the dynamics of capital per worker starting from the initial steady-state. What is the new steady-state level of capital per worker and output per worker.Solution.We can visualize the change through the following figure. Starting from the initial steady-state, the saving rate increases permanently, resulting in a higher new steady-state level of capital per worker. The economy starts with capital per worker below that of the new steady-state, and its level increases monotonically and converges to the new steady-state in the long run."
+      },
+      {
+       "img": "g1/p5-3.png",
+       "w": 130,
+       "h": 80
+      },
+      {
+       "p": "The new steady-state level of capital per capita and output per capita are:"
+      },
+      {
+       "p": "$$k^{*'} = (2)^{32}= 2.83$$",
+       "display": true
+      },
+      {
+       "p": "$$y^{*'} = (2)^{12}= 1.41$$",
+       "display": true
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

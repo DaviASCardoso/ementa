@@ -1,0 +1,697 @@
+{
+ "etapa": "14.01/lista-3",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset3.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.01 Problem Set 3"
+  },
+  {
+   "p": "Due at 5pm on October 13th, 2023 Late problem sets are not accepted."
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "Long-Run Supply Curve",
+   "partes": [
+    {
+     "p": "Consider a firm with the following production function"
+    },
+    {
+     "p": "$$F (K,L) = L^{\\alpha}K^{\\beta}$$",
+     "display": true
+    },
+    {
+     "p": "The firm faces a wage level $w$ and rental rate of capital $r$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Show that the long run supply curve for this production function is"
+      },
+      {
+       "img": "e1/p1-1.png",
+       "w": 131,
+       "h": 17
+      },
+      {
+       "p": "Now suppose the firm has the following production function"
+      },
+      {
+       "p": "$$F (K,L) = K + L$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Show that the long run supply curve for this production function is"
+      },
+      {
+       "img": "g1/p1-1.png",
+       "w": 131,
+       "h": 17
+      },
+      {
+       "p": "To determine the optimal choice of labor and capital, we equate the $MRTS$ with $-w/r$:"
+      },
+      {
+       "p": "$$-\\frac{MP_{L}}{MP_{K}} = -\\frac{w}{r}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\frac{\\alpha L^{\\alpha -1}K^{\\beta}}{\\beta L^{\\alpha}K^{\\beta -1}} = \\frac{w}{r}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\frac{\\alpha K}{\\beta L} = \\frac{w}{r}$$",
+       "display": true
+      },
+      {
+       "p": "Substituting this into the production function, we get:"
+      },
+      {
+       "img": "g1/p1-2.png",
+       "w": 74,
+       "h": 19
+      },
+      {
+       "img": "g1/p1-3.png",
+       "w": 93,
+       "h": 17
+      },
+      {
+       "p": "which leads to"
+      },
+      {
+       "img": "g1/p1-4.png",
+       "w": 96,
+       "h": 17
+      },
+      {
+       "p": "Plugging this into the cost function, we find:"
+      },
+      {
+       "img": "g1/p1-5.png",
+       "w": 410,
+       "h": 17
+      },
+      {
+       "p": "For profit maximization (where $MR = MC)$, we have:"
+      },
+      {
+       "img": "g1/p1-6.png",
+       "w": 135,
+       "h": 17
+      },
+      {
+       "p": "Now suppose the firm has the following production function"
+      },
+      {
+       "p": "$$F (K,L) = K + L$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Find the long run supply as a function of $r, w$, and $q$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Find the long run supply as a function of $r, w$, and $q$."
+      },
+      {
+       "p": "The MRTS is constant and equal to $MRTS = -1$. Depending on the value of $-w/r$, we can categorize into three cases: Case 1$: -w/r > MRTS \\Rightarrow r > w$ If the firm aims to minimize costs, it will rely solely on labor for production in this case. Thus, the cost function is $C(q) = wL + rK = wq$, leading to a marginal cost of $MC = w$. The long-run supply curve, derived by equating $MR = MC$, will then be $p = w$. Case 2$: -w/r < MRTS \\Rightarrow r < w$ If the firm's goal is cost minimization, it will exclusively use capital for production in this scenario. This results in a cost function $C(q) = wL + rK = rq$, with a marginal cost of $MC = r$. The long-run supply curve, derived from $MR = MC$, is $p = r$. Case 3$: -w/r = MRTS \\Rightarrow r = w$ In this situation, the firm is indifferent between labor and capital; any combination of $K$ and $L$ will minimize costs. The cost function becomes $C(q) = wL + rK = rq$, and the marginal cost is $MC = r$. The long-run supply curve, derived by equating $MR = MC$, can be $p = r$ or $p = w$. Hence, the long-run supply curve is:"
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 90,
+       "h": 40
+      },
+      {
+       "p": "We differentiate into these three cases because we're comparing the cost of substituting labor for capital against a constant MRTS. For instance, a higher substitution cost rate implies that we wouldn't want to replace any labor with capital."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) True of False? Justify your"
+      }
+     ],
+     "solucao": [
+      {
+       "p": "An increase in wages always decreases supply in the long run."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 Points) True or False? Justify your"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Let $L(w,r,q)$ denote the labor demand when wages are $w$, the rental rate of capital is $r$, and the quantity produced is $q$. Define the elasticity of labor demand as"
+      },
+      {
+       "p": "$$\\varepsilon_{w}^{L} = \\frac{\\partial L(w,r,q)}{\\partial w} \\frac{w}{L(w,r,q)}$$",
+       "display": true
+      }
+     ],
+     "solucao": [
+      {
+       "p": "The elasticity of labor demand is always larger (in absolute value) in the long run than in the short run."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Supply with varying input costs",
+   "partes": [
+    {
+     "p": "Consider a firm that has a production function $F (K,L) = K^{\\frac{1}{2}}L^{\\frac{1}{2}}$. It faces a wage level $w$ and rental rate of capital $r$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Find the long run supply curve for this production function. What is the long run supply curve for this firm?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q21-p3.png",
+       "w": 496,
+       "h": 29
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points)) Find the equilibrium price and quantity."
+      },
+      {
+       "p": "Now suppose that the wage is not constant, but instead an increasing function of total production. In particular,"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Suppose demand is given by $Q_{d} = 10 - p$, and wages and the rental rate of capital are fixed at $w = 1$ and $r = 1$ respectively."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Find the equilibrium price and quantity."
+      },
+      {
+       "p": "From Part 1, we determined that at equilibrium $p^{*} = 2(1)^{\\frac{1}{2}} (1)^{\\frac{1}{2}} = 2$, which results in $q^{*} = 10 - p^{*} = 8$."
+      },
+      {
+       "p": "Now suppose that the wage is not constant, but instead an increasing function of total production. In particular,"
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) Provide a justification of why wages may be an increasing function of the quantity produced."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "suppose there are 6 firms and $w = \\frac{q}{6}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Provide a justification of why wages may be an increasing function of the quantity produced."
+      },
+      {
+       "p": "The more a company produces, the more work is typically required from labor, both in terms of effort and hours. To compensate for this increased demand on workers, wages might naturally increase. Additionally, offering higher wages as production levels rise can serve as an incentive for workers to maintain or even further boost their productivity."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) What is the new long run supply curve? Graph and compare the old and new supply curves assuming wages are fixed at $w = 1$ for the old supply curve and rental rates are fixed at $r = 1$ for both curves. Provide an intuition. (Remember the firm still takes $w$ and $r$ as given when minimizing costs)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What is the new long run supply curve? Graph and compare the old and new supply curves assuming wages are fixed at $w = 1$ for the old supply curve and rental rates are fixed at $r = 1$ for both curves. Provide an intuition. (Remember the firm still takes $w$ and $r$ as given when minimizing costs)."
+      },
+      {
+       "p": "To obtain each firm's individual supply curve we replace the marginal cost with $w = \\frac{q}{6}$, where $q$ is the aggregate quantity. Since this is the individual supply curve we need a relationship between $p$ and the quantity produced by firm $i$, which we denote by $q_{i}$. In equilibrium we have $q_{i} = \\frac{q}{6}$. Then the individual supply curve is"
+      },
+      {
+       "p": "$$p = 2r^{\\frac{1}{2}}q_{i}^{\\frac{1}{2}}$$",
+       "display": true
+      },
+      {
+       "p": "For aggregation we need a relationship between $q_{i}$ and $p$. After some algebra"
+      },
+      {
+       "img": "g1/p4-1.png",
+       "w": 53,
+       "h": 17
+      },
+      {
+       "p": "Then"
+      },
+      {
+       "img": "g1/p4-2.png",
+       "w": 150,
+       "h": 17
+      },
+      {
+       "img": "g1/p4-3.png",
+       "w": 486,
+       "h": 186
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(6 Points) Suppose demand is still $Q_{d} = 10 - p$. How does the equilibrium price and quantity compare when $w = 1$ vs when $w = \\frac{q}{6}$? You don't need to provide an algebraic expression, it is sufficient to show in a graph how they compare. Provide an intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(6 Points) Suppose demand is still $Q_{d} = 10 - p$. How does the equilibrium price and quantity compare when $w = 1$ vs when $w = \\frac{q}{6}$? You don't need to provide an algebraic expression, it is sufficient to show in a graph how they compare. Provide an intuition."
+      },
+      {
+       "p": "At the new equilibrium, we have $q^{**} < q^{*}$ and $p^{**} > p^{*}$. As the supply curve shifts from a horizontal position to an upward-sloping position from its previous constant state, the new equilibrium quantity decreases given the same demand. Additionally, as costs rise, the equilibrium price should also increase since the firm has an incentive to sell at a higher price. Graphically"
+      },
+      {
+       "img": "g1/p4-4.png",
+       "w": 486,
+       "h": 189
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p1.png",
+     "w": 509,
+     "h": 56
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Aggregate Supply",
+   "partes": [
+    {
+     "p": "In downtown Boston there is a vibrant farmers' market. In this market, there are three apple orchards in the area who all specialize in producing the same variety of apples. The total short-run cost functions for these producers are"
+    },
+    {
+     "p": "$$c_{1}(q) = \\frac{1}{4}q^{2} + 4$$",
+     "display": true
+    },
+    {
+     "p": "$$c_{2}(q) = \\frac{1}{3}q^{2} + 3$$",
+     "display": true
+    },
+    {
+     "p": "$$c_{3}(q) = \\frac{1}{2}q^{2} + 2$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Derive each firm's short-run supply curves. Do firms choose to produce at any price?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Derive each firm's short-run supply curves. Do firms choose to produce at any price?"
+      },
+      {
+       "p": "We observe that $c_{i}(q) = \\frac{1}{5-i}q^{2} + 5 - i$. Firm $i$ maximizes its profit when the marginal revenue $(p)$ equals the marginal cost:"
+      },
+      {
+       "p": "$$p = \\frac{2}{5 - i}q$$",
+       "display": true
+      },
+      {
+       "p": "Thus, each firm has supply curves of $q_{1} = 2p, q_{2} = 1.5p$, and $q_{3} = p$. Given that firms produce according to profit maximization, and there are decreasing returns to scale, we know that $p = MC(q) > AV C(q)$ and therefore the firm will never choose to shut down."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Let $Q_{s}$ denote the aggregate supply of apples in the farmer's market. Derive the aggregate supply of apples in the farmers' market as a function of the price of apples $p$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Let $Q_{s}$ denote the aggregate supply of apples in the farmer's market. Derive the aggregate supply of apples in the farmers' market as a function of the price of apples $p$."
+      },
+      {
+       "p": "The aggregate supply of apples in the farmers' market is:"
+      },
+      {
+       "p": "$$Q_{S}(p) = 2p + 1.5p + p = 4.5p$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) What is the market equilibrium quantity $Q^{*}$ and price $p^{*}$? How much does each firm produce in equilibrium?"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Suppose the demand for apples is given by $Q_{d} = 1 - p$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What is the market equilibrium quantity $Q^{*}$ and price $p^{*}$? How much does each firm produce in equilibrium?"
+      },
+      {
+       "p": "Equilibrium is attained when supply equals demand. Given:"
+      },
+      {
+       "p": "$$4.5p^{*} = 1 - p^{*}$$",
+       "display": true
+      },
+      {
+       "p": "we find $p^{*} = \\frac{2}{11}$. Therefore, the equilibrium quantity is $Q^{*} = 1 - p^{*} = \\frac{9}{11}$. At this equilibrium, each firm produces: $q_{1}^{*} = 2p^{*} = \\frac{4}{11}, q_{2}^{*} = 1.5p^{*} = \\frac{3}{11}$, and $q_{3}^{*} = p^{*} = \\frac{2}{11}$."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(7 Points) In the long run, would you expect the number of apple orchards to increase or decrease over time? Justify your answer. Your answer needs to have an intuitive explanation, as well as a mathematical result to back your intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(7 Points) In the long run, would you expect the number of apple orchards to increase or decrease over time? Justify your answer. Your answer needs to have an intuitive explanation, as well as a mathematical result to back your intuition."
+      },
+      {
+       "p": "In the long run, firms (or apple orchards, in this case) typically look for positive profits to sustain their operations. If apple orchards are consistently making a negative profit as"
+      },
+      {
+       "p": "$$\\pi_{i} = p^{**}q_{i} - c_{i}(q_{i}^{*}) = \\frac{2}{11} \\frac{5 - i}{11} - \\frac{1}{5 - i} \\frac{(5 - i)^{2}}{121} - 5 + i = -\\frac{120}{121} (5 - i)$$",
+       "display": true
+      },
+      {
+       "p": "it's not sustainable for them to continue operating indefinitely. Then, the number of apple orchards will decrease over time because some producers will exit the market."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "Firm Entry",
+   "partes": [
+    {
+     "p": "Consider a town that with population of size $N$. Each inhabitant has an individual demand for milk equal to"
+    },
+    {
+     "p": "$$q_{D}(p) = 1 - \\frac{1}{50}p$$",
+     "display": true
+    },
+    {
+     "p": "Each supplier of milk needs to pay a fixed cost of operation equal to 2 and their variable cost is equal to $\\frac{1}{2}q^{2}$. Then, the supplier's total cost is given by"
+    },
+    {
+     "p": "$$c(q) = \\frac{1}{2}q^{2} + 2$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(3 Points) Derive the aggregate demand for milk, $Q_{d}$, as a function of price $p$ and the size of the population $N$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q41-p3.png",
+       "w": 496,
+       "h": 29
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q41-p6.png",
+       "w": 496,
+       "h": 29
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(4 Points) Derive the short-run individual supply of milk, $q_{s}$, as a function of the price $p$. For what range of prices does a supplier of milk choose to produce a positive quantity?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(4 Points) Derive the short-run individual supply of milk, $q_{s}$, as a function of the price $p$. For what range of prices does a supplier of milk choose to produce a positive quantity?"
+      },
+      {
+       "p": "Each supplier of milk will produce until the price equal marginal cost. In this case, $MC = q$. Thus, the individual supply curve will be $q_{s}(p) = p$. A supplier of milk will choose to produce a positive quantity of milk when the price is greater than 0."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(3 Points) Suppose there are $J$ suppliers in town. Derive the aggregate short-run supply of milk, $Q_{s}$, as a function of the price $p$ and the number of suppliers $J$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(3 Points) Suppose there are $J$ suppliers in town. Derive the aggregate short-run supply of milk, $Q_{s}$, as a function of the price $p$ and the number of suppliers $J$."
+      },
+      {
+       "p": "If there are $J$ suppliers in town, then the aggregate short-run supply of milk will be the individual supply of milk multiplied by $J$."
+      },
+      {
+       "p": "$$Q_{s}(p) = Jp$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(7 Points) What is the market equilibrium quantity $Q^{*}$ and price $p^{*}$? How do they depend on the size of the population, $N$, and the number of suppliers $J$? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(7 Points) What is the market equilibrium quantity $Q^{*}$ and price $p^{*}$? How do they depend on the size of the population, $N$, and the number of suppliers $J$? Provide an economic intuition."
+      },
+      {
+       "p": "To find the market equilibrium, we are going to look at the the aggregate demand and supply. From previous parts, we know that the aggregate demand is $Q_{d}(p) = N - \\frac{Np}{50}$ and the aggregate supply is $Q_{s}(p) = Jp$. The equilibrium price is solved by:"
+      },
+      {
+       "p": "$$N - \\frac{Np}{50} = Jp$$",
+       "display": true
+      },
+      {
+       "p": "$$N = Jp + \\frac{Np}{50}$$",
+       "display": true
+      },
+      {
+       "p": "$$N = (J + \\frac{N}{50})p$$",
+       "display": true
+      },
+      {
+       "p": "$$p^{*} = \\frac{N}{J + \\frac{N}{50}}$$",
+       "display": true
+      },
+      {
+       "p": "$$Q^{*} = \\frac{NJ}{J + \\frac{N}{50}}$$",
+       "display": true
+      },
+      {
+       "p": "When we isolate the size of $N$ increasing, the equilibrium price and quantity both increase. The quantity will increase because the demand for milk is greater with more inhabitants, so more milk will be produced. Because the marginal cost of milk is equal to $q$ for each individual firm, the increasing $q$ will lead to higher marginal costs. Due to the increase in equilibrium price and quantity, if the number of inhabitants $N$ were to increase, then there would be an incentive for another supplier to enter the market. When we isolate the size of $J$ increasing, the equilibrium price will decrease and the equilibrium quantity will increase. The quantity will increase because there are more suppliers in the market that now each have a lower marginal cost. The lower marginal cost means that each individual supplier will be producing less, but the aggregate supply curve will increase, which leads to a greater quantity and lower price."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(7 Points) How much does each firm produce in equilibrium as a function of $J$ and $N$? Derive an expression for the firm's profits as a function of $J$ and $N$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(7 Points) How much does each firm produce in equilibrium as a function of $J$ and $N$? Derive an expression for the firm's profits as a function of $J$ and $N$."
+      },
+      {
+       "p": "Each firm will produce the equilibrium quantity divided by the number of firms. Thus, each firm $i$ produces quantity $q_{i}(p) = \\frac{N}{J+ \\frac{N}{50}}$. To find the profits of firm $i$, we solve the following:"
+      },
+      {
+       "p": "$$\\pi_{i}(N,J) = \\frac{N}{J + \\frac{N}{50}} * \\frac{N}{J + \\frac{N}{50}} - [( \\frac{N}{J + \\frac{N}{50}})^{2} * \\frac{1}{2} + 2]$$",
+       "display": true
+      },
+      {
+       "p": "$$\\pi_{i}(N,J) = \\frac{1}{2} ( \\frac{N}{J + \\frac{N}{50}})^{2} - 2$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(8 Points) Suppose now that there is free entry. Derive the number of suppliers, $\\bar{J}$, that will produce in the long run as well as the aggregate quantity, $Q^{LR}$ and price $p^{LR}$ in the long run. How does it depend on the size of the town $N$? Provide an intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(8 Points) Suppose now that there is free entry. Derive the number of suppliers, $\\bar{J}$, that will produce in the long run as well as the aggregate quantity, $Q^{LR}$ and price $p^{LR}$ in the long run. How does it depend on the size of the town $N$? Provide an intuition."
+      },
+      {
+       "p": "If there is free entry, then the long-run profits must be zero, which implies that the price is equal to the marginal cost for each firm $p = MC = q_{i}$. To get $\\bar{J}$, we set the profit equation from the previous question to 0."
+      },
+      {
+       "p": "$$0 = \\frac{1}{2} ( \\frac{N}{\\bar{J} + \\frac{N}{50}})^{2} - 2$$",
+       "display": true
+      },
+      {
+       "p": "$$2 = \\frac{1}{2} ( \\frac{N}{\\bar{J} + \\frac{N}{50}})^{2}$$",
+       "display": true
+      },
+      {
+       "p": "$$4 = ( \\frac{N}{\\bar{J} + \\frac{N}{50}})^{2}$$",
+       "display": true
+      },
+      {
+       "p": "$$2 = \\frac{N}{\\bar{J} + \\frac{N}{50}}$$",
+       "display": true
+      },
+      {
+       "p": "$$2\\bar{J} + \\frac{N}{25} = N$$",
+       "display": true
+      },
+      {
+       "p": "$$2\\bar{J} = \\frac{24N}{25}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\bar{J} = \\frac{12N}{25}$$",
+       "display": true
+      },
+      {
+       "p": "Using the equations from part 4, we can calculate the following:"
+      },
+      {
+       "p": "$$p^{LR} = \\frac{N}{\\frac{12N}{25} + \\frac{N}{50}}$$",
+       "display": true
+      },
+      {
+       "p": "$$p^{LR} = N$$",
+       "display": true
+      },
+      {
+       "p": "$$\\frac{25N}{50}$$",
+       "display": true
+      },
+      {
+       "p": "$$p^{LR} = 2$$",
+       "display": true
+      },
+      {
+       "p": "$$Q^{LR} = 2 * \\frac{12N}{25}$$",
+       "display": true
+      },
+      {
+       "p": "$$Q^{LR} = \\frac{24N}{25}$$",
+       "display": true
+      },
+      {
+       "p": "The number of suppliers increases as the size of the town $N$ increases. This follows intuition because if there are more people that have the same demand of milk, then it would make sense to have more milk suppliers."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

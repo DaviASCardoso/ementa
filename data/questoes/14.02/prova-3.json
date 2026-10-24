@@ -1,0 +1,544 @@
+{
+ "etapa": "14.02/prova-3",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_quiz3_no_sol.pdf",
+   "paginas": 12
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.02 – Principles of Macroeconomics Spring 2023 Quiz 3"
+  },
+  {
+   "p": "NAME: _______________________________ MIT ID: _______________________________"
+  },
+  {
+   "p": "QUIZ RULES – READ CAREFULLY"
+  },
+  {
+   "p": "• Problem 1 contains 4 true/false questions. For Problem 1, you are not required to explain your answers. Explanations will not be taken into consideration when grading. Problems 2 and 3 containshortquestionsaboutMonetaryPolicywithExpectationsandDiscountingandProblem 4 is about the Mundell-Fleming model. This quiz will be graded on a 100-point scale, according to the breakdown specified below."
+  },
+  {
+   "p": "• Please write your answer below each question in the space provided, and do not remove the staple."
+  },
+  {
+   "p": "• Please write your name on every page."
+  },
+  {
+   "p": "• Read the questions carefully and keep your answers short and to the point. Points will be de ducted for ambiguous or illegible answers, while partial credit will be assigned in case of a mis take carried over from earlier to later parts of the same problem."
+  },
+  {
+   "p": "• You will be asked to draw graphs. Please make sure to always label axes and curves, add arrows to denote shifts in the relevant curves, and mark the axes in the locations corresponding to equilibrium."
+  },
+  {
+   "p": "• By signing below, you agree to comply with the MIT honor code and one additional rule specific to this quiz: No discussing the quiz with anyone until after the exam."
+  },
+  {
+   "p": "• Good luck!"
+  },
+  {
+   "p": "DATE: _______________________________ SIGNATURE: _______________________________"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "True-False Questions",
+   "partes": [],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[3 points] The yield to maturity on a bond is defined as the constant annual interest rate that makes the bond price today equal to the present discounted value of future payments of the bond."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[3 points] The yield to maturity on a bond is defined as the constant annual interest rate that makes the bond price today equal to the present discounted value of future payments of the bond."
+      },
+      {
+       "p": "true."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[3 points] Bonds have two types of risk: Default risk and price risk."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[3 points] Bonds have two types of risk: Default risk and price risk."
+      },
+      {
+       "p": "True."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[3 points] A bond that promises to pay \\$100 each year for 20 years and \\$1k final payment in 20 years, has a maturity of 21 years."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[3 points] A bond that promises to pay \\$100 each year for 20 years and \\$1k final payment in 20 years, has a maturity of 21 years."
+      },
+      {
+       "p": "false."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[3 points] If uncovered interest parity (UIP) holds, then the expected returns of foreign and do mestic bonds must be equal."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[3 points] If uncovered interest parity (UIP) holds, then the expected returns of foreign and do mestic bonds must be equal."
+      },
+      {
+       "p": "true."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Monetary Policy with Expectations",
+   "partes": [
+    {
+     "p": "Consider the IS-LM model with expectations."
+    },
+    {
+     "p": "$$\\text{IS}: Y = A(Y, T, r, Y^{e}, T^{e}, r^{e})+G$$",
+     "display": true
+    },
+    {
+     "p": "$$\\text{LM}: r = \\bar{r}$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[4 points] Suppose the central bank decreases the current interest rate $r$ and all other variables remain constant. Describe what happens to output $Y$ using the IS-LM diagram."
+      },
+      {
+       "img": "e1/p2-1.png",
+       "w": 250,
+       "h": 218
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[4 points] Suppose the central bank decreases the current interest rate $r$ and all other variables remain constant. Describe what happens to output $Y$ using the IS-LM diagram."
+      },
+      {
+       "img": "g1/p2-1.png",
+       "w": 250,
+       "h": 218
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[4 points] Suppose now that after the decrease in $r$ investors expect interest rates to also remain low in the future.$_{�e}$ Using the diagram you drew in the previous question, illustrate the effect of a decrease in $r$. Does the change in expectations lead to a larger or smaller effect on output?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "caractere ilegível",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q22-p3.png",
+       "w": 494,
+       "h": 48
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q22-p3.png",
+       "w": 494,
+       "h": 407
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p2.png",
+     "w": 364,
+     "h": 116
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Interest Rate Sensitivity of Investment",
+   "partes": [
+    {
+     "p": "Consider two projects $j$ ∈ {1,2}. Each project generates a different stream of earnings. At the end of the first year $t = 1$, project $j$ generates $x j > 0$ in earnings, and after that it perpetually generates $j$ in earnings at the end of each year $t > 1$. All cash flows are expressed in constant dollars and the interest rate is assumed constant and equal to $r$ ∈ (0,1). The firm must pick one of the two projects."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[3 points] Find an expression for the net present value of each project in terms of $j, x j$ and $r$ (Hint: since all positive cash flows are realized at the end of a year, all of them need to be dis counted)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[3 points] Find an expression for the net present value of each project in terms of $j, x j$ and $r$ (Hint: since all positive cash flows are realized at the end of a year, all of them need to be dis counted)."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[3 points] Fixing $r$, for what values of $x_{1}, x_{2}$ is the firm indifferent between both projects?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[3 points] Fixing $r$, for what values of $x_{1}, x_{2}$ is the firm indifferent between both projects?"
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[4 points] Suppose $r, x_{1}, x_{2}$ are such that the firm is indifferent between both projects and sup pose the interest rate increases. Which project will the firm implement? Justify your answer by computing the effect of the increase in the interest rate on the net present value of each project."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[4 points] Suppose $r, x_{1}, x_{2}$ are such that the firm is indifferent between both projects and sup pose the interest rate increases. Which project will the firm implement? Justify your answer by computing the effect of the increase in the interest rate on the net present value of each project."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q3-p4.png",
+     "w": 509,
+     "h": 92
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "Mundell-Fleming model",
+   "partes": [
+    {
+     "p": "Consider an open economy with demand for domestic goods:"
+    },
+    {
+     "p": "$$Z = C + I +G + X - IM /\\varepsilon$$",
+     "display": true
+    },
+    {
+     "p": "where government spending $G$, and taxes $T$ are exogenously given, $\\varepsilon$ is the real exchange rate, and $i$ denotes the domestic nominal interest rate. We assume"
+    },
+    {
+     "p": "$$C = c_{0}+ c_{1}(Y - T)$$",
+     "display": true
+    },
+    {
+     "p": "$$I = b_{0}- b_{2}i$$",
+     "display": true
+    },
+    {
+     "p": "$$X = e_{0}\\cdot Y^{*}/\\varepsilon$$",
+     "display": true
+    },
+    {
+     "p": "$$IM = d_{0}\\cdot Y \\cdot \\varepsilon$$",
+     "display": true
+    },
+    {
+     "p": "where foreign output $Y^{*}$ is exogenous, and all parameters are strictly positive with $d_{0} \\leq c_{1} < 1$. The foreign nominal interest rate and the expected exchange rate are equal to $i^{*}$ and $E^{e}$ and assumed to be exogenous. Recall that $E$ is the nominal exchange rate (the value of one unit of home currency in terms of foreign currency). Home prices are $P = 1$ and foreign prices are $P^{*} = 1$. Finally, assume that the UIP condition holds. Assume the country is under a flexible exchange rate regime."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[4 points] State and explain the uncovered interest parity condition (UIP)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[4 points] State and explain the uncovered interest parity condition (UIP)."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[8 points] Derive an expression for $Y$ as a function of domestic nominal interest rate $i$, exoge nous variables, and parameters."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[8 points] Derive an expression for $Y$ as a function of domestic nominal interest rate $i$, exoge nous variables, and parameters."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[10 points] Suppose that the foreign interest rate $i$ increases. Derive the resulting change on equilibrium output $\\frac{dY}{di^{*}}$. Show graphically what happens to output $Y$ and the exchange rate $E$ using the IS-LM-UIP diagram."
+      },
+      {
+       "img": "e1/p7-1.png",
+       "w": 499,
+       "h": 218
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 points] Suppose that the foreign interest rate $i$ increases. Derive the resulting change on equilibrium output $\\frac{dY}{di^{*}}$. Show graphically what happens to output $Y$ and the exchange rate $E$ using the IS-LM-UIP diagram."
+      },
+      {
+       "img": "g1/p7-1.png",
+       "w": 499,
+       "h": 218
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[8 points] Assume that markets now expect a higher future exchange rate, i.e., $E^{e}$ increases. De scribe what happens to output $Y$ and the exchange rate $E$ using the IS-LM-UIP diagram."
+      },
+      {
+       "img": "e1/p8-1.png",
+       "w": 499,
+       "h": 218
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[8 points] Assume that markets now expect a higher future exchange rate, i.e., $E^{e}$ increases. De scribe what happens to output $Y$ and the exchange rate $E$ using the IS-LM-UIP diagram."
+      },
+      {
+       "img": "g1/p8-1.png",
+       "w": 499,
+       "h": 218
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "[8 points] Let N X be the net exports in this economy. Compute $\\frac{dN X}{di^{*}}$. How will N X change when the foreign nominal interest rate $i$ rises? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[8 points] Let N X be the net exports in this economy. Compute $\\frac{dN X}{di^{*}}$. How will N X change when the foreign nominal interest rate $i$ rises? Provide an economic intuition. Figure 1:"
+      },
+      {
+       "img": "g1/p9-1.png",
+       "w": 425,
+       "h": 201
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "[10 Points] Now express net exports N X as a function of the domestic interest rate $i$ and the set of exogenous variables and parameters. How does an increase in foreign output affect net exports (find $\\frac{dN X}{dY^{*}})$. Show in a IS-LM-UIP diagram how an increase in foreign output shifts the IS curve."
+      },
+      {
+       "img": "e1/p9-1.png",
+       "w": 499,
+       "h": 218
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Now express net exports N X as a function of the domestic interest rate $i$ and the set of exogenous variables and parameters. How does an increase in foreign output affect net exports (find $\\frac{dN X}{dY^{*}})$. Show in a IS-LM-UIP diagram how an increase in foreign output shifts the IS curve."
+      },
+      {
+       "img": "g1/p10-1.png",
+       "w": 499,
+       "h": 218
+      },
+      {
+       "p": "Net exports are given by"
+      },
+      {
+       "p": "$$N X_{t} = X_{t} - \\frac{IM_{t}}{\\varepsilon_{t}} = \\frac{e_{0}Y^{*}}{\\varepsilon} - d_{0}Y = \\frac{e_{0}Y^{*}}{E^{e}} \\frac{(1+ i^{*})}{(1+ i)} - d_{0}Y$$",
+       "display": true
+      },
+      {
+       "p": "Replacing with our expression for $Y_{t}$"
+      },
+      {
+       "p": "$$N X_{t} = \\frac{e_{0}Y^{*}}{E^{e}} \\frac{(1+ i^{*})}{(1+ i)} - d_{0} \\frac{1}{1- c_{1}+ d_{0}} b_{0}+ c_{0}+G - c_{1}T - b_{2}i + \\frac{e_{0}\\cdot Y^{*}}{E^{e}} \\frac{(1+ i^{*})}{(1+ i)}$$",
+       "display": true
+      },
+      {
+       "p": "So we have"
+      },
+      {
+       "p": "$$\\frac{dN X_{t}}{dY_{t}^{*}} = \\frac{e_{0}}{E^{e}} \\frac{(1+ i^{*})}{(1+ i)} (1- d_{0} \\frac{1}{1- c_{1}+ d_{0}}) = \\frac{e_{0}}{E^{e}} \\frac{(1+ i^{*})}{(1+ i)} ( \\frac{1- c_{1}}{1- c_{1}+ d_{0}}) > 0$$",
+       "display": true
+      },
+      {
+       "p": "Graphically, an increase in foreign output shifts the IS curve to the right:"
+      },
+      {
+       "img": "g1/p11-1.png",
+       "w": 498,
+       "h": 241
+      },
+      {
+       "p": "Alternatively, (but not necessary) we can use the Keynesian Cross to see the same effect: An in crease in foreign output shifts the aggregate demand curve upward, increasing the equilibrium output."
+      },
+      {
+       "img": "g1/p11-2.png",
+       "w": 229,
+       "h": 252
+      }
+     ]
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "[8points]Derivethegovernmentspendingmultiplier(i.e., $\\frac{dY}{dG})$. Ifweweretoclosetheeconomy— soexports $X$ andimports IM wereidenticallyequaltozero—whatwouldthemultiplierbe? Why would the multiplier be different in a closed economy? Provide the economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[8points]Derivethegovernmentspendingmultiplier(i.e., $\\frac{dY}{dG})$. Ifweweretoclosetheeconomy— soexports $X$ andimports IM wereidenticallyequaltozero—whatwouldthemultiplierbe? Why would the multiplier be different in a closed economy? Provide the economic intuition. Solution:"
+      }
+     ]
+    },
+    {
+     "id": "8",
+     "partes": [
+      {
+       "p": "[7 points] Suppose that people become more pessimistic about the future, which decreases the value of $c_{0}$. Using the IS-LM-UIP diagram, graphically show what happens to output $Y$ and the nominal exchange rate $E$ when the domestic central bank leaves the policy interest rate $i$ un changed. For this question, you do not need to do any algebra."
+      },
+      {
+       "img": "e1/p10-1.png",
+       "w": 499,
+       "h": 218
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[7 points] Suppose that people become more pessimistic about the future, which decreases the value of $c_{0}$. Using the IS-LM-UIP diagram, graphically show what happens to output $Y$ and the nominal exchange rate $E$ when the domestic central bank leaves the policy interest rate $i$ un changed. For this question, you do not need to do any algebra."
+      },
+      {
+       "img": "g1/p12-1.png",
+       "w": 528,
+       "h": 221
+      }
+     ]
+    },
+    {
+     "id": "9",
+     "partes": [
+      {
+       "p": "[7 points] Suppose that foreign output $Y$ increases, and the domestic central bank raises the interest rate to partially offset the change in output induced by the change in foreign output. Using the IS-LM-UIP diagram, graphically show what happens to output $Y$ and the exchange rate $E$. Again, you do not need to do any algebra."
+      },
+      {
+       "img": "e1/p11-1.png",
+       "w": 499,
+       "h": 218
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[7 points] Suppose that foreign output $Y$ increases, and the domestic central bank raises the interest rate to partially offset the change in output induced by the change in foreign output. Using the IS-LM-UIP diagram, graphically show what happens to output $Y$ and the exchange rate $E$. Again, you do not need to do any algebra."
+      },
+      {
+       "img": "g1/p13-2.png",
+       "w": 528,
+       "h": 221
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q4-p5.png",
+     "w": 507,
+     "h": 178
+    },
+    {
+     "img": "e1/q4-p6.png",
+     "w": 509,
+     "h": 79
+    }
+   ],
+   "fonte": 0
+  }
+ ]
+}

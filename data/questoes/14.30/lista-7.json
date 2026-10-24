@@ -1,0 +1,538 @@
+{
+ "etapa": "14.30/lista-7",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-30-introduction-to-statistical-methods-in-economics-spring-2009/1f8f28796cdeba5838ea347f53143bd0_MIT14_30s09_pset07.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "Problem Set #7"
+  },
+  {
+   "p": "14.30 - Intro. to Statistical Methods in Economics"
+  },
+  {
+   "p": "Instructor: Konrad Menzel"
+  },
+  {
+   "p": "Due: Tuesday, April 14, 2009"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "We just learned about the standard Normal distribution with PDF 4(z) and CDF @(z). Let's familiarize ourselves with it, as we will be using it a lot in the future."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Find u @(z) for z (-3, -2.5, -2, -1.5, -1, -0.5,0,0.5,1,1.5,2,2.5,3)."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q11-p2.png",
+       "w": 408,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q11-p2.png",
+       "w": 408,
+       "h": 210
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Find $u = 1-$ Pr(lZ1 5 z) for z = {0,0.5,1,1.5,2,2.5,3) using your answers from part (1).Explain (via math or words) how you obtained your answers. We call these values of u \"p-values\" which stands for \"probability values\" of a result at least that extreme occuring. Memorize these seven values-you will certainly use them in the future."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q12-p2.png",
+       "w": 465,
+       "h": 68
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q12-p2.png",
+       "w": 465,
+       "h": 187
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Find z = @-I (u) for u {0.001,0.005,0.01,0.02,0.05,0.10,0.20)."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q13-p2.png",
+       "w": 360,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q13-p2.png",
+       "w": 363,
+       "h": 24
+      },
+      {
+       "img": "g1/q13-p3.png",
+       "w": 98,
+       "h": 88
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "Use the results from part (3) to obtain z W1(l- u) for each u."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q14-p2.png",
+       "w": 366,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q14-p3.png",
+       "w": 366,
+       "h": 141
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "Use the results and/or methods from part (3) and (4) to obtain z where 1- Pr(lZ1 < z) u for each u in part (3). These values of z are called the \"two-sided a-level critical values\" where a = u in this example. For example, we say, \"The (two-sided) 10% critical value of the standard normal distribution is z = .. .\" These will be useful in the future. Memorize these seven values as well."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q15-p2.png",
+       "w": 468,
+       "h": 82
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q15-p3.png",
+       "w": 467,
+       "h": 201
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "Finally, interlace (i.e. sort) the values of z and u in a short table with the 14 values of z and u you obtained in parts (2) and (5). Start with z 0 and p 1and put the z's in the right order with their corresponding probabilities."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q16-p2.png",
+       "w": 466,
+       "h": 53
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q16-p3.png",
+       "w": 466,
+       "h": 80
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p2.png",
+     "w": 486,
+     "h": 71
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Given a random variable X, X and derive its variance. define the standardization Z of"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q21-p2.png",
+       "w": 465,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q21-p4.png",
+       "w": 466,
+       "h": 81
+      },
+      {
+       "img": "g1/q21-p5.png",
+       "w": 424,
+       "h": 55
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Suppose is the mean of a sample of n 20 i.i.d. observations with Xi $N$ N(1,2). Xzo = What is the expected mean and variance of this average? What is its distribution (Hint: see lecture notes, around Proposition 24)? What is the probability that the sample mean xzois between 0.75 and 1.25?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q22-p2.png",
+       "w": 468,
+       "h": 70
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q22-p5.png",
+       "w": 468,
+       "h": 580
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "In Pset #5, we used the convolution formula to determine the finite distribution of the average (and sum) of $k$ i.i.d. exponential random variables, noting that the mean did not depend on the distribution. What is the variance of the sum of $k$ i.i.d. random variables? What's the variance of their average? We noticed (in the solution set to Pset #5) that the average over the exponential RVs approaches the normal distribution. Do you think that this property was specific to the exponential distribution?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q23-p3.png",
+       "w": 466,
+       "h": 96
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q23-p5.png",
+       "w": 466,
+       "h": 53
+      },
+      {
+       "img": "g1/q23-p6.png",
+       "w": 481,
+       "h": 192
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p2.png",
+     "w": 126,
+     "h": 32
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Suppose that a random sample of size n is taken from a normal distribution with mean $p$ and variance 3, and that the sample mean, X,, is calculated."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "What does n need to be so that the probability of X, being within 0.1 of $p$ is at least go%?'"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto",
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q31-p3.png",
+       "w": 466,
+       "h": 39
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q31-p6.png",
+       "w": 481,
+       "h": 242
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "What does n need to be so that the probability of Xn $p$ is at least being within 0.01 of"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q32-p3.png",
+       "w": 466,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q32-p7.png",
+       "w": 466,
+       "h": 149
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "In my experiments at Yahoo!, I have been looking at treatment and control differences to determine the effectiveness of online display advertising. The standard deviation of (scaled) weekly sales is R\\$15.00 and average weekly purchases are R\\$1.00 for the control group and R\\$1.00 for the treatment group. If I am constrained to have only 25% of +6 $_{Are these values ofover all treatment individuals and}^{my observations in the control group and the remaining 75\\% in the treatment group,}$what is the variance of the difference between $_{distributed. Do this for generallarge does95\\%? Assume the sample averages for the treatment and control groups are normallyNhave to be in order for the probability ofNlarge? Comment on the results.6and then evaluate it for}$xc$_{is the average over all control individuals? How}$xT-xCwhere $_{6\\mathbf{XT}=}$xT$_{R\\$0.05 and-}$is the sample average $_{XC>0 is at least6=R\\$0.10.}$"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "90%?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto",
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q33-p3.png",
+       "w": 467,
+       "h": 169
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q33-p7.png",
+       "w": 469,
+       "h": 378
+      },
+      {
+       "img": "g1/q33-p8.png",
+       "w": 481,
+       "h": 316
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q3-p3.png",
+     "w": 481,
+     "h": 71
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Use a table, calculator, internet, simulation, or any other method (besides cheating) to determine the following critical values:"
+    },
+    {
+     "p": "lThese are what we call power calculations and help us craft surveys and experiments to guarantee before spending lots of money that we'll be able to detect economically meaningful effects, if they are present. For example, we usually think of log wages as being normally distributed. Often times we need to know how many observations we need in a survey for the average log wage to be close enough to the true mean. Further, as we will learn about the Central Limit Theorem, we'll realize that for any average that we might be interested, for n > 30, the distribution we sample from will generally not affect our calculation of n. square root-kind of like an average. Focus on k = 1 and just compare the higher degrees of freedom to the critical values of N(k, 2 . k).) A few of these may be worth memorizing as well."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "T $N$ t distribution: 1- P(IT1 < t;dof) = 0.05 for dof = 5, 10, 20, 30, 50. How do these compare to the 0.05 critical values of the Normal?"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q41-p3.png",
+       "w": 467,
+       "h": 39
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q41-p8.png",
+       "w": 467,
+       "h": 216
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "X $N$ Xg distribution: P(X 2 x;k) = 0.05 for $k =$ 1,2,3,4,5,100. How do these compare to the 0.05 critical values of the Normal? (Hint: Divide by $k$ and take the"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q42-p3.png",
+       "w": 467,
+       "h": 40
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q42-p8.png",
+       "w": 466,
+       "h": 27
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q4-p3.png",
+     "w": 480,
+     "h": 71
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "What is the distribution of where Yl $N$ xi, and Y2 xiZ? What happens to the value and variance of the denominator when when k2 + oo? (Hint: What is the sum of two i.i.d. Xf random variables? Then, what's the variance of their average? And how about the sum and average of k2 of them?) What distribution do you think that means that the ratio converges to (holding kl fixed)?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q5-p4.png",
+     "w": 480,
+     "h": 117
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q5-p9.png",
+     "w": 480,
+     "h": 117
+    }
+   ]
+  }
+ ]
+}

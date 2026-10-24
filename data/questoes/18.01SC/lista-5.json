@@ -1,0 +1,5407 @@
+{
+ "etapa": "18.01SC/lista-5",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/0d7855ac225e4020cd3f258691a286cd_MIT18_01SC_pset2prb.pdf",
+   "paginas": 14
+  },
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/eaabc6c74a11402341dbc120fffa5ea5_MIT18_01SC_pset3prb.pdf",
+   "paginas": 9
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.01 Exercises $^{*}$"
+  },
+  {
+   "p": "December 23, 2010"
+  },
+  {
+   "p": "Unit 2. Applications of Differentiation"
+  },
+  {
+   "p": "18.01 EXERCISES"
+  },
+  {
+   "p": "Unit 3. Integration"
+  },
+  {
+   "img": "e2/p3-1.png",
+   "w": 326,
+   "h": 19
+  },
+  {
+   "img": "e2/p4-4.png",
+   "w": 14,
+   "h": 8
+  }
+ ],
+ "questoes": [
+  {
+   "n": "2A-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the linearization of $\\sqrt{a + bx}$ at 0, by using (2), and also by using the basic approximation formulas. (Here $a$ and $b$ are constants; assume $a > 0$. Do not confuse this $a$ with the one in (2), which has the value 0.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2A-1-p1.png",
+     "w": 320,
+     "h": 63
+    }
+   ]
+  },
+  {
+   "n": "2A-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Repeat Exercise A-1 for the function $\\frac{1}{a + bx}, a = 0$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$D( \\frac{1}{a + bx}) = \\frac{-b}{(a + bx)^{2}} \\Rightarrow f (x) \\approx \\frac{1}{a} - \\frac{b}{a^{2}}x$; OR: $\\frac{1}{a + bx} = \\frac{1/a}{1 + b/ax} \\approx$"
+    },
+    {
+     "p": "$\\frac{1}{a} (1 - \\frac{b}{a}x)$."
+    }
+   ]
+  },
+  {
+   "n": "2A-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the linearization at 0 of $\\frac{(1 + x)^{3/2}}{1 + 2x}$ by using the basic approximation formulas, and also by using (2)."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$D( \\frac{(1 + x)^{3/2}}{1 + 2x}) = \\frac{(1 + 2x) \\cdot \\frac{3}{2} \\cdot (1 + x)^{3/2} - (1 + x)^{3/2} \\cdot 2}{(1 + 2x)^{2}} \\Rightarrow f'(0) = -\\frac{1}{2}$"
+    },
+    {
+     "p": "$\\Rightarrow f (x) \\approx 1-\\frac{1}{2}x$; OR, by algebra, $\\frac{(1 + x)^{3/2}}{1 + 2x} \\approx (1+ \\frac{3}{2}x)(1-2x) \\approx 1-\\frac{1}{2}x$."
+    }
+   ]
+  },
+  {
+   "n": "2A-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the linear approximation for $h \\approx 0$ for $w = \\frac{gW}{(1 + h/R)^{2}}$, the weight of a body at altitude $h$ above the earth's surface, where $W$ is the surface weight and $R$ is the radius of the earth. (Do this without referring to the notes.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Put $\\frac{h}{R} =$; then $w = \\frac{g}{(1 +)^{2}} \\approx g(1 -)^{2} \\approx g(1 - 2) = g(1 - \\frac{2h}{R})$."
+    }
+   ]
+  },
+  {
+   "n": "2A-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Making reasonable assumptions, if a person 5 feet tall weighs on the average 120 lbs., approximately how much does a person $5'1^{''}$ tall weigh?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "A reasonable assumption is that $w$ is propotional to volume $v$, which is in turn proportional to the cube of a linear dimension, i.e., a given person remains similar to him/herself, for small weight changes.) Thus $w = Ch^{3}$; since 5 feet = 60 inches, we get"
+    },
+    {
+     "p": "$\\frac{w(60 +)}{w(60)} = \\frac{C(60 +)^{3}}{C(60)^{3}} = (1+60)^{3} \\Rightarrow w(60+) \\approx w \\cdot 3 \\approx \\cdot 1 \\approx 126$. (60) (1+60) 120 (1+20)"
+    },
+    {
+     "p": "[Or you can calculate the linearization of $w(h)$ arround $h = 60$ using derivatives, and using the value $w(60)$ to determine $C$. getting $w(h) \\approx 120 + 6(h - 60)$"
+    }
+   ]
+  },
+  {
+   "n": "2A-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find a quadratic approximation to tan $\\theta$ , for $\\theta \\approx 0$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "tan $\\theta = \\frac{sin \\theta}{cos \\theta} \\approx \\frac{\\theta}{1 - \\theta^{2}/2} \\approx \\theta (1 + \\theta^{2}//2) \\approx \\theta$"
+    }
+   ]
+  },
+  {
+   "n": "2A-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find a quadratic approximation to $\\frac{sec x}{\\sqrt{1 - x^{2}}}$, for $x \\approx 0$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$\\frac{sec x}{\\sqrt{1 - x^{2}}} = \\frac{1}{cos x\\sqrt{1 - x^{2}}} \\approx \\frac{1}{(1 - \\frac{1}{2}x^{2})(1 - \\frac{1}{2}x^{2})} \\approx \\frac{1}{1 - x^{2}} \\approx 1 + x^{2}$"
+    }
+   ]
+  },
+  {
+   "n": "2A-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the quadratic approximation to $1/(1 -x)$, for $x \\approx 1/2$. (Either use (13), or put $x = \\frac{1}{2} + h$ and use the basic approximations.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$\\frac{1}{1 - x} = \\frac{1}{1 - ( \\frac{1}{2} + \\Delta x)} = \\frac{1}{\\frac{1}{2} - \\Delta x} = \\frac{2}{1 - 2\\Delta x}$"
+    },
+    {
+     "p": "$$\\approx 2(1 + 2\\Delta x + 4(\\Delta x)^{2}) \\approx 2 + 4(x - \\frac{1}{2}) + 8(x - \\frac{1}{2})^{2}$$",
+     "display": true
+    }
+   ]
+  },
+  {
+   "n": "2A-9",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Derive (12) algebraically as suggested in the Notes."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2A-10",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Derive (9), (10), (12) by using formula (13)."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$y = (1 + x)^{r}, y' = r(1 + x)^{r-1}, y^{''} = r(r - 1)(1 + x)^{r-2}$"
+    },
+    {
+     "p": "Therefore $y(0) = 1, y'(0) = r, y^{''}(0) = r(r - 1)$, giving (1 $+ x)^{r} \\approx 1 + rx + \\frac{r(r - 1)}{2}x^{2}$."
+    }
+   ]
+  },
+  {
+   "n": "2A-11",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "For an ideal gas at constant temperature, the variables $p$ (pressure) and $v$ (volume) are related by the equation $pv^{k} = C$, where $k$ and $C$ are constants. If the volume is changed slightly from $v_{0}$ to $v_{0}+\\vec{Dv}$, what quadratic approximation expressing $p$ in terms of $\\vec{Dv}$ would you use? (Find the approximation valid for $\\vec{Dv} \\approx 0.)$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$pv^{k} = c \\Rightarrow p = cv^{-k} = c((v_{0} + \\Delta v)^{-k} = cv_{0}^{-k}(1 + \\frac{\\Delta v}{v_{0}})^{-k}$"
+    },
+    {
+     "p": "$$\\approx \\frac{c}{v_{0}^{k}} (1 - k\\frac{\\Delta v}{v_{0}} + \\frac{k(k + 1)}{2}(\\Delta \\frac{v}{v_{0}})^{2})$$",
+     "display": true
+    }
+   ]
+  },
+  {
+   "n": "2A-12",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Give the indicated type of approximation at the point indicated. (This is to be done after studying the log and exponential functions.)"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{e^{x}}{1 - x}$ (quadratic, $x \\approx 0)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{e^{x}}{1 - x} \\approx (1 + x + \\frac{x^{2}}{2})(1 + x + x^{2}) \\approx 1 + 2x + \\frac{5}{2}x^{2}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{ln(1 + x)}{xe^{x}}$ (linear, $x \\approx 0)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{ln(1 + x)}{xe^{x}} \\approx \\frac{x}{x(1 + x)} \\approx 1 - x$"
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$e^{-x2}$ (quadratic, $x \\approx 0)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$e^{-x2} \\approx 1 - x^{2}$ [Substitute into $e^{x} \\approx 1 + x]$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "ln cos $x$ (quadratic, $x \\approx 0)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "ln(cos $x) \\approx$ ln(1 $- \\frac{x^{2}}{2}) \\approx -\\frac{x^{2}}{2}$ [since ln(1 $+ h) \\approx h]$"
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$x$ ln $x$ (quadratic, $x \\approx 1)$ (Hint: put $x = 1 + h.)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$x$ ln $x = (1 + h)$ln(1 $+ h) \\approx (1 + h)(h - \\frac{h^{2}}{2}) \\approx h + \\frac{h^{2}}{2} \\Rightarrow x$ ln $x \\approx$"
+      },
+      {
+       "p": "$(x - 1) + \\frac{(x - 1)^{2}}{2}$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2A-13",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the linear and quadratic approximation to the following functions"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "sin(2$x)$, near 0"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$2x$ (both linear and quadratic)"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "cos(2$x)$, near 0 c) sec($x)$, near 0"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "1, $1 - 2x^{2}$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$e^{x2}$, near 0"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "1, $1 + x^{2}$"
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$1/(a + bx)$, near 0; assuming $a = 0$;"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Use $(1 + u)^{-1} \\approx 1 - u + u^{2}$:"
+      },
+      {
+       "p": "$$(a + bx)^{-1} = a^{-1}(1 + (bx/a))^{-1} \\approx a^{-1}(1 - bx/a + (bx/a)^{2})$$",
+       "display": true
+      },
+      {
+       "p": "Linear approximation: $(1/a) - (b/a^{2})x$"
+      },
+      {
+       "p": "Quadratic approximation: $(1/a) - (b/a^{2})x + (b^{2}/a^{3})x^{2}$"
+      }
+     ]
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "$1/(a + bx)$, near 1; what do you have to assume about the consants $a$ and $b$?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (x) = 1/(a + bx)$ so that $f'(1) = -b(a + b)^{-2}$ and $f^{''}(1) = 2b^{2}/(a + b)^{-3}$. We need to assume that these numbers are defined, in other words that $a + b = 0$. Then the linear approximation is"
+      },
+      {
+       "p": "$$1/(a + b) - (b/(a + b)^{2})(x - 1)$$",
+       "display": true
+      },
+      {
+       "p": "and the quadratic approximation is"
+      },
+      {
+       "p": "$$1/(a + b) - (b/(a + b)^{2})(x - 1) + (b/(a + b)^{3})(x - 1)^{2}$$",
+       "display": true
+      },
+      {
+       "p": "Method 2: Write"
+      },
+      {
+       "p": "$$1/(a + bx) = 1/(a + b + b(x - 1))$$",
+       "display": true
+      },
+      {
+       "p": "Then use the expansion of problem (e) with $a+b$ in place of $a$ and $b$ in place of $b$ and $(x - 1)$ in place of $x$. The requirement $a = 0$ in (e) corresponds to the restriction $a + b = 0$ in (f)."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2A-14",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Suppose that a piece of bubble gum has volume 4 cubic centimeters."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Use a linear approximation to calculate the thickness of a bubble of inner radius 10 centimeters. (Hint: Start with the relation between the volume $V$ of a sphere and the radius $r$, and derive the approximate relation between $\\Delta V$ and $\\Delta r.)$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the exact answer."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "To how many significant figures is the linear approximation accurate? In other words, find the order of magnitude of the difference between the ap proximation and the exact answer. (Be sure you use enough digits of $\\pi$ to reflect correctly this accuracy!)"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Use a quadratic approximation to the exact formula for the thickness that you found in part (b) to get an even more accurate estimate."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Why is the quadratic term comparable to the error in the accuracy of the linear approximation?"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2A-15",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the linear and quadratic approximations to cos(3$x)$ near $x = 0$, $\\pi /6$, and $\\pi /3$."
+    },
+    {
+     "img": "e1/p3-1.png",
+     "w": 344,
+     "h": 19
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$f (x) =$ cos(3$x), f'(x) = -$3 sin(3$x), f^{''}(x) = -$9 cos(3$x)$. Thus, $(1) f (0) = 1, f (\\pi /6) =$ cos($\\pi /2) = 0, f (\\pi /3) =$ cos $\\pi = -1$ $(2) f'(0) = -$3 sin 0 = $0, f'(\\pi /6) = -$3 sin($\\pi /2) = -3, f'(\\pi /3) = -$3 sin $\\pi = 0$ $(3) f^{''}(0) = -9, f^{''}(\\pi /6) = 0, f^{''}(\\pi /3) = 9$"
+    },
+    {
+     "p": "Using these values, the linear and quadratic approximations are respectively: (4) for $x \\approx 0: f (x) \\approx 1$ and $f (x) \\approx 1 - (9/2)x^{2}$ (5) for $x \\approx \\pi /6$: both are $f (x) \\approx -3(x - \\pi /6)$ (6) for $x \\approx \\pi /3: f (x) \\approx -1$ and $f (x) \\approx -1 + (9/2)(x - \\pi /3)^{2}$"
+    }
+   ]
+  },
+  {
+   "n": "2A-16",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Use the law of cosines to find the formula $2 -$ cos(2$\\pi /n)$ for the length of the side of the equilateral $n$-gon inscribed in the unit circle."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q2A-16a-p3.png",
+       "w": 354,
+       "h": 30
+      }
+     ],
+     "solucao": [
+      {
+       "p": "The law of cosines says that for a triangle with sides $a, b$, and $c$, with $\\theta$ opposite the side of length $c$,"
+      },
+      {
+       "p": "$$c^{2} = a^{2} + b^{2} - 2ab\\text{ cos }\\theta$$",
+       "display": true
+      },
+      {
+       "p": "Apply it to one of the $n$ triangles with vertex at the origin: $a = b = 1$ and $\\theta = 2\\pi /n$. So the formula is"
+      },
+      {
+       "img": "g1/p4-1.png",
+       "w": 94,
+       "h": 11
+      },
+      {
+       "img": "g1/p4-2.png",
+       "w": 336,
+       "h": 11
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Compute the perimeter and then compute the limit as $n$ tends to infinity using the quadratic approximation to cos $\\theta$ near $\\theta = 0$. (Compare with 1J-4.)"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q2A-16b-p3.png",
+       "w": 354,
+       "h": 42
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q2A-16b-p4.png",
+       "w": 368,
+       "h": 122
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2A-16-p3.png",
+     "w": 354,
+     "h": 18
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2B-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Sketch the graphs of the following. Find the intervals on which it is increasing and decreasing and decide how many solutions there are to $y = 0$. (Graphs need not reflect inflection points, which are discussed in 9-2)."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$y = x^{3} - 3x + 1$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y = x^{3} - 3x + 1, y' = 3x^{2} - 3 = 3(x - 1)(x + 1). y' = 0 \\Rightarrow x = \\pm 1$."
+      },
+      {
+       "p": "Endpoint values: $y \\to -\\infty$ as $x \\to -\\infty$ , and $y \\to \\infty$ as $x \\to \\infty$ ."
+      },
+      {
+       "p": "Critical values: $y(-1) = 3, y(1) = -1$."
+      },
+      {
+       "p": "Increasing on: $-\\infty < x < -1, 1 < x < \\infty$ ."
+      },
+      {
+       "p": "Decreasing on: $-1 < x < 1$."
+      },
+      {
+       "p": "Graph: $(-\\infty ,-\\infty ) \\% (-1, 3) \\& (1,-1) \\% (\\infty ,\\infty )$, crossing the $x$-axis three times."
+      },
+      {
+       "img": "g1/p4-5.png",
+       "w": 83,
+       "h": 70
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$y = x^{4} - 4x + 1$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y = x^{4} - 4x + 1, y' = x^{3} - 4. y' = 0 \\Rightarrow x = 4^{1/3}$. Increasing on: $4^{1/3} < x < \\infty$ ; decreasing on: $-\\infty < x < 4^{1/3}$."
+      },
+      {
+       "p": "Endpoint values: $y \\to \\infty$ as $x \\to \\pm \\infty$ ; critical value: $y(4^{1/3}) = 1$."
+      },
+      {
+       "p": "Graph: $(-\\infty ,\\infty ) \\& (4^{1//3}, 1) \\% (\\infty ,\\infty )$, never crossing the $x$-axis. (See below.)"
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$y'(x) = 1/(1 + x^{2})$ and $y(0) = 0$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2B-1c-p5.png",
+       "w": 369,
+       "h": 246
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$y = x^{2}/(x - 1)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2B-1d-p5.png",
+       "w": 369,
+       "h": 252
+      },
+      {
+       "img": "g1/q2B-1d-p6.png",
+       "w": 369,
+       "h": 249
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$y = x/(x + 4)$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "$y = \\sqrt{x + 1}/(x - 3)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2B-1f-p6.png",
+       "w": 369,
+       "h": 240
+      }
+     ]
+    },
+    {
+     "id": "g",
+     "partes": [
+      {
+       "p": "$y = 3x^{4} - 16x^{3} + 18x^{2} + 1$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y = 3x^{4} - 16x^{3} + 18x^{2} + 1, y' = 12x^{3} - 48x^{2} + 36x = 12x(x - 1)(x - 3)$. $y' = 0 \\Rightarrow x = 0, 1, 3$."
+      },
+      {
+       "p": "Endpoint values: $y \\to \\infty$ as $x \\to \\pm \\infty$ . Critical values: $y(0) = 1, y(1) = 6$, and $y(3) = -188$."
+      },
+      {
+       "p": "Increasing on: $0 < x < 1$ and $3 < x < \\infty$ ."
+      },
+      {
+       "p": "Decreasing on: $-\\infty < x < 0$ and $1 < x < 3$."
+      },
+      {
+       "p": "Graph: $(-\\infty ,\\infty ) \\& (0, 1) \\% (1, 6) \\& (3,-188) \\% (\\infty ,\\infty )$, crossing the $x$-axis once."
+      },
+      {
+       "img": "g1/p7-1.png",
+       "w": 316,
+       "h": 81
+      }
+     ]
+    },
+    {
+     "id": "h",
+     "partes": [
+      {
+       "p": "$y = e^{-x2}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2B-1h-p7.png",
+       "w": 369,
+       "h": 182
+      }
+     ]
+    },
+    {
+     "id": "i",
+     "partes": [
+      {
+       "p": "$y' = e^{-x2}$ and $y(0) = 0$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2B-1i-p7.png",
+       "w": 369,
+       "h": 128
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2B-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the inflection points of the graphs in problem 1."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": []
+  },
+  {
+   "n": "2B-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the conditions on $a, b$ and $c$ for which the cubic"
+    },
+    {
+     "p": "$$y = x^{3} + ax^{2} + bx + c$$",
+     "display": true
+    },
+    {
+     "p": "has a local maximum and a local minimum. Use the following two methods:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find the condition under which $y'$ has two distinct real roots. Which of these roots is at the local maximum and which is at the local minimum? (Draw a picture.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y' = 3x^{2}+2ax + b$. The roots of the quadratic polynomial are distinct real numbers if the discriminant is positive. (The discriminant is defined as the number under the square root in the quadratic formula.) Therefore there are distinct real roots if and only if"
+      },
+      {
+       "p": "$$(2a)^{2} - 4(3)b > 0\\text{, or }a^{2} - 3b > 0$$",
+       "display": true
+      },
+      {
+       "p": "From the picture, since $y \\to \\infty$ as $x \\to \\infty$ and $y \\to -\\infty$ as $x \\to -\\infty$ , the larger root of $3x^{2} + 2ax + b = 0$ (with the plus sign in the quadratic formula) must be the local min, and the smaller root must be the local max."
+      },
+      {
+       "p": "$$\\frac{Since y <<-1 when x << -1}{and y >> 1 when x >> 1, the}$$",
+       "display": true
+      },
+      {
+       "p": "local max. is to the left of the local min."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the condition under which $y' < 0$ at the inflection point. Why does this property imply that there is a local maximum and a local minimum?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y^{''} = 6x + 2a$, so the inflection point is at $-a/3$. Therefore the condition $y' < 0$ at the inflection point is"
+      },
+      {
+       "p": "$$y'(-a/3) = 3(-a/3)^{2} + 2a(-a/3) + b = -a^{2}/3 + b < 0$$",
+       "display": true
+      },
+      {
+       "p": "which is the same as"
+      },
+      {
+       "p": "$$a^{2} - 3b > 0$$",
+       "display": true
+      },
+      {
+       "p": "If $y' < 0$ at some point $x_{0}$, then the function is decreasing at that point. But $y \\to \\infty$ as $x \\to \\infty$ , so there must be a local minimum at a point $x > x_{0}$. Similarly, since $y \\to -\\infty$ as $x \\to -\\infty$ , there must be a local maximum at a point $x < x_{0}$."
+      },
+      {
+       "p": "Comment: We evaluate $y'$ at the inflection point of $y (x = -a/3)$ since we are trying to decide (cf. part (b)) whether $y'$ is ever negative. To do this, we find the minimum of $y'$ (which occurs where $y^{''} = 0)$."
+      },
+      {
+       "img": "g1/p9-1.png",
+       "w": 373,
+       "h": 300
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2B-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Suppose that $f$ is a continuous function on $0 \\leq x \\leq 10$. Sketch the graph from the following description: $f$ is zero at 4, 7, and $9. f'(x) > 0$ on $0 < x < 5$ and $8 < x < 10$ and $f'(x) < 0$ on $5 < x < 8$. With the given information, can you say anything for certain about the maximum value, the minimum value of $f$? Can you say anything about the place where the maximum is attained or the place where the minimum is attained?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2B-5",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Trace a copy of the graph of the function below and draw the graph of the derivative directly underneath. Connect the inflection point to the cor responding point on the graph of the derivative with a vertical dotted line."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find a rational function with a graph resembling the one below."
+      },
+      {
+       "img": "e1/p4-1.png",
+       "w": 344,
+       "h": 197
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2B-6",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find a cubic polynomial with a local maximum at $x = -1$ and a local minimum at $x = 1$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Try $y' = (x + 1)(x - 1) = x^{2} - 1$. Then $y = x^{3}/3 - x + c$. The constant $c$ won't matter so set $c = 0$. It's also more convenient to multiply by 3:"
+      },
+      {
+       "p": "$$y = x^{3} - 3x$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Draw the graph of the cubic on $-3 \\leq x \\leq 3$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "This is an odd function with local min and max: $y(1) = -2$ and $y(-1) = 2$. The endpoints values are $y(3) = 18$ and $y(-3) = -18$. It is very steep: $y'(3) = 8$."
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Draw a differentiable function on $-3 \\leq x \\leq 3$ that has an absolute maximum at $x = -1$ and an absolute minimum at $x = 1$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2B-6c-p10.png",
+       "w": 385,
+       "h": 129
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2B-7",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Prove that if $f (x)$ is increasing and it has a derivative at a, then $f'(a) \\geq 0$. (You may use the fact that a positive function has a limit $\\geq 0.)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f'(a) =_{\\Delta}$lim$_{x\\to 0} \\frac{\\Delta y}{\\Delta x}$"
+      },
+      {
+       "img": "g1/p10-3.png",
+       "w": 321,
+       "h": 22
+      },
+      {
+       "p": "Therefore, $_{\\Delta}$lim$_{x\\to 0} \\frac{\\Delta y}{\\Delta x} \\geq 0$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "If the conclusion of part (a) is changed to$: f'(a) > 0$, the statement becomes false. Indicate why the proof of part (a) fails to show that $f'(a) > 0$, and give a counterexample to the conclusion $f'(a) > 0$ (i.e., an example for which it is false)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2B-7b-p10.png",
+       "w": 369,
+       "h": 121
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Prove that if $f (x)$ has relative maximum at $a$ and it has a derivative at $a$, then $f'(a) = 0$. (Consider the right-and left-hand limits of $\\vec{Dy/}\\vec{Dx}$; apply the ideas of part (a).)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Use $f (a) \\geq f (x)$ to show that $_{\\Delta x}$lim$_{0+} \\Delta y/\\Delta x \\leq 0$ and $_{\\Delta x}$lim$_{0-} \\Delta y/\\Delta x \\geq 0$. Since the left and right limits are equal, $\\overrightarrow{the}$ derivative must be $\\overrightarrow{zero.}$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2C-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Cut four identical squares out of the corners of a 12 by 12 inch piece of cardboard and fold the sides so as to make a box without a top. Find the size of the corner square that maximizes the volume of the box."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "The base of the box has sidelength $12 - 2x$ and the height is $x$, so the volume is $V = x(12 - 2x)^{2}$."
+    },
+    {
+     "p": "At the endpoints $x = 0$ and $x = 6$, the volume is 0, so the maximum must occur in between at a critical point."
+    },
+    {
+     "p": "$V' = (12 - 2x)^{2} + x(2)(12 - 2x)(-2) = (12 - 2x)(12 - 2x - 4x) = (12 - 2x)(12 - 6x)$."
+    },
+    {
+     "img": "g1/p11-1.png",
+     "w": 75,
+     "h": 61
+    },
+    {
+     "p": "It follows that $V' = 0$ when $x = 6$ or $x = 2$. At the endpoints $x = 0$ and $x = 6$ the volume is 0, so the maximum occurs when $x = 2$."
+    }
+   ]
+  },
+  {
+   "n": "2C-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "You are asked to design a rectangular barnyard enclosing 20,000 square feet with fencing on three sides and the wall of a long barn on the fourth. Find the shortest length of fence needed."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2C-2-p11.png",
+     "w": 369,
+     "h": 131
+    }
+   ]
+  },
+  {
+   "n": "2C-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "What is the largest value of the product $xy$, if $x$ and $y$ are related by $x + 2y = a$, where $a$ is a fixed positive constant?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "We have $y = (a - x)/2$, so $xy = x(a - x)/2$. At the endpoints $x = 0$ and $x = a$, the product $xy$ is zero (and beyond it is negative). Therefore, the maximum occurs at a critical point. Taking the derivative,"
+    },
+    {
+     "p": "$\\frac{d}{dx} \\frac{x(a - x)}{2} = \\frac{a - 2x}{2}$; this is 0 when $x = a/2$."
+    }
+   ]
+  },
+  {
+   "n": "2C-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The U. S. Postal Service accepts boxes whose length plus girth equals at most 108 inches. What are the dimensions of the box of largest volume that is accepted? What is its volume (in cubic feet)? (\"Length\" is the longest of the three dimensions and \"girth\" is the sum of the lengths of the four sides of the face perpendicular to the length, that is, the \"waist-line\" measurement of the box. Note that the best shape for this rectangular face perpendicular to the length must be a square.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "If the length is $y$ and the cross-section is a square with sidelength $x$, then $4x + y = 108$. Therxefore the volume is $V = x^{2}y = 108x^{2} - 4x^{3}$. Find the critical points:"
+    },
+    {
+     "p": "$$(108x^{2} - 4x^{3})' = 216x - 12x^{2} = 0 \\Rightarrow x = 18\\text{ or }x = 0$$",
+     "display": true
+    },
+    {
+     "p": "The critical point $x = 18 (3/2$ ft.) corresponds to the length $y = 36 (3$ ft.), giving therefore a volume of $(3/2)^{2}(3) = 27/4 = 6.75$ cubic feet."
+    },
+    {
+     "p": "The endpoints are $x = 0$, which gives zero volume, and when $x = y$, i.e., $x = 9/5$ feet, which gives a volume of $(9/5)^{3}$ cubic feet, which is less than 6 cubic feet. So the critical point gives the maximum volume."
+    }
+   ]
+  },
+  {
+   "n": "2C-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the proportions of the open (i.e., topless) cylindrical can having the largest volume inside, among all those having a fixed surface area $A$. (Use as the variable the radius $r.)$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2C-5-p11.png",
+     "w": 369,
+     "h": 111
+    },
+    {
+     "img": "g1/q2C-5-p12.png",
+     "w": 369,
+     "h": 281
+    }
+   ]
+  },
+  {
+   "n": "2C-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "What are the largest and the smallest possible values taken on by the product of three distinct numbers spaced so the central number $x$ has distance 1 from each of the other two, if $x$ lies between $-2$ and 2 inclusive?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "To get max and min of $y = x(x + 1)(x - 1) = x^{3} - x$, first find the critical points: $y' = 3x^{2} - 1 = 0$ if $x = \\pm \\surd \\frac{1}{3}$;"
+    },
+    {
+     "p": "$y( \\frac{1}{\\sqrt{3}}) = \\frac{1}{\\sqrt{3}} (-\\frac{2}{3}) = \\frac{-\\surd}{3}\\frac{2}{3}$, rel. min. $y(-\\surd \\frac{1}{3}) = -\\surd \\frac{1}{3} (-\\frac{2}{3}) = \\frac{2}{3\\sqrt{3}}$, rel. max."
+    },
+    {
+     "p": "Check endpoints: $y(2) = 6 \\Rightarrow 2$ is absolute max.; $y(-2) = -6 \\Rightarrow -2$ is absolute min."
+    },
+    {
+     "p": "(This is an endpoint problem. The endpoints should be tested unless the physical or geometric picture already makes clear whether the max or min occurs at an endpoint.)"
+    }
+   ]
+  },
+  {
+   "n": "2C-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the dimensions of the rectangle of largest area that can be inscribed in a semicircle of radius $a$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Let $r$ be the radius, which is fifixed. Then the height $a$ of the rectangle is in the interval $0 \\leq a \\leq r$. Since $b = 2\\sqrt{r^{2} - a^{2},}$ the area $A$ is given in terms of $a$ by"
+    },
+    {
+     "img": "g1/p12-1.png",
+     "w": 75,
+     "h": 12
+    },
+    {
+     "p": "The value of $A$ at the endpoints $a = 0$ and $a = r$ is zero, so the maximum occurs at a critical point in between."
+    },
+    {
+     "img": "g1/p13-1.png",
+     "w": 359,
+     "h": 68
+    },
+    {
+     "img": "g1/p13-2.png",
+     "w": 213,
+     "h": 13
+    },
+    {
+     "p": "Thus $dA/da = 0$ implies $2r^{2} = a^{2}$, from which we get $a = \\frac{r}{\\sqrt{2}}, b = r\\sqrt{2.}$ (We use the positive square root since $a \\geq 0$. Note that $b = 2a$ and $A = r^{2}.)$"
+    }
+   ]
+  },
+  {
+   "n": "2C-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the dimensions of the rectangle of largest area in a right triangle, if"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "the sides of the rectangle are parallel to the legs;"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Letting $a$ and $b$ be the two legs and $x$ and $y$ the sides of the rectangle, we have $y = -(b/a)(x - a)$ and the area $A = xy = (b/a)x(a - x)$. The area is zero at the two ends $x = 0$ and $x = a$, so the maximum occurs in between at a critical point:"
+      },
+      {
+       "p": "$$A' = (b/a)((a - x) - x); = 0\\text{ if }x = a/2$$",
+       "display": true
+      },
+      {
+       "p": "Thus $y = (b/a)(a - x) = b/2$ and $A = ab/4$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "one side of the rectangle is parallel to the hypotenuse. (Of the two placements, which gives the rectangle of larger area?)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2C-8b-p13.png",
+       "w": 369,
+       "h": 338
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2C-9",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A light ray reflected in a mirror travels the shortest distance between its starting point and its endpoint. Suppose the ray starts at (0,1), and ends at the point $(a, b)$ inside the first quadrant, and being reflected when it hits the $x$-axis (at the point $(x, 0)$, say). Show that the two line segments forming its path make equal angles with the $x$-axis, i.e., \"the angle of incidence equals the angle of reflection.\""
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "The distance is"
+    },
+    {
+     "img": "g1/p14-1.png",
+     "w": 135,
+     "h": 12
+    },
+    {
+     "p": "The endpoint values are $x \\to \\pm \\infty$ , for $L \\to \\infty$ , so the minimum value is at a critical point."
+    },
+    {
+     "img": "g1/p14-2.png",
+     "w": 359,
+     "h": 87
+    },
+    {
+     "img": "g1/p14-3.png",
+     "w": 307,
+     "h": 27
+    },
+    {
+     "p": "Thus $L' = 0$ implies (after squaring both sides), $x^{2}((a - x)^{2} + b^{2}) = (a - x)^{2}(x^{2} + 1)$, or $x^{2}b^{2} = (a - x)^{2}$ or $bx = (a - x)$; we used the positive square roots since both sides must be positive. Rewriting the above, $\\frac{b}{a - x} = \\frac{1}{x}$, or tan $\\theta_{1} =$ tan $\\theta_{2}$. Thus $\\theta_{1} = \\theta_{2}$: the angle of incidence equals the angle of reflection."
+    }
+   ]
+  },
+  {
+   "n": "2C-10",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A swimmer is on the beach at a point $A$. The closest point on the straight shoreline to $A$ is called $P$. There is a platform in the water at $B$, and the nearest pont on the shoreline to $B$ is called $Q$. Suppose that the distance from $A$ to $P$ is 100 meters, the distance from $B$ to $Q$ is 100 meters and the distance from $P$ to $Q$ is $a$ meters. Finally suppose that the swimmer can run at 5 meters per second on the beach and swim at 2 meters per second in the water. B"
+    },
+    {
+     "p": "100"
+    },
+    {
+     "p": "P $x \\alpha \\beta x$ Q"
+    },
+    {
+     "p": "$$a$$",
+     "display": true
+    },
+    {
+     "p": "100"
+    },
+    {
+     "p": "A"
+    },
+    {
+     "p": "Show that the path the swimmer should take to get to the platform in the least time has the property that the ratio of the sines of the angles the path makes with the shoreline is the reciprocal of the ratio of the speeds in the two regions:"
+    },
+    {
+     "p": "$$\\frac{sin \\vec{a}}{sin \\vec{b}} = \\frac{5}{2}$$",
+     "display": true
+    },
+    {
+     "p": "(In optics, this is known as Snell's law describing the path taken by a light ray through two successive media. Snell discovered experimentally that the above ratio of sines was a constant, not depending on the starting point and endpoint of the path. This problem shows that Snell's law follows from a minimum principle: the light ray takes the path minimizing its total travel time. The ratio of sines is constant since it depends only on the speeds of light in the two media.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula curta solta",
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2C-10-p6.png",
+     "w": 354,
+     "h": 286
+    },
+    {
+     "img": "e1/q2C-10-p7.png",
+     "w": 354,
+     "h": 128
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2C-10-p14.png",
+     "w": 321,
+     "h": 246
+    }
+   ]
+  },
+  {
+   "n": "2C-11",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A beam with a rectangular cross-section is cut from a log with a circular cross-section. The strength $S$ of the beam is proportional to the horizontal dimension $x$ of the rectangle and to the cube of the vertical dimension $y$ of the rectangle, $S = cxy^{3}$. Find the ratio $y/x$ which gives the strongest beam."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2C-11-p14.png",
+     "w": 165,
+     "h": 17
+    },
+    {
+     "img": "g1/q2C-11-p15.png",
+     "w": 369,
+     "h": 167
+    }
+   ]
+  },
+  {
+   "n": "2C-12",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "You are going to mount a light on the wall behind your desk. The light at $S$ illuminates a point $P$ on the horizontal surface of the desk with an intensity inversely proportional to the square of the distance from $P$ to $S$ and proportional to sine of the angle between the ray from $P$ to $S$ and the horizontal surface. Fix a point $P$ on the desk 1 foot from the wall. Find the height of $S$ above the desk for which the intensity at $P$ is largest."
+    },
+    {
+     "img": "e1/p7-1.png",
+     "w": 344,
+     "h": 78
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "The intensity is proportional to"
+    },
+    {
+     "p": "$$y = \\frac{sin \\theta}{1 + x^{2}} = \\frac{x/\\sqrt{1 + x^{2}}}{1 + x^{2}} = x(1 + x^{2})^{-3/2}$$",
+     "display": true
+    },
+    {
+     "p": "Endpoints: $y(0) = 0$ and $y \\to 0$ as $x \\to \\infty$ , so the maximum will be at a critical point. Critical points satisfy"
+    },
+    {
+     "img": "g1/p15-2.png",
+     "w": 359,
+     "h": 78
+    },
+    {
+     "p": "$$y' = (1 - 2x^{2})(1 + x^{2})^{-5/2} = 0 \\Rightarrow 1 - 2x^{2} = 0 \\Rightarrow x = 1/\\sqrt{2}$$",
+     "display": true
+    },
+    {
+     "p": "The best height is $1/\\sqrt{2}$ feet above the desk. (It's not worth it. Use a desk lamp.)"
+    }
+   ]
+  },
+  {
+   "n": "2C-13",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "An airline will fill 100 seats of its aircraft at a fare of \\$200. For every \\$5 increase in the fare, the plane loses two passengers. For every decrease of \\$5, the company gains two passengers. What price maximizes revenue?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Let $p$ denote the price in dollars. Then there will be 100+$(2/5)(200 -p)$ passengers. Therefore the total revenue is"
+      },
+      {
+       "p": "$$R = p(100 + (2/5)(200 - p) = p(180 - (2/5)p)$$",
+       "display": true
+      },
+      {
+       "p": "At the \"ends\" zero price $p = 0$, and no passengers $p = (5/2)180 = 450$, the revenue is zero. So the maximum occurs in between at a critical point. $R' = (180 - (2/5)p) - (2/5)p = 180 - (4/5)p = 0 \\Rightarrow p = (5/4)180 =$ \\$225"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "A utility company has a small power plant that can produce $x$ kilowatt hours of electricity daily at a cost of $10 - x/10^{5}$ cents each for $0 \\leq x \\leq 8 \\times 10^{5}$. Consumers will use $10^{5}(10 - p/2)$ kilowatt hours of electricity daily at a price of $p$ cents per kilowatt hour. What price should the utility charge to maximize its profit?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2C-13b-p15.png",
+       "w": 366,
+       "h": 84
+      },
+      {
+       "img": "g1/q2C-13b-p16.png",
+       "w": 369,
+       "h": 261
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2C-14",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the maximum value and the location of the maximum for the following functions. (When $a > 0, x^{a}$ ln $x 0$ as $x 0^{+}$. This follows from"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": []
+  },
+  {
+   "n": "2G-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "or from L'Hospital's rule in Section $\\overrightarrow{6A.)} \\overrightarrow{a)} x^{2}$ ln(1$/x)$, for $x > 0$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$-x$ ln(2$x)$, for $x > 0$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2C-15",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the minimum of $(x + 1)e^{-x}$, for $0 \\leq x < \\infty$ ."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2C-15-p16.png",
+     "w": 369,
+     "h": 43
+    },
+    {
+     "img": "g1/q2C-15-p17.png",
+     "w": 68,
+     "h": 173
+    }
+   ]
+  },
+  {
+   "n": "2D-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Consider a supersonic airplane wing with a cross-section in the shape of a thin diamond (rhombus) in which the half-angle of the opening is $\\tau$ and the attack angle $\\vec{a}$. (The attack angle is the angle that the long diagonal of the rhombus makes with the horizontal direction of motion of the plane. See the picture.) The ratio of the lift to the drag is given by the formula (from the Course 16 Unified Engineering notes on aerodynamics):"
+    },
+    {
+     "p": "$$\\alpha = \\tau$$",
+     "display": true
+    },
+    {
+     "p": "direction of plane"
+    },
+    {
+     "p": "lift $= \\frac{\\vec{a}}{\\vec{a}^{2} + \\tau^{2}}$ drag"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "For a given fixed $\\tau$ , find the best attack angle $\\vec{a}$, that is, the one the maximizes the ratio of lift to drag."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the minimum (largest negative) ratio. (This attack angle could be used in the design of a winged car attempting to break the sound barrier, to prevent it from flying.)"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2D-1-p8.png",
+     "w": 354,
+     "h": 181
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2D-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Consider a paper cup in the shape of a cone obtained by rotating the line segment $y = ax, 0 \\leq x \\leq r$, around the $y$ axis. For which slope $a \\geq 0$ will the paper cup hold the most water, assuming its surface area $A$ is held fixed. (Use the formulas: volume $V = \\frac{1}{3}$ (area of the base)(height); $A = \\pi r^{2}\\sqrt{1 + a^{2}}.)$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2D-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Coffee in a cup at a temperature $y(t_{0})$ at time $t_{0}$ in a room at tem perature $a$ cools according to the formula (derived in 3F-4); assume $a = 20^{\\circ}$C and $c = 1/10$:"
+    },
+    {
+     "p": "$$y(t) = (y(t_{0}) - a)e^{-c(t-t0)} + a, t \\geq t_{0}$$",
+     "display": true
+    },
+    {
+     "p": "You are going to add milk so that the cup has 10% milk and 90% coffee. If the coffee has temperature $T_{1}$ and the milk $T_{2}$, the temperature of the mixture will be $\\frac{9}{10}T_{1} + \\frac{1}{10}T_{2}$."
+    },
+    {
+     "p": "The coffee temperature is $100^{\\circ}$C at time $t = 0$, and you will drink the mixture at time $t = 10$. The milk is refrigerated at $5^{\\circ}$C. What is the best moment to add the milk so that the coffee will be hottest when you drink it?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "The milk will be added at some time $t_{1}$, such that $0 \\leq t_{1} \\leq 10$. In the interval $0 \\leq t < t_{1}$ the temperature is"
+    },
+    {
+     "p": "$$y(t) = (100 - 20)e^{-(t-0)/10} + 20 = 80e^{-t/10} + 20$$",
+     "display": true
+    },
+    {
+     "p": "Therefore,"
+    },
+    {
+     "p": "$$T_{1} = y(t_{1}^{-}) = 80e^{-t1/10} + 20$$",
+     "display": true
+    },
+    {
+     "p": "We are adding milk at a temperature $T_{2} = 5$, so the temperature as we start the second interval of cooling is"
+    },
+    {
+     "p": "$$\\frac{9}{10}T_{1} + \\frac{1}{10}T_{2} = 72e^{-t1/10} + 18 + \\frac{1}{2}$$",
+     "display": true
+    },
+    {
+     "p": "Let $Y (t)$ be the coffee temperature in the interval $t_{1} \\leq t \\leq 10$. We have just calculated $Y (t_{1})$, so"
+    },
+    {
+     "p": "$5Y (t) = (Y (t_{1}) - 20)e^{-(t-t1)/10} + 20 = (72e^{-t1/10} - 1.5)e^{-(t-t1)/10} + 20$ The final temperature is"
+    },
+    {
+     "img": "g1/p17-3.png",
+     "w": 336,
+     "h": 13
+    },
+    {
+     "p": "We want to maximize this temperature, so we look for critical points:"
+    },
+    {
+     "p": "$$\\frac{dT}{dt_{1}} = -(1.5/10e)e^{t1/10} < 0$$",
+     "display": true
+    },
+    {
+     "p": "Therefore the function $T (t_{1})$ is decreasing and its maximum occurs at the left endpoint: $t_{1} = 0$."
+    },
+    {
+     "p": "Conclusion: The coffee will be hottest if you put the milk in as soon as possible."
+    }
+   ]
+  },
+  {
+   "n": "2D-4",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Show that the shortest collection of roads joining four towns at four corners of a unit square is given by roads that meet at $120^{\\circ}$ angles. Use the variable $x$ as indicated on the picture."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the shortest collection of roads in the shape indicated for towns at the four corners of a rectangle. Write down the formula for the length of the roads as a function of $a$. Hint: Sometimes the answer is that the roads meet at $120^{\\circ}$ angles, but only for certain values of $a$."
+      },
+      {
+       "img": "e1/p9-1.png",
+       "w": 259,
+       "h": 80
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2D-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the triangle of smallest area in the half-plane to the right of the $y$-axis whose three sides are respectively segments of the $x$-axis, the diagonal $y = x$, and a line through (2,1)."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2D-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the point of the ellipse"
+    },
+    {
+     "p": "$$73x^{2} - 72xy + 52y^{2} = 2500$$",
+     "display": true
+    },
+    {
+     "p": "closest to (0,0)."
+    },
+    {
+     "p": "Hint: Use implicit differentiation to find a quadratic equation in $x$ and $y$. This is the type of equation (known as a homogeneous equation) that you faced in Problem 2C-11. The homogeneous form makes it possible to solve for $y/x$. You can then find $(x, y)$ by substituting in the original equation."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2D-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find two positive numbers whose product is 10 and whose sum is as large as possible."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2E-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A robot going 20 ft/sec passes under a street light that is 30 feet above the ground. If the robot is 5 feet tall, how fast is the tip of its shadow moving two seconds after passing under the street light? How fast is the length of the shadow increasing at that moment?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2E-1-p18.png",
+     "w": 369,
+     "h": 221
+    },
+    {
+     "img": "g1/q2E-1-p19.png",
+     "w": 369,
+     "h": 163
+    }
+   ]
+  },
+  {
+   "n": "2E-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A beacon light 4 miles offshore (measured perpendicularly from a straight shoreline) is rotating at 3 revolutions per minute. How fast is the spot of light on the shoreline moving when the beam makes an angle of $60^{\\circ}$ with the shoreline?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2E-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Two boats are travelling at 30 miles/hr, the first going north and the second going east. The second crosses the path of the first 10 minutes after the first one was there. At what rate is their distance increasing when the second has gone 10 miles beyond the crossing point?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "The distance is $x = 10, y = 15, x' = 30$ and $y' = 30$. Therefore,"
+    },
+    {
+     "img": "g1/p19-1.png",
+     "w": 288,
+     "h": 37
+    },
+    {
+     "p": "(14) = $150/\\sqrt{13}$miles per hour"
+    }
+   ]
+  },
+  {
+   "n": "2E-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Sand is pouring on a conical pile at a rate of 12 m$^{3}$ per minute, in such a way that the diameter of the base of the pile is always $3/2$ the height. Find the rate at which the height is increasing when the pile is 2 m tall."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$V = (\\pi /3)r^{2}h$ and $2r = d = (3/2)h$ implies $h = (4/3)r$."
+    },
+    {
+     "img": "g1/p19-2.png",
+     "w": 57,
+     "h": 82
+    },
+    {
+     "p": "Therefore,"
+    },
+    {
+     "p": "$$V = (\\pi /3)r^{2}h = (4\\pi /9)r^{3}$$",
+     "display": true
+    },
+    {
+     "p": "Moreover, $dV/dt = 12$, hence"
+    },
+    {
+     "p": "$$\\frac{dV}{dt} = \\frac{dV}{dr} \\frac{dr}{dt} = \\frac{d}{dr} (4\\pi /9)r^{3}) \\frac{dr}{dt} = (4\\pi /3)r^{2}(12) = 16\\pi r^{2}$$",
+     "display": true
+    },
+    {
+     "p": "When $h = 2, r = 3/2$, so that $\\frac{dV}{dt} = 36\\pi$ m$^{3}/$minute. 2E-5 The information is"
+    },
+    {
+     "img": "g1/p19-3.png",
+     "w": 359,
+     "h": 91
+    },
+    {
+     "p": "$$x^{2} + 10^{2} = z^{2}, z' = 4$$",
+     "display": true
+    },
+    {
+     "p": "We want to evaluate $x'$ at $x = 20$. (Derivatives are with respect to time.) Thus"
+    },
+    {
+     "p": "$$2xx' = 2zz'\\text{ and }z^{2} = 20^{2} + 10^{2} = 500$$",
+     "display": true
+    },
+    {
+     "p": "Therefore,"
+    },
+    {
+     "img": "g1/p20-1.png",
+     "w": 359,
+     "h": 88
+    },
+    {
+     "p": "$$x' = (zz')/x = 4\\sqrt{500}/20 = 2\\sqrt{5}$$",
+     "display": true
+    }
+   ]
+  },
+  {
+   "n": "2E-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A person walks away from a pulley pulling a rope slung over it. The rope is being held at a height 10 feet below the pulley. Suppose that the weight at the opposite end of the rope is rising at 4 feet per second. At what rate is the person walking when s/he is 20 feet from being directly under the pulley?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2E-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "An airplane passes directly over a boat at a height of 2 miles. The plane is going north at 400 mph and does not change its altitude. The boat is going west at 50 mph. How rapidly is their distance from each other increasing after one hour?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$x' = 50$ and $y' = 400$ and"
+    },
+    {
+     "p": "$$z^{2} = x^{2} + y^{2} + 2^{2}$$",
+     "display": true
+    },
+    {
+     "p": "The problem is to evaluate $z'$ when $x = 50$ and $y = 400$. Thus"
+    },
+    {
+     "img": "g1/p20-2.png",
+     "w": 359,
+     "h": 92
+    },
+    {
+     "p": "$$2zz' = 2xx' + 2yy' \\Rightarrow z' = (xx' + yy')/z$$",
+     "display": true
+    },
+    {
+     "p": "and $z = \\sqrt{50^{2} + 400^{2} + 4} = \\sqrt{162504.}$ So $z' = 162500/\\sqrt{162504} \\approx$ 403mph."
+    },
+    {
+     "p": "(The fact that the plane is 2 miles up rather than at sea level changes the answer by only about $4/1000$. Even the boat speed only affects the answer by about 3 miles per hour.)"
+    }
+   ]
+  },
+  {
+   "n": "2E-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A trough is filled with water at a rate of 1 cubic meter per second. The trough has a trapezoidal cross section with the lower base of length half a meter and one meter sides opening outwards at an angle of $45^{\\circ}$ from the base. The length of the trough is 4 meters. What is the rate at which the water level $h$ is rising when $h$ is one half meter?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2E-7-p20.png",
+     "w": 283,
+     "h": 113
+    },
+    {
+     "img": "g1/q2E-7-p21.png",
+     "w": 369,
+     "h": 47
+    }
+   ]
+  },
+  {
+   "n": "2E-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "One ship is sailing east at 60km an hour and another is sailing south at 50km an hour. The slower ship crosses the path of the faster ship at noon when the faster ship was there one hour earlier. Find the time at which the two ships were closest to each other."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2E-8-p21.png",
+     "w": 369,
+     "h": 278
+    }
+   ]
+  },
+  {
+   "n": "2E-9",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A girl slides down a slide in the shape of the parabola $y = (x - 1)^{2}$ for $0 \\leq x \\leq 1$. Her vertical speed is $dy/dt = -y(1 - y)$. Find her horizontal speed $dx/dt$ when $y = 1/2$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$dy/dt = 2(x- 1)dx/dt$. Notice that in the range $x < 1, x- 1$ is negative and so $(x - 1) = -\\sqrt{y.}$ Therefore,"
+    },
+    {
+     "p": "$dx/dt = (1/2(x - 1))(dy/dt) = -(1/2\\sqrt{y})(dy/dt) = +(\\sqrt{y})(1 - y)/2 = 1/4\\sqrt{2}$"
+    },
+    {
+     "p": "Method 2: Doing this directly turns out to be faster:"
+    },
+    {
+     "p": "$$x = 1 - \\sqrt{y} \\Rightarrow dx/dt = 1 - (1/2)y^{-1/2}dy/dt$$",
+     "display": true
+    },
+    {
+     "p": "and the rest is as before."
+    }
+   ]
+  },
+  {
+   "n": "2E-10",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Oil spreads on a frying pan so that its radius is proportional to $t^{1/2}$, where $t$ represents the time from the moment when the oil is poured. Find the rate of change $dT/dt$ of the thickness $T$ of the oil."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "$r = Ct^{1/2}$. The implicit assumption is that the volume of oil is constant: $\\pi r^{2}T = V$ or $r^{2}T = (V/\\pi ) =$ const Therefore, differentiating with respect to time $t$,"
+    },
+    {
+     "p": "$$(r^{2}T)' = 2rr'T + r^{2}T' = 0 \\Rightarrow T' = -2r'/r$$",
+     "display": true
+    },
+    {
+     "p": "But $r' = (1/2)Ct^{-1/2}$, so that $r'/r = 1/2t$. Therefore"
+    },
+    {
+     "p": "$$T' = -1/t$$",
+     "display": true
+    },
+    {
+     "p": "(Although we only know the rate of change of $r$ up to a constant of proportionality, we can compute the absolute rate of change of $T.)$"
+    }
+   ]
+  },
+  {
+   "n": "2F-1",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Graph the function $y =$ cos $x - x$. Show using $y'$ that there is exactly one root to the equation cos $x = x$, and give upper and lower bounds on the root."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y' = -$ sin $x- 1 \\leq 0$. Also, $y' < 0$ except at a discrete list of points (where sin $x = -1)$. Therefore $y$ is strictly decreasing, that is, $x_{1} < x_{2} \\Rightarrow y(x_{1}) < y(x_{2})$. Thus $y$ crosses zero only once."
+      },
+      {
+       "p": "Upper and lower bounds for $z$ such that $y(z) = 0$:"
+      },
+      {
+       "p": "$y(0) = 1$ and $y(\\pi /2) = -\\pi /2$. Therefore, $0 < z < \\pi /2$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Use Newton's method to find the root to 3 decimal places."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$x_{n+1} = x_{n} -$ (cos $x_{n} - x_{n})/$(sin $x_{n} + 1)$"
+      },
+      {
+       "p": "$(15) x_{1} = 1, x_{2} =.750363868$, $(16) x_{3} =.739112891, x_{4} =.739085133$"
+      },
+      {
+       "p": "Accurate to three decimals at $x_{3}$, the second step. Answer.739."
+      },
+      {
+       "img": "g1/p22-1.png",
+       "w": 359,
+       "h": 133
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Another way to find the root of cos $x = x$ is to use what is called the fixed point method. Starting with the value $z_{1} = 1$, press the cosine key on your calculator until the answer stabilizes, i.e., until $z_{n+1} =$ cos $z_{n}$. How many iterations do you need until the first nine digits stabilize? Which method takes fewer steps?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2F-1c-p22.png",
+       "w": 369,
+       "h": 162
+      },
+      {
+       "img": "g1/q2F-1c-p23.png",
+       "w": 369,
+       "h": 362
+      },
+      {
+       "img": "g1/q2F-1c-p24.png",
+       "w": 369,
+       "h": 483
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2F-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Graph the function"
+    },
+    {
+     "p": "$$y = 2x - 4 + \\frac{1}{(x - 1)^{2}} -\\infty < x < \\infty$$",
+     "display": true
+    },
+    {
+     "p": "In particular, count how many times $y$ vanishes. (In math jargon, \"vanishes\" means $y = 0$, not $y \\to \\infty$ . Another name for the values of $x$ at which $y = 0$ is \"the zeros\" of $y.)$ Give reasons, based on the sign of $y'$, that the zeros you have found must be there and that there cannot be any more. (For example, \"There must be exactly one zero in the interval $(-\\infty ,-1)$ because. . ..\")"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2F-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Same problem as 2 for $y = x^{2} + x^{-1}$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2F-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The equation $x^{5} -x = x(x^{2} - 1)(x^{2}+1) = 0$ has three roots, $x = 0, 1,-1$. How many roots does the equation $x^{5} - x - 1/2 = 0$ have?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "From the graph, $x^{5} -x-c = 0$ has three roots for any small value of $c$. The value of $c$ gets too large if it exceeds the local maximum of $x^{5} - x$ labelled. To calculate that local maximum, consider $y' = 5x^{4}-1 = 0$, with solutions $x = \\pm 5^{-1/4}$. The local maximum is at $x = -5^{-1/4}$ and the value is"
+    },
+    {
+     "p": "$$(-5^{-1/4})^{5} - (-5^{-1/4}) = 5^{-1/4} - 5^{-5/4} \\approx .535$$",
+     "display": true
+    },
+    {
+     "p": "Since$. 535 > 1/2$, there are three roots."
+    },
+    {
+     "img": "g1/p25-1.png",
+     "w": 359,
+     "h": 68
+    }
+   ]
+  },
+  {
+   "n": "2F-5",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find an initial value $x_{1}$ for the zero of $x - x^{3} = 0$ for which Newton's method gives an undefined quantity for $x_{2}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$$x_{n+1} = x_{n} - f (x_{n})/f'(x_{n})$$",
+       "display": true
+      },
+      {
+       "p": "So $x_{2}$ is undefined if $f'(x_{1}) = 0$, that is $x_{1} = \\pm 1/\\sqrt{3.}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find an initial value $x_{1}$ for the zero of $x-x^{3} = 0$ such that Newton's method bounces back and forth between two values forever. Hint: use symmetry."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2F-5b-p25.png",
+       "w": 343,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Find the largest interval around each of the roots of $x - x^{3} = 0$ such that Newton's method converges to that root for every initial value $x_{1}$ in the interval. Hint: Parts (a) and (b) should help."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Answers: If $x_{1} < -1/\\sqrt{3,}$ then $x_{n} \\to -1$. If $x_{1} > 1/\\sqrt{3,}$ then $x_{n} \\to 1$. If $-1/\\sqrt{5} < x_{1} < 1/\\sqrt{5,}$ then $x_{n} \\to 0$. This can be found experimentally, numerically. For a complete analysis and proof one needs the methods of an upper level course like 18.100."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2F-6",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Suppose that a company manufacturing cylindrical beakers (of uniform thickness on the bottom and the sides) is willing to use up to 10 percent more glass than the minimum required to hold a particular volume. What proportions are permitted? (You will need to use Newton's method.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2F-6a-p25.png",
+       "w": 369,
+       "h": 186
+      },
+      {
+       "img": "g1/q2F-6a-p26.png",
+       "w": 369,
+       "h": 266
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "What is the connection with Problem 2C-5?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "The connection with Problem 2C-5 is that the minimum area $r = h$ is not entirely obvious, and not just because we are dealing with glass beakers instead of tin cans. In 2C/5 the area is fixed whereas here the volume is held fixed. But because one needs a larger surface area to hold a larger volume, maximizing volume with fixed area is the same problem as minimizing surface area with fixed volume. This is an important so-called duality principle often used in optimization problems. In Problem 2C-5 the answer was $r = h$, which is the proportion with minimum surface area as confirmed in part (a)."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2F-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the point of the curve $y =$ cos $x$ closest to the origin. (Minimize the square of the distance to the origin; prove you've found all the critical points.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2F-7-p27.png",
+     "w": 369,
+     "h": 370
+    }
+   ]
+  },
+  {
+   "n": "2G-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "For each of these functions, on the indicated interval, find explicitly the point $c$ whose existence is predicted by the Mean-value Theorem; if there is more than one such $c$, find all of them. Use the form (1)."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$x^{2}$ on [0,1]"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "slope chord = $1; f'(x) = 2x \\Rightarrow f'(c) = 1$ if $c = \\frac{1}{2}$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "ln $x$ on [1,2] (c) $x^{3} - x$ on $[-2, 2]$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "slope chord = ln$2; f'(x) = \\frac{1}{x} \\Rightarrow f'(c) =$ ln 2 if $c = \\frac{1}{ln 2}$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2G-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Using the form (2), show that"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "sin $x < x$, if $x > 0$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (x) = f (a) + f'(c)(x - a)$; Take $a = 0; f (\\xi ) =$ sin $x, f'(x) =$ cos $x$"
+      },
+      {
+       "p": "$\\Rightarrow f (x) =$ 0 + cos $c \\cdot x \\Rightarrow$ sin $x < x$ (since cos $c < 1$ for $0 < c < 2\\pi )$"
+      },
+      {
+       "p": "Thus the inequality is valid for $0 < x \\leq 2\\pi$ ; since the function is periodic, it is also valid for all $x > 0$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$$\\sqrt{1 + x} < 1 + x/2\\text{ if }x > 0$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2G-2b-p28.png",
+       "w": 369,
+       "h": 134
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2G-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The Mass Turnpike is 121 miles long. An SUV enters at the Boston end at noon and and emerges at the west end at 1:50. Prove that at some moment during the trip it was speeding (i.e., over the 65 mph limit)."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2G-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "A polynomial $p(x)$ of degree $n$ has at most $n$ distinct real roots, but it may have fewer — for instance, $x^{2} + 1$ has no real roots at all. However, show that if $p(x)$ does have $n$ distinct real roots, then $p'(x)$ has $n - 1$ distinct real roots."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "According to Rolle's Theorem (Thm.1 p.800: an important special case of the M.V.T, and a step in its proof), between two roots of $p(x)$ lies at least one root of $p'(x)$. Therefore, between the $n$ roots $a_{1}, . . . , a_{n}$ of $p(x)$, lie at least $n - 1$ roots of $p'(x)$. There are no more than $n- 1$ roots, since degree of $p'(x) = n- 1$; thus $p'(x)$ has exactly $n - 1$ roots."
+    }
+   ]
+  },
+  {
+   "n": "2G-5",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Suppose $f^{''}(x)$ exists on an interval $I$ and $f (x)$ has a zero at three distinct points $a < b < c$ on $I$. Show there is a point $p$ on $[a, c]$ where $f^{''}(p) = 0$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Illustrate part (a) on the cubic $f (x) = (x - a)(x - b)(x - c)$."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2G-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Using the form (2) of the Mean-value Theorem, prove that on an interval $[a, b]$,"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$f'(x) > 0 \\Rightarrow f (x)$ increasing;"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Given two points $x_{i}$ such that $a \\leq x_{1} < x_{2} \\leq b$, we have $f (x_{2}) = f (x_{1}) + f'(c)(x_{2} - x_{1})$, where $x_{1} < c < x_{2}$."
+      },
+      {
+       "p": "Since $f'(x) > 0$ on $[a, b], f'(c) > 0$; also $x_{2} - x_{1} > 0$. Therefore $f (x_{2}) > f (x_{1})$, which shows $f (x)$ is increasing."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$f'(x) = 0 \\Rightarrow f (x)$ constant."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "We have $f (x) = f (a) + f'(c)(x - a)$ where $a < c < x$."
+      },
+      {
+       "p": "Since $f'(c) = 0, f (x) = f (a)$ for $a \\leq x \\leq b$, which shows $f (x)$ is constant on $[a, b]$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2G-6-p13.png",
+     "w": 354,
+     "h": 30
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2G-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "In what follows, use the following consequence of the Mean-value The orem:"
+    },
+    {
+     "p": "if $f (a) \\geq g(a)$ and $f'(x) > g'(x)$ for all $x > a$, then $f (x) > g(x)$ for all $x > a$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Starting with $e^{x} > 0$, show that for all $x > 0$, we have $e^{x} > 1$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Use the same method as in part (a) to show that $e^{x} > 1 + x$, and then from this deduce that $e^{x} > 1 + x + x^{2}/2$."
+      },
+      {
+       "p": "Remark This process can be continued. In the limit it leads to the infinite series which represents $e^{x}$:"
+      },
+      {
+       "p": "$$e^{x} = 1 + x + \\frac{x^{2}}{2!} + \\frac{x^{3}}{3!} + \\cdot \\cdot \\cdot$$",
+       "display": true
+      },
+      {
+       "p": "This infinite series can be used to define $e^{x}$, and it is a good way to compute it to high accuracy."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Show that for each number $n > 0$"
+      },
+      {
+       "p": "$nx^{1/n} <$ ln $x$ for $x > 1$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2G-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "An analogous principle to the one in 2G-7 can be used if $x < a$:"
+    },
+    {
+     "p": "if $f (a) \\geq g(a)$ and $f'(x) < g'(x)$ for all $x < a$, then $f (x) > g(x)$ for all $x < a$."
+    },
+    {
+     "p": "(Why did the inequalities get reversed when $x < a$? Draw a graph to see.)"
+    },
+    {
+     "p": "Use this principle with $f (x) =$ ln $x$ and $a = 1$ to show that"
+    },
+    {
+     "p": "ln $x > -nx^{-1/n}$ for $0 < x < 1, n > 0$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3A-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the differentials $df (x)$ of the following functions."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$d(x^{7} +$ sin1)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$7x^{6}dx. (d$(sin$1) = 0$ because sin1 is a constant.)"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$d\\sqrt{x}$ c) $d(x^{10} - 8x + 6)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$(1/2)x^{-1/2}dx$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$d(e^{3x}$ sin $x)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$(3e^{3x}$ sin $x + e^{3x}$ cos $x)dx$"
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Express $dy$ in terms of $x$ and $dx$ if $\\sqrt{x} + \\sqrt{y} = 1$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$(1/2\\sqrt{x)} dx + (1/2\\sqrt{y)} dy = 0$ implies"
+      },
+      {
+       "p": "$$dy = -\\frac{1/2\\sqrt{x}dx}{1/2\\sqrt{y}} = -\\surd \\frac{\\sqrt{y}}{x}dx = -\\frac{1 - \\sqrt{x}}{\\sqrt{x}}dx = 1 -\\surd \\frac{1}{x} dx$$",
+       "display": true
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3A-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the following indefinite integrals"
+    },
+    {
+     "img": "e2/p1-1.png",
+     "w": 335,
+     "h": 41
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$(2x^{4} + 3x^{2} + x + 8)dx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-2a-p1.png",
+       "w": 345,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$(2/5)x^{5} + x^{3} + x^{2}/2 + 8x + c$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\sqrt{x} + \\frac{1}{\\sqrt{x}} dx$ c) $\\sqrt{8 + 9x}dx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-2b-p1.png",
+       "w": 345,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$(2/3)x^{3/2} + 2x^{1/2} + c$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$x^{3}(1 - 12x^{4})^{1/8}dx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-2d-p1.png",
+       "w": 321,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Method 1 (slow way) Use the substitution: $u = 1 - 12x^{4}, du = -48x^{3}dx$."
+      },
+      {
+       "img": "g2/p2-1.png",
+       "w": 360,
+       "h": 16
+      },
+      {
+       "p": "Method 2 (guess and check): guess $(1 - 12x^{4})^{9/8}$;"
+      },
+      {
+       "p": "$$\\frac{d}{dx} (1 - 12x^{4})^{9/8} = \\frac{9}{8} (-48x^{3})(1 - 12x^{4})^{1/8} = -54(1 - 12x^{4})^{1/8}$$",
+       "display": true
+      },
+      {
+       "p": "So multiply the guess by $-\\frac{1}{54}$ to make the derivative come out right, getting the previous answer."
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$\\frac{x}{\\sqrt{8 - 2x^{2}}}dx$ f) $e^{7x}dx$"
+      },
+      {
+       "img": "e2/p1-2.png",
+       "w": 315,
+       "h": 29
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-2e-p1.png",
+       "w": 325,
+       "h": 58
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q3A-2e-p2.png",
+       "w": 369,
+       "h": 183
+      }
+     ]
+    },
+    {
+     "id": "g",
+     "partes": [
+      {
+       "p": "$Z 7x^{4}e^{x5}dx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-2g-p1.png",
+       "w": 325,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$(7/5)e^{x5} + c$"
+      }
+     ]
+    },
+    {
+     "id": "h",
+     "partes": [
+      {
+       "p": "$Z \\frac{e^{\\sqrt{x}}}{\\sqrt{x}}dx$ i) $Z \\frac{dx}{3x + 2}$"
+      },
+      {
+       "p": "j) $\\frac{x + 5}{x}dx$. k) $\\frac{x}{x + 5}dx$. (Write $\\frac{x}{x + 5} = 1 +....)$"
+      },
+      {
+       "img": "e2/p1-3.png",
+       "w": 160,
+       "h": 6
+      },
+      {
+       "p": "l) $\\frac{ln x}{x}dx$ m) $\\frac{dx}{x ln x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-2h-p1.png",
+       "w": 332,
+       "h": 70
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$2e^{\\sqrt{x}} + c$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3A-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the following indefinite integrals."
+    },
+    {
+     "img": "e2/p1-4.png",
+     "w": 350,
+     "h": 60
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "sin(5$x)dx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-3a-p1.png",
+       "w": 355,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$-(1/$5) cos(5$x) + c$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "sin($x$) cos($x)dx$ c) cos$^{2} x$ sin $xdx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-3b-p1.png",
+       "w": 355,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$(1/$2) sin$^{2} x + c$, coming from the substitution $u =$ sin $x$ or $-(1/$2) cos$^{2} x + c$, coming from the substitution $u =$ cos $x$. The two functions $(1/$2) sin$^{2} x$ and $-(1/$2) cos$^{2} x$ are not the same. Nevertheless the two answers given are the same. Why? (See 1J-1(m).)"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$\\frac{cos x}{sin^{3} x}dx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-3d-p1.png",
+       "w": 360,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$-(1/$2)(sin $x)^{-2} + c = -(1/$2) csc$^{2} x + c$"
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "sec$^{2}(x/5)dx$ f) tan$^{6} x$ sec$^{2} xdx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-3e-p1.png",
+       "w": 360,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$5$tan($x/5) + c$"
+      }
+     ]
+    },
+    {
+     "id": "g",
+     "partes": [
+      {
+       "p": "sec$^{9} x$ tan $xdx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3A-3g-p1.png",
+       "w": 93,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$u =$ sec $x, du =$ sec $x$ tan $xdx$,"
+      },
+      {
+       "img": "g2/p3-4.png",
+       "w": 249,
+       "h": 16
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3B-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate 4 6"
+    },
+    {
+     "img": "e2/p1-5.png",
+     "w": 136,
+     "h": 23
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$X n^{2}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3B-1a-p1.png",
+       "w": 146,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "1 + 4 + 9 + 16 = 30 b) 2 + 4 + 8 + 16 + 32 + 64 = 126"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$X 2^{j}$"
+      },
+      {
+       "p": "5 4"
+      },
+      {
+       "img": "e2/p1-6.png",
+       "w": 136,
+       "h": 23
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3B-1b-p1.png",
+       "w": 146,
+       "h": 63
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$X(-1)^{j}j^{2}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3B-1c-p1.png",
+       "w": 146,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$-1 + 4 - 9 + 16 - 25 = -15$"
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$X \\frac{1}{n}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3B-1d-p1.png",
+       "w": 146,
+       "h": 20
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$$1 + 1/2 + 1/3 + 1/4 = 25/12$$",
+       "display": true
+      },
+      {
+       "img": "g2/p4-1.png",
+       "w": 281,
+       "h": 31
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3B-1-p1.png",
+     "w": 166,
+     "h": 50
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3B-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find a $\\Sigma$ notation expression for"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$3 - 5 + 7 - 9 + 11 - 13$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3B-2a-p4.png",
+       "w": 291,
+       "h": 20
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$1 + 1/4 + 1/9 + \\cdot \\cdot \\cdot + 1/n^{2}$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "sin $x/n +$ sin(2$x/n) + \\cdot \\cdot \\cdot +$ sin(($n - 1)x/n) +$ sin $x$"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3B-2-p1.png",
+     "w": 182,
+     "h": 17
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3B-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Write the upper, lower, left and right Riemann sums for the following integrals, using 4 equal subintervals:"
+    },
+    {
+     "img": "e2/p2-1.png",
+     "w": 237,
+     "h": 26
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$x^{3}dx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3B-3a-p2.png",
+       "w": 247,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "upper sum = right sum = $(1/4)[(1/4)^{3}+(2/4)^{3}+(3/4)^{3}+(4/4)^{3}] = 15/128$"
+      },
+      {
+       "p": "lower sum = left sum = $(1/4)[0^{3} + (1/4)^{3} + (2/4)^{3} + (3/4)^{3}] = 7/128$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$x^{2}dx$ c) sin $xdx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3B-3b-p2.png",
+       "w": 247,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "left sum = $(-1)^{2}+0^{2}+1^{2}+2^{2} = 6$; right sum = $0^{2}+1^{2}+2^{2}+3^{2} = 14$;"
+      },
+      {
+       "p": "upper sum = $(-1)^{2} + 1^{2} + 2^{2} + 3^{2} = 15$; lower sum = $0^{2} + 0^{2} + 1^{2} + 2^{2} = 5$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3B-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate the difference between the upper and lower Riemann sums for the following integrals with $n$ intervals"
+    },
+    {
+     "img": "e2/p2-2.png",
+     "w": 148,
+     "h": 18
+    },
+    {
+     "p": "Does the difference tend to zero as $n$ tends to infinity?"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$x^{2}dx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3B-4a-p2.png",
+       "w": 158,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$(b/n)(b^{2} - 0) = b^{3}/n$. Yes, this tends to zero as $n \\to \\infty$ ."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$x^{3}dx$ 0 0"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3B-4b-p2.png",
+       "w": 158,
+       "h": 27
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$(b/n)(b^{3} - 0) = b^{4}/n$. Yes, this tends to zero as $n \\to \\infty$ ."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3B-4-p2.png",
+     "w": 340,
+     "h": 48
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3B-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate the limit, by relating it to a Riemann sum."
+    },
+    {
+     "img": "e2/p2-3.png",
+     "w": 312,
+     "h": 40
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 1,
+   "solucao": [
+    {
+     "img": "g2/q3B-5-p4.png",
+     "w": 293,
+     "h": 61
+    }
+   ]
+  },
+  {
+   "n": "3B-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate $e^{x}dx$ by using upper Riemann sums. 0"
+    },
+    {
+     "p": "Hints: The sum is a geometric progression. You will need the limit $_{n}$lim$_{\\to \\infty}n(e^{1/n}-$ 1). This can be evaluated putting $h = 1/n$ and relating the limit to the derivative of $e^{x}$ at $x = 0$."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3B-6-p2.png",
+     "w": 369,
+     "h": 84
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3B-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate the limit"
+    },
+    {
+     "p": "$$_{n}\\text{lim}_{\\to \\infty} \\frac{2^{b/n} + 2^{2b/n} + \\cdot \\cdot \\cdot + 2^{(n-1)b/n} + 2^{nb/n}}{n}$$",
+     "display": true
+    },
+    {
+     "p": "(See 3B-6.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3C-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the area under the graph of $y = 1/\\sqrt{x - 2}$ for $3 \\leq x \\leq 6$"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3C-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate"
+    },
+    {
+     "img": "e2/p2-4.png",
+     "w": 269,
+     "h": 26
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\sqrt{3x + 5}dx$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3C-2a-p2.png",
+       "w": 279,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q3C-2a-p5.png",
+       "w": 251,
+       "h": 25
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$(3x + 5)^{n}dx$ c) $\\frac{sin xdx}{cos^{3} x}$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3C-2b-p2.png",
+       "w": 279,
+       "h": 19
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q3C-2b-p5.png",
+       "w": 323,
+       "h": 53
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3C-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate"
+    },
+    {
+     "img": "e2/p2-5.png",
+     "w": 117,
+     "h": 8
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{xdx}{x^{2} + 1}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$(1/$2) ln($x^{2} + 1)_{1}^{2} = (1/$2)[ln 5 $-$ ln 2] = $(1/$2) ln(5$/2)$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{xdx}{x^{2} + b^{2}}$"
+      },
+      {
+       "img": "e2/p2-6.png",
+       "w": 196,
+       "h": 31
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$(1/$2) ln($x^{2} + b^{2})_{b}^{2b} = (1/$2)[ln(5$b^{2}) -$ ln(2$b^{2})] = (1/$2) ln(5$/2)$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3C-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Calculate lim $Z^{b} x^{-10}dx$. What area does this integral describe? 3C-5 Find the area"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "under one arch of sin $x$."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "under one arch of sin $ax$ for a positive constant $a$."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3C-4-p2.png",
+     "w": 222,
+     "h": 43
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3C-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find the area between the $x$-axis and"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "the curve $y = x^{2} -$ 4b) the curve $y = x^{2} - a$ for $a > 0$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3C-6a-p5.png",
+       "w": 369,
+       "h": 103
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3D-1",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Prove that $Z^{x} \\frac{dt}{\\sqrt{t^{2} + a^{2}}} =$ ln($x + px^{2} + a^{2}) -$ ln $a, a > 0, x > 0$. 0"
+      },
+      {
+       "img": "e2/p3-2.png",
+       "w": 228,
+       "h": 26
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3D-1a-p3.png",
+       "w": 336,
+       "h": 77
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "For what c is $Z^{x} \\frac{dt}{\\sqrt{t^{2} + a^{2}}} =$ ln($x + px^{2} + a^{2})$?"
+      },
+      {
+       "img": "e2/p3-3.png",
+       "w": 359,
+       "h": 18
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3D-1b-p3.png",
+       "w": 369,
+       "h": 73
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q3D-1b-p6.png",
+       "w": 369,
+       "h": 45
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3D-1-p3.png",
+     "w": 336,
+     "h": 27
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3D-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Show that the function $y = Z^{x} p1 - t^{2}dt$ satisfies the differential equation 0 with side conditions:"
+    },
+    {
+     "p": "$$y'y^{''} = -x; y(0) = 0, y'(0) = 1$$",
+     "display": true
+    },
+    {
+     "img": "e2/p3-4.png",
+     "w": 14,
+     "h": 8
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3D-2-p3.png",
+     "w": 369,
+     "h": 84
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3D-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Discuss the function $F (x) = \\frac{1 - t^{2}}{1 + t^{2}}dt$, including a sketch; describe 0"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "domain"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "relative maxima and minima, where increasing or decreasing, points of inflection"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "behavior as $x \\to \\infty$ (Hint: Evaluate the integrand as $t \\to \\pm \\infty .)$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "symmetry about y-axis or origin"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3D-3-p3.png",
+     "w": 346,
+     "h": 27
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3D-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find a function whose derivative is sin($x^{3})$ and whose value at 0 is"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "0"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3D-4a-p6.png",
+       "w": 369,
+       "h": 27
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "2 c) find one whose value at 1 is $-1$"
+      },
+      {
+       "img": "e2/p3-5.png",
+       "w": 31,
+       "h": 8
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3D-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate $_{\\Delta}$lim$_{x\\to 0} \\frac{1}{\\Delta x}_{1} \\frac{t}{\\sqrt{1 + t^{4}}}dt$ two ways:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "by interpreting the integral as the area under a curve"
+      },
+      {
+       "img": "e2/p3-6.png",
+       "w": 270,
+       "h": 19
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$f (t) = \\frac{t}{\\sqrt{1 + t^{4}}}$"
+      },
+      {
+       "img": "g2/p7-1.png",
+       "w": 200,
+       "h": 26
+      },
+      {
+       "img": "g2/p7-2.png",
+       "w": 359,
+       "h": 65
+      },
+      {
+       "img": "g2/p7-3.png",
+       "w": 311,
+       "h": 26
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "by relating the limit to $F'(1)$, where $F (x) = \\frac{t}{\\sqrt{1 + t^{4}}}dt$ 0"
+      },
+      {
+       "img": "e2/p3-7.png",
+       "w": 14,
+       "h": 8
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3D-5b-p3.png",
+       "w": 280,
+       "h": 57
+      }
+     ],
+     "solucao": [
+      {
+       "p": "By definition of derivative,"
+      },
+      {
+       "img": "g2/p7-4.png",
+       "w": 261,
+       "h": 26
+      },
+      {
+       "p": "by FT2, $F'(1) = f (1) = \\frac{1}{\\sqrt{2}}$."
+      },
+      {
+       "img": "g2/p7-5.png",
+       "w": 101,
+       "h": 8
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3D-5-p3.png",
+     "w": 248,
+     "h": 26
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3D-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "For different values of a, the functions $F (x) = dt$ differ from each other"
+    },
+    {
+     "p": "$$a$$",
+     "display": true
+    },
+    {
+     "p": "by constants. Show this two ways:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "directly"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3D-6a-p7.png",
+       "w": 369,
+       "h": 37
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "using the corollary to the mean-value theorem quoted ((8), p.FT.5)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "By the FT2, $F_{1}'(x) = f (x)$ and $F_{2}'(x) = f (x)$; therefore $F_{1} = F_{2} + C$, for some constant $C$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula curta solta",
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3D-6-p3.png",
+     "w": 369,
+     "h": 34
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3D-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate $F'(x)$ if $F (x) =$"
+    },
+    {
+     "img": "e2/p4-1.png",
+     "w": 165,
+     "h": 10
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\sqrt{u}$ sin $udu$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3D-7a-p7.png",
+       "w": 274,
+       "h": 108
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{dt}{\\sqrt{1 - t^{2}}}$"
+      },
+      {
+       "img": "e2/p4-2.png",
+       "w": 149,
+       "h": 15
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3D-7b-p7.png",
+       "w": 239,
+       "h": 73
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "tan $udu$"
+      },
+      {
+       "p": "$$x$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula curta solta",
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3D-7c-p4.png",
+       "w": 75,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q3D-7c-p7.png",
+       "w": 187,
+       "h": 19
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3D-8",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Let $f (x)$ be continuous. Find $f (\\pi /2)$ if:"
+    },
+    {
+     "img": "e2/p4-3.png",
+     "w": 162,
+     "h": 8
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$f (t)dt = 2x$(sin $x + 1)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Differentiate both sides using FT2, and substitute $x = \\pi /2: f (\\pi /2) = 4$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$f (t)dt = 2x$(sin $x + 1)$ 0 0"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3D-8b-p4.png",
+       "w": 281,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "p": "Substitute $x = 2u$ and follow the method of part (a); put $u = \\pi$ , get finally $f (\\pi /2) = 4 - 4\\pi$ ."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3D-8-p4.png",
+     "w": 214,
+     "h": 27
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3E-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Prove directly from the definition $L(x) = \\frac{dt}{t}$ that $L( \\frac{1}{a}) = -L(a)$, by 1 making a change of variables in the definite integral."
+    },
+    {
+     "img": "e2/p4-5.png",
+     "w": 359,
+     "h": 19
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3E-1-p4.png",
+     "w": 369,
+     "h": 75
+    }
+   ],
+   "fonte": 1,
+   "solucao": [
+    {
+     "img": "g2/q3E-1-p8.png",
+     "w": 313,
+     "h": 57
+    }
+   ]
+  },
+  {
+   "n": "3E-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The function defined by $E(x) = \\frac{1}{\\sqrt{2\\pi}} Z^{x} e^{-u2/2}du$ is used in probability 0 and statistics and has the same importance as sine and cosine functions have to trigonometry."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Express $E(x)$ in terms of the function of example 5 of Notes FT, $F (x) =$"
+      },
+      {
+       "img": "e2/p4-6.png",
+       "w": 359,
+       "h": 26
+      },
+      {
+       "p": "What is $_{x}$lim$_{\\to \\infty}E(x$)?"
+      },
+      {
+       "img": "e2/p4-7.png",
+       "w": 247,
+       "h": 26
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3E-2a-p8.png",
+       "w": 328,
+       "h": 102
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Evaluate $_{N}$lim$_{\\to \\infty} \\frac{1}{\\sqrt{2\\pi}} Z_{-N}^{N} e^{-u2/2}du$ and $_{x\\to -\\infty}$lim $E(x)$."
+      },
+      {
+       "img": "e2/p4-8.png",
+       "w": 328,
+       "h": 26
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3E-2b-p4.png",
+       "w": 338,
+       "h": 79
+      }
+     ],
+     "solucao": [
+      {
+       "p": "The integrand is even, so"
+      },
+      {
+       "img": "g2/p8-4.png",
+       "w": 306,
+       "h": 26
+      },
+      {
+       "p": "$_{x\\to -\\infty}$lim $E(x) = -1/2$ because $E(x)$ is odd."
+      },
+      {
+       "img": "g2/p8-5.png",
+       "w": 357,
+       "h": 26
+      },
+      {
+       "p": "Commentary: The answer is consistent with the limit,"
+      },
+      {
+       "img": "g2/p8-6.png",
+       "w": 285,
+       "h": 26
+      },
+      {
+       "img": "g2/p8-7.png",
+       "w": 347,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Express $\\frac{1}{\\sqrt{2\\pi}} Z^{b} e^{-u2/2}du$ in terms of the function $E$ and the constants $a$ and $b$, where $a < b$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula empilhada junto do texto",
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3E-2c-p4.png",
+       "w": 369,
+       "h": 43
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3E-2-p4.png",
+     "w": 369,
+     "h": 55
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3E-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Evaluate by making a substitution and changing both the variable and the limits of integration."
+    },
+    {
+     "img": "e2/p4-9.png",
+     "w": 149,
+     "h": 8
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\frac{\\sqrt{ln x}}{x}dx (u =$ ln $x)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3E-3a-p8.png",
+       "w": 367,
+       "h": 43
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$\\frac{sin x}{(2 + cos x)^{3}}dx$"
+      },
+      {
+       "img": "e2/p4-10.png",
+       "w": 153,
+       "h": 13
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3E-3b-p8.png",
+       "w": 367,
+       "h": 111
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$\\frac{dx}{\\sqrt{1 - x^{2}}} (x =$ sin $u)$"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$\\frac{dx}{x^{2} - 34x + 289} (x = z + 17)$"
+      },
+      {
+       "img": "e2/p5-1.png",
+       "w": 390,
+       "h": 26
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3E-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "From the definite integral $Z^{1} p1 - x^{2}dx = \\pi /2$ deduce the value of $Z^{a} pa^{2} - x^{2}dx$ by making a suitable change of variable of the form $x = ct$ (c constant)."
+    },
+    {
+     "img": "e2/p5-2.png",
+     "w": 14,
+     "h": 8
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3E-4-p5.png",
+     "w": 400,
+     "h": 73
+    }
+   ],
+   "fonte": 1,
+   "solucao": [
+    {
+     "img": "g2/q3E-4-p9.png",
+     "w": 369,
+     "h": 168
+    }
+   ]
+  },
+  {
+   "n": "3E-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Let $F (x) = f (t)dt$. 0"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Prove that if $f (t)$ is even, then $F (x)$ is odd."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3E-5a-p9.png",
+       "w": 249,
+       "h": 63
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Prove that if $f (t)$ is odd, then $F (x)$ is even."
+      },
+      {
+       "p": "Hint: Make the change of variable $u = -t$ in the definite integral. (Compare with 4-6.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3E-5b-p9.png",
+       "w": 248,
+       "h": 63
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3E-5-p5.png",
+     "w": 137,
+     "h": 25
+    }
+   ],
+   "fonte": 1
+  },
+  {
+   "n": "3E-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "By comparing the given integral with an integral that is easier to evaluate. establish each of the following estimations:"
+    },
+    {
+     "img": "e2/p5-3.png",
+     "w": 327,
+     "h": 18
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$Z^{1} \\frac{dx}{1 + x^{3}} > 0.65$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3E-6a-p5.png",
+       "w": 337,
+       "h": 26
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g2/q3E-6a-p9.png",
+       "w": 303,
+       "h": 69
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$Z^{\\pi}$ sin$^{2}x dx < 2$ c) $Z^{20} px^{2} + 1 dx > 150$ 0 0 10"
+      },
+      {
+       "img": "e2/p5-4.png",
+       "w": 16,
+       "h": 8
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3E-6b-p5.png",
+       "w": 337,
+       "h": 64
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$0 <$ sin $x < 1$ on $(0, \\pi ) \\Rightarrow$ sin$^{2} x <$ sin $x$ on $(0, \\pi )$; therefore"
+      },
+      {
+       "img": "g2/p9-8.png",
+       "w": 264,
+       "h": 18
+      },
+      {
+       "img": "g2/p10-1.png",
+       "w": 299,
+       "h": 18
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3E-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Show $\\frac{sin x}{x^{2}}dx < 1$ 1"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3E-7-p5.png",
+     "w": 143,
+     "h": 26
+    }
+   ],
+   "fonte": 1,
+   "solucao": [
+    {
+     "img": "g2/q3E-7-p10.png",
+     "w": 347,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "n": "3F-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Solve the following differential equations"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$dy/dx = (2x + 5)^{4}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y = (1/10)(2x + 5)^{5} + c$"
+      },
+      {
+       "img": "g2/p10-3.png",
+       "w": 334,
+       "h": 16
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$dy/dx = (y + 1)^{-1}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3F-1b-p10.png",
+       "w": 369,
+       "h": 49
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$dy/dx = 3/\\sqrt{y}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y^{1/2}dy = 3dx \\Rightarrow (2/3)y^{3/2} = 3x + c \\Rightarrow y = (9x/2 + a)^{2/3}$, with $a = (3/2)c$."
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$dy/dx = xy^{2}$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y^{-2}dy = xdx \\Rightarrow -y^{-1} = x^{2}/2 + c \\Rightarrow y = -1/(x^{2}/2 + c)$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3F-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Solve each differential equation with the given initial condition, and evaluate the solution at the given value of $x$:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$dy/dx = 4xy, y(1) = 3$. Find $y(3)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$$y^{-1}dy = 4xdx \\Rightarrow\\text{ ln }y = 2x^{2} + c$$",
+       "display": true
+      },
+      {
+       "p": "$y(1) = 3 \\Rightarrow$ ln 3 = 2 + $c \\Rightarrow c =$ ln 3 $- 2$. Therefore ln $y = 2x^{2} +$ (ln$3 - 2)$ At $x = 3, y = e^{18+ln 3-2} = 3e^{16}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "$dy/dx = \\sqrt{y + 1,} y(0) = 1$. Find $y(3)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3F-2b-p10.png",
+       "w": 131,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$dy/dx = x^{2}y^{-1}, y(0) = 10$. Find $y(5)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3F-2c-p10.png",
+       "w": 114,
+       "h": 19
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$dy/dx = 3y + 2, y(0) = 0$. Find $y(8)$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3F-2d-p11.png",
+       "w": 141,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "$dy/dx = e^{y}, y(3) = 0$. Find $y(0)$. For which values of $x$ is the solution $y$ defined?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3F-2e-p11.png",
+       "w": 260,
+       "h": 17
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3F-3",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Solve $dy/dx = y^{2}$ with $y = 1$ at $x = 0$. Evaluate $y$ at $x = 1/2$, at $x = -1$, and at $x = 1$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Answers: $y(1/2) = 2, y(-1) = 1/2, y(1)$ is undefined."
+      },
+      {
+       "p": "$$y^{-2}dy = dx \\Rightarrow -y^{-1} = x + c$$",
+       "display": true
+      },
+      {
+       "p": "$$y(0) = 1 \\Rightarrow -1 = 0 + c \\Rightarrow c = -1$$",
+       "display": true
+      },
+      {
+       "p": "Therefore, $-1/y = x - 1$ and"
+      },
+      {
+       "p": "$$y = \\frac{1}{1 - x}$$",
+       "display": true
+      },
+      {
+       "p": "The values are $y(1/2) = 2, y(-1) = -1/2$ and $y$ is undefined at $x = 1$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Graph the solution and use the graph to discuss the range of validity of the formula for $y$. In particular, explain why the apparent value at $x = 3/2$ is suspect."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Although the formula for $y$ makes sense at $x = 3/2, (y(3/2) = 1/(1 - 3/2) = -2)$, it is not consistent with the rate of change interpretation of the differential equation. The function is defined, continuous and differentiable for $-\\infty < x < 1$. But at $x = 1, y$ and $dy/dx$ are undefined. Since $y = 1/(1 - x)$ is the only solution to the differential equation in the interval (0,1) that satisfies the initial condition $y(0) = 1$, it is impossible to define a function that has the initial condition $y(0) = 1$ and also satisfies the differential equation in any longer interval containing $x = 1$."
+      },
+      {
+       "p": "To ask what happens to $y$ after $x = 1$, say at $x = 3/2$, is something like asking what happened to a rocket ship after it fell into a black hole. There is no obvious reason why one has to choose the formula $y = 1/(1 - x)$ after the \"explosion.\" For example, one could define $y = 1/(2 - x)$ for $1 \\leq x < 2$. In fact, any formula $y = 1/(c - x)$ for $c \\geq 1$ satisfies the differential equation at every point $x > 1$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3F-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Newton's law of cooling says that the rate of change of temperature is proportional to the temperature difference. In symbols, if a body is at a temperature $T$ at time $t$ and the surrounding region is at a constant temperature $T_{e} (e$ for external), then the rate of change of $T$ is given by"
+    },
+    {
+     "p": "$$dT/dt = k(T_{e} - T)$$",
+     "display": true
+    },
+    {
+     "p": "The constant $k > 0$ is a constant of proportionality that depends properties of the body like specific heat and surface area."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Why is $k > 0$ the only physically realistic choice?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "If the surrounding air is cooler $(T_{e} - T < 0)$, then the object will cool, so $dT/dt < 0$. Thus $k > 0$."
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the formula for $T$ if the initial temperature at time $t = 0$ is $T_{0}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3F-4b-p11.png",
+       "w": 271,
+       "h": 34
+      },
+      {
+       "img": "g2/q3F-4b-p12.png",
+       "w": 266,
+       "h": 61
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Show that $T \\to T_{e}$ as $t \\to \\infty$ ."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Since $k > 0, e^{-kt} \\to 0$ as $t \\to \\infty$ . Therefore,"
+      },
+      {
+       "p": "$$T = T_{e} + (T_{0} - T_{e})e^{-kt} \\to T_{e}\\text{ as }t \\to \\infty$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "Suppose that an ingot leaves the forge at a temperature of $680^{\\circ}$ Celsius in a room at $40^{\\circ}$ Celsius. It cools to $200^{\\circ}$ in eight hours. How many hours does it take to cool from $680^{\\circ}$ to $50^{\\circ}$? (It is simplest to keep track of the temperature difference $T - T_{e}$, rather than $T$. The temperature difference undergoes exponential decay.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3F-4d-p12.png",
+       "w": 369,
+       "h": 143
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "partes": [
+      {
+       "p": "Suppose that an ingot at $1000^{\\circ}$ cools to $800^{\\circ}$ in one hour and to $700^{\\circ}$ in two hours. Find the temperature of the surrounding air."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g2/q3F-4e-p12.png",
+       "w": 328,
+       "h": 200
+      }
+     ]
+    },
+    {
+     "id": "f",
+     "partes": [
+      {
+       "p": "Show that $y(t) = T (t - t_{0})$ also satisfies Newton's law of cooling for any constant $t_{0}$. Write out the formula for $T (t - t_{0})$ and show that it is the same as the formula in E10/17 for $y(t)$ by identifying the constants $k, T_{e}$ and $T_{0}$ with their corresponding values in the displayed formula in E10/17."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "To confirm the differential equation:"
+      },
+      {
+       "p": "$$y'(t) = T'(t - t_{0}) = k(T_{e} - T (t - t_{0})) = k(T_{e} - y(t))$$",
+       "display": true
+      },
+      {
+       "p": "The formula for $y$ is"
+      },
+      {
+       "p": "$$y(t) = T (t - t_{0}) = T_{e} + (T_{0} - T_{e})e^{-k(t-t0)} = a + (y(t_{0}) - a)e^{-c(t-t0)}$$",
+       "display": true
+      },
+      {
+       "p": "with $k = c, T_{e} = a$ and $T_{0} = T (0) = y(t_{0})$."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3F-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Air pressure satisfies the differential equation $dp/dh = -(.13)p$, where $h$ is the altitude from sea level measured in kilometers."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "At sea level the pressure is$^{1}$ 1 kg/cm$^{2}$. Solve the equation and find the pressure at the top of Mt. Everest (10 km)."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find the difference in pressure between the top and bottom of the Green Building. (Pretend it's 100 meters tall starting at sea level.) Compute the numerical value using a calculator. Then use instead the linear approximation to $e^{x}$ near $x = 0$ to estimate the percentage drop in pressure from the bottom to the top of the Green Building."
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Use the linear approximation $\\Delta p \\approx p'(0)\\Delta h$ and compute $p'(0)$ directly from the differential equation to find the drop in pressure from the bottom to top of the Green Building. Notice that this gives an answer without even knowing the solution to the differential equation. Compare with the approximation in part (b). What does the linear approximation $p'(0)\\Delta h$ give for the pressure at the top of Mt. Everest?"
+      }
+     ],
+     "tipo": "aberta"
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "What is the differential equation for $p$ if altitude is measured in meters instead of kilometers?"
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3F-6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Let $y =$ cos$^{3} u -$ 3 cos $u, x =$ sin$^{4} u$. Find $dy, dx$, and $dy/dx$. Simplify."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 1,
+   "solucao": [
+    {
+     "p": "$y =$ cos$^{3} u -$ 3 cos $u, x =$ sin$^{4} u$ $dy = (3$cos$^{2} u \\cdot (-$ sin $u) +$ 3 sin $u)du, dx = 4$sin$^{3} u$ cos $udu$"
+    },
+    {
+     "p": "$\\frac{dy}{dx} = \\frac{3 sin u(1 - cos^{2} u)}{4 sin^{3} u cos u} = \\frac{3}{4 cos u}$"
+    }
+   ]
+  },
+  {
+   "n": "3F-7",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Solve:"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$y' = -xy, y(0) = 1$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$y' = -xy; y(0) = 1$"
+      },
+      {
+       "p": "$\\frac{dy}{y} = -xdx \\Rightarrow$ ln $y = -\\frac{1}{2}x^{2} + c$"
+      },
+      {
+       "p": "To find c, put $x = 0, y = 1$: ln 1 = 0 + $c \\Rightarrow c = 0$."
+      },
+      {
+       "p": "$\\Rightarrow$ ln $y = -\\frac{1}{2}x^{2} \\Rightarrow y = e^{-x2/2}$"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "cos $x$ sin $y dy =$ sin $xdx, y(0) = 0$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "cos $x$ sin $ydy =$ sin $xdx; y(0) = 0$"
+      },
+      {
+       "p": "sin $ydy = \\frac{sin x}{cos x}dx \\Rightarrow -$ cos $y = -$ ln(cos $x) + c$"
+      },
+      {
+       "p": "Find c: put $x = 0, y = 0: -$ cos 0 $= -$ ln(cos0) $+ c \\Rightarrow c = -1$"
+      },
+      {
+       "p": "$\\Rightarrow$ cos $y =$ ln(cos $x) + 1$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3F-8",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Find all plane curves such that the tangent line at P intersects the $x$-axis 1 unit to the left of the projection of P on the the x-axis."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "From the triangle, $y' =$ slope tangent $= \\frac{y}{1}$"
+      },
+      {
+       "p": "$\\Rightarrow \\frac{dy}{y} = dx \\Rightarrow$ ln $y = x + c_{1} \\Rightarrow y = e^{x+c1} = Ae^{x} (A = e^{c1})$"
+      },
+      {
+       "img": "g2/p13-1.png",
+       "w": 359,
+       "h": 66
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Find all plane curves in the first quadrant such that for every point P on the curve, P bisects the part of the tangent line at P that lies in the first quadrant."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "If P bisects tangent, then $P_{0}$ bisects OQ (by euclidean geometry)"
+      },
+      {
+       "p": "So $P_{0}Q = x ($ since $OP_{0} = x)$. Slope tangent $= y' = \\frac{-y}{x} \\Rightarrow \\frac{dy}{y} = -\\frac{dx}{x}$"
+      },
+      {
+       "p": "$\\Rightarrow$ ln $y = -$ ln $x + c_{1}$"
+      },
+      {
+       "img": "g2/p14-1.png",
+       "w": 359,
+       "h": 122
+      },
+      {
+       "p": "Exponentiate: $y = \\frac{1}{x} \\cdot e^{c1} = \\frac{c}{x}, c > 0$"
+      },
+      {
+       "p": "Ans: The hyperbolas $y = \\frac{c}{x}, c > 0$"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3G-1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Find approximations to the following integrals using four intervals using Riemann sums with left endpoints, using the trapezoidal rule, and using Simpson's rule. Also give numerical approximations to the exact values of the integrals given to see how good these approximation methods are."
+    },
+    {
+     "img": "e2/p7-1.png",
+     "w": 167,
+     "h": 8
+    },
+    {
+     "p": "1using the correspondence between weight and mass on Earth of $F = ma$ with $a = 10m/sec^{2}$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "$\\sqrt{x}dx (= 2/3.)$"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\Delta x = 1/4$ and"
+      },
+      {
+       "p": "$$y_{0} = 0, y_{1} = 1/2, y_{2} = 1/\\sqrt{2,} y_{3} = \\sqrt{3}/2, y_{4} = 1$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "sin $xdx (= 2.)$"
+      },
+      {
+       "img": "e2/p7-2.png",
+       "w": 167,
+       "h": 13
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\Delta x = \\pi /4$"
+      },
+      {
+       "p": "$$y_{0} = 0, y_{1} = 1/\\sqrt{2,} y_{2} = 1, y_{3} = 1/\\sqrt{2,} y_{4} = 0$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "$\\frac{dx}{1 + x^{2}} (= \\pi /4$; cf. unit 5)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\Delta x = 1/4$"
+      },
+      {
+       "p": "$$y_{0} = 1, y_{1} = 16/17, y_{2} = 4/5, y_{3} = 16/25, y_{4} = 1/2$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "partes": [
+      {
+       "p": "$\\frac{dx}{x} (=$ ln 2) 0 1"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e2/q3G-1d-p7.png",
+       "w": 241,
+       "h": 26
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$\\Delta x = 1/4$"
+      },
+      {
+       "p": "$$y_{0} = 1, y_{1} = 4/5, y_{2} = 2/3, y_{3} = 4/7, y_{4} = 1/2$$",
+       "display": true
+      },
+      {
+       "img": "g2/p16-1.png",
+       "w": 359,
+       "h": 18
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 1
+  },
+  {
+   "n": "3G-2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Show that the value given by Simpson's rule for two intervals for the integral"
+    },
+    {
+     "img": "e2/p8-1.png",
+     "w": 13,
+     "h": 8
+    },
+    {
+     "p": "$$f (x)dx$$",
+     "display": true
+    },
+    {
+     "p": "0 gives the exact answer when $f (x) = x^{3}$. (Since a cubic polynomial is a sum of a quadratic polynomial and a polynomial $ax^{3}$, and Simpson's rule is exact for any quadratic polynomial, the result of this exercise implies by linearity (cf. Notes PI) that Simpson's rule will also be exact for any cubic polynomial.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3G-2-p8.png",
+     "w": 369,
+     "h": 98
+    }
+   ],
+   "fonte": 1,
+   "solucao": [
+    {
+     "img": "g2/q3G-2-p16.png",
+     "w": 369,
+     "h": 61
+    }
+   ]
+  },
+  {
+   "n": "3G-3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Use the trapezoidal rule to estimate $\\sqrt{1} + \\sqrt{2} + \\sqrt{3} +... + \\sqrt{10,000.}$ Is your estimate too high or too low?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 1,
+   "solucao": [
+    {
+     "img": "g2/q3G-3-p16.png",
+     "w": 369,
+     "h": 368
+    }
+   ]
+  },
+  {
+   "n": "3G-4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Use the trapezoidal rule to estimate the sum of the reciprocals of the first n integers. Is your estimate too high or too low?"
+    },
+    {
+     "img": "e2/p8-2.png",
+     "w": 13,
+     "h": 8
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 1,
+   "solucao": [
+    {
+     "img": "g2/q3G-4-p16.png",
+     "w": 369,
+     "h": 109
+    },
+    {
+     "img": "g2/q3G-4-p17.png",
+     "w": 369,
+     "h": 178
+    }
+   ]
+  },
+  {
+   "n": "3G-5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "If the trapezoidal rule is used to estimate the value of $f (x)dx$ under what"
+    },
+    {
+     "p": "$$a$$",
+     "display": true
+    },
+    {
+     "p": "hypotheses on $f (x)$ will the estimate be too low? too high?"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula curta solta",
+    "fórmula empilhada junto do texto",
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e2/q3G-5-p8.png",
+     "w": 369,
+     "h": 34
+    }
+   ],
+   "fonte": 1,
+   "solucao": [
+    {
+     "p": "Referring to the two pictures above, one can see that if $f (x)$ is concave down on $[a, b]$, the trapezoidal rule gives too low an estimate; if $f (x)$ is concave up, the trapezoidal rule gives too high an estimate.."
+    }
+   ]
+  }
+ ]
+}

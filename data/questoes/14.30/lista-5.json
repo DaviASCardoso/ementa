@@ -1,0 +1,749 @@
+{
+ "etapa": "14.30/lista-5",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-30-introduction-to-statistical-methods-in-economics-spring-2009/1e1b29763c6edb4c01c695e0e376c5e4_MIT14_30s09_pset05.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "Problem Set #5"
+  },
+  {
+   "p": "14.30 - Intro. to Statistical Methods in Economics"
+  },
+  {
+   "p": "Instructor: Konrad Menzel"
+  },
+  {
+   "p": "Due: Tuesday, March 31, 2009"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "The convolution formula is a useful trick when we are interested in the sum or average of independent random variables. In the last problem set, we dealt with the random variable X, below."
+    },
+    {
+     "p": "$$f (4=_{0forx<O}^{e-\"forx>0}$$",
+     "display": true
+    },
+    {
+     "p": "Now, suppose that X XI X2. . . Xkare independent, identically distributed random variables. $_{getDefinebackZlto=Y2X1fromand2 2 .Z2=XI}^{1.Using the convolution formula, determine the PDF of}+_{X2and then use the transformation method to}^{\\mathbf{fi}=}$;(x1$^{X 2 )Hint:}$"
+    }
+   ],
+   "itens": [
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Compute its expectation: E[Y2]."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q12-p2.png",
+       "w": 200,
+       "h": 25
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Using the convolution formula, determine the PDF for & = ;(XI $+X2 +$X3). Hint: Use the hint from part 1 to define Z3 = X1 + X2+ X3 and perform $a$ convolution with X3 and Z2 to transform the problem into Z2 and Z3."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q13-p2.png",
+       "w": 434,
+       "h": 56
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q13-p3.png",
+       "w": 468,
+       "h": 56
+      },
+      {
+       "img": "g1/q13-p4.png",
+       "w": 467,
+       "h": 547
+      },
+      {
+       "img": "g1/q13-p5.png",
+       "w": 469,
+       "h": 220
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "Compute its expectation: IE[Y3]. $^{5.}$Xk) $_{using the methods from their hints.}^{Using the convolution formula, determine the}=$ :ck Z=IXk. Hint: Try to determine $a^{PDF}$pattern from part $^{for\\mathbf{Yk}=:(x1}1$ and part $^{X2+.-}^{+}3$"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "fórmula que o KaTeX não desenha",
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q14-p2.png",
+       "w": 433,
+       "h": 80
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "Compute its expectation: E[Yk]."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q16-p2.png",
+       "w": 200,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q16-p6.png",
+       "w": 309,
+       "h": 51
+      }
+     ]
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "What does this tell us about the mean of a sample of size Ic? Is this property specific to the exponential distribution? Explain."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q17-p2.png",
+       "w": 430,
+       "h": 39
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q17-p6.png",
+       "w": 467,
+       "h": 80
+      },
+      {
+       "img": "g1/q17-p7.png",
+       "w": 425,
+       "h": 96
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "fórmula empilhada junto do texto",
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p2.png",
+     "w": 446,
+     "h": 208
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(BainIEngelhardt, p. 228) Suppose that XI, X2, ,Xkare independent random variables and let Y, ui(Xi) for $i 1,2$,.. . ,k. Show that Yl, Y2, .. ,Yk are independent. Consider only the case where Xi is continuous and yi = ui(xi) is one-to-one. Hint: If xi = wi(yi) is the inverse transformation, then the Jacobian has the form"
+    },
+    {
+     "img": "e1/p3-1.png",
+     "w": 439,
+     "h": 55
+    },
+    {
+     "p": "For extra credit, prove the Hint about the Jacobian."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p3.png",
+     "w": 449,
+     "h": 187
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2-p7.png",
+     "w": 481,
+     "h": 170
+    }
+   ]
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Moved to a later problem set."
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q3-p3.png",
+     "w": 165,
+     "h": 56
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q3-p8.png",
+     "w": 165,
+     "h": 56
+    }
+   ]
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Order statistics are very useful tools for analyzing the properties of samples."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Write down the general formula of the pdf and cdf for the kth order statistic of a sample of size n of a random variable X with CDF F'(x)."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q41-p3.png",
+       "w": 428,
+       "h": 39
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q41-p8.png",
+       "w": 486,
+       "h": 203
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q4-p3.png",
+     "w": 403,
+     "h": 56
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(BainIEngelhardt p. 229) Let X1 and X2be a random sample of size n = from a continuous distribution 2 with pdf of the form f (x) = 2x if 0 < x < 1and zero otherwise."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Find the marginal pdfs of the smallest and largest order statistics, Yl and Y2."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q51-p3.png",
+       "w": 426,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q51-p9.png",
+       "w": 466,
+       "h": 327
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Compute their expectations, IEIYl] and IE[&]."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q52-p3.png",
+       "w": 261,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q52-p9.png",
+       "w": 466,
+       "h": 281
+      },
+      {
+       "img": "g1/q52-p10.png",
+       "w": 424,
+       "h": 266
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Find the joint pdf of Yl and Y2."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q53-p3.png",
+       "w": 191,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q53-p10.png",
+       "w": 468,
+       "h": 95
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "Find the pdf of the sample range R Y2 - Yl."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q54-p3.png",
+       "w": 266,
+       "h": 25
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q54-p10.png",
+       "w": 467,
+       "h": 212
+      },
+      {
+       "img": "g1/q54-p11.png",
+       "w": 290,
+       "h": 24
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "Compute the expectation of the sample range, IE[R]."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q55-p3.png",
+       "w": 298,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q55-p11.png",
+       "w": 483,
+       "h": 338
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto",
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q5-p3.png",
+     "w": 445,
+     "h": 86
+    }
+   ],
+   "fonte": 0
+  },
+  {
+   "n": "6",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "(BainIEngelhardt p. 229) $f$(x) $= x^{1}$ if $^{-}$ Consider a random sample of size n from a distribution with pdf 15 x < 00; zero otherwise."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "Give the joint pdf of the order statistics."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q61-p4.png",
+       "w": 235,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q61-p11.png",
+       "w": 439,
+       "h": 65
+      },
+      {
+       "img": "g1/q61-p12.png",
+       "w": 152,
+       "h": 24
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "Give the pdf of the smallest order statistic, Yl."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q62-p4.png",
+       "w": 267,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q62-p12.png",
+       "w": 465,
+       "h": 121
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "Compute its expectation, EIYl], or explain why it does not exist."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q63-p4.png",
+       "w": 359,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q63-p12.png",
+       "w": 465,
+       "h": 66
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "Give the pdf of the largest order statistic, Y,."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q64-p4.png",
+       "w": 254,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q64-p12.png",
+       "w": 262,
+       "h": 25
+      },
+      {
+       "img": "g1/q64-p13.png",
+       "w": 596,
+       "h": 335
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "Compute the expectation, IE[X], X from f of a single draw (x). Does the integral"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q65-p4.png",
+       "w": 434,
+       "h": 25
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "Derive the pdf of the sample range, R = Y, - Yl, for n = 2. Hint: Use partial fractions, searching on Yahoo for \"QuickMathn will help you get the partial fractions via computer: http://72.3.253.76:8080/webMathematica5'/quickmath/page.jsp ?sl=algebra&s2=partialfractions&s3= basic"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "diverge? What does that say about the existence of E[Y,]? Explain."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q66-p4.png",
+       "w": 487,
+       "h": 60
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q66-p13.png",
+       "w": 596,
+       "h": 96
+      },
+      {
+       "img": "g1/q66-p14.png",
+       "w": 493,
+       "h": 624
+      },
+      {
+       "img": "g1/q66-p15.png",
+       "w": 475,
+       "h": 346
+      }
+     ]
+    },
+    {
+     "id": "7",
+     "partes": [
+      {
+       "p": "Compute its expectation, E[R], or explain why it does not exist."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q67-p4.png",
+       "w": 357,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q67-p15.png",
+       "w": 466,
+       "h": 82
+      }
+     ]
+    },
+    {
+     "id": "8",
+     "partes": [
+      {
+       "p": "Give the pdf of the sample median, Y,, assuming that n is odd so that $r =$ (n+ 1)/2 E N.Express the pdf as a function of just $r$ and y, (eliminate all n's and k7s)."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q68-p4.png",
+       "w": 438,
+       "h": 53
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q68-p15.png",
+       "w": 475,
+       "h": 192
+      }
+     ]
+    },
+    {
+     "id": "9",
+     "partes": [
+      {
+       "p": "Compute its expectation, E[Y,], or explain why it does not exist."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "página escaneada"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q69-p4.png",
+       "w": 359,
+       "h": 24
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q69-p15.png",
+       "w": 359,
+       "h": 24
+      },
+      {
+       "img": "g1/q69-p16.png",
+       "w": 467,
+       "h": 386
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "revisar": [
+    "página escaneada"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q6-p4.png",
+     "w": 443,
+     "h": 86
+    }
+   ],
+   "fonte": 0
+  }
+ ]
+}

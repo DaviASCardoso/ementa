@@ -1,0 +1,310 @@
+{
+ "etapa": "18.02SC/prova-4",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/e6deb5160e19e5483e975cdae3004956_MIT18_02SC_exam4.pdf",
+   "paginas": 2
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "18.02 Exam 4"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "(10 points)",
+   "partes": [
+    {
+     "p": "Let $C$ be the portion of the cylinder $x^{2}+y^{2} \\leq 1$ lying in the first octant $(x \\geq 0, y \\geq 0, z \\geq 0)$ and below the plane $z = 1$. Set up a triple integral in cylindrical coordinates which gives the moment of inertial of $C$ about the $z$-axis; assue the density to be $\\delta = 1$. (Give integrand and limits of integration, but do not evaluate.)"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q1-p1.png",
+     "w": 134,
+     "h": 47
+    }
+   ]
+  },
+  {
+   "n": "2",
+   "titulo": "(20 points: 5, 15)",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "A solid sphere $S$ of radius $a$ is placed above the $xy$-plane so it is tangent at the origin and its diameter lies along the $z$-axis. Give its equation in spherical coordinates."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2a-p1.png",
+       "w": 252,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Give the equation of the horizontal plane $z = a$ in spherical coordinates."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2b-p1.png",
+       "w": 252,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Set up a triple integral in spherical coordinates which gives the volume of the portion of the sphere $S$ lying above the plane $z = a$. (Give integrand and limits of integration, but do not evaluate.)"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q2c-p1.png",
+       "w": 192,
+       "h": 29
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "(20 points: 5, 15)",
+   "partes": [
+    {
+     "p": "Let $\\vec{F} = (2xy + z^{3})\\hat{\\imath} + (x^{2} + 2yz)\\hat{\\mathbf{j}} + (y^{2} + 3xz^{2} - 1)\\hat{\\mathbf{k}}$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Show $\\vec{F}$ is conservative."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "$\\frac{\\partial}{\\partial y} (2xy + z^{3}) = 2x = \\frac{\\partial}{\\partial x} (x^{2} + 2yz); \\frac{\\partial}{\\partial z} (2xy + z^{3}) = 3z^{2} = \\frac{\\partial}{\\partial x} (y^{2} + 3xz^{2} - 1)$; $\\frac{\\partial}{\\partial z} (x^{2} + 2yz) = 2y = \\frac{\\partial}{\\partial y} (y^{2} + 3xz^{2} - 1)$; so $\\vec{F}$ is conservative."
+      },
+      {
+       "img": "g1/p1-3.png",
+       "w": 463,
+       "h": 70
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Using a systematic method, find a potential function $f (x, y, z)$ such that $\\vec{F} = \\vec{\\nabla}f$. Show your work even if you can do it mentally."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q3b-p1.png",
+       "w": 373,
+       "h": 175
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "(25 points: 15, 10)",
+   "partes": [
+    {
+     "p": "Let $S$ be the surface formed by the part of the paraboloid $z = 1 - x^{2} - y^{2}$ lying above the $xy$-plane, and let $\\vec{F} = x \\hat{\\imath} + y \\hat{\\mathbf{j}} + 2(1 - z)\\hat{\\mathbf{k}}$. Calculate the flux of $\\vec{F}$ across $S$, taking the upward direction as the one for which the flux is positive. Do this in two ways:"
+    },
+    {
+     "img": "e1/p1-1.png",
+     "w": 190,
+     "h": 15
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "by direct calculation of $R R_{S} \\vec{F} \\cdot \\hat{\\mathbf{n}} dS$;"
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q4a-p1.png",
+       "w": 200,
+       "h": 23
+      }
+     ],
+     "solucao": [
+      {
+       "p": "$S$ is the graph of $z = f (x, y) = 1 - x^{2} - y^{2}$, so $\\hat{n} dS = \\langle -f_{x},-f_{y}, 1\\rangle dA = \\langle 2x, 2y, 1\\rangle dA$."
+      },
+      {
+       "img": "g1/p1-4.png",
+       "w": 468,
+       "h": 25
+      },
+      {
+       "p": "Shadow = unit disc $x^{2} + y^{2} \\leq 1$; switching to polar coordinates, we have"
+      },
+      {
+       "img": "g1/p1-5.png",
+       "w": 249,
+       "h": 18
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "by computing the flux across a simpler surface and using the divergence theorem."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "Let $T =$unit disc in the $xy$-plane, with normal vector pointing down $(\\hat{n =} -\\hat{k).}$ Then"
+      },
+      {
+       "img": "g1/p1-6.png",
+       "w": 461,
+       "h": 32
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "5",
+   "titulo": "(25 points: 10, 8, 7)",
+   "partes": [
+    {
+     "p": "Let $\\vec{F} = -2xz \\hat{\\imath} + y^{2} \\hat{\\mathbf{k}}$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Calculate curl $\\vec{F}$."
+      },
+      {
+       "img": "e1/p1-2.png",
+       "w": 454,
+       "h": 15
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q5a-p1.png",
+       "w": 207,
+       "h": 20
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Show that $R R_{R}$ curl $\\vec{F} \\cdot \\hat{\\mathbf{n}} dS = 0$ for any finite portion $R$ of the unit sphere $x^{2} + y^{2} + z^{2} = 1$ (take the normal vector $\\hat{\\mathbf{n}}$ pointing outward)."
+      },
+      {
+       "img": "e1/p1-3.png",
+       "w": 447,
+       "h": 15
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q5b-p1.png",
+       "w": 476,
+       "h": 56
+      }
+     ],
+     "solucao": [
+      {
+       "p": "On the unit sphere, $\\hat{n} = x\\hat{\\imath +} y\\hat{j +} z\\hat{k,}$ so curl $\\vec{F} \\cdot \\hat{n} = \\langle 2y,-2x, 0\\rangle \\cdot \\langle x, y, z\\rangle = 2xy - 2xy = 0$;"
+      },
+      {
+       "img": "g1/p1-8.png",
+       "w": 468,
+       "h": 47
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "partes": [
+      {
+       "p": "Show that $H_{C} \\vec{F} \\cdot d\\vec{r} = 0$ for any simple closed curve $C$ on the unit sphere $x^{2} + y^{2} + z^{2} = 1$."
+      }
+     ],
+     "tipo": "aberta",
+     "revisar": [
+      "pedaço de fórmula solto"
+     ],
+     "recorte": [
+      {
+       "img": "e1/q5c-p1.png",
+       "w": 457,
+       "h": 23
+      }
+     ],
+     "solucao": [
+      {
+       "img": "g1/q5c-p1.png",
+       "w": 478,
+       "h": 23
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

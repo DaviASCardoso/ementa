@@ -1,0 +1,281 @@
+{
+ "etapa": "18.01SC/prova-4",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/b8d6291f6109adf0a4b4cc623ef5f213_MIT18_01SCF10_exam4.pdf",
+   "paginas": 6
+  }
+ ],
+ "avisos": [],
+ "intro": [],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the following integral:"
+    },
+    {
+     "img": "e1/p1-1.png",
+     "w": 16,
+     "h": 10
+    },
+    {
+     "p": "$$\\sqrt{t}\\text{ ln }tdt$$",
+     "display": true
+    },
+    {
+     "p": "1"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q1-p1.png",
+     "w": 266,
+     "h": 67
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q1-p1.png",
+     "w": 356,
+     "h": 296
+    }
+   ]
+  },
+  {
+   "n": "2",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the following integral:"
+    },
+    {
+     "img": "e1/p2-1.png",
+     "w": 101,
+     "h": 21
+    },
+    {
+     "p": "0"
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "revisar": [
+    "pedaço de fórmula solto"
+   ],
+   "recorte": [
+    {
+     "img": "e1/q2-p2.png",
+     "w": 283,
+     "h": 68
+    }
+   ],
+   "fonte": 0,
+   "solucao": [
+    {
+     "img": "g1/q2-p1.png",
+     "w": 376,
+     "h": 289
+    },
+    {
+     "img": "g1/q2-p2.png",
+     "w": 138,
+     "h": 95
+    }
+   ]
+  },
+  {
+   "n": "3",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the following integral:"
+    },
+    {
+     "img": "e1/p3-1.png",
+     "w": 7,
+     "h": 8
+    },
+    {
+     "p": "$$\\frac{10}{(x - 1)(x^{2} + 9)} dx$$",
+     "display": true
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Compute the following integral:"
+    },
+    {
+     "img": "g1/p2-2.png",
+     "w": 7,
+     "h": 8
+    },
+    {
+     "p": "$$\\frac{10}{(x - 1)(x^{2} + 9)} dx$$",
+     "display": true
+    },
+    {
+     "img": "g1/p2-3.png",
+     "w": 244,
+     "h": 20
+    },
+    {
+     "img": "g1/p2-4.png",
+     "w": 232,
+     "h": 20
+    },
+    {
+     "img": "g1/p2-5.png",
+     "w": 238,
+     "h": 17
+    }
+   ]
+  },
+  {
+   "n": "4",
+   "titulo": "",
+   "partes": [
+    {
+     "p": "Compute the following integral:"
+    },
+    {
+     "img": "e1/p4-1.png",
+     "w": 7,
+     "h": 8
+    },
+    {
+     "p": "$$\\frac{1}{(5 - 4x - x^{2})^{5/2}} dx$$",
+     "display": true
+    }
+   ],
+   "itens": [],
+   "tipo": "aberta",
+   "fonte": 0,
+   "solucao": [
+    {
+     "p": "Compute the following integral:"
+    },
+    {
+     "img": "g1/p2-6.png",
+     "w": 7,
+     "h": 8
+    },
+    {
+     "p": "$$\\frac{1}{(5 - 4x - x^{2})^{5/2}} dx$$",
+     "display": true
+    },
+    {
+     "img": "g1/p2-7.png",
+     "w": 243,
+     "h": 20
+    },
+    {
+     "p": "Let $x + 2 =$ 3 sin $\\theta$ . Then $dx = 3$cos $\\theta d\\theta$ and:"
+    },
+    {
+     "img": "g1/p2-8.png",
+     "w": 262,
+     "h": 20
+    },
+    {
+     "img": "g1/p2-9.png",
+     "w": 90,
+     "h": 20
+    },
+    {
+     "img": "g1/p2-10.png",
+     "w": 89,
+     "h": 20
+    },
+    {
+     "p": "Let $u =$ tan $\\theta$ . Then $du =$ sec$^{2} \\theta d\\theta$ . Recall that sec$^{2} \\theta =$ 1 + tan$^{2} \\theta$ ."
+    },
+    {
+     "img": "g1/p2-11.png",
+     "w": 227,
+     "h": 20
+    },
+    {
+     "img": "g1/p3-1.png",
+     "w": 94,
+     "h": 20
+    },
+    {
+     "p": "$$= \\frac{1}{3^{4}} u + \\frac{u^{3}}{3} + c$$",
+     "display": true
+    },
+    {
+     "p": "$$= \\frac{1}{3^{4}}\\text{ tan }\\theta + \\frac{tan^{3} \\theta}{3} + c$$",
+     "display": true
+    },
+    {
+     "p": "We know that $\\frac{x+2}{3} =$ sin $\\theta$ . Sketch a right triangle whose opposite side has length $x +2$ and whose hypotenuse has length 3. Applying the Pythagorean theorem, we see that tan $\\theta = \\frac{x + 2}{\\sqrt{5 - 4x - x^{2}}}$. Therefore,"
+    },
+    {
+     "img": "g1/p3-2.png",
+     "w": 359,
+     "h": 21
+    }
+   ]
+  },
+  {
+   "n": "5",
+   "titulo": "",
+   "partes": [],
+   "itens": [
+    {
+     "id": "a",
+     "partes": [
+      {
+       "p": "Set up (but do not solve) the integral for the arc length along the curve $x = y + y^{3}$ from $y = 1$ to $y = 4$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q5a-p3.png",
+       "w": 442,
+       "h": 126
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "partes": [
+      {
+       "p": "Set up (but do not solve) the integral for the surface area of the surface obtained by rotating the curve given by"
+      },
+      {
+       "p": "$x = a$ cos$^{3} t, y = a$ sin$^{3} t, 0 6 t 6 \\pi /2$"
+      },
+      {
+       "p": "about the $x$-axis. Here $a$ is an arbitrary constant."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "img": "g1/q5b-p3.png",
+       "w": 434,
+       "h": 229
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

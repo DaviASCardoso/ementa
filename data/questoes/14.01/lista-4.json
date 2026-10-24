@@ -1,0 +1,712 @@
+{
+ "etapa": "14.01/lista-4",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset4.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.01 Problem Set 4"
+  },
+  {
+   "p": "Due at 5pm on October 20th, 2023 Late problem sets are not accepted."
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "True or False",
+   "partes": [
+    {
+     "p": "Determine whether the following statements are True or False. Explain your answers"
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) In a competitive markets, price controls are always efficient."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) In a competitive markets, price controls are always efficient."
+      },
+      {
+       "p": "False. In competitive markets if price controls shift the price away from the equilibrium price then they generate a loss of efficiency. A price cap below the equilibrium price or a minimum price above the equilibrium price will prevent the existence of transactions that would otherwise occur."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) If individual demands are $P = 3Q_{1}$ and $P = 2Q_{2}$ then aggregate demand is $P = 5Q$, where $Q = Q_{1} + Q_{2}$."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) If individual demands are $P = 3Q_{1}$ and $P = 2Q_{2}$ then aggregate demand is $P = 5Q$, where $Q = Q_{1} + Q_{2}$."
+      },
+      {
+       "p": "False. The aggregate demand is $Q = Q_{1} + Q_{2} = P/3 + P/2 = 5P/6$."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) Under free entry with identical firms, the price is equal to the average cost."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) Under free entry with identical firms, the price is equal to the average cost."
+      },
+      {
+       "p": "True. Under free entry and if all firms have the same production technology then $p = MC(q) = AV C(q)$, where $q$ is the individual quantity produced.."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) Free entry in a market drives down prices."
+      }
+     ],
+     "tipo": "vf",
+     "solucao": [
+      {
+       "p": "(5 Points) Free entry in a market drives down prices."
+      },
+      {
+       "p": "False. If firms have negative profits then some of them will exit the market, decreasing supply and increasing prices."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Minimum Price and Demand Elasticity",
+   "partes": [
+    {
+     "p": "There are two different economies, characterized by the following demand for cars"
+    },
+    {
+     "p": "$$Q_{D1} =2 - \\frac{1}{2}p$$",
+     "display": true
+    },
+    {
+     "p": "$$Q_{D2} =2 - p$$",
+     "display": true
+    },
+    {
+     "p": "Both economies have face the same supply of cars, given by"
+    },
+    {
+     "p": "$$Q_{S} = p$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) Calculate the price elasticity of demand in each market."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Calculate the price elasticity of demand in each market."
+      },
+      {
+       "p": "The price elasticity of demand for market 1 is given by:"
+      },
+      {
+       "p": "$$\\frac{\\partial Q_{D1}}{\\partial p} \\frac{p}{Q_{D1}} = -\\frac{1}{2} \\frac{2p}{4 - p} = -\\frac{p}{4 - p}$$",
+       "display": true
+      },
+      {
+       "p": "For market 2, the price elasticity of demand is:"
+      },
+      {
+       "p": "$$\\frac{\\partial Q_{D2}}{\\partial p} \\frac{p}{Q_{D2}} = -\\frac{p}{2 - p}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Suppose these economies represent two major US cities: Boston and San Antonio. Boston is one of the most walkable cities in the US, whereas San Antonio is one of the most car dependent cities in the US. Which demand would you expect to correspond to each city?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Suppose these economies represent two major US cities: Boston and San Antonio. Boston is one of the most walkable cities in the US, whereas San Antonio is one of the most car dependent cities in the US. Which demand would you expect to correspond to each city?"
+      },
+      {
+       "p": "Given Boston's walkability, its car demand is likely more elastic, with residents seeking alternatives if costs rise. In contrast, San Antonio's car-dependent nature suggests an inelastic car demand. Thus, market 2's elastic demand fits Boston, while market 1's inelastic demand aligns with San Antonio."
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) What is the equilibrium price and quantity sold in each market?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What is the equilibrium price and quantity sold in each market?"
+      },
+      {
+       "p": "In equilibrium, we set the demand function equal to the supply function. For Market 1, we have:"
+      },
+      {
+       "p": "$$2 - \\frac{1}{2}p_{1}^{*} = p_{1}^{*}$$",
+       "display": true
+      },
+      {
+       "p": "which yields $p_{1}^{*} = \\frac{4}{3}$ and $Q_{D1}^{*} = \\frac{4}{3}$. For Market 2, we have:"
+      },
+      {
+       "p": "$$2 - p_{2}^{*} = p_{2}^{*}$$",
+       "display": true
+      },
+      {
+       "p": "which yields $p_{2}^{*} = 1$ and $Q_{D2}^{*} = 1$."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) Calculate the consumer and producer surplus for both markets."
+      },
+      {
+       "p": "Suppose the government decides set a minimum price of $p = \\frac{3}{2}$ to reduce car usage in order to flight climate change."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Calculate the consumer and producer surplus for both markets."
+      },
+      {
+       "p": "In market 1, the consumer surplus is given by:"
+      },
+      {
+       "p": "$$\\frac{1}{2} 4 - \\frac{4}{3} \\frac{4}{3} = \\frac{16}{9}$$",
+       "display": true
+      },
+      {
+       "p": "while the producer surplus is:"
+      },
+      {
+       "p": "$$\\frac{1}{2} \\frac{4}{3} - 0 \\frac{4}{3} = \\frac{8}{9}$$",
+       "display": true
+      },
+      {
+       "p": "For market 2, the consumer surplus is:"
+      },
+      {
+       "p": "$$\\frac{1}{2} (2 - 1)1 = \\frac{1}{2}$$",
+       "display": true
+      },
+      {
+       "p": "and the producer surplus is:"
+      },
+      {
+       "p": "$$\\frac{1}{2} (1 - 0)1 = \\frac{1}{2}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 Points) Find the new equilibrium price and quantity in each market. Which market had the largest change in the equilibrium quantity? How does this depend on the demand elasticity? Provide an economic intuition."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Find the new equilibrium price and quantity in each market. Which market had the largest change in the equilibrium quantity? How does this depend on the demand elasticity? Provide an economic intuition."
+      },
+      {
+       "p": "Both markets adopt the minimum price of $\\frac{3}{2}$ as the new equilibrium price. Therefore, the new equilibrium quantities for markets 1 and 2 are given by:"
+      },
+      {
+       "p": "$$2 - \\frac{1}{2} \\frac{3}{2} = \\frac{5}{4}\\text{ and }2 - \\frac{3}{2} = \\frac{1}{2}$$",
+       "display": true
+      },
+      {
+       "p": "respectively. Comparing the changes, Market 2 sees a larger shift in equilibrium quantity since $1 - \\frac{1}{2} > \\frac{4}{3} - \\frac{5}{4}$. This larger shift in market 2 is consistent with its higher demand elasticity, meaning consumers in that market are more responsive to price changes. Economically, a market with more elastic demand will exhibit greater changes in quantity when prices are adjusted."
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(5 Points) Calculate the change in consumer surplus, producer surplus and deadweight loss from the minimum price. Which market has the largest deadweight loss in response to the minimum price? Why? Provide an economic interpretation."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Calculate the change in consumer surplus, producer surplus and deadweight loss from the minimum price. Which market has the largest deadweight loss in response to the minimum price? Why? Provide an economic interpretation."
+      },
+      {
+       "p": "In market 1, the change in consumer surplus is given by:"
+      },
+      {
+       "p": "$$\\frac{1}{2} 4 - \\frac{3}{2} \\frac{5}{4} - \\frac{16}{9} = -\\frac{31}{144}$$",
+       "display": true
+      },
+      {
+       "p": "while the change in producer surplus is:"
+      },
+      {
+       "p": "$$\\frac{1}{2} \\frac{3}{2} + \\frac{1}{4} \\frac{5}{4} - \\frac{8}{9} = \\frac{59}{288}$$",
+       "display": true
+      },
+      {
+       "p": "The deadweight loss is:"
+      },
+      {
+       "p": "$$\\frac{1}{2} \\frac{3}{2} - \\frac{5}{4} \\frac{4}{3} - \\frac{5}{4} = \\frac{1}{96}$$",
+       "display": true
+      },
+      {
+       "p": "market 1"
+      },
+      {
+       "img": "g1/p3-1.png",
+       "w": 358,
+       "h": 196
+      },
+      {
+       "p": "For market 2, the change in consumer surplus is:"
+      },
+      {
+       "p": "$$\\frac{1}{2} 2 - \\frac{3}{2} \\frac{1}{2} - \\frac{1}{2} = -\\frac{3}{8}$$",
+       "display": true
+      },
+      {
+       "p": "and the change in producer surplus is:"
+      },
+      {
+       "p": "$$\\frac{1}{2} \\frac{3}{2} + 1 \\frac{1}{2} - \\frac{1}{2} = \\frac{1}{8}$$",
+       "display": true
+      },
+      {
+       "p": "The deadweight loss is:"
+      },
+      {
+       "p": "$$\\frac{1}{2} \\frac{3}{2} - \\frac{1}{2} 1 - \\frac{1}{2} = \\frac{1}{4}$$",
+       "display": true
+      },
+      {
+       "p": "market 2"
+      },
+      {
+       "img": "g1/p3-2.png",
+       "w": 358,
+       "h": 196
+      },
+      {
+       "p": "The market with the more elastic demand shows a larger deadweight loss due to a minimum price. Elasticity indicates that consumers in that market are highly responsive to price variations. As a result, a price floor leads to a significant gap between quantity supplied and demanded in this market. Consequently, market 2 incurs a greater deadweight loss. Economically, this implies that the interventions distorting prices in market 2 result in a more substantial loss of total societal welfare"
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Market Surplus with Firm Entry",
+   "partes": [
+    {
+     "p": "Consider the market for sugar. Assume the market is perfectly competitive, so all sugar producers are price takers. The demand in the US for sugar is"
+    },
+    {
+     "p": "$$Q_{D} = 100 - 5p$$",
+     "display": true
+    },
+    {
+     "p": "The government regulates supply of sugar by not allowing foreign producers to sell in the US. Assume there are 5 producers in the US, whose long run cost function is $C(q) = \\frac{1}{2}q^{2}$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 Points) What is the individual and aggregate supply of sugar in the US?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What is the individual and aggregate supply of sugar in the US?"
+      },
+      {
+       "p": "Setting $p = MC = q$, we get $q = p$. We know that if $p = MC \\geq AC$. Since the firm's technology has decreasing returns to scale then $MC(q) > AC(q)$ for any $q$, so a producer will not shut down at any price. Since there are 5 producers in the market, the aggregate supply curve is given by $Q_{S} = 5p$."
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) What is the equilibrium price and quantity in this market? What is the consumer surplus and the producer surplus in equilibrium? What is the producer surplus of each individual firm?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) What is the equilibrium price and quantity in this market? What is the consumer surplus and the producer surplus in equilibrium? What is the producer surplus of each individual firm?"
+      },
+      {
+       "p": "To find the equilibirum price and quantity, we look at the point where the demand curve is equal to the supply curve."
+      },
+      {
+       "p": "$$Q_{D} = Q_{S}$$",
+       "display": true
+      },
+      {
+       "p": "$$100 - 5p = 5p$$",
+       "display": true
+      },
+      {
+       "p": "$$p = 10$$",
+       "display": true
+      },
+      {
+       "p": "$$Q = 50$$",
+       "display": true
+      },
+      {
+       "p": "$$CS = \\frac{50 * (20 - 10)}{2} = 250$$",
+       "display": true
+      },
+      {
+       "p": "$$PS = \\frac{50 * (10)}{2} = 250$$",
+       "display": true
+      },
+      {
+       "p": "$$PS_{i} = \\frac{PS}{5} = 50$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) How much would the producer pay to put pressure on the government to keep the status quo and avoid entry of other competitors?"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Suppose local producers can destine their profits to put pressure on the government to avoid foreign producers to sell sugar in the US."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) How much would the producer pay to put pressure on the government to keep the status quo and avoid entry of other competitors?"
+      },
+      {
+       "p": "The producer's willingness to pay is equal to the firm's profits. In equilibirum each firm produces $q = p = 10$ with an average cost of $AC = \\frac{1}{2}q = 5$. Thus, $\\pi = q(p-AC) = 50$. This means that the producer's willingness to pay is 50."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) Calculate the new equilibrium price and quantity in this market. What is the change in consumer surplus and producer surplus? What is the change in the producer surplus of each individual firm?"
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Suppose the government passes a the Sugar Reduction Price Act, allowing the entrance of foreign producers to the market. Foreign producers have the same long run cost function $C(q) = \\frac{1}{2}q^{2}$, and the government allows five foreign producers to enter the market."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Calculate the new equilibrium price and quantity in this market. What is the change in consumer surplus and producer surplus? What is the change in the producer surplus of each individual firm?"
+      },
+      {
+       "p": "The aggregate supply is now $S(p) = 10p$. When setting demand equal to the supply:"
+      },
+      {
+       "p": "$$D(p) = S(p)$$",
+       "display": true
+      },
+      {
+       "p": "$$100 - 5p = 10p$$",
+       "display": true
+      },
+      {
+       "p": "$$p = \\frac{20}{3}$$",
+       "display": true
+      },
+      {
+       "p": "$$Q = \\frac{200}{3}$$",
+       "display": true
+      },
+      {
+       "img": "g1/p6-1.png",
+       "w": 129,
+       "h": 25
+      },
+      {
+       "p": "$$PS = \\frac{\\frac{200}{3} * \\frac{20}{3}}{2} = \\frac{2000}{9}$$",
+       "display": true
+      },
+      {
+       "p": "$$PS_{i} = \\frac{PS}{10} = \\frac{200}{9}$$",
+       "display": true
+      },
+      {
+       "p": "There is an increase in the total consumer surplus. There is a decrease in the producer surplus and the producer surplus for each individual firm."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 Points) True or False? Justify your"
+      }
+     ],
+     "solucao": [
+      {
+       "p": "free entry not only transfers surplus from consumers to producers, but also increases aggregate welfare."
+      }
+     ],
+     "tipo": "aberta"
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "4",
+   "titulo": "Market Surplus with Inelastic Supply",
+   "partes": [
+    {
+     "p": "Consider the rental market in Cambridge. Supply is fixed at $Q_{S} = 5000$ and demand is given by"
+    },
+    {
+     "p": "$$Q_{D} = 10000 - p$$",
+     "display": true
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(2 Points) Calculate the equilibrium price and quantity in the market, and the consumer and producer surplus."
+      },
+      {
+       "p": "To help consumers, the government decides to subsidize rent by giving checks to consumers to help them pay"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(2 Points) Calculate the equilibrium price and quantity in the market, and the consumer and producer surplus."
+      },
+      {
+       "p": "The equilibrium price solves"
+      },
+      {
+       "p": "$$Q_{D} = Q_{S} \\Rightarrow 10000 - p = 5000 \\Rightarrow p^{*} = 5000 Q^{*} = 5000$$",
+       "display": true
+      },
+      {
+       "p": "Consumer surplus:"
+      },
+      {
+       "p": "$$CS = \\frac{1}{2}Q^{*} (10000 - p^{*}) = 12500000$$",
+       "display": true
+      },
+      {
+       "p": "Producer surplus:"
+      },
+      {
+       "p": "$$PS = Q^{*}p^{*} = 25000000$$",
+       "display": true
+      },
+      {
+       "p": "To help consumers, the government decides to subsidize rent by giving checks to consumers to help them pay"
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 Points) Calculate the new equilibrium price and quantity, as well as the consumer and producer surplus."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "rent. As a result the new demand is"
+      },
+      {
+       "p": "$$Q_{D} = 12000 - p$$",
+       "display": true
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Calculate the new equilibrium price and quantity, as well as the consumer and producer surplus."
+      },
+      {
+       "p": "The new equilibrium price solves"
+      },
+      {
+       "p": "$$12000 - p = 5000 \\Rightarrow p^{*} = 7000 Q^{*} = 5000$$",
+       "display": true
+      },
+      {
+       "p": "Consumer surplus:"
+      },
+      {
+       "p": "$$CS = \\frac{1}{2}Q^{*} (12000 - p^{*}) = 12500000$$",
+       "display": true
+      },
+      {
+       "p": "Producer surplus:"
+      },
+      {
+       "p": "$$PS = Q^{*}p^{*} = 35000000$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(5 Points) Are consumers better off after this measure? Provide an economic intuition on why consumers are/are not better off after the subsidy (Answers that just refer to the change in consumer surplus without providing an economic interpretation will not receive full credit)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Are consumers better off after this measure? Provide an economic intuition on why consumers are/are not better off after the subsidy (Answers that just refer to the change in consumer surplus without providing an economic interpretation will not receive full credit)."
+      },
+      {
+       "p": "Since consumer surplus has not changed then consumers are not better off. Intuitively, if supply is fixed then any increase in demand, for example because of a subsidy, will not induce any increase in the equilibrium quantity. Since the equilibrium quantity cannot increase then only prices will increase."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 Points) Calculate the new equilibrium price and quantity, as well as the consumer and producer surplus."
+      }
+     ],
+     "contexto": [
+      {
+       "p": "Suppose that instead of subsidize demand, the government decides to change zoning regulations to allow the construction of large buildings. As a result, supply increases to $Q_{s} = 7000$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Calculate the new equilibrium price and quantity, as well as the consumer and producer surplus."
+      },
+      {
+       "p": "The new equilibrium prices solve"
+      },
+      {
+       "p": "$$10000 - p = 7000 \\Rightarrow p^{*} = 3000 Q^{*} = 7000$$",
+       "display": true
+      },
+      {
+       "p": "Consumer surplus:"
+      },
+      {
+       "p": "$$CS = \\frac{1}{2}Q^{*} (10000 - p^{*}) = 24500000$$",
+       "display": true
+      },
+      {
+       "p": "$$PS = Q^{*}p^{*} = 21000000$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(5 Points) Are consumers better off after this measure? What about homeowners? Provide an economic intuition on why consumers are/are not better off after the subsidy (Answers that just refer to the change in consumer surplus without providing an economic interpretation will not receive full credit)."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 Points) Are consumers better off after this measure? What about homeowners? Provide an economic intuition on why consumers are/are not better off after the subsidy (Answers that just refer to the change in consumer surplus without providing an economic interpretation will not receive full credit)."
+      },
+      {
+       "p": "Consumer surplus increased so consumers are better off. However, producers are worse off because the producer surplus decreased. Intuitively, this policy increased supply and helped to drive down prices both of which are welfare improving to consumers. The increase in supply decrease the rents homeowners were capturing from the scarcity of houses."
+      }
+     ]
+    },
+    {
+     "id": "6",
+     "partes": [
+      {
+       "p": "(3 Points) From the government's perspective, which one of the two measures discussed in this exercise is more effective if the goal is to improve the consumers' situation? Provide an explanation."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(3 Points) From the government's perspective, which one of the two measures discussed in this exercise is more effective if the goal is to improve the consumers' situation? Provide an explanation."
+      },
+      {
+       "p": "Increasing supply is more effective. Intuitively, the problem the government was trying to solve was low supply. Thus, policies aimed at increasing supply are more efficient than policies directed to demand."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}

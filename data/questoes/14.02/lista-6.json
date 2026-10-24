@@ -1,0 +1,526 @@
+{
+ "etapa": "14.02/lista-6",
+ "fontes": [
+  {
+   "rotulo": "Enunciado",
+   "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset6.pdf",
+   "paginas": 4
+  }
+ ],
+ "avisos": [],
+ "intro": [
+  {
+   "p": "14.02 - Principles of Macroeconomics Problem Set 6"
+  },
+  {
+   "p": "Spring 2023"
+  }
+ ],
+ "questoes": [
+  {
+   "n": "1",
+   "titulo": "– Uncovered Interest Parity (23 points)",
+   "partes": [
+    {
+     "p": "Consider two bonds, one issued in euros (€) in Italy and one issued in dollars (\\$) in the U.S. Assume that both government securities are one-year bonds—paying the face value of the bond one year from now. The exchange rate, $E$, stands at 0.825 euros per dollar. The face value of the U.S. bond is \\$10,000. The face value of the Italian bond is €10,000. The price of the U.S. bond is \\$9,615.38. The price of the Italian bond is €9,433.96."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "(5 points) Compute the nominal interest rate on each of the bonds."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Compute the nominal interest rate on each of the bonds."
+      },
+      {
+       "p": "The nominal interest rate can be computed using the formula"
+      },
+      {
+       "p": "price = face value$\\Leftarrow \\Rightarrow i =$ face value$- 1$ 1 $+ i$ price"
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "(5 points) Compute the expected exchange rate next year consistent with uncovered interest parity."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Compute the expected exchange rate next year consistent with uncovered interest parity."
+      },
+      {
+       "p": "The uncovered interest parity is given by"
+      },
+      {
+       "p": "$$1 + i = (1 + i^{?}) \\frac{E}{E^{e}}$$",
+       "display": true
+      },
+      {
+       "p": "$$E^{e}= \\frac{1 + i^{?}}{1 + i}E$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "(4 points) If you expect the dollar to depreciate relative to the euro, relative to the current exchange rate, which bond should you buy?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(4 points) If you expect the dollar to depreciate relative to the euro, relative to the current exchange rate, which bond should you buy?"
+      },
+      {
+       "p": "This would mean that E$^{e}< 0.825 < 0.841$. Since uncovered interest parity holds when expec tations are E$^{e}= 0.841$, a lower E$^{e}$implies that the Italian bond is more attractive, so it is the bond you should buy."
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "(5 points) Assume that you are a U.S. investor and you exchange dollars for euros at time $t$ at the current exchange rate $E_{t}=$ 0.825, and purchase the Italian bond today. For this subpoint, assume that the exchange rate realization at $t +$ 1 is actually $E_{t+1}=$ 0.792 euros per dollar. What is your realized rate of return in dollars compared to the realized rate of return you would have made had you held the U.S. bond?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(5 points) Assume that you are a U.S. investor and you exchange dollars for euros at time $t$ at the current exchange rate $E_{t}=$ 0.825, and purchase the Italian bond today. For this subpoint, assume that the exchange rate realization at $t +$ 1 is actually $E_{t+1}=$ 0.792 euros per dollar. What is your realized rate of return in dollars compared to the realized rate of return you would have made had you held the U.S. bond?"
+      },
+      {
+       "p": "The realized return from holding Italian bonds is"
+      },
+      {
+       "p": "(1 $+ i^{?}) \\frac{E_{t}}{E_{t+1}} =$ 10.4%"
+      },
+      {
+       "p": "The realized return on the US bond is still 4% so the fact that the US dollar depreciated with respect to the euro made the return on the Italian bond higher."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "(4 points) Are the differences in rates of return in 4. consistent with the uncovered interest parity condition? Why or why not?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "(4 points) Are the differences in rates of return in 4. consistent with the uncovered interest parity condition? Why or why not?"
+      },
+      {
+       "p": "It is not inconsistent with the uncovered interest parity. the UIP relation holds *in expec tation*. However, the realized returns may differ."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "2",
+   "titulo": "Aggregate Demand in an Open Economy [55 points]",
+   "partes": [
+    {
+     "p": "Let's assume we have an open economy with demand for domestic goods:"
+    },
+    {
+     "p": "$$Z = C + I + G -\\text{ IM}/\\varepsilon + X$$",
+     "display": true
+    },
+    {
+     "p": "where the real exchange rate $\\varepsilon$ , investment $I$, government spending $G$, and taxes $T$ are assumed to be exogenous. The consumption is given by"
+    },
+    {
+     "p": "$$C = c_{0}+ c_{1}\\cdot (Y - T)$$",
+     "display": true
+    },
+    {
+     "p": "where $c_{0}>$ 0 and $c_{1}\\in (0, 1)$. Demand for imports and demand for exports are given, respectively, by"
+    },
+    {
+     "p": "$$\\text{IM }= c_{2}\\cdot Y \\cdot \\varepsilon$$",
+     "display": true
+    },
+    {
+     "p": "$$X = Y^{*} - \\alpha \\cdot \\varepsilon$$",
+     "display": true
+    },
+    {
+     "p": "where $\\alpha > 0, c_{2}\\in (0, c_{1})$. Finally, the good market equilbirium is characterized by the condition $Y = Z$."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[10 Points] Draw the graph of domestic demand for goods, and the demand for domestic goods, as a function of income on the same chart. When you draw the graph, assume that $Y^{*} - \\alpha \\varepsilon > 0$. Do both demands have the same slope? If not, which one is fatter, and why? Using an additional chart underneath the one you just drew, draw net exports as a function of income and specify at which point trade balance arises."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Draw the graph of domestic demand for goods, and the demand for domestic goods, as a function of income on the same chart. When you draw the graph, assume that $Y^{*} - \\alpha \\varepsilon > 0$. Do both demands have the same slope? If not, which one is fatter, and why? Using an additional chart underneath the one you just drew, draw net exports as a function of income and specify at which point trade balance arises."
+      },
+      {
+       "p": "The demand for domestic goods (ZZ) is fatter than the domestic demand for goods (DD). Indeed, when the income of a country increases, only a fraction of the increase in demand goes to domestic goods, and part of the increase of demand is absorbed by foreign goods. The trade balance is the difference between the demand for domestic goods and the domestic demand for goods."
+      },
+      {
+       "img": "g1/p3-1.png",
+       "w": 228,
+       "h": 279
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[15 Points] Compute GDP and trade balance as a function of exogenous variables and parameters."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[15 Points] Compute GDP and trade balance as a function of exogenous variables and parameters."
+      },
+      {
+       "p": "At the equilibrium, output must be equal to demand for domestic goods, so that we have"
+      },
+      {
+       "p": "$$Y = C + I + G + X - \\frac{IM}{\\varepsilon}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow Y = c_{0}+ c_{1}(Y - T) + I + G + Y^{*} - \\alpha \\varepsilon - c_{2}Y$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow (1 - c_{1}+ c_{2})Y = c_{0}- c_{1}T + I + G + Y^{*} - \\alpha \\varepsilon$$",
+       "display": true
+      },
+      {
+       "p": "$$\\Leftarrow \\Rightarrow Y = \\frac{c_{0}- c_{1}T + I + G + Y^{*} - \\alpha \\varepsilon}{1 - c_{1}+ c_{2}}$$",
+       "display": true
+      },
+      {
+       "p": "From that, we conclude that trade balance is given by:"
+      },
+      {
+       "p": "NX $= X -$ IM$/\\varepsilon$"
+      },
+      {
+       "p": "$$= Y^{*} - \\alpha \\varepsilon - c_{2}Y$$",
+       "display": true
+      },
+      {
+       "p": "$$= Y^{*} - \\alpha \\varepsilon - c_{2}\\frac{c_{0}- c_{1}T + I + G + Y^{*} - \\alpha \\varepsilon}{1 - c_{1}+ c_{2}}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[10 Points] Based on your answers for subpoint 2, compute the government spending multiplier of GDP and of trade balance (i.e., if $G$ increases by 1, by how much do GDP and trade balance change). Answer the same question for the real exchange rate multiplier (i.e., the effect on output and trade balance of a unit increase in $\\varepsilon )$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Based on your answers for subpoint 2, compute the government spending multiplier of GDP and of trade balance (i.e., if $G$ increases by 1, by how much do GDP and trade balance change). Answer the same question for the real exchange rate multiplier (i.e., the effect on output and trade balance of a unit increase in $\\varepsilon )$."
+      },
+      {
+       "p": "Given the computations from the previous subpoint, we have:"
+      },
+      {
+       "p": "$$\\frac{∂Y}{∂G} = \\frac{1}{1 - c_{1}+ c_{2}}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\frac{∂NX}{∂G} = \\frac{-c_{2}}{1 - c_{1}+ c_{2}}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\frac{∂Y}{\\partial \\varepsilon} = \\frac{-\\alpha}{1 - c_{1}+ c_{2}}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\frac{∂NX}{\\partial \\varepsilon} = -\\alpha + \\frac{c_{2}\\alpha}{1 - c_{1}+ c_{2}}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[10 Points] Suppose foreign output $Y^{*}$ decreases by 1 unit. By how much should domestic govern ment spending change to compensate the increase in trade defcit, if we assume $\\varepsilon$ is fixed? What is the total effect on GDP?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Suppose foreign output $Y^{*}$ decreases by 1 unit. By how much should domestic govern ment spending change to compensate the increase in trade defcit, if we assume $\\varepsilon$ is fixed? What is the total effect on GDP?"
+      },
+      {
+       "p": "We want to compute $\\omega$ such that :"
+      },
+      {
+       "p": "$$-\\frac{∂NX}{∂Y^{*}} + \\omega \\frac{∂NX}{∂G} = 0$$",
+       "display": true
+      },
+      {
+       "p": "Then we have:"
+      },
+      {
+       "p": "$$\\omega = ( \\frac{∂NX}{∂Y^{*}})/( \\frac{∂NX}{∂G}) = -\\frac{(1 - c_{1}+ c_{2}) - c_{2}}{c_{2}} = -\\frac{1 - c_{1}}{c_{2}}$$",
+       "display": true
+      },
+      {
+       "p": "Therefore, government has to reduce its spending by $\\frac{1-c_{1}}{c_{2}}$ to keep the trade balance at its previous level. Then the total effect on GDP is the sum of the effect of world demand and real exchange rate: then we have :"
+      },
+      {
+       "p": "$$\\Delta Y = -\\frac{1 - c_{1}}{c_{2}} \\frac{∂Y}{∂G} - 1 \\times \\frac{∂Y}{∂Y^{*}}$$",
+       "display": true
+      },
+      {
+       "p": "$$= -( \\frac{1 - c_{1}}{c_{2}} + 1) \\frac{1}{1 - c_{1}+ c_{2}}$$",
+       "display": true
+      },
+      {
+       "p": "$$= -\\frac{1}{c_{2}}$$",
+       "display": true
+      },
+      {
+       "p": "We can see that the fiscal consolidation implemented by the government amplifes the recessionary effect of the decrease in foreign output."
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "partes": [
+      {
+       "p": "[10 Points] Suppose again that $Y^{*}$ decreases by 1 unit and the central bank can directly change $\\varepsilon$ to compensate the effect on trade defcit. By how much should the real exchange rate change? What is the total effect on GDP ? Compare to the previous subpoint: which policy seems more efficient in terms of GDP?"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[10 Points] Suppose again that $Y^{*}$ decreases by 1 unit and the central bank can directly change $\\varepsilon$ to compensate the effect on trade defcit. By how much should the real exchange rate change? What is the total effect on GDP ? Compare to the previous subpoint: which policy seems more efficient in terms of GDP?"
+      },
+      {
+       "p": "In this case, the government should depreciate the real exchange rate by $1/\\alpha$ to balance the effect on trade defcit. Such an effect would have no effect on GDP, unlike the previous policy. Therefore, exchange rate depreciation is more efficient to maintain the trade balance."
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  },
+  {
+   "n": "3",
+   "titulo": "Policy Coordination in an Open Economy [22 points]",
+   "partes": [
+    {
+     "p": "Consider a world with only two symmetric countries: Home and Foreign ($^{*}$). Demand for home good is"
+    },
+    {
+     "p": "$$Z = C + I + G + X -\\text{ IM}/e$$",
+     "display": true
+    },
+    {
+     "p": "where $e$ is the price of Home goods in terms of Foreign goods, and"
+    },
+    {
+     "p": "$$C = 0.7 \\cdot (Y - T)$$",
+     "display": true
+    },
+    {
+     "p": "$$X = 0.2 \\cdot Y^{*}/e$$",
+     "display": true
+    },
+    {
+     "p": "The symmetry implies that demand for foreign good is given by"
+    },
+    {
+     "p": "$$Z^{*} = C^{*} + I^{*} + G^{*} + X^{*} -\\text{ IM}^{*}/e^{*}$$",
+     "display": true
+    },
+    {
+     "p": "where $e^{*}$ is the price of Foreign goods in terms of Home goods, and"
+    },
+    {
+     "p": "$$C^{*} = 0.7 \\cdot (Y^{*} - T^{*})$$",
+     "display": true
+    },
+    {
+     "p": "$$X^{*} = 0.2 \\cdot Y/e^{*}$$",
+     "display": true
+    },
+    {
+     "p": "Government spending $G$ and $G^{*}$ are exogenously given. Assume $I = I^{*} = T = T^{*} =$ 0 for simplicity."
+    }
+   ],
+   "itens": [
+    {
+     "id": "1",
+     "partes": [
+      {
+       "p": "[6 points] Use the symmetry between two countries to calculate IM"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[6 points] Use the symmetry between two countries to calculate IM"
+      },
+      {
+       "p": "Imports of Home are equal to exports of Foreign, hence"
+      },
+      {
+       "p": "$$\\text{IM }= X^{*} = 0.2Y/e^{*} = 0.2Y \\cdot e$$",
+       "display": true
+      },
+      {
+       "p": "where the last equality comes from the fact that"
+      },
+      {
+       "p": "$e^{*} =$ (Price of Home goods in terms of Foreign goods) = (Price of Foreign goods in terms of Home goods)$^{-1}$"
+      },
+      {
+       "p": "$$= e^{-1}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "partes": [
+      {
+       "p": "[6 points] Calculate the equilibrium output $Y$ and net exports NX in terms of $G, Y^{*}$, and $e$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[6 points] Calculate the equilibrium output $Y$ and net exports NX in terms of $G, Y^{*}$, and $e$."
+      },
+      {
+       "p": "We have"
+      },
+      {
+       "p": "$$Y = 0.7Y + G + 0.2Y^{*}/e - 0.2Y$$",
+       "display": true
+      },
+      {
+       "p": "$$= 2G + 0.4Y^{*}/e$$",
+       "display": true
+      },
+      {
+       "p": "and"
+      },
+      {
+       "p": "NX $= X -$ IM$/e$"
+      },
+      {
+       "p": "$$= 0.2Y^{*}/e - 0.2Y$$",
+       "display": true
+      },
+      {
+       "p": "$$= 0.12Y^{*}/e - 0.4G$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "partes": [
+      {
+       "p": "[4 points] Calculate the equilibrium output $Y^{*}$ and net exports NX$^{*}$ in terms of $G^{*}, Y$, and $e^{*}$. [Hint: Use symmetry]"
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[4 points] Calculate the equilibrium output $Y^{*}$ and net exports NX$^{*}$ in terms of $G^{*}, Y$, and $e^{*}$. [Hint: Use symmetry]"
+      },
+      {
+       "p": "By symmetry, we have"
+      },
+      {
+       "p": "$$Y^{*} = 2G^{*} + 0.4Y/e^{*}$$",
+       "display": true
+      },
+      {
+       "p": "$$\\text{NX}^{*} = 0.12Y/e^{*} - 0.4G^{*}$$",
+       "display": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "partes": [
+      {
+       "p": "[6 points] Assuming $e =$ 1, calculate $Y$ and NX as a function of $G$ and $G^{*}$."
+      }
+     ],
+     "tipo": "aberta",
+     "solucao": [
+      {
+       "p": "[6 points] Assuming $e =$ 1, calculate $Y$ and NX as a function of $G$ and $G^{*}$."
+      },
+      {
+       "p": "From the previous subpoints, we know that"
+      },
+      {
+       "p": "$$Y = 2G + 0.4Y^{*}$$",
+       "display": true
+      },
+      {
+       "p": "$$Y^{*} = 2G^{*} + 0.4Y$$",
+       "display": true
+      },
+      {
+       "p": "This system of equations gives"
+      },
+      {
+       "p": "$$Y = \\frac{50}{21}G + \\frac{20}{21}G^{*} \\approx 2.38G + 0.95G^{*}$$",
+       "display": true
+      },
+      {
+       "p": "$$Y^{*} = \\frac{50}{21}G^{*} + \\frac{20}{21}G \\approx 2.38G^{*} + 0.95G$$",
+       "display": true
+      },
+      {
+       "p": "which in turn gives"
+      },
+      {
+       "p": "$$\\text{NX }= -\\frac{2}{7} (G - G^{*}) \\approx -0.29(G - G^{*})$$",
+       "display": true
+      }
+     ]
+    }
+   ],
+   "tipo": "aberta",
+   "fonte": 0
+  }
+ ]
+}
