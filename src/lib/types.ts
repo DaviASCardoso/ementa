@@ -42,9 +42,11 @@ export type Card = {
   id: string; step_id: string | null; frente: string; verso: string; criada_em: string;
   vence: string; intervalo: number; facilidade: number; repeticoes: number; lapsos: number; revisada_em: string | null;
 };
-export type Resposta = { q: string; texto: string };
+export type Avaliacao = 'certo' | 'parcial' | 'errado';
+// q: chave do item ("<índice da questão>/<item>" nas listas interativas; número livre nas antigas)
+export type Resposta = { q: string; texto: string; escolha?: string; avaliacao?: Avaliacao; comentario?: string };
 export type Submission = { step_id: string; respostas: Resposta[]; entregue_em: string | null; nota: number | null; correcao: string | null; updated_at?: string };
-export type Mistake = { id: string; step_id: string | null; origem: string; descricao: string; vence: string; resolvido: boolean; criado_em: string };
+export type Mistake = { id: string; step_id: string | null; origem: string; descricao: string; vence: string; resolvido: boolean; criado_em: string; questao?: string | null };
 
 export type Settings = {
   minGrade: string; lockdown: boolean; hideKey: boolean;

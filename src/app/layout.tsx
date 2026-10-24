@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Bricolage_Grotesque, Geist, Geist_Mono, Newsreader } from 'next/font/google';
+import 'katex/dist/katex.min.css';
 import './globals.css';
 
 const bricolage = Bricolage_Grotesque({ subsets: ['latin', 'latin-ext'], weight: ['500', '600', '700', '800'], variable: '--font-bricolage' });

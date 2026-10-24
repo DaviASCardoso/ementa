@@ -16,11 +16,12 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const cur = atual ? st.atualEtapa(atual.id) : null;
   const feitas = passos.filter((s) => feita(s, st.mapas)).length;
 
-  const ativo = path.startsWith('/materias') ? 'materias' : path.startsWith('/revisao') ? 'revisao' : path.startsWith('/erros') ? 'erros'
+  const ativo = path.startsWith('/materias') ? 'materias' : path.startsWith('/revisao') ? 'revisao' : path.startsWith('/erros') ? 'erros' : path.startsWith('/banco') ? 'banco'
     : path.startsWith('/config') ? 'config' : 'trilha';
   const itens = [
     { id: 'trilha', href: atual ? `/trilha/${atual.id}` : '/', label: 'Trilha', icon: P.path, badge: 0 },
     { id: 'materias', href: '/materias', label: 'Matérias', icon: P.grid, badge: 0 },
+    { id: 'banco', href: '/banco', label: 'Banco de questões', icon: P.search, badge: 0 },
     { id: 'revisao', href: '/revisao', label: 'Revisão', icon: P.cards, badge: st.pendentes.fichas },
     { id: 'erros', href: '/erros', label: 'Caderno de erros', icon: P.alert, badge: st.pendentes.erros },
   ];

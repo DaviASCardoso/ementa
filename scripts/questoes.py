@@ -251,6 +251,69 @@ def gerar(step):
             'recorte': sum(1 for it in itens if it.get('revisar')), 'gabarito_ligado': ligados, 'avisos': out['avisos']}
 
 
+def texto_busca(no):
+    """Texto puro para a busca: sem comandos do LaTeX, sem acentos, minúsculo."""
+    import re
+    import unicodedata
+    partes = []
+
+    def anda(n):
+        if isinstance(n, dict):
+            if isinstance(n.get('p'), str):
+                partes.append(n['p'])
+            if isinstance(n.get('texto'), str):
+                partes.append(n['texto'])
+            for k, v in n.items():
+                if k not in ('solucao', 'recorte'):
+                    anda(v)
+        elif isinstance(n, list):
+            for v in n:
+                anda(v)
+    anda(no)
+    t = ' '.join(partes)
+    t = re.sub(r'\\[a-zA-Z]+', ' ', t)
+    t = re.sub(r'[${}^_\\]', ' ', t)
+    t = unicodedata.normalize('NFKD', t)
+    t = ''.join(c for c in t if not unicodedata.combining(c)).lower()
+    return re.sub(r'\s+', ' ', t).strip()
+
+
+def publicar(cat):
+    """Copia cada etapa para public/questoes/<etapa>.json e monta o índice de busca public/questoes/banco.json."""
+    rotulo = {s['id']: s for s in cat['steps']}
+    cursos = {c['id']: c for c in cat['courses']}
+    banco = []
+    for st in cat['steps']:
+        caminho = os.path.join(SAIDA, st['id'] + '.json')
+        if st['tipo'] == 'aula' or not os.path.exists(caminho):
+            continue
+        r = json.load(open(caminho, encoding='utf-8'))
+        destino = os.path.join(IMGS, st['id'] + '.json')
+        os.makedirs(os.path.dirname(destino), exist_ok=True)
+        with open(destino, 'w', encoding='utf-8') as f:
+            json.dump(r, f, ensure_ascii=False, separators=(',', ':'))
+        for k, q in enumerate(r['questoes']):
+            itens = [it for it in q['itens'] if it.get('tipo') != 'grupo'] or [q]
+            resumo, tam = [], 0
+            for p in q['partes'] or (q['itens'][0]['partes'] if q['itens'] else []):
+                if 'p' in p and tam < 320:
+                    resumo.append(p['p'])
+                    tam += len(p['p'])
+            banco.append({
+                'sid': st['id'], 'k': k, 'n': q['n'], 'titulo': q.get('titulo', ''),
+                'curso': st['course_id'], 'tipo': st['tipo'], 'etapa': rotulo[st['id']]['titulo'],
+                'ordem': cursos[st['course_id']]['ordem'] * 10000 + st['ordem'] * 100 + k,
+                'resumo': resumo, 'busca': texto_busca(q),
+                'itens': len(itens), 'tipos': sorted({it.get('tipo', 'aberta') for it in itens}),
+                'sol': any(it.get('solucao') for it in itens),
+                'fig': any('img' in p for x in [q] + q['itens'] for p in x.get('partes', [])),
+            })
+    banco.sort(key=lambda b: b['ordem'])
+    with open(os.path.join(IMGS, 'banco.json'), 'w', encoding='utf-8') as f:
+        json.dump(banco, f, ensure_ascii=False, separators=(',', ':'))
+    return len(banco)
+
+
 def main():
     cat = json.load(open(os.path.join(RAIZ, 'data', 'catalog.json'), encoding='utf-8'))
     pedidos = set(sys.argv[1:])
@@ -266,6 +329,7 @@ def main():
             print(f"{s['id']}: {r['questoes']} questões{extra}{aviso}")
     with open(caminho_indice, 'w', encoding='utf-8') as f:
         json.dump(dict(sorted(indice.items())), f, ensure_ascii=False, indent=1)
+    print('banco de busca:', publicar(cat), 'questões')
 
 
 if __name__ == '__main__':

@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react';
 import { useStore } from '@/components/Store';
 import { BotaoApagar } from '@/components/comum';
 import { hoje, relativo, somarDias } from '@/lib/format';
+import { QuestaoView } from '@/components/Questao';
+import { useEtapaQuestoes } from '@/lib/questoes';
 
 export default function Erros() {
   const st = useStore();
@@ -33,6 +35,7 @@ export default function Erros() {
               <span className="src">{s ? `${s.course_id} · ` : ''}{m.origem}</span>
               <span style={{ fontSize: 16 }}>{m.descricao}</span>
             </span>
+            {aberto === m.id && m.questao && m.step_id && <QuestaoDoErro sid={m.step_id} chave={m.questao} />}
             {aberto === m.id ? (
               <span style={{ display: 'flex', flexWrap: 'wrap', gap: 8, flexBasis: '100%', justifyContent: 'flex-end', alignItems: 'center' }}>
                 {s && <Link href={`/etapa/${s.id}`} className="btn soft sm">Abrir {s.tipo === 'prova' ? 'a prova' : 'a lista'}</Link>}
@@ -60,6 +63,20 @@ export default function Erros() {
           ))}
         </div>
       )}
+    </div>
+  );
+}
+
+// A questão de origem do erro, com o item destacado (a solução fica atrás de um botão)
+function QuestaoDoErro({ sid, chave }: { sid: string; chave: string }) {
+  const eq = useEtapaQuestoes(sid);
+  const k = Number(chave.split('/')[0]);
+  const q = eq?.questoes[k];
+  if (eq === undefined) return <p className="caption" style={{ flexBasis: '100%', margin: 0 }}>Carregando a questão…</p>;
+  if (!q) return null;
+  return (
+    <div style={{ flexBasis: '100%' }}>
+      <QuestaoView q={q} k={k} sid={sid} modo="banco" destaque={chave} />
     </div>
   );
 }

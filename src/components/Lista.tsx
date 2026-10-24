@@ -7,10 +7,19 @@ import { Icon, P } from './icons';
 import { hoje, lerNota, nota, somarDias } from '@/lib/format';
 import type { Card, Mistake, Resposta, Step, Submission } from '@/lib/types';
 import { lerChave } from '@/lib/chave';
+import { useEtapaQuestoes } from '@/lib/questoes';
+import { ListaInterativa } from './ListaInterativa';
 
 type Correcao = { nota: number; comentario: string; erros: { questao: string; descricao: string }[]; semGabarito?: boolean };
 
+// Com questões no banco, a lista é interativa; sem, fica o PDF com respostas livres
 export function Lista({ s }: { s: Step }) {
+  const eq = useEtapaQuestoes(s.id);
+  if (eq === undefined) return <div className="page"><Topo s={s} /><p className="caption">Carregando as questões…</p></div>;
+  return eq ? <ListaInterativa s={s} eq={eq} /> : <ListaLivre s={s} />;
+}
+
+function ListaLivre({ s }: { s: Step }) {
   const st = useStore();
   const salvo = st.mapas.submissions[s.id];
   const [sub, setSub] = useState<Submission>(() => salvo ?? { step_id: s.id, respostas: [1, 2, 3].map((q) => ({ q: String(q), texto: '' })), entregue_em: null, nota: null, correcao: null });

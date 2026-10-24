@@ -20,12 +20,39 @@ export async function GET(req: Request) {
   return NextResponse.json({ ok: r.ok, erro: r.ok ? null : `Gemini respondeu ${r.status}` }, { status: r.ok ? 200 : 400 });
 }
 
+type ItemCorrecao = { q: string; rotulo: string; enunciado: string; solucao: string; resposta: string };
+
+// Lista interativa: corrige item por item, com o enunciado e a solução já transcritos
+async function corrigirItens(key: string, step: Step, itens: ItemCorrecao[], rigor?: string) {
+  const temSolucao = itens.some((i) => i.solucao.trim());
+  const { partes, semGabarito } = temSolucao ? { partes: [] as object[], semGabarito: false } : await pdfsDaEtapa(step);
+  const instrucao = [
+    'Você corrige exercícios de economia e matemática de um curso do MIT OpenCourseWare, para um estudante brasileiro.',
+    temSolucao ? 'Cada item traz a solução oficial: use-a como referência. Item sem solução: resolva você mesmo.'
+      : semGabarito ? 'Não há gabarito oficial: resolva você mesmo antes de corrigir.' : 'Use o gabarito oficial em PDF como referência.',
+    RIGOR[rigor || 'Padrão'] || RIGOR['Padrão'],
+    'Para cada item, dê uma avaliação ("certo", "parcial" ou "errado") e um comentário curto em português dizendo o que faltou ou errou (vazio se estiver certo). Item em branco é "errado".',
+    'Dê também uma nota de 0 a 10 (uma casa decimal) para o conjunto, um comentário geral curto e a lista dos erros conceituais que valem revisar.',
+    'Responda só com JSON: {"nota": number, "comentario": string, "itens": [{"q": string, "avaliacao": "certo"|"parcial"|"errado", "comentario": string}], "erros": [{"questao": string, "descricao": string}]}. Use em "q" exatamente o identificador recebido.',
+  ].join('\n');
+  const texto = itens.map((i) => [`### Item ${i.rotulo} (q = "${i.q}")`, `Enunciado:\n${i.enunciado}`,
+    i.solucao.trim() ? `Solução oficial:\n${i.solucao}` : 'Solução oficial: (não há)', `Resposta do estudante:\n${i.resposta || '(em branco)'}`].join('\n')).join('\n\n');
+  const r = await gerarJson<{ nota: number; comentario: string; itens: unknown; erros: unknown }>(key, instrucao, [...partes, { text: `${step.titulo}\n\n${texto}` }], 0.2);
+  if (!r.ok) return NextResponse.json({ erro: r.erro }, { status: 502 });
+  const out = r.out;
+  return NextResponse.json({ nota: Number(out.nota), comentario: String(out.comentario || ''), itens: Array.isArray(out.itens) ? out.itens : [],
+    erros: Array.isArray(out.erros) ? out.erros : [], semGabarito: !temSolucao && semGabarito });
+}
+
 export async function POST(req: Request) {
   const key = req.headers.get('x-gemini-key');
   if (!key) return NextResponse.json({ erro: 'Configure a chave do Gemini nas configurações.' }, { status: 400 });
-  const { stepId, respostas, rigor } = (await req.json()) as { stepId: string; respostas: Resposta[]; rigor?: string };
+  const corpo = (await req.json()) as { stepId: string; respostas?: Resposta[]; rigor?: string; itens?: ItemCorrecao[] };
+  const { stepId, rigor } = corpo;
+  const respostas = corpo.respostas || [];
   const { data: step } = await db().from('steps').select('*').eq('id', stepId).single<Step>();
   if (!step) return NextResponse.json({ erro: 'etapa não encontrada' }, { status: 404 });
+  if (corpo.itens?.length) return corrigirItens(key, step, corpo.itens, rigor);
   const { partes, semGabarito } = await pdfsDaEtapa(step);
 
   const instrucao = [
