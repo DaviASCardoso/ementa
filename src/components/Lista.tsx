@@ -5,7 +5,7 @@ import { novoId, useStore } from './Store';
 import { Arquivos, Topo } from './comum';
 import { Icon, P } from './icons';
 import { hoje, lerNota, nota, somarDias } from '@/lib/format';
-import type { Mistake, Resposta, Step, Submission } from '@/lib/types';
+import type { Card, Mistake, Resposta, Step, Submission } from '@/lib/types';
 import { lerChave } from '@/lib/chave';
 
 type Correcao = { nota: number; comentario: string; erros: { questao: string; descricao: string }[]; semGabarito?: boolean };
@@ -97,7 +97,9 @@ function Correcao({ s, sub, gravar, nome, libera }: { s: Step; sub: Submission; 
   const [estado, setEstado] = useState<'' | 'corrigindo' | string>('');
   const [errQ, setErrQ] = useState('');
   const [errD, setErrD] = useState('');
-  const [anotados, setAnotados] = useState<string[]>([]);
+  const [ultimo, setUltimo] = useState('');
+  // situação de cada erro registrado nesta tela: gerando a ficha, ficha criada ou o motivo da falha
+  const [anotados, setAnotados] = useState<Record<string, string>>({});
   const temGabarito = s.arquivos.some((a) => a.papel === 'gabarito') || s.gabarito_junto;
   const redo = parseInt(st.cfg.redo) || 7;
   const min = lerNota(st.cfg.minGrade) ?? 7;
@@ -123,10 +125,29 @@ function Correcao({ s, sub, gravar, nome, libera }: { s: Step; sub: Submission; 
       setEstado(e instanceof Error ? e.message : 'falhou');
     }
   };
-  const erro = (questao: string, descricao: string) => {
+  // registra o erro e pede ao Gemini uma ficha sobre o conceito, com a pergunta reescrita
+  const erro = async (questao: string, descricao: string) => {
+    const k = questao + descricao;
     const m: Mistake = { id: novoId(), step_id: s.id, origem: `${s.titulo} · questão ${questao}`, descricao, vence: somarDias(hoje(), redo), resolvido: false, criado_em: new Date().toISOString() };
     st.upsertMistake(m);
+    const key = lerChave();
+    if (!key) { setAnotados((a) => ({ ...a, [k]: 'Erro registrado. Sem a chave do Gemini, a ficha não foi criada.' })); return; }
+    setAnotados((a) => ({ ...a, [k]: 'gerando' }));
+    try {
+      const resposta = sub.respostas.find((r) => r.q.trim() === questao.trim())?.texto;
+      const r = await fetch('/api/ficha-erro', { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-gemini-key': key },
+        body: JSON.stringify({ stepId: s.id, questao, descricao, resposta }) });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.erro || 'falhou');
+      const c: Card = { id: novoId(), step_id: s.id, frente: j.frente, verso: j.verso, criada_em: new Date().toISOString(),
+        vence: hoje(), intervalo: 0, facilidade: 2.5, repeticoes: 0, lapsos: 0, revisada_em: null };
+      st.upsertCard(c);
+      setAnotados((a) => ({ ...a, [k]: 'ficha' }));
+    } catch (e) {
+      setAnotados((a) => ({ ...a, [k]: `Erro registrado, mas a ficha não foi criada: ${e instanceof Error ? e.message : 'falhou'}` }));
+    }
   };
+  const situacao = (k: string) => anotados[k] === 'gerando' ? 'Criando a ficha…' : anotados[k] === 'ficha' ? 'No caderno de erros e nas fichas' : anotados[k];
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 14, paddingTop: 8, borderTop: '1px solid var(--line)' }}>
@@ -155,25 +176,28 @@ function Correcao({ s, sub, gravar, nome, libera }: { s: Step; sub: Submission; 
               <div key={i} className="ficha">
                 <span className="f">Questão {e.questao}</span><span className="v">{e.descricao}</span>
                 <span className="acts">
-                  <button className="btn sm ghost" disabled={anotados.includes(k)} onClick={() => { erro(e.questao, e.descricao); setAnotados((a) => [...a, k]); }}>
-                    {anotados.includes(k) ? 'No caderno de erros' : 'Mandar para o caderno de erros'}
-                  </button>
+                  {anotados[k] ? <span className="caption" role="status">{situacao(k)}</span> : (
+                    <button className="btn sm ghost" onClick={() => void erro(e.questao, e.descricao)}>Mandar para o caderno de erros</button>
+                  )}
                 </span>
               </div>
             );
           })}
         </div>
       ) : null}
-      <form className="newcard" onSubmit={(e) => { e.preventDefault(); if (!errD.trim()) return; erro(errQ || '?', errD.trim()); setErrQ(''); setErrD(''); }}>
+      <form className="newcard" onSubmit={(e) => { e.preventDefault(); if (!errD.trim()) return; setUltimo((errQ || '?') + errD.trim()); void erro(errQ || '?', errD.trim()); setErrQ(''); setErrD(''); }}>
         <span style={{ fontWeight: 600, fontSize: 14 }}>Registrar um erro</span>
-        <span className="caption">Volta para você refazer em {redo} dias.</span>
+        <span className="caption">Volta para você refazer em {redo} dias e vira uma ficha sobre o conceito, reescrita pela IA.</span>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
           <label htmlFor="err-q" className="sr">Questão</label>
           <input id="err-q" className="field" style={{ width: 110 }} placeholder="Questão" value={errQ} onChange={(e) => setErrQ(e.target.value)} />
           <label htmlFor="err-d" className="sr">O que você errou</label>
           <input id="err-d" className="field" style={{ flex: '1 1 200px' }} placeholder="O que você errou e por quê" value={errD} onChange={(e) => setErrD(e.target.value)} />
         </div>
-        <button className="btn forest sm" style={{ alignSelf: 'flex-end' }} disabled={!errD.trim()}>Registrar erro</button>
+        <span style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
+          <span className="caption" role="status">{ultimo && situacao(ultimo)}</span>
+          <button className="btn forest sm" disabled={!errD.trim()}>Registrar erro</button>
+        </span>
       </form>
       <button type="button" className="btn soft sm" style={{ alignSelf: 'flex-start' }} onClick={() => gravar({ ...sub, entregue_em: null, nota: null, correcao: null }, true)}>
         Reabrir {nome}

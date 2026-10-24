@@ -1,12 +1,9 @@
 import { NextResponse } from 'next/server';
 import { db } from '@/lib/db';
+import { API, MODELO, gerarJson, pdfsDaEtapa } from '@/lib/gemini';
 import type { Resposta, Step } from '@/lib/types';
 
-// Correção com o Gemini. A chave vem do aparelho (cabeçalho x-gemini-key) e não é guardada.
-// Mandamos os PDFs do enunciado e do gabarito (quando há) e as suas respostas.
-
-const API = 'https://generativelanguage.googleapis.com/v1beta';
-const MODELO = 'gemini-flash-latest';
+// Correção com o Gemini: mandamos os PDFs do enunciado e do gabarito (quando há) e as suas respostas.
 export const maxDuration = 60;
 
 const RIGOR: Record<string, string> = {
@@ -14,13 +11,6 @@ const RIGOR: Record<string, string> = {
   Padrão: 'Corrija como um monitor do MIT: o resultado precisa estar certo e o raciocínio, claro.',
   Rigoroso: 'Seja rigoroso: cobre todas as etapas do raciocínio e a notação correta.',
 };
-
-async function pdf(url: string) {
-  if (!url.startsWith('https://ocw.mit.edu/')) return null;
-  const r = await fetch(url);
-  if (!r.ok || !(r.headers.get('content-type') || '').includes('pdf')) return null;
-  return { inline_data: { mime_type: 'application/pdf', data: Buffer.from(await r.arrayBuffer()).toString('base64') } };
-}
 
 // GET: testa a chave
 export async function GET(req: Request) {
@@ -36,13 +26,7 @@ export async function POST(req: Request) {
   const { stepId, respostas, rigor } = (await req.json()) as { stepId: string; respostas: Resposta[]; rigor?: string };
   const { data: step } = await db().from('steps').select('*').eq('id', stepId).single<Step>();
   if (!step) return NextResponse.json({ erro: 'etapa não encontrada' }, { status: 404 });
-
-  const enunciados = step.arquivos.filter((a) => a.papel === 'enunciado').slice(0, 2);
-  const gabaritos = step.arquivos.filter((a) => a.papel === 'gabarito').slice(0, 2);
-  const partes: object[] = [];
-  for (const a of enunciados) { const p = await pdf(a.url); if (p) partes.push({ text: `Enunciado (${a.rotulo}):` }, p); }
-  for (const a of gabaritos) { const p = await pdf(a.url); if (p) partes.push({ text: `Gabarito oficial (${a.rotulo}):` }, p); }
-  const semGabarito = !gabaritos.length && !step.gabarito_junto;
+  const { partes, semGabarito } = await pdfsDaEtapa(step);
 
   const instrucao = [
     'Você corrige exercícios de economia e matemática de um curso do MIT OpenCourseWare, para um estudante brasileiro.',
@@ -54,21 +38,8 @@ export async function POST(req: Request) {
   ].join('\n');
 
   const texto = respostas.map((r) => `Questão ${r.q}:\n${r.texto || '(em branco)'}`).join('\n\n');
-  const body = {
-    system_instruction: { parts: [{ text: instrucao }] },
-    contents: [{ role: 'user', parts: [...partes, { text: `Respostas do estudante para ${step.titulo}:\n\n${texto}` }] }],
-    generationConfig: { responseMimeType: 'application/json', temperature: 0.2 },
-  };
-  const r = await fetch(`${API}/models/${MODELO}:generateContent`, {
-    method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key }, body: JSON.stringify(body),
-  });
-  if (!r.ok) return NextResponse.json({ erro: `O Gemini respondeu ${r.status}: ${(await r.text()).slice(0, 300)}` }, { status: 502 });
-  const j = await r.json();
-  const raw = j?.candidates?.[0]?.content?.parts?.map((p: { text?: string }) => p.text || '').join('') || '';
-  try {
-    const out = JSON.parse(raw.replace(/^```(json)?|```$/g, '').trim());
-    return NextResponse.json({ nota: Number(out.nota), comentario: String(out.comentario || ''), erros: Array.isArray(out.erros) ? out.erros : [], semGabarito });
-  } catch {
-    return NextResponse.json({ erro: 'Não entendi a resposta do Gemini.', bruto: raw.slice(0, 500) }, { status: 502 });
-  }
+  const r = await gerarJson<{ nota: number; comentario: string; erros: unknown }>(key, instrucao, [...partes, { text: `Respostas do estudante para ${step.titulo}:\n\n${texto}` }], 0.2);
+  if (!r.ok) return NextResponse.json({ erro: r.erro }, { status: 502 });
+  const out = r.out;
+  return NextResponse.json({ nota: Number(out.nota), comentario: String(out.comentario || ''), erros: Array.isArray(out.erros) ? out.erros : [], semGabarito });
 }

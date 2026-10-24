@@ -20,7 +20,7 @@ export default function Erros() {
     <div className="page" style={{ maxWidth: 860, gap: 18 }}>
       <header className="page-h">
         <h1>Caderno de erros</h1>
-        <p>O que você errou em listas e provas volta para refazer em {redo} dias, e sai daqui quando você acerta sem consultar.</p>
+        <p>O que você errou em listas e provas volta para refazer em {redo} dias, e sai daqui quando você acerta sem consultar. Cada erro também vira uma ficha na revisão.</p>
       </header>
       {pendentes.length === 0 && <div className="card empty">Nada para refazer. Erros que você registrar ao corrigir listas e provas aparecem aqui.</div>}
       {pendentes.map((m) => {
